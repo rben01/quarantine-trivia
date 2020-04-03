@@ -9,8 +9,8 @@ from IPython.display import display  # noqa F401
 
 np.random.seed(12763)
 
-N_ROUNDS = 10
-N_QUESTIONS_PER_ROUND = 10
+N_ROUNDS = 2
+N_QUESTIONS_PER_ROUND = 2
 N_QUESTIONS_TOTAL = N_ROUNDS * N_QUESTIONS_PER_ROUND
 
 
@@ -92,16 +92,22 @@ def get_rounds() -> Mapping[str, List[TriviaItem]]:
     return rounds
 
 
+# Best themes: Montepellier, EastLansing, Antibes, Bergen# CambridgeUS
+# Best color themes: rose, orchid, lily, dolphin, seahorse
 def make_latex() -> str:
     rounds = get_rounds()
     latex_items = [
         r"""\documentclass[11pt]{beamer}
 \usepackage{mathtools, enumerate, graphicx, cancel}
 
-\usetheme{Pittsburgh}
-\usecolortheme{default}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
 \setbeamercovered{invisible}
-\beamertemplatenavigationsymbolsempty{}
+\setbeamertemplate{navigation symbols}{\insertslidenavigationsymbol}
+\setbeamertemplate{page number in head/foot}{}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+\AtBeginSection[]{}
 
 \AtBeginSubsection[]{
   \begin{frame}
@@ -131,7 +137,8 @@ def make_latex() -> str:
     """
 
     question_template_str = r"""
-\begin{{frame}}{{{question_title}}}
+\begin{{frame}}[t]{{{question_title}}}
+\vspace{{2em}}
 \begin{{block}}{{Question}}
 {question}
 \end{{block}}
@@ -139,7 +146,8 @@ def make_latex() -> str:
     """
 
     answer_template_str = r"""
-\begin{{frame}}{{{question_title}}}
+\begin{{frame}}[t]{{{question_title}}}
+\vspace{{2em}}
 \begin{{block}}{{Question}}
 {question}
 \end{{block}}
