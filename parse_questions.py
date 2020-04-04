@@ -9,8 +9,10 @@ from IPython.display import display  # noqa F401
 
 np.random.seed(12763)
 
-N_ROUNDS = 2
-N_QUESTIONS_PER_ROUND = 2
+TEST = False
+
+N_ROUNDS = 2 if TEST else 10
+N_QUESTIONS_PER_ROUND = 2 if TEST else 10
 N_QUESTIONS_TOTAL = N_ROUNDS * N_QUESTIONS_PER_ROUND
 
 
@@ -92,7 +94,7 @@ def get_rounds() -> Mapping[str, List[TriviaItem]]:
     return rounds
 
 
-# Best themes: Montepellier, EastLansing, Antibes, Bergen# CambridgeUS
+# Best themes: Montepellier, EastLansing, Antibes, Bergen# CambridgeUS, Hannover
 # Best color themes: rose, orchid, lily, dolphin, seahorse
 def make_latex() -> str:
     rounds = get_rounds()
@@ -100,14 +102,27 @@ def make_latex() -> str:
         r"""\documentclass[11pt]{beamer}
 \usepackage{mathtools, enumerate, graphicx, cancel}
 
-\usetheme{CambridgeUS}
+\usetheme[hideothersubsections]{Hannover}
 \usecolortheme{dolphin}
 \setbeamercovered{invisible}
 \setbeamertemplate{navigation symbols}{\insertslidenavigationsymbol}
 \setbeamertemplate{page number in head/foot}{}
 \setbeamertemplate{blocks}[rounded][shadow=false]
+% \setbeamerfont{section in sidebar}{size=\fontsize{4}{3}\selectfont}
+% \setbeamerfont{subsection in sidebar}{size=\fontsize{4}{3}\selectfont}
+% \setbeamerfont{subsubsection in sidebar}{size=\fontsize{4}{2}\selectfont}
 
 \AtBeginSection[]{}
+\AtBeginSection[]{
+  \begin{frame}
+    \vfill
+    \centering
+    \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+    \end{beamercolorbox}
+    \vfill
+  \end{frame}
+}
 
 \AtBeginSubsection[]{
   \begin{frame}
@@ -120,7 +135,6 @@ def make_latex() -> str:
     \vfill
   \end{frame}
 }
-
 \begin{document}
 
 \title{Welcome to Quarantine Trivia!}
@@ -137,6 +151,7 @@ def make_latex() -> str:
     """
 
     question_template_str = r"""
+\subsection*{{Q{question_number}}}
 \begin{{frame}}[t]{{{question_title}}}
 \vspace{{2em}}
 \begin{{block}}{{Question}}
@@ -162,11 +177,13 @@ def make_latex() -> str:
         round_frame_str = round_section_template_str.format(round_name=round_name)
         latex_items.append(round_frame_str)
 
-        latex_items.append(r"\subsection{Questions}")
+        # latex_items.append(r"\subsection{Questions}")
         for i, trivia_item in enumerate(trivia_items):
             question = trivia_item.question
             question_frame_str = question_template_str.format(
-                question_title=f"{round_name}, Question {i+1}", question=question,
+                question_number=i + 1,
+                question_title=f"{round_name}, Question {i+1}",
+                question=question,
             )
 
             latex_items.append(question_frame_str)
@@ -184,11 +201,24 @@ def make_latex() -> str:
             latex_items.append(answer_frame_str)
     latex_items.append(
         r"""
+\section*{\ }
+\subsection*{\ }
 \begingroup{}
 \setbeamertemplate{headline}{}
-\section{Thanks for playing!}
-\subsection{\ }
+\begin{frame}
+\vfill{}
+\centering{}
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}Thanks for playing!\par%
+\end{beamercolorbox}
+\vfill{}
+\end{frame}
 \endgroup{}
+% \begingroup{}
+% \setbeamertemplate{headline}{}
+% \section*{Thanks for playing!}
+% \subsection*{\ }
+% \endgroup{}
 
 \end{document}
 """
