@@ -14,7 +14,7 @@
     - Thailand
 8. What was the first toy to be advertised on television?
     - Mr.\ Potato Head
-9. How many planets in our solar system have no moons (Pluto is not a planet)?
-    - Two: Mercury and Venus
+9. How many planets in our solar system have exactly one moon?
+    - One (Earth)
 10. Which country has the most fresh water?
     - Brazil

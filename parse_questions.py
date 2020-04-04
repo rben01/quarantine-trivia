@@ -7,7 +7,7 @@ from typing import List, Mapping
 import numpy as np
 from IPython.display import display  # noqa F401
 
-np.random.seed(12763)
+np.random.seed(126)
 
 TEST = False
 
@@ -80,6 +80,7 @@ def get_rounds() -> Mapping[str, List[TriviaItem]]:
     selected_questions = np.random.choice(
         trivia_items["questions"], size=N_QUESTIONS_TOTAL, replace=False
     )
+    np.random.shuffle(selected_questions)
 
     for i in range(N_ROUNDS):
         round_name = f"Round {i+1}"
@@ -143,6 +144,17 @@ def make_latex() -> str:
 \begin{frame}
 \titlepage{}
 \end{frame}
+
+\begingroup{}
+\begin{frame}
+\vfill{}
+\centering{}
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}To ensure fairness, the answers have been kept in a mayonnaise jar on Funk \& Wagnalls’ porch since noon today.
+\end{beamercolorbox}
+\vfill{}
+\end{frame}
+\endgroup{}
     """
     ]
 
@@ -244,6 +256,5 @@ if __name__ == "__main__":
     #   json.dump({k: [x.to_dict() for x in v] for k, v in rounds.items()}, f, indent=2)
 
     make_latex()
-
 
 # %%
