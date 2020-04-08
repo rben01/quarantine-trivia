@@ -9,3 +9,5 @@ __pycache__/*
 *.snm
 *.synctex.gz
 *.toc
+*.m4a
+*.webm
