@@ -1,0 +1,2927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="AsciiDoc 8.6.9">
+<title>Music trivia</title>
+<style type="text/css">
+/* Shared CSS for AsciiDoc xhtml11 and html5 backends */
+
+/* Default font. */
+body {
+  font-family: Georgia,serif;
+}
+
+/* Title font. */
+h1, h2, h3, h4, h5, h6,
+div.title, caption.title,
+thead, p.table.header,
+#toctitle,
+#author, #revnumber, #revdate, #revremark,
+#footer {
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+body {
+  margin: 1em 5% 1em 5%;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+a:visited {
+  color: fuchsia;
+}
+
+em {
+  font-style: italic;
+  color: navy;
+}
+
+strong {
+  font-weight: bold;
+  color: #083194;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #527bbd;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+h1, h2, h3 {
+  border-bottom: 2px solid silver;
+}
+h2 {
+  padding-top: 0.5em;
+}
+h3 {
+  float: left;
+}
+h3 + * {
+  clear: left;
+}
+h5 {
+  font-size: 1.0em;
+}
+
+div.sectionbody {
+  margin-left: 0;
+}
+
+hr {
+  border: 1px solid silver;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+ul, ol, li > p {
+  margin-top: 0;
+}
+ul > li     { color: #aaa; }
+ul > li > * { color: black; }
+
+.monospaced, code, pre {
+  font-family: "Courier New", Courier, monospace;
+  font-size: inherit;
+  color: navy;
+  padding: 0;
+  margin: 0;
+}
+pre {
+  white-space: pre-wrap;
+}
+
+#author {
+  color: #527bbd;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+#email {
+}
+#revnumber, #revdate, #revremark {
+}
+
+#footer {
+  font-size: small;
+  border-top: 2px solid silver;
+  padding-top: 0.5em;
+  margin-top: 4.0em;
+}
+#footer-text {
+  float: left;
+  padding-bottom: 0.5em;
+}
+#footer-badges {
+  float: right;
+  padding-bottom: 0.5em;
+}
+
+#preamble {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+div.imageblock, div.exampleblock, div.verseblock,
+div.quoteblock, div.literalblock, div.listingblock, div.sidebarblock,
+div.admonitionblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+div.admonitionblock {
+  margin-top: 2.0em;
+  margin-bottom: 2.0em;
+  margin-right: 10%;
+  color: #606060;
+}
+
+div.content { /* Block element content. */
+  padding: 0;
+}
+
+/* Block element titles. */
+div.title, caption.title {
+  color: #527bbd;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1.0em;
+  margin-bottom: 0.5em;
+}
+div.title + * {
+  margin-top: 0;
+}
+
+td div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content + div.title {
+  margin-top: 0.0em;
+}
+
+div.sidebarblock > div.content {
+  background: #ffffee;
+  border: 1px solid #dddddd;
+  border-left: 4px solid #f0f0f0;
+  padding: 0.5em;
+}
+
+div.listingblock > div.content {
+  border: 1px solid #dddddd;
+  border-left: 5px solid #f0f0f0;
+  background: #f8f8f8;
+  padding: 0.5em;
+}
+
+div.quoteblock, div.verseblock {
+  padding-left: 1.0em;
+  margin-left: 1.0em;
+  margin-right: 10%;
+  border-left: 5px solid #f0f0f0;
+  color: #888;
+}
+
+div.quoteblock > div.attribution {
+  padding-top: 0.5em;
+  text-align: right;
+}
+
+div.verseblock > pre.content {
+  font-family: inherit;
+  font-size: inherit;
+}
+div.verseblock > div.attribution {
+  padding-top: 0.75em;
+  text-align: left;
+}
+/* DEPRECATED: Pre version 8.2.7 verse style literal block. */
+div.verseblock + div.attribution {
+  text-align: left;
+}
+
+div.admonitionblock .icon {
+  vertical-align: top;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #527bbd;
+  padding-right: 0.5em;
+}
+div.admonitionblock td.content {
+  padding-left: 0.5em;
+  border-left: 3px solid #dddddd;
+}
+
+div.exampleblock > div.content {
+  border-left: 3px solid #dddddd;
+  padding-left: 0.5em;
+}
+
+div.imageblock div.content { padding-left: 0; }
+span.image img { border-style: none; vertical-align: text-bottom; }
+a.image:visited { color: white; }
+
+dl {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+dt {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-style: normal;
+  color: navy;
+}
+dd > *:first-child {
+  margin-top: 0.1em;
+}
+
+ul, ol {
+    list-style-position: outside;
+}
+ol.arabic {
+  list-style-type: decimal;
+}
+ol.loweralpha {
+  list-style-type: lower-alpha;
+}
+ol.upperalpha {
+  list-style-type: upper-alpha;
+}
+ol.lowerroman {
+  list-style-type: lower-roman;
+}
+ol.upperroman {
+  list-style-type: upper-roman;
+}
+
+div.compact ul, div.compact ol,
+div.compact p, div.compact p,
+div.compact div, div.compact div {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+tfoot {
+  font-weight: bold;
+}
+td > div.verse {
+  white-space: pre;
+}
+
+div.hdlist {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+div.hdlist tr {
+  padding-bottom: 15px;
+}
+dt.hdlist1.strong, td.hdlist1.strong {
+  font-weight: bold;
+}
+td.hdlist1 {
+  vertical-align: top;
+  font-style: normal;
+  padding-right: 0.8em;
+  color: navy;
+}
+td.hdlist2 {
+  vertical-align: top;
+}
+div.hdlist.compact tr {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.comment {
+  background: yellow;
+}
+
+.footnote, .footnoteref {
+  font-size: 0.8em;
+}
+
+span.footnote, span.footnoteref {
+  vertical-align: super;
+}
+
+#footnotes {
+  margin: 20px 0 20px 0;
+  padding: 7px 0 0 0;
+}
+
+#footnotes div.footnote {
+  margin: 0 0 5px 0;
+}
+
+#footnotes hr {
+  border: none;
+  border-top: 1px solid silver;
+  height: 1px;
+  text-align: left;
+  margin-left: 0;
+  width: 20%;
+  min-width: 100px;
+}
+
+div.colist td {
+  padding-right: 0.5em;
+  padding-bottom: 0.3em;
+  vertical-align: top;
+}
+div.colist td img {
+  margin-top: 0.3em;
+}
+
+@media print {
+  #footer-badges { display: none; }
+}
+
+#toc {
+  margin-bottom: 2.5em;
+}
+
+#toctitle {
+  color: #527bbd;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 1.0em;
+  margin-bottom: 0.1em;
+}
+
+div.toclevel0, div.toclevel1, div.toclevel2, div.toclevel3, div.toclevel4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div.toclevel2 {
+  margin-left: 2em;
+  font-size: 0.9em;
+}
+div.toclevel3 {
+  margin-left: 4em;
+  font-size: 0.9em;
+}
+div.toclevel4 {
+  margin-left: 6em;
+  font-size: 0.9em;
+}
+
+span.aqua { color: aqua; }
+span.black { color: black; }
+span.blue { color: blue; }
+span.fuchsia { color: fuchsia; }
+span.gray { color: gray; }
+span.green { color: green; }
+span.lime { color: lime; }
+span.maroon { color: maroon; }
+span.navy { color: navy; }
+span.olive { color: olive; }
+span.purple { color: purple; }
+span.red { color: red; }
+span.silver { color: silver; }
+span.teal { color: teal; }
+span.white { color: white; }
+span.yellow { color: yellow; }
+
+span.aqua-background { background: aqua; }
+span.black-background { background: black; }
+span.blue-background { background: blue; }
+span.fuchsia-background { background: fuchsia; }
+span.gray-background { background: gray; }
+span.green-background { background: green; }
+span.lime-background { background: lime; }
+span.maroon-background { background: maroon; }
+span.navy-background { background: navy; }
+span.olive-background { background: olive; }
+span.purple-background { background: purple; }
+span.red-background { background: red; }
+span.silver-background { background: silver; }
+span.teal-background { background: teal; }
+span.white-background { background: white; }
+span.yellow-background { background: yellow; }
+
+span.big { font-size: 2em; }
+span.small { font-size: 0.6em; }
+
+span.underline { text-decoration: underline; }
+span.overline { text-decoration: overline; }
+span.line-through { text-decoration: line-through; }
+
+div.unbreakable { page-break-inside: avoid; }
+
+
+/*
+ * xhtml11 specific
+ *
+ * */
+
+div.tableblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+div.tableblock > table {
+  border: 3px solid #527bbd;
+}
+thead, p.table.header {
+  font-weight: bold;
+  color: #527bbd;
+}
+p.table {
+  margin-top: 0;
+}
+/* Because the table frame attribute is overriden by CSS in most browsers. */
+div.tableblock > table[frame="void"] {
+  border-style: none;
+}
+div.tableblock > table[frame="hsides"] {
+  border-left-style: none;
+  border-right-style: none;
+}
+div.tableblock > table[frame="vsides"] {
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+
+/*
+ * html5 specific
+ *
+ * */
+
+table.tableblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+thead, p.tableblock.header {
+  font-weight: bold;
+  color: #527bbd;
+}
+p.tableblock {
+  margin-top: 0;
+}
+table.tableblock {
+  border-width: 3px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-color: #527bbd;
+  border-collapse: collapse;
+}
+th.tableblock, td.tableblock {
+  border-width: 1px;
+  padding: 4px;
+  border-style: solid;
+  border-color: #527bbd;
+}
+
+table.tableblock.frame-topbot {
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+table.tableblock.frame-sides {
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+}
+table.tableblock.frame-none {
+  border-style: hidden;
+}
+
+th.tableblock.halign-left, td.tableblock.halign-left {
+  text-align: left;
+}
+th.tableblock.halign-center, td.tableblock.halign-center {
+  text-align: center;
+}
+th.tableblock.halign-right, td.tableblock.halign-right {
+  text-align: right;
+}
+
+th.tableblock.valign-top, td.tableblock.valign-top {
+  vertical-align: top;
+}
+th.tableblock.valign-middle, td.tableblock.valign-middle {
+  vertical-align: middle;
+}
+th.tableblock.valign-bottom, td.tableblock.valign-bottom {
+  vertical-align: bottom;
+}
+
+
+/*
+ * manpage specific
+ *
+ * */
+
+body.manpage h1 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+}
+body.manpage h2 {
+  border-style: none;
+}
+body.manpage div.sectionbody {
+  margin-left: 3em;
+}
+
+@media print {
+  body.manpage div#toc { display: none; }
+}
+
+
+@media screen {
+  body {
+    max-width: 50em; /* approximately 80 characters wide */
+    margin-left: 16em;
+  }
+
+  #toc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 13em;
+    padding: 0.5em;
+    padding-bottom: 1.5em;
+    margin: 0;
+    overflow: auto;
+    border-right: 3px solid #f8f8f8;
+    background-color: white;
+  }
+
+  #toc .toclevel1 {
+    margin-top: 0.5em;
+  }
+
+  #toc .toclevel2 {
+    margin-top: 0.25em;
+    display: list-item;
+    color: #aaaaaa;
+  }
+
+  #toctitle {
+    margin-top: 0.5em;
+  }
+}
+</style>
+<script type="text/javascript">
+/*<![CDATA[*/
+var asciidoc = {  // Namespace.
+
+/////////////////////////////////////////////////////////////////////
+// Table Of Contents generator
+/////////////////////////////////////////////////////////////////////
+
+/* Author: Mihai Bazon, September 2002
+ * http://students.infoiasi.ro/~mishoo
+ *
+ * Table Of Content generator
+ * Version: 0.4
+ *
+ * Feel free to use this script under the terms of the GNU General Public
+ * License, as long as you do not remove or alter this notice.
+ */
+
+ /* modified by Troy D. Hanson, September 2006. License: GPL */
+ /* modified by Stuart Rackham, 2006, 2009. License: GPL */
+
+// toclevels = 1..4.
+toc: function (toclevels) {
+
+  function getText(el) {
+    var text = "";
+    for (var i = el.firstChild; i != null; i = i.nextSibling) {
+      if (i.nodeType == 3 /* Node.TEXT_NODE */) // IE doesn't speak constants.
+        text += i.data;
+      else if (i.firstChild != null)
+        text += getText(i);
+    }
+    return text;
+  }
+
+  function TocEntry(el, text, toclevel) {
+    this.element = el;
+    this.text = text;
+    this.toclevel = toclevel;
+  }
+
+  function tocEntries(el, toclevels) {
+    var result = new Array;
+    var re = new RegExp('[hH]([1-'+(toclevels+1)+'])');
+    // Function that scans the DOM tree for header elements (the DOM2
+    // nodeIterator API would be a better technique but not supported by all
+    // browsers).
+    var iterate = function (el) {
+      for (var i = el.firstChild; i != null; i = i.nextSibling) {
+        if (i.nodeType == 1 /* Node.ELEMENT_NODE */) {
+          var mo = re.exec(i.tagName);
+          if (mo && (i.getAttribute("class") || i.getAttribute("className")) != "float") {
+            result[result.length] = new TocEntry(i, getText(i), mo[1]-1);
+          }
+          iterate(i);
+        }
+      }
+    }
+    iterate(el);
+    return result;
+  }
+
+  var toc = document.getElementById("toc");
+  if (!toc) {
+    return;
+  }
+
+  // Delete existing TOC entries in case we're reloading the TOC.
+  var tocEntriesToRemove = [];
+  var i;
+  for (i = 0; i < toc.childNodes.length; i++) {
+    var entry = toc.childNodes[i];
+    if (entry.nodeName.toLowerCase() == 'div'
+     && entry.getAttribute("class")
+     && entry.getAttribute("class").match(/^toclevel/))
+      tocEntriesToRemove.push(entry);
+  }
+  for (i = 0; i < tocEntriesToRemove.length; i++) {
+    toc.removeChild(tocEntriesToRemove[i]);
+  }
+
+  // Rebuild TOC entries.
+  var entries = tocEntries(document.getElementById("content"), toclevels);
+  for (var i = 0; i < entries.length; ++i) {
+    var entry = entries[i];
+    if (entry.element.id == "")
+      entry.element.id = "_toc_" + i;
+    var a = document.createElement("a");
+    a.href = "#" + entry.element.id;
+    a.appendChild(document.createTextNode(entry.text));
+    var div = document.createElement("div");
+    div.appendChild(a);
+    div.className = "toclevel" + entry.toclevel;
+    toc.appendChild(div);
+  }
+  if (entries.length == 0)
+    toc.parentNode.removeChild(toc);
+},
+
+
+/////////////////////////////////////////////////////////////////////
+// Footnotes generator
+/////////////////////////////////////////////////////////////////////
+
+/* Based on footnote generation code from:
+ * http://www.brandspankingnew.net/archive/2005/07/format_footnote.html
+ */
+
+footnotes: function () {
+  // Delete existing footnote entries in case we're reloading the footnodes.
+  var i;
+  var noteholder = document.getElementById("footnotes");
+  if (!noteholder) {
+    return;
+  }
+  var entriesToRemove = [];
+  for (i = 0; i < noteholder.childNodes.length; i++) {
+    var entry = noteholder.childNodes[i];
+    if (entry.nodeName.toLowerCase() == 'div' && entry.getAttribute("class") == "footnote")
+      entriesToRemove.push(entry);
+  }
+  for (i = 0; i < entriesToRemove.length; i++) {
+    noteholder.removeChild(entriesToRemove[i]);
+  }
+
+  // Rebuild footnote entries.
+  var cont = document.getElementById("content");
+  var spans = cont.getElementsByTagName("span");
+  var refs = {};
+  var n = 0;
+  for (i=0; i<spans.length; i++) {
+    if (spans[i].className == "footnote") {
+      n++;
+      var note = spans[i].getAttribute("data-note");
+      if (!note) {
+        // Use [\s\S] in place of . so multi-line matches work.
+        // Because JavaScript has no s (dotall) regex flag.
+        note = spans[i].innerHTML.match(/\s*\[([\s\S]*)]\s*/)[1];
+        spans[i].innerHTML =
+          "[<a id='_footnoteref_" + n + "' href='#_footnote_" + n +
+          "' title='View footnote' class='footnote'>" + n + "</a>]";
+        spans[i].setAttribute("data-note", note);
+      }
+      noteholder.innerHTML +=
+        "<div class='footnote' id='_footnote_" + n + "'>" +
+        "<a href='#_footnoteref_" + n + "' title='Return to text'>" +
+        n + "</a>. " + note + "</div>";
+      var id =spans[i].getAttribute("id");
+      if (id != null) refs["#"+id] = n;
+    }
+  }
+  if (n == 0)
+    noteholder.parentNode.removeChild(noteholder);
+  else {
+    // Process footnoterefs.
+    for (i=0; i<spans.length; i++) {
+      if (spans[i].className == "footnoteref") {
+        var href = spans[i].getElementsByTagName("a")[0].getAttribute("href");
+        href = href.match(/#.*/)[0];  // Because IE return full URL.
+        n = refs[href];
+        spans[i].innerHTML =
+          "[<a href='#_footnote_" + n +
+          "' title='View footnote' class='footnote'>" + n + "</a>]";
+      }
+    }
+  }
+},
+
+install: function(toclevels) {
+  var timerId;
+
+  function reinstall() {
+    asciidoc.footnotes();
+    if (toclevels) {
+      asciidoc.toc(toclevels);
+    }
+  }
+
+  function reinstallAndRemoveTimer() {
+    clearInterval(timerId);
+    reinstall();
+  }
+
+  timerId = setInterval(reinstall, 500);
+  if (document.addEventListener)
+    document.addEventListener("DOMContentLoaded", reinstallAndRemoveTimer, false);
+  else
+    window.onload = reinstallAndRemoveTimer;
+}
+
+}
+asciidoc.install(5);
+/*]]>*/
+</script>
+</head>
+<body class="article">
+<div id="header">
+<h1>Music trivia</h1>
+<div id="toc">
+  <div id="toctitle">Welcome to Quarantine Music Trivia!</div>
+  <noscript><p><b>JavaScript must be enabled in your browser to display the table of contents.</b></p></noscript>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<style>
+html, body { height: 100%; }
+.fullheight { overflow-y:auto; height:100vh; }​
+a { color:blue; }
+a:visited { color:blue; }
+a:active { color:blue; }
+a[tabindex]:focus { color:blue; outline:none; }
+</style>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_welcome">Welcome</h2>
+<div class="sectionbody">
+</div>
+</div>
+<div class="sect1">
+<h2 id="s1">Section trivia_general</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_questions_1_10">Questions 1-10</h3>
+<div class="sect3">
+<h4 id="s1q1">Question 1</h4>
+<div class="sect4">
+<h5 id="_question">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer">Answer</h5>
+<button onclick="toggle_hidden_1_1()">Toggle answer</button>
+<div class="paragraph" id="answer_1_1"><p>Stronger</p></div>
+<script>
+var z = document.getElementById("answer_1_1");
+z.style.display = "none"
+function toggle_hidden_1_1() {
+  var x = document.getElementById("answer_1_1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q2">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q2">Question 2</h4>
+<div class="sect4">
+<h5 id="_question_2">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_2">Answer</h5>
+<button onclick="toggle_hidden_1_2()">Toggle answer</button>
+<div class="paragraph" id="answer_1_2"><p>Old Town Road (feat. Billy Ray Cyrus) - Remix</p></div>
+<script>
+var z = document.getElementById("answer_1_2");
+z.style.display = "none"
+function toggle_hidden_1_2() {
+  var x = document.getElementById("answer_1_2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q1">prev q</a> <a href="#s1q3">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q3">Question 3</h4>
+<div class="sect4">
+<h5 id="_question_3">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_3">Answer</h5>
+<button onclick="toggle_hidden_1_3()">Toggle answer</button>
+<div class="paragraph" id="answer_1_3"><p>Get Lucky (feat. Pharrell Williams &amp; Nile Rodgers) - Radio Edit</p></div>
+<script>
+var z = document.getElementById("answer_1_3");
+z.style.display = "none"
+function toggle_hidden_1_3() {
+  var x = document.getElementById("answer_1_3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q2">prev q</a> <a href="#s1q4">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q4">Question 4</h4>
+<div class="sect4">
+<h5 id="_question_4">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_4">Answer</h5>
+<button onclick="toggle_hidden_1_4()">Toggle answer</button>
+<div class="paragraph" id="answer_1_4"><p>Ridin' Solo</p></div>
+<script>
+var z = document.getElementById("answer_1_4");
+z.style.display = "none"
+function toggle_hidden_1_4() {
+  var x = document.getElementById("answer_1_4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q3">prev q</a> <a href="#s1q5">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q5">Question 5</h4>
+<div class="sect4">
+<h5 id="_question_5">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_5">Answer</h5>
+<button onclick="toggle_hidden_1_5()">Toggle answer</button>
+<div class="paragraph" id="answer_1_5"><p>Hey Brother</p></div>
+<script>
+var z = document.getElementById("answer_1_5");
+z.style.display = "none"
+function toggle_hidden_1_5() {
+  var x = document.getElementById("answer_1_5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q4">prev q</a> <a href="#s1q6">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q6">Question 6</h4>
+<div class="sect4">
+<h5 id="_question_6">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_6">Answer</h5>
+<button onclick="toggle_hidden_1_6()">Toggle answer</button>
+<div class="paragraph" id="answer_1_6"><p>Fast Car</p></div>
+<script>
+var z = document.getElementById("answer_1_6");
+z.style.display = "none"
+function toggle_hidden_1_6() {
+  var x = document.getElementById("answer_1_6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q5">prev q</a> <a href="#s1q7">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q7">Question 7</h4>
+<div class="sect4">
+<h5 id="_question_7">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_7">Answer</h5>
+<button onclick="toggle_hidden_1_7()">Toggle answer</button>
+<div class="paragraph" id="answer_1_7"><p>Smells Like Teen Spirit</p></div>
+<script>
+var z = document.getElementById("answer_1_7");
+z.style.display = "none"
+function toggle_hidden_1_7() {
+  var x = document.getElementById("answer_1_7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q6">prev q</a> <a href="#s1q8">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q8">Question 8</h4>
+<div class="sect4">
+<h5 id="_question_8">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_8">Answer</h5>
+<button onclick="toggle_hidden_1_8()">Toggle answer</button>
+<div class="paragraph" id="answer_1_8"><p>Before He Cheats</p></div>
+<script>
+var z = document.getElementById("answer_1_8");
+z.style.display = "none"
+function toggle_hidden_1_8() {
+  var x = document.getElementById("answer_1_8");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q7">prev q</a> <a href="#s1q9">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q9">Question 9</h4>
+<div class="sect4">
+<h5 id="_question_9">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_9">Answer</h5>
+<button onclick="toggle_hidden_1_9()">Toggle answer</button>
+<div class="paragraph" id="answer_1_9"><p>Call Me Maybe</p></div>
+<script>
+var z = document.getElementById("answer_1_9");
+z.style.display = "none"
+function toggle_hidden_1_9() {
+  var x = document.getElementById("answer_1_9");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q8">prev q</a> <a href="#s1q10">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q10">Question 10</h4>
+<div class="sect4">
+<h5 id="_question_10">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_10">Answer</h5>
+<button onclick="toggle_hidden_1_10()">Toggle answer</button>
+<div class="paragraph" id="answer_1_10"><p>Girls Just Want to Have Fun</p></div>
+<script>
+var z = document.getElementById("answer_1_10");
+z.style.display = "none"
+function toggle_hidden_1_10() {
+  var x = document.getElementById("answer_1_10");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q9">prev q</a> <a href="#s1q11">next q</a></p></div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_questions_11_20">Questions 11-20</h3>
+<div class="sect3">
+<h4 id="s1q11">Question 11</h4>
+<div class="sect4">
+<h5 id="_question_11">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_11">Answer</h5>
+<button onclick="toggle_hidden_1_11()">Toggle answer</button>
+<div class="paragraph" id="answer_1_11"><p>Africa</p></div>
+<script>
+var z = document.getElementById("answer_1_11");
+z.style.display = "none"
+function toggle_hidden_1_11() {
+  var x = document.getElementById("answer_1_11");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q10">prev q</a> <a href="#s1q12">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q12">Question 12</h4>
+<div class="sect4">
+<h5 id="_question_12">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_12">Answer</h5>
+<button onclick="toggle_hidden_1_12()">Toggle answer</button>
+<div class="paragraph" id="answer_1_12"><p>Walk Like an Egyptian</p></div>
+<script>
+var z = document.getElementById("answer_1_12");
+z.style.display = "none"
+function toggle_hidden_1_12() {
+  var x = document.getElementById("answer_1_12");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q11">prev q</a> <a href="#s1q13">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q13">Question 13</h4>
+<div class="sect4">
+<h5 id="_question_13">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_13">Answer</h5>
+<button onclick="toggle_hidden_1_13()">Toggle answer</button>
+<div class="paragraph" id="answer_1_13"><p>Every Breath You Take</p></div>
+<script>
+var z = document.getElementById("answer_1_13");
+z.style.display = "none"
+function toggle_hidden_1_13() {
+  var x = document.getElementById("answer_1_13");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q12">prev q</a> <a href="#s1q14">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q14">Question 14</h4>
+<div class="sect4">
+<h5 id="_question_14">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_14">Answer</h5>
+<button onclick="toggle_hidden_1_14()">Toggle answer</button>
+<div class="paragraph" id="answer_1_14"><p>Born to Run</p></div>
+<script>
+var z = document.getElementById("answer_1_14");
+z.style.display = "none"
+function toggle_hidden_1_14() {
+  var x = document.getElementById("answer_1_14");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q13">prev q</a> <a href="#s1q15">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q15">Question 15</h4>
+<div class="sect4">
+<h5 id="_question_15">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_15">Answer</h5>
+<button onclick="toggle_hidden_1_15()">Toggle answer</button>
+<div class="paragraph" id="answer_1_15"><p>Karma Chameleon</p></div>
+<script>
+var z = document.getElementById("answer_1_15");
+z.style.display = "none"
+function toggle_hidden_1_15() {
+  var x = document.getElementById("answer_1_15");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q14">prev q</a> <a href="#s1q16">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q16">Question 16</h4>
+<div class="sect4">
+<h5 id="_question_16">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_16">Answer</h5>
+<button onclick="toggle_hidden_1_16()">Toggle answer</button>
+<div class="paragraph" id="answer_1_16"><p>Jolene</p></div>
+<script>
+var z = document.getElementById("answer_1_16");
+z.style.display = "none"
+function toggle_hidden_1_16() {
+  var x = document.getElementById("answer_1_16");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q15">prev q</a> <a href="#s1q17">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q17">Question 17</h4>
+<div class="sect4">
+<h5 id="_question_17">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_17">Answer</h5>
+<button onclick="toggle_hidden_1_17()">Toggle answer</button>
+<div class="paragraph" id="answer_1_17"><p>Crazy</p></div>
+<script>
+var z = document.getElementById("answer_1_17");
+z.style.display = "none"
+function toggle_hidden_1_17() {
+  var x = document.getElementById("answer_1_17");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q16">prev q</a> <a href="#s1q18">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q18">Question 18</h4>
+<div class="sect4">
+<h5 id="_question_18">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_18">Answer</h5>
+<button onclick="toggle_hidden_1_18()">Toggle answer</button>
+<div class="paragraph" id="answer_1_18"><p>September</p></div>
+<script>
+var z = document.getElementById("answer_1_18");
+z.style.display = "none"
+function toggle_hidden_1_18() {
+  var x = document.getElementById("answer_1_18");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q17">prev q</a> <a href="#s1q19">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q19">Question 19</h4>
+<div class="sect4">
+<h5 id="_question_19">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_19">Answer</h5>
+<button onclick="toggle_hidden_1_19()">Toggle answer</button>
+<div class="paragraph" id="answer_1_19"><p>Have You Ever Seen The Rain</p></div>
+<script>
+var z = document.getElementById("answer_1_19");
+z.style.display = "none"
+function toggle_hidden_1_19() {
+  var x = document.getElementById("answer_1_19");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q18">prev q</a> <a href="#s1q20">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q20">Question 20</h4>
+<div class="sect4">
+<h5 id="_question_20">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_20">Answer</h5>
+<button onclick="toggle_hidden_1_20()">Toggle answer</button>
+<div class="paragraph" id="answer_1_20"><p>Imagine - 2010 Mix</p></div>
+<script>
+var z = document.getElementById("answer_1_20");
+z.style.display = "none"
+function toggle_hidden_1_20() {
+  var x = document.getElementById("answer_1_20");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q19">prev q</a> <a href="#s1q21">next q</a></p></div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_questions_21_30">Questions 21-30</h3>
+<div class="sect3">
+<h4 id="s1q21">Question 21</h4>
+<div class="sect4">
+<h5 id="_question_21">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_21">Answer</h5>
+<button onclick="toggle_hidden_1_21()">Toggle answer</button>
+<div class="paragraph" id="answer_1_21"><p>American Pie</p></div>
+<script>
+var z = document.getElementById("answer_1_21");
+z.style.display = "none"
+function toggle_hidden_1_21() {
+  var x = document.getElementById("answer_1_21");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q20">prev q</a> <a href="#s1q22">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q22">Question 22</h4>
+<div class="sect4">
+<h5 id="_question_22">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_22">Answer</h5>
+<button onclick="toggle_hidden_1_22()">Toggle answer</button>
+<div class="paragraph" id="answer_1_22"><p>Lean on Me</p></div>
+<script>
+var z = document.getElementById("answer_1_22");
+z.style.display = "none"
+function toggle_hidden_1_22() {
+  var x = document.getElementById("answer_1_22");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q21">prev q</a> <a href="#s1q23">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q23">Question 23</h4>
+<div class="sect4">
+<h5 id="_question_23">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_23">Answer</h5>
+<button onclick="toggle_hidden_1_23()">Toggle answer</button>
+<div class="paragraph" id="answer_1_23"><p>Good Vibrations - Remastered</p></div>
+<script>
+var z = document.getElementById("answer_1_23");
+z.style.display = "none"
+function toggle_hidden_1_23() {
+  var x = document.getElementById("answer_1_23");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q22">prev q</a> <a href="#s1q24">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q24">Question 24</h4>
+<div class="sect4">
+<h5 id="_question_24">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_24">Answer</h5>
+<button onclick="toggle_hidden_1_24()">Toggle answer</button>
+<div class="paragraph" id="answer_1_24"><p>Light My Fire</p></div>
+<script>
+var z = document.getElementById("answer_1_24");
+z.style.display = "none"
+function toggle_hidden_1_24() {
+  var x = document.getElementById("answer_1_24");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q23">prev q</a> <a href="#s1q25">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q25">Question 25</h4>
+<div class="sect4">
+<h5 id="_question_25">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_25">Answer</h5>
+<button onclick="toggle_hidden_1_25()">Toggle answer</button>
+<div class="paragraph" id="answer_1_25"><p>What A Wonderful World</p></div>
+<script>
+var z = document.getElementById("answer_1_25");
+z.style.display = "none"
+function toggle_hidden_1_25() {
+  var x = document.getElementById("answer_1_25");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q24">prev q</a> <a href="#s1q26">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q26">Question 26</h4>
+<div class="sect4">
+<h5 id="_question_26">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_26">Answer</h5>
+<button onclick="toggle_hidden_1_26()">Toggle answer</button>
+<div class="paragraph" id="answer_1_26"><p>Johnny B. Goode - Single Version</p></div>
+<script>
+var z = document.getElementById("answer_1_26");
+z.style.display = "none"
+function toggle_hidden_1_26() {
+  var x = document.getElementById("answer_1_26");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q25">prev q</a> <a href="#s1q27">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q27">Question 27</h4>
+<div class="sect4">
+<h5 id="_question_27">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_27">Answer</h5>
+<button onclick="toggle_hidden_1_27()">Toggle answer</button>
+<div class="paragraph" id="answer_1_27"><p>Jailhouse Rock</p></div>
+<script>
+var z = document.getElementById("answer_1_27");
+z.style.display = "none"
+function toggle_hidden_1_27() {
+  var x = document.getElementById("answer_1_27");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q26">prev q</a> <a href="#s1q28">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q28">Question 28</h4>
+<div class="sect4">
+<h5 id="_question_28">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_28">Answer</h5>
+<button onclick="toggle_hidden_1_28()">Toggle answer</button>
+<div class="paragraph" id="answer_1_28"><p>Tequila (Original)</p></div>
+<script>
+var z = document.getElementById("answer_1_28");
+z.style.display = "none"
+function toggle_hidden_1_28() {
+  var x = document.getElementById("answer_1_28");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q27">prev q</a> <a href="#s1q29">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q29">Question 29</h4>
+<div class="sect4">
+<h5 id="_question_29">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_29">Answer</h5>
+<button onclick="toggle_hidden_1_29()">Toggle answer</button>
+<div class="paragraph" id="answer_1_29"><p>Uptown Funk (feat. Bruno Mars)</p></div>
+<script>
+var z = document.getElementById("answer_1_29");
+z.style.display = "none"
+function toggle_hidden_1_29() {
+  var x = document.getElementById("answer_1_29");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q28">prev q</a> <a href="#s1q30">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q30">Question 30</h4>
+<div class="sect4">
+<h5 id="_question_30">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_30">Answer</h5>
+<button onclick="toggle_hidden_1_30()">Toggle answer</button>
+<div class="paragraph" id="answer_1_30"><p>Royals</p></div>
+<script>
+var z = document.getElementById("answer_1_30");
+z.style.display = "none"
+function toggle_hidden_1_30() {
+  var x = document.getElementById("answer_1_30");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q29">prev q</a> <a href="#s1q31">next q</a></p></div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_questions_31_40">Questions 31-40</h3>
+<div class="sect3">
+<h4 id="s1q31">Question 31</h4>
+<div class="sect4">
+<h5 id="_question_31">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_31">Answer</h5>
+<button onclick="toggle_hidden_1_31()">Toggle answer</button>
+<div class="paragraph" id="answer_1_31"><p>Moondance - 2013 Remaster</p></div>
+<script>
+var z = document.getElementById("answer_1_31");
+z.style.display = "none"
+function toggle_hidden_1_31() {
+  var x = document.getElementById("answer_1_31");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q30">prev q</a> <a href="#s1q32">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q32">Question 32</h4>
+<div class="sect4">
+<h5 id="_question_32">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_32">Answer</h5>
+<button onclick="toggle_hidden_1_32()">Toggle answer</button>
+<div class="paragraph" id="answer_1_32"><p>Is This Love</p></div>
+<script>
+var z = document.getElementById("answer_1_32");
+z.style.display = "none"
+function toggle_hidden_1_32() {
+  var x = document.getElementById("answer_1_32");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q31">prev q</a> <a href="#s1q33">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q33">Question 33</h4>
+<div class="sect4">
+<h5 id="_question_33">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_33">Answer</h5>
+<button onclick="toggle_hidden_1_33()">Toggle answer</button>
+<div class="paragraph" id="answer_1_33"><p>Paint It, Black - (Original Single Mono Version)</p></div>
+<script>
+var z = document.getElementById("answer_1_33");
+z.style.display = "none"
+function toggle_hidden_1_33() {
+  var x = document.getElementById("answer_1_33");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q32">prev q</a> <a href="#s1q34">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q34">Question 34</h4>
+<div class="sect4">
+<h5 id="_question_34">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_34">Answer</h5>
+<button onclick="toggle_hidden_1_34()">Toggle answer</button>
+<div class="paragraph" id="answer_1_34"><p>My Generation - Mono Version</p></div>
+<script>
+var z = document.getElementById("answer_1_34");
+z.style.display = "none"
+function toggle_hidden_1_34() {
+  var x = document.getElementById("answer_1_34");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q33">prev q</a> <a href="#s1q35">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q35">Question 35</h4>
+<div class="sect4">
+<h5 id="_question_35">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_35">Answer</h5>
+<button onclick="toggle_hidden_1_35()">Toggle answer</button>
+<div class="paragraph" id="answer_1_35"><p>Come Sail Away</p></div>
+<script>
+var z = document.getElementById("answer_1_35");
+z.style.display = "none"
+function toggle_hidden_1_35() {
+  var x = document.getElementById("answer_1_35");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q34">prev q</a> <a href="#s1q36">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q36">Question 36</h4>
+<div class="sect4">
+<h5 id="_question_36">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_36">Answer</h5>
+<button onclick="toggle_hidden_1_36()">Toggle answer</button>
+<div class="paragraph" id="answer_1_36"><p>Walk This Way</p></div>
+<script>
+var z = document.getElementById("answer_1_36");
+z.style.display = "none"
+function toggle_hidden_1_36() {
+  var x = document.getElementById("answer_1_36");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q35">prev q</a> <a href="#s1q37">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q37">Question 37</h4>
+<div class="sect4">
+<h5 id="_question_37">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_37">Answer</h5>
+<button onclick="toggle_hidden_1_37()">Toggle answer</button>
+<div class="paragraph" id="answer_1_37"><p>Free Bird</p></div>
+<script>
+var z = document.getElementById("answer_1_37");
+z.style.display = "none"
+function toggle_hidden_1_37() {
+  var x = document.getElementById("answer_1_37");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q36">prev q</a> <a href="#s1q38">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q38">Question 38</h4>
+<div class="sect4">
+<h5 id="_question_38">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_38">Answer</h5>
+<button onclick="toggle_hidden_1_38()">Toggle answer</button>
+<div class="paragraph" id="answer_1_38"><p>Margaritaville</p></div>
+<script>
+var z = document.getElementById("answer_1_38");
+z.style.display = "none"
+function toggle_hidden_1_38() {
+  var x = document.getElementById("answer_1_38");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q37">prev q</a> <a href="#s1q39">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q39">Question 39</h4>
+<div class="sect4">
+<h5 id="_question_39">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_39">Answer</h5>
+<button onclick="toggle_hidden_1_39()">Toggle answer</button>
+<div class="paragraph" id="answer_1_39"><p>Cocaine</p></div>
+<script>
+var z = document.getElementById("answer_1_39");
+z.style.display = "none"
+function toggle_hidden_1_39() {
+  var x = document.getElementById("answer_1_39");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q38">prev q</a> <a href="#s1q40">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q40">Question 40</h4>
+<div class="sect4">
+<h5 id="_question_40">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_40">Answer</h5>
+<button onclick="toggle_hidden_1_40()">Toggle answer</button>
+<div class="paragraph" id="answer_1_40"><p>Gold Digger</p></div>
+<script>
+var z = document.getElementById("answer_1_40");
+z.style.display = "none"
+function toggle_hidden_1_40() {
+  var x = document.getElementById("answer_1_40");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q39">prev q</a> <a href="#s1q41">next q</a></p></div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_questions_41_50">Questions 41-50</h3>
+<div class="sect3">
+<h4 id="s1q41">Question 41</h4>
+<div class="sect4">
+<h5 id="_question_41">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_41">Answer</h5>
+<button onclick="toggle_hidden_1_41()">Toggle answer</button>
+<div class="paragraph" id="answer_1_41"><p>I Gotta Feeling</p></div>
+<script>
+var z = document.getElementById("answer_1_41");
+z.style.display = "none"
+function toggle_hidden_1_41() {
+  var x = document.getElementById("answer_1_41");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q40">prev q</a> <a href="#s1q42">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q42">Question 42</h4>
+<div class="sect4">
+<h5 id="_question_42">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_42">Answer</h5>
+<button onclick="toggle_hidden_1_42()">Toggle answer</button>
+<div class="paragraph" id="answer_1_42"><p>Escape (The Pina Colada Song)</p></div>
+<script>
+var z = document.getElementById("answer_1_42");
+z.style.display = "none"
+function toggle_hidden_1_42() {
+  var x = document.getElementById("answer_1_42");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q41">prev q</a> <a href="#s1q43">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q43">Question 43</h4>
+<div class="sect4">
+<h5 id="_question_43">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_43">Answer</h5>
+<button onclick="toggle_hidden_1_43()">Toggle answer</button>
+<div class="paragraph" id="answer_1_43"><p>I Will Survive - Single Version</p></div>
+<script>
+var z = document.getElementById("answer_1_43");
+z.style.display = "none"
+function toggle_hidden_1_43() {
+  var x = document.getElementById("answer_1_43");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q42">prev q</a> <a href="#s1q44">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q44">Question 44</h4>
+<div class="sect4">
+<h5 id="_question_44">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_44">Answer</h5>
+<button onclick="toggle_hidden_1_44()">Toggle answer</button>
+<div class="paragraph" id="answer_1_44"><p>Ring of Fire</p></div>
+<script>
+var z = document.getElementById("answer_1_44");
+z.style.display = "none"
+function toggle_hidden_1_44() {
+  var x = document.getElementById("answer_1_44");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q43">prev q</a> <a href="#s1q45">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q45">Question 45</h4>
+<div class="sect4">
+<h5 id="_question_45">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_45">Answer</h5>
+<button onclick="toggle_hidden_1_45()">Toggle answer</button>
+<div class="paragraph" id="answer_1_45"><p>All About That Bass</p></div>
+<script>
+var z = document.getElementById("answer_1_45");
+z.style.display = "none"
+function toggle_hidden_1_45() {
+  var x = document.getElementById("answer_1_45");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q44">prev q</a> <a href="#s1q46">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q46">Question 46</h4>
+<div class="sect4">
+<h5 id="_question_46">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_46">Answer</h5>
+<button onclick="toggle_hidden_1_46()">Toggle answer</button>
+<div class="paragraph" id="answer_1_46"><p>Bridge Over Troubled Water</p></div>
+<script>
+var z = document.getElementById("answer_1_46");
+z.style.display = "none"
+function toggle_hidden_1_46() {
+  var x = document.getElementById("answer_1_46");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q45">prev q</a> <a href="#s1q47">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q47">Question 47</h4>
+<div class="sect4">
+<h5 id="_question_47">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_47">Answer</h5>
+<button onclick="toggle_hidden_1_47()">Toggle answer</button>
+<div class="paragraph" id="answer_1_47"><p>Happy</p></div>
+<script>
+var z = document.getElementById("answer_1_47");
+z.style.display = "none"
+function toggle_hidden_1_47() {
+  var x = document.getElementById("answer_1_47");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q46">prev q</a> <a href="#s1q48">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q48">Question 48</h4>
+<div class="sect4">
+<h5 id="_question_48">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_48">Answer</h5>
+<button onclick="toggle_hidden_1_48()">Toggle answer</button>
+<div class="paragraph" id="answer_1_48"><p>With Or Without You - Remastered</p></div>
+<script>
+var z = document.getElementById("answer_1_48");
+z.style.display = "none"
+function toggle_hidden_1_48() {
+  var x = document.getElementById("answer_1_48");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q47">prev q</a> <a href="#s1q49">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q49">Question 49</h4>
+<div class="sect4">
+<h5 id="_question_49">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_49">Answer</h5>
+<button onclick="toggle_hidden_1_49()">Toggle answer</button>
+<div class="paragraph" id="answer_1_49"><p>Material Girl</p></div>
+<script>
+var z = document.getElementById("answer_1_49");
+z.style.display = "none"
+function toggle_hidden_1_49() {
+  var x = document.getElementById("answer_1_49");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q48">prev q</a> <a href="#s1q50">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q50">Question 50</h4>
+<div class="sect4">
+<h5 id="_question_50">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_50">Answer</h5>
+<button onclick="toggle_hidden_1_50()">Toggle answer</button>
+<div class="paragraph" id="answer_1_50"><p>Go Your Own Way - 2004 Remaster</p></div>
+<script>
+var z = document.getElementById("answer_1_50");
+z.style.display = "none"
+function toggle_hidden_1_50() {
+  var x = document.getElementById("answer_1_50");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q49">prev q</a> <a href="#s1q51">next q</a></p></div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_questions_51_60">Questions 51-60</h3>
+<div class="sect3">
+<h4 id="s1q51">Question 51</h4>
+<div class="sect4">
+<h5 id="_question_51">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_51">Answer</h5>
+<button onclick="toggle_hidden_1_51()">Toggle answer</button>
+<div class="paragraph" id="answer_1_51"><p>One Way Or Another - Remastered</p></div>
+<script>
+var z = document.getElementById("answer_1_51");
+z.style.display = "none"
+function toggle_hidden_1_51() {
+  var x = document.getElementById("answer_1_51");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q50">prev q</a> <a href="#s1q52">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q52">Question 52</h4>
+<div class="sect4">
+<h5 id="_question_52">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_52">Answer</h5>
+<button onclick="toggle_hidden_1_52()">Toggle answer</button>
+<div class="paragraph" id="answer_1_52"><p>Holiday / Boulevard of Broken Dreams</p></div>
+<script>
+var z = document.getElementById("answer_1_52");
+z.style.display = "none"
+function toggle_hidden_1_52() {
+  var x = document.getElementById("answer_1_52");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q51">prev q</a> <a href="#s1q53">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q53">Question 53</h4>
+<div class="sect4">
+<h5 id="_question_53">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_53">Answer</h5>
+<button onclick="toggle_hidden_1_53()">Toggle answer</button>
+<div class="paragraph" id="answer_1_53"><p>Twist And Shout - Remastered 2009</p></div>
+<script>
+var z = document.getElementById("answer_1_53");
+z.style.display = "none"
+function toggle_hidden_1_53() {
+  var x = document.getElementById("answer_1_53");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q52">prev q</a> <a href="#s1q54">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q54">Question 54</h4>
+<div class="sect4">
+<h5 id="_question_54">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_54">Answer</h5>
+<button onclick="toggle_hidden_1_54()">Toggle answer</button>
+<div class="paragraph" id="answer_1_54"><p>Shout</p></div>
+<script>
+var z = document.getElementById("answer_1_54");
+z.style.display = "none"
+function toggle_hidden_1_54() {
+  var x = document.getElementById("answer_1_54");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q53">prev q</a> <a href="#s1q55">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q55">Question 55</h4>
+<div class="sect4">
+<h5 id="_question_55">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_55">Answer</h5>
+<button onclick="toggle_hidden_1_55()">Toggle answer</button>
+<div class="paragraph" id="answer_1_55"><p>Build Me Up Buttercup</p></div>
+<script>
+var z = document.getElementById("answer_1_55");
+z.style.display = "none"
+function toggle_hidden_1_55() {
+  var x = document.getElementById("answer_1_55");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q54">prev q</a> <a href="#s1q56">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q56">Question 56</h4>
+<div class="sect4">
+<h5 id="_question_56">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_56">Answer</h5>
+<button onclick="toggle_hidden_1_56()">Toggle answer</button>
+<div class="paragraph" id="answer_1_56"><p>Wake Me Up Before You Go-Go</p></div>
+<script>
+var z = document.getElementById("answer_1_56");
+z.style.display = "none"
+function toggle_hidden_1_56() {
+  var x = document.getElementById("answer_1_56");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q55">prev q</a> <a href="#s1q57">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q57">Question 57</h4>
+<div class="sect4">
+<h5 id="_question_57">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_57">Answer</h5>
+<button onclick="toggle_hidden_1_57()">Toggle answer</button>
+<div class="paragraph" id="answer_1_57"><p>Pump It Up</p></div>
+<script>
+var z = document.getElementById("answer_1_57");
+z.style.display = "none"
+function toggle_hidden_1_57() {
+  var x = document.getElementById("answer_1_57");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q56">prev q</a> <a href="#s1q58">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q58">Question 58</h4>
+<div class="sect4">
+<h5 id="_question_58">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_58">Answer</h5>
+<button onclick="toggle_hidden_1_58()">Toggle answer</button>
+<div class="paragraph" id="answer_1_58"><p>Everyday I Write The Book</p></div>
+<script>
+var z = document.getElementById("answer_1_58");
+z.style.display = "none"
+function toggle_hidden_1_58() {
+  var x = document.getElementById("answer_1_58");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q57">prev q</a> <a href="#s1q59">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q59">Question 59</h4>
+<div class="sect4">
+<h5 id="_question_59">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_59">Answer</h5>
+<button onclick="toggle_hidden_1_59()">Toggle answer</button>
+<div class="paragraph" id="answer_1_59"><p>What&#8217;s Going On</p></div>
+<script>
+var z = document.getElementById("answer_1_59");
+z.style.display = "none"
+function toggle_hidden_1_59() {
+  var x = document.getElementById("answer_1_59");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q58">prev q</a> <a href="#s1q60">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q60">Question 60</h4>
+<div class="sect4">
+<h5 id="_question_60">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_60">Answer</h5>
+<button onclick="toggle_hidden_1_60()">Toggle answer</button>
+<div class="paragraph" id="answer_1_60"><p>Theme From Shaft - Album - Remastered</p></div>
+<script>
+var z = document.getElementById("answer_1_60");
+z.style.display = "none"
+function toggle_hidden_1_60() {
+  var x = document.getElementById("answer_1_60");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q59">prev q</a> <a href="#s1q61">next q</a></p></div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_questions_61_70">Questions 61-70</h3>
+<div class="sect3">
+<h4 id="s1q61">Question 61</h4>
+<div class="sect4">
+<h5 id="_question_61">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_61">Answer</h5>
+<button onclick="toggle_hidden_1_61()">Toggle answer</button>
+<div class="paragraph" id="answer_1_61"><p>Norwegian Wood (This Bird Has Flown) - Remastered 2009</p></div>
+<script>
+var z = document.getElementById("answer_1_61");
+z.style.display = "none"
+function toggle_hidden_1_61() {
+  var x = document.getElementById("answer_1_61");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q60">prev q</a> <a href="#s1q62">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q62">Question 62</h4>
+<div class="sect4">
+<h5 id="_question_62">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_62">Answer</h5>
+<button onclick="toggle_hidden_1_62()">Toggle answer</button>
+<div class="paragraph" id="answer_1_62"><p>Suspicious Minds</p></div>
+<script>
+var z = document.getElementById("answer_1_62");
+z.style.display = "none"
+function toggle_hidden_1_62() {
+  var x = document.getElementById("answer_1_62");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q61">prev q</a> <a href="#s1q63">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q63">Question 63</h4>
+<div class="sect4">
+<h5 id="_question_63">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_63">Answer</h5>
+<button onclick="toggle_hidden_1_63()">Toggle answer</button>
+<div class="paragraph" id="answer_1_63"><p>I Want To Hold Your Hand - Remastered 2015</p></div>
+<script>
+var z = document.getElementById("answer_1_63");
+z.style.display = "none"
+function toggle_hidden_1_63() {
+  var x = document.getElementById("answer_1_63");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q62">prev q</a> <a href="#s1q64">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q64">Question 64</h4>
+<div class="sect4">
+<h5 id="_question_64">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_64">Answer</h5>
+<button onclick="toggle_hidden_1_64()">Toggle answer</button>
+<div class="paragraph" id="answer_1_64"><p>Blackbird - Remastered</p></div>
+<script>
+var z = document.getElementById("answer_1_64");
+z.style.display = "none"
+function toggle_hidden_1_64() {
+  var x = document.getElementById("answer_1_64");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q63">prev q</a> <a href="#s1q65">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q65">Question 65</h4>
+<div class="sect4">
+<h5 id="_question_65">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_65">Answer</h5>
+<button onclick="toggle_hidden_1_65()">Toggle answer</button>
+<div class="paragraph" id="answer_1_65"><p>God Only Knows - Remastered</p></div>
+<script>
+var z = document.getElementById("answer_1_65");
+z.style.display = "none"
+function toggle_hidden_1_65() {
+  var x = document.getElementById("answer_1_65");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q64">prev q</a> <a href="#s1q66">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q66">Question 66</h4>
+<div class="sect4">
+<h5 id="_question_66">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_66">Answer</h5>
+<button onclick="toggle_hidden_1_66()">Toggle answer</button>
+<div class="paragraph" id="answer_1_66"><p>I Gotta Feeling</p></div>
+<script>
+var z = document.getElementById("answer_1_66");
+z.style.display = "none"
+function toggle_hidden_1_66() {
+  var x = document.getElementById("answer_1_66");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q65">prev q</a> <a href="#s1q67">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q67">Question 67</h4>
+<div class="sect4">
+<h5 id="_question_67">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_67">Answer</h5>
+<button onclick="toggle_hidden_1_67()">Toggle answer</button>
+<div class="paragraph" id="answer_1_67"><p>Is She Really Going Out With Him?</p></div>
+<script>
+var z = document.getElementById("answer_1_67");
+z.style.display = "none"
+function toggle_hidden_1_67() {
+  var x = document.getElementById("answer_1_67");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q66">prev q</a> <a href="#s1q68">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q68">Question 68</h4>
+<div class="sect4">
+<h5 id="_question_68">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_68">Answer</h5>
+<button onclick="toggle_hidden_1_68()">Toggle answer</button>
+<div class="paragraph" id="answer_1_68"><p>Come On Eileen</p></div>
+<script>
+var z = document.getElementById("answer_1_68");
+z.style.display = "none"
+function toggle_hidden_1_68() {
+  var x = document.getElementById("answer_1_68");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q67">prev q</a> <a href="#s1q69">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q69">Question 69</h4>
+<div class="sect4">
+<h5 id="_question_69">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_69">Answer</h5>
+<button onclick="toggle_hidden_1_69()">Toggle answer</button>
+<div class="paragraph" id="answer_1_69"><p>Owner Of A Lonely Heart</p></div>
+<script>
+var z = document.getElementById("answer_1_69");
+z.style.display = "none"
+function toggle_hidden_1_69() {
+  var x = document.getElementById("answer_1_69");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q68">prev q</a> <a href="#s1q70">next q</a></p></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s1q70">Question 70</h4>
+<div class="sect4">
+<h5 id="_question_70">Question</h5>
+<div class="audioblock">
+<div class="content">
+<audio src="trivia_general" controls>
+Your browser does not support the audio tag.
+</audio>
+</div></div>
+</div>
+<div class="sect4">
+<h5 id="_answer_70">Answer</h5>
+<button onclick="toggle_hidden_1_70()">Toggle answer</button>
+<div class="paragraph" id="answer_1_70"><p>The Logical Song - Remastered 2010</p></div>
+<script>
+var z = document.getElementById("answer_1_70");
+z.style.display = "none"
+function toggle_hidden_1_70() {
+  var x = document.getElementById("answer_1_70");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s1q69">prev q</a></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes"><hr></div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-04-07 23:47:05 EDT
+</div>
+</div>
+</body>
+</html>

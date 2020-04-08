@@ -1,0 +1,2697 @@
+
+= Music trivia
+:toc2:
+:toclevels: 5
+:toc-title: Welcome to Quarantine Music Trivia!
+
+[subs=""]
+++++++++++++
+<style>
+html, body { height: 100%; }
+.fullheight { overflow-y:auto; height:100vh; }​
+a { color:blue; }
+a:visited { color:blue; }
+a:active { color:blue; }
+a[tabindex]:focus { color:blue; outline:none; }
+</style>
+++++++++++++
+
+== Welcome
+    
+
+[[s1]]
+== Section trivia_general
+
+=== Questions 1-10
+
+[[s1q1]]
+==== Question 1
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_1()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_1]]
+Stronger
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_1");
+z.style.display = "none"
+function toggle_hidden_1_1() {
+  var x = document.getElementById("answer_1_1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q2, next q>>
+
+[[s1q2]]
+==== Question 2
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_2()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_2]]
+Old Town Road (feat. Billy Ray Cyrus) - Remix
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_2");
+z.style.display = "none"
+function toggle_hidden_1_2() {
+  var x = document.getElementById("answer_1_2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q1, prev q>> <<s1q3, next q>>
+
+[[s1q3]]
+==== Question 3
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_3()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_3]]
+Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_3");
+z.style.display = "none"
+function toggle_hidden_1_3() {
+  var x = document.getElementById("answer_1_3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q2, prev q>> <<s1q4, next q>>
+
+[[s1q4]]
+==== Question 4
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_4()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_4]]
+Ridin' Solo
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_4");
+z.style.display = "none"
+function toggle_hidden_1_4() {
+  var x = document.getElementById("answer_1_4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q3, prev q>> <<s1q5, next q>>
+
+[[s1q5]]
+==== Question 5
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_5()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_5]]
+Hey Brother
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_5");
+z.style.display = "none"
+function toggle_hidden_1_5() {
+  var x = document.getElementById("answer_1_5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q4, prev q>> <<s1q6, next q>>
+
+[[s1q6]]
+==== Question 6
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_6()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_6]]
+Fast Car
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_6");
+z.style.display = "none"
+function toggle_hidden_1_6() {
+  var x = document.getElementById("answer_1_6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q5, prev q>> <<s1q7, next q>>
+
+[[s1q7]]
+==== Question 7
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_7()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_7]]
+Smells Like Teen Spirit
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_7");
+z.style.display = "none"
+function toggle_hidden_1_7() {
+  var x = document.getElementById("answer_1_7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q6, prev q>> <<s1q8, next q>>
+
+[[s1q8]]
+==== Question 8
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_8()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_8]]
+Before He Cheats
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_8");
+z.style.display = "none"
+function toggle_hidden_1_8() {
+  var x = document.getElementById("answer_1_8");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q7, prev q>> <<s1q9, next q>>
+
+[[s1q9]]
+==== Question 9
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_9()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_9]]
+Call Me Maybe
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_9");
+z.style.display = "none"
+function toggle_hidden_1_9() {
+  var x = document.getElementById("answer_1_9");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q8, prev q>> <<s1q10, next q>>
+
+[[s1q10]]
+==== Question 10
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_10()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_10]]
+Girls Just Want to Have Fun
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_10");
+z.style.display = "none"
+function toggle_hidden_1_10() {
+  var x = document.getElementById("answer_1_10");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q9, prev q>> <<s1q11, next q>>
+
+=== Questions 11-20
+
+[[s1q11]]
+==== Question 11
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_11()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_11]]
+Africa
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_11");
+z.style.display = "none"
+function toggle_hidden_1_11() {
+  var x = document.getElementById("answer_1_11");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q10, prev q>> <<s1q12, next q>>
+
+[[s1q12]]
+==== Question 12
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_12()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_12]]
+Walk Like an Egyptian
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_12");
+z.style.display = "none"
+function toggle_hidden_1_12() {
+  var x = document.getElementById("answer_1_12");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q11, prev q>> <<s1q13, next q>>
+
+[[s1q13]]
+==== Question 13
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_13()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_13]]
+Every Breath You Take
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_13");
+z.style.display = "none"
+function toggle_hidden_1_13() {
+  var x = document.getElementById("answer_1_13");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q12, prev q>> <<s1q14, next q>>
+
+[[s1q14]]
+==== Question 14
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_14()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_14]]
+Born to Run
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_14");
+z.style.display = "none"
+function toggle_hidden_1_14() {
+  var x = document.getElementById("answer_1_14");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q13, prev q>> <<s1q15, next q>>
+
+[[s1q15]]
+==== Question 15
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_15()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_15]]
+Karma Chameleon
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_15");
+z.style.display = "none"
+function toggle_hidden_1_15() {
+  var x = document.getElementById("answer_1_15");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q14, prev q>> <<s1q16, next q>>
+
+[[s1q16]]
+==== Question 16
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_16()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_16]]
+Jolene
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_16");
+z.style.display = "none"
+function toggle_hidden_1_16() {
+  var x = document.getElementById("answer_1_16");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q15, prev q>> <<s1q17, next q>>
+
+[[s1q17]]
+==== Question 17
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_17()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_17]]
+Crazy
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_17");
+z.style.display = "none"
+function toggle_hidden_1_17() {
+  var x = document.getElementById("answer_1_17");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q16, prev q>> <<s1q18, next q>>
+
+[[s1q18]]
+==== Question 18
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_18()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_18]]
+September
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_18");
+z.style.display = "none"
+function toggle_hidden_1_18() {
+  var x = document.getElementById("answer_1_18");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q17, prev q>> <<s1q19, next q>>
+
+[[s1q19]]
+==== Question 19
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_19()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_19]]
+Have You Ever Seen The Rain
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_19");
+z.style.display = "none"
+function toggle_hidden_1_19() {
+  var x = document.getElementById("answer_1_19");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q18, prev q>> <<s1q20, next q>>
+
+[[s1q20]]
+==== Question 20
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_20()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_20]]
+Imagine - 2010 Mix
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_20");
+z.style.display = "none"
+function toggle_hidden_1_20() {
+  var x = document.getElementById("answer_1_20");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q19, prev q>> <<s1q21, next q>>
+
+=== Questions 21-30
+
+[[s1q21]]
+==== Question 21
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_21()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_21]]
+American Pie
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_21");
+z.style.display = "none"
+function toggle_hidden_1_21() {
+  var x = document.getElementById("answer_1_21");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q20, prev q>> <<s1q22, next q>>
+
+[[s1q22]]
+==== Question 22
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_22()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_22]]
+Lean on Me
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_22");
+z.style.display = "none"
+function toggle_hidden_1_22() {
+  var x = document.getElementById("answer_1_22");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q21, prev q>> <<s1q23, next q>>
+
+[[s1q23]]
+==== Question 23
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_23()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_23]]
+Good Vibrations - Remastered
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_23");
+z.style.display = "none"
+function toggle_hidden_1_23() {
+  var x = document.getElementById("answer_1_23");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q22, prev q>> <<s1q24, next q>>
+
+[[s1q24]]
+==== Question 24
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_24()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_24]]
+Light My Fire
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_24");
+z.style.display = "none"
+function toggle_hidden_1_24() {
+  var x = document.getElementById("answer_1_24");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q23, prev q>> <<s1q25, next q>>
+
+[[s1q25]]
+==== Question 25
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_25()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_25]]
+What A Wonderful World
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_25");
+z.style.display = "none"
+function toggle_hidden_1_25() {
+  var x = document.getElementById("answer_1_25");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q24, prev q>> <<s1q26, next q>>
+
+[[s1q26]]
+==== Question 26
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_26()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_26]]
+Johnny B. Goode - Single Version
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_26");
+z.style.display = "none"
+function toggle_hidden_1_26() {
+  var x = document.getElementById("answer_1_26");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q25, prev q>> <<s1q27, next q>>
+
+[[s1q27]]
+==== Question 27
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_27()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_27]]
+Jailhouse Rock
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_27");
+z.style.display = "none"
+function toggle_hidden_1_27() {
+  var x = document.getElementById("answer_1_27");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q26, prev q>> <<s1q28, next q>>
+
+[[s1q28]]
+==== Question 28
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_28()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_28]]
+Tequila (Original)
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_28");
+z.style.display = "none"
+function toggle_hidden_1_28() {
+  var x = document.getElementById("answer_1_28");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q27, prev q>> <<s1q29, next q>>
+
+[[s1q29]]
+==== Question 29
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_29()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_29]]
+Uptown Funk (feat. Bruno Mars)
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_29");
+z.style.display = "none"
+function toggle_hidden_1_29() {
+  var x = document.getElementById("answer_1_29");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q28, prev q>> <<s1q30, next q>>
+
+[[s1q30]]
+==== Question 30
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_30()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_30]]
+Royals
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_30");
+z.style.display = "none"
+function toggle_hidden_1_30() {
+  var x = document.getElementById("answer_1_30");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q29, prev q>> <<s1q31, next q>>
+
+=== Questions 31-40
+
+[[s1q31]]
+==== Question 31
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_31()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_31]]
+Moondance - 2013 Remaster
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_31");
+z.style.display = "none"
+function toggle_hidden_1_31() {
+  var x = document.getElementById("answer_1_31");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q30, prev q>> <<s1q32, next q>>
+
+[[s1q32]]
+==== Question 32
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_32()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_32]]
+Is This Love
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_32");
+z.style.display = "none"
+function toggle_hidden_1_32() {
+  var x = document.getElementById("answer_1_32");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q31, prev q>> <<s1q33, next q>>
+
+[[s1q33]]
+==== Question 33
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_33()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_33]]
+Paint It, Black - (Original Single Mono Version)
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_33");
+z.style.display = "none"
+function toggle_hidden_1_33() {
+  var x = document.getElementById("answer_1_33");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q32, prev q>> <<s1q34, next q>>
+
+[[s1q34]]
+==== Question 34
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_34()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_34]]
+My Generation - Mono Version
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_34");
+z.style.display = "none"
+function toggle_hidden_1_34() {
+  var x = document.getElementById("answer_1_34");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q33, prev q>> <<s1q35, next q>>
+
+[[s1q35]]
+==== Question 35
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_35()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_35]]
+Come Sail Away
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_35");
+z.style.display = "none"
+function toggle_hidden_1_35() {
+  var x = document.getElementById("answer_1_35");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q34, prev q>> <<s1q36, next q>>
+
+[[s1q36]]
+==== Question 36
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_36()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_36]]
+Walk This Way
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_36");
+z.style.display = "none"
+function toggle_hidden_1_36() {
+  var x = document.getElementById("answer_1_36");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q35, prev q>> <<s1q37, next q>>
+
+[[s1q37]]
+==== Question 37
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_37()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_37]]
+Free Bird
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_37");
+z.style.display = "none"
+function toggle_hidden_1_37() {
+  var x = document.getElementById("answer_1_37");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q36, prev q>> <<s1q38, next q>>
+
+[[s1q38]]
+==== Question 38
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_38()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_38]]
+Margaritaville
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_38");
+z.style.display = "none"
+function toggle_hidden_1_38() {
+  var x = document.getElementById("answer_1_38");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q37, prev q>> <<s1q39, next q>>
+
+[[s1q39]]
+==== Question 39
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_39()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_39]]
+Cocaine
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_39");
+z.style.display = "none"
+function toggle_hidden_1_39() {
+  var x = document.getElementById("answer_1_39");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q38, prev q>> <<s1q40, next q>>
+
+[[s1q40]]
+==== Question 40
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_40()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_40]]
+Gold Digger
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_40");
+z.style.display = "none"
+function toggle_hidden_1_40() {
+  var x = document.getElementById("answer_1_40");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q39, prev q>> <<s1q41, next q>>
+
+=== Questions 41-50
+
+[[s1q41]]
+==== Question 41
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_41()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_41]]
+I Gotta Feeling
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_41");
+z.style.display = "none"
+function toggle_hidden_1_41() {
+  var x = document.getElementById("answer_1_41");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q40, prev q>> <<s1q42, next q>>
+
+[[s1q42]]
+==== Question 42
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_42()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_42]]
+Escape (The Pina Colada Song)
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_42");
+z.style.display = "none"
+function toggle_hidden_1_42() {
+  var x = document.getElementById("answer_1_42");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q41, prev q>> <<s1q43, next q>>
+
+[[s1q43]]
+==== Question 43
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_43()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_43]]
+I Will Survive - Single Version
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_43");
+z.style.display = "none"
+function toggle_hidden_1_43() {
+  var x = document.getElementById("answer_1_43");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q42, prev q>> <<s1q44, next q>>
+
+[[s1q44]]
+==== Question 44
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_44()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_44]]
+Ring of Fire
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_44");
+z.style.display = "none"
+function toggle_hidden_1_44() {
+  var x = document.getElementById("answer_1_44");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q43, prev q>> <<s1q45, next q>>
+
+[[s1q45]]
+==== Question 45
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_45()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_45]]
+All About That Bass
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_45");
+z.style.display = "none"
+function toggle_hidden_1_45() {
+  var x = document.getElementById("answer_1_45");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q44, prev q>> <<s1q46, next q>>
+
+[[s1q46]]
+==== Question 46
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_46()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_46]]
+Bridge Over Troubled Water
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_46");
+z.style.display = "none"
+function toggle_hidden_1_46() {
+  var x = document.getElementById("answer_1_46");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q45, prev q>> <<s1q47, next q>>
+
+[[s1q47]]
+==== Question 47
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_47()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_47]]
+Happy
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_47");
+z.style.display = "none"
+function toggle_hidden_1_47() {
+  var x = document.getElementById("answer_1_47");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q46, prev q>> <<s1q48, next q>>
+
+[[s1q48]]
+==== Question 48
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_48()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_48]]
+With Or Without You - Remastered
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_48");
+z.style.display = "none"
+function toggle_hidden_1_48() {
+  var x = document.getElementById("answer_1_48");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q47, prev q>> <<s1q49, next q>>
+
+[[s1q49]]
+==== Question 49
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_49()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_49]]
+Material Girl
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_49");
+z.style.display = "none"
+function toggle_hidden_1_49() {
+  var x = document.getElementById("answer_1_49");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q48, prev q>> <<s1q50, next q>>
+
+[[s1q50]]
+==== Question 50
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_50()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_50]]
+Go Your Own Way - 2004 Remaster
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_50");
+z.style.display = "none"
+function toggle_hidden_1_50() {
+  var x = document.getElementById("answer_1_50");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q49, prev q>> <<s1q51, next q>>
+
+=== Questions 51-60
+
+[[s1q51]]
+==== Question 51
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_51()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_51]]
+One Way Or Another - Remastered
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_51");
+z.style.display = "none"
+function toggle_hidden_1_51() {
+  var x = document.getElementById("answer_1_51");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q50, prev q>> <<s1q52, next q>>
+
+[[s1q52]]
+==== Question 52
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_52()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_52]]
+Holiday / Boulevard of Broken Dreams
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_52");
+z.style.display = "none"
+function toggle_hidden_1_52() {
+  var x = document.getElementById("answer_1_52");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q51, prev q>> <<s1q53, next q>>
+
+[[s1q53]]
+==== Question 53
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_53()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_53]]
+Twist And Shout - Remastered 2009
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_53");
+z.style.display = "none"
+function toggle_hidden_1_53() {
+  var x = document.getElementById("answer_1_53");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q52, prev q>> <<s1q54, next q>>
+
+[[s1q54]]
+==== Question 54
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_54()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_54]]
+Shout
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_54");
+z.style.display = "none"
+function toggle_hidden_1_54() {
+  var x = document.getElementById("answer_1_54");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q53, prev q>> <<s1q55, next q>>
+
+[[s1q55]]
+==== Question 55
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_55()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_55]]
+Build Me Up Buttercup
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_55");
+z.style.display = "none"
+function toggle_hidden_1_55() {
+  var x = document.getElementById("answer_1_55");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q54, prev q>> <<s1q56, next q>>
+
+[[s1q56]]
+==== Question 56
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_56()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_56]]
+Wake Me Up Before You Go-Go
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_56");
+z.style.display = "none"
+function toggle_hidden_1_56() {
+  var x = document.getElementById("answer_1_56");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q55, prev q>> <<s1q57, next q>>
+
+[[s1q57]]
+==== Question 57
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_57()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_57]]
+Pump It Up
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_57");
+z.style.display = "none"
+function toggle_hidden_1_57() {
+  var x = document.getElementById("answer_1_57");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q56, prev q>> <<s1q58, next q>>
+
+[[s1q58]]
+==== Question 58
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_58()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_58]]
+Everyday I Write The Book
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_58");
+z.style.display = "none"
+function toggle_hidden_1_58() {
+  var x = document.getElementById("answer_1_58");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q57, prev q>> <<s1q59, next q>>
+
+[[s1q59]]
+==== Question 59
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_59()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_59]]
+What's Going On
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_59");
+z.style.display = "none"
+function toggle_hidden_1_59() {
+  var x = document.getElementById("answer_1_59");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q58, prev q>> <<s1q60, next q>>
+
+[[s1q60]]
+==== Question 60
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_60()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_60]]
+Theme From Shaft - Album - Remastered
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_60");
+z.style.display = "none"
+function toggle_hidden_1_60() {
+  var x = document.getElementById("answer_1_60");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q59, prev q>> <<s1q61, next q>>
+
+=== Questions 61-70
+
+[[s1q61]]
+==== Question 61
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_61()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_61]]
+Norwegian Wood (This Bird Has Flown) - Remastered 2009
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_61");
+z.style.display = "none"
+function toggle_hidden_1_61() {
+  var x = document.getElementById("answer_1_61");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q60, prev q>> <<s1q62, next q>>
+
+[[s1q62]]
+==== Question 62
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_62()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_62]]
+Suspicious Minds
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_62");
+z.style.display = "none"
+function toggle_hidden_1_62() {
+  var x = document.getElementById("answer_1_62");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q61, prev q>> <<s1q63, next q>>
+
+[[s1q63]]
+==== Question 63
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_63()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_63]]
+I Want To Hold Your Hand - Remastered 2015
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_63");
+z.style.display = "none"
+function toggle_hidden_1_63() {
+  var x = document.getElementById("answer_1_63");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q62, prev q>> <<s1q64, next q>>
+
+[[s1q64]]
+==== Question 64
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_64()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_64]]
+Blackbird - Remastered
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_64");
+z.style.display = "none"
+function toggle_hidden_1_64() {
+  var x = document.getElementById("answer_1_64");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q63, prev q>> <<s1q65, next q>>
+
+[[s1q65]]
+==== Question 65
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_65()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_65]]
+God Only Knows - Remastered
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_65");
+z.style.display = "none"
+function toggle_hidden_1_65() {
+  var x = document.getElementById("answer_1_65");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q64, prev q>> <<s1q66, next q>>
+
+[[s1q66]]
+==== Question 66
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_66()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_66]]
+I Gotta Feeling
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_66");
+z.style.display = "none"
+function toggle_hidden_1_66() {
+  var x = document.getElementById("answer_1_66");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q65, prev q>> <<s1q67, next q>>
+
+[[s1q67]]
+==== Question 67
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_67()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_67]]
+Is She Really Going Out With Him?
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_67");
+z.style.display = "none"
+function toggle_hidden_1_67() {
+  var x = document.getElementById("answer_1_67");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q66, prev q>> <<s1q68, next q>>
+
+[[s1q68]]
+==== Question 68
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_68()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_68]]
+Come On Eileen
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_68");
+z.style.display = "none"
+function toggle_hidden_1_68() {
+  var x = document.getElementById("answer_1_68");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q67, prev q>> <<s1q69, next q>>
+
+[[s1q69]]
+==== Question 69
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_69()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_69]]
+Owner Of A Lonely Heart
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_69");
+z.style.display = "none"
+function toggle_hidden_1_69() {
+  var x = document.getElementById("answer_1_69");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q68, prev q>> <<s1q70, next q>>
+
+[[s1q70]]
+==== Question 70
+
+===== Question
+
+audio::trivia_general[Song]
+
+===== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button onclick="toggle_hidden_1_70()">Toggle answer</button>
++++++++++++++++++
+
+[[answer_1_70]]
+The Logical Song - Remastered 2010
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_1_70");
+z.style.display = "none"
+function toggle_hidden_1_70() {
+  var x = document.getElementById("answer_1_70");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s1q69, prev q>>
