@@ -20,15 +20,17 @@ ANSWER = "answer"
 
 N_PER_ROUND = 10
 
+Rounds = Mapping[str, List["TriviaItem"]]
+
 
 class TriviaItem:
-    def __init__(self, question, answer, filepath):
+    def __init__(self, question, answer, source):
         self.question = question
         self.answer = answer
-        self.filepath = filepath
+        self.source = source
 
     def __str__(self):
-        return f"Q:{self.question}; A:{self.answer}; P:{self.filepath}"
+        return f"Q:{self.question}; A:{self.answer}; P:{self.source}"
 
     def __repr__(self):
         return str(self)
@@ -54,9 +56,9 @@ def get_data() -> pd.DataFrame:
         df["random_id"] = df.apply(lambda row: uuid.uuid4().hex[:5], axis=1)
         df[SECTION] = f.stem
 
-        df[AUDIO_FILE] = f.stem + "_" + df["random_id"]
-        df[QUESTION] = "Q_" + df["random_id"]
-        df[ANSWER] = "A_" + df["random_id"]
+        df[AUDIO_FILE] = f.stem + df["random_id"]
+        df[QUESTION] = "Q" + df["random_id"]
+        df[ANSWER] = "A" + df["random_id"]
 
         dfs.append(df)
 
@@ -69,7 +71,7 @@ def get_data() -> pd.DataFrame:
 display(get_data())
 
 
-def get_rounds(df) -> Mapping[str, List[TriviaItem]]:
+def get_rounds(df) -> Rounds:
     sections = df[SECTION].unique()
     rounds = {}
 
@@ -83,7 +85,7 @@ def get_rounds(df) -> Mapping[str, List[TriviaItem]]:
         for i in range(n_subsections):
             start_idx = i * N_PER_ROUND
             end_idx = start_idx + N_PER_ROUND
-            round_name = f"{section.title()} (Q{start_idx+1}-Q{end_idx})"
+            round_name = f"{section.title()} (Q{start_idx+1}-{end_idx})"
             questions = section_df.iloc[start_idx:end_idx, :].apply(
                 lambda row: TriviaItem(row[QUESTION], row[ANSWER], row[AUDIO_FILE]),
                 axis=1,
@@ -94,11 +96,7 @@ def get_rounds(df) -> Mapping[str, List[TriviaItem]]:
     return rounds
 
 
-get_rounds(get_data())
-# %%
-
-
-def generate_latex(rounds):
+def generate_latex(rounds: Rounds):
     preamble = r"""
 \documentclass[11pt]{beamer}
 \usepackage{graphicx}
@@ -110,7 +108,7 @@ def generate_latex(rounds):
 \setbeamertemplate{navigation symbols}{\insertslidenavigationsymbol}
 \setbeamertemplate{page number in head/foot}{}
 \setbeamertemplate{blocks}[rounded][shadow=false]
-% \setbeamerfont{section in sidebar}{size=\fontsize{4}{3}\selectfont}
+\setbeamerfont{section in sidebar}{size=\fontsize{5}{4}\selectfont}
 % \setbeamerfont{subsection in sidebar}{size=\fontsize{4}{3}\selectfont}
 % \setbeamerfont{subsubsection in sidebar}{size=\fontsize{4}{2}\selectfont}
 
@@ -163,15 +161,16 @@ def generate_latex(rounds):
 \vspace{{2em}}
 \begin{{block}}{{Question}}
 {question}
-\begin{{center}}
-\includemedia[%
-    width=0.4\linewidth,
-    height=0.3\linewidth,
-    addresource={source},
-    flashvars={{source={source}}}
-  ]{}{VPlayer9.swf}
-\end{{center}}
 \end{{block}}
+\begin{{center}}
+Media goes here
+% \includemedia[%
+%     width=0.4\linewidth,
+%     height=0.3\linewidth,
+%     addresource={source},
+%     flashvars={{source={source}}}
+%   ]{{}}{{VPlayer9.swf}}
+\end{{center}}
 \end{{frame}}
     """
 
@@ -188,14 +187,23 @@ def generate_latex(rounds):
 \end{{frame}}
     """
 
-    for round_name, trivia_items in rounds.items():
+    # Rearrange to put bonus last (dicts remember insertion order)
+    new_rounds = {}
+    for k, v in rounds.items():
+        if k.startswith("Bonus"):
+            _bonus_k, _bonus_v = k, v
+            continue
+        new_rounds[k] = v
+    new_rounds[_bonus_k] = _bonus_v
+
+    for ri, (round_name, trivia_items) in enumerate(rounds.items()):
         round_frame_str = round_section_template_str.format(round_name=round_name)
         add_line(round_frame_str)
 
         # latex_items.append(r"\subsection{Questions}")
         for i, trivia_item in enumerate(trivia_items):
             question_frame_str = question_template_str.format(
-                question_number=i + 1,
+                question_number=ri * N_PER_ROUND + i + 1,
                 question_title=f"{round_name}, Question {i+1}",
                 question=trivia_item.question,
                 source=trivia_item.source,
@@ -246,10 +254,5 @@ def generate_latex(rounds):
     return latex_str
 
 
-def create_doc():
-    df = get_data()
-    text = generate_asciidoc(df)
-    with open("trivia_.asciidoc", "w") as f:
-        f.write(text)
-
-    subprocess.run(["asciidoc", "-b", "html5", "trivia_.asciidoc"])
+rounds = get_rounds(get_data())
+generate_latex(rounds)
