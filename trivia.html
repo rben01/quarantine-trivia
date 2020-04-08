@@ -534,6 +534,40 @@ body.manpage div.sectionbody {
 }
 
 
+@media screen {
+  body {
+    max-width: 50em; /* approximately 80 characters wide */
+    margin-left: 16em;
+  }
+
+  #toc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 13em;
+    padding: 0.5em;
+    padding-bottom: 1.5em;
+    margin: 0;
+    overflow: auto;
+    border-right: 3px solid #f8f8f8;
+    background-color: white;
+  }
+
+  #toc .toclevel1 {
+    margin-top: 0.5em;
+  }
+
+  #toc .toclevel2 {
+    margin-top: 0.25em;
+    display: list-item;
+    color: #aaaaaa;
+  }
+
+  #toctitle {
+    margin-top: 0.5em;
+  }
+}
 </style>
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -726,56 +760,3439 @@ install: function(toclevels) {
 }
 
 }
-asciidoc.install();
+asciidoc.install(2);
 /*]]>*/
 </script>
 </head>
 <body class="article">
 <div id="header">
 <h1>Music trivia</h1>
+<div id="toc">
+  <div id="toctitle">Welcome to Quarantine Music Trivia!</div>
+  <noscript><p><b>JavaScript must be enabled in your browser to display the table of contents.</b></p></noscript>
+</div>
 </div>
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
 <style>
 html, body { height: 100%; }
-.fullpage { overflow-y:auto;height: 100vh; }​
+.fullheight { overflow-y:auto; height:100vh; }​
+a { color:blue; }
+a:visited { color:blue; }
+a:active { color:blue; }
+a[tabindex]:focus { color:blue; outline:none; }
 </style>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_section">section</h2>
-<div class="sectionbody fullpage">
-<div class="openblock">
-<div class="content">
-<div class="audioblock">
-<div class="content">
-<audio src="file_example_MP3_1MG.mp3" controls>
-Your browser does not support the audio tag.
-</audio>
-</div></div>
-</div></div>
-</div>
-</div>
-<div class="sect1" class="fullpage">
-<h2 id="_section_2">section</h2>
+<h2 id="_welcome">Welcome</h2>
 <div class="sectionbody">
-<div class="openblock">
+</div>
+</div>
+<div class="sect1">
+<h2 id="s0">General (Q1&#8212;10)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-1">Q1</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 1</span></p></div>
+<div class="sect3">
+<h4 id="_question">Question</h4>
+<div class="paragraph"><p>Q5f127</p></div>
+<div class="videoblock">
 <div class="content">
-<div class="audioblock">
+<video src="LaTeX/Audio/Trimmed/Toto-Africa-Official-Music-Video-FTQbiNvZqaY.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer">Answer</h4>
+<button id="button_q0_0" onclick="toggle_hidden_q0_0()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0_0"><p>A5f127
+LaTeX/Audio/Trimmed/Toto-Africa-Official-Music-Video-FTQbiNvZqaY.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q0_0");
+z.style.display = "none"
+function toggle_hidden_q0_0() {
+  var x = document.getElementById("answer_q0_0");
+  var b = document.getElementByID("button_q0_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-2">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-2">Q2</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 2</span></p></div>
+<div class="sect3">
+<h4 id="_question_2">Question</h4>
+<div class="paragraph"><p>Qeed05</p></div>
+<div class="videoblock">
 <div class="content">
-<audio src="file_example_MP3_1MG.mp3" controls>
-Your browser does not support the audio tag.
-</audio>
+<video src="LaTeX/Audio/Trimmed/Meghan-Trainor-All-About-That-Bass-Official-Music-Video-7PCkvCPvDXk.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
 </div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_2">Answer</h4>
+<button id="button_q0_1" onclick="toggle_hidden_q0_1()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0_1"><p>Aeed05
+LaTeX/Audio/Trimmed/Meghan-Trainor-All-About-That-Bass-Official-Music-Video-7PCkvCPvDXk.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q0_1");
+z.style.display = "none"
+function toggle_hidden_q0_1() {
+  var x = document.getElementById("answer_q0_1");
+  var b = document.getElementByID("button_q0_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-1">Previous question</a><br>
+<a href="#s-General-Q1-10-q-3">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-3">Q3</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 3</span></p></div>
+<div class="sect3">
+<h4 id="_question_3">Question</h4>
+<div class="paragraph"><p>Q253a7</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/American-Pie-iX-TFkut1PM.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
 </div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_3">Answer</h4>
+<button id="button_q0_2" onclick="toggle_hidden_q0_2()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0_2"><p>A253a7
+LaTeX/Audio/Trimmed/American-Pie-iX-TFkut1PM.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q0_2");
+z.style.display = "none"
+function toggle_hidden_q0_2() {
+  var x = document.getElementById("answer_q0_2");
+  var b = document.getElementByID("button_q0_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-2">Previous question</a><br>
+<a href="#s-General-Q1-10-q-4">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-4">Q4</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 4</span></p></div>
+<div class="sect3">
+<h4 id="_question_4">Question</h4>
+<div class="paragraph"><p>Qbb8ca</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Carrie-Underwood-Before-He-Cheats-Official-Video-WaSy8yy-mr8.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_4">Answer</h4>
+<button id="button_q0_3" onclick="toggle_hidden_q0_3()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0_3"><p>Abb8ca
+LaTeX/Audio/Trimmed/Carrie-Underwood-Before-He-Cheats-Official-Video-WaSy8yy-mr8.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q0_3");
+z.style.display = "none"
+function toggle_hidden_q0_3() {
+  var x = document.getElementById("answer_q0_3");
+  var b = document.getElementByID("button_q0_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-3">Previous question</a><br>
+<a href="#s-General-Q1-10-q-5">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-5">Q5</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 5</span></p></div>
+<div class="sect3">
+<h4 id="_question_5">Question</h4>
+<div class="paragraph"><p>Q0df31</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_5">Answer</h4>
+<button id="button_q0_4" onclick="toggle_hidden_q0_4()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0_4"><p>A0df31
+LaTeX/Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q0_4");
+z.style.display = "none"
+function toggle_hidden_q0_4() {
+  var x = document.getElementById("answer_q0_4");
+  var b = document.getElementByID("button_q0_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-4">Previous question</a><br>
+<a href="#s-General-Q1-10-q-6">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-6">Q6</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 6</span></p></div>
+<div class="sect3">
+<h4 id="_question_6">Question</h4>
+<div class="paragraph"><p>Qb9d56</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Bruce-Springsteen-Born-to-Run-Official-Music-Video-IxuThNgl3YA.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_6">Answer</h4>
+<button id="button_q0_5" onclick="toggle_hidden_q0_5()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0_5"><p>Ab9d56
+LaTeX/Audio/Trimmed/Bruce-Springsteen-Born-to-Run-Official-Music-Video-IxuThNgl3YA.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q0_5");
+z.style.display = "none"
+function toggle_hidden_q0_5() {
+  var x = document.getElementById("answer_q0_5");
+  var b = document.getElementByID("button_q0_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-5">Previous question</a><br>
+<a href="#s-General-Q1-10-q-7">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-7">Q7</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 7</span></p></div>
+<div class="sect3">
+<h4 id="_question_7">Question</h4>
+<div class="paragraph"><p>Q1e97a</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Simon-Garfunkel-Bridge-Over-Troubled-Water-Audio-4G-YQA-bsOU.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_7">Answer</h4>
+<button id="button_q0_6" onclick="toggle_hidden_q0_6()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0_6"><p>A1e97a
+LaTeX/Audio/Trimmed/Simon-Garfunkel-Bridge-Over-Troubled-Water-Audio-4G-YQA-bsOU.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q0_6");
+z.style.display = "none"
+function toggle_hidden_q0_6() {
+  var x = document.getElementById("answer_q0_6");
+  var b = document.getElementByID("button_q0_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-6">Previous question</a><br>
+<a href="#s-General-Q1-10-q-8">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-8">Q8</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 8</span></p></div>
+<div class="sect3">
+<h4 id="_question_8">Question</h4>
+<div class="paragraph"><p>Q7b23d</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Build-Me-Up-Buttercup-Nl-2iEP1Wts.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_8">Answer</h4>
+<button id="button_q0_7" onclick="toggle_hidden_q0_7()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0_7"><p>A7b23d
+LaTeX/Audio/Trimmed/Build-Me-Up-Buttercup-Nl-2iEP1Wts.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q0_7");
+z.style.display = "none"
+function toggle_hidden_q0_7() {
+  var x = document.getElementById("answer_q0_7");
+  var b = document.getElementByID("button_q0_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-7">Previous question</a><br>
+<a href="#s-General-Q1-10-q-9">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-9">Q9</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 9</span></p></div>
+<div class="sect3">
+<h4 id="_question_9">Question</h4>
+<div class="paragraph"><p>Q34c62</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Carly-Rae-Jepsen-Call-Me-Maybe-fWNaR-rxAic.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_9">Answer</h4>
+<button id="button_q0_8" onclick="toggle_hidden_q0_8()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0_8"><p>A34c62
+LaTeX/Audio/Trimmed/Carly-Rae-Jepsen-Call-Me-Maybe-fWNaR-rxAic.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q0_8");
+z.style.display = "none"
+function toggle_hidden_q0_8() {
+  var x = document.getElementById("answer_q0_8");
+  var b = document.getElementByID("button_q0_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-8">Previous question</a><br>
+<a href="#s-General-Q1-10-q-10">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-10">Q10</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 10</span></p></div>
+<div class="sect3">
+<h4 id="_question_10">Question</h4>
+<div class="paragraph"><p>Qe1226</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_10">Answer</h4>
+<button id="button_q0_9" onclick="toggle_hidden_q0_9()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0_9"><p>Ae1226
+LaTeX/Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q0_9");
+z.style.display = "none"
+function toggle_hidden_q0_9() {
+  var x = document.getElementById("answer_q0_9");
+  var b = document.getElementByID("button_q0_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-9">Previous question</a><br>
+<a href="#s-General-Q11-20-q-11">Next question</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s1">General (Q11&#8212;20)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-11">Q11</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 11</span></p></div>
+<div class="sect3">
+<h4 id="_question_11">Question</h4>
+<div class="paragraph"><p>Qb87aa</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_11">Answer</h4>
+<button id="button_q1_0" onclick="toggle_hidden_q1_0()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1_0"><p>Ab87aa
+LaTeX/Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q1_0");
+z.style.display = "none"
+function toggle_hidden_q1_0() {
+  var x = document.getElementById("answer_q1_0");
+  var b = document.getElementByID("button_q1_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-10">Previous question</a><br>
+<a href="#s-General-Q11-20-q-12">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-12">Q12</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 12</span></p></div>
+<div class="sect3">
+<h4 id="_question_12">Question</h4>
+<div class="paragraph"><p>Q142a6</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Styx-Come-Sail-Away-Official-Video-e5MAg-yWsq8.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_12">Answer</h4>
+<button id="button_q1_1" onclick="toggle_hidden_q1_1()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1_1"><p>A142a6
+LaTeX/Audio/Trimmed/Styx-Come-Sail-Away-Official-Video-e5MAg-yWsq8.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q1_1");
+z.style.display = "none"
+function toggle_hidden_q1_1() {
+  var x = document.getElementById("answer_q1_1");
+  var b = document.getElementByID("button_q1_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-11">Previous question</a><br>
+<a href="#s-General-Q11-20-q-13">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-13">Q13</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 13</span></p></div>
+<div class="sect3">
+<h4 id="_question_13">Question</h4>
+<div class="paragraph"><p>Q358a3</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Gnarls-Barkley-Crazy-Official-Video-N4jf6rtyuw.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_13">Answer</h4>
+<button id="button_q1_2" onclick="toggle_hidden_q1_2()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1_2"><p>A358a3
+LaTeX/Audio/Trimmed/Gnarls-Barkley-Crazy-Official-Video-N4jf6rtyuw.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q1_2");
+z.style.display = "none"
+function toggle_hidden_q1_2() {
+  var x = document.getElementById("answer_q1_2");
+  var b = document.getElementByID("button_q1_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-12">Previous question</a><br>
+<a href="#s-General-Q11-20-q-14">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-14">Q14</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 14</span></p></div>
+<div class="sect3">
+<h4 id="_question_14">Question</h4>
+<div class="paragraph"><p>Q37155</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_14">Answer</h4>
+<button id="button_q1_3" onclick="toggle_hidden_q1_3()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1_3"><p>A37155
+LaTeX/Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q1_3");
+z.style.display = "none"
+function toggle_hidden_q1_3() {
+  var x = document.getElementById("answer_q1_3");
+  var b = document.getElementByID("button_q1_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-13">Previous question</a><br>
+<a href="#s-General-Q11-20-q-15">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-15">Q15</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 15</span></p></div>
+<div class="sect3">
+<h4 id="_question_15">Question</h4>
+<div class="paragraph"><p>Q95dbd</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/The-Police-Every-Breath-You-Take-OMOGaugKpzs.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_15">Answer</h4>
+<button id="button_q1_4" onclick="toggle_hidden_q1_4()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1_4"><p>A95dbd
+LaTeX/Audio/Trimmed/The-Police-Every-Breath-You-Take-OMOGaugKpzs.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q1_4");
+z.style.display = "none"
+function toggle_hidden_q1_4() {
+  var x = document.getElementById("answer_q1_4");
+  var b = document.getElementByID("button_q1_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-14">Previous question</a><br>
+<a href="#s-General-Q11-20-q-16">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-16">Q16</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 16</span></p></div>
+<div class="sect3">
+<h4 id="_question_16">Question</h4>
+<div class="paragraph"><p>Qffdf9</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_16">Answer</h4>
+<button id="button_q1_5" onclick="toggle_hidden_q1_5()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1_5"><p>Affdf9
+LaTeX/Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q1_5");
+z.style.display = "none"
+function toggle_hidden_q1_5() {
+  var x = document.getElementById("answer_q1_5");
+  var b = document.getElementByID("button_q1_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-15">Previous question</a><br>
+<a href="#s-General-Q11-20-q-17">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-17">Q17</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 17</span></p></div>
+<div class="sect3">
+<h4 id="_question_17">Question</h4>
+<div class="paragraph"><p>Qbbdb5</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Jonas-Blue-ft.-Dakota-Fast-Car-Official-Music-Video-0wpuR68uw-8.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_17">Answer</h4>
+<button id="button_q1_6" onclick="toggle_hidden_q1_6()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1_6"><p>Abbdb5
+LaTeX/Audio/Trimmed/Jonas-Blue-ft.-Dakota-Fast-Car-Official-Music-Video-0wpuR68uw-8.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q1_6");
+z.style.display = "none"
+function toggle_hidden_q1_6() {
+  var x = document.getElementById("answer_q1_6");
+  var b = document.getElementByID("button_q1_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-16">Previous question</a><br>
+<a href="#s-General-Q11-20-q-18">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-18">Q18</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 18</span></p></div>
+<div class="sect3">
+<h4 id="_question_18">Question</h4>
+<div class="paragraph"><p>Q27801</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Free-Bird-CqnU-sJ8V-E.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_18">Answer</h4>
+<button id="button_q1_7" onclick="toggle_hidden_q1_7()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1_7"><p>A27801
+LaTeX/Audio/Trimmed/Free-Bird-CqnU-sJ8V-E.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q1_7");
+z.style.display = "none"
+function toggle_hidden_q1_7() {
+  var x = document.getElementById("answer_q1_7");
+  var b = document.getElementByID("button_q1_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-17">Previous question</a><br>
+<a href="#s-General-Q11-20-q-19">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-19">Q19</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 19</span></p></div>
+<div class="sect3">
+<h4 id="_question_19">Question</h4>
+<div class="paragraph"><p>Qbfaf1</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Daft-Punk-Get-Lucky-Official-Audio-ft.-Pharrell-Williams-Nile-Rodgers-5NV6Rdv1a3I.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_19">Answer</h4>
+<button id="button_q1_8" onclick="toggle_hidden_q1_8()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1_8"><p>Abfaf1
+LaTeX/Audio/Trimmed/Daft-Punk-Get-Lucky-Official-Audio-ft.-Pharrell-Williams-Nile-Rodgers-5NV6Rdv1a3I.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q1_8");
+z.style.display = "none"
+function toggle_hidden_q1_8() {
+  var x = document.getElementById("answer_q1_8");
+  var b = document.getElementByID("button_q1_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-18">Previous question</a><br>
+<a href="#s-General-Q11-20-q-20">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-20">Q20</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 20</span></p></div>
+<div class="sect3">
+<h4 id="_question_20">Question</h4>
+<div class="paragraph"><p>Qcca47</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_20">Answer</h4>
+<button id="button_q1_9" onclick="toggle_hidden_q1_9()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1_9"><p>Acca47
+LaTeX/Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q1_9");
+z.style.display = "none"
+function toggle_hidden_q1_9() {
+  var x = document.getElementById("answer_q1_9");
+  var b = document.getElementByID("button_q1_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-19">Previous question</a><br>
+<a href="#s-General-Q21-30-q-21">Next question</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s2">General (Q21&#8212;30)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-21">Q21</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 21</span></p></div>
+<div class="sect3">
+<h4 id="_question_21">Question</h4>
+<div class="paragraph"><p>Q8f97a</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_21">Answer</h4>
+<button id="button_q2_0" onclick="toggle_hidden_q2_0()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2_0"><p>A8f97a
+LaTeX/Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q2_0");
+z.style.display = "none"
+function toggle_hidden_q2_0() {
+  var x = document.getElementById("answer_q2_0");
+  var b = document.getElementByID("button_q2_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-20">Previous question</a><br>
+<a href="#s-General-Q21-30-q-22">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-22">Q22</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 22</span></p></div>
+<div class="sect3">
+<h4 id="_question_22">Question</h4>
+<div class="paragraph"><p>Q5e69d</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_22">Answer</h4>
+<button id="button_q2_1" onclick="toggle_hidden_q2_1()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2_1"><p>A5e69d
+LaTeX/Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q2_1");
+z.style.display = "none"
+function toggle_hidden_q2_1() {
+  var x = document.getElementById("answer_q2_1");
+  var b = document.getElementByID("button_q2_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-21">Previous question</a><br>
+<a href="#s-General-Q21-30-q-23">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-23">Q23</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 23</span></p></div>
+<div class="sect3">
+<h4 id="_question_23">Question</h4>
+<div class="paragraph"><p>Qfc187</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_23">Answer</h4>
+<button id="button_q2_2" onclick="toggle_hidden_q2_2()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2_2"><p>Afc187
+LaTeX/Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q2_2");
+z.style.display = "none"
+function toggle_hidden_q2_2() {
+  var x = document.getElementById("answer_q2_2");
+  var b = document.getElementByID("button_q2_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-22">Previous question</a><br>
+<a href="#s-General-Q21-30-q-24">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-24">Q24</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 24</span></p></div>
+<div class="sect3">
+<h4 id="_question_24">Question</h4>
+<div class="paragraph"><p>Q5192f</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/GOOD-VIBRATIONS-HD-THE-BEACH-BOYS-mdt0SOqPJcg.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_24">Answer</h4>
+<button id="button_q2_3" onclick="toggle_hidden_q2_3()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2_3"><p>A5192f
+LaTeX/Audio/Trimmed/GOOD-VIBRATIONS-HD-THE-BEACH-BOYS-mdt0SOqPJcg.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q2_3");
+z.style.display = "none"
+function toggle_hidden_q2_3() {
+  var x = document.getElementById("answer_q2_3");
+  var b = document.getElementByID("button_q2_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-23">Previous question</a><br>
+<a href="#s-General-Q21-30-q-25">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-25">Q25</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 25</span></p></div>
+<div class="sect3">
+<h4 id="_question_25">Question</h4>
+<div class="paragraph"><p>Qc684f</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Pharrell-Williams-Happy-Official-Music-Video-ZbZSe6N-BXs.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_25">Answer</h4>
+<button id="button_q2_4" onclick="toggle_hidden_q2_4()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2_4"><p>Ac684f
+LaTeX/Audio/Trimmed/Pharrell-Williams-Happy-Official-Music-Video-ZbZSe6N-BXs.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q2_4");
+z.style.display = "none"
+function toggle_hidden_q2_4() {
+  var x = document.getElementById("answer_q2_4");
+  var b = document.getElementByID("button_q2_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-24">Previous question</a><br>
+<a href="#s-General-Q21-30-q-26">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-26">Q26</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 26</span></p></div>
+<div class="sect3">
+<h4 id="_question_26">Question</h4>
+<div class="paragraph"><p>Qf685f</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Creedence-Clearwater-Revival-Have-You-Ever-Seen-The-Rain-Gu2pVPWGYMQ.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_26">Answer</h4>
+<button id="button_q2_5" onclick="toggle_hidden_q2_5()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2_5"><p>Af685f
+LaTeX/Audio/Trimmed/Creedence-Clearwater-Revival-Have-You-Ever-Seen-The-Rain-Gu2pVPWGYMQ.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q2_5");
+z.style.display = "none"
+function toggle_hidden_q2_5() {
+  var x = document.getElementById("answer_q2_5");
+  var b = document.getElementByID("button_q2_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-25">Previous question</a><br>
+<a href="#s-General-Q21-30-q-27">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-27">Q27</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 27</span></p></div>
+<div class="sect3">
+<h4 id="_question_27">Question</h4>
+<div class="paragraph"><p>Qcc41b</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Avicii-Hey-Brother-Lyric-YxIiPLVR6NA.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_27">Answer</h4>
+<button id="button_q2_6" onclick="toggle_hidden_q2_6()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2_6"><p>Acc41b
+LaTeX/Audio/Trimmed/Avicii-Hey-Brother-Lyric-YxIiPLVR6NA.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q2_6");
+z.style.display = "none"
+function toggle_hidden_q2_6() {
+  var x = document.getElementById("answer_q2_6");
+  var b = document.getElementByID("button_q2_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-26">Previous question</a><br>
+<a href="#s-General-Q21-30-q-28">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-28">Q28</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 28</span></p></div>
+<div class="sect3">
+<h4 id="_question_28">Question</h4>
+<div class="paragraph"><p>Qec1f6</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_28">Answer</h4>
+<button id="button_q2_7" onclick="toggle_hidden_q2_7()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2_7"><p>Aec1f6
+LaTeX/Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q2_7");
+z.style.display = "none"
+function toggle_hidden_q2_7() {
+  var x = document.getElementById("answer_q2_7");
+  var b = document.getElementByID("button_q2_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-27">Previous question</a><br>
+<a href="#s-General-Q21-30-q-29">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-29">Q29</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 29</span></p></div>
+<div class="sect3">
+<h4 id="_question_29">Question</h4>
+<div class="paragraph"><p>Q9e0b4</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_29">Answer</h4>
+<button id="button_q2_8" onclick="toggle_hidden_q2_8()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2_8"><p>A9e0b4
+LaTeX/Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q2_8");
+z.style.display = "none"
+function toggle_hidden_q2_8() {
+  var x = document.getElementById("answer_q2_8");
+  var b = document.getElementByID("button_q2_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-28">Previous question</a><br>
+<a href="#s-General-Q21-30-q-30">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-30">Q30</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 30</span></p></div>
+<div class="sect3">
+<h4 id="_question_30">Question</h4>
+<div class="paragraph"><p>Qc1b0e</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_30">Answer</h4>
+<button id="button_q2_9" onclick="toggle_hidden_q2_9()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2_9"><p>Ac1b0e
+LaTeX/Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q2_9");
+z.style.display = "none"
+function toggle_hidden_q2_9() {
+  var x = document.getElementById("answer_q2_9");
+  var b = document.getElementByID("button_q2_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-29">Previous question</a><br>
+<a href="#s-General-Q31-40-q-31">Next question</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s3">General (Q31&#8212;40)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-31">Q31</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 31</span></p></div>
+<div class="sect3">
+<h4 id="_question_31">Question</h4>
+<div class="paragraph"><p>Q1468b</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/GLORIA-GAYNOR-I-Will-Survive-Original-Single-Version-Vne-5xnxpRg.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_31">Answer</h4>
+<button id="button_q3_0" onclick="toggle_hidden_q3_0()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3_0"><p>A1468b
+LaTeX/Audio/Trimmed/GLORIA-GAYNOR-I-Will-Survive-Original-Single-Version-Vne-5xnxpRg.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q3_0");
+z.style.display = "none"
+function toggle_hidden_q3_0() {
+  var x = document.getElementById("answer_q3_0");
+  var b = document.getElementByID("button_q3_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-30">Previous question</a><br>
+<a href="#s-General-Q31-40-q-32">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-32">Q32</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 32</span></p></div>
+<div class="sect3">
+<h4 id="_question_32">Question</h4>
+<div class="paragraph"><p>Qbc752</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Imagine-Ultimate-Mix-0DNwYnJivJw.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_32">Answer</h4>
+<button id="button_q3_1" onclick="toggle_hidden_q3_1()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3_1"><p>Abc752
+LaTeX/Audio/Trimmed/Imagine-Ultimate-Mix-0DNwYnJivJw.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q3_1");
+z.style.display = "none"
+function toggle_hidden_q3_1() {
+  var x = document.getElementById("answer_q3_1");
+  var b = document.getElementByID("button_q3_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-31">Previous question</a><br>
+<a href="#s-General-Q31-40-q-33">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-33">Q33</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 33</span></p></div>
+<div class="sect3">
+<h4 id="_question_33">Question</h4>
+<div class="paragraph"><p>Q18663</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_33">Answer</h4>
+<button id="button_q3_2" onclick="toggle_hidden_q3_2()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3_2"><p>A18663
+LaTeX/Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q3_2");
+z.style.display = "none"
+function toggle_hidden_q3_2() {
+  var x = document.getElementById("answer_q3_2");
+  var b = document.getElementByID("button_q3_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-32">Previous question</a><br>
+<a href="#s-General-Q31-40-q-34">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-34">Q34</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 34</span></p></div>
+<div class="sect3">
+<h4 id="_question_34">Question</h4>
+<div class="paragraph"><p>Qbf7b3</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_34">Answer</h4>
+<button id="button_q3_3" onclick="toggle_hidden_q3_3()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3_3"><p>Abf7b3
+LaTeX/Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q3_3");
+z.style.display = "none"
+function toggle_hidden_q3_3() {
+  var x = document.getElementById("answer_q3_3");
+  var b = document.getElementByID("button_q3_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-33">Previous question</a><br>
+<a href="#s-General-Q31-40-q-35">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-35">Q35</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 35</span></p></div>
+<div class="sect3">
+<h4 id="_question_35">Question</h4>
+<div class="paragraph"><p>Qa4f95</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Elvis-Presley-Jailhouse-Rock-Music-Video-gj0Rz-uP4Mk.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_35">Answer</h4>
+<button id="button_q3_4" onclick="toggle_hidden_q3_4()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3_4"><p>Aa4f95
+LaTeX/Audio/Trimmed/Elvis-Presley-Jailhouse-Rock-Music-Video-gj0Rz-uP4Mk.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q3_4");
+z.style.display = "none"
+function toggle_hidden_q3_4() {
+  var x = document.getElementById("answer_q3_4");
+  var b = document.getElementByID("button_q3_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-34">Previous question</a><br>
+<a href="#s-General-Q31-40-q-36">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-36">Q36</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 36</span></p></div>
+<div class="sect3">
+<h4 id="_question_36">Question</h4>
+<div class="paragraph"><p>Q8e076</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_36">Answer</h4>
+<button id="button_q3_5" onclick="toggle_hidden_q3_5()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3_5"><p>A8e076
+LaTeX/Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q3_5");
+z.style.display = "none"
+function toggle_hidden_q3_5() {
+  var x = document.getElementById("answer_q3_5");
+  var b = document.getElementByID("button_q3_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-35">Previous question</a><br>
+<a href="#s-General-Q31-40-q-37">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-37">Q37</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 37</span></p></div>
+<div class="sect3">
+<h4 id="_question_37">Question</h4>
+<div class="paragraph"><p>Qca6e7</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Dolly-Parton-Jolene-Audio-Ixrje2rXLMA.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_37">Answer</h4>
+<button id="button_q3_6" onclick="toggle_hidden_q3_6()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3_6"><p>Aca6e7
+LaTeX/Audio/Trimmed/Dolly-Parton-Jolene-Audio-Ixrje2rXLMA.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q3_6");
+z.style.display = "none"
+function toggle_hidden_q3_6() {
+  var x = document.getElementById("answer_q3_6");
+  var b = document.getElementByID("button_q3_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-36">Previous question</a><br>
+<a href="#s-General-Q31-40-q-38">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-38">Q38</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 38</span></p></div>
+<div class="sect3">
+<h4 id="_question_38">Question</h4>
+<div class="paragraph"><p>Qdde70</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Culture-Club-Karma-Chameleon-Official-Video-JmcA9LIIXWw.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_38">Answer</h4>
+<button id="button_q3_7" onclick="toggle_hidden_q3_7()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3_7"><p>Adde70
+LaTeX/Audio/Trimmed/Culture-Club-Karma-Chameleon-Official-Video-JmcA9LIIXWw.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q3_7");
+z.style.display = "none"
+function toggle_hidden_q3_7() {
+  var x = document.getElementById("answer_q3_7");
+  var b = document.getElementByID("button_q3_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-37">Previous question</a><br>
+<a href="#s-General-Q31-40-q-39">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-39">Q39</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 39</span></p></div>
+<div class="sect3">
+<h4 id="_question_39">Question</h4>
+<div class="paragraph"><p>Q417b5</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/-Lean-On-Me-singer-Bill-Withers-dies-at-81-DN-dvc5bBWM.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_39">Answer</h4>
+<button id="button_q3_8" onclick="toggle_hidden_q3_8()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3_8"><p>A417b5
+LaTeX/Audio/Trimmed/-Lean-On-Me-singer-Bill-Withers-dies-at-81-DN-dvc5bBWM.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q3_8");
+z.style.display = "none"
+function toggle_hidden_q3_8() {
+  var x = document.getElementById("answer_q3_8");
+  var b = document.getElementByID("button_q3_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-38">Previous question</a><br>
+<a href="#s-General-Q31-40-q-40">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-40">Q40</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 40</span></p></div>
+<div class="sect3">
+<h4 id="_question_40">Question</h4>
+<div class="paragraph"><p>Q62d5e</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_40">Answer</h4>
+<button id="button_q3_9" onclick="toggle_hidden_q3_9()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3_9"><p>A62d5e
+LaTeX/Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q3_9");
+z.style.display = "none"
+function toggle_hidden_q3_9() {
+  var x = document.getElementById("answer_q3_9");
+  var b = document.getElementByID("button_q3_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-39">Previous question</a><br>
+<a href="#s-General-Q41-50-q-41">Next question</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s4">General (Q41&#8212;50)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-41">Q41</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 41</span></p></div>
+<div class="sect3">
+<h4 id="_question_41">Question</h4>
+<div class="paragraph"><p>Q672c6</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Jimmy-Buffett-Margaritaville-with-lyrics-ue2-ZVxpVjc.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_41">Answer</h4>
+<button id="button_q4_0" onclick="toggle_hidden_q4_0()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4_0"><p>A672c6
+LaTeX/Audio/Trimmed/Jimmy-Buffett-Margaritaville-with-lyrics-ue2-ZVxpVjc.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q4_0");
+z.style.display = "none"
+function toggle_hidden_q4_0() {
+  var x = document.getElementById("answer_q4_0");
+  var b = document.getElementByID("button_q4_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-40">Previous question</a><br>
+<a href="#s-General-Q41-50-q-42">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-42">Q42</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 42</span></p></div>
+<div class="sect3">
+<h4 id="_question_42">Question</h4>
+<div class="paragraph"><p>Q00eda</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Madonna-Material-Girl-Official-Music-Video-6p-lDYPR2P8.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_42">Answer</h4>
+<button id="button_q4_1" onclick="toggle_hidden_q4_1()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4_1"><p>A00eda
+LaTeX/Audio/Trimmed/Madonna-Material-Girl-Official-Music-Video-6p-lDYPR2P8.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q4_1");
+z.style.display = "none"
+function toggle_hidden_q4_1() {
+  var x = document.getElementById("answer_q4_1");
+  var b = document.getElementByID("button_q4_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-41">Previous question</a><br>
+<a href="#s-General-Q41-50-q-43">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-43">Q43</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 43</span></p></div>
+<div class="sect3">
+<h4 id="_question_43">Question</h4>
+<div class="paragraph"><p>Qea326</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Moondance-2013-Remaster-7kfYOGndVfU.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_43">Answer</h4>
+<button id="button_q4_2" onclick="toggle_hidden_q4_2()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4_2"><p>Aea326
+LaTeX/Audio/Trimmed/Moondance-2013-Remaster-7kfYOGndVfU.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q4_2");
+z.style.display = "none"
+function toggle_hidden_q4_2() {
+  var x = document.getElementById("answer_q4_2");
+  var b = document.getElementByID("button_q4_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-42">Previous question</a><br>
+<a href="#s-General-Q41-50-q-44">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-44">Q44</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 44</span></p></div>
+<div class="sect3">
+<h4 id="_question_44">Question</h4>
+<div class="paragraph"><p>Q03952</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_44">Answer</h4>
+<button id="button_q4_3" onclick="toggle_hidden_q4_3()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4_3"><p>A03952
+LaTeX/Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q4_3");
+z.style.display = "none"
+function toggle_hidden_q4_3() {
+  var x = document.getElementById("answer_q4_3");
+  var b = document.getElementByID("button_q4_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-43">Previous question</a><br>
+<a href="#s-General-Q41-50-q-45">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-45">Q45</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 45</span></p></div>
+<div class="sect3">
+<h4 id="_question_45">Question</h4>
+<div class="paragraph"><p>Q015f9</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_45">Answer</h4>
+<button id="button_q4_4" onclick="toggle_hidden_q4_4()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4_4"><p>A015f9
+LaTeX/Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q4_4");
+z.style.display = "none"
+function toggle_hidden_q4_4() {
+  var x = document.getElementById("answer_q4_4");
+  var b = document.getElementByID("button_q4_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-44">Previous question</a><br>
+<a href="#s-General-Q41-50-q-46">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-46">Q46</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 46</span></p></div>
+<div class="sect3">
+<h4 id="_question_46">Question</h4>
+<div class="paragraph"><p>Q2b315</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Lil-Nas-X-Old-Town-Road-feat.-Billy-Ray-Cyrus-Remix-7ysFgElQtjI.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_46">Answer</h4>
+<button id="button_q4_5" onclick="toggle_hidden_q4_5()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4_5"><p>A2b315
+LaTeX/Audio/Trimmed/Lil-Nas-X-Old-Town-Road-feat.-Billy-Ray-Cyrus-Remix-7ysFgElQtjI.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q4_5");
+z.style.display = "none"
+function toggle_hidden_q4_5() {
+  var x = document.getElementById("answer_q4_5");
+  var b = document.getElementByID("button_q4_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-45">Previous question</a><br>
+<a href="#s-General-Q41-50-q-47">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-47">Q47</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 47</span></p></div>
+<div class="sect3">
+<h4 id="_question_47">Question</h4>
+<div class="paragraph"><p>Qe4f17</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/One-Way-Or-Another-Remastered-Fnb1xYDViDs.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_47">Answer</h4>
+<button id="button_q4_6" onclick="toggle_hidden_q4_6()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4_6"><p>Ae4f17
+LaTeX/Audio/Trimmed/One-Way-Or-Another-Remastered-Fnb1xYDViDs.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q4_6");
+z.style.display = "none"
+function toggle_hidden_q4_6() {
+  var x = document.getElementById("answer_q4_6");
+  var b = document.getElementByID("button_q4_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-46">Previous question</a><br>
+<a href="#s-General-Q41-50-q-48">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-48">Q48</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 48</span></p></div>
+<div class="sect3">
+<h4 id="_question_48">Question</h4>
+<div class="paragraph"><p>Q69bc9</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Yes-Owner-of-a-Lonely-Heart-HQ-7LLzPPFc21o.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_48">Answer</h4>
+<button id="button_q4_7" onclick="toggle_hidden_q4_7()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4_7"><p>A69bc9
+LaTeX/Audio/Trimmed/Yes-Owner-of-a-Lonely-Heart-HQ-7LLzPPFc21o.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q4_7");
+z.style.display = "none"
+function toggle_hidden_q4_7() {
+  var x = document.getElementById("answer_q4_7");
+  var b = document.getElementByID("button_q4_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-47">Previous question</a><br>
+<a href="#s-General-Q41-50-q-49">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-49">Q49</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 49</span></p></div>
+<div class="sect3">
+<h4 id="_question_49">Question</h4>
+<div class="paragraph"><p>Q489ef</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/The-Rolling-Stones-Paint-It-Black-Official-Lyric-Video-O4irXQhgMqg.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_49">Answer</h4>
+<button id="button_q4_8" onclick="toggle_hidden_q4_8()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4_8"><p>A489ef
+LaTeX/Audio/Trimmed/The-Rolling-Stones-Paint-It-Black-Official-Lyric-Video-O4irXQhgMqg.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q4_8");
+z.style.display = "none"
+function toggle_hidden_q4_8() {
+  var x = document.getElementById("answer_q4_8");
+  var b = document.getElementByID("button_q4_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-48">Previous question</a><br>
+<a href="#s-General-Q41-50-q-50">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-50">Q50</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 50</span></p></div>
+<div class="sect3">
+<h4 id="_question_50">Question</h4>
+<div class="paragraph"><p>Q684d2</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Elvis-Costello-The-Attractions-Pump-It-Up-3Y71iDvCYXA.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_50">Answer</h4>
+<button id="button_q4_9" onclick="toggle_hidden_q4_9()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4_9"><p>A684d2
+LaTeX/Audio/Trimmed/Elvis-Costello-The-Attractions-Pump-It-Up-3Y71iDvCYXA.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q4_9");
+z.style.display = "none"
+function toggle_hidden_q4_9() {
+  var x = document.getElementById("answer_q4_9");
+  var b = document.getElementByID("button_q4_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-49">Previous question</a><br>
+<a href="#s-General-Q51-60-q-51">Next question</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s5">General (Q51&#8212;60)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-51">Q51</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 51</span></p></div>
+<div class="sect3">
+<h4 id="_question_51">Question</h4>
+<div class="paragraph"><p>Qe5133</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Jason-Derulo-Ridin-Solo-Official-Video-in-HD-8ESdn0MuJWQ.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_51">Answer</h4>
+<button id="button_q5_0" onclick="toggle_hidden_q5_0()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5_0"><p>Ae5133
+LaTeX/Audio/Trimmed/Jason-Derulo-Ridin-Solo-Official-Video-in-HD-8ESdn0MuJWQ.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q5_0");
+z.style.display = "none"
+function toggle_hidden_q5_0() {
+  var x = document.getElementById("answer_q5_0");
+  var b = document.getElementByID("button_q5_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-50">Previous question</a><br>
+<a href="#s-General-Q51-60-q-52">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-52">Q52</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 52</span></p></div>
+<div class="sect3">
+<h4 id="_question_52">Question</h4>
+<div class="paragraph"><p>Q3d9fb</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_52">Answer</h4>
+<button id="button_q5_1" onclick="toggle_hidden_q5_1()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5_1"><p>A3d9fb
+LaTeX/Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q5_1");
+z.style.display = "none"
+function toggle_hidden_q5_1() {
+  var x = document.getElementById("answer_q5_1");
+  var b = document.getElementByID("button_q5_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-51">Previous question</a><br>
+<a href="#s-General-Q51-60-q-53">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-53">Q53</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 53</span></p></div>
+<div class="sect3">
+<h4 id="_question_53">Question</h4>
+<div class="paragraph"><p>Q35f5c</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Lorde-Royals-US-Version-nlcIKh6sBtc.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_53">Answer</h4>
+<button id="button_q5_2" onclick="toggle_hidden_q5_2()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5_2"><p>A35f5c
+LaTeX/Audio/Trimmed/Lorde-Royals-US-Version-nlcIKh6sBtc.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q5_2");
+z.style.display = "none"
+function toggle_hidden_q5_2() {
+  var x = document.getElementById("answer_q5_2");
+  var b = document.getElementByID("button_q5_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-52">Previous question</a><br>
+<a href="#s-General-Q51-60-q-54">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-54">Q54</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 54</span></p></div>
+<div class="sect3">
+<h4 id="_question_54">Question</h4>
+<div class="paragraph"><p>Q567ee</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_54">Answer</h4>
+<button id="button_q5_3" onclick="toggle_hidden_q5_3()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5_3"><p>A567ee
+LaTeX/Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q5_3");
+z.style.display = "none"
+function toggle_hidden_q5_3() {
+  var x = document.getElementById("answer_q5_3");
+  var b = document.getElementByID("button_q5_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-53">Previous question</a><br>
+<a href="#s-General-Q51-60-q-55">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-55">Q55</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 55</span></p></div>
+<div class="sect3">
+<h4 id="_question_55">Question</h4>
+<div class="paragraph"><p>Q51552</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_55">Answer</h4>
+<button id="button_q5_4" onclick="toggle_hidden_q5_4()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5_4"><p>A51552
+LaTeX/Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q5_4");
+z.style.display = "none"
+function toggle_hidden_q5_4() {
+  var x = document.getElementById("answer_q5_4");
+  var b = document.getElementByID("button_q5_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-54">Previous question</a><br>
+<a href="#s-General-Q51-60-q-56">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-56">Q56</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 56</span></p></div>
+<div class="sect3">
+<h4 id="_question_56">Question</h4>
+<div class="paragraph"><p>Q0543a</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Nirvana-Smells-Like-Teen-Spirit-Official-Music-Video-hTWKbfoikeg.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_56">Answer</h4>
+<button id="button_q5_5" onclick="toggle_hidden_q5_5()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5_5"><p>A0543a
+LaTeX/Audio/Trimmed/Nirvana-Smells-Like-Teen-Spirit-Official-Music-Video-hTWKbfoikeg.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q5_5");
+z.style.display = "none"
+function toggle_hidden_q5_5() {
+  var x = document.getElementById("answer_q5_5");
+  var b = document.getElementByID("button_q5_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-55">Previous question</a><br>
+<a href="#s-General-Q51-60-q-57">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-57">Q57</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 57</span></p></div>
+<div class="sect3">
+<h4 id="_question_57">Question</h4>
+<div class="paragraph"><p>Q28ef7</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Kanye-West-Stronger-PsO6ZnUZI0g.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_57">Answer</h4>
+<button id="button_q5_6" onclick="toggle_hidden_q5_6()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5_6"><p>A28ef7
+LaTeX/Audio/Trimmed/Kanye-West-Stronger-PsO6ZnUZI0g.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q5_6");
+z.style.display = "none"
+function toggle_hidden_q5_6() {
+  var x = document.getElementById("answer_q5_6");
+  var b = document.getElementByID("button_q5_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-56">Previous question</a><br>
+<a href="#s-General-Q51-60-q-58">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-58">Q58</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 58</span></p></div>
+<div class="sect3">
+<h4 id="_question_58">Question</h4>
+<div class="paragraph"><p>Q74b9b</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Elvis-Presley-Suspicious-Minds-Audio-RxOBOhRECoo.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_58">Answer</h4>
+<button id="button_q5_7" onclick="toggle_hidden_q5_7()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5_7"><p>A74b9b
+LaTeX/Audio/Trimmed/Elvis-Presley-Suspicious-Minds-Audio-RxOBOhRECoo.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q5_7");
+z.style.display = "none"
+function toggle_hidden_q5_7() {
+  var x = document.getElementById("answer_q5_7");
+  var b = document.getElementByID("button_q5_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-57">Previous question</a><br>
+<a href="#s-General-Q51-60-q-59">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-59">Q59</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 59</span></p></div>
+<div class="sect3">
+<h4 id="_question_59">Question</h4>
+<div class="paragraph"><p>Q6af6a</p></div>
+<div class="videoblock">
+<div class="content">
+<video src="LaTeX/Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4" width="300" controls>
+Your browser does not support the video tag.
+</video>
+</div></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_59">Answer</h4>
+<button id="button_q5_8" onclick="toggle_hidden_q5_8()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5_8"><p>A6af6a
+LaTeX/Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4</p></div>
+<script>
+var z = document.getElementById("answer_q5_8");
+z.style.display = "none"
+function toggle_hidden_q5_8() {
+  var x = document.getElementById("answer_q5_8");
+  var b = document.getElementByID("button_q5_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-58">Previous question</a><br>
+<a href="#s-General-Q51-60-q-60">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-60">Q60</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 60</span></p></div>
+<div class="sect3">
+<h4 id="_question_60">Question</h4>
+<div class="paragraph"><p>Qd7a29</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_60">Answer</h4>
+<button id="button_q5_9" onclick="toggle_hidden_q5_9()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5_9"><p>Ad7a29
+None</p></div>
+<script>
+var z = document.getElementById("answer_q5_9");
+z.style.display = "none"
+function toggle_hidden_q5_9() {
+  var x = document.getElementById("answer_q5_9");
+  var b = document.getElementByID("button_q5_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-59">Previous question</a><br>
+<a href="#s-General-Q61-70-q-61">Next question</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s6">General (Q61&#8212;70)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q61-70-q-61">Q61</h3>
+<div class="paragraph"><p><span class="big">General (Q61&#8212;70): Question 61</span></p></div>
+<div class="sect3">
+<h4 id="_question_61">Question</h4>
+<div class="paragraph"><p>Q98cf4</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_61">Answer</h4>
+<button id="button_q6_0" onclick="toggle_hidden_q6_0()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6_0"><p>A98cf4
+None</p></div>
+<script>
+var z = document.getElementById("answer_q6_0");
+z.style.display = "none"
+function toggle_hidden_q6_0() {
+  var x = document.getElementById("answer_q6_0");
+  var b = document.getElementByID("button_q6_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-60">Previous question</a><br>
+<a href="#s-General-Q61-70-q-62">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q61-70-q-62">Q62</h3>
+<div class="paragraph"><p><span class="big">General (Q61&#8212;70): Question 62</span></p></div>
+<div class="sect3">
+<h4 id="_question_62">Question</h4>
+<div class="paragraph"><p>Q69686</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_62">Answer</h4>
+<button id="button_q6_1" onclick="toggle_hidden_q6_1()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6_1"><p>A69686
+None</p></div>
+<script>
+var z = document.getElementById("answer_q6_1");
+z.style.display = "none"
+function toggle_hidden_q6_1() {
+  var x = document.getElementById("answer_q6_1");
+  var b = document.getElementByID("button_q6_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q61-70-q-61">Previous question</a><br>
+<a href="#s-General-Q61-70-q-63">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q61-70-q-63">Q63</h3>
+<div class="paragraph"><p><span class="big">General (Q61&#8212;70): Question 63</span></p></div>
+<div class="sect3">
+<h4 id="_question_63">Question</h4>
+<div class="paragraph"><p>Q5335d</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_63">Answer</h4>
+<button id="button_q6_2" onclick="toggle_hidden_q6_2()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6_2"><p>A5335d
+None</p></div>
+<script>
+var z = document.getElementById("answer_q6_2");
+z.style.display = "none"
+function toggle_hidden_q6_2() {
+  var x = document.getElementById("answer_q6_2");
+  var b = document.getElementByID("button_q6_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q61-70-q-62">Previous question</a><br>
+<a href="#s-General-Q61-70-q-64">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q61-70-q-64">Q64</h3>
+<div class="paragraph"><p><span class="big">General (Q61&#8212;70): Question 64</span></p></div>
+<div class="sect3">
+<h4 id="_question_64">Question</h4>
+<div class="paragraph"><p>Qad3e2</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_64">Answer</h4>
+<button id="button_q6_3" onclick="toggle_hidden_q6_3()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6_3"><p>Aad3e2
+None</p></div>
+<script>
+var z = document.getElementById("answer_q6_3");
+z.style.display = "none"
+function toggle_hidden_q6_3() {
+  var x = document.getElementById("answer_q6_3");
+  var b = document.getElementByID("button_q6_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q61-70-q-63">Previous question</a><br>
+<a href="#s-General-Q61-70-q-65">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q61-70-q-65">Q65</h3>
+<div class="paragraph"><p><span class="big">General (Q61&#8212;70): Question 65</span></p></div>
+<div class="sect3">
+<h4 id="_question_65">Question</h4>
+<div class="paragraph"><p>Q8a75d</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_65">Answer</h4>
+<button id="button_q6_4" onclick="toggle_hidden_q6_4()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6_4"><p>A8a75d
+None</p></div>
+<script>
+var z = document.getElementById("answer_q6_4");
+z.style.display = "none"
+function toggle_hidden_q6_4() {
+  var x = document.getElementById("answer_q6_4");
+  var b = document.getElementByID("button_q6_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q61-70-q-64">Previous question</a><br>
+<a href="#s-General-Q61-70-q-66">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q61-70-q-66">Q66</h3>
+<div class="paragraph"><p><span class="big">General (Q61&#8212;70): Question 66</span></p></div>
+<div class="sect3">
+<h4 id="_question_66">Question</h4>
+<div class="paragraph"><p>Q33e49</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_66">Answer</h4>
+<button id="button_q6_5" onclick="toggle_hidden_q6_5()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6_5"><p>A33e49
+None</p></div>
+<script>
+var z = document.getElementById("answer_q6_5");
+z.style.display = "none"
+function toggle_hidden_q6_5() {
+  var x = document.getElementById("answer_q6_5");
+  var b = document.getElementByID("button_q6_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q61-70-q-65">Previous question</a><br>
+<a href="#s-General-Q61-70-q-67">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q61-70-q-67">Q67</h3>
+<div class="paragraph"><p><span class="big">General (Q61&#8212;70): Question 67</span></p></div>
+<div class="sect3">
+<h4 id="_question_67">Question</h4>
+<div class="paragraph"><p>Q4afb7</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_67">Answer</h4>
+<button id="button_q6_6" onclick="toggle_hidden_q6_6()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6_6"><p>A4afb7
+None</p></div>
+<script>
+var z = document.getElementById("answer_q6_6");
+z.style.display = "none"
+function toggle_hidden_q6_6() {
+  var x = document.getElementById("answer_q6_6");
+  var b = document.getElementByID("button_q6_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q61-70-q-66">Previous question</a><br>
+<a href="#s-General-Q61-70-q-68">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q61-70-q-68">Q68</h3>
+<div class="paragraph"><p><span class="big">General (Q61&#8212;70): Question 68</span></p></div>
+<div class="sect3">
+<h4 id="_question_68">Question</h4>
+<div class="paragraph"><p>Q04f00</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_68">Answer</h4>
+<button id="button_q6_7" onclick="toggle_hidden_q6_7()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6_7"><p>A04f00
+None</p></div>
+<script>
+var z = document.getElementById("answer_q6_7");
+z.style.display = "none"
+function toggle_hidden_q6_7() {
+  var x = document.getElementById("answer_q6_7");
+  var b = document.getElementByID("button_q6_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q61-70-q-67">Previous question</a><br>
+<a href="#s-General-Q61-70-q-69">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q61-70-q-69">Q69</h3>
+<div class="paragraph"><p><span class="big">General (Q61&#8212;70): Question 69</span></p></div>
+<div class="sect3">
+<h4 id="_question_69">Question</h4>
+<div class="paragraph"><p>Q7760b</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_69">Answer</h4>
+<button id="button_q6_8" onclick="toggle_hidden_q6_8()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6_8"><p>A7760b
+None</p></div>
+<script>
+var z = document.getElementById("answer_q6_8");
+z.style.display = "none"
+function toggle_hidden_q6_8() {
+  var x = document.getElementById("answer_q6_8");
+  var b = document.getElementByID("button_q6_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q61-70-q-68">Previous question</a><br>
+<a href="#s-General-Q61-70-q-70">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q61-70-q-70">Q70</h3>
+<div class="paragraph"><p><span class="big">General (Q61&#8212;70): Question 70</span></p></div>
+<div class="sect3">
+<h4 id="_question_70">Question</h4>
+<div class="paragraph"><p>Qc4ef1</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_70">Answer</h4>
+<button id="button_q6_9" onclick="toggle_hidden_q6_9()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6_9"><p>Ac4ef1
+None</p></div>
+<script>
+var z = document.getElementById("answer_q6_9");
+z.style.display = "none"
+function toggle_hidden_q6_9() {
+  var x = document.getElementById("answer_q6_9");
+  var b = document.getElementByID("button_q6_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q61-70-q-69">Previous question</a><br>
+<a href="#s-Broadway-q-1">Next question</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s7">Broadway</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-Broadway-q-1">Q1</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 1</span></p></div>
+<div class="sect3">
+<h4 id="_question_71">Question</h4>
+<div class="paragraph"><p>Qd3270</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_71">Answer</h4>
+<button id="button_q7_0" onclick="toggle_hidden_q7_0()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7_0"><p>Ad3270
+None</p></div>
+<script>
+var z = document.getElementById("answer_q7_0");
+z.style.display = "none"
+function toggle_hidden_q7_0() {
+  var x = document.getElementById("answer_q7_0");
+  var b = document.getElementByID("button_q7_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q61-70-q-70">Previous question</a><br>
+<a href="#s-Broadway-q-2">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-2">Q2</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 2</span></p></div>
+<div class="sect3">
+<h4 id="_question_72">Question</h4>
+<div class="paragraph"><p>Q59036</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_72">Answer</h4>
+<button id="button_q7_1" onclick="toggle_hidden_q7_1()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7_1"><p>A59036
+None</p></div>
+<script>
+var z = document.getElementById("answer_q7_1");
+z.style.display = "none"
+function toggle_hidden_q7_1() {
+  var x = document.getElementById("answer_q7_1");
+  var b = document.getElementByID("button_q7_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-1">Previous question</a><br>
+<a href="#s-Broadway-q-3">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-3">Q3</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 3</span></p></div>
+<div class="sect3">
+<h4 id="_question_73">Question</h4>
+<div class="paragraph"><p>Qe3b30</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_73">Answer</h4>
+<button id="button_q7_2" onclick="toggle_hidden_q7_2()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7_2"><p>Ae3b30
+None</p></div>
+<script>
+var z = document.getElementById("answer_q7_2");
+z.style.display = "none"
+function toggle_hidden_q7_2() {
+  var x = document.getElementById("answer_q7_2");
+  var b = document.getElementByID("button_q7_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-2">Previous question</a><br>
+<a href="#s-Broadway-q-4">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-4">Q4</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 4</span></p></div>
+<div class="sect3">
+<h4 id="_question_74">Question</h4>
+<div class="paragraph"><p>Qaca94</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_74">Answer</h4>
+<button id="button_q7_3" onclick="toggle_hidden_q7_3()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7_3"><p>Aaca94
+None</p></div>
+<script>
+var z = document.getElementById("answer_q7_3");
+z.style.display = "none"
+function toggle_hidden_q7_3() {
+  var x = document.getElementById("answer_q7_3");
+  var b = document.getElementByID("button_q7_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-3">Previous question</a><br>
+<a href="#s-Broadway-q-5">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-5">Q5</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 5</span></p></div>
+<div class="sect3">
+<h4 id="_question_75">Question</h4>
+<div class="paragraph"><p>Q9d615</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_75">Answer</h4>
+<button id="button_q7_4" onclick="toggle_hidden_q7_4()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7_4"><p>A9d615
+None</p></div>
+<script>
+var z = document.getElementById("answer_q7_4");
+z.style.display = "none"
+function toggle_hidden_q7_4() {
+  var x = document.getElementById("answer_q7_4");
+  var b = document.getElementByID("button_q7_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-4">Previous question</a><br>
+<a href="#s-Broadway-q-6">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-6">Q6</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 6</span></p></div>
+<div class="sect3">
+<h4 id="_question_76">Question</h4>
+<div class="paragraph"><p>Q82ded</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_76">Answer</h4>
+<button id="button_q7_5" onclick="toggle_hidden_q7_5()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7_5"><p>A82ded
+None</p></div>
+<script>
+var z = document.getElementById("answer_q7_5");
+z.style.display = "none"
+function toggle_hidden_q7_5() {
+  var x = document.getElementById("answer_q7_5");
+  var b = document.getElementByID("button_q7_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-5">Previous question</a><br>
+<a href="#s-Broadway-q-7">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-7">Q7</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 7</span></p></div>
+<div class="sect3">
+<h4 id="_question_77">Question</h4>
+<div class="paragraph"><p>Q91370</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_77">Answer</h4>
+<button id="button_q7_6" onclick="toggle_hidden_q7_6()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7_6"><p>A91370
+None</p></div>
+<script>
+var z = document.getElementById("answer_q7_6");
+z.style.display = "none"
+function toggle_hidden_q7_6() {
+  var x = document.getElementById("answer_q7_6");
+  var b = document.getElementByID("button_q7_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-6">Previous question</a><br>
+<a href="#s-Broadway-q-8">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-8">Q8</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 8</span></p></div>
+<div class="sect3">
+<h4 id="_question_78">Question</h4>
+<div class="paragraph"><p>Q879d5</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_78">Answer</h4>
+<button id="button_q7_7" onclick="toggle_hidden_q7_7()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7_7"><p>A879d5
+None</p></div>
+<script>
+var z = document.getElementById("answer_q7_7");
+z.style.display = "none"
+function toggle_hidden_q7_7() {
+  var x = document.getElementById("answer_q7_7");
+  var b = document.getElementByID("button_q7_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-7">Previous question</a><br>
+<a href="#s-Broadway-q-9">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-9">Q9</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 9</span></p></div>
+<div class="sect3">
+<h4 id="_question_79">Question</h4>
+<div class="paragraph"><p>Q37964</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_79">Answer</h4>
+<button id="button_q7_8" onclick="toggle_hidden_q7_8()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7_8"><p>A37964
+None</p></div>
+<script>
+var z = document.getElementById("answer_q7_8");
+z.style.display = "none"
+function toggle_hidden_q7_8() {
+  var x = document.getElementById("answer_q7_8");
+  var b = document.getElementByID("button_q7_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-8">Previous question</a><br>
+<a href="#s-Broadway-q-10">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-10">Q10</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 10</span></p></div>
+<div class="sect3">
+<h4 id="_question_80">Question</h4>
+<div class="paragraph"><p>Q62c48</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_80">Answer</h4>
+<button id="button_q7_9" onclick="toggle_hidden_q7_9()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7_9"><p>A62c48
+None</p></div>
+<script>
+var z = document.getElementById("answer_q7_9");
+z.style.display = "none"
+function toggle_hidden_q7_9() {
+  var x = document.getElementById("answer_q7_9");
+  var b = document.getElementByID("button_q7_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-9">Previous question</a><br>
+<a href="#s-Bonus-q-1">Next question</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s8">Bonus</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-Bonus-q-1">Q1</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 1</span></p></div>
+<div class="sect3">
+<h4 id="_question_81">Question</h4>
+<div class="paragraph"><p>Qd6895</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_81">Answer</h4>
+<button id="button_q8_0" onclick="toggle_hidden_q8_0()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8_0"><p>Ad6895
+None</p></div>
+<script>
+var z = document.getElementById("answer_q8_0");
+z.style.display = "none"
+function toggle_hidden_q8_0() {
+  var x = document.getElementById("answer_q8_0");
+  var b = document.getElementByID("button_q8_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-10">Previous question</a><br>
+<a href="#s-Bonus-q-2">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-2">Q2</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 2</span></p></div>
+<div class="sect3">
+<h4 id="_question_82">Question</h4>
+<div class="paragraph"><p>Q3afc9</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_82">Answer</h4>
+<button id="button_q8_1" onclick="toggle_hidden_q8_1()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8_1"><p>A3afc9
+None</p></div>
+<script>
+var z = document.getElementById("answer_q8_1");
+z.style.display = "none"
+function toggle_hidden_q8_1() {
+  var x = document.getElementById("answer_q8_1");
+  var b = document.getElementByID("button_q8_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-1">Previous question</a><br>
+<a href="#s-Bonus-q-3">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-3">Q3</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 3</span></p></div>
+<div class="sect3">
+<h4 id="_question_83">Question</h4>
+<div class="paragraph"><p>Q73566</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_83">Answer</h4>
+<button id="button_q8_2" onclick="toggle_hidden_q8_2()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8_2"><p>A73566
+None</p></div>
+<script>
+var z = document.getElementById("answer_q8_2");
+z.style.display = "none"
+function toggle_hidden_q8_2() {
+  var x = document.getElementById("answer_q8_2");
+  var b = document.getElementByID("button_q8_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-2">Previous question</a><br>
+<a href="#s-Bonus-q-4">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-4">Q4</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 4</span></p></div>
+<div class="sect3">
+<h4 id="_question_84">Question</h4>
+<div class="paragraph"><p>Qde248</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_84">Answer</h4>
+<button id="button_q8_3" onclick="toggle_hidden_q8_3()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8_3"><p>Ade248
+None</p></div>
+<script>
+var z = document.getElementById("answer_q8_3");
+z.style.display = "none"
+function toggle_hidden_q8_3() {
+  var x = document.getElementById("answer_q8_3");
+  var b = document.getElementByID("button_q8_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-3">Previous question</a><br>
+<a href="#s-Bonus-q-5">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-5">Q5</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 5</span></p></div>
+<div class="sect3">
+<h4 id="_question_85">Question</h4>
+<div class="paragraph"><p>Qf64e7</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_85">Answer</h4>
+<button id="button_q8_4" onclick="toggle_hidden_q8_4()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8_4"><p>Af64e7
+None</p></div>
+<script>
+var z = document.getElementById("answer_q8_4");
+z.style.display = "none"
+function toggle_hidden_q8_4() {
+  var x = document.getElementById("answer_q8_4");
+  var b = document.getElementByID("button_q8_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-4">Previous question</a><br>
+<a href="#s-Bonus-q-6">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-6">Q6</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 6</span></p></div>
+<div class="sect3">
+<h4 id="_question_86">Question</h4>
+<div class="paragraph"><p>Q7ba94</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_86">Answer</h4>
+<button id="button_q8_5" onclick="toggle_hidden_q8_5()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8_5"><p>A7ba94
+None</p></div>
+<script>
+var z = document.getElementById("answer_q8_5");
+z.style.display = "none"
+function toggle_hidden_q8_5() {
+  var x = document.getElementById("answer_q8_5");
+  var b = document.getElementByID("button_q8_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-5">Previous question</a><br>
+<a href="#s-Bonus-q-7">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-7">Q7</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 7</span></p></div>
+<div class="sect3">
+<h4 id="_question_87">Question</h4>
+<div class="paragraph"><p>Qfcc3a</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_87">Answer</h4>
+<button id="button_q8_6" onclick="toggle_hidden_q8_6()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8_6"><p>Afcc3a
+None</p></div>
+<script>
+var z = document.getElementById("answer_q8_6");
+z.style.display = "none"
+function toggle_hidden_q8_6() {
+  var x = document.getElementById("answer_q8_6");
+  var b = document.getElementByID("button_q8_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-6">Previous question</a><br>
+<a href="#s-Bonus-q-8">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-8">Q8</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 8</span></p></div>
+<div class="sect3">
+<h4 id="_question_88">Question</h4>
+<div class="paragraph"><p>Q55a79</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_88">Answer</h4>
+<button id="button_q8_7" onclick="toggle_hidden_q8_7()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8_7"><p>A55a79
+None</p></div>
+<script>
+var z = document.getElementById("answer_q8_7");
+z.style.display = "none"
+function toggle_hidden_q8_7() {
+  var x = document.getElementById("answer_q8_7");
+  var b = document.getElementByID("button_q8_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-7">Previous question</a><br>
+<a href="#s-Bonus-q-9">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-9">Q9</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 9</span></p></div>
+<div class="sect3">
+<h4 id="_question_89">Question</h4>
+<div class="paragraph"><p>Qd40f2</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_89">Answer</h4>
+<button id="button_q8_8" onclick="toggle_hidden_q8_8()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8_8"><p>Ad40f2
+None</p></div>
+<script>
+var z = document.getElementById("answer_q8_8");
+z.style.display = "none"
+function toggle_hidden_q8_8() {
+  var x = document.getElementById("answer_q8_8");
+  var b = document.getElementByID("button_q8_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-8">Previous question</a><br>
+<a href="#s-Bonus-q-10">Next question</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-10">Q10</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 10</span></p></div>
+<div class="sect3">
+<h4 id="_question_90">Question</h4>
+<div class="paragraph"><p>Qfc7c4</p></div>
+<div class="paragraph"><p>Media goes here</p></div>
+</div>
+<div class="sect3">
+<h4 id="_answer_90">Answer</h4>
+<button id="button_q8_9" onclick="toggle_hidden_q8_9()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8_9"><p>Afc7c4
+None</p></div>
+<script>
+var z = document.getElementById("answer_q8_9");
+z.style.display = "none"
+function toggle_hidden_q8_9() {
+  var x = document.getElementById("answer_q8_9");
+  var b = document.getElementByID("button_q8_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-9">Previous question</a></p></div>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="footnotes"><hr></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-04-07 20:45:39 EDT
+Last updated 2020-04-08 15:04:51 EDT
 </div>
 </div>
 </body>

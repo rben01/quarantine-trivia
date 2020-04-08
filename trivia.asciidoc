@@ -1,0 +1,4455 @@
+
+= Music trivia
+:toc2:
+:toclevels: 2
+:toc-title: Welcome to Quarantine Music Trivia!
+
+[subs=""]
+++++++++++++
+<style>
+html, body { height: 100%; }
+.fullheight { overflow-y:auto; height:100vh; }​
+a { color:blue; }
+a:visited { color:blue; }
+a:active { color:blue; }
+a[tabindex]:focus { color:blue; outline:none; }
+</style>
+++++++++++++
+
+== Welcome
+    
+
+[[s0]]
+== General (Q1--10)
+
+[[s-General-Q1-10-q-1]]
+=== Q1
+
+[big]#General (Q1--10): Question 1#
+
+==== Question
+
+Q5f127
+
+video::LaTeX/Audio/Trimmed/Toto-Africa-Official-Music-Video-FTQbiNvZqaY.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q0_0" onclick="toggle_hidden_q0_0()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0_0]]
+A5f127
+LaTeX/Audio/Trimmed/Toto-Africa-Official-Music-Video-FTQbiNvZqaY.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0_0");
+z.style.display = "none"
+function toggle_hidden_q0_0() {
+  var x = document.getElementById("answer_q0_0");
+  var b = document.getElementByID("button_q0_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-2, Next question>>
+
+[[s-General-Q1-10-q-2]]
+=== Q2
+
+[big]#General (Q1--10): Question 2#
+
+==== Question
+
+Qeed05
+
+video::LaTeX/Audio/Trimmed/Meghan-Trainor-All-About-That-Bass-Official-Music-Video-7PCkvCPvDXk.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q0_1" onclick="toggle_hidden_q0_1()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0_1]]
+Aeed05
+LaTeX/Audio/Trimmed/Meghan-Trainor-All-About-That-Bass-Official-Music-Video-7PCkvCPvDXk.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0_1");
+z.style.display = "none"
+function toggle_hidden_q0_1() {
+  var x = document.getElementById("answer_q0_1");
+  var b = document.getElementByID("button_q0_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-1, Previous question>> +
+<<s-General-Q1-10-q-3, Next question>>
+
+[[s-General-Q1-10-q-3]]
+=== Q3
+
+[big]#General (Q1--10): Question 3#
+
+==== Question
+
+Q253a7
+
+video::LaTeX/Audio/Trimmed/American-Pie-iX-TFkut1PM.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q0_2" onclick="toggle_hidden_q0_2()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0_2]]
+A253a7
+LaTeX/Audio/Trimmed/American-Pie-iX-TFkut1PM.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0_2");
+z.style.display = "none"
+function toggle_hidden_q0_2() {
+  var x = document.getElementById("answer_q0_2");
+  var b = document.getElementByID("button_q0_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-2, Previous question>> +
+<<s-General-Q1-10-q-4, Next question>>
+
+[[s-General-Q1-10-q-4]]
+=== Q4
+
+[big]#General (Q1--10): Question 4#
+
+==== Question
+
+Qbb8ca
+
+video::LaTeX/Audio/Trimmed/Carrie-Underwood-Before-He-Cheats-Official-Video-WaSy8yy-mr8.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q0_3" onclick="toggle_hidden_q0_3()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0_3]]
+Abb8ca
+LaTeX/Audio/Trimmed/Carrie-Underwood-Before-He-Cheats-Official-Video-WaSy8yy-mr8.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0_3");
+z.style.display = "none"
+function toggle_hidden_q0_3() {
+  var x = document.getElementById("answer_q0_3");
+  var b = document.getElementByID("button_q0_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-3, Previous question>> +
+<<s-General-Q1-10-q-5, Next question>>
+
+[[s-General-Q1-10-q-5]]
+=== Q5
+
+[big]#General (Q1--10): Question 5#
+
+==== Question
+
+Q0df31
+
+video::LaTeX/Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q0_4" onclick="toggle_hidden_q0_4()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0_4]]
+A0df31
+LaTeX/Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0_4");
+z.style.display = "none"
+function toggle_hidden_q0_4() {
+  var x = document.getElementById("answer_q0_4");
+  var b = document.getElementByID("button_q0_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-4, Previous question>> +
+<<s-General-Q1-10-q-6, Next question>>
+
+[[s-General-Q1-10-q-6]]
+=== Q6
+
+[big]#General (Q1--10): Question 6#
+
+==== Question
+
+Qb9d56
+
+video::LaTeX/Audio/Trimmed/Bruce-Springsteen-Born-to-Run-Official-Music-Video-IxuThNgl3YA.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q0_5" onclick="toggle_hidden_q0_5()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0_5]]
+Ab9d56
+LaTeX/Audio/Trimmed/Bruce-Springsteen-Born-to-Run-Official-Music-Video-IxuThNgl3YA.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0_5");
+z.style.display = "none"
+function toggle_hidden_q0_5() {
+  var x = document.getElementById("answer_q0_5");
+  var b = document.getElementByID("button_q0_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-5, Previous question>> +
+<<s-General-Q1-10-q-7, Next question>>
+
+[[s-General-Q1-10-q-7]]
+=== Q7
+
+[big]#General (Q1--10): Question 7#
+
+==== Question
+
+Q1e97a
+
+video::LaTeX/Audio/Trimmed/Simon-Garfunkel-Bridge-Over-Troubled-Water-Audio-4G-YQA-bsOU.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q0_6" onclick="toggle_hidden_q0_6()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0_6]]
+A1e97a
+LaTeX/Audio/Trimmed/Simon-Garfunkel-Bridge-Over-Troubled-Water-Audio-4G-YQA-bsOU.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0_6");
+z.style.display = "none"
+function toggle_hidden_q0_6() {
+  var x = document.getElementById("answer_q0_6");
+  var b = document.getElementByID("button_q0_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-6, Previous question>> +
+<<s-General-Q1-10-q-8, Next question>>
+
+[[s-General-Q1-10-q-8]]
+=== Q8
+
+[big]#General (Q1--10): Question 8#
+
+==== Question
+
+Q7b23d
+
+video::LaTeX/Audio/Trimmed/Build-Me-Up-Buttercup-Nl-2iEP1Wts.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q0_7" onclick="toggle_hidden_q0_7()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0_7]]
+A7b23d
+LaTeX/Audio/Trimmed/Build-Me-Up-Buttercup-Nl-2iEP1Wts.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0_7");
+z.style.display = "none"
+function toggle_hidden_q0_7() {
+  var x = document.getElementById("answer_q0_7");
+  var b = document.getElementByID("button_q0_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-7, Previous question>> +
+<<s-General-Q1-10-q-9, Next question>>
+
+[[s-General-Q1-10-q-9]]
+=== Q9
+
+[big]#General (Q1--10): Question 9#
+
+==== Question
+
+Q34c62
+
+video::LaTeX/Audio/Trimmed/Carly-Rae-Jepsen-Call-Me-Maybe-fWNaR-rxAic.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q0_8" onclick="toggle_hidden_q0_8()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0_8]]
+A34c62
+LaTeX/Audio/Trimmed/Carly-Rae-Jepsen-Call-Me-Maybe-fWNaR-rxAic.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0_8");
+z.style.display = "none"
+function toggle_hidden_q0_8() {
+  var x = document.getElementById("answer_q0_8");
+  var b = document.getElementByID("button_q0_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-8, Previous question>> +
+<<s-General-Q1-10-q-10, Next question>>
+
+[[s-General-Q1-10-q-10]]
+=== Q10
+
+[big]#General (Q1--10): Question 10#
+
+==== Question
+
+Qe1226
+
+video::LaTeX/Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q0_9" onclick="toggle_hidden_q0_9()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0_9]]
+Ae1226
+LaTeX/Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0_9");
+z.style.display = "none"
+function toggle_hidden_q0_9() {
+  var x = document.getElementById("answer_q0_9");
+  var b = document.getElementByID("button_q0_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-9, Previous question>> +
+<<s-General-Q11-20-q-11, Next question>>
+
+[[s1]]
+== General (Q11--20)
+
+[[s-General-Q11-20-q-11]]
+=== Q11
+
+[big]#General (Q11--20): Question 11#
+
+==== Question
+
+Qb87aa
+
+video::LaTeX/Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q1_0" onclick="toggle_hidden_q1_0()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1_0]]
+Ab87aa
+LaTeX/Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1_0");
+z.style.display = "none"
+function toggle_hidden_q1_0() {
+  var x = document.getElementById("answer_q1_0");
+  var b = document.getElementByID("button_q1_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-10, Previous question>> +
+<<s-General-Q11-20-q-12, Next question>>
+
+[[s-General-Q11-20-q-12]]
+=== Q12
+
+[big]#General (Q11--20): Question 12#
+
+==== Question
+
+Q142a6
+
+video::LaTeX/Audio/Trimmed/Styx-Come-Sail-Away-Official-Video-e5MAg-yWsq8.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q1_1" onclick="toggle_hidden_q1_1()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1_1]]
+A142a6
+LaTeX/Audio/Trimmed/Styx-Come-Sail-Away-Official-Video-e5MAg-yWsq8.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1_1");
+z.style.display = "none"
+function toggle_hidden_q1_1() {
+  var x = document.getElementById("answer_q1_1");
+  var b = document.getElementByID("button_q1_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-11, Previous question>> +
+<<s-General-Q11-20-q-13, Next question>>
+
+[[s-General-Q11-20-q-13]]
+=== Q13
+
+[big]#General (Q11--20): Question 13#
+
+==== Question
+
+Q358a3
+
+video::LaTeX/Audio/Trimmed/Gnarls-Barkley-Crazy-Official-Video-N4jf6rtyuw.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q1_2" onclick="toggle_hidden_q1_2()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1_2]]
+A358a3
+LaTeX/Audio/Trimmed/Gnarls-Barkley-Crazy-Official-Video-N4jf6rtyuw.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1_2");
+z.style.display = "none"
+function toggle_hidden_q1_2() {
+  var x = document.getElementById("answer_q1_2");
+  var b = document.getElementByID("button_q1_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-12, Previous question>> +
+<<s-General-Q11-20-q-14, Next question>>
+
+[[s-General-Q11-20-q-14]]
+=== Q14
+
+[big]#General (Q11--20): Question 14#
+
+==== Question
+
+Q37155
+
+video::LaTeX/Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q1_3" onclick="toggle_hidden_q1_3()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1_3]]
+A37155
+LaTeX/Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1_3");
+z.style.display = "none"
+function toggle_hidden_q1_3() {
+  var x = document.getElementById("answer_q1_3");
+  var b = document.getElementByID("button_q1_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-13, Previous question>> +
+<<s-General-Q11-20-q-15, Next question>>
+
+[[s-General-Q11-20-q-15]]
+=== Q15
+
+[big]#General (Q11--20): Question 15#
+
+==== Question
+
+Q95dbd
+
+video::LaTeX/Audio/Trimmed/The-Police-Every-Breath-You-Take-OMOGaugKpzs.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q1_4" onclick="toggle_hidden_q1_4()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1_4]]
+A95dbd
+LaTeX/Audio/Trimmed/The-Police-Every-Breath-You-Take-OMOGaugKpzs.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1_4");
+z.style.display = "none"
+function toggle_hidden_q1_4() {
+  var x = document.getElementById("answer_q1_4");
+  var b = document.getElementByID("button_q1_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-14, Previous question>> +
+<<s-General-Q11-20-q-16, Next question>>
+
+[[s-General-Q11-20-q-16]]
+=== Q16
+
+[big]#General (Q11--20): Question 16#
+
+==== Question
+
+Qffdf9
+
+video::LaTeX/Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q1_5" onclick="toggle_hidden_q1_5()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1_5]]
+Affdf9
+LaTeX/Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1_5");
+z.style.display = "none"
+function toggle_hidden_q1_5() {
+  var x = document.getElementById("answer_q1_5");
+  var b = document.getElementByID("button_q1_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-15, Previous question>> +
+<<s-General-Q11-20-q-17, Next question>>
+
+[[s-General-Q11-20-q-17]]
+=== Q17
+
+[big]#General (Q11--20): Question 17#
+
+==== Question
+
+Qbbdb5
+
+video::LaTeX/Audio/Trimmed/Jonas-Blue-ft.-Dakota-Fast-Car-Official-Music-Video-0wpuR68uw-8.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q1_6" onclick="toggle_hidden_q1_6()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1_6]]
+Abbdb5
+LaTeX/Audio/Trimmed/Jonas-Blue-ft.-Dakota-Fast-Car-Official-Music-Video-0wpuR68uw-8.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1_6");
+z.style.display = "none"
+function toggle_hidden_q1_6() {
+  var x = document.getElementById("answer_q1_6");
+  var b = document.getElementByID("button_q1_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-16, Previous question>> +
+<<s-General-Q11-20-q-18, Next question>>
+
+[[s-General-Q11-20-q-18]]
+=== Q18
+
+[big]#General (Q11--20): Question 18#
+
+==== Question
+
+Q27801
+
+video::LaTeX/Audio/Trimmed/Free-Bird-CqnU-sJ8V-E.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q1_7" onclick="toggle_hidden_q1_7()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1_7]]
+A27801
+LaTeX/Audio/Trimmed/Free-Bird-CqnU-sJ8V-E.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1_7");
+z.style.display = "none"
+function toggle_hidden_q1_7() {
+  var x = document.getElementById("answer_q1_7");
+  var b = document.getElementByID("button_q1_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-17, Previous question>> +
+<<s-General-Q11-20-q-19, Next question>>
+
+[[s-General-Q11-20-q-19]]
+=== Q19
+
+[big]#General (Q11--20): Question 19#
+
+==== Question
+
+Qbfaf1
+
+video::LaTeX/Audio/Trimmed/Daft-Punk-Get-Lucky-Official-Audio-ft.-Pharrell-Williams-Nile-Rodgers-5NV6Rdv1a3I.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q1_8" onclick="toggle_hidden_q1_8()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1_8]]
+Abfaf1
+LaTeX/Audio/Trimmed/Daft-Punk-Get-Lucky-Official-Audio-ft.-Pharrell-Williams-Nile-Rodgers-5NV6Rdv1a3I.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1_8");
+z.style.display = "none"
+function toggle_hidden_q1_8() {
+  var x = document.getElementById("answer_q1_8");
+  var b = document.getElementByID("button_q1_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-18, Previous question>> +
+<<s-General-Q11-20-q-20, Next question>>
+
+[[s-General-Q11-20-q-20]]
+=== Q20
+
+[big]#General (Q11--20): Question 20#
+
+==== Question
+
+Qcca47
+
+video::LaTeX/Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q1_9" onclick="toggle_hidden_q1_9()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1_9]]
+Acca47
+LaTeX/Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1_9");
+z.style.display = "none"
+function toggle_hidden_q1_9() {
+  var x = document.getElementById("answer_q1_9");
+  var b = document.getElementByID("button_q1_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-19, Previous question>> +
+<<s-General-Q21-30-q-21, Next question>>
+
+[[s2]]
+== General (Q21--30)
+
+[[s-General-Q21-30-q-21]]
+=== Q21
+
+[big]#General (Q21--30): Question 21#
+
+==== Question
+
+Q8f97a
+
+video::LaTeX/Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q2_0" onclick="toggle_hidden_q2_0()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2_0]]
+A8f97a
+LaTeX/Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2_0");
+z.style.display = "none"
+function toggle_hidden_q2_0() {
+  var x = document.getElementById("answer_q2_0");
+  var b = document.getElementByID("button_q2_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-20, Previous question>> +
+<<s-General-Q21-30-q-22, Next question>>
+
+[[s-General-Q21-30-q-22]]
+=== Q22
+
+[big]#General (Q21--30): Question 22#
+
+==== Question
+
+Q5e69d
+
+video::LaTeX/Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q2_1" onclick="toggle_hidden_q2_1()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2_1]]
+A5e69d
+LaTeX/Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2_1");
+z.style.display = "none"
+function toggle_hidden_q2_1() {
+  var x = document.getElementById("answer_q2_1");
+  var b = document.getElementByID("button_q2_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-21, Previous question>> +
+<<s-General-Q21-30-q-23, Next question>>
+
+[[s-General-Q21-30-q-23]]
+=== Q23
+
+[big]#General (Q21--30): Question 23#
+
+==== Question
+
+Qfc187
+
+video::LaTeX/Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q2_2" onclick="toggle_hidden_q2_2()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2_2]]
+Afc187
+LaTeX/Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2_2");
+z.style.display = "none"
+function toggle_hidden_q2_2() {
+  var x = document.getElementById("answer_q2_2");
+  var b = document.getElementByID("button_q2_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-22, Previous question>> +
+<<s-General-Q21-30-q-24, Next question>>
+
+[[s-General-Q21-30-q-24]]
+=== Q24
+
+[big]#General (Q21--30): Question 24#
+
+==== Question
+
+Q5192f
+
+video::LaTeX/Audio/Trimmed/GOOD-VIBRATIONS-HD-THE-BEACH-BOYS-mdt0SOqPJcg.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q2_3" onclick="toggle_hidden_q2_3()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2_3]]
+A5192f
+LaTeX/Audio/Trimmed/GOOD-VIBRATIONS-HD-THE-BEACH-BOYS-mdt0SOqPJcg.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2_3");
+z.style.display = "none"
+function toggle_hidden_q2_3() {
+  var x = document.getElementById("answer_q2_3");
+  var b = document.getElementByID("button_q2_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-23, Previous question>> +
+<<s-General-Q21-30-q-25, Next question>>
+
+[[s-General-Q21-30-q-25]]
+=== Q25
+
+[big]#General (Q21--30): Question 25#
+
+==== Question
+
+Qc684f
+
+video::LaTeX/Audio/Trimmed/Pharrell-Williams-Happy-Official-Music-Video-ZbZSe6N-BXs.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q2_4" onclick="toggle_hidden_q2_4()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2_4]]
+Ac684f
+LaTeX/Audio/Trimmed/Pharrell-Williams-Happy-Official-Music-Video-ZbZSe6N-BXs.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2_4");
+z.style.display = "none"
+function toggle_hidden_q2_4() {
+  var x = document.getElementById("answer_q2_4");
+  var b = document.getElementByID("button_q2_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-24, Previous question>> +
+<<s-General-Q21-30-q-26, Next question>>
+
+[[s-General-Q21-30-q-26]]
+=== Q26
+
+[big]#General (Q21--30): Question 26#
+
+==== Question
+
+Qf685f
+
+video::LaTeX/Audio/Trimmed/Creedence-Clearwater-Revival-Have-You-Ever-Seen-The-Rain-Gu2pVPWGYMQ.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q2_5" onclick="toggle_hidden_q2_5()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2_5]]
+Af685f
+LaTeX/Audio/Trimmed/Creedence-Clearwater-Revival-Have-You-Ever-Seen-The-Rain-Gu2pVPWGYMQ.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2_5");
+z.style.display = "none"
+function toggle_hidden_q2_5() {
+  var x = document.getElementById("answer_q2_5");
+  var b = document.getElementByID("button_q2_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-25, Previous question>> +
+<<s-General-Q21-30-q-27, Next question>>
+
+[[s-General-Q21-30-q-27]]
+=== Q27
+
+[big]#General (Q21--30): Question 27#
+
+==== Question
+
+Qcc41b
+
+video::LaTeX/Audio/Trimmed/Avicii-Hey-Brother-Lyric-YxIiPLVR6NA.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q2_6" onclick="toggle_hidden_q2_6()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2_6]]
+Acc41b
+LaTeX/Audio/Trimmed/Avicii-Hey-Brother-Lyric-YxIiPLVR6NA.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2_6");
+z.style.display = "none"
+function toggle_hidden_q2_6() {
+  var x = document.getElementById("answer_q2_6");
+  var b = document.getElementByID("button_q2_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-26, Previous question>> +
+<<s-General-Q21-30-q-28, Next question>>
+
+[[s-General-Q21-30-q-28]]
+=== Q28
+
+[big]#General (Q21--30): Question 28#
+
+==== Question
+
+Qec1f6
+
+video::LaTeX/Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q2_7" onclick="toggle_hidden_q2_7()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2_7]]
+Aec1f6
+LaTeX/Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2_7");
+z.style.display = "none"
+function toggle_hidden_q2_7() {
+  var x = document.getElementById("answer_q2_7");
+  var b = document.getElementByID("button_q2_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-27, Previous question>> +
+<<s-General-Q21-30-q-29, Next question>>
+
+[[s-General-Q21-30-q-29]]
+=== Q29
+
+[big]#General (Q21--30): Question 29#
+
+==== Question
+
+Q9e0b4
+
+video::LaTeX/Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q2_8" onclick="toggle_hidden_q2_8()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2_8]]
+A9e0b4
+LaTeX/Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2_8");
+z.style.display = "none"
+function toggle_hidden_q2_8() {
+  var x = document.getElementById("answer_q2_8");
+  var b = document.getElementByID("button_q2_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-28, Previous question>> +
+<<s-General-Q21-30-q-30, Next question>>
+
+[[s-General-Q21-30-q-30]]
+=== Q30
+
+[big]#General (Q21--30): Question 30#
+
+==== Question
+
+Qc1b0e
+
+video::LaTeX/Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q2_9" onclick="toggle_hidden_q2_9()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2_9]]
+Ac1b0e
+LaTeX/Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2_9");
+z.style.display = "none"
+function toggle_hidden_q2_9() {
+  var x = document.getElementById("answer_q2_9");
+  var b = document.getElementByID("button_q2_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-29, Previous question>> +
+<<s-General-Q31-40-q-31, Next question>>
+
+[[s3]]
+== General (Q31--40)
+
+[[s-General-Q31-40-q-31]]
+=== Q31
+
+[big]#General (Q31--40): Question 31#
+
+==== Question
+
+Q1468b
+
+video::LaTeX/Audio/Trimmed/GLORIA-GAYNOR-I-Will-Survive-Original-Single-Version-Vne-5xnxpRg.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q3_0" onclick="toggle_hidden_q3_0()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3_0]]
+A1468b
+LaTeX/Audio/Trimmed/GLORIA-GAYNOR-I-Will-Survive-Original-Single-Version-Vne-5xnxpRg.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3_0");
+z.style.display = "none"
+function toggle_hidden_q3_0() {
+  var x = document.getElementById("answer_q3_0");
+  var b = document.getElementByID("button_q3_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-30, Previous question>> +
+<<s-General-Q31-40-q-32, Next question>>
+
+[[s-General-Q31-40-q-32]]
+=== Q32
+
+[big]#General (Q31--40): Question 32#
+
+==== Question
+
+Qbc752
+
+video::LaTeX/Audio/Trimmed/Imagine-Ultimate-Mix-0DNwYnJivJw.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q3_1" onclick="toggle_hidden_q3_1()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3_1]]
+Abc752
+LaTeX/Audio/Trimmed/Imagine-Ultimate-Mix-0DNwYnJivJw.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3_1");
+z.style.display = "none"
+function toggle_hidden_q3_1() {
+  var x = document.getElementById("answer_q3_1");
+  var b = document.getElementByID("button_q3_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-31, Previous question>> +
+<<s-General-Q31-40-q-33, Next question>>
+
+[[s-General-Q31-40-q-33]]
+=== Q33
+
+[big]#General (Q31--40): Question 33#
+
+==== Question
+
+Q18663
+
+video::LaTeX/Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q3_2" onclick="toggle_hidden_q3_2()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3_2]]
+A18663
+LaTeX/Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3_2");
+z.style.display = "none"
+function toggle_hidden_q3_2() {
+  var x = document.getElementById("answer_q3_2");
+  var b = document.getElementByID("button_q3_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-32, Previous question>> +
+<<s-General-Q31-40-q-34, Next question>>
+
+[[s-General-Q31-40-q-34]]
+=== Q34
+
+[big]#General (Q31--40): Question 34#
+
+==== Question
+
+Qbf7b3
+
+video::LaTeX/Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q3_3" onclick="toggle_hidden_q3_3()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3_3]]
+Abf7b3
+LaTeX/Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3_3");
+z.style.display = "none"
+function toggle_hidden_q3_3() {
+  var x = document.getElementById("answer_q3_3");
+  var b = document.getElementByID("button_q3_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-33, Previous question>> +
+<<s-General-Q31-40-q-35, Next question>>
+
+[[s-General-Q31-40-q-35]]
+=== Q35
+
+[big]#General (Q31--40): Question 35#
+
+==== Question
+
+Qa4f95
+
+video::LaTeX/Audio/Trimmed/Elvis-Presley-Jailhouse-Rock-Music-Video-gj0Rz-uP4Mk.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q3_4" onclick="toggle_hidden_q3_4()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3_4]]
+Aa4f95
+LaTeX/Audio/Trimmed/Elvis-Presley-Jailhouse-Rock-Music-Video-gj0Rz-uP4Mk.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3_4");
+z.style.display = "none"
+function toggle_hidden_q3_4() {
+  var x = document.getElementById("answer_q3_4");
+  var b = document.getElementByID("button_q3_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-34, Previous question>> +
+<<s-General-Q31-40-q-36, Next question>>
+
+[[s-General-Q31-40-q-36]]
+=== Q36
+
+[big]#General (Q31--40): Question 36#
+
+==== Question
+
+Q8e076
+
+video::LaTeX/Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q3_5" onclick="toggle_hidden_q3_5()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3_5]]
+A8e076
+LaTeX/Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3_5");
+z.style.display = "none"
+function toggle_hidden_q3_5() {
+  var x = document.getElementById("answer_q3_5");
+  var b = document.getElementByID("button_q3_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-35, Previous question>> +
+<<s-General-Q31-40-q-37, Next question>>
+
+[[s-General-Q31-40-q-37]]
+=== Q37
+
+[big]#General (Q31--40): Question 37#
+
+==== Question
+
+Qca6e7
+
+video::LaTeX/Audio/Trimmed/Dolly-Parton-Jolene-Audio-Ixrje2rXLMA.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q3_6" onclick="toggle_hidden_q3_6()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3_6]]
+Aca6e7
+LaTeX/Audio/Trimmed/Dolly-Parton-Jolene-Audio-Ixrje2rXLMA.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3_6");
+z.style.display = "none"
+function toggle_hidden_q3_6() {
+  var x = document.getElementById("answer_q3_6");
+  var b = document.getElementByID("button_q3_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-36, Previous question>> +
+<<s-General-Q31-40-q-38, Next question>>
+
+[[s-General-Q31-40-q-38]]
+=== Q38
+
+[big]#General (Q31--40): Question 38#
+
+==== Question
+
+Qdde70
+
+video::LaTeX/Audio/Trimmed/Culture-Club-Karma-Chameleon-Official-Video-JmcA9LIIXWw.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q3_7" onclick="toggle_hidden_q3_7()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3_7]]
+Adde70
+LaTeX/Audio/Trimmed/Culture-Club-Karma-Chameleon-Official-Video-JmcA9LIIXWw.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3_7");
+z.style.display = "none"
+function toggle_hidden_q3_7() {
+  var x = document.getElementById("answer_q3_7");
+  var b = document.getElementByID("button_q3_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-37, Previous question>> +
+<<s-General-Q31-40-q-39, Next question>>
+
+[[s-General-Q31-40-q-39]]
+=== Q39
+
+[big]#General (Q31--40): Question 39#
+
+==== Question
+
+Q417b5
+
+video::LaTeX/Audio/Trimmed/-Lean-On-Me-singer-Bill-Withers-dies-at-81-DN-dvc5bBWM.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q3_8" onclick="toggle_hidden_q3_8()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3_8]]
+A417b5
+LaTeX/Audio/Trimmed/-Lean-On-Me-singer-Bill-Withers-dies-at-81-DN-dvc5bBWM.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3_8");
+z.style.display = "none"
+function toggle_hidden_q3_8() {
+  var x = document.getElementById("answer_q3_8");
+  var b = document.getElementByID("button_q3_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-38, Previous question>> +
+<<s-General-Q31-40-q-40, Next question>>
+
+[[s-General-Q31-40-q-40]]
+=== Q40
+
+[big]#General (Q31--40): Question 40#
+
+==== Question
+
+Q62d5e
+
+video::LaTeX/Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q3_9" onclick="toggle_hidden_q3_9()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3_9]]
+A62d5e
+LaTeX/Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3_9");
+z.style.display = "none"
+function toggle_hidden_q3_9() {
+  var x = document.getElementById("answer_q3_9");
+  var b = document.getElementByID("button_q3_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-39, Previous question>> +
+<<s-General-Q41-50-q-41, Next question>>
+
+[[s4]]
+== General (Q41--50)
+
+[[s-General-Q41-50-q-41]]
+=== Q41
+
+[big]#General (Q41--50): Question 41#
+
+==== Question
+
+Q672c6
+
+video::LaTeX/Audio/Trimmed/Jimmy-Buffett-Margaritaville-with-lyrics-ue2-ZVxpVjc.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q4_0" onclick="toggle_hidden_q4_0()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4_0]]
+A672c6
+LaTeX/Audio/Trimmed/Jimmy-Buffett-Margaritaville-with-lyrics-ue2-ZVxpVjc.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4_0");
+z.style.display = "none"
+function toggle_hidden_q4_0() {
+  var x = document.getElementById("answer_q4_0");
+  var b = document.getElementByID("button_q4_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-40, Previous question>> +
+<<s-General-Q41-50-q-42, Next question>>
+
+[[s-General-Q41-50-q-42]]
+=== Q42
+
+[big]#General (Q41--50): Question 42#
+
+==== Question
+
+Q00eda
+
+video::LaTeX/Audio/Trimmed/Madonna-Material-Girl-Official-Music-Video-6p-lDYPR2P8.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q4_1" onclick="toggle_hidden_q4_1()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4_1]]
+A00eda
+LaTeX/Audio/Trimmed/Madonna-Material-Girl-Official-Music-Video-6p-lDYPR2P8.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4_1");
+z.style.display = "none"
+function toggle_hidden_q4_1() {
+  var x = document.getElementById("answer_q4_1");
+  var b = document.getElementByID("button_q4_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-41, Previous question>> +
+<<s-General-Q41-50-q-43, Next question>>
+
+[[s-General-Q41-50-q-43]]
+=== Q43
+
+[big]#General (Q41--50): Question 43#
+
+==== Question
+
+Qea326
+
+video::LaTeX/Audio/Trimmed/Moondance-2013-Remaster-7kfYOGndVfU.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q4_2" onclick="toggle_hidden_q4_2()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4_2]]
+Aea326
+LaTeX/Audio/Trimmed/Moondance-2013-Remaster-7kfYOGndVfU.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4_2");
+z.style.display = "none"
+function toggle_hidden_q4_2() {
+  var x = document.getElementById("answer_q4_2");
+  var b = document.getElementByID("button_q4_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-42, Previous question>> +
+<<s-General-Q41-50-q-44, Next question>>
+
+[[s-General-Q41-50-q-44]]
+=== Q44
+
+[big]#General (Q41--50): Question 44#
+
+==== Question
+
+Q03952
+
+video::LaTeX/Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q4_3" onclick="toggle_hidden_q4_3()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4_3]]
+A03952
+LaTeX/Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4_3");
+z.style.display = "none"
+function toggle_hidden_q4_3() {
+  var x = document.getElementById("answer_q4_3");
+  var b = document.getElementByID("button_q4_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-43, Previous question>> +
+<<s-General-Q41-50-q-45, Next question>>
+
+[[s-General-Q41-50-q-45]]
+=== Q45
+
+[big]#General (Q41--50): Question 45#
+
+==== Question
+
+Q015f9
+
+video::LaTeX/Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q4_4" onclick="toggle_hidden_q4_4()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4_4]]
+A015f9
+LaTeX/Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4_4");
+z.style.display = "none"
+function toggle_hidden_q4_4() {
+  var x = document.getElementById("answer_q4_4");
+  var b = document.getElementByID("button_q4_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-44, Previous question>> +
+<<s-General-Q41-50-q-46, Next question>>
+
+[[s-General-Q41-50-q-46]]
+=== Q46
+
+[big]#General (Q41--50): Question 46#
+
+==== Question
+
+Q2b315
+
+video::LaTeX/Audio/Trimmed/Lil-Nas-X-Old-Town-Road-feat.-Billy-Ray-Cyrus-Remix-7ysFgElQtjI.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q4_5" onclick="toggle_hidden_q4_5()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4_5]]
+A2b315
+LaTeX/Audio/Trimmed/Lil-Nas-X-Old-Town-Road-feat.-Billy-Ray-Cyrus-Remix-7ysFgElQtjI.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4_5");
+z.style.display = "none"
+function toggle_hidden_q4_5() {
+  var x = document.getElementById("answer_q4_5");
+  var b = document.getElementByID("button_q4_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-45, Previous question>> +
+<<s-General-Q41-50-q-47, Next question>>
+
+[[s-General-Q41-50-q-47]]
+=== Q47
+
+[big]#General (Q41--50): Question 47#
+
+==== Question
+
+Qe4f17
+
+video::LaTeX/Audio/Trimmed/One-Way-Or-Another-Remastered-Fnb1xYDViDs.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q4_6" onclick="toggle_hidden_q4_6()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4_6]]
+Ae4f17
+LaTeX/Audio/Trimmed/One-Way-Or-Another-Remastered-Fnb1xYDViDs.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4_6");
+z.style.display = "none"
+function toggle_hidden_q4_6() {
+  var x = document.getElementById("answer_q4_6");
+  var b = document.getElementByID("button_q4_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-46, Previous question>> +
+<<s-General-Q41-50-q-48, Next question>>
+
+[[s-General-Q41-50-q-48]]
+=== Q48
+
+[big]#General (Q41--50): Question 48#
+
+==== Question
+
+Q69bc9
+
+video::LaTeX/Audio/Trimmed/Yes-Owner-of-a-Lonely-Heart-HQ-7LLzPPFc21o.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q4_7" onclick="toggle_hidden_q4_7()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4_7]]
+A69bc9
+LaTeX/Audio/Trimmed/Yes-Owner-of-a-Lonely-Heart-HQ-7LLzPPFc21o.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4_7");
+z.style.display = "none"
+function toggle_hidden_q4_7() {
+  var x = document.getElementById("answer_q4_7");
+  var b = document.getElementByID("button_q4_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-47, Previous question>> +
+<<s-General-Q41-50-q-49, Next question>>
+
+[[s-General-Q41-50-q-49]]
+=== Q49
+
+[big]#General (Q41--50): Question 49#
+
+==== Question
+
+Q489ef
+
+video::LaTeX/Audio/Trimmed/The-Rolling-Stones-Paint-It-Black-Official-Lyric-Video-O4irXQhgMqg.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q4_8" onclick="toggle_hidden_q4_8()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4_8]]
+A489ef
+LaTeX/Audio/Trimmed/The-Rolling-Stones-Paint-It-Black-Official-Lyric-Video-O4irXQhgMqg.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4_8");
+z.style.display = "none"
+function toggle_hidden_q4_8() {
+  var x = document.getElementById("answer_q4_8");
+  var b = document.getElementByID("button_q4_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-48, Previous question>> +
+<<s-General-Q41-50-q-50, Next question>>
+
+[[s-General-Q41-50-q-50]]
+=== Q50
+
+[big]#General (Q41--50): Question 50#
+
+==== Question
+
+Q684d2
+
+video::LaTeX/Audio/Trimmed/Elvis-Costello-The-Attractions-Pump-It-Up-3Y71iDvCYXA.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q4_9" onclick="toggle_hidden_q4_9()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4_9]]
+A684d2
+LaTeX/Audio/Trimmed/Elvis-Costello-The-Attractions-Pump-It-Up-3Y71iDvCYXA.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4_9");
+z.style.display = "none"
+function toggle_hidden_q4_9() {
+  var x = document.getElementById("answer_q4_9");
+  var b = document.getElementByID("button_q4_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-49, Previous question>> +
+<<s-General-Q51-60-q-51, Next question>>
+
+[[s5]]
+== General (Q51--60)
+
+[[s-General-Q51-60-q-51]]
+=== Q51
+
+[big]#General (Q51--60): Question 51#
+
+==== Question
+
+Qe5133
+
+video::LaTeX/Audio/Trimmed/Jason-Derulo-Ridin-Solo-Official-Video-in-HD-8ESdn0MuJWQ.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q5_0" onclick="toggle_hidden_q5_0()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5_0]]
+Ae5133
+LaTeX/Audio/Trimmed/Jason-Derulo-Ridin-Solo-Official-Video-in-HD-8ESdn0MuJWQ.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5_0");
+z.style.display = "none"
+function toggle_hidden_q5_0() {
+  var x = document.getElementById("answer_q5_0");
+  var b = document.getElementByID("button_q5_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-50, Previous question>> +
+<<s-General-Q51-60-q-52, Next question>>
+
+[[s-General-Q51-60-q-52]]
+=== Q52
+
+[big]#General (Q51--60): Question 52#
+
+==== Question
+
+Q3d9fb
+
+video::LaTeX/Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q5_1" onclick="toggle_hidden_q5_1()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5_1]]
+A3d9fb
+LaTeX/Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5_1");
+z.style.display = "none"
+function toggle_hidden_q5_1() {
+  var x = document.getElementById("answer_q5_1");
+  var b = document.getElementByID("button_q5_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-51, Previous question>> +
+<<s-General-Q51-60-q-53, Next question>>
+
+[[s-General-Q51-60-q-53]]
+=== Q53
+
+[big]#General (Q51--60): Question 53#
+
+==== Question
+
+Q35f5c
+
+video::LaTeX/Audio/Trimmed/Lorde-Royals-US-Version-nlcIKh6sBtc.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q5_2" onclick="toggle_hidden_q5_2()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5_2]]
+A35f5c
+LaTeX/Audio/Trimmed/Lorde-Royals-US-Version-nlcIKh6sBtc.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5_2");
+z.style.display = "none"
+function toggle_hidden_q5_2() {
+  var x = document.getElementById("answer_q5_2");
+  var b = document.getElementByID("button_q5_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-52, Previous question>> +
+<<s-General-Q51-60-q-54, Next question>>
+
+[[s-General-Q51-60-q-54]]
+=== Q54
+
+[big]#General (Q51--60): Question 54#
+
+==== Question
+
+Q567ee
+
+video::LaTeX/Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q5_3" onclick="toggle_hidden_q5_3()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5_3]]
+A567ee
+LaTeX/Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5_3");
+z.style.display = "none"
+function toggle_hidden_q5_3() {
+  var x = document.getElementById("answer_q5_3");
+  var b = document.getElementByID("button_q5_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-53, Previous question>> +
+<<s-General-Q51-60-q-55, Next question>>
+
+[[s-General-Q51-60-q-55]]
+=== Q55
+
+[big]#General (Q51--60): Question 55#
+
+==== Question
+
+Q51552
+
+video::LaTeX/Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q5_4" onclick="toggle_hidden_q5_4()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5_4]]
+A51552
+LaTeX/Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5_4");
+z.style.display = "none"
+function toggle_hidden_q5_4() {
+  var x = document.getElementById("answer_q5_4");
+  var b = document.getElementByID("button_q5_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-54, Previous question>> +
+<<s-General-Q51-60-q-56, Next question>>
+
+[[s-General-Q51-60-q-56]]
+=== Q56
+
+[big]#General (Q51--60): Question 56#
+
+==== Question
+
+Q0543a
+
+video::LaTeX/Audio/Trimmed/Nirvana-Smells-Like-Teen-Spirit-Official-Music-Video-hTWKbfoikeg.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q5_5" onclick="toggle_hidden_q5_5()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5_5]]
+A0543a
+LaTeX/Audio/Trimmed/Nirvana-Smells-Like-Teen-Spirit-Official-Music-Video-hTWKbfoikeg.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5_5");
+z.style.display = "none"
+function toggle_hidden_q5_5() {
+  var x = document.getElementById("answer_q5_5");
+  var b = document.getElementByID("button_q5_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-55, Previous question>> +
+<<s-General-Q51-60-q-57, Next question>>
+
+[[s-General-Q51-60-q-57]]
+=== Q57
+
+[big]#General (Q51--60): Question 57#
+
+==== Question
+
+Q28ef7
+
+video::LaTeX/Audio/Trimmed/Kanye-West-Stronger-PsO6ZnUZI0g.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q5_6" onclick="toggle_hidden_q5_6()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5_6]]
+A28ef7
+LaTeX/Audio/Trimmed/Kanye-West-Stronger-PsO6ZnUZI0g.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5_6");
+z.style.display = "none"
+function toggle_hidden_q5_6() {
+  var x = document.getElementById("answer_q5_6");
+  var b = document.getElementByID("button_q5_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-56, Previous question>> +
+<<s-General-Q51-60-q-58, Next question>>
+
+[[s-General-Q51-60-q-58]]
+=== Q58
+
+[big]#General (Q51--60): Question 58#
+
+==== Question
+
+Q74b9b
+
+video::LaTeX/Audio/Trimmed/Elvis-Presley-Suspicious-Minds-Audio-RxOBOhRECoo.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q5_7" onclick="toggle_hidden_q5_7()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5_7]]
+A74b9b
+LaTeX/Audio/Trimmed/Elvis-Presley-Suspicious-Minds-Audio-RxOBOhRECoo.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5_7");
+z.style.display = "none"
+function toggle_hidden_q5_7() {
+  var x = document.getElementById("answer_q5_7");
+  var b = document.getElementByID("button_q5_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-57, Previous question>> +
+<<s-General-Q51-60-q-59, Next question>>
+
+[[s-General-Q51-60-q-59]]
+=== Q59
+
+[big]#General (Q51--60): Question 59#
+
+==== Question
+
+Q6af6a
+
+video::LaTeX/Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4[width=300]
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q5_8" onclick="toggle_hidden_q5_8()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5_8]]
+A6af6a
+LaTeX/Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5_8");
+z.style.display = "none"
+function toggle_hidden_q5_8() {
+  var x = document.getElementById("answer_q5_8");
+  var b = document.getElementByID("button_q5_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-58, Previous question>> +
+<<s-General-Q51-60-q-60, Next question>>
+
+[[s-General-Q51-60-q-60]]
+=== Q60
+
+[big]#General (Q51--60): Question 60#
+
+==== Question
+
+Qd7a29
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q5_9" onclick="toggle_hidden_q5_9()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5_9]]
+Ad7a29
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5_9");
+z.style.display = "none"
+function toggle_hidden_q5_9() {
+  var x = document.getElementById("answer_q5_9");
+  var b = document.getElementByID("button_q5_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-59, Previous question>> +
+<<s-General-Q61-70-q-61, Next question>>
+
+[[s6]]
+== General (Q61--70)
+
+[[s-General-Q61-70-q-61]]
+=== Q61
+
+[big]#General (Q61--70): Question 61#
+
+==== Question
+
+Q98cf4
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q6_0" onclick="toggle_hidden_q6_0()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6_0]]
+A98cf4
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6_0");
+z.style.display = "none"
+function toggle_hidden_q6_0() {
+  var x = document.getElementById("answer_q6_0");
+  var b = document.getElementByID("button_q6_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-60, Previous question>> +
+<<s-General-Q61-70-q-62, Next question>>
+
+[[s-General-Q61-70-q-62]]
+=== Q62
+
+[big]#General (Q61--70): Question 62#
+
+==== Question
+
+Q69686
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q6_1" onclick="toggle_hidden_q6_1()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6_1]]
+A69686
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6_1");
+z.style.display = "none"
+function toggle_hidden_q6_1() {
+  var x = document.getElementById("answer_q6_1");
+  var b = document.getElementByID("button_q6_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q61-70-q-61, Previous question>> +
+<<s-General-Q61-70-q-63, Next question>>
+
+[[s-General-Q61-70-q-63]]
+=== Q63
+
+[big]#General (Q61--70): Question 63#
+
+==== Question
+
+Q5335d
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q6_2" onclick="toggle_hidden_q6_2()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6_2]]
+A5335d
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6_2");
+z.style.display = "none"
+function toggle_hidden_q6_2() {
+  var x = document.getElementById("answer_q6_2");
+  var b = document.getElementByID("button_q6_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q61-70-q-62, Previous question>> +
+<<s-General-Q61-70-q-64, Next question>>
+
+[[s-General-Q61-70-q-64]]
+=== Q64
+
+[big]#General (Q61--70): Question 64#
+
+==== Question
+
+Qad3e2
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q6_3" onclick="toggle_hidden_q6_3()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6_3]]
+Aad3e2
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6_3");
+z.style.display = "none"
+function toggle_hidden_q6_3() {
+  var x = document.getElementById("answer_q6_3");
+  var b = document.getElementByID("button_q6_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q61-70-q-63, Previous question>> +
+<<s-General-Q61-70-q-65, Next question>>
+
+[[s-General-Q61-70-q-65]]
+=== Q65
+
+[big]#General (Q61--70): Question 65#
+
+==== Question
+
+Q8a75d
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q6_4" onclick="toggle_hidden_q6_4()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6_4]]
+A8a75d
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6_4");
+z.style.display = "none"
+function toggle_hidden_q6_4() {
+  var x = document.getElementById("answer_q6_4");
+  var b = document.getElementByID("button_q6_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q61-70-q-64, Previous question>> +
+<<s-General-Q61-70-q-66, Next question>>
+
+[[s-General-Q61-70-q-66]]
+=== Q66
+
+[big]#General (Q61--70): Question 66#
+
+==== Question
+
+Q33e49
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q6_5" onclick="toggle_hidden_q6_5()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6_5]]
+A33e49
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6_5");
+z.style.display = "none"
+function toggle_hidden_q6_5() {
+  var x = document.getElementById("answer_q6_5");
+  var b = document.getElementByID("button_q6_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q61-70-q-65, Previous question>> +
+<<s-General-Q61-70-q-67, Next question>>
+
+[[s-General-Q61-70-q-67]]
+=== Q67
+
+[big]#General (Q61--70): Question 67#
+
+==== Question
+
+Q4afb7
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q6_6" onclick="toggle_hidden_q6_6()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6_6]]
+A4afb7
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6_6");
+z.style.display = "none"
+function toggle_hidden_q6_6() {
+  var x = document.getElementById("answer_q6_6");
+  var b = document.getElementByID("button_q6_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q61-70-q-66, Previous question>> +
+<<s-General-Q61-70-q-68, Next question>>
+
+[[s-General-Q61-70-q-68]]
+=== Q68
+
+[big]#General (Q61--70): Question 68#
+
+==== Question
+
+Q04f00
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q6_7" onclick="toggle_hidden_q6_7()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6_7]]
+A04f00
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6_7");
+z.style.display = "none"
+function toggle_hidden_q6_7() {
+  var x = document.getElementById("answer_q6_7");
+  var b = document.getElementByID("button_q6_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q61-70-q-67, Previous question>> +
+<<s-General-Q61-70-q-69, Next question>>
+
+[[s-General-Q61-70-q-69]]
+=== Q69
+
+[big]#General (Q61--70): Question 69#
+
+==== Question
+
+Q7760b
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q6_8" onclick="toggle_hidden_q6_8()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6_8]]
+A7760b
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6_8");
+z.style.display = "none"
+function toggle_hidden_q6_8() {
+  var x = document.getElementById("answer_q6_8");
+  var b = document.getElementByID("button_q6_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q61-70-q-68, Previous question>> +
+<<s-General-Q61-70-q-70, Next question>>
+
+[[s-General-Q61-70-q-70]]
+=== Q70
+
+[big]#General (Q61--70): Question 70#
+
+==== Question
+
+Qc4ef1
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q6_9" onclick="toggle_hidden_q6_9()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6_9]]
+Ac4ef1
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6_9");
+z.style.display = "none"
+function toggle_hidden_q6_9() {
+  var x = document.getElementById("answer_q6_9");
+  var b = document.getElementByID("button_q6_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q61-70-q-69, Previous question>> +
+<<s-Broadway-q-1, Next question>>
+
+[[s7]]
+== Broadway
+
+[[s-Broadway-q-1]]
+=== Q1
+
+[big]#Broadway: Question 1#
+
+==== Question
+
+Qd3270
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q7_0" onclick="toggle_hidden_q7_0()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7_0]]
+Ad3270
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7_0");
+z.style.display = "none"
+function toggle_hidden_q7_0() {
+  var x = document.getElementById("answer_q7_0");
+  var b = document.getElementByID("button_q7_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q61-70-q-70, Previous question>> +
+<<s-Broadway-q-2, Next question>>
+
+[[s-Broadway-q-2]]
+=== Q2
+
+[big]#Broadway: Question 2#
+
+==== Question
+
+Q59036
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q7_1" onclick="toggle_hidden_q7_1()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7_1]]
+A59036
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7_1");
+z.style.display = "none"
+function toggle_hidden_q7_1() {
+  var x = document.getElementById("answer_q7_1");
+  var b = document.getElementByID("button_q7_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-1, Previous question>> +
+<<s-Broadway-q-3, Next question>>
+
+[[s-Broadway-q-3]]
+=== Q3
+
+[big]#Broadway: Question 3#
+
+==== Question
+
+Qe3b30
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q7_2" onclick="toggle_hidden_q7_2()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7_2]]
+Ae3b30
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7_2");
+z.style.display = "none"
+function toggle_hidden_q7_2() {
+  var x = document.getElementById("answer_q7_2");
+  var b = document.getElementByID("button_q7_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-2, Previous question>> +
+<<s-Broadway-q-4, Next question>>
+
+[[s-Broadway-q-4]]
+=== Q4
+
+[big]#Broadway: Question 4#
+
+==== Question
+
+Qaca94
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q7_3" onclick="toggle_hidden_q7_3()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7_3]]
+Aaca94
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7_3");
+z.style.display = "none"
+function toggle_hidden_q7_3() {
+  var x = document.getElementById("answer_q7_3");
+  var b = document.getElementByID("button_q7_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-3, Previous question>> +
+<<s-Broadway-q-5, Next question>>
+
+[[s-Broadway-q-5]]
+=== Q5
+
+[big]#Broadway: Question 5#
+
+==== Question
+
+Q9d615
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q7_4" onclick="toggle_hidden_q7_4()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7_4]]
+A9d615
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7_4");
+z.style.display = "none"
+function toggle_hidden_q7_4() {
+  var x = document.getElementById("answer_q7_4");
+  var b = document.getElementByID("button_q7_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-4, Previous question>> +
+<<s-Broadway-q-6, Next question>>
+
+[[s-Broadway-q-6]]
+=== Q6
+
+[big]#Broadway: Question 6#
+
+==== Question
+
+Q82ded
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q7_5" onclick="toggle_hidden_q7_5()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7_5]]
+A82ded
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7_5");
+z.style.display = "none"
+function toggle_hidden_q7_5() {
+  var x = document.getElementById("answer_q7_5");
+  var b = document.getElementByID("button_q7_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-5, Previous question>> +
+<<s-Broadway-q-7, Next question>>
+
+[[s-Broadway-q-7]]
+=== Q7
+
+[big]#Broadway: Question 7#
+
+==== Question
+
+Q91370
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q7_6" onclick="toggle_hidden_q7_6()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7_6]]
+A91370
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7_6");
+z.style.display = "none"
+function toggle_hidden_q7_6() {
+  var x = document.getElementById("answer_q7_6");
+  var b = document.getElementByID("button_q7_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-6, Previous question>> +
+<<s-Broadway-q-8, Next question>>
+
+[[s-Broadway-q-8]]
+=== Q8
+
+[big]#Broadway: Question 8#
+
+==== Question
+
+Q879d5
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q7_7" onclick="toggle_hidden_q7_7()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7_7]]
+A879d5
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7_7");
+z.style.display = "none"
+function toggle_hidden_q7_7() {
+  var x = document.getElementById("answer_q7_7");
+  var b = document.getElementByID("button_q7_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-7, Previous question>> +
+<<s-Broadway-q-9, Next question>>
+
+[[s-Broadway-q-9]]
+=== Q9
+
+[big]#Broadway: Question 9#
+
+==== Question
+
+Q37964
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q7_8" onclick="toggle_hidden_q7_8()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7_8]]
+A37964
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7_8");
+z.style.display = "none"
+function toggle_hidden_q7_8() {
+  var x = document.getElementById("answer_q7_8");
+  var b = document.getElementByID("button_q7_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-8, Previous question>> +
+<<s-Broadway-q-10, Next question>>
+
+[[s-Broadway-q-10]]
+=== Q10
+
+[big]#Broadway: Question 10#
+
+==== Question
+
+Q62c48
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q7_9" onclick="toggle_hidden_q7_9()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7_9]]
+A62c48
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7_9");
+z.style.display = "none"
+function toggle_hidden_q7_9() {
+  var x = document.getElementById("answer_q7_9");
+  var b = document.getElementByID("button_q7_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-9, Previous question>> +
+<<s-Bonus-q-1, Next question>>
+
+[[s8]]
+== Bonus
+
+[[s-Bonus-q-1]]
+=== Q1
+
+[big]#Bonus: Question 1#
+
+==== Question
+
+Qd6895
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q8_0" onclick="toggle_hidden_q8_0()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8_0]]
+Ad6895
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8_0");
+z.style.display = "none"
+function toggle_hidden_q8_0() {
+  var x = document.getElementById("answer_q8_0");
+  var b = document.getElementByID("button_q8_0")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-10, Previous question>> +
+<<s-Bonus-q-2, Next question>>
+
+[[s-Bonus-q-2]]
+=== Q2
+
+[big]#Bonus: Question 2#
+
+==== Question
+
+Q3afc9
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q8_1" onclick="toggle_hidden_q8_1()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8_1]]
+A3afc9
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8_1");
+z.style.display = "none"
+function toggle_hidden_q8_1() {
+  var x = document.getElementById("answer_q8_1");
+  var b = document.getElementByID("button_q8_1")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-1, Previous question>> +
+<<s-Bonus-q-3, Next question>>
+
+[[s-Bonus-q-3]]
+=== Q3
+
+[big]#Bonus: Question 3#
+
+==== Question
+
+Q73566
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q8_2" onclick="toggle_hidden_q8_2()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8_2]]
+A73566
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8_2");
+z.style.display = "none"
+function toggle_hidden_q8_2() {
+  var x = document.getElementById("answer_q8_2");
+  var b = document.getElementByID("button_q8_2")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-2, Previous question>> +
+<<s-Bonus-q-4, Next question>>
+
+[[s-Bonus-q-4]]
+=== Q4
+
+[big]#Bonus: Question 4#
+
+==== Question
+
+Qde248
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q8_3" onclick="toggle_hidden_q8_3()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8_3]]
+Ade248
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8_3");
+z.style.display = "none"
+function toggle_hidden_q8_3() {
+  var x = document.getElementById("answer_q8_3");
+  var b = document.getElementByID("button_q8_3")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-3, Previous question>> +
+<<s-Bonus-q-5, Next question>>
+
+[[s-Bonus-q-5]]
+=== Q5
+
+[big]#Bonus: Question 5#
+
+==== Question
+
+Qf64e7
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q8_4" onclick="toggle_hidden_q8_4()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8_4]]
+Af64e7
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8_4");
+z.style.display = "none"
+function toggle_hidden_q8_4() {
+  var x = document.getElementById("answer_q8_4");
+  var b = document.getElementByID("button_q8_4")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-4, Previous question>> +
+<<s-Bonus-q-6, Next question>>
+
+[[s-Bonus-q-6]]
+=== Q6
+
+[big]#Bonus: Question 6#
+
+==== Question
+
+Q7ba94
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q8_5" onclick="toggle_hidden_q8_5()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8_5]]
+A7ba94
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8_5");
+z.style.display = "none"
+function toggle_hidden_q8_5() {
+  var x = document.getElementById("answer_q8_5");
+  var b = document.getElementByID("button_q8_5")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-5, Previous question>> +
+<<s-Bonus-q-7, Next question>>
+
+[[s-Bonus-q-7]]
+=== Q7
+
+[big]#Bonus: Question 7#
+
+==== Question
+
+Qfcc3a
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q8_6" onclick="toggle_hidden_q8_6()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8_6]]
+Afcc3a
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8_6");
+z.style.display = "none"
+function toggle_hidden_q8_6() {
+  var x = document.getElementById("answer_q8_6");
+  var b = document.getElementByID("button_q8_6")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-6, Previous question>> +
+<<s-Bonus-q-8, Next question>>
+
+[[s-Bonus-q-8]]
+=== Q8
+
+[big]#Bonus: Question 8#
+
+==== Question
+
+Q55a79
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q8_7" onclick="toggle_hidden_q8_7()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8_7]]
+A55a79
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8_7");
+z.style.display = "none"
+function toggle_hidden_q8_7() {
+  var x = document.getElementById("answer_q8_7");
+  var b = document.getElementByID("button_q8_7")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-7, Previous question>> +
+<<s-Bonus-q-9, Next question>>
+
+[[s-Bonus-q-9]]
+=== Q9
+
+[big]#Bonus: Question 9#
+
+==== Question
+
+Qd40f2
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q8_8" onclick="toggle_hidden_q8_8()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8_8]]
+Ad40f2
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8_8");
+z.style.display = "none"
+function toggle_hidden_q8_8() {
+  var x = document.getElementById("answer_q8_8");
+  var b = document.getElementByID("button_q8_8")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-8, Previous question>> +
+<<s-Bonus-q-10, Next question>>
+
+[[s-Bonus-q-10]]
+=== Q10
+
+[big]#Bonus: Question 10#
+
+==== Question
+
+Qfc7c4
+
+Media goes here
+
+==== Answer
+
+
+[subs=""]
++++++++++++++++++
+<button id="button_q8_9" onclick="toggle_hidden_q8_9()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8_9]]
+Afc7c4
+None
+
+
+[subs=""]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8_9");
+z.style.display = "none"
+function toggle_hidden_q8_9() {
+  var x = document.getElementById("answer_q8_9");
+  var b = document.getElementByID("button_q8_9")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    b.innerHTML = "Hide answer";
+  } else {
+    x.style.display = "none";
+    b.innerHTML = "Show answer";
+  }
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-9, Previous question>>

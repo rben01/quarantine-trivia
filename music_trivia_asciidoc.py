@@ -1,9 +1,10 @@
 # %%
+import base64  # noqa F401
 import re
 import subprocess
 import uuid
 from pathlib import Path
-from typing import List, Mapping
+from typing import List, Mapping, Tuple
 
 import numpy as np
 import pandas as pd
@@ -29,18 +30,22 @@ ANSWER_COL = "answer"
 
 N_PER_ROUND = 10
 
-Rounds = Mapping[str, List["TriviaItem"]]
+Rounds = List[Tuple[str, List["TriviaItem"]]]
 
 
 class TriviaItem:
-    def __init__(self, question, answer, source, section):
+    def __init__(self, question, answer, source, section, number, round_name):
         self.question = question
         self.answer = answer
         self.source = source
         self.section = section
+        self.number = number
+        self.round_name = round_name
 
     def __str__(self):
-        return f"Q:{self.question}; A:{self.answer}; P:{self.source}"
+        return (
+            f"Q:{self.question}; A:{self.answer}; R:{self.round_name}; N:{self.number}"
+        )
 
     def __repr__(self):
         return str(self)
@@ -81,7 +86,7 @@ def trim_audio(in_file: str, duration: float, verbose=False):
         "-t",
         str(duration),
         "-acodec",
-        "mp3",
+        "aac",
         "-vcodec",
         "libx264",
         "-tune",
@@ -163,7 +168,7 @@ def get_data(trim=True) -> pd.DataFrame:
     return df
 
 
-df = get_data(trim=True)
+df = get_data(trim=False)
 display(df)
 
 
@@ -176,23 +181,35 @@ def get_rounds(df) -> Rounds:
         section_df: pd.DataFrame
 
         n_qs = len(section_df)
+        q_num = 1
 
         n_subsections = n_qs // N_PER_ROUND
+
         for i in range(n_subsections):
             start_idx = i * N_PER_ROUND
             end_idx = start_idx + N_PER_ROUND
-            round_name = f"{section.title()} (Q{start_idx+1}--{end_idx})"
-            questions = section_df.iloc[start_idx:end_idx, :].apply(
-                lambda row: TriviaItem(
-                    row[QUESTION_COL],
-                    row[ANSWER_COL],
-                    row[AUDIO_FILE_OUT_COL],
-                    row[SECTION_COL],
-                ),
-                axis=1,
-            )
+            if n_qs > N_PER_ROUND:
+                round_name = f"{section.title()} (Q{start_idx+1}--{end_idx})"
+            else:
+                round_name = f"{section.title()}"
 
-            rounds[round_name] = questions.tolist()
+            questions = []
+            for row in section_df.iloc[start_idx:end_idx, :].iterrows():
+                row = row[1]
+                questions.append(
+                    TriviaItem(
+                        row[QUESTION_COL],
+                        row[ANSWER_COL],
+                        row[AUDIO_FILE_OUT_COL],
+                        row[SECTION_COL],
+                        q_num,
+                        round_name,
+                    )
+                )
+
+                q_num += 1
+
+            rounds[round_name] = questions
 
     # Rearrange to put bonus last (dicts remember insertion order)
     new_rounds = {}
@@ -204,17 +221,25 @@ def get_rounds(df) -> Rounds:
     new_rounds[_bonus_k] = _bonus_v
     rounds = new_rounds
 
-    return rounds
+    return list(rounds.items())
 
 
+get_rounds(df)
 # %%
+
+
+def make_anchor(trivia_item: TriviaItem) -> str:
+    pp_round_name = re.sub(r"[^A-Za-z0-9]+", "-", trivia_item.round_name)
+    anchor = f"s-{pp_round_name}-q-{trivia_item.number}"
+    anchor = re.sub(r"-+", "-", anchor)
+    return anchor
 
 
 def generate_asciidoc(rounds: Rounds):
     preamble = """
 = Music trivia
 :toc2:
-:toclevels: 5
+:toclevels: 2
 :toc-title: Welcome to Quarantine Music Trivia!
 
 [subs=""]
@@ -235,47 +260,76 @@ a[tabindex]:focus { color:blue; outline:none; }
     doc_parts = []
 
     def add_line(s, empty_after=0):
+        s = str(s)
         doc_parts.append(s)
         for _ in range(empty_after):
             doc_parts.append("")
 
     add_line(preamble, empty_after=1)
 
-    for ri, (round_name, trivia_items) in enumerate(rounds.items()):
-        trivia_item: TriviaItem
+    for ri, (round_name, trivia_items) in enumerate(rounds):
+        trivia_items: List[TriviaItem]
 
-        ri += 1
         add_line(f"[[s{ri}]]")
         add_line(f"== {round_name}", empty_after=1)
 
         # latex_items.append(r"\subsection{Questions}")
         for qi, trivia_item in enumerate(trivia_items):
-            qi += 1
+            trivia_item: TriviaItem
+
             question_id = f"q{ri}_{qi}"
 
-            add_line(f"[[s{ri}q{qi}]]")
-            add_line(f"==== Question {qi}", empty_after=1)
-            add_line(f"===== Question", empty_after=1)
-            add_line(trivia_item.question)
+            this_anchor = make_anchor(trivia_item)
+            print(this_anchor)
+
+            if not (ri == 0 and qi == 0):
+                if qi == 0:
+                    prev_trivia_item = rounds[ri - 1][1][-1]
+                else:
+                    prev_trivia_item = trivia_items[qi - 1]
+
+                prev_anchor = make_anchor(prev_trivia_item)
+
+            if not (ri == len(rounds) - 1 and qi == len(trivia_items) - 1):
+                if qi == len(trivia_items) - 1:
+                    next_trivia_item = rounds[ri + 1][1][0]
+                else:
+                    next_trivia_item = trivia_items[qi + 1]
+                next_anchor = make_anchor(next_trivia_item)
+
+            add_line(f"[[{this_anchor}]]")
+            add_line(f"=== Q{trivia_item.number}", empty_after=1)
+            add_line(
+                f"[big]#{round_name}: Question {trivia_item.number}#", empty_after=1
+            )
+            add_line(f"==== Question", empty_after=1)
+            add_line(trivia_item.question, empty_after=1)
 
             if not pd.isna(trivia_item.source):
-                media_block = r"video::{trivia_item.source}[width=300]"
+                # with open(trivia_item.source, "rb") as f:
+                #     b64_enc_vid = base64.b64encode(f.read()).decode("ascii")
+                # src = f"data:video/mp4;base64,{b64_enc_vid}"
+                src = trivia_item.source
+                media_block = f"video::{src}[width=300]"
             else:
                 media_block = f"Media goes here"
 
             add_line(media_block, empty_after=1)
 
-            add_line(f"===== Answer", empty_after=1)
+            add_line(f"==== Answer", empty_after=1)
             add_line(
                 f"""
 [subs=""]
 +++++++++++++++++
-<button onclick="toggle_hidden_{qi}()">Toggle answer</button>
+<button id="button_{question_id}" onclick="toggle_hidden_{question_id}()">
+Show answer
+</button>
 +++++++++++++++++""",
                 empty_after=1,
             )
             add_line(f"[[answer_{question_id}]]")
-            add_line(trivia_item.answer, empty_after=1)
+            add_line(trivia_item.answer)
+            add_line(trivia_item.source, empty_after=1)
             add_line(
                 f"""
 [subs=""]
@@ -285,10 +339,13 @@ var z = document.getElementById("answer_{question_id}");
 z.style.display = "none"
 function toggle_hidden_{question_id}() {{
   var x = document.getElementById("answer_{question_id}");
+  var b = document.getElementByID("button_{question_id}")
   if (x.style.display === "none") {{
     x.style.display = "block";
+    b.innerHTML = "Hide answer";
   }} else {{
     x.style.display = "none";
+    b.innerHTML = "Show answer";
   }}
 }}
 </script>
@@ -296,99 +353,39 @@ function toggle_hidden_{question_id}() {{
                 empty_after=1,
             )
             add_line(f'[role="fullheight"]')
-            if ri == 1 and qi == 1:
-                add_line(f"<<s{ri}q{qi+1}, next q>>")
-            elif ri == len(rounds) and qi == len(trivia_items):
-                add_line(f"<<s{ri}q{qi-1}, prev q>>")
+            # Very first question
+            if ri == 0 and qi == 0:
+                add_line(f"<<{next_anchor}, Next question>>")
+            # Very last question
+            elif ri == len(rounds) - 1 and qi == len(trivia_items) - 1:
+                add_line(f"<<{prev_anchor}, Previous question>>")
+            # First question in round >= 1
+            elif qi == 0:
+                add_line(f"<<{prev_anchor}, Previous question>> +")
+                add_line(f"<<{next_anchor}, Next question>>")
+            # Last question in round < last_round
+            elif qi == len(trivia_items) - 1:
+                add_line(f"<<{prev_anchor}, Previous question>> +")
+                add_line(f"<<{next_anchor}, Next question>>")
+            # Middle questions
             else:
-                add_line(f"<<s{ri}q{qi-1}, prev q>>" f" <<s{ri}q{qi+1}, next q>>")
-
-            add_line("")
-
-            question_frame_str = question_template_str.format(
-                question_number=ri * N_PER_ROUND + qi + 1,
-                question_title=f"{round_name}, Question {qi+1}",
-                question=trivia_item.question,
-                source=trivia_item.source,
-                media_block=media_block,
-            )
-
-            add_line(question_frame_str)
-
-        add_line(r"\subsection{Answers}")
-        for qi, trivia_item in enumerate(trivia_items):
-            answer_frame_str = answer_template_str.format(
-                question_title=f"{round_name}, Answer {qi+1}",
-                question=trivia_item.question,
-                answer=trivia_item.answer,
-            )
-
-            latex_items.append(answer_frame_str)
-
-    sections = df["section"].unique()
-
-    qi = 0
-    for section_idx, section in enumerate(sections):
-        section_idx += 1
-        add_line(f"[[s{section_idx}]]")
-        add_line(f"== Section {section}", empty_after=1)
-
-        this_section_df = df[df["section"] == section]
-        this_section_df: pd.DataFrame
-        for q_idx, q in enumerate(this_section_df.iterrows()):
-            qi += 1
-            q_idx += 1
-            if q_idx % 10 == 1:
-                add_line(f"=== Questions {q_idx}-{q_idx+9}", empty_after=1)
-
-            question_id = f"{section_idx}_{q_idx}"
-            song_info = q[1]
-            # Question section
-            add_line(f"[[s{section_idx}q{q_idx}]]")
-            add_line(f"==== Question {qi}", empty_after=1)
-            add_line(f"===== Question", empty_after=1)
-            add_line(f"audio::{song_info['file']}[Song]", empty_after=1)
-            add_line(f"===== Answer", empty_after=1)
-            add_line(
-                f"""
-[subs=""]
-+++++++++++++++++
-<button onclick="toggle_hidden_{question_id}()">Toggle answer</button>
-+++++++++++++++++""",
-                empty_after=1,
-            )
-            add_line(f"[[answer_{question_id}]]")
-            add_line(song_info["title"], empty_after=1)
-            add_line(
-                f"""
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_{question_id}");
-z.style.display = "none"
-function toggle_hidden_{question_id}() {{
-  var x = document.getElementById("answer_{question_id}");
-  if (x.style.display === "none") {{
-    x.style.display = "block";
-  }} else {{
-    x.style.display = "none";
-  }}
-}}
-</script>
-+++++++++++++++""",
-                empty_after=1,
-            )
-            add_line(f'[role="fullheight"]')
-            if section_idx == 1 and q_idx == 1:
-                add_line(f"<<s{section_idx}q{q_idx+1}, next q>>")
-            elif section_idx == len(sections) and q_idx == len(this_section_df):
-                add_line(f"<<s{section_idx}q{q_idx-1}, prev q>>")
-            else:
-                add_line(
-                    f"<<s{section_idx}q{q_idx-1}, prev q>>"
-                    f" <<s{section_idx}q{q_idx+1}, next q>>"
-                )
+                add_line(f"<<{prev_anchor}, Previous question>> +")
+                add_line(f"<<{next_anchor}, Next question>>")
 
             add_line("")
 
     return "\n".join(doc_parts)
+
+
+def write_asciidoc(df=None):
+    if df is None:
+        df = get_data(trim=True)
+
+    rounds = get_rounds(df)
+    with open("trivia.asciidoc", "w") as f:
+        f.write(generate_asciidoc(rounds))
+
+    subprocess.check_call(["asciidoc", "-b", "html5", "trivia.asciidoc"])
+
+
+write_asciidoc(df)
