@@ -11,3 +11,7 @@ __pycache__/*
 *.toc
 *.m4a
 *.webm
+*.mp3
+*.ogg
+*.mp4
+*.aac

@@ -1,22 +1,31 @@
 # %%
+import re
 import subprocess
 import uuid
 from pathlib import Path
 from typing import List, Mapping
 
+import numpy as np
 import pandas as pd
 from IPython.display import display  # noqa F401
 
-songs_metadata_dir = Path("Song meta")
-music_dir = Path("Audio/Trimmed")
+SONGS_METADATA_DIR = Path("Song meta")
+AUDIO_DIR = Path("LaTeX/Audio")
 
-TITLE = "title"
-ARTIST = "artist"
-ALBUM = "album"
-SECTION = "section"
-AUDIO_FILE = "audio"
-QUESTION = "question"
-ANSWER = "answer"
+ORIGINALS_DIR = AUDIO_DIR / "Originals"
+TRIMMED_DIR = AUDIO_DIR / "Trimmed"
+for d in [ORIGINALS_DIR, TRIMMED_DIR]:
+    d.mkdir(exist_ok=True)
+
+TITLE_COL = "title"
+ARTIST_COL = "artist"
+ALBUM_COL = "album"
+SECTION_COL = "section"
+AUDIO_FILE_IN_COL = "audio_in"
+AUDIO_FILE_OUT_COL = "audio_out"
+DURATION_COL = "duration"
+QUESTION_COL = "question"
+ANSWER_COL = "answer"
 
 N_PER_ROUND = 10
 
@@ -36,15 +45,72 @@ class TriviaItem:
         return str(self)
 
 
-def get_data() -> pd.DataFrame:
+def get_out_filepath(in_file) -> Path:
+    if pd.isna(in_file):
+        return None
+
+    in_file = Path(in_file)
+    new_name = re.sub(r"[^A-Za-z0-9.]+", "-", in_file.name)
+    return (TRIMMED_DIR / new_name).with_suffix(".mp4")
+
+
+def trim_audio(in_file: str, duration: float, verbose=False):
+
+    if pd.isna(in_file):
+        return
+
+    in_file = ORIGINALS_DIR / in_file
+    if in_file.suffix not in [".webm", ".m4a", "mp3"]:
+        raise ValueError
+
+    out_path = get_out_filepath(in_file)
+
+    if pd.isna(duration):
+        duration = 5
+
+    cmd = [
+        "ffmpeg",
+        "-y",
+        "-i",
+        str(in_file),
+        "-i",
+        "LaTeX/question_mark.jpg",
+        "-ss",
+        "0",
+        "-t",
+        str(duration),
+        "-acodec",
+        "mp3",
+        "-vcodec",
+        "libx264",
+        "-tune",
+        "stillimage",
+        "-pix_fmt",
+        "yuv420p",
+        "-vf",
+        "pad=ceil(iw/2)*2:ceil(ih/2)*2",
+        str(out_path),
+    ]
+    if verbose:
+        print(" ".join(f"'{arg}'" for arg in cmd))
+
+    subprocess.check_call(cmd)
+
+    if verbose:
+        print(f"Did {in_file.name}")
+
+
+def get_data(trim=True) -> pd.DataFrame:
     dfs = []
     for f in (
-        f for extn in ["csv", "tsv"] for f in songs_metadata_dir.glob(f"*.{extn}")
+        f for extn in ["csv", "tsv"] for f in SONGS_METADATA_DIR.glob(f"*.{extn}")
     ):
         f: Path
         try:
             if f.suffix == ".csv":
                 df = pd.read_csv(f, delimiter=";")
+                if len(df.columns) < 3:
+                    df = pd.read_csv(f, delimiter=",")
             elif f.suffix == ".tsv":
                 df = pd.read_csv(f, delimiter="\t")
             else:
@@ -54,29 +120,60 @@ def get_data() -> pd.DataFrame:
             raise
 
         df["random_id"] = df.apply(lambda row: uuid.uuid4().hex[:5], axis=1)
-        df[SECTION] = f.stem
+        df[SECTION_COL] = f.stem
 
-        df[AUDIO_FILE] = f.stem + df["random_id"]
-        df[QUESTION] = "Q" + df["random_id"]
-        df[ANSWER] = "A" + df["random_id"]
+        if "audio" in df.columns:
+            df[AUDIO_FILE_IN_COL] = df["audio"]
+        else:
+            df[AUDIO_FILE_IN_COL] = None
+
+        df[AUDIO_FILE_OUT_COL] = np.where(
+            df[AUDIO_FILE_IN_COL].isna(),
+            None,
+            df[AUDIO_FILE_IN_COL].map(get_out_filepath),
+        )
+
+        df[DURATION_COL] = np.where(df[AUDIO_FILE_IN_COL].isna(), None, 3)
+        df[QUESTION_COL] = "Q" + df["random_id"]
+        df[ANSWER_COL] = "A" + df["random_id"]
 
         dfs.append(df)
 
     df = pd.concat(dfs, axis=0)
-    df = df[[TITLE, ARTIST, ALBUM, SECTION, AUDIO_FILE, QUESTION, ANSWER]]
+    df = df[
+        [
+            TITLE_COL,
+            ARTIST_COL,
+            ALBUM_COL,
+            SECTION_COL,
+            AUDIO_FILE_IN_COL,
+            AUDIO_FILE_OUT_COL,
+            DURATION_COL,
+            QUESTION_COL,
+            ANSWER_COL,
+        ]
+    ]
+
+    if trim:
+        for row in df.iterrows():
+            row = row[1]
+            trim_audio(row[AUDIO_FILE_IN_COL], duration=row[DURATION_COL], verbose=True)
 
     return df
 
 
-display(get_data())
+df = get_data(trim=True)
+display(df)
+
+# %%
 
 
 def get_rounds(df) -> Rounds:
-    sections = df[SECTION].unique()
+    sections = df[SECTION_COL].unique()
     rounds = {}
 
     for s_idx, section in enumerate(sections):
-        section_df = df[df[SECTION] == section]
+        section_df = df[df[SECTION_COL] == section]
         section_df: pd.DataFrame
 
         n_qs = len(section_df)
@@ -85,9 +182,11 @@ def get_rounds(df) -> Rounds:
         for i in range(n_subsections):
             start_idx = i * N_PER_ROUND
             end_idx = start_idx + N_PER_ROUND
-            round_name = f"{section.title()} (Q{start_idx+1}-{end_idx})"
+            round_name = f"{section.title()} (Q{start_idx+1}--{end_idx})"
             questions = section_df.iloc[start_idx:end_idx, :].apply(
-                lambda row: TriviaItem(row[QUESTION], row[ANSWER], row[AUDIO_FILE]),
+                lambda row: TriviaItem(
+                    row[QUESTION_COL], row[ANSWER_COL], row[AUDIO_FILE_OUT_COL]
+                ),
                 axis=1,
             )
 
@@ -163,13 +262,7 @@ def generate_latex(rounds: Rounds):
 {question}
 \end{{block}}
 \begin{{center}}
-Media goes here
-% \includemedia[%
-%     width=0.4\linewidth,
-%     height=0.3\linewidth,
-%     addresource={source},
-%     flashvars={{source={source}}}
-%   ]{{}}{{VPlayer9.swf}}
+{media_block}
 \end{{center}}
 \end{{frame}}
     """
@@ -202,11 +295,28 @@ Media goes here
 
         # latex_items.append(r"\subsection{Questions}")
         for i, trivia_item in enumerate(trivia_items):
+            if not pd.isna(trivia_item.source):
+                media_block = r"""
+\includemedia[%
+    width=0.4\linewidth,
+    height=0.3\linewidth,
+    attachfiles,
+    passcontext,
+    addresource="{source}",
+    flashvars={{source="{source}"}}
+]{{}}{{VPlayer9.swf}}
+""".format(
+                    source=trivia_item.source.relative_to("LaTeX")
+                )
+            else:
+                media_block = f"Media goes here"
+
             question_frame_str = question_template_str.format(
                 question_number=ri * N_PER_ROUND + i + 1,
                 question_title=f"{round_name}, Question {i+1}",
                 question=trivia_item.question,
                 source=trivia_item.source,
+                media_block=media_block,
             )
 
             add_line(question_frame_str)
@@ -254,5 +364,10 @@ Media goes here
     return latex_str
 
 
-rounds = get_rounds(get_data())
-generate_latex(rounds)
+generate_latex(get_rounds(df))
+
+# rounds = get_rounds(get_data())
+# generate_latex(rounds)
+
+
+# %%
