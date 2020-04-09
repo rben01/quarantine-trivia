@@ -35,13 +35,16 @@ Rounds = List[Tuple[str, List["TriviaItem"]]]
 
 
 class TriviaItem:
-    def __init__(self, question, answer, source, section, number, round_name):
+    def __init__(
+        self, question, answer, source, section, number, round_name, *metadata
+    ):
         self.question = question
         self.answer = answer
         self.source = source
         self.section = section
         self.number = number
         self.round_name = round_name
+        self.metadata = metadata
 
     def __str__(self):
         return (
@@ -175,20 +178,21 @@ def consolidate_metadata() -> pd.DataFrame:
 
 def read_df() -> pd.DataFrame:
     df = pd.read_csv(
-        "./songs_meta_filled_no_qs_as.csv",
+        "./Songs_meta_filled_output/Sheet 2-Table 1.csv",
         dtype={
+            ROW_ID_COL: str,
             TITLE_COL: str,
             ARTIST_COL: str,
             ALBUM_COL: str,
             SECTION_COL: str,
-            ROW_ID_COL: str,
+            START_TIME_COL: float,
+            END_TIME_COL: float,
+            QUESTION_COL: str,
+            ANSWER_COL: str,
         },
     )
 
-    df[START_TIME_COL] = df[START_TIME_COL].fillna(0).astype(float)
-
-    df[QUESTION_COL] = "Q" + df[ROW_ID_COL]
-    df[ANSWER_COL] = "A" + df[ROW_ID_COL]
+    df = df[(df[QUESTION_COL].notna()) & (df[QUESTION_COL] != "")]
 
     df.to_csv("songs_meta_filled.csv", index=False)
     return df
@@ -213,9 +217,9 @@ def trim_songs(df: pd.DataFrame):
     #     print(i, f"Did {row[AUDIO_FILE_IN_COL]}")
 
 
-consolidate_metadata()
+# consolidate_metadata()
 df = read_df()
-trim_songs(df)
+# trim_songs(df)
 
 # %%
 
@@ -252,6 +256,7 @@ def get_rounds(df) -> Rounds:
                         row[SECTION_COL],
                         q_num,
                         round_name,
+                        *row[[ARTIST_COL, ALBUM_COL, TITLE_COL]],
                     )
                 )
 
@@ -272,8 +277,7 @@ def get_rounds(df) -> Rounds:
     return list(rounds.items())
 
 
-get_rounds(df)
-# %%
+# get_rounds(df)
 
 
 def make_anchor(trivia_item: TriviaItem) -> str:
@@ -395,8 +399,8 @@ Show answer
                 empty_after=1,
             )
             add_line(f"[[answer_{question_id}]]")
-            add_line(trivia_item.answer)
-            add_line(trivia_item.source, empty_after=1)
+            add_line(f"{trivia_item.answer} +")
+            add_line(" / ".join(trivia_item.metadata), empty_after=1)
             add_line(
                 f"""
 [subs=""]

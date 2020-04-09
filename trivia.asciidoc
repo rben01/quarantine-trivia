@@ -29,7 +29,7 @@ a[tabindex]:focus { color:blue; outline:none; }
 
 ==== Question
 
-Qd9f2e8
+Name the artist. 
 
 
 +++++++++++
@@ -57,8 +57,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q0_0]]
-Ad9f2e8
-Audio/Trimmed/Kanye-West-Stronger-PsO6ZnUZI0g.mp4
+Kayne West +
+Kanye West / Stronger (Int'l ECD Maxi) / Stronger
 
 
 [subs=""]
@@ -90,7 +90,7 @@ function toggle_hidden_q0_0() {
 
 ==== Question
 
-Q69b19c
+Name the song.
 
 
 +++++++++++
@@ -118,8 +118,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q0_1]]
-A69b19c
-Audio/Trimmed/Lil-Nas-X-Old-Town-Road-feat.-Billy-Ray-Cyrus-Remix-7ysFgElQtjI.mp4
+Old Town Road +
+Lil Nas X, Billy Ray Cyrus / Old Town Road / Old Town Road (feat. Billy Ray Cyrus) - Remix
 
 
 [subs=""]
@@ -152,7 +152,7 @@ function toggle_hidden_q0_1() {
 
 ==== Question
 
-Q7aaa7a
+Name the song.
 
 
 +++++++++++
@@ -180,8 +180,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q0_2]]
-A7aaa7a
-Audio/Trimmed/Daft-Punk-Get-Lucky-Official-Audio-ft.-Pharrell-Williams-Nile-Rodgers-5NV6Rdv1a3I.mp4
+Get Lucky +
+Daft Punk, Pharrell Williams, Nile Rodgers / Get Lucky (feat. Pharrell Williams & Nile Rodgers) [Radio Edit] / Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit
 
 
 [subs=""]
@@ -214,7 +214,7 @@ function toggle_hidden_q0_2() {
 
 ==== Question
 
-Q8171de
+Name the artist.
 
 
 +++++++++++
@@ -242,8 +242,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q0_3]]
-A8171de
-Audio/Trimmed/Jason-Derulo-Ridin-Solo-Official-Lyrics-HD-HQ-acWWb1Vxfg0.mp4
+Jason Derulo +
+Jason Derulo / Jason Derulo (Deluxe Audio) / Ridin' Solo
 
 
 [subs=""]
@@ -276,7 +276,7 @@ function toggle_hidden_q0_3() {
 
 ==== Question
 
-Q8105b9
+Name the Artist.
 
 
 +++++++++++
@@ -304,8 +304,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q0_4]]
-A8105b9
-Audio/Trimmed/Avicii-Hey-Brother-6Cp6mKbRTQY.mp4
+Avicii +
+Avicii / TRUE / Hey Brother
 
 
 [subs=""]
@@ -338,7 +338,7 @@ function toggle_hidden_q0_4() {
 
 ==== Question
 
-Qaee9ea
+Name the song.
 
 
 +++++++++++
@@ -366,8 +366,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q0_5]]
-Aaee9ea
-Audio/Trimmed/Jonas-Blue-ft.-Dakota-Fast-Car-Official-Music-Video-0wpuR68uw-8.mp4
+Fast car. +
+Jonas Blue, Dakota / Fast Car / Fast Car
 
 
 [subs=""]
@@ -400,7 +400,7 @@ function toggle_hidden_q0_5() {
 
 ==== Question
 
-Q22e5d1
+Name the song.
 
 
 +++++++++++
@@ -428,8 +428,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q0_6]]
-A22e5d1
-Audio/Trimmed/Nirvana-Smells-Like-Teen-Spirit-Official-Music-Video-hTWKbfoikeg.mp4
+Smells Like Teen Spirit +
+Nirvana / Nevermind (Remastered) / Smells Like Teen Spirit
 
 
 [subs=""]
@@ -462,7 +462,7 @@ function toggle_hidden_q0_6() {
 
 ==== Question
 
-Qae1b56
+Name the artist.
 
 
 +++++++++++
@@ -474,7 +474,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Carrie-Underwood-Before-He-Cheats-Official-Video-WaSy8yy-mr8.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -490,8 +490,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q0_7]]
-Aae1b56
-Audio/Trimmed/Carrie-Underwood-Before-He-Cheats-Official-Video-WaSy8yy-mr8.mp4
+Cyndi Lauper +
+Cyndi Lauper / She's So Unusual: A 30th Anniversary Celebration (Deluxe Edition) / Girls Just Want to Have Fun
 
 
 [subs=""]
@@ -524,7 +524,7 @@ function toggle_hidden_q0_7() {
 
 ==== Question
 
-Qd20438
+Name the band.
 
 
 +++++++++++
@@ -536,7 +536,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Toto-Africa-Official-Music-Video-FTQbiNvZqaY.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -552,8 +552,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q0_8]]
-Ad20438
-Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4
+Toto +
+TOTO / Toto IV / Africa
 
 
 [subs=""]
@@ -586,7 +586,7 @@ function toggle_hidden_q0_8() {
 
 ==== Question
 
-Q08778b
+Name the band.
 
 
 +++++++++++
@@ -598,7 +598,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Toto-Africa-Official-Music-Video-FTQbiNvZqaY.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Walk-Like-An-Egyptian-tMnGmoLS6zo.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -614,8 +614,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q0_9]]
-A08778b
-Audio/Trimmed/Toto-Africa-Official-Music-Video-FTQbiNvZqaY.mp4
+The Bangles +
+The Bangles / The Essential Bangles / Walk Like an Egyptian
 
 
 [subs=""]
@@ -651,7 +651,7 @@ function toggle_hidden_q0_9() {
 
 ==== Question
 
-Qeb5573
+Name the song.
 
 
 +++++++++++
@@ -663,7 +663,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Walk-Like-An-Egyptian-tMnGmoLS6zo.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Police-Every-Breath-You-Take-OMOGaugKpzs.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -679,8 +679,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q1_0]]
-Aeb5573
-Audio/Trimmed/Walk-Like-An-Egyptian-tMnGmoLS6zo.mp4
+Every Breath You Take +
+The Police / Every Breath You Take : The Classics / Every Breath You Take
 
 
 [subs=""]
@@ -713,7 +713,7 @@ function toggle_hidden_q1_0() {
 
 ==== Question
 
-Qbbfbfe
+Name the lead singer (not the band).
 
 
 +++++++++++
@@ -725,7 +725,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Police-Every-Breath-You-Take-OMOGaugKpzs.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Culture-Club-Karma-Chameleon-Official-Video-JmcA9LIIXWw.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -741,8 +741,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q1_1]]
-Abbfbfe
-Audio/Trimmed/The-Police-Every-Breath-You-Take-OMOGaugKpzs.mp4
+Boy George +
+Culture Club / At Worst...The Best Of Boy George And Culture Club / Karma Chameleon
 
 
 [subs=""]
@@ -775,7 +775,7 @@ function toggle_hidden_q1_1() {
 
 ==== Question
 
-Q347fd1
+Name the singer.
 
 
 +++++++++++
@@ -787,7 +787,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Bruce-Springsteen-Born-To-Run-f3t9SfrfDZM.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Dolly-Parton-Jolene-Audio-Ixrje2rXLMA.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -803,8 +803,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q1_2]]
-A347fd1
-Audio/Trimmed/Bruce-Springsteen-Born-To-Run-f3t9SfrfDZM.mp4
+Dolly Parton +
+Dolly Parton / Jolene / Jolene
 
 
 [subs=""]
@@ -837,7 +837,7 @@ function toggle_hidden_q1_2() {
 
 ==== Question
 
-Q3b6ed6
+Name the singer.
 
 
 +++++++++++
@@ -849,7 +849,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Culture-Club-Karma-Chameleon-Official-Video-JmcA9LIIXWw.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Gnarls-Barkley-Crazy-Official-Video-N4jf6rtyuw.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -865,8 +865,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q1_3]]
-A3b6ed6
-Audio/Trimmed/Culture-Club-Karma-Chameleon-Official-Video-JmcA9LIIXWw.mp4
+Gnarls Barkley +
+Gnarls Barkley / St. Elsewhere / Crazy
 
 
 [subs=""]
@@ -899,7 +899,7 @@ function toggle_hidden_q1_3() {
 
 ==== Question
 
-Q0c50e9
+Name the album that this song appeared on.
 
 
 +++++++++++
@@ -911,7 +911,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Dolly-Parton-Jolene-Audio-Ixrje2rXLMA.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -927,8 +927,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q1_4]]
-A0c50e9
-Audio/Trimmed/Dolly-Parton-Jolene-Audio-Ixrje2rXLMA.mp4
+The Eternal Dance +
+Earth, Wind & Fire / The Eternal Dance / September
 
 
 [subs=""]
@@ -961,7 +961,7 @@ function toggle_hidden_q1_4() {
 
 ==== Question
 
-Q740a96
+Name the performer.
 
 
 +++++++++++
@@ -973,7 +973,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Gnarls-Barkley-Crazy-Official-Video-N4jf6rtyuw.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/American-Pie-iX-TFkut1PM.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -989,8 +989,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q1_5]]
-A740a96
-Audio/Trimmed/Gnarls-Barkley-Crazy-Official-Video-N4jf6rtyuw.mp4
+Don McLean +
+Don McLean / The Best Of Don McLean / American Pie
 
 
 [subs=""]
@@ -1023,7 +1023,7 @@ function toggle_hidden_q1_5() {
 
 ==== Question
 
-Qee9cdc
+Name the singer.
 
 
 +++++++++++
@@ -1035,7 +1035,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Lean-on-Me-fOZ-MySzAac.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1051,8 +1051,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q1_6]]
-Aee9cdc
-Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4
+Bill Withers +
+Bill Withers / Still Bill / Lean on Me
 
 
 [subs=""]
@@ -1085,7 +1085,7 @@ function toggle_hidden_q1_6() {
 
 ==== Question
 
-Qa940fa
+Name the band.
 
 
 +++++++++++
@@ -1097,7 +1097,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Creedence-Clearwater-Revival-Have-You-Ever-Seen-The-Rain-Gu2pVPWGYMQ.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/GOOD-VIBRATIONS-HD-THE-BEACH-BOYS-mdt0SOqPJcg.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1113,8 +1113,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q1_7]]
-Aa940fa
-Audio/Trimmed/Creedence-Clearwater-Revival-Have-You-Ever-Seen-The-Rain-Gu2pVPWGYMQ.mp4
+The Beach Boys +
+The Beach Boys / Good Vibrations 40th Anniversary / Good Vibrations - Remastered
 
 
 [subs=""]
@@ -1147,7 +1147,7 @@ function toggle_hidden_q1_7() {
 
 ==== Question
 
-Q9c85aa
+Name the city in which the lead singer of this band is buried.
 
 
 +++++++++++
@@ -1159,7 +1159,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Imagine-Ultimate-Mix-0DNwYnJivJw.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1175,8 +1175,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q1_8]]
-A9c85aa
-Audio/Trimmed/Imagine-Ultimate-Mix-0DNwYnJivJw.mp4
+Paris +
+The Doors / The Doors / Light My Fire
 
 
 [subs=""]
@@ -1209,7 +1209,7 @@ function toggle_hidden_q1_8() {
 
 ==== Question
 
-Qb52fe2
+Name the song.
 
 
 +++++++++++
@@ -1221,7 +1221,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/American-Pie-iX-TFkut1PM.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Louis-Armstrong-What-A-Wonderful-World-Lyrics-A3yCcXgbKrE.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1237,8 +1237,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q1_9]]
-Ab52fe2
-Audio/Trimmed/American-Pie-iX-TFkut1PM.mp4
+What a Wonderful World +
+Louis Armstrong / Hello Louis - The Hit Years (1963-1969) / What A Wonderful World
 
 
 [subs=""]
@@ -1274,7 +1274,7 @@ function toggle_hidden_q1_9() {
 
 ==== Question
 
-Q98fbc0
+Name the performer.
 
 
 +++++++++++
@@ -1286,7 +1286,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Lean-on-Me-fOZ-MySzAac.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1302,8 +1302,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q2_0]]
-A98fbc0
-Audio/Trimmed/Lean-on-Me-fOZ-MySzAac.mp4
+Chuck Berry +
+Chuck Berry / 20th Century Masters: The Millennium Collection: Best Of Chuck Berry / Johnny B. Goode - Single Version
 
 
 [subs=""]
@@ -1336,7 +1336,7 @@ function toggle_hidden_q2_0() {
 
 ==== Question
 
-Q4e5490
+Name the band.
 
 
 +++++++++++
@@ -1348,7 +1348,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/GOOD-VIBRATIONS-HD-THE-BEACH-BOYS-mdt0SOqPJcg.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1364,8 +1364,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q2_1]]
-A4e5490
-Audio/Trimmed/GOOD-VIBRATIONS-HD-THE-BEACH-BOYS-mdt0SOqPJcg.mp4
+The Champs +
+The Champs / Tequila / Tequila (Original)
 
 
 [subs=""]
@@ -1398,7 +1398,7 @@ function toggle_hidden_q2_1() {
 
 ==== Question
 
-Qb527d3
+Name the song.
 
 
 +++++++++++
@@ -1410,7 +1410,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Mark-Ronson-Uptown-Funk-Official-Video-ft.-Bruno-Mars-OPf0YbXqDm0.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1426,8 +1426,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q2_2]]
-Ab527d3
-Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4
+Uptown Funk +
+Mark Ronson, Bruno Mars / Uptown Special / Uptown Funk (feat. Bruno Mars)
 
 
 [subs=""]
@@ -1460,7 +1460,7 @@ function toggle_hidden_q2_2() {
 
 ==== Question
 
-Qb52f1b
+Name the song.
 
 
 +++++++++++
@@ -1472,7 +1472,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Louis-Armstrong-What-A-Wonderful-World-Lyrics-A3yCcXgbKrE.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Lorde-Royals-With-Lyrics-Pure-Heroine-4znHLOWm7pY.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1488,8 +1488,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q2_3]]
-Ab52f1b
-Audio/Trimmed/Louis-Armstrong-What-A-Wonderful-World-Lyrics-A3yCcXgbKrE.mp4
+Royals +
+Lorde / Pure Heroine / Royals
 
 
 [subs=""]
@@ -1522,7 +1522,7 @@ function toggle_hidden_q2_3() {
 
 ==== Question
 
-Q413fa3
+Name the performer.
 
 
 +++++++++++
@@ -1534,7 +1534,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Moondance-2013-Remaster-7kfYOGndVfU.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1550,8 +1550,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q2_4]]
-A413fa3
-Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4
+Van Morrison +
+Van Morrison / Moondance (Deluxe Edition) / Moondance - 2013 Remaster
 
 
 [subs=""]
@@ -1584,7 +1584,7 @@ function toggle_hidden_q2_4() {
 
 ==== Question
 
-Qcae3f1
+Name the song.
 
 
 +++++++++++
@@ -1596,7 +1596,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1612,8 +1612,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q2_5]]
-Acae3f1
-Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4
+Is this Love +
+Bob Marley & The Wailers / Kaya - Deluxe Edition / Is This Love
 
 
 [subs=""]
@@ -1646,7 +1646,7 @@ function toggle_hidden_q2_5() {
 
 ==== Question
 
-Q133a4c
+Name the song. 
 
 
 +++++++++++
@@ -1658,7 +1658,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Mark-Ronson-Uptown-Funk-Official-Video-ft.-Bruno-Mars-OPf0YbXqDm0.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1674,8 +1674,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q2_6]]
-A133a4c
-Audio/Trimmed/Mark-Ronson-Uptown-Funk-Official-Video-ft.-Bruno-Mars-OPf0YbXqDm0.mp4
+My Generation +
+The Who / The Who Sings My Generation (U.S. Version) / My Generation - Mono Version
 
 
 [subs=""]
@@ -1708,7 +1708,7 @@ function toggle_hidden_q2_6() {
 
 ==== Question
 
-Qefe972
+Name the band.
 
 
 +++++++++++
@@ -1720,7 +1720,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Lorde-Royals-With-Lyrics-Pure-Heroine-4znHLOWm7pY.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Come-Sail-Away-eYCFrcCqh7Q.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1736,8 +1736,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q2_7]]
-Aefe972
-Audio/Trimmed/Lorde-Royals-With-Lyrics-Pure-Heroine-4znHLOWm7pY.mp4
+Styx +
+Styx / The Grand Illusion / Come Sail Away
 
 
 [subs=""]
@@ -1770,7 +1770,7 @@ function toggle_hidden_q2_7() {
 
 ==== Question
 
-Q4fca9f
+Name the lead singer.
 
 
 +++++++++++
@@ -1782,7 +1782,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Moondance-2013-Remaster-7kfYOGndVfU.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Aerosmith-Walk-This-Way-Audio-4c8O2n1Gfto.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1798,8 +1798,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q2_8]]
-A4fca9f
-Audio/Trimmed/Moondance-2013-Remaster-7kfYOGndVfU.mp4
+Steven Tyler +
+Aerosmith / Toys In The Attic / Walk This Way
 
 
 [subs=""]
@@ -1832,7 +1832,7 @@ function toggle_hidden_q2_8() {
 
 ==== Question
 
-Q9396
+Name the song.
 
 
 +++++++++++
@@ -1844,7 +1844,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Free-Bird-CqnU-sJ8V-E.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1860,8 +1860,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q2_9]]
-A9396
-Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4
+Free Bird +
+Lynyrd Skynyrd / Pronounced' Leh-'Nerd 'Skin-'Nerd / Free Bird
 
 
 [subs=""]
@@ -1897,7 +1897,7 @@ function toggle_hidden_q2_9() {
 
 ==== Question
 
-Q26147a
+Name the song. 
 
 
 +++++++++++
@@ -1909,7 +1909,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Rolling-Stones-Paint-It-Black-Official-Lyric-Video-O4irXQhgMqg.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Jimmy-Buffett-Margaritaville-with-lyrics-ue2-ZVxpVjc.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1925,8 +1925,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q3_0]]
-A26147a
-Audio/Trimmed/The-Rolling-Stones-Paint-It-Black-Official-Lyric-Video-O4irXQhgMqg.mp4
+Margaritaville +
+Jimmy Buffett / Songs You Know By Heart / Margaritaville
 
 
 [subs=""]
@@ -1959,7 +1959,7 @@ function toggle_hidden_q3_0() {
 
 ==== Question
 
-Q9aebe3
+Name the performer.
 
 
 +++++++++++
@@ -1971,7 +1971,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -1987,8 +1987,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q3_1]]
-A9aebe3
-Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4
+Eric Clapton +
+Eric Clapton / Slowhand 35th Anniversary (Super Deluxe) / Cocaine
 
 
 [subs=""]
@@ -2021,7 +2021,7 @@ function toggle_hidden_q3_1() {
 
 ==== Question
 
-Q465b17
+Name the song.
 
 
 +++++++++++
@@ -2033,7 +2033,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Come-Sail-Away-eYCFrcCqh7Q.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2049,8 +2049,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q3_2]]
-A465b17
-Audio/Trimmed/Come-Sail-Away-eYCFrcCqh7Q.mp4
+Gold Digger +
+Kanye West, Jamie Foxx / Late Registration / Gold Digger
 
 
 [subs=""]
@@ -2083,7 +2083,7 @@ function toggle_hidden_q3_2() {
 
 ==== Question
 
-Q4.4E+127
+Name the band.
 
 
 +++++++++++
@@ -2095,7 +2095,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Aerosmith-Walk-This-Way-Audio-4c8O2n1Gfto.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2111,8 +2111,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q3_3]]
-A4.4E+127
-Audio/Trimmed/Aerosmith-Walk-This-Way-Audio-4c8O2n1Gfto.mp4
+Black Eyed Peas +
+Black Eyed Peas / THE E.N.D. (THE ENERGY NEVER DIES) / I Gotta Feeling
 
 
 [subs=""]
@@ -2145,7 +2145,7 @@ function toggle_hidden_q3_3() {
 
 ==== Question
 
-Q5b40b2
+Name the song (including both the main title and the part in parentheses)
 
 
 +++++++++++
@@ -2157,7 +2157,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Free-Bird-CqnU-sJ8V-E.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2173,8 +2173,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q3_4]]
-A5b40b2
-Audio/Trimmed/Free-Bird-CqnU-sJ8V-E.mp4
+Escape (The Pina Colada Song) +
+Rupert Holmes / Partners In Crime / Escape (The Pina Colada Song)
 
 
 [subs=""]
@@ -2207,7 +2207,7 @@ function toggle_hidden_q3_4() {
 
 ==== Question
 
-Q4c4a05
+What does "love" make in this song?
 
 
 +++++++++++
@@ -2219,7 +2219,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Jimmy-Buffett-Margaritaville-with-lyrics-ue2-ZVxpVjc.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2235,8 +2235,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q3_5]]
-A4c4a05
-Audio/Trimmed/Jimmy-Buffett-Margaritaville-with-lyrics-ue2-ZVxpVjc.mp4
+"It makes a fiery ring" +
+Johnny Cash / Johnny Cash - 16 Biggest Hits / Ring of Fire
 
 
 [subs=""]
@@ -2269,7 +2269,7 @@ function toggle_hidden_q3_5() {
 
 ==== Question
 
-Qa7e9d0
+Name the singer.
 
 
 +++++++++++
@@ -2281,7 +2281,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Meghan-Trainor-All-About-That-Bass-Official-Music-Video-7PCkvCPvDXk.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2297,8 +2297,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q3_6]]
-Aa7e9d0
-Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4
+Meghan Trainor +
+Meghan Trainor / All About That Bass / All About That Bass
 
 
 [subs=""]
@@ -2331,7 +2331,7 @@ function toggle_hidden_q3_6() {
 
 ==== Question
 
-Q2e1108
+Name the song (title must be exact).
 
 
 +++++++++++
@@ -2343,7 +2343,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Simon-Garfunkel-Bridge-Over-Troubled-Water-Audio-4G-YQA-bsOU.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2359,8 +2359,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q3_7]]
-A2e1108
-Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4
+Bridge Over Troubled Water +
+Simon & Garfunkel / Bridge Over Troubled Water / Bridge Over Troubled Water
 
 
 [subs=""]
@@ -2393,7 +2393,7 @@ function toggle_hidden_q3_7() {
 
 ==== Question
 
-Q7444d5
+Name the film that this song was featured in. 
 
 
 +++++++++++
@@ -2405,7 +2405,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Pharrell-Williams-Happy-Official-Music-Video-ZbZSe6N-BXs.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2421,8 +2421,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q3_8]]
-A7444d5
-Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4
+Despicable Me 2 +
+Pharrell Williams / Despicable Me 2 (Original Motion Picture Soundtrack) / Happy
 
 
 [subs=""]
@@ -2455,7 +2455,7 @@ function toggle_hidden_q3_8() {
 
 ==== Question
 
-Q782a00
+Name the song.
 
 
 +++++++++++
@@ -2467,7 +2467,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2483,8 +2483,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q3_9]]
-A782a00
-Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4
+Go Your Own Way +
+Fleetwood Mac / Rumours / Go Your Own Way - 2004 Remaster
 
 
 [subs=""]
@@ -2520,7 +2520,7 @@ function toggle_hidden_q3_9() {
 
 ==== Question
 
-Qc96b3d
+Name the group.
 
 
 +++++++++++
@@ -2532,7 +2532,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/GLORIA-GAYNOR-I-Will-Survive-Original-Single-Version-Vne-5xnxpRg.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/One-Way-Or-Another-Remastered-Fnb1xYDViDs.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2548,8 +2548,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q4_0]]
-Ac96b3d
-Audio/Trimmed/GLORIA-GAYNOR-I-Will-Survive-Original-Single-Version-Vne-5xnxpRg.mp4
+Blondie +
+Blondie / One Way Or Another / One Way Or Another - Remastered
 
 
 [subs=""]
@@ -2582,7 +2582,7 @@ function toggle_hidden_q4_0() {
 
 ==== Question
 
-Q5.061E+08
+Name the group.
 
 
 +++++++++++
@@ -2594,7 +2594,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2610,8 +2610,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q4_1]]
-A5.061E+08
-Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4
+Green Day +
+Green Day / American Idiot / Holiday / Boulevard of Broken Dreams
 
 
 [subs=""]
@@ -2644,7 +2644,7 @@ function toggle_hidden_q4_1() {
 
 ==== Question
 
-Qd010df
+Name the song.
 
 
 +++++++++++
@@ -2656,7 +2656,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Meghan-Trainor-All-About-That-Bass-Official-Music-Video-7PCkvCPvDXk.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Twist-And-Shout-Remastered-2009-2RicaUqd9Hg.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2672,8 +2672,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q4_2]]
-Ad010df
-Audio/Trimmed/Meghan-Trainor-All-About-That-Bass-Official-Music-Video-7PCkvCPvDXk.mp4
+Twist and Shout +
+The Beatles / Please Please Me (Remastered) / Twist And Shout - Remastered 2009
 
 
 [subs=""]
@@ -2706,7 +2706,7 @@ function toggle_hidden_q4_2() {
 
 ==== Question
 
-Qd20506
+Name the group.
 
 
 +++++++++++
@@ -2718,7 +2718,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Simon-Garfunkel-Bridge-Over-Troubled-Water-Audio-4G-YQA-bsOU.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2734,8 +2734,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q4_3]]
-Ad20506
-Audio/Trimmed/Simon-Garfunkel-Bridge-Over-Troubled-Water-Audio-4G-YQA-bsOU.mp4
+The Isley Brothers +
+The Isley Brothers / Pure... '50s / Shout
 
 
 [subs=""]
@@ -2768,7 +2768,7 @@ function toggle_hidden_q4_3() {
 
 ==== Question
 
-Qc7cf8a
+Name the group.
 
 
 +++++++++++
@@ -2780,7 +2780,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Pharrell-Williams-Happy-Official-Music-Video-ZbZSe6N-BXs.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Build-Me-Up-Buttercup-Nl-2iEP1Wts.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2796,8 +2796,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q4_4]]
-Ac7cf8a
-Audio/Trimmed/Pharrell-Williams-Happy-Official-Music-Video-ZbZSe6N-BXs.mp4
+The Foundations +
+The Foundations / Build Me Up Buttercup (The Complete Pye Collection) / Build Me Up Buttercup
 
 
 [subs=""]
@@ -2830,7 +2830,7 @@ function toggle_hidden_q4_4() {
 
 ==== Question
 
-Q4ac4e8
+Name the song.
 
 
 +++++++++++
@@ -2842,7 +2842,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/With-Or-Without-You-Remastered-oNvWDP-GkiY.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Wham-Wake-Me-Up-Before-You-Go-Go-Official-HD-Video-ELflyACZXQQ.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2858,8 +2858,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q4_5]]
-A4ac4e8
-Audio/Trimmed/With-Or-Without-You-Remastered-oNvWDP-GkiY.mp4
+Wake Me Up Before You Go-Go +
+Wham! / Make It Big / Wake Me Up Before You Go-Go
 
 
 [subs=""]
@@ -2892,7 +2892,7 @@ function toggle_hidden_q4_5() {
 
 ==== Question
 
-Q3a114c
+Name the artist.
 
 
 +++++++++++
@@ -2904,7 +2904,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Madonna-Material-Girl-Lyrics-On-Screen-W8wzQj3M-qY.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Elvis-Costello-The-Attractions-Pump-It-Up-3Y71iDvCYXA.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2920,8 +2920,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q4_6]]
-A3a114c
-Audio/Trimmed/Madonna-Material-Girl-Lyrics-On-Screen-W8wzQj3M-qY.mp4
+Elvis Costello +
+Elvis Costello & The Attractions / This Year's Model / Pump It Up
 
 
 [subs=""]
@@ -2954,7 +2954,7 @@ function toggle_hidden_q4_6() {
 
 ==== Question
 
-Qc933db
+Name the album on which this song appeared.
 
 
 +++++++++++
@@ -2966,7 +2966,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -2982,8 +2982,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q4_7]]
-Ac933db
-Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4
+Punch the Clock +
+Elvis Costello & The Attractions / Punch The Clock / Everyday I Write The Book
 
 
 [subs=""]
@@ -3016,7 +3016,7 @@ function toggle_hidden_q4_7() {
 
 ==== Question
 
-Q1d7766
+Name the artist.
 
 
 +++++++++++
@@ -3028,7 +3028,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/One-Way-Or-Another-Remastered-Fnb1xYDViDs.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Marvin-Gaye-What-s-Going-On-H-kA3UtBj4M.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3044,8 +3044,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q4_8]]
-A1d7766
-Audio/Trimmed/One-Way-Or-Another-Remastered-Fnb1xYDViDs.mp4
+Marvin Gaye +
+Marvin Gaye / What's Going On / What's Going On
 
 
 [subs=""]
@@ -3078,7 +3078,7 @@ function toggle_hidden_q4_8() {
 
 ==== Question
 
-Q8fbb24
+Name the artist.
 
 
 +++++++++++
@@ -3090,7 +3090,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Theme-From-Shaft-by-Isaac-Hayes-from-Shaft-Music-From-The-Soundtrack-uNJKmf6KTcU.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3106,8 +3106,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q4_9]]
-A8fbb24
-Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4
+Isaac Hayes +
+Isaac Hayes / Shaft (Deluxe Edition) / Theme From Shaft - Album - Remastered
 
 
 [subs=""]
@@ -3143,7 +3143,7 @@ function toggle_hidden_q4_9() {
 
 ==== Question
 
-Q41d6f8
+Name the song (inclding both the main title and the part in parentheses).
 
 
 +++++++++++
@@ -3155,7 +3155,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Twist-And-Shout-Remastered-2009-2RicaUqd9Hg.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3171,8 +3171,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q5_0]]
-A41d6f8
-Audio/Trimmed/Twist-And-Shout-Remastered-2009-2RicaUqd9Hg.mp4
+Norwegian Wood (This Bird Has Flown) +
+The Beatles / Rubber Soul (Remastered) / Norwegian Wood (This Bird Has Flown) - Remastered 2009
 
 
 [subs=""]
@@ -3205,7 +3205,7 @@ function toggle_hidden_q5_0() {
 
 ==== Question
 
-Qecd5b4
+Name the song.
 
 
 +++++++++++
@@ -3217,7 +3217,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3233,8 +3233,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q5_1]]
-Aecd5b4
-Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4
+I Want to Hold Your Hand +
+The Beatles / 1 (Remastered) / I Want To Hold Your Hand - Remastered 2015
 
 
 [subs=""]
@@ -3267,7 +3267,7 @@ function toggle_hidden_q5_1() {
 
 ==== Question
 
-Q7f777a
+Name the song. 
 
 
 +++++++++++
@@ -3279,7 +3279,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Build-Me-Up-Buttercup-Nl-2iEP1Wts.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3295,8 +3295,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q5_2]]
-A7f777a
-Audio/Trimmed/Build-Me-Up-Buttercup-Nl-2iEP1Wts.mp4
+Blackbird +
+The Beatles / The Beatles (Remastered) / Blackbird - Remastered
 
 
 [subs=""]
@@ -3329,7 +3329,7 @@ function toggle_hidden_q5_2() {
 
 ==== Question
 
-Qfdea7f
+Name the song.
 
 
 +++++++++++
@@ -3341,7 +3341,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Wham-Wake-Me-Up-Before-You-Go-Go-Official-HD-Video-ELflyACZXQQ.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3357,8 +3357,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q5_3]]
-Afdea7f
-Audio/Trimmed/Wham-Wake-Me-Up-Before-You-Go-Go-Official-HD-Video-ELflyACZXQQ.mp4
+God Only Knows +
+The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions) / God Only Knows - Remastered
 
 
 [subs=""]
@@ -3391,7 +3391,7 @@ function toggle_hidden_q5_3() {
 
 ==== Question
 
-Q8f5b96
+Name the performer.
 
 
 +++++++++++
@@ -3403,7 +3403,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Elvis-Costello-The-Attractions-Pump-It-Up-3Y71iDvCYXA.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3419,8 +3419,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q5_4]]
-A8f5b96
-Audio/Trimmed/Elvis-Costello-The-Attractions-Pump-It-Up-3Y71iDvCYXA.mp4
+Joe Jackson +
+Joe Jackson / Look Sharp! / Is She Really Going Out With Him?
 
 
 [subs=""]
@@ -3453,7 +3453,7 @@ function toggle_hidden_q5_4() {
 
 ==== Question
 
-Q6942ec
+Name the band.
 
 
 +++++++++++
@@ -3465,7 +3465,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3481,8 +3481,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q5_5]]
-A6942ec
-Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4
+Dexys Midnight Runners +
+Dexys Midnight Runners / Too Rye Ay / Come On Eileen
 
 
 [subs=""]
@@ -3515,7 +3515,7 @@ function toggle_hidden_q5_5() {
 
 ==== Question
 
-Q92d0fb
+Name the song.
 
 
 +++++++++++
@@ -3527,7 +3527,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Marvin-Gaye-What-s-Going-On-H-kA3UtBj4M.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Logical-Song-low6Coqrw9Y.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3543,8 +3543,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q5_6]]
-A92d0fb
-Audio/Trimmed/Marvin-Gaye-What-s-Going-On-H-kA3UtBj4M.mp4
+The Logical Song +
+Supertramp / Breakfast In America (Deluxe Edition) / The Logical Song - Remastered 2010
 
 
 [subs=""]
@@ -3577,7 +3577,7 @@ function toggle_hidden_q5_6() {
 
 ==== Question
 
-Q90e40c
+Name the song.   
 
 
 +++++++++++
@@ -3589,7 +3589,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Theme-From-Shaft-by-Isaac-Hayes-from-Shaft-Music-From-The-Soundtrack-uNJKmf6KTcU.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Rebel-Rebel-1997-Remaster-Wb3bfsuttdk.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3605,8 +3605,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q5_7]]
-A90e40c
-Audio/Trimmed/Theme-From-Shaft-by-Isaac-Hayes-from-Shaft-Music-From-The-Soundtrack-uNJKmf6KTcU.mp4
+Rebel Rebel +
+David Bowie / Best Of Bowie / Rebel Rebel - 1999 Digital Remaster
 
 
 [subs=""]
@@ -3639,7 +3639,7 @@ function toggle_hidden_q5_7() {
 
 ==== Question
 
-Qe32ec6
+Name the album on which this song appeared.
 
 
 +++++++++++
@@ -3651,7 +3651,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Kendrick-Lamar-King-Kunta-hRK7PVJFbS8.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3667,8 +3667,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q5_8]]
-Ae32ec6
-Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4
+To Pimp a Butterfly +
+Kendrick Lamar / To Pimp A Butterfly / King Kunta
 
 
 [subs=""]
@@ -3701,7 +3701,7 @@ function toggle_hidden_q5_8() {
 
 ==== Question
 
-Qe27f4b
+Name the song.
 
 
 +++++++++++
@@ -3713,7 +3713,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/01-Bruno-Mars-Grenade-Doo-Wops-Hooligans-aLAtJ0k98SI.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3729,8 +3729,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q5_9]]
-Ae27f4b
-Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4
+Grenade +
+Bruno Mars / Doo-Wops & Hooligans / Grenade
 
 
 [subs=""]
@@ -3754,19 +3754,19 @@ function toggle_hidden_q5_9() {
 
 [role="fullheight"]
 <<s-General-Q51-60-q-59, Previous question -- Q59>> +
-<<s-General-Q61-70-q-61, Next question -- General (Q61--70): Q61>>
+<<s-One-Hit-Wonders-q-1, Next question -- One Hit Wonders: Q1>>
 
 [[s6]]
-== General (Q61--70)
+== One Hit Wonders
 
-[[s-General-Q61-70-q-61]]
-=== Q61
+[[s-One-Hit-Wonders-q-1]]
+=== Q1
 
-[big]#General (Q61--70): Question 61#
+[big]#One Hit Wonders: Question 1#
 
 ==== Question
 
-Q7de4ce
+Name the band.
 
 
 +++++++++++
@@ -3778,7 +3778,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Men-Without-Hats-Safety-Dance-Official-Music-Video-AjPau5QYtYs.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3794,8 +3794,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q6_0]]
-A7de4ce
-Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4
+Men Without Hats +
+Men Without Hats / Greatest / The Safety Dance
 
 
 [subs=""]
@@ -3819,16 +3819,16 @@ function toggle_hidden_q6_0() {
 
 [role="fullheight"]
 <<s-General-Q51-60-q-60, Previous question -- General (Q51--60): Q60>> +
-<<s-General-Q61-70-q-62, Next question -- Q62>>
+<<s-One-Hit-Wonders-q-2, Next question -- Q2>>
 
-[[s-General-Q61-70-q-62]]
-=== Q62
+[[s-One-Hit-Wonders-q-2]]
+=== Q2
 
-[big]#General (Q61--70): Question 62#
+[big]#One Hit Wonders: Question 2#
 
 ==== Question
 
-Q91a7fc
+Name the singer.
 
 
 +++++++++++
@@ -3840,7 +3840,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Spirit-In-The-Sky-Norman-Greenbaum-AZQxH-8raCI.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3856,8 +3856,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q6_1]]
-A91a7fc
-Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4
+Norman Greenbaum +
+Norman Greenbaum / Spirit In The Sky / Spirit In The Sky
 
 
 [subs=""]
@@ -3880,17 +3880,17 @@ function toggle_hidden_q6_1() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-General-Q61-70-q-61, Previous question -- Q61>> +
-<<s-General-Q61-70-q-63, Next question -- Q63>>
+<<s-One-Hit-Wonders-q-1, Previous question -- Q1>> +
+<<s-One-Hit-Wonders-q-3, Next question -- Q3>>
 
-[[s-General-Q61-70-q-63]]
-=== Q63
+[[s-One-Hit-Wonders-q-3]]
+=== Q3
 
-[big]#General (Q61--70): Question 63#
+[big]#One Hit Wonders: Question 3#
 
 ==== Question
 
-Q0077fc
+Name the singer.
 
 
 +++++++++++
@@ -3902,7 +3902,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Bobby-McFerrin-Don-t-Worry-Be-Happy-Official-Video-d-diB65scQU.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3918,8 +3918,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q6_2]]
-A0077fc
-Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4
+Bobby McFerrin +
+Bobby McFerrin / 20 #1's: One Hit Wonders / Don't Worry Be Happy
 
 
 [subs=""]
@@ -3942,17 +3942,17 @@ function toggle_hidden_q6_2() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-General-Q61-70-q-62, Previous question -- Q62>> +
-<<s-General-Q61-70-q-64, Next question -- Q64>>
+<<s-One-Hit-Wonders-q-2, Previous question -- Q2>> +
+<<s-One-Hit-Wonders-q-4, Next question -- Q4>>
 
-[[s-General-Q61-70-q-64]]
-=== Q64
+[[s-One-Hit-Wonders-q-4]]
+=== Q4
 
-[big]#General (Q61--70): Question 64#
+[big]#One Hit Wonders: Question 4#
 
 ==== Question
 
-Q428796
+Name the singer.
 
 
 +++++++++++
@@ -3964,7 +3964,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Rockwell-Somebody-s-Watching-Me-Official-Video-7YvAYIJSSZY.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -3980,8 +3980,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q6_3]]
-A428796
-Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4
+Rockwell +
+Rockwell / 20 #1's: One Hit Wonders / Somebody's Watching Me - Single Version
 
 
 [subs=""]
@@ -4004,17 +4004,17 @@ function toggle_hidden_q6_3() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-General-Q61-70-q-63, Previous question -- Q63>> +
-<<s-General-Q61-70-q-65, Next question -- Q65>>
+<<s-One-Hit-Wonders-q-3, Previous question -- Q3>> +
+<<s-One-Hit-Wonders-q-5, Next question -- Q5>>
 
-[[s-General-Q61-70-q-65]]
-=== Q65
+[[s-One-Hit-Wonders-q-5]]
+=== Q5
 
-[big]#General (Q61--70): Question 65#
+[big]#One Hit Wonders: Question 5#
 
 ==== Question
 
-Q5245be
+Name the singer.
 
 
 +++++++++++
@@ -4026,7 +4026,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Logical-Song-low6Coqrw9Y.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Bruce-Channel-Hey-Baby-ik9dxkKriV0.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4042,8 +4042,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q6_4]]
-A5245be
-Audio/Trimmed/The-Logical-Song-low6Coqrw9Y.mp4
+Bruce Channel +
+Bruce Channel / 20 #1's: One Hit Wonders / Hey! Baby
 
 
 [subs=""]
@@ -4066,17 +4066,17 @@ function toggle_hidden_q6_4() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-General-Q61-70-q-64, Previous question -- Q64>> +
-<<s-General-Q61-70-q-66, Next question -- Q66>>
+<<s-One-Hit-Wonders-q-4, Previous question -- Q4>> +
+<<s-One-Hit-Wonders-q-6, Next question -- Q6>>
 
-[[s-General-Q61-70-q-66]]
-=== Q66
+[[s-One-Hit-Wonders-q-6]]
+=== Q6
 
-[big]#General (Q61--70): Question 66#
+[big]#One Hit Wonders: Question 6#
 
 ==== Question
 
-Qe2ce81
+Name the band.
 
 
 +++++++++++
@@ -4088,7 +4088,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Ziggy-Stardust-2002-Remaster-VQu2WEAjAJw.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Ready-For-The-World-Oh-Sheila-Official-Video-wbL2lMn34Oo.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4104,8 +4104,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q6_5]]
-Ae2ce81
-Audio/Trimmed/Ziggy-Stardust-2002-Remaster-VQu2WEAjAJw.mp4
+Ready for the World. +
+Ready For The World / 20 #1's: One Hit Wonders / Oh Sheila
 
 
 [subs=""]
@@ -4128,17 +4128,17 @@ function toggle_hidden_q6_5() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-General-Q61-70-q-65, Previous question -- Q65>> +
-<<s-General-Q61-70-q-67, Next question -- Q67>>
+<<s-One-Hit-Wonders-q-5, Previous question -- Q5>> +
+<<s-One-Hit-Wonders-q-7, Next question -- Q7>>
 
-[[s-General-Q61-70-q-67]]
-=== Q67
+[[s-One-Hit-Wonders-q-7]]
+=== Q7
 
-[big]#General (Q61--70): Question 67#
+[big]#One Hit Wonders: Question 7#
 
 ==== Question
 
-Q5cfb9d
+Name the band.
 
 
 +++++++++++
@@ -4150,7 +4150,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Rebel-Rebel-1997-Remaster-Wb3bfsuttdk.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Quarterflash-Harden-My-Heart-Official-Video-OqeKV2UYq1Q.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4166,8 +4166,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q6_6]]
-A5cfb9d
-Audio/Trimmed/Rebel-Rebel-1997-Remaster-Wb3bfsuttdk.mp4
+Quarterflash +
+Quarterflash / 20 #1's: One Hit Wonders / Harden My Heart
 
 
 [subs=""]
@@ -4190,17 +4190,17 @@ function toggle_hidden_q6_6() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-General-Q61-70-q-66, Previous question -- Q66>> +
-<<s-General-Q61-70-q-68, Next question -- Q68>>
+<<s-One-Hit-Wonders-q-6, Previous question -- Q6>> +
+<<s-One-Hit-Wonders-q-8, Next question -- Q8>>
 
-[[s-General-Q61-70-q-68]]
-=== Q68
+[[s-One-Hit-Wonders-q-8]]
+=== Q8
 
-[big]#General (Q61--70): Question 68#
+[big]#One Hit Wonders: Question 8#
 
 ==== Question
 
-Q7f33e8
+Name the band.
 
 
 +++++++++++
@@ -4212,7 +4212,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Kendrick-Lamar-King-Kunta-hRK7PVJFbS8.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Knack-My-Sharona-1979-BR2JtsVumFA.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4228,8 +4228,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q6_7]]
-A7f33e8
-Audio/Trimmed/Kendrick-Lamar-King-Kunta-hRK7PVJFbS8.mp4
+The Knack +
+The Knack / 20 #1's: One Hit Wonders / My Sharona
 
 
 [subs=""]
@@ -4252,17 +4252,17 @@ function toggle_hidden_q6_7() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-General-Q61-70-q-67, Previous question -- Q67>> +
-<<s-General-Q61-70-q-69, Next question -- Q69>>
+<<s-One-Hit-Wonders-q-7, Previous question -- Q7>> +
+<<s-One-Hit-Wonders-q-9, Next question -- Q9>>
 
-[[s-General-Q61-70-q-69]]
-=== Q69
+[[s-One-Hit-Wonders-q-9]]
+=== Q9
 
-[big]#General (Q61--70): Question 69#
+[big]#One Hit Wonders: Question 9#
 
 ==== Question
 
-Q1c39ee
+Name the band with the very 70s-sounding name.
 
 
 +++++++++++
@@ -4274,7 +4274,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/01-Bruno-Mars-Grenade-Doo-Wops-Hooligans-aLAtJ0k98SI.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/disco-duck-97RjuC9YeXg.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4290,8 +4290,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q6_8]]
-A1c39ee
-Audio/Trimmed/01-Bruno-Mars-Grenade-Doo-Wops-Hooligans-aLAtJ0k98SI.mp4
+The Rubix Cubes +
+The Rubix Cube's / 1970's One Hit Wonders / Disco Duck
 
 
 [subs=""]
@@ -4314,17 +4314,17 @@ function toggle_hidden_q6_8() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-General-Q61-70-q-68, Previous question -- Q68>> +
-<<s-General-Q61-70-q-70, Next question -- Q70>>
+<<s-One-Hit-Wonders-q-8, Previous question -- Q8>> +
+<<s-One-Hit-Wonders-q-10, Next question -- Q10>>
 
-[[s-General-Q61-70-q-70]]
-=== Q70
+[[s-One-Hit-Wonders-q-10]]
+=== Q10
 
-[big]#General (Q61--70): Question 70#
+[big]#One Hit Wonders: Question 10#
 
 ==== Question
 
-Q48e8a1
+Name the singer.
 
 
 +++++++++++
@@ -4336,7 +4336,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Capital-Cities-Safe-and-Sound-lyrics-P-u-1gNcmek.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Bette-Davis-Eyes-Re-Recorded-Remastered-tDJdEhbSP-g.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4352,8 +4352,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q6_9]]
-A48e8a1
-Audio/Trimmed/Capital-Cities-Safe-and-Sound-lyrics-P-u-1gNcmek.mp4
+Kim Carnes +
+Kim Carnes / 80s 1 Hit Wonders (Re-Recorded / Remastered Versions) / Bette Davis Eyes (Re-Recorded / Remastered)
 
 
 [subs=""]
@@ -4376,20 +4376,20 @@ function toggle_hidden_q6_9() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-General-Q61-70-q-69, Previous question -- Q69>> +
-<<s-One-Hit-Wonders-q-1, Next question -- One Hit Wonders: Q1>>
+<<s-One-Hit-Wonders-q-9, Previous question -- Q9>> +
+<<s-Movie-q-1, Next question -- Movie: Q1>>
 
 [[s7]]
-== One Hit Wonders
+== Movie
 
-[[s-One-Hit-Wonders-q-1]]
+[[s-Movie-q-1]]
 === Q1
 
-[big]#One Hit Wonders: Question 1#
+[big]#Movie: Question 1#
 
 ==== Question
 
-Qd0b4fc
+Name the movie.
 
 
 +++++++++++
@@ -4401,7 +4401,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Men-Without-Hats-Safety-Dance-Official-Music-Video-AjPau5QYtYs.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Jules-and-Jim-Movie-Main-Theme-iFtFCZhFnMU.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4417,8 +4417,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7_0]]
-Ad0b4fc
-Audio/Trimmed/Men-Without-Hats-Safety-Dance-Official-Music-Video-AjPau5QYtYs.mp4
+Jules and Jim +
+Film & TV Masters / Ultimate Movie Theme Playlist / Jules and Jim (Movie Main Theme)
 
 
 [subs=""]
@@ -4441,17 +4441,17 @@ function toggle_hidden_q7_0() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-General-Q61-70-q-70, Previous question -- General (Q61--70): Q70>> +
-<<s-One-Hit-Wonders-q-2, Next question -- Q2>>
+<<s-One-Hit-Wonders-q-10, Previous question -- One Hit Wonders: Q10>> +
+<<s-Movie-q-2, Next question -- Q2>>
 
-[[s-One-Hit-Wonders-q-2]]
+[[s-Movie-q-2]]
 === Q2
 
-[big]#One Hit Wonders: Question 2#
+[big]#Movie: Question 2#
 
 ==== Question
 
-Q444aef
+Name the movie.
 
 
 +++++++++++
@@ -4463,7 +4463,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Spirit-In-The-Sky-Norman-Greenbaum-AZQxH-8raCI.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Good-the-Bad-and-the-Ugly-Movie-Main-Theme-o-zafpeLXhE.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4479,8 +4479,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7_1]]
-A444aef
-Audio/Trimmed/Spirit-In-The-Sky-Norman-Greenbaum-AZQxH-8raCI.mp4
+The Good, the Bad and the Ugly +
+Film & TV Masters / Ultimate Movie Theme Playlist / The Good, the Bad and the Ugly (Movie Main Theme)
 
 
 [subs=""]
@@ -4503,17 +4503,17 @@ function toggle_hidden_q7_1() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-1, Previous question -- Q1>> +
-<<s-One-Hit-Wonders-q-3, Next question -- Q3>>
+<<s-Movie-q-1, Previous question -- Q1>> +
+<<s-Movie-q-3, Next question -- Q3>>
 
-[[s-One-Hit-Wonders-q-3]]
+[[s-Movie-q-3]]
 === Q3
 
-[big]#One Hit Wonders: Question 3#
+[big]#Movie: Question 3#
 
 ==== Question
 
-Q59cb3c
+Name the movie.
 
 
 +++++++++++
@@ -4525,7 +4525,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Bobby-McFerrin-Don-t-Worry-Be-Happy-Official-Video-d-diB65scQU.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Superman-Movie-Main-Theme-cm97g2cOKto.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4541,8 +4541,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7_2]]
-A59cb3c
-Audio/Trimmed/Bobby-McFerrin-Don-t-Worry-Be-Happy-Official-Video-d-diB65scQU.mp4
+Superman +
+Film & TV Masters / Ultimate Movie Theme Playlist / Superman (Movie Main Theme)
 
 
 [subs=""]
@@ -4565,17 +4565,17 @@ function toggle_hidden_q7_2() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-2, Previous question -- Q2>> +
-<<s-One-Hit-Wonders-q-4, Next question -- Q4>>
+<<s-Movie-q-2, Previous question -- Q2>> +
+<<s-Movie-q-4, Next question -- Q4>>
 
-[[s-One-Hit-Wonders-q-4]]
+[[s-Movie-q-4]]
 === Q4
 
-[big]#One Hit Wonders: Question 4#
+[big]#Movie: Question 4#
 
 ==== Question
 
-Q9a4776
+Name the movie.
 
 
 +++++++++++
@@ -4587,7 +4587,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Rockwell-Somebody-s-Watching-Me-Official-Video-7YvAYIJSSZY.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/A-Man-and-a-Woman-Movie-Main-Theme-So9rDiGxQTQ.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4603,8 +4603,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7_3]]
-A9a4776
-Audio/Trimmed/Rockwell-Somebody-s-Watching-Me-Official-Video-7YvAYIJSSZY.mp4
+A man and a Woman +
+Film & TV Masters / Ultimate Movie Theme Playlist / A Man and a Woman (Movie Main Theme)
 
 
 [subs=""]
@@ -4627,17 +4627,17 @@ function toggle_hidden_q7_3() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-3, Previous question -- Q3>> +
-<<s-One-Hit-Wonders-q-5, Next question -- Q5>>
+<<s-Movie-q-3, Previous question -- Q3>> +
+<<s-Movie-q-5, Next question -- Q5>>
 
-[[s-One-Hit-Wonders-q-5]]
+[[s-Movie-q-5]]
 === Q5
 
-[big]#One Hit Wonders: Question 5#
+[big]#Movie: Question 5#
 
 ==== Question
 
-Q267ffa
+Name the movie.
 
 
 +++++++++++
@@ -4649,7 +4649,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Bruce-Channel-Hey-Baby-ik9dxkKriV0.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Godfather-DGtEtwdZZKo.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4665,8 +4665,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7_4]]
-A267ffa
-Audio/Trimmed/Bruce-Channel-Hey-Baby-ik9dxkKriV0.mp4
+The Godfather. +
+A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 2 / The Godfather
 
 
 [subs=""]
@@ -4689,17 +4689,17 @@ function toggle_hidden_q7_4() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-4, Previous question -- Q4>> +
-<<s-One-Hit-Wonders-q-6, Next question -- Q6>>
+<<s-Movie-q-4, Previous question -- Q4>> +
+<<s-Movie-q-6, Next question -- Q6>>
 
-[[s-One-Hit-Wonders-q-6]]
+[[s-Movie-q-6]]
 === Q6
 
-[big]#One Hit Wonders: Question 6#
+[big]#Movie: Question 6#
 
 ==== Question
 
-Q17a582
+Name the composer.
 
 
 +++++++++++
@@ -4711,7 +4711,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Ready-For-The-World-Oh-Sheila-Official-Video-wbL2lMn34Oo.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Pink-Panther-XdnnytXfj5g.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4727,8 +4727,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7_5]]
-A17a582
-Audio/Trimmed/Ready-For-The-World-Oh-Sheila-Official-Video-wbL2lMn34Oo.mp4
+Henry Mancini +
+A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 1 / The Pink Panther
 
 
 [subs=""]
@@ -4751,17 +4751,17 @@ function toggle_hidden_q7_5() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-5, Previous question -- Q5>> +
-<<s-One-Hit-Wonders-q-7, Next question -- Q7>>
+<<s-Movie-q-5, Previous question -- Q5>> +
+<<s-Movie-q-7, Next question -- Q7>>
 
-[[s-One-Hit-Wonders-q-7]]
+[[s-Movie-q-7]]
 === Q7
 
-[big]#One Hit Wonders: Question 7#
+[big]#Movie: Question 7#
 
 ==== Question
 
-Qde770f
+Name the movie.
 
 
 +++++++++++
@@ -4773,7 +4773,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Quarterflash-Harden-My-Heart-Official-Video-OqeKV2UYq1Q.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/End-Title-O-6Da8wD0A.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4789,8 +4789,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7_6]]
-Ade770f
-Audio/Trimmed/Quarterflash-Harden-My-Heart-Official-Video-OqeKV2UYq1Q.mp4
+Lawrence of Arabia +
+London Philharmonic Orchestra / Lawrence Of Arabia (Original Soundtrack Recording) / End Title (from "Lawrence Of Arabia")
 
 
 [subs=""]
@@ -4813,17 +4813,17 @@ function toggle_hidden_q7_6() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-6, Previous question -- Q6>> +
-<<s-One-Hit-Wonders-q-8, Next question -- Q8>>
+<<s-Movie-q-6, Previous question -- Q6>> +
+<<s-Movie-q-8, Next question -- Q8>>
 
-[[s-One-Hit-Wonders-q-8]]
+[[s-Movie-q-8]]
 === Q8
 
-[big]#One Hit Wonders: Question 8#
+[big]#Movie: Question 8#
 
 ==== Question
 
-Qf6f7ca
+Name the movie.
 
 
 +++++++++++
@@ -4835,7 +4835,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Knack-My-Sharona-1979-BR2JtsVumFA.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/La-dolce-vita-Titoli-testa-Canzonetta-Notturno-Cadillac-M-pDPlITpcU.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4851,8 +4851,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7_7]]
-Af6f7ca
-Audio/Trimmed/The-Knack-My-Sharona-1979-BR2JtsVumFA.mp4
+La Dolce Vita +
+Nino Rota, Studio Orchestra, StudioConductor / Original Music for the Movies of Federico Fellini / La dolce vita
 
 
 [subs=""]
@@ -4875,17 +4875,17 @@ function toggle_hidden_q7_7() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-7, Previous question -- Q7>> +
-<<s-One-Hit-Wonders-q-9, Next question -- Q9>>
+<<s-Movie-q-7, Previous question -- Q7>> +
+<<s-Movie-q-9, Next question -- Q9>>
 
-[[s-One-Hit-Wonders-q-9]]
+[[s-Movie-q-9]]
 === Q9
 
-[big]#One Hit Wonders: Question 9#
+[big]#Movie: Question 9#
 
 ==== Question
 
-Q81a255
+Name the composer.
 
 
 +++++++++++
@@ -4897,7 +4897,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/disco-duck-97RjuC9YeXg.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Nino-Rota-Amarcord-bk4MEhUkxco.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4913,8 +4913,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7_8]]
-A81a255
-Audio/Trimmed/disco-duck-97RjuC9YeXg.mp4
+Nino Rota +
+Nino Rota / Amarcord / Amarcord
 
 
 [subs=""]
@@ -4937,17 +4937,17 @@ function toggle_hidden_q7_8() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-8, Previous question -- Q8>> +
-<<s-One-Hit-Wonders-q-10, Next question -- Q10>>
+<<s-Movie-q-8, Previous question -- Q8>> +
+<<s-Movie-q-10, Next question -- Q10>>
 
-[[s-One-Hit-Wonders-q-10]]
+[[s-Movie-q-10]]
 === Q10
 
-[big]#One Hit Wonders: Question 10#
+[big]#Movie: Question 10#
 
 ==== Question
 
-Q8fa707
+Name the movie.
 
 
 +++++++++++
@@ -4959,7 +4959,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Bette-Davis-Eyes-Re-Recorded-Remastered-tDJdEhbSP-g.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Patton-March-HAe40MzBktg.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -4975,8 +4975,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7_9]]
-A8fa707
-Audio/Trimmed/Bette-Davis-Eyes-Re-Recorded-Remastered-tDJdEhbSP-g.mp4
+Patton +
+DLG Orchestra / Greatest Movie Themes / Patton
 
 
 [subs=""]
@@ -4999,20 +4999,20 @@ function toggle_hidden_q7_9() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-9, Previous question -- Q9>> +
-<<s-Movie-q-1, Next question -- Movie: Q1>>
+<<s-Movie-q-9, Previous question -- Q9>> +
+<<s-Broadway-q-1, Next question -- Broadway: Q1>>
 
 [[s8]]
-== Movie
+== Broadway
 
-[[s-Movie-q-1]]
+[[s-Broadway-q-1]]
 === Q1
 
-[big]#Movie: Question 1#
+[big]#Broadway: Question 1#
 
 ==== Question
 
-Qedd7f1
+Name the composer.
 
 
 +++++++++++
@@ -5024,7 +5024,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Jules-and-Jim-Movie-Main-Theme-iFtFCZhFnMU.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Being-Alive-Company-2006-Broadway-Revival-Raul-Esparza-YLTulpBF3H4.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5040,8 +5040,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8_0]]
-Aedd7f1
-Audio/Trimmed/Jules-and-Jim-Movie-Main-Theme-iFtFCZhFnMU.mp4
+Stephen Sondheim +
+2006 Broadway Revival Cast / Company (2006 Broadway Revival Cast) / Being Alive
 
 
 [subs=""]
@@ -5064,17 +5064,17 @@ function toggle_hidden_q8_0() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-10, Previous question -- One Hit Wonders: Q10>> +
-<<s-Movie-q-2, Next question -- Q2>>
+<<s-Movie-q-10, Previous question -- Movie: Q10>> +
+<<s-Broadway-q-2, Next question -- Q2>>
 
-[[s-Movie-q-2]]
+[[s-Broadway-q-2]]
 === Q2
 
-[big]#Movie: Question 2#
+[big]#Broadway: Question 2#
 
 ==== Question
 
-Qc0248f
+Name the musical.
 
 
 +++++++++++
@@ -5086,7 +5086,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Good-the-Bad-and-the-Ugly-Movie-Main-Theme-o-zafpeLXhE.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Whatever-Lola-Wants-Damn-Yankees.-6kjQmgm0r4g.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5102,8 +5102,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8_1]]
-Ac0248f
-Audio/Trimmed/The-Good-the-Bad-and-the-Ugly-Movie-Main-Theme-o-zafpeLXhE.mp4
+Damn Yankees +
+Gwen Verdon / Damn Yankees (Original Soundtrack) [Remastered] / Whatever Lola Wants
 
 
 [subs=""]
@@ -5126,17 +5126,17 @@ function toggle_hidden_q8_1() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-1, Previous question -- Q1>> +
-<<s-Movie-q-3, Next question -- Q3>>
+<<s-Broadway-q-1, Previous question -- Q1>> +
+<<s-Broadway-q-3, Next question -- Q3>>
 
-[[s-Movie-q-3]]
+[[s-Broadway-q-3]]
 === Q3
 
-[big]#Movie: Question 3#
+[big]#Broadway: Question 3#
 
 ==== Question
 
-Q065c2c
+Name the composer.
 
 
 +++++++++++
@@ -5148,7 +5148,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Superman-Movie-Main-Theme-cm97g2cOKto.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Annie-Get-Your-Gun-1999-Broadway-Revival-Cast-9.-They-Say-It-s-Wonderful-3nuUHCKiBuo.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5164,8 +5164,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8_2]]
-A065c2c
-Audio/Trimmed/Superman-Movie-Main-Theme-cm97g2cOKto.mp4
+Irving Berlin +
+Annie Get Your Gun - The 1999 Broadway Cast / Annie Get Your Gun - The New Broadway Cast Recording (Staring Bernadette Peters) / They Say It's Wonderful
 
 
 [subs=""]
@@ -5188,17 +5188,17 @@ function toggle_hidden_q8_2() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-2, Previous question -- Q2>> +
-<<s-Movie-q-4, Next question -- Q4>>
+<<s-Broadway-q-2, Previous question -- Q2>> +
+<<s-Broadway-q-4, Next question -- Q4>>
 
-[[s-Movie-q-4]]
+[[s-Broadway-q-4]]
 === Q4
 
-[big]#Movie: Question 4#
+[big]#Broadway: Question 4#
 
 ==== Question
 
-Qc1ff38
+Name the musical.
 
 
 +++++++++++
@@ -5210,7 +5210,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/A-Man-and-a-Woman-Movie-Main-Theme-So9rDiGxQTQ.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Alexander-Hamilton-VhinPd5RRJw.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5226,8 +5226,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8_3]]
-Ac1ff38
-Audio/Trimmed/A-Man-and-a-Woman-Movie-Main-Theme-So9rDiGxQTQ.mp4
+Hamilton +
+Leslie Odom, Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Phillipa Soo, Christopher Jackson & Original Broadway Cast of Hamilton / Hamilton (Original Broadway Cast Recording) / Alexander Hamilton
 
 
 [subs=""]
@@ -5250,17 +5250,17 @@ function toggle_hidden_q8_3() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-3, Previous question -- Q3>> +
-<<s-Movie-q-5, Next question -- Q5>>
+<<s-Broadway-q-3, Previous question -- Q3>> +
+<<s-Broadway-q-5, Next question -- Q5>>
 
-[[s-Movie-q-5]]
+[[s-Broadway-q-5]]
 === Q5
 
-[big]#Movie: Question 5#
+[big]#Broadway: Question 5#
 
 ==== Question
 
-Qaaf781
+Name the musical.
 
 
 +++++++++++
@@ -5272,7 +5272,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Godfather-DGtEtwdZZKo.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/One-Reprise-Finale-OiBIXa-7Vo.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5288,8 +5288,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8_4]]
-Aaaf781
-Audio/Trimmed/The-Godfather-DGtEtwdZZKo.mp4
+A Chorus Line +
+A Chorus Line Ensemble / A Chorus Line - 40th Anniversary Celebration (Original Broadway Cast Recording) / One (Reprise) / Finale
 
 
 [subs=""]
@@ -5312,17 +5312,17 @@ function toggle_hidden_q8_4() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-4, Previous question -- Q4>> +
-<<s-Movie-q-6, Next question -- Q6>>
+<<s-Broadway-q-4, Previous question -- Q4>> +
+<<s-Broadway-q-6, Next question -- Q6>>
 
-[[s-Movie-q-6]]
+[[s-Broadway-q-6]]
 === Q6
 
-[big]#Movie: Question 6#
+[big]#Broadway: Question 6#
 
 ==== Question
 
-Q3e0bac
+Name the song. 
 
 
 +++++++++++
@@ -5334,7 +5334,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Pink-Panther-XdnnytXfj5g.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Barbra-Streisand-Don-t-Rain-On-My-Parade-oZTSuMErgsw.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5350,8 +5350,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8_5]]
-A3e0bac
-Audio/Trimmed/The-Pink-Panther-XdnnytXfj5g.mp4
+Don't Rain On My Parade +
+Barbra Streisand / The Essential Barbra Streisand / Don't Rain On My Parade
 
 
 [subs=""]
@@ -5374,17 +5374,17 @@ function toggle_hidden_q8_5() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-5, Previous question -- Q5>> +
-<<s-Movie-q-7, Next question -- Q7>>
+<<s-Broadway-q-5, Previous question -- Q5>> +
+<<s-Broadway-q-7, Next question -- Q7>>
 
-[[s-Movie-q-7]]
+[[s-Broadway-q-7]]
 === Q7
 
-[big]#Movie: Question 7#
+[big]#Broadway: Question 7#
 
 ==== Question
 
-Q2f6b5f
+Name the musical.
 
 
 +++++++++++
@@ -5396,7 +5396,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/End-Title-O-6Da8wD0A.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Corner-of-the-Sky-Mdkyc686VIg.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5412,8 +5412,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8_6]]
-A2f6b5f
-Audio/Trimmed/End-Title-O-6Da8wD0A.mp4
+Pippin +
+Matthew James Thomas / Pippin (New Broadway Cast Recording) / Corner of the Sky
 
 
 [subs=""]
@@ -5436,17 +5436,17 @@ function toggle_hidden_q8_6() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-6, Previous question -- Q6>> +
-<<s-Movie-q-8, Next question -- Q8>>
+<<s-Broadway-q-6, Previous question -- Q6>> +
+<<s-Broadway-q-8, Next question -- Q8>>
 
-[[s-Movie-q-8]]
+[[s-Broadway-q-8]]
 === Q8
 
-[big]#Movie: Question 8#
+[big]#Broadway: Question 8#
 
 ==== Question
 
-Q8971dc
+Name the song.
 
 
 +++++++++++
@@ -5458,7 +5458,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/La-dolce-vita-Titoli-testa-Canzonetta-Notturno-Cadillac-M-pDPlITpcU.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/West-Side-Story-Something-s-Coming-1961-HD-FOQPMjKLQQU.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5474,8 +5474,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8_7]]
-A8971dc
-Audio/Trimmed/La-dolce-vita-Titoli-testa-Canzonetta-Notturno-Cadillac-M-pDPlITpcU.mp4
+Something's Coming. +
+Matt Cavenaugh / West Side Story (New Broadway Cast Recording - 2009) / Something's Coming
 
 
 [subs=""]
@@ -5498,17 +5498,17 @@ function toggle_hidden_q8_7() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-7, Previous question -- Q7>> +
-<<s-Movie-q-9, Next question -- Q9>>
+<<s-Broadway-q-7, Previous question -- Q7>> +
+<<s-Broadway-q-9, Next question -- Q9>>
 
-[[s-Movie-q-9]]
+[[s-Broadway-q-9]]
 === Q9
 
-[big]#Movie: Question 9#
+[big]#Broadway: Question 9#
 
 ==== Question
 
-Q4efc9e
+Name the musical.
 
 
 +++++++++++
@@ -5520,7 +5520,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Nino-Rota-Amarcord-bk4MEhUkxco.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Overture-Te-Tgsw2vOE.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5536,8 +5536,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8_8]]
-A4efc9e
-Audio/Trimmed/Nino-Rota-Amarcord-bk4MEhUkxco.mp4
+Gypsy +
+2003 Broadway Cast of "Gypsy" / Gypsy (2003 Broadway Cast) / Overture
 
 
 [subs=""]
@@ -5560,17 +5560,17 @@ function toggle_hidden_q8_8() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-8, Previous question -- Q8>> +
-<<s-Movie-q-10, Next question -- Q10>>
+<<s-Broadway-q-8, Previous question -- Q8>> +
+<<s-Broadway-q-10, Next question -- Q10>>
 
-[[s-Movie-q-10]]
+[[s-Broadway-q-10]]
 === Q10
 
-[big]#Movie: Question 10#
+[big]#Broadway: Question 10#
 
 ==== Question
 
-Qb06114
+Name the musical.
 
 
 +++++++++++
@@ -5582,7 +5582,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Patton-March-HAe40MzBktg.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/42nd-Street-bPuQkW1-s9k.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5598,8 +5598,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8_9]]
-Ab06114
-Audio/Trimmed/Patton-March-HAe40MzBktg.mp4
+42nd Street +
+Wanda Richert, Lee Roy Reams & 42nd Street Ensemble / 42nd Street - Original Broadway Cast Recording / 42nd Street
 
 
 [subs=""]
@@ -5622,20 +5622,20 @@ function toggle_hidden_q8_9() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-9, Previous question -- Q9>> +
-<<s-Broadway-q-1, Next question -- Broadway: Q1>>
+<<s-Broadway-q-9, Previous question -- Q9>> +
+<<s-New-York-q-1, Next question -- New York: Q1>>
 
 [[s9]]
-== Broadway
+== New York
 
-[[s-Broadway-q-1]]
+[[s-New-York-q-1]]
 === Q1
 
-[big]#Broadway: Question 1#
+[big]#New York: Question 1#
 
 ==== Question
 
-Q4e2dc2
+Name the song.
 
 
 +++++++++++
@@ -5647,7 +5647,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Being-Alive-Company-2006-Broadway-Revival-Raul-Esparza-YLTulpBF3H4.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Bruce-Springsteen-Tenth-Avenue-Freeze-Out.wmv-BL-HL3ELvFI.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5663,8 +5663,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9_0]]
-A4e2dc2
-Audio/Trimmed/Being-Alive-Company-2006-Broadway-Revival-Raul-Esparza-YLTulpBF3H4.mp4
+Tenth Avenue Freeze Out +
+Bruce Springsteen / Born To Run / Tenth Avenue Freeze-Out
 
 
 [subs=""]
@@ -5687,17 +5687,17 @@ function toggle_hidden_q9_0() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-10, Previous question -- Movie: Q10>> +
-<<s-Broadway-q-2, Next question -- Q2>>
+<<s-Broadway-q-10, Previous question -- Broadway: Q10>> +
+<<s-New-York-q-2, Next question -- Q2>>
 
-[[s-Broadway-q-2]]
+[[s-New-York-q-2]]
 === Q2
 
-[big]#Broadway: Question 2#
+[big]#New York: Question 2#
 
 ==== Question
 
-Qa83f57
+Name the person who sang this song in the movie in which it first appeared.
 
 
 +++++++++++
@@ -5709,7 +5709,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Whatever-Lola-Wants-Damn-Yankees.-6kjQmgm0r4g.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Theme-From-New-York-New-York-Remastered-2008-le1QF3uoQNg.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5725,8 +5725,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9_1]]
-Aa83f57
-Audio/Trimmed/Whatever-Lola-Wants-Damn-Yankees.-6kjQmgm0r4g.mp4
+Liza Minelli +
+Frank Sinatra / Ultimate Sinatra: The Centennial Collection / Theme from New York, New York
 
 
 [subs=""]
@@ -5749,17 +5749,17 @@ function toggle_hidden_q9_1() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-1, Previous question -- Q1>> +
-<<s-Broadway-q-3, Next question -- Q3>>
+<<s-New-York-q-1, Previous question -- Q1>> +
+<<s-New-York-q-3, Next question -- Q3>>
 
-[[s-Broadway-q-3]]
+[[s-New-York-q-3]]
 === Q3
 
-[big]#Broadway: Question 3#
+[big]#New York: Question 3#
 
 ==== Question
 
-Q67c3f8
+Name the song. 
 
 
 +++++++++++
@@ -5771,7 +5771,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Annie-Get-Your-Gun-1999-Broadway-Revival-Cast-9.-They-Say-It-s-Wonderful-3nuUHCKiBuo.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/GEORGE-BENSON-On-Broadway-Album-Version-ok-l1Acuwg.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5787,8 +5787,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9_2]]
-A67c3f8
-Audio/Trimmed/Annie-Get-Your-Gun-1999-Broadway-Revival-Cast-9.-They-Say-It-s-Wonderful-3nuUHCKiBuo.mp4
+On Broadway +
+George Benson / The George Benson Collection / On Broadway
 
 
 [subs=""]
@@ -5811,17 +5811,17 @@ function toggle_hidden_q9_2() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-2, Previous question -- Q2>> +
-<<s-Broadway-q-4, Next question -- Q4>>
+<<s-New-York-q-2, Previous question -- Q2>> +
+<<s-New-York-q-4, Next question -- Q4>>
 
-[[s-Broadway-q-4]]
+[[s-New-York-q-4]]
 === Q4
 
-[big]#Broadway: Question 4#
+[big]#New York: Question 4#
 
 ==== Question
 
-Qad443f
+Name the song.
 
 
 +++++++++++
@@ -5833,7 +5833,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Alexander-Hamilton-VhinPd5RRJw.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/RUN-DMC-Christmas-In-Hollis-Video-OR07r0ZMFb8.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5849,8 +5849,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9_3]]
-Aad443f
-Audio/Trimmed/Alexander-Hamilton-VhinPd5RRJw.mp4
+Christmas in Hollis +
+Run-DMC / Tougher Than Leather / Christmas In Hollis (Bonus Track)
 
 
 [subs=""]
@@ -5873,17 +5873,17 @@ function toggle_hidden_q9_3() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-3, Previous question -- Q3>> +
-<<s-Broadway-q-5, Next question -- Q5>>
+<<s-New-York-q-3, Previous question -- Q3>> +
+<<s-New-York-q-5, Next question -- Q5>>
 
-[[s-Broadway-q-5]]
+[[s-New-York-q-5]]
 === Q5
 
-[big]#Broadway: Question 5#
+[big]#New York: Question 5#
 
 ==== Question
 
-Qe8b5d6
+Name the song.
 
 
 +++++++++++
@@ -5895,7 +5895,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/One-Reprise-Finale-OiBIXa-7Vo.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Odyssey-Native-New-Yorker-1977-HD-JpQ6NtbZxiE.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5911,8 +5911,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9_4]]
-Ae8b5d6
-Audio/Trimmed/One-Reprise-Finale-OiBIXa-7Vo.mp4
+Native New Yorker +
+Odyssey / Odyssey (Expanded Edition) / Native New Yorker
 
 
 [subs=""]
@@ -5935,17 +5935,17 @@ function toggle_hidden_q9_4() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-4, Previous question -- Q4>> +
-<<s-Broadway-q-6, Next question -- Q6>>
+<<s-New-York-q-4, Previous question -- Q4>> +
+<<s-New-York-q-6, Next question -- Q6>>
 
-[[s-Broadway-q-6]]
+[[s-New-York-q-6]]
 === Q6
 
-[big]#Broadway: Question 6#
+[big]#New York: Question 6#
 
 ==== Question
 
-Qf0ce4d
+Name the song.
 
 
 +++++++++++
@@ -5957,7 +5957,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Barbra-Streisand-Don-t-Rain-On-My-Parade-oZTSuMErgsw.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Jay-Z-feat.-Alicia-Keys-Empire-State-of-Mind-Official-Music-Video-Original-Version-QsZlY0Vz4-o.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -5973,8 +5973,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9_5]]
-Af0ce4d
-Audio/Trimmed/Barbra-Streisand-Don-t-Rain-On-My-Parade-oZTSuMErgsw.mp4
+Empire State of Mind +
+JAY-Z & Alicia Keys / The Hits Collection, Vol. One (Deluxe Edition) / Empire State of Mind (feat. Alicia Keys)
 
 
 [subs=""]
@@ -5997,17 +5997,17 @@ function toggle_hidden_q9_5() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-5, Previous question -- Q5>> +
-<<s-Broadway-q-7, Next question -- Q7>>
+<<s-New-York-q-5, Previous question -- Q5>> +
+<<s-New-York-q-7, Next question -- Q7>>
 
-[[s-Broadway-q-7]]
+[[s-New-York-q-7]]
 === Q7
 
-[big]#Broadway: Question 7#
+[big]#New York: Question 7#
 
 ==== Question
 
-Q3182d2
+Name the song.
 
 
 +++++++++++
@@ -6019,7 +6019,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Corner-of-the-Sky-Mdkyc686VIg.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Pogues-Fairytale-Of-New-York-Official-Video-j9jbdgZidu8.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6035,8 +6035,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9_6]]
-A3182d2
-Audio/Trimmed/Corner-of-the-Sky-Mdkyc686VIg.mp4
+Fairytale of New York +
+The Pogues / If I Should Fall from Grace With God [Expanded] / Fairytale of New York
 
 
 [subs=""]
@@ -6059,17 +6059,17 @@ function toggle_hidden_q9_6() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-6, Previous question -- Q6>> +
-<<s-Broadway-q-8, Next question -- Q8>>
+<<s-New-York-q-6, Previous question -- Q6>> +
+<<s-New-York-q-8, Next question -- Q8>>
 
-[[s-Broadway-q-8]]
+[[s-New-York-q-8]]
 === Q8
 
-[big]#Broadway: Question 8#
+[big]#New York: Question 8#
 
 ==== Question
 
-Q92b1df
+Name the song.
 
 
 +++++++++++
@@ -6081,7 +6081,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/West-Side-Story-Something-s-Coming-1961-HD-FOQPMjKLQQU.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Ben-E-King-Spanish-Harlem-OGd6CdtOqEE.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6097,8 +6097,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9_7]]
-A92b1df
-Audio/Trimmed/West-Side-Story-Something-s-Coming-1961-HD-FOQPMjKLQQU.mp4
+Spanish Herlem +
+Ben E. King / Spanish Harlem / Spanish Harlem
 
 
 [subs=""]
@@ -6121,17 +6121,17 @@ function toggle_hidden_q9_7() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-7, Previous question -- Q7>> +
-<<s-Broadway-q-9, Next question -- Q9>>
+<<s-New-York-q-7, Previous question -- Q7>> +
+<<s-New-York-q-9, Next question -- Q9>>
 
-[[s-Broadway-q-9]]
+[[s-New-York-q-9]]
 === Q9
 
-[big]#Broadway: Question 9#
+[big]#New York: Question 9#
 
 ==== Question
 
-Qbbd961
+Name the song.
 
 
 +++++++++++
@@ -6143,7 +6143,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Overture-Te-Tgsw2vOE.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/The-Ad-Libs-The-Boy-From-New-York-City-with-lyrics-3TPYmeSqLjc.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6159,8 +6159,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9_8]]
-Abbd961
-Audio/Trimmed/Overture-Te-Tgsw2vOE.mp4
+The Boy from New York City +
+The Ad Libs / Discover 60s One Hit Wonders / The Boy from New York City
 
 
 [subs=""]
@@ -6183,17 +6183,17 @@ function toggle_hidden_q9_8() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-8, Previous question -- Q8>> +
-<<s-Broadway-q-10, Next question -- Q10>>
+<<s-New-York-q-8, Previous question -- Q8>> +
+<<s-New-York-q-10, Next question -- Q10>>
 
-[[s-Broadway-q-10]]
+[[s-New-York-q-10]]
 === Q10
 
-[big]#Broadway: Question 10#
+[big]#New York: Question 10#
 
 ==== Question
 
-Q5c5a0b
+Name the song.
 
 
 +++++++++++
@@ -6205,7 +6205,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/42nd-Street-bPuQkW1-s9k.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Lullaby-Of-Broadway-Live-n8sd4KiP5iA.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6221,8 +6221,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9_9]]
-A5c5a0b
-Audio/Trimmed/42nd-Street-bPuQkW1-s9k.mp4
+Lullaby of Broadway +
+Tony Bennett / The White House Sessions, Live 1962 / Lullaby of Broadway (with The Dave Brubeck Trio) [Live]
 
 
 [subs=""]
@@ -6245,20 +6245,20 @@ function toggle_hidden_q9_9() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-9, Previous question -- Q9>> +
-<<s-New-York-q-1, Next question -- New York: Q1>>
+<<s-New-York-q-9, Previous question -- Q9>> +
+<<s-Bonus-q-1, Next question -- Bonus: Q1>>
 
 [[s10]]
-== New York
+== Bonus
 
-[[s-New-York-q-1]]
+[[s-Bonus-q-1]]
 === Q1
 
-[big]#New York: Question 1#
+[big]#Bonus: Question 1#
 
 ==== Question
 
-Q698543
+In this song, what "has bitten the dust?"
 
 
 +++++++++++
@@ -6270,7 +6270,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Bruce-Springsteen-Tenth-Avenue-Freeze-Out.wmv-BL-HL3ELvFI.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/London-Calling-Remastered-XN7iEFVLf5c.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6286,8 +6286,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q10_0]]
-A698543
-Audio/Trimmed/Bruce-Springsteen-Tenth-Avenue-Freeze-Out.wmv-BL-HL3ELvFI.mp4
+Phony Beatlemania +
+The Clash / London Calling (Remastered) / London Calling - Remastered
 
 
 [subs=""]
@@ -6310,17 +6310,17 @@ function toggle_hidden_q10_0() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-10, Previous question -- Broadway: Q10>> +
-<<s-New-York-q-2, Next question -- Q2>>
+<<s-New-York-q-10, Previous question -- New York: Q10>> +
+<<s-Bonus-q-2, Next question -- Q2>>
 
-[[s-New-York-q-2]]
+[[s-Bonus-q-2]]
 === Q2
 
-[big]#New York: Question 2#
+[big]#Bonus: Question 2#
 
 ==== Question
 
-Q2b1e67
+Name the group.
 
 
 +++++++++++
@@ -6332,7 +6332,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Theme-From-New-York-New-York-Remastered-2008-le1QF3uoQNg.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Surf-City-Remastered-1990-Stereo-Remix-ZWMcoxeXKAg.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6348,8 +6348,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q10_1]]
-A2b1e67
-Audio/Trimmed/Theme-From-New-York-New-York-Remastered-2008-le1QF3uoQNg.mp4
+Jan & Dean +
+Jan & Dean / Surf City: The Best Of Jan & Dean / Surf City - Remastered 1990/Stereo Remix
 
 
 [subs=""]
@@ -6372,17 +6372,17 @@ function toggle_hidden_q10_1() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-New-York-q-1, Previous question -- Q1>> +
-<<s-New-York-q-3, Next question -- Q3>>
+<<s-Bonus-q-1, Previous question -- Q1>> +
+<<s-Bonus-q-3, Next question -- Q3>>
 
-[[s-New-York-q-3]]
+[[s-Bonus-q-3]]
 === Q3
 
-[big]#New York: Question 3#
+[big]#Bonus: Question 3#
 
 ==== Question
 
-Q379032
+Name the album.
 
 
 +++++++++++
@@ -6394,7 +6394,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/GEORGE-BENSON-On-Broadway-Album-Version-ok-l1Acuwg.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Joe-Jackson-Look-Sharp-V8-b9LK1trE.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6410,8 +6410,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q10_2]]
-A379032
-Audio/Trimmed/GEORGE-BENSON-On-Broadway-Album-Version-ok-l1Acuwg.mp4
+Look Sharp! +
+Joe Jackson / Look Sharp! / Look Sharp!
 
 
 [subs=""]
@@ -6434,17 +6434,17 @@ function toggle_hidden_q10_2() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-New-York-q-2, Previous question -- Q2>> +
-<<s-New-York-q-4, Next question -- Q4>>
+<<s-Bonus-q-2, Previous question -- Q2>> +
+<<s-Bonus-q-4, Next question -- Q4>>
 
-[[s-New-York-q-4]]
+[[s-Bonus-q-4]]
 === Q4
 
-[big]#New York: Question 4#
+[big]#Bonus: Question 4#
 
 ==== Question
 
-Q7e08a4
+Name the movie in which this song was sung by this artist.
 
 
 +++++++++++
@@ -6456,7 +6456,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/RUN-DMC-Christmas-In-Hollis-Video-OR07r0ZMFb8.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Elvis-Presley-Can-t-Help-Falling-In-Love-Audio-vGJTaP6anOU.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6472,8 +6472,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q10_3]]
-A7e08a4
-Audio/Trimmed/RUN-DMC-Christmas-In-Hollis-Video-OR07r0ZMFb8.mp4
+Blue Hawaii +
+Elvis Presley / Blue Hawaii / Can't Help Falling in Love
 
 
 [subs=""]
@@ -6496,17 +6496,17 @@ function toggle_hidden_q10_3() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-New-York-q-3, Previous question -- Q3>> +
-<<s-New-York-q-5, Next question -- Q5>>
+<<s-Bonus-q-3, Previous question -- Q3>> +
+<<s-Bonus-q-5, Next question -- Q5>>
 
-[[s-New-York-q-5]]
+[[s-Bonus-q-5]]
 === Q5
 
-[big]#New York: Question 5#
+[big]#Bonus: Question 5#
 
 ==== Question
 
-Qacbe89
+Name the movie in which this song played a significant part,
 
 
 +++++++++++
@@ -6518,7 +6518,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Odyssey-Native-New-Yorker-1977-HD-JpQ6NtbZxiE.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Roy-Orbison-In-Dreams-MVRunwyoTMA.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6534,8 +6534,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q10_4]]
-Aacbe89
-Audio/Trimmed/Odyssey-Native-New-Yorker-1977-HD-JpQ6NtbZxiE.mp4
+Blue Velvet +
+Roy Orbison / In Dreams / In Dreams
 
 
 [subs=""]
@@ -6558,17 +6558,17 @@ function toggle_hidden_q10_4() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-New-York-q-4, Previous question -- Q4>> +
-<<s-New-York-q-6, Next question -- Q6>>
+<<s-Bonus-q-4, Previous question -- Q4>> +
+<<s-Bonus-q-6, Next question -- Q6>>
 
-[[s-New-York-q-6]]
+[[s-Bonus-q-6]]
 === Q6
 
-[big]#New York: Question 6#
+[big]#Bonus: Question 6#
 
 ==== Question
 
-Q153019
+Name the two movies that had this song as their opening credit music. 
 
 
 +++++++++++
@@ -6580,7 +6580,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Jay-Z-feat.-Alicia-Keys-Empire-State-of-Mind-Official-Music-Video-Original-Version-QsZlY0Vz4-o.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Rock-Around-the-Clock-Bill-Haley-original-song-1955-Ud-JZcC0tHI.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6596,8 +6596,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q10_5]]
-A153019
-Audio/Trimmed/Jay-Z-feat.-Alicia-Keys-Empire-State-of-Mind-Official-Music-Video-Original-Version-QsZlY0Vz4-o.mp4
+American Graffiti and Blackboard Jungle +
+Bill Haley & His Comets / From The Original Master Tapes / (We're Gonna) Rock Around The Clock - Single Version
 
 
 [subs=""]
@@ -6620,17 +6620,17 @@ function toggle_hidden_q10_5() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-New-York-q-5, Previous question -- Q5>> +
-<<s-New-York-q-7, Next question -- Q7>>
+<<s-Bonus-q-5, Previous question -- Q5>> +
+<<s-Bonus-q-7, Next question -- Q7>>
 
-[[s-New-York-q-7]]
+[[s-Bonus-q-7]]
 === Q7
 
-[big]#New York: Question 7#
+[big]#Bonus: Question 7#
 
 ==== Question
 
-Q9488f6
+Name  famous  film in which this song was sung spontaneously.
 
 
 +++++++++++
@@ -6642,7 +6642,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Pogues-Fairytale-Of-New-York-Official-Video-j9jbdgZidu8.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Hommage-national-la-Marseillaise-du-Choeur-de-l-Arm-e-fran-aise-SLe6KcssqiM.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6658,8 +6658,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q10_6]]
-A9488f6
-Audio/Trimmed/The-Pogues-Fairytale-Of-New-York-Official-Video-j9jbdgZidu8.mp4
+Casablanca +
+Choeur de l'Armée Française, Musique De La Garde Républicaine / Les hymnes officiels de la Coupe du Monde de Rugby (National Anthems Rugby World Cup France) / France: La Marseillaise
 
 
 [subs=""]
@@ -6682,17 +6682,17 @@ function toggle_hidden_q10_6() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-New-York-q-6, Previous question -- Q6>> +
-<<s-New-York-q-8, Next question -- Q8>>
+<<s-Bonus-q-6, Previous question -- Q6>> +
+<<s-Bonus-q-8, Next question -- Q8>>
 
-[[s-New-York-q-8]]
+[[s-Bonus-q-8]]
 === Q8
 
-[big]#New York: Question 8#
+[big]#Bonus: Question 8#
 
 ==== Question
 
-Q24ee4e
+Name the song.
 
 
 +++++++++++
@@ -6704,7 +6704,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/Ben-E-King-Spanish-Harlem-OGd6CdtOqEE.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Carl-Perkins-Gone-Gone-Gone-yrhZKavICNU.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6720,8 +6720,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q10_7]]
-A24ee4e
-Audio/Trimmed/Ben-E-King-Spanish-Harlem-OGd6CdtOqEE.mp4
+Gone Gone Gone +
+Carl Perkins / The Dance Album / Gone, Gone, Gone
 
 
 [subs=""]
@@ -6744,17 +6744,17 @@ function toggle_hidden_q10_7() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-New-York-q-7, Previous question -- Q7>> +
-<<s-New-York-q-9, Next question -- Q9>>
+<<s-Bonus-q-7, Previous question -- Q7>> +
+<<s-Bonus-q-9, Next question -- Q9>>
 
-[[s-New-York-q-9]]
+[[s-Bonus-q-9]]
 === Q9
 
-[big]#New York: Question 9#
+[big]#Bonus: Question 9#
 
 ==== Question
 
-Q65ef22
+Name the famous televangelist who was a cousin of the this singer.
 
 
 +++++++++++
@@ -6766,7 +6766,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src=Audio/Trimmed/The-Ad-Libs-The-Boy-From-New-York-City-with-lyrics-3TPYmeSqLjc.mp4 type="video/mp4"/>
+    <source src=Audio/Trimmed/Great-Balls-of-Fire-Jerry-Lee-Lewis-original-song-1957-Jt0mg8Z09SY.mp4 type="video/mp4"/>
 </video>
 +++++++++++
 
@@ -6782,8 +6782,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q10_8]]
-A65ef22
-Audio/Trimmed/The-Ad-Libs-The-Boy-From-New-York-City-with-lyrics-3TPYmeSqLjc.mp4
+Jimmy Swaggert +
+Jerry Lee Lewis / The Golden Rock Hits Of Jerry Lee Lewis / Great Balls Of Fire
 
 
 [subs=""]
@@ -6806,629 +6806,6 @@ function toggle_hidden_q10_8() {
 +++++++++++++++
 
 [role="fullheight"]
-<<s-New-York-q-8, Previous question -- Q8>> +
-<<s-New-York-q-10, Next question -- Q10>>
-
-[[s-New-York-q-10]]
-=== Q10
-
-[big]#New York: Question 10#
-
-==== Question
-
-Q861953
-
-
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-    <source src=Audio/Trimmed/Lullaby-Of-Broadway-Live-n8sd4KiP5iA.mp4 type="video/mp4"/>
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[subs=""]
-+++++++++++++++++
-<button id="button_q10_9" onclick="toggle_hidden_q10_9()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q10_9]]
-A861953
-Audio/Trimmed/Lullaby-Of-Broadway-Live-n8sd4KiP5iA.mp4
-
-
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q10_9");
-z.style.display = "none"
-function toggle_hidden_q10_9() {
-  var x = document.getElementById("answer_q10_9");
-  var b = document.getElementById("button_q10_9");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    b.innerHTML = "Hide answer";
-  } else {
-    x.style.display = "none";
-    b.innerHTML = "Show answer";
-  }
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-New-York-q-9, Previous question -- Q9>> +
-<<s-Bonus-q-1, Next question -- Bonus: Q1>>
-
-[[s11]]
-== Bonus
-
-[[s-Bonus-q-1]]
-=== Q1
-
-[big]#Bonus: Question 1#
-
-==== Question
-
-Q909fc9
-
-
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-    <source src=Audio/Trimmed/London-Calling-Remastered-XN7iEFVLf5c.mp4 type="video/mp4"/>
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[subs=""]
-+++++++++++++++++
-<button id="button_q11_0" onclick="toggle_hidden_q11_0()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q11_0]]
-A909fc9
-Audio/Trimmed/London-Calling-Remastered-XN7iEFVLf5c.mp4
-
-
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q11_0");
-z.style.display = "none"
-function toggle_hidden_q11_0() {
-  var x = document.getElementById("answer_q11_0");
-  var b = document.getElementById("button_q11_0");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    b.innerHTML = "Hide answer";
-  } else {
-    x.style.display = "none";
-    b.innerHTML = "Show answer";
-  }
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-New-York-q-10, Previous question -- New York: Q10>> +
-<<s-Bonus-q-2, Next question -- Q2>>
-
-[[s-Bonus-q-2]]
-=== Q2
-
-[big]#Bonus: Question 2#
-
-==== Question
-
-Q36582d
-
-
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-    <source src=Audio/Trimmed/Surf-City-Remastered-1990-Stereo-Remix-ZWMcoxeXKAg.mp4 type="video/mp4"/>
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[subs=""]
-+++++++++++++++++
-<button id="button_q11_1" onclick="toggle_hidden_q11_1()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q11_1]]
-A36582d
-Audio/Trimmed/Surf-City-Remastered-1990-Stereo-Remix-ZWMcoxeXKAg.mp4
-
-
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q11_1");
-z.style.display = "none"
-function toggle_hidden_q11_1() {
-  var x = document.getElementById("answer_q11_1");
-  var b = document.getElementById("button_q11_1");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    b.innerHTML = "Hide answer";
-  } else {
-    x.style.display = "none";
-    b.innerHTML = "Show answer";
-  }
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-Bonus-q-1, Previous question -- Q1>> +
-<<s-Bonus-q-3, Next question -- Q3>>
-
-[[s-Bonus-q-3]]
-=== Q3
-
-[big]#Bonus: Question 3#
-
-==== Question
-
-Qbfb414
-
-
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-    <source src=Audio/Trimmed/Joe-Jackson-Look-Sharp-V8-b9LK1trE.mp4 type="video/mp4"/>
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[subs=""]
-+++++++++++++++++
-<button id="button_q11_2" onclick="toggle_hidden_q11_2()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q11_2]]
-Abfb414
-Audio/Trimmed/Joe-Jackson-Look-Sharp-V8-b9LK1trE.mp4
-
-
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q11_2");
-z.style.display = "none"
-function toggle_hidden_q11_2() {
-  var x = document.getElementById("answer_q11_2");
-  var b = document.getElementById("button_q11_2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    b.innerHTML = "Hide answer";
-  } else {
-    x.style.display = "none";
-    b.innerHTML = "Show answer";
-  }
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-Bonus-q-2, Previous question -- Q2>> +
-<<s-Bonus-q-4, Next question -- Q4>>
-
-[[s-Bonus-q-4]]
-=== Q4
-
-[big]#Bonus: Question 4#
-
-==== Question
-
-Qaf0332
-
-
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-    <source src=Audio/Trimmed/Elvis-Presley-Can-t-Help-Falling-In-Love-Audio-vGJTaP6anOU.mp4 type="video/mp4"/>
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[subs=""]
-+++++++++++++++++
-<button id="button_q11_3" onclick="toggle_hidden_q11_3()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q11_3]]
-Aaf0332
-Audio/Trimmed/Elvis-Presley-Can-t-Help-Falling-In-Love-Audio-vGJTaP6anOU.mp4
-
-
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q11_3");
-z.style.display = "none"
-function toggle_hidden_q11_3() {
-  var x = document.getElementById("answer_q11_3");
-  var b = document.getElementById("button_q11_3");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    b.innerHTML = "Hide answer";
-  } else {
-    x.style.display = "none";
-    b.innerHTML = "Show answer";
-  }
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-Bonus-q-3, Previous question -- Q3>> +
-<<s-Bonus-q-5, Next question -- Q5>>
-
-[[s-Bonus-q-5]]
-=== Q5
-
-[big]#Bonus: Question 5#
-
-==== Question
-
-Q9901fa
-
-
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-    <source src=Audio/Trimmed/Roy-Orbison-In-Dreams-MVRunwyoTMA.mp4 type="video/mp4"/>
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[subs=""]
-+++++++++++++++++
-<button id="button_q11_4" onclick="toggle_hidden_q11_4()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q11_4]]
-A9901fa
-Audio/Trimmed/Roy-Orbison-In-Dreams-MVRunwyoTMA.mp4
-
-
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q11_4");
-z.style.display = "none"
-function toggle_hidden_q11_4() {
-  var x = document.getElementById("answer_q11_4");
-  var b = document.getElementById("button_q11_4");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    b.innerHTML = "Hide answer";
-  } else {
-    x.style.display = "none";
-    b.innerHTML = "Show answer";
-  }
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-Bonus-q-4, Previous question -- Q4>> +
-<<s-Bonus-q-6, Next question -- Q6>>
-
-[[s-Bonus-q-6]]
-=== Q6
-
-[big]#Bonus: Question 6#
-
-==== Question
-
-Qe869ca
-
-
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-    <source src=Audio/Trimmed/Rock-Around-the-Clock-Bill-Haley-original-song-1955-Ud-JZcC0tHI.mp4 type="video/mp4"/>
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[subs=""]
-+++++++++++++++++
-<button id="button_q11_5" onclick="toggle_hidden_q11_5()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q11_5]]
-Ae869ca
-Audio/Trimmed/Rock-Around-the-Clock-Bill-Haley-original-song-1955-Ud-JZcC0tHI.mp4
-
-
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q11_5");
-z.style.display = "none"
-function toggle_hidden_q11_5() {
-  var x = document.getElementById("answer_q11_5");
-  var b = document.getElementById("button_q11_5");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    b.innerHTML = "Hide answer";
-  } else {
-    x.style.display = "none";
-    b.innerHTML = "Show answer";
-  }
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-Bonus-q-5, Previous question -- Q5>> +
-<<s-Bonus-q-7, Next question -- Q7>>
-
-[[s-Bonus-q-7]]
-=== Q7
-
-[big]#Bonus: Question 7#
-
-==== Question
-
-Q0b3235
-
-
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-    <source src=Audio/Trimmed/Hommage-national-la-Marseillaise-du-Choeur-de-l-Arm-e-fran-aise-SLe6KcssqiM.mp4 type="video/mp4"/>
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[subs=""]
-+++++++++++++++++
-<button id="button_q11_6" onclick="toggle_hidden_q11_6()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q11_6]]
-A0b3235
-Audio/Trimmed/Hommage-national-la-Marseillaise-du-Choeur-de-l-Arm-e-fran-aise-SLe6KcssqiM.mp4
-
-
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q11_6");
-z.style.display = "none"
-function toggle_hidden_q11_6() {
-  var x = document.getElementById("answer_q11_6");
-  var b = document.getElementById("button_q11_6");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    b.innerHTML = "Hide answer";
-  } else {
-    x.style.display = "none";
-    b.innerHTML = "Show answer";
-  }
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-Bonus-q-6, Previous question -- Q6>> +
-<<s-Bonus-q-8, Next question -- Q8>>
-
-[[s-Bonus-q-8]]
-=== Q8
-
-[big]#Bonus: Question 8#
-
-==== Question
-
-Q624553
-
-
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-    <source src=Audio/Trimmed/Carl-Perkins-Gone-Gone-Gone-yrhZKavICNU.mp4 type="video/mp4"/>
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[subs=""]
-+++++++++++++++++
-<button id="button_q11_7" onclick="toggle_hidden_q11_7()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q11_7]]
-A624553
-Audio/Trimmed/Carl-Perkins-Gone-Gone-Gone-yrhZKavICNU.mp4
-
-
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q11_7");
-z.style.display = "none"
-function toggle_hidden_q11_7() {
-  var x = document.getElementById("answer_q11_7");
-  var b = document.getElementById("button_q11_7");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    b.innerHTML = "Hide answer";
-  } else {
-    x.style.display = "none";
-    b.innerHTML = "Show answer";
-  }
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-Bonus-q-7, Previous question -- Q7>> +
-<<s-Bonus-q-9, Next question -- Q9>>
-
-[[s-Bonus-q-9]]
-=== Q9
-
-[big]#Bonus: Question 9#
-
-==== Question
-
-Q66a428
-
-
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-    <source src=Audio/Trimmed/Great-Balls-of-Fire-Jerry-Lee-Lewis-original-song-1957-Jt0mg8Z09SY.mp4 type="video/mp4"/>
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[subs=""]
-+++++++++++++++++
-<button id="button_q11_8" onclick="toggle_hidden_q11_8()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q11_8]]
-A66a428
-Audio/Trimmed/Great-Balls-of-Fire-Jerry-Lee-Lewis-original-song-1957-Jt0mg8Z09SY.mp4
-
-
-[subs=""]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q11_8");
-z.style.display = "none"
-function toggle_hidden_q11_8() {
-  var x = document.getElementById("answer_q11_8");
-  var b = document.getElementById("button_q11_8");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    b.innerHTML = "Hide answer";
-  } else {
-    x.style.display = "none";
-    b.innerHTML = "Show answer";
-  }
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
 <<s-Bonus-q-8, Previous question -- Q8>> +
 <<s-Bonus-q-10, Next question -- Q10>>
 
@@ -7439,7 +6816,7 @@ function toggle_hidden_q11_8() {
 
 ==== Question
 
-Q5ccc88
+Name the band, the song and the album - we need all three.
 
 
 +++++++++++
@@ -7461,24 +6838,24 @@ playsinline
 
 [subs=""]
 +++++++++++++++++
-<button id="button_q11_9" onclick="toggle_hidden_q11_9()">
+<button id="button_q10_9" onclick="toggle_hidden_q10_9()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q11_9]]
-A5ccc88
-Audio/Trimmed/Pet-Sounds-Remastered-EeN-NytxKEc.mp4
+[[answer_q10_9]]
+the Beach Boys; Pet Sounds; Pet Sounds +
+The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions) / Pet Sounds - Remastered
 
 
 [subs=""]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q11_9");
+var z = document.getElementById("answer_q10_9");
 z.style.display = "none"
-function toggle_hidden_q11_9() {
-  var x = document.getElementById("answer_q11_9");
-  var b = document.getElementById("button_q11_9");
+function toggle_hidden_q10_9() {
+  var x = document.getElementById("answer_q10_9");
+  var b = document.getElementById("button_q10_9");
   if (x.style.display === "none") {
     x.style.display = "block";
     b.innerHTML = "Hide answer";
