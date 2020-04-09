@@ -1,8 +1,14 @@
 # %%
 import subprocess
+import time
+from pathlib import Path
 from urllib.parse import quote_plus
 
 import pandas as pd
+
+AUDIO_DIR = Path("Audio")
+
+ORIGINALS_DIR = AUDIO_DIR / "Originals"
 
 
 def fetch_all():
@@ -32,4 +38,14 @@ def fetch_all():
     return df
 
 
-fetch_all()
+def sort_songs():
+    df = pd.read_csv("./songs_meta_filled_no_qs_as.csv")
+    audio_files = df["audio_in"]
+    for af in reversed(audio_files):
+        af = Path(ORIGINALS_DIR / af)
+        assert af.exists()
+        af.touch(exist_ok=True)
+        time.sleep(0.02)
+
+
+sort_songs()

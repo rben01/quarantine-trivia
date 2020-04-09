@@ -23,7 +23,8 @@ ARTIST_COL = "artist"
 ALBUM_COL = "album"
 SECTION_COL = "section"
 AUDIO_FILE_IN_COL = "audio_in"
-DURATION_COL = "duration"
+START_TIME_COL = "start"
+END_TIME_COL = "end"
 QUESTION_COL = "question"
 ANSWER_COL = "answer"
 ROW_ID_COL = "row_id"
@@ -60,7 +61,7 @@ def get_out_filepath(in_file) -> Path:
     return (TRIMMED_DIR / new_name).with_suffix(".mp4")
 
 
-def trim_audio(in_file: str, duration: float, verbose=False):
+def trim_audio(in_file: str, start: float, end: float, verbose=False):
 
     if pd.isna(in_file):
         return
@@ -72,34 +73,33 @@ def trim_audio(in_file: str, duration: float, verbose=False):
 
     out_path = get_out_filepath(in_file)
 
-    if pd.isna(duration):
-        duration = 5
-
     cmd = [
         "ffmpeg",
         "-y",
-        "-i",
-        str(in_file),
+        "-loop",
+        "1",
         "-i",
         "LaTeX/question_mark.jpg",
-        "-ss",
-        "0",
-        "-t",
-        str(duration),
-        "-af",
-        "silenceremove=start_periods=1:start_duration=1:start_threshold=-70dB:detection=peak,aformat=dblp",  # noqa E501
-        "-filter:a",
-        "loudnorm",
+        "-i",
+        str(in_file),
         "-acodec",
         "aac",
         "-vcodec",
         "libx264",
-        "-tune",
-        "stillimage",
         "-pix_fmt",
         "yuv420p",
+        # "-filter:a",
+        # "silenceremove=start_periods=1:start_duration=1:start_threshold=-70dB:detection=peak,aformat=dblp",  # noqa E501
+        "-ss",
+        str(start),
+        "-to",
+        str(end),
         "-vf",
         "pad=ceil(iw/2)*2:ceil(ih/2)*2",
+        "-tune",
+        "stillimage",
+        "-af",
+        "loudnorm",
         str(out_path),
     ]
     if verbose:
@@ -144,7 +144,7 @@ def consolidate_metadata() -> pd.DataFrame:
 
 def read_df() -> pd.DataFrame:
     df = pd.read_csv(
-        "songs_meta_pre.csv",
+        "./songs_meta_filled_no_qs_as.csv",
         dtype={
             TITLE_COL: str,
             ARTIST_COL: str,
@@ -153,14 +153,9 @@ def read_df() -> pd.DataFrame:
             ROW_ID_COL: str,
         },
     )
-    audio_files = [
-        f.name for f in sorted(ORIGINALS_DIR.iterdir(), key=lambda f: f.stat().st_mtime)
-    ]
-    display(len(audio_files))
-    display(len(df))
-    df[AUDIO_FILE_IN_COL] = audio_files
 
-    df[DURATION_COL] = np.where(df[AUDIO_FILE_IN_COL].isna(), None, 3)
+    df[START_TIME_COL] = df[START_TIME_COL].fillna(0).astype(float)
+
     df[QUESTION_COL] = "Q" + df[ROW_ID_COL]
     df[ANSWER_COL] = "A" + df[ROW_ID_COL]
 
@@ -171,7 +166,12 @@ def read_df() -> pd.DataFrame:
 def trim_songs(df: pd.DataFrame):
     for row in df.iterrows():
         row = row[1]
-        trim_audio(row[AUDIO_FILE_IN_COL], duration=row[DURATION_COL], verbose=True)
+        trim_audio(
+            row[AUDIO_FILE_IN_COL],
+            start=row[START_TIME_COL],
+            end=row[END_TIME_COL],
+            verbose=True,
+        )
 
 
 consolidate_metadata()
@@ -209,7 +209,7 @@ def get_rounds(df) -> Rounds:
                     TriviaItem(
                         row[QUESTION_COL],
                         row[ANSWER_COL],
-                        row[AUDIO_FILE_OUT_COL],
+                        get_out_filepath(row[AUDIO_FILE_IN_COL]),
                         row[SECTION_COL],
                         q_num,
                         round_name,
@@ -315,10 +315,13 @@ a[tabindex]:focus { color:blue; outline:none; }
             add_line(trivia_item.question, empty_after=1)
 
             if not pd.isna(trivia_item.source):
-                # with open(trivia_item.source, "rb") as f:
-                #     b64_enc_vid = base64.b64encode(f.read()).decode("ascii")
-                # src = f"data:video/mp4;base64,{b64_enc_vid}"
-                src = trivia_item.source
+                _should_embed = True
+                if _should_embed:
+                    with open(trivia_item.source, "rb") as f:
+                        b64_enc_vid = base64.b64encode(f.read()).decode("ascii")
+                    src = f"data:video/mp4;base64,{b64_enc_vid}"
+                else:
+                    src = trivia_item.source
                 media_block = f"video::{src}[width=300]"
             else:
                 media_block = f"Media goes here"
