@@ -1,12 +1,12 @@
 # %%
 import base64  # noqa F401
+import multiprocessing as mp
 import re
 import subprocess
 import uuid
 from pathlib import Path
-from typing import List, Mapping, Tuple
+from typing import List, Tuple
 
-import numpy as np
 import pandas as pd
 from IPython.display import display  # noqa F401
 
@@ -52,13 +52,17 @@ class TriviaItem:
         return str(self)
 
 
-def get_out_filepath(in_file) -> Path:
+def get_audio_out_filepath(in_file) -> Path:
     if pd.isna(in_file):
         return None
 
     in_file = Path(in_file)
     new_name = re.sub(r"[^A-Za-z0-9.]+", "-", in_file.name)
     return (TRIMMED_DIR / new_name).with_suffix(".mp4")
+
+
+def trim_audio_one_arg(arg):
+    return trim_audio(*arg)
 
 
 def trim_audio(in_file: str, start: float, end: float, verbose=False):
@@ -71,7 +75,7 @@ def trim_audio(in_file: str, start: float, end: float, verbose=False):
         print(in_file)
         raise ValueError
 
-    out_path = get_out_filepath(in_file)
+    out_path = get_audio_out_filepath(in_file)
 
     cmd = [
         "ffmpeg",
@@ -79,36 +83,63 @@ def trim_audio(in_file: str, start: float, end: float, verbose=False):
         "-loop",
         "1",
         "-i",
-        "LaTeX/question_mark.jpg",
+        "question_mark.jpg",
         "-i",
         str(in_file),
+        "-ss",
+        str(start),
+        "-to",
+        str(end),
+        # "-af",
+        # "silenceremove=start_periods=1:start_duration=1:start_threshold=-70dB:detection=peak,aformat=dblp",  # noqa E501
+        "-af",
+        "loudnorm",
+        # "-vf",
+        # "pad=ceil(iw/2)*2:ceil(ih/2)*2",
         "-acodec",
         "aac",
         "-vcodec",
         "libx264",
         "-pix_fmt",
         "yuv420p",
-        # "-filter:a",
-        # "silenceremove=start_periods=1:start_duration=1:start_threshold=-70dB:detection=peak,aformat=dblp",  # noqa E501
-        "-ss",
-        str(start),
-        "-to",
-        str(end),
-        "-vf",
-        "pad=ceil(iw/2)*2:ceil(ih/2)*2",
         "-tune",
         "stillimage",
-        "-af",
-        "loudnorm",
         str(out_path),
     ]
+    # cmd = [
+    #     "ffmpeg",
+    #     "-y",
+    #     # "-loop",
+    #     # "1",
+    #     "-i",
+    #     "LaTeX/question_mark.jpg",
+    #     "-i",
+    #     str(in_file),
+    #     "-acodec",
+    #     "aac",
+    #     "-vcodec",
+    #     "libx264",
+    #     "-pix_fmt",
+    #     "yuv420p",
+    #     # "-filter:a",
+    #     # "silenceremove=start_periods=1:start_duration=1:start_threshold=-70dB:detection=peak,aformat=dblp",  # noqa E501
+    #     "-ss",
+    #     str(start),
+    #     "-to",
+    #     str(end),
+    #     "-vf",
+    #     "pad=ceil(iw/2)*2:ceil(ih/2)*2",
+    #     "-tune",
+    #     "stillimage",
+    #     "-af",
+    #     "loudnorm",
+    #     str(out_path),
+    # ]
     if verbose:
         print(" ".join(f"'{arg}'" for arg in cmd))
 
     subprocess.check_call(cmd)
-
-    if verbose:
-        print(f"Did {in_file.name}")
+    return in_file
 
 
 def consolidate_metadata() -> pd.DataFrame:
@@ -164,14 +195,22 @@ def read_df() -> pd.DataFrame:
 
 
 def trim_songs(df: pd.DataFrame):
-    for row in df.iterrows():
-        row = row[1]
-        trim_audio(
-            row[AUDIO_FILE_IN_COL],
-            start=row[START_TIME_COL],
-            end=row[END_TIME_COL],
-            verbose=True,
-        )
+    args = [
+        (row[AUDIO_FILE_IN_COL], row[START_TIME_COL], row[END_TIME_COL], True)
+        for _, row in df.iterrows()
+    ]
+    with mp.Pool(4) as pool:
+        for i, item in enumerate(pool.imap(trim_audio_one_arg, args)):
+            print(i, "Did", item)
+    # for i, row in enumerate(df.iterrows()):
+    #     row = row[1]
+    #     trim_audio(
+    #         row[AUDIO_FILE_IN_COL],
+    #         start=row[START_TIME_COL],
+    #         end=row[END_TIME_COL],
+    #         verbose=True,
+    #     )
+    #     print(i, f"Did {row[AUDIO_FILE_IN_COL]}")
 
 
 consolidate_metadata()
@@ -209,7 +248,7 @@ def get_rounds(df) -> Rounds:
                     TriviaItem(
                         row[QUESTION_COL],
                         row[ANSWER_COL],
-                        get_out_filepath(row[AUDIO_FILE_IN_COL]),
+                        get_audio_out_filepath(row[AUDIO_FILE_IN_COL]),
                         row[SECTION_COL],
                         q_num,
                         round_name,
@@ -315,14 +354,30 @@ a[tabindex]:focus { color:blue; outline:none; }
             add_line(trivia_item.question, empty_after=1)
 
             if not pd.isna(trivia_item.source):
-                _should_embed = True
+                _should_embed = False
                 if _should_embed:
                     with open(trivia_item.source, "rb") as f:
                         b64_enc_vid = base64.b64encode(f.read()).decode("ascii")
                     src = f"data:video/mp4;base64,{b64_enc_vid}"
                 else:
                     src = trivia_item.source
-                media_block = f"video::{src}[width=300]"
+
+                media_block = f"""
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="auto"
+playsinline
+>
+    <source src={src} type="video/mp4"/>
+</video>
++++++++++++
+"""
+                # media_block = f"video::{src}[width=300]"
+
             else:
                 media_block = f"Media goes here"
 
