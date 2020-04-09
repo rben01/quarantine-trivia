@@ -23,10 +23,10 @@ ARTIST_COL = "artist"
 ALBUM_COL = "album"
 SECTION_COL = "section"
 AUDIO_FILE_IN_COL = "audio_in"
-AUDIO_FILE_OUT_COL = "audio_out"
 DURATION_COL = "duration"
 QUESTION_COL = "question"
 ANSWER_COL = "answer"
+ROW_ID_COL = "row_id"
 
 N_PER_ROUND = 10
 
@@ -67,6 +67,7 @@ def trim_audio(in_file: str, duration: float, verbose=False):
 
     in_file = ORIGINALS_DIR / in_file
     if in_file.suffix not in [".webm", ".m4a", "mp3"]:
+        print(in_file)
         raise ValueError
 
     out_path = get_out_filepath(in_file)
@@ -85,6 +86,10 @@ def trim_audio(in_file: str, duration: float, verbose=False):
         "0",
         "-t",
         str(duration),
+        "-af",
+        "silenceremove=start_periods=1:start_duration=1:start_threshold=-70dB:detection=peak,aformat=dblp",  # noqa E501
+        "-filter:a",
+        "loudnorm",
         "-acodec",
         "aac",
         "-vcodec",
@@ -106,7 +111,7 @@ def trim_audio(in_file: str, duration: float, verbose=False):
         print(f"Did {in_file.name}")
 
 
-def get_data(trim=True) -> pd.DataFrame:
+def consolidate_metadata() -> pd.DataFrame:
     dfs = []
     for f in (
         f for extn in ["csv", "tsv"] for f in SONGS_METADATA_DIR.glob(f"*.{extn}")
@@ -125,51 +130,52 @@ def get_data(trim=True) -> pd.DataFrame:
             print(f)
             raise
 
-        df["random_id"] = df.apply(lambda row: uuid.uuid4().hex[:5], axis=1)
+        df[ROW_ID_COL] = df.apply(lambda row: uuid.uuid4().hex[:6], axis=1)
         df[SECTION_COL] = f.stem
-
-        if "audio" in df.columns:
-            df[AUDIO_FILE_IN_COL] = df["audio"]
-        else:
-            df[AUDIO_FILE_IN_COL] = None
-
-        df[AUDIO_FILE_OUT_COL] = np.where(
-            df[AUDIO_FILE_IN_COL].isna(),
-            None,
-            df[AUDIO_FILE_IN_COL].map(get_out_filepath),
-        )
-
-        df[DURATION_COL] = np.where(df[AUDIO_FILE_IN_COL].isna(), None, 3)
-        df[QUESTION_COL] = "Q" + df["random_id"]
-        df[ANSWER_COL] = "A" + df["random_id"]
 
         dfs.append(df)
 
     df = pd.concat(dfs, axis=0)
-    df = df[
-        [
-            TITLE_COL,
-            ARTIST_COL,
-            ALBUM_COL,
-            SECTION_COL,
-            AUDIO_FILE_IN_COL,
-            AUDIO_FILE_OUT_COL,
-            DURATION_COL,
-            QUESTION_COL,
-            ANSWER_COL,
-        ]
-    ]
+    df = df[[ROW_ID_COL, TITLE_COL, ARTIST_COL, ALBUM_COL, SECTION_COL]]
 
-    if trim:
-        for row in df.iterrows():
-            row = row[1]
-            trim_audio(row[AUDIO_FILE_IN_COL], duration=row[DURATION_COL], verbose=True)
-
+    df.to_csv("songs_meta_pre.csv", index=False)
     return df
 
 
-df = get_data(trim=False)
-display(df)
+def read_df() -> pd.DataFrame:
+    df = pd.read_csv(
+        "songs_meta_pre.csv",
+        dtype={
+            TITLE_COL: str,
+            ARTIST_COL: str,
+            ALBUM_COL: str,
+            SECTION_COL: str,
+            ROW_ID_COL: str,
+        },
+    )
+
+    if AUDIO_FILE_IN_COL not in df:
+        df[AUDIO_FILE_IN_COL] = None
+
+    df[DURATION_COL] = np.where(df[AUDIO_FILE_IN_COL].isna(), None, 3)
+    df[QUESTION_COL] = "Q" + df[ROW_ID_COL]
+    df[ANSWER_COL] = "A" + df[ROW_ID_COL]
+
+    df.to_csv("songs_meta_filled.csv", index=False)
+    return df
+
+
+def trim_songs(df: pd.DataFrame):
+    for row in df.iterrows():
+        row = row[1]
+        trim_audio(row[AUDIO_FILE_IN_COL], duration=row[DURATION_COL], verbose=True)
+
+
+consolidate_metadata()
+df = read_df()
+trim_songs(df)
+
+# %%
 
 
 def get_rounds(df) -> Rounds:
@@ -339,7 +345,7 @@ var z = document.getElementById("answer_{question_id}");
 z.style.display = "none"
 function toggle_hidden_{question_id}() {{
   var x = document.getElementById("answer_{question_id}");
-  var b = document.getElementByID("button_{question_id}")
+  var b = document.getElementById("button_{question_id}");
   if (x.style.display === "none") {{
     x.style.display = "block";
     b.innerHTML = "Hide answer";
@@ -355,22 +361,46 @@ function toggle_hidden_{question_id}() {{
             add_line(f'[role="fullheight"]')
             # Very first question
             if ri == 0 and qi == 0:
-                add_line(f"<<{next_anchor}, Next question>>")
+                add_line(
+                    f"<<{next_anchor}, Next question -- "
+                    + f"Q{next_trivia_item.number}>>"
+                )
             # Very last question
             elif ri == len(rounds) - 1 and qi == len(trivia_items) - 1:
-                add_line(f"<<{prev_anchor}, Previous question>>")
+                add_line(
+                    f"<<{prev_anchor}, Previous question -- "
+                    + f"Q{prev_trivia_item.number}>>"
+                )
             # First question in round >= 1
             elif qi == 0:
-                add_line(f"<<{prev_anchor}, Previous question>> +")
-                add_line(f"<<{next_anchor}, Next question>>")
+                add_line(
+                    f"<<{prev_anchor}, Previous question -- "
+                    + f"{prev_trivia_item.round_name}: Q{prev_trivia_item.number}>> +"
+                )
+                add_line(
+                    f"<<{next_anchor}, Next question -- "
+                    + f"Q{next_trivia_item.number}>>"
+                )
             # Last question in round < last_round
             elif qi == len(trivia_items) - 1:
-                add_line(f"<<{prev_anchor}, Previous question>> +")
-                add_line(f"<<{next_anchor}, Next question>>")
+                add_line(
+                    f"<<{prev_anchor}, Previous question -- "
+                    + f"Q{prev_trivia_item.number}>> +"
+                )
+                add_line(
+                    f"<<{next_anchor}, Next question -- "
+                    + f"{next_trivia_item.round_name}: Q{next_trivia_item.number}>>"
+                )
             # Middle questions
             else:
-                add_line(f"<<{prev_anchor}, Previous question>> +")
-                add_line(f"<<{next_anchor}, Next question>>")
+                add_line(
+                    f"<<{prev_anchor}, Previous question -- "
+                    + f"Q{prev_trivia_item.number}>> +"
+                )
+                add_line(
+                    f"<<{next_anchor}, Next question -- "
+                    + f"Q{next_trivia_item.number}>>"
+                )
 
             add_line("")
 
@@ -379,7 +409,7 @@ function toggle_hidden_{question_id}() {{
 
 def write_asciidoc(df=None):
     if df is None:
-        df = get_data(trim=True)
+        df = consolidate_metadata(trim=True)
 
     rounds = get_rounds(df)
     with open("trivia.asciidoc", "w") as f:
