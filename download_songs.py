@@ -12,11 +12,12 @@ def fetch_all():
     for i, row in enumerate(df.iterrows()):
 
         row = row[1]
-        search_string = " ".join([row["title"], row["artist"], "song"])
+        search_string = " ".join([row["title"], row["artist"]])
+        if len(search_string) < 20:
+            search_string += " " + row["album"]
+
         search_string = quote_plus(search_string)
-        url = (
-            f"https://www.youtube.com/results?search_query={search_string}&sp=CAMSAhAB"
-        )
+        url = f"https://www.youtube.com/results?search_query={search_string}"
         subprocess.check_call(
             [
                 "osascript",

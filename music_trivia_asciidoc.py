@@ -11,7 +11,7 @@ import pandas as pd
 from IPython.display import display  # noqa F401
 
 SONGS_METADATA_DIR = Path("Song meta")
-AUDIO_DIR = Path("LaTeX/Audio")
+AUDIO_DIR = Path("Audio")
 
 ORIGINALS_DIR = AUDIO_DIR / "Originals"
 TRIMMED_DIR = AUDIO_DIR / "Trimmed"
@@ -153,9 +153,12 @@ def read_df() -> pd.DataFrame:
             ROW_ID_COL: str,
         },
     )
-
-    if AUDIO_FILE_IN_COL not in df:
-        df[AUDIO_FILE_IN_COL] = None
+    audio_files = [
+        f.name for f in sorted(ORIGINALS_DIR.iterdir(), key=lambda f: f.stat().st_mtime)
+    ]
+    display(len(audio_files))
+    display(len(df))
+    df[AUDIO_FILE_IN_COL] = audio_files
 
     df[DURATION_COL] = np.where(df[AUDIO_FILE_IN_COL].isna(), None, 3)
     df[QUESTION_COL] = "Q" + df[ROW_ID_COL]
