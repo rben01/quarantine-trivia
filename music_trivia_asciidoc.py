@@ -1,5 +1,6 @@
 # %%
 import base64  # noqa F401
+import json
 import multiprocessing as mp
 import re
 import subprocess
@@ -80,6 +81,34 @@ def trim_audio(in_file: str, start: float, end: float, verbose=False):
 
     out_path = get_audio_out_filepath(in_file)
 
+    loudnorm_cmd = [
+        "ffmpeg",
+        "-i",
+        str(in_file),
+        "-af",
+        # Target loudness values (i=target loudness; lra=loudness range; tp=true peak)
+        # These (approximately) show up as "outputs" in the json
+        # "Inputs" are fed back into loudnorm in second pass to produce these outputs
+        "loudnorm=I=-6:LRA=10:tp=-1:print_format=json",
+        "-f",
+        "null",
+        "-",
+    ]
+    sed_cmd = ["sed", "-E", "-e", r"1,/^\[Parsed_loudnorm/d"]
+    loudnorm_ps = subprocess.Popen(
+        loudnorm_cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT
+    )
+    loudnorm_json_str = subprocess.check_output(
+        sed_cmd, stdin=loudnorm_ps.stdout, text=True
+    )
+    loudnorm_ps.communicate()
+    loudnorm_dict = json.loads(loudnorm_json_str)
+
+    ln_input_i = loudnorm_dict["input_i"]
+    ln_input_lra = loudnorm_dict["input_lra"]
+    ln_input_tp = loudnorm_dict["input_tp"]
+    ln_input_thresh = loudnorm_dict["input_thresh"]
+
     cmd = [
         "ffmpeg",
         "-y",
@@ -96,7 +125,7 @@ def trim_audio(in_file: str, start: float, end: float, verbose=False):
         # "-af",
         # "silenceremove=start_periods=1:start_duration=1:start_threshold=-70dB:detection=peak,aformat=dblp",  # noqa E501
         "-af",
-        "loudnorm",
+        f"loudnorm=linear=true:measured_I={ln_input_i}:measured_LRA={ln_input_lra}:measured_tp={ln_input_tp}:measured_thresh={ln_input_thresh}",  # noqa E501
         # "-vf",
         # "pad=ceil(iw/2)*2:ceil(ih/2)*2",
         "-acodec",
@@ -107,37 +136,11 @@ def trim_audio(in_file: str, start: float, end: float, verbose=False):
         "yuv420p",
         "-tune",
         "stillimage",
+        "-movflags",
+        "+faststart",
         str(out_path),
     ]
-    # cmd = [
-    #     "ffmpeg",
-    #     "-y",
-    #     # "-loop",
-    #     # "1",
-    #     "-i",
-    #     "LaTeX/question_mark.jpg",
-    #     "-i",
-    #     str(in_file),
-    #     "-acodec",
-    #     "aac",
-    #     "-vcodec",
-    #     "libx264",
-    #     "-pix_fmt",
-    #     "yuv420p",
-    #     # "-filter:a",
-    #     # "silenceremove=start_periods=1:start_duration=1:start_threshold=-70dB:detection=peak,aformat=dblp",  # noqa E501
-    #     "-ss",
-    #     str(start),
-    #     "-to",
-    #     str(end),
-    #     "-vf",
-    #     "pad=ceil(iw/2)*2:ceil(ih/2)*2",
-    #     "-tune",
-    #     "stillimage",
-    #     "-af",
-    #     "loudnorm",
-    #     str(out_path),
-    # ]
+
     if verbose:
         print(" ".join(f"'{arg}'" for arg in cmd))
 
@@ -219,12 +222,13 @@ def trim_songs(df: pd.DataFrame):
 
 # consolidate_metadata()
 df = read_df()
-# trim_songs(df)
+trim_songs(df)
 
 # %%
 
 
 def get_rounds(df) -> Rounds:
+    df = df.sample(frac=1, replace=False, random_state=13892)
     sections = df[SECTION_COL].unique()
     rounds = {}
 
@@ -256,7 +260,7 @@ def get_rounds(df) -> Rounds:
                         row[SECTION_COL],
                         q_num,
                         round_name,
-                        *row[[ARTIST_COL, ALBUM_COL, TITLE_COL]],
+                        *row[[TITLE_COL, ARTIST_COL, ALBUM_COL]],
                     )
                 )
 
