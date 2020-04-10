@@ -258,8 +258,6 @@ def trim_songs(df: pd.DataFrame):
 df = read_df()
 trim_songs(df)
 
-# %%
-
 
 def get_trivia_items(df: pd.DataFrame) -> List[TriviaItem]:
     df = df.sample(frac=1, replace=False, random_state=13892)
@@ -283,12 +281,18 @@ def get_trivia_items(df: pd.DataFrame) -> List[TriviaItem]:
         for i in range(n_subsections):
             start_idx = i * N_PER_ROUND
             end_idx = start_idx + N_PER_ROUND
+
+            this_section_df = section_df.iloc[start_idx:end_idx, :]
+
+            first_q = start_idx + 1
+            last_q = first_q + len(this_section_df) - 1
+
             if n_qs > N_PER_ROUND:
-                round_name = f"{section.title()} (Q{start_idx+1}--{end_idx})"
+                round_name = f"{section.title()} (Q{first_q}--{last_q})"
             else:
                 round_name = f"{section.title()}"
 
-            for _, row in section_df.iloc[start_idx:end_idx, :].iterrows():
+            for _, row in this_section_df.iterrows():
                 trivia_items.append(
                     TriviaItem(
                         q=row[QUESTION_COL],
@@ -308,6 +312,7 @@ def get_trivia_items(df: pd.DataFrame) -> List[TriviaItem]:
 
 
 get_trivia_items(df)
+# %%
 
 
 def make_anchor(trivia_item: TriviaItem) -> str:

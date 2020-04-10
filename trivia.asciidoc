@@ -4608,15 +4608,15 @@ b.innerHTML = "Show answer";
 [role="fullheight"]
 <<s-Movies-Q1-10-q-69, Previous question: Q69>>  +
  +
-<<s-Movies-Q11-20-q-71, Next round: Movies (Q11--20)>> 
+<<s-Movies-Q11-11-q-71, Next round: Movies (Q11--11)>> 
 
 [[s7]]
-== Movies (Q11--20)
+== Movies (Q11--11)
 
-[[s-Movies-Q11-20-q-71]]
+[[s-Movies-Q11-11-q-71]]
 === Q71
 
-[big]#Movies (Q11--20): Question 71#
+[big]#Movies (Q11--11): Question 71#
 
 ==== Question
 
@@ -4744,7 +4744,7 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movies-Q11-20-q-71, Previous round: Movies (Q11--20)>>  +
+<<s-Movies-Q11-11-q-71, Previous round: Movies (Q11--11)>>  +
  +
 <<s-Broadway-q-73, Next question: Q73>> 
 
