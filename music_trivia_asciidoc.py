@@ -110,6 +110,7 @@ def read_df() -> pd.DataFrame:
         },
     )
 
+    df[SECTION_COL] = df[SECTION_COL].map({"Movie": "Movies"}).fillna(df[SECTION_COL])
     df = df[(df[QUESTION_COL].notna()) & (df[QUESTION_COL] != "")]
 
     df.to_csv("songs_meta_filled.csv", index=False)
@@ -268,7 +269,7 @@ def get_trivia_items(df: pd.DataFrame) -> List[TriviaItem]:
     round_order = {
         section: index
         for index, section in enumerate(
-            ["General", "Movie", "Broadway", "One Hit Wonders", "New York", "Bonus"]
+            ["General", "Movies", "Broadway", "One Hit Wonders", "New York", "Bonus"]
         )
     }
 
@@ -277,7 +278,7 @@ def get_trivia_items(df: pd.DataFrame) -> List[TriviaItem]:
 
         n_qs = len(section_df)
 
-        n_subsections = n_qs // N_PER_ROUND
+        n_subsections = ((n_qs - 1) // N_PER_ROUND) + 1
 
         for i in range(n_subsections):
             start_idx = i * N_PER_ROUND
@@ -307,7 +308,6 @@ def get_trivia_items(df: pd.DataFrame) -> List[TriviaItem]:
 
 
 get_trivia_items(df)
-# %%
 
 
 def make_anchor(trivia_item: TriviaItem) -> str:
@@ -536,7 +536,11 @@ def write_asciidoc(df=None):
     with open("trivia.asciidoc", "w") as f:
         f.write(generate_asciidoc(trivia_items))
 
-    subprocess.check_call(["asciidoc", "-b", "html5", "trivia.asciidoc"])
+    return subprocess.check_output(
+        ["asciidoc", "-b", "html5", "trivia.asciidoc"],
+        stderr=subprocess.STDOUT,
+        text=True,
+    )
 
 
 write_asciidoc(df)

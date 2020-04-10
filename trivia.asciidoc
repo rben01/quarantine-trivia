@@ -3953,15 +3953,15 @@ b.innerHTML = "Show answer";
 [role="fullheight"]
 <<s-General-Q51-60-q-59, Previous question: Q59>>  +
  +
-<<s-Movie-q-61, Next round: Movie>> 
+<<s-Movies-Q1-10-q-61, Next round: Movies (Q1--10)>> 
 
 [[s6]]
-== Movie
+== Movies (Q1--10)
 
-[[s-Movie-q-61]]
+[[s-Movies-Q1-10-q-61]]
 === Q61
 
-[big]#Movie: Question 61#
+[big]#Movies (Q1--10): Question 61#
 
 ==== Question
 
@@ -4021,12 +4021,77 @@ b.innerHTML = "Show answer";
 [role="fullheight"]
 <<s-General-Q51-60-q-60, Previous round: General (Q51--60)>>  +
  +
-<<s-Movie-q-62, Next question: Q62>> 
+<<s-Movies-Q1-10-q-62, Next question: Q62>> 
 
-[[s-Movie-q-62]]
+[[s-Movies-Q1-10-q-62]]
 === Q62
 
-[big]#Movie: Question 62#
+[big]#Movies (Q1--10): Question 62#
+
+==== Question
+
+Name the movie.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="auto"
+playsinline
+>
+<source src=Audio/Trimmed/Harry-Potter-Theme-Song-Htaj3o3JD8I.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q61" onclick="toggle_hidden_q61()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q61]]
+Harry Potter +
+Hedwig's Theme / John Williams / Harry Potter and the Sorcerer's Stone
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q61");
+z.style.display = "none"
+function toggle_hidden_q61() {
+var x = document.getElementById("answer_q61");
+var b = document.getElementById("button_q61");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Movies-Q1-10-q-61, Previous question: Q61>>  +
+ +
+<<s-Movies-Q1-10-q-63, Next question: Q63>> 
+
+[[s-Movies-Q1-10-q-63]]
+=== Q63
+
+[big]#Movies (Q1--10): Question 63#
 
 ==== Question
 
@@ -4054,12 +4119,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q61" onclick="toggle_hidden_q61()">
+<button id="button_q62" onclick="toggle_hidden_q62()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q61]]
+[[answer_q62]]
 Nino Rota +
 Amarcord / Nino Rota / Amarcord
 
@@ -4067,11 +4132,11 @@ Amarcord / Nino Rota / Amarcord
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q61");
+var z = document.getElementById("answer_q62");
 z.style.display = "none"
-function toggle_hidden_q61() {
-var x = document.getElementById("answer_q61");
-var b = document.getElementById("button_q61");
+function toggle_hidden_q62() {
+var x = document.getElementById("answer_q62");
+var b = document.getElementById("button_q62");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -4084,14 +4149,14 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-61, Previous question: Q61>>  +
+<<s-Movies-Q1-10-q-62, Previous question: Q62>>  +
  +
-<<s-Movie-q-63, Next question: Q63>> 
+<<s-Movies-Q1-10-q-64, Next question: Q64>> 
 
-[[s-Movie-q-63]]
-=== Q63
+[[s-Movies-Q1-10-q-64]]
+=== Q64
 
-[big]#Movie: Question 63#
+[big]#Movies (Q1--10): Question 64#
 
 ==== Question
 
@@ -4119,12 +4184,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q62" onclick="toggle_hidden_q62()">
+<button id="button_q63" onclick="toggle_hidden_q63()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q62]]
+[[answer_q63]]
 The Good, the Bad and the Ugly +
 The Good, the Bad and the Ugly (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
 
@@ -4132,11 +4197,11 @@ The Good, the Bad and the Ugly (Movie Main Theme) / Film & TV Masters / Ultimate
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q62");
+var z = document.getElementById("answer_q63");
 z.style.display = "none"
-function toggle_hidden_q62() {
-var x = document.getElementById("answer_q62");
-var b = document.getElementById("button_q62");
+function toggle_hidden_q63() {
+var x = document.getElementById("answer_q63");
+var b = document.getElementById("button_q63");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -4149,14 +4214,14 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-62, Previous question: Q62>>  +
+<<s-Movies-Q1-10-q-63, Previous question: Q63>>  +
  +
-<<s-Movie-q-64, Next question: Q64>> 
+<<s-Movies-Q1-10-q-65, Next question: Q65>> 
 
-[[s-Movie-q-64]]
-=== Q64
+[[s-Movies-Q1-10-q-65]]
+=== Q65
 
-[big]#Movie: Question 64#
+[big]#Movies (Q1--10): Question 65#
 
 ==== Question
 
@@ -4184,12 +4249,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q63" onclick="toggle_hidden_q63()">
+<button id="button_q64" onclick="toggle_hidden_q64()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q63]]
+[[answer_q64]]
 Superman +
 Superman (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
 
@@ -4197,11 +4262,11 @@ Superman (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q63");
+var z = document.getElementById("answer_q64");
 z.style.display = "none"
-function toggle_hidden_q63() {
-var x = document.getElementById("answer_q63");
-var b = document.getElementById("button_q63");
+function toggle_hidden_q64() {
+var x = document.getElementById("answer_q64");
+var b = document.getElementById("button_q64");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -4214,14 +4279,14 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-63, Previous question: Q63>>  +
+<<s-Movies-Q1-10-q-64, Previous question: Q64>>  +
  +
-<<s-Movie-q-65, Next question: Q65>> 
+<<s-Movies-Q1-10-q-66, Next question: Q66>> 
 
-[[s-Movie-q-65]]
-=== Q65
+[[s-Movies-Q1-10-q-66]]
+=== Q66
 
-[big]#Movie: Question 65#
+[big]#Movies (Q1--10): Question 66#
 
 ==== Question
 
@@ -4249,12 +4314,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q64" onclick="toggle_hidden_q64()">
+<button id="button_q65" onclick="toggle_hidden_q65()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q64]]
+[[answer_q65]]
 A man and a Woman +
 A Man and a Woman (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
 
@@ -4262,11 +4327,11 @@ A Man and a Woman (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme 
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q64");
+var z = document.getElementById("answer_q65");
 z.style.display = "none"
-function toggle_hidden_q64() {
-var x = document.getElementById("answer_q64");
-var b = document.getElementById("button_q64");
+function toggle_hidden_q65() {
+var x = document.getElementById("answer_q65");
+var b = document.getElementById("button_q65");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -4279,14 +4344,14 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-64, Previous question: Q64>>  +
+<<s-Movies-Q1-10-q-65, Previous question: Q65>>  +
  +
-<<s-Movie-q-66, Next question: Q66>> 
+<<s-Movies-Q1-10-q-67, Next question: Q67>> 
 
-[[s-Movie-q-66]]
-=== Q66
+[[s-Movies-Q1-10-q-67]]
+=== Q67
 
-[big]#Movie: Question 66#
+[big]#Movies (Q1--10): Question 67#
 
 ==== Question
 
@@ -4314,12 +4379,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q65" onclick="toggle_hidden_q65()">
+<button id="button_q66" onclick="toggle_hidden_q66()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q65]]
+[[answer_q66]]
 La Dolce Vita +
 La dolce vita / Nino Rota, Studio Orchestra, StudioConductor / Original Music for the Movies of Federico Fellini
 
@@ -4327,11 +4392,11 @@ La dolce vita / Nino Rota, Studio Orchestra, StudioConductor / Original Music fo
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q65");
+var z = document.getElementById("answer_q66");
 z.style.display = "none"
-function toggle_hidden_q65() {
-var x = document.getElementById("answer_q65");
-var b = document.getElementById("button_q65");
+function toggle_hidden_q66() {
+var x = document.getElementById("answer_q66");
+var b = document.getElementById("button_q66");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -4344,14 +4409,14 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-65, Previous question: Q65>>  +
+<<s-Movies-Q1-10-q-66, Previous question: Q66>>  +
  +
-<<s-Movie-q-67, Next question: Q67>> 
+<<s-Movies-Q1-10-q-68, Next question: Q68>> 
 
-[[s-Movie-q-67]]
-=== Q67
+[[s-Movies-Q1-10-q-68]]
+=== Q68
 
-[big]#Movie: Question 67#
+[big]#Movies (Q1--10): Question 68#
 
 ==== Question
 
@@ -4379,12 +4444,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q66" onclick="toggle_hidden_q66()">
+<button id="button_q67" onclick="toggle_hidden_q67()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q66]]
+[[answer_q67]]
 Lawrence of Arabia +
 End Title (from "Lawrence Of Arabia") / London Philharmonic Orchestra / Lawrence Of Arabia (Original Soundtrack Recording)
 
@@ -4392,11 +4457,11 @@ End Title (from "Lawrence Of Arabia") / London Philharmonic Orchestra / Lawrence
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q66");
+var z = document.getElementById("answer_q67");
 z.style.display = "none"
-function toggle_hidden_q66() {
-var x = document.getElementById("answer_q66");
-var b = document.getElementById("button_q66");
+function toggle_hidden_q67() {
+var x = document.getElementById("answer_q67");
+var b = document.getElementById("button_q67");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -4409,14 +4474,14 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-66, Previous question: Q66>>  +
+<<s-Movies-Q1-10-q-67, Previous question: Q67>>  +
  +
-<<s-Movie-q-68, Next question: Q68>> 
+<<s-Movies-Q1-10-q-69, Next question: Q69>> 
 
-[[s-Movie-q-68]]
-=== Q68
+[[s-Movies-Q1-10-q-69]]
+=== Q69
 
-[big]#Movie: Question 68#
+[big]#Movies (Q1--10): Question 69#
 
 ==== Question
 
@@ -4444,12 +4509,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q67" onclick="toggle_hidden_q67()">
+<button id="button_q68" onclick="toggle_hidden_q68()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q67]]
+[[answer_q68]]
 Patton +
 Patton / DLG Orchestra / Greatest Movie Themes
 
@@ -4457,11 +4522,11 @@ Patton / DLG Orchestra / Greatest Movie Themes
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q67");
+var z = document.getElementById("answer_q68");
 z.style.display = "none"
-function toggle_hidden_q67() {
-var x = document.getElementById("answer_q67");
-var b = document.getElementById("button_q67");
+function toggle_hidden_q68() {
+var x = document.getElementById("answer_q68");
+var b = document.getElementById("button_q68");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -4474,14 +4539,14 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-67, Previous question: Q67>>  +
+<<s-Movies-Q1-10-q-68, Previous question: Q68>>  +
  +
-<<s-Movie-q-69, Next question: Q69>> 
+<<s-Movies-Q1-10-q-70, Next question: Q70>> 
 
-[[s-Movie-q-69]]
-=== Q69
+[[s-Movies-Q1-10-q-70]]
+=== Q70
 
-[big]#Movie: Question 69#
+[big]#Movies (Q1--10): Question 70#
 
 ==== Question
 
@@ -4509,12 +4574,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q68" onclick="toggle_hidden_q68()">
+<button id="button_q69" onclick="toggle_hidden_q69()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q68]]
+[[answer_q69]]
 The Godfather. +
 The Godfather / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 2
 
@@ -4522,11 +4587,11 @@ The Godfather / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks 
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q68");
+var z = document.getElementById("answer_q69");
 z.style.display = "none"
-function toggle_hidden_q68() {
-var x = document.getElementById("answer_q68");
-var b = document.getElementById("button_q68");
+function toggle_hidden_q69() {
+var x = document.getElementById("answer_q69");
+var b = document.getElementById("button_q69");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -4538,15 +4603,20 @@ b.innerHTML = "Show answer";
 </script>
 +++++++++++++++
 
+[big]*End of round*
+
 [role="fullheight"]
-<<s-Movie-q-68, Previous question: Q68>>  +
+<<s-Movies-Q1-10-q-69, Previous question: Q69>>  +
  +
-<<s-Movie-q-70, Next question: Q70>> 
+<<s-Movies-Q11-20-q-71, Next round: Movies (Q11--20)>> 
 
-[[s-Movie-q-70]]
-=== Q70
+[[s7]]
+== Movies (Q11--20)
 
-[big]#Movie: Question 70#
+[[s-Movies-Q11-20-q-71]]
+=== Q71
+
+[big]#Movies (Q11--20): Question 71#
 
 ==== Question
 
@@ -4574,12 +4644,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q69" onclick="toggle_hidden_q69()">
+<button id="button_q70" onclick="toggle_hidden_q70()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q69]]
+[[answer_q70]]
 Henry Mancini +
 The Pink Panther / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 1
 
@@ -4587,11 +4657,11 @@ The Pink Panther / A Century Of Movie Soundtracks / A Century Of Movie Soundtrac
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q69");
+var z = document.getElementById("answer_q70");
 z.style.display = "none"
-function toggle_hidden_q69() {
-var x = document.getElementById("answer_q69");
-var b = document.getElementById("button_q69");
+function toggle_hidden_q70() {
+var x = document.getElementById("answer_q70");
+var b = document.getElementById("button_q70");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -4606,17 +4676,17 @@ b.innerHTML = "Show answer";
 [big]*End of round*
 
 [role="fullheight"]
-<<s-Movie-q-69, Previous question: Q69>>  +
+<<s-Movies-Q1-10-q-70, Previous round: Movies (Q1--10)>>  +
  +
-<<s-Broadway-q-71, Next round: Broadway>> 
+<<s-Broadway-q-72, Next round: Broadway>> 
 
-[[s7]]
+[[s8]]
 == Broadway
 
-[[s-Broadway-q-71]]
-=== Q71
+[[s-Broadway-q-72]]
+=== Q72
 
-[big]#Broadway: Question 71#
+[big]#Broadway: Question 72#
 
 ==== Question
 
@@ -4644,12 +4714,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q70" onclick="toggle_hidden_q70()">
+<button id="button_q71" onclick="toggle_hidden_q71()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q70]]
+[[answer_q71]]
 Gypsy +
 Overture / 2003 Broadway Cast of "Gypsy" / Gypsy (2003 Broadway Cast)
 
@@ -4657,11 +4727,11 @@ Overture / 2003 Broadway Cast of "Gypsy" / Gypsy (2003 Broadway Cast)
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q70");
+var z = document.getElementById("answer_q71");
 z.style.display = "none"
-function toggle_hidden_q70() {
-var x = document.getElementById("answer_q70");
-var b = document.getElementById("button_q70");
+function toggle_hidden_q71() {
+var x = document.getElementById("answer_q71");
+var b = document.getElementById("button_q71");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -4674,14 +4744,14 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Movie-q-70, Previous round: Movie>>  +
+<<s-Movies-Q11-20-q-71, Previous round: Movies (Q11--20)>>  +
  +
-<<s-Broadway-q-72, Next question: Q72>> 
+<<s-Broadway-q-73, Next question: Q73>> 
 
-[[s-Broadway-q-72]]
-=== Q72
+[[s-Broadway-q-73]]
+=== Q73
 
-[big]#Broadway: Question 72#
+[big]#Broadway: Question 73#
 
 ==== Question
 
@@ -4709,79 +4779,14 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q71" onclick="toggle_hidden_q71()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q71]]
-Hamilton +
-Alexander Hamilton / Leslie Odom, Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Phillipa Soo, Christopher Jackson & Original Broadway Cast of Hamilton / Hamilton (Original Broadway Cast Recording)
-
-
-[pass]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q71");
-z.style.display = "none"
-function toggle_hidden_q71() {
-var x = document.getElementById("answer_q71");
-var b = document.getElementById("button_q71");
-if (x.style.display === "none") {
-x.style.display = "block";
-b.innerHTML = "Hide answer";
-} else {
-x.style.display = "none";
-b.innerHTML = "Show answer";
-}
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-Broadway-q-71, Previous question: Q71>>  +
- +
-<<s-Broadway-q-73, Next question: Q73>> 
-
-[[s-Broadway-q-73]]
-=== Q73
-
-[big]#Broadway: Question 73#
-
-==== Question
-
-Name the song.
-
-
-
-[pass]
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-<source src=Audio/Trimmed/West-Side-Story-Something-s-Coming-1961-HD-FOQPMjKLQQU.mp4 type="video/mp4" />
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[pass]
-+++++++++++++++++
 <button id="button_q72" onclick="toggle_hidden_q72()">
 Show answer
 </button>
 +++++++++++++++++
 
 [[answer_q72]]
-Something's Coming. +
-Something's Coming / Matt Cavenaugh / West Side Story (New Broadway Cast Recording - 2009)
+Hamilton +
+Alexander Hamilton / Leslie Odom, Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Phillipa Soo, Christopher Jackson & Original Broadway Cast of Hamilton / Hamilton (Original Broadway Cast Recording)
 
 
 [pass]
@@ -4815,7 +4820,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the musical.
+Name the song.
 
 
 
@@ -4829,7 +4834,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/One-Reprise-Finale-OiBIXa-7Vo.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/West-Side-Story-Something-s-Coming-1961-HD-FOQPMjKLQQU.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4845,8 +4850,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q73]]
-A Chorus Line +
-One (Reprise) / Finale / A Chorus Line Ensemble / A Chorus Line - 40th Anniversary Celebration (Original Broadway Cast Recording)
+Something's Coming. +
+Something's Coming / Matt Cavenaugh / West Side Story (New Broadway Cast Recording - 2009)
 
 
 [pass]
@@ -4880,7 +4885,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the composer.
+Name the musical.
 
 
 
@@ -4894,7 +4899,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Being-Alive-Company-2006-Broadway-Revival-Raul-Esparza-YLTulpBF3H4.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/One-Reprise-Finale-OiBIXa-7Vo.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4910,8 +4915,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q74]]
-Stephen Sondheim +
-Being Alive / 2006 Broadway Revival Cast / Company (2006 Broadway Revival Cast)
+A Chorus Line +
+One (Reprise) / Finale / A Chorus Line Ensemble / A Chorus Line - 40th Anniversary Celebration (Original Broadway Cast Recording)
 
 
 [pass]
@@ -4945,7 +4950,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the musical.
+Name the composer.
 
 
 
@@ -4959,7 +4964,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Corner-of-the-Sky-Mdkyc686VIg.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Being-Alive-Company-2006-Broadway-Revival-Raul-Esparza-YLTulpBF3H4.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4975,8 +4980,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q75]]
-Pippin +
-Corner of the Sky / Matthew James Thomas / Pippin (New Broadway Cast Recording)
+Stephen Sondheim +
+Being Alive / 2006 Broadway Revival Cast / Company (2006 Broadway Revival Cast)
 
 
 [pass]
@@ -5024,7 +5029,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/42nd-Street-bPuQkW1-s9k.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Corner-of-the-Sky-Mdkyc686VIg.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5040,8 +5045,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q76]]
-42nd Street +
-42nd Street / Wanda Richert, Lee Roy Reams & 42nd Street Ensemble / 42nd Street - Original Broadway Cast Recording
+Pippin +
+Corner of the Sky / Matthew James Thomas / Pippin (New Broadway Cast Recording)
 
 
 [pass]
@@ -5075,7 +5080,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the musical.
 
 
 
@@ -5089,7 +5094,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Barbra-Streisand-Don-t-Rain-On-My-Parade-oZTSuMErgsw.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/42nd-Street-bPuQkW1-s9k.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5105,8 +5110,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q77]]
-Don't Rain On My Parade +
-Don't Rain On My Parade / Barbra Streisand / The Essential Barbra Streisand
+42nd Street +
+42nd Street / Wanda Richert, Lee Roy Reams & 42nd Street Ensemble / 42nd Street - Original Broadway Cast Recording
 
 
 [pass]
@@ -5140,7 +5145,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the composer.
+Name the song. 
 
 
 
@@ -5154,7 +5159,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Annie-Get-Your-Gun-1999-Broadway-Revival-Cast-9.-They-Say-It-s-Wonderful-3nuUHCKiBuo.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Barbra-Streisand-Don-t-Rain-On-My-Parade-oZTSuMErgsw.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5170,8 +5175,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q78]]
-Irving Berlin +
-They Say It's Wonderful / Annie Get Your Gun - The 1999 Broadway Cast / Annie Get Your Gun - The New Broadway Cast Recording (Staring Bernadette Peters)
+Don't Rain On My Parade +
+Don't Rain On My Parade / Barbra Streisand / The Essential Barbra Streisand
 
 
 [pass]
@@ -5205,6 +5210,71 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
+Name the composer.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="auto"
+playsinline
+>
+<source src=Audio/Trimmed/Annie-Get-Your-Gun-1999-Broadway-Revival-Cast-9.-They-Say-It-s-Wonderful-3nuUHCKiBuo.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q79" onclick="toggle_hidden_q79()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q79]]
+Irving Berlin +
+They Say It's Wonderful / Annie Get Your Gun - The 1999 Broadway Cast / Annie Get Your Gun - The New Broadway Cast Recording (Staring Bernadette Peters)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q79");
+z.style.display = "none"
+function toggle_hidden_q79() {
+var x = document.getElementById("answer_q79");
+var b = document.getElementById("button_q79");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-79, Previous question: Q79>>  +
+ +
+<<s-Broadway-q-81, Next question: Q81>> 
+
+[[s-Broadway-q-81]]
+=== Q81
+
+[big]#Broadway: Question 81#
+
+==== Question
+
 Name the musical.
 
 
@@ -5229,12 +5299,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q79" onclick="toggle_hidden_q79()">
+<button id="button_q80" onclick="toggle_hidden_q80()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q79]]
+[[answer_q80]]
 Damn Yankees +
 Whatever Lola Wants / Gwen Verdon / Damn Yankees (Original Soundtrack) [Remastered]
 
@@ -5242,11 +5312,11 @@ Whatever Lola Wants / Gwen Verdon / Damn Yankees (Original Soundtrack) [Remaster
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q79");
+var z = document.getElementById("answer_q80");
 z.style.display = "none"
-function toggle_hidden_q79() {
-var x = document.getElementById("answer_q79");
-var b = document.getElementById("button_q79");
+function toggle_hidden_q80() {
+var x = document.getElementById("answer_q80");
+var b = document.getElementById("button_q80");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -5261,17 +5331,17 @@ b.innerHTML = "Show answer";
 [big]*End of round*
 
 [role="fullheight"]
-<<s-Broadway-q-79, Previous question: Q79>>  +
+<<s-Broadway-q-80, Previous question: Q80>>  +
  +
-<<s-One-Hit-Wonders-q-81, Next round: One Hit Wonders>> 
+<<s-One-Hit-Wonders-q-82, Next round: One Hit Wonders>> 
 
-[[s8]]
+[[s9]]
 == One Hit Wonders
 
-[[s-One-Hit-Wonders-q-81]]
-=== Q81
+[[s-One-Hit-Wonders-q-82]]
+=== Q82
 
-[big]#One Hit Wonders: Question 81#
+[big]#One Hit Wonders: Question 82#
 
 ==== Question
 
@@ -5299,12 +5369,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q80" onclick="toggle_hidden_q80()">
+<button id="button_q81" onclick="toggle_hidden_q81()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q80]]
+[[answer_q81]]
 Bobby McFerrin +
 Don't Worry Be Happy / Bobby McFerrin / 20 #1's: One Hit Wonders
 
@@ -5312,11 +5382,11 @@ Don't Worry Be Happy / Bobby McFerrin / 20 #1's: One Hit Wonders
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q80");
+var z = document.getElementById("answer_q81");
 z.style.display = "none"
-function toggle_hidden_q80() {
-var x = document.getElementById("answer_q80");
-var b = document.getElementById("button_q80");
+function toggle_hidden_q81() {
+var x = document.getElementById("answer_q81");
+var b = document.getElementById("button_q81");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -5329,14 +5399,14 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Broadway-q-80, Previous round: Broadway>>  +
+<<s-Broadway-q-81, Previous round: Broadway>>  +
  +
-<<s-One-Hit-Wonders-q-82, Next question: Q82>> 
+<<s-One-Hit-Wonders-q-83, Next question: Q83>> 
 
-[[s-One-Hit-Wonders-q-82]]
-=== Q82
+[[s-One-Hit-Wonders-q-83]]
+=== Q83
 
-[big]#One Hit Wonders: Question 82#
+[big]#One Hit Wonders: Question 83#
 
 ==== Question
 
@@ -5364,79 +5434,14 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q81" onclick="toggle_hidden_q81()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q81]]
-Quarterflash +
-Harden My Heart / Quarterflash / 20 #1's: One Hit Wonders
-
-
-[pass]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q81");
-z.style.display = "none"
-function toggle_hidden_q81() {
-var x = document.getElementById("answer_q81");
-var b = document.getElementById("button_q81");
-if (x.style.display === "none") {
-x.style.display = "block";
-b.innerHTML = "Hide answer";
-} else {
-x.style.display = "none";
-b.innerHTML = "Show answer";
-}
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-One-Hit-Wonders-q-81, Previous question: Q81>>  +
- +
-<<s-One-Hit-Wonders-q-83, Next question: Q83>> 
-
-[[s-One-Hit-Wonders-q-83]]
-=== Q83
-
-[big]#One Hit Wonders: Question 83#
-
-==== Question
-
-Name the band.
-
-
-
-[pass]
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-<source src=Audio/Trimmed/The-Knack-My-Sharona-1979-BR2JtsVumFA.mp4 type="video/mp4" />
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[pass]
-+++++++++++++++++
 <button id="button_q82" onclick="toggle_hidden_q82()">
 Show answer
 </button>
 +++++++++++++++++
 
 [[answer_q82]]
-The Knack +
-My Sharona / The Knack / 20 #1's: One Hit Wonders
+Quarterflash +
+Harden My Heart / Quarterflash / 20 #1's: One Hit Wonders
 
 
 [pass]
@@ -5470,7 +5475,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band with the very 70s-sounding name.
+Name the band.
 
 
 
@@ -5484,7 +5489,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/disco-duck-97RjuC9YeXg.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Knack-My-Sharona-1979-BR2JtsVumFA.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5500,8 +5505,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q83]]
-The Rubix Cubes +
-Disco Duck / The Rubix Cube's / 1970's One Hit Wonders
+The Knack +
+My Sharona / The Knack / 20 #1's: One Hit Wonders
 
 
 [pass]
@@ -5535,7 +5540,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the band with the very 70s-sounding name.
 
 
 
@@ -5549,7 +5554,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Bette-Davis-Eyes-Re-Recorded-Remastered-tDJdEhbSP-g.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/disco-duck-97RjuC9YeXg.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5565,8 +5570,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q84]]
-Kim Carnes +
-Bette Davis Eyes (Re-Recorded / Remastered) / Kim Carnes / 80s 1 Hit Wonders (Re-Recorded / Remastered Versions)
+The Rubix Cubes +
+Disco Duck / The Rubix Cube's / 1970's One Hit Wonders
 
 
 [pass]
@@ -5614,7 +5619,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Rockwell-Somebody-s-Watching-Me-Official-Video-7YvAYIJSSZY.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Bette-Davis-Eyes-Re-Recorded-Remastered-tDJdEhbSP-g.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5630,8 +5635,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q85]]
-Rockwell +
-Somebody's Watching Me - Single Version / Rockwell / 20 #1's: One Hit Wonders
+Kim Carnes +
+Bette Davis Eyes (Re-Recorded / Remastered) / Kim Carnes / 80s 1 Hit Wonders (Re-Recorded / Remastered Versions)
 
 
 [pass]
@@ -5679,7 +5684,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Bruce-Channel-Hey-Baby-ik9dxkKriV0.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Rockwell-Somebody-s-Watching-Me-Official-Video-7YvAYIJSSZY.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5695,8 +5700,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q86]]
-Bruce Channel +
-Hey! Baby / Bruce Channel / 20 #1's: One Hit Wonders
+Rockwell +
+Somebody's Watching Me - Single Version / Rockwell / 20 #1's: One Hit Wonders
 
 
 [pass]
@@ -5744,7 +5749,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Spirit-In-The-Sky-Norman-Greenbaum-AZQxH-8raCI.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Bruce-Channel-Hey-Baby-ik9dxkKriV0.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5760,8 +5765,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q87]]
-Norman Greenbaum +
-Spirit In The Sky / Norman Greenbaum / Spirit In The Sky
+Bruce Channel +
+Hey! Baby / Bruce Channel / 20 #1's: One Hit Wonders
 
 
 [pass]
@@ -5795,7 +5800,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the singer.
 
 
 
@@ -5809,7 +5814,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Men-Without-Hats-Safety-Dance-Official-Music-Video-AjPau5QYtYs.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Spirit-In-The-Sky-Norman-Greenbaum-AZQxH-8raCI.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5825,8 +5830,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q88]]
-Men Without Hats +
-The Safety Dance / Men Without Hats / Greatest
+Norman Greenbaum +
+Spirit In The Sky / Norman Greenbaum / Spirit In The Sky
 
 
 [pass]
@@ -5874,7 +5879,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Ready-For-The-World-Oh-Sheila-Official-Video-wbL2lMn34Oo.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Men-Without-Hats-Safety-Dance-Official-Music-Video-AjPau5QYtYs.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5890,8 +5895,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q89]]
-Ready for the World. +
-Oh Sheila / Ready For The World / 20 #1's: One Hit Wonders
+Men Without Hats +
+The Safety Dance / Men Without Hats / Greatest
 
 
 [pass]
@@ -5913,24 +5918,19 @@ b.innerHTML = "Show answer";
 </script>
 +++++++++++++++
 
-[big]*End of round*
-
 [role="fullheight"]
 <<s-One-Hit-Wonders-q-89, Previous question: Q89>>  +
  +
-<<s-New-York-q-91, Next round: New York>> 
+<<s-One-Hit-Wonders-q-91, Next question: Q91>> 
 
-[[s9]]
-== New York
-
-[[s-New-York-q-91]]
+[[s-One-Hit-Wonders-q-91]]
 === Q91
 
-[big]#New York: Question 91#
+[big]#One Hit Wonders: Question 91#
 
 ==== Question
 
-Name the song.
+Name the band.
 
 
 
@@ -5944,7 +5944,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Ad-Libs-The-Boy-From-New-York-City-with-lyrics-3TPYmeSqLjc.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Ready-For-The-World-Oh-Sheila-Official-Video-wbL2lMn34Oo.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5960,8 +5960,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q90]]
-The Boy from New York City +
-The Boy from New York City / The Ad Libs / Discover 60s One Hit Wonders
+Ready for the World. +
+Oh Sheila / Ready For The World / 20 #1's: One Hit Wonders
 
 
 [pass]
@@ -5983,10 +5983,15 @@ b.innerHTML = "Show answer";
 </script>
 +++++++++++++++
 
+[big]*End of round*
+
 [role="fullheight"]
-<<s-One-Hit-Wonders-q-90, Previous round: One Hit Wonders>>  +
+<<s-One-Hit-Wonders-q-90, Previous question: Q90>>  +
  +
-<<s-New-York-q-92, Next question: Q92>> 
+<<s-New-York-q-92, Next round: New York>> 
+
+[[s10]]
+== New York
 
 [[s-New-York-q-92]]
 === Q92
@@ -6049,7 +6054,7 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-New-York-q-91, Previous question: Q91>>  +
+<<s-One-Hit-Wonders-q-91, Previous round: One Hit Wonders>>  +
  +
 <<s-New-York-q-93, Next question: Q93>> 
 
@@ -6060,7 +6065,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the song.
 
 
 
@@ -6074,7 +6079,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/GEORGE-BENSON-On-Broadway-Album-Version-ok-l1Acuwg.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/RUN-DMC-Christmas-In-Hollis-Video-OR07r0ZMFb8.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6090,8 +6095,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q92]]
-On Broadway +
-On Broadway / George Benson / The George Benson Collection
+Christmas in Hollis +
+Christmas In Hollis (Bonus Track) / Run-DMC / Tougher Than Leather
 
 
 [pass]
@@ -6125,7 +6130,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the song. 
 
 
 
@@ -6139,7 +6144,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Jay-Z-feat.-Alicia-Keys-Empire-State-of-Mind-Official-Music-Video-Original-Version-QsZlY0Vz4-o.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/GEORGE-BENSON-On-Broadway-Album-Version-ok-l1Acuwg.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6155,8 +6160,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q93]]
-Empire State of Mind +
-Empire State of Mind (feat. Alicia Keys) / JAY-Z & Alicia Keys / The Hits Collection, Vol. One (Deluxe Edition)
+On Broadway +
+On Broadway / George Benson / The George Benson Collection
 
 
 [pass]
@@ -6269,7 +6274,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Ben-E-King-Spanish-Harlem-OGd6CdtOqEE.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Ad-Libs-The-Boy-From-New-York-City-with-lyrics-3TPYmeSqLjc.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6285,8 +6290,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q95]]
-Spanish Herlem +
-Spanish Harlem / Ben E. King / Spanish Harlem
+The Boy from New York City +
+The Boy from New York City / The Ad Libs / Discover 60s One Hit Wonders
 
 
 [pass]
@@ -6334,7 +6339,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Odyssey-Native-New-Yorker-1977-HD-JpQ6NtbZxiE.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Jay-Z-feat.-Alicia-Keys-Empire-State-of-Mind-Official-Music-Video-Original-Version-QsZlY0Vz4-o.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6350,8 +6355,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q96]]
-Native New Yorker +
-Native New Yorker / Odyssey / Odyssey (Expanded Edition)
+Empire State of Mind +
+Empire State of Mind (feat. Alicia Keys) / JAY-Z & Alicia Keys / The Hits Collection, Vol. One (Deluxe Edition)
 
 
 [pass]
@@ -6399,7 +6404,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Pogues-Fairytale-Of-New-York-Official-Video-j9jbdgZidu8.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Ben-E-King-Spanish-Harlem-OGd6CdtOqEE.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6415,8 +6420,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q97]]
-Fairytale of New York +
-Fairytale of New York / The Pogues / If I Should Fall from Grace With God [Expanded]
+Spanish Herlem +
+Spanish Harlem / Ben E. King / Spanish Harlem
 
 
 [pass]
@@ -6464,7 +6469,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/RUN-DMC-Christmas-In-Hollis-Video-OR07r0ZMFb8.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Odyssey-Native-New-Yorker-1977-HD-JpQ6NtbZxiE.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6480,8 +6485,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q98]]
-Christmas in Hollis +
-Christmas In Hollis (Bonus Track) / Run-DMC / Tougher Than Leather
+Native New Yorker +
+Native New Yorker / Odyssey / Odyssey (Expanded Edition)
 
 
 [pass]
@@ -6515,6 +6520,71 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
+Name the song.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="auto"
+playsinline
+>
+<source src=Audio/Trimmed/The-Pogues-Fairytale-Of-New-York-Official-Video-j9jbdgZidu8.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q99" onclick="toggle_hidden_q99()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q99]]
+Fairytale of New York +
+Fairytale of New York / The Pogues / If I Should Fall from Grace With God [Expanded]
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q99");
+z.style.display = "none"
+function toggle_hidden_q99() {
+var x = document.getElementById("answer_q99");
+var b = document.getElementById("button_q99");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-New-York-q-99, Previous question: Q99>>  +
+ +
+<<s-New-York-q-101, Next question: Q101>> 
+
+[[s-New-York-q-101]]
+=== Q101
+
+[big]#New York: Question 101#
+
+==== Question
+
 Name the person who sang this song in the movie in which it first appeared.
 
 
@@ -6539,12 +6609,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q99" onclick="toggle_hidden_q99()">
+<button id="button_q100" onclick="toggle_hidden_q100()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q99]]
+[[answer_q100]]
 Liza Minelli +
 Theme from New York, New York / Frank Sinatra / Ultimate Sinatra: The Centennial Collection
 
@@ -6552,11 +6622,11 @@ Theme from New York, New York / Frank Sinatra / Ultimate Sinatra: The Centennial
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q99");
+var z = document.getElementById("answer_q100");
 z.style.display = "none"
-function toggle_hidden_q99() {
-var x = document.getElementById("answer_q99");
-var b = document.getElementById("button_q99");
+function toggle_hidden_q100() {
+var x = document.getElementById("answer_q100");
+var b = document.getElementById("button_q100");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -6571,17 +6641,17 @@ b.innerHTML = "Show answer";
 [big]*End of round*
 
 [role="fullheight"]
-<<s-New-York-q-99, Previous question: Q99>>  +
+<<s-New-York-q-100, Previous question: Q100>>  +
  +
-<<s-Bonus-q-101, Next round: Bonus>> 
+<<s-Bonus-q-102, Next round: Bonus>> 
 
-[[s10]]
+[[s11]]
 == Bonus
 
-[[s-Bonus-q-101]]
-=== Q101
+[[s-Bonus-q-102]]
+=== Q102
 
-[big]#Bonus: Question 101#
+[big]#Bonus: Question 102#
 
 ==== Question
 
@@ -6609,12 +6679,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q100" onclick="toggle_hidden_q100()">
+<button id="button_q101" onclick="toggle_hidden_q101()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q100]]
+[[answer_q101]]
 Jan & Dean +
 Surf City - Remastered 1990/Stereo Remix / Jan & Dean / Surf City: The Best Of Jan & Dean
 
@@ -6622,11 +6692,11 @@ Surf City - Remastered 1990/Stereo Remix / Jan & Dean / Surf City: The Best Of J
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q100");
+var z = document.getElementById("answer_q101");
 z.style.display = "none"
-function toggle_hidden_q100() {
-var x = document.getElementById("answer_q100");
-var b = document.getElementById("button_q100");
+function toggle_hidden_q101() {
+var x = document.getElementById("answer_q101");
+var b = document.getElementById("button_q101");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -6639,14 +6709,14 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-New-York-q-100, Previous round: New York>>  +
+<<s-New-York-q-101, Previous round: New York>>  +
  +
-<<s-Bonus-q-102, Next question: Q102>> 
+<<s-Bonus-q-103, Next question: Q103>> 
 
-[[s-Bonus-q-102]]
-=== Q102
+[[s-Bonus-q-103]]
+=== Q103
 
-[big]#Bonus: Question 102#
+[big]#Bonus: Question 103#
 
 ==== Question
 
@@ -6674,79 +6744,14 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q101" onclick="toggle_hidden_q101()">
-Show answer
-</button>
-+++++++++++++++++
-
-[[answer_q101]]
-Casablanca +
-France: La Marseillaise / Choeur de l'Armée Française, Musique De La Garde Républicaine / Les hymnes officiels de la Coupe du Monde de Rugby (National Anthems Rugby World Cup France)
-
-
-[pass]
-+++++++++++++++
-<script>
-var z = document.getElementById("answer_q101");
-z.style.display = "none"
-function toggle_hidden_q101() {
-var x = document.getElementById("answer_q101");
-var b = document.getElementById("button_q101");
-if (x.style.display === "none") {
-x.style.display = "block";
-b.innerHTML = "Hide answer";
-} else {
-x.style.display = "none";
-b.innerHTML = "Show answer";
-}
-}
-</script>
-+++++++++++++++
-
-[role="fullheight"]
-<<s-Bonus-q-101, Previous question: Q101>>  +
- +
-<<s-Bonus-q-103, Next question: Q103>> 
-
-[[s-Bonus-q-103]]
-=== Q103
-
-[big]#Bonus: Question 103#
-
-==== Question
-
-Name the famous televangelist who was a cousin of the this singer.
-
-
-
-[pass]
-+++++++++++
-<video
-loading="lazy"
-controls
-width="300
-poster="question_mark.jpg"
-preload="auto"
-playsinline
->
-<source src=Audio/Trimmed/Great-Balls-of-Fire-Jerry-Lee-Lewis-original-song-1957-Jt0mg8Z09SY.mp4 type="video/mp4" />
-</video>
-+++++++++++
-
-
-==== Answer
-
-
-[pass]
-+++++++++++++++++
 <button id="button_q102" onclick="toggle_hidden_q102()">
 Show answer
 </button>
 +++++++++++++++++
 
 [[answer_q102]]
-Jimmy Swaggert +
-Great Balls Of Fire / Jerry Lee Lewis / The Golden Rock Hits Of Jerry Lee Lewis
+Casablanca +
+France: La Marseillaise / Choeur de l'Armée Française, Musique De La Garde Républicaine / Les hymnes officiels de la Coupe du Monde de Rugby (National Anthems Rugby World Cup France)
 
 
 [pass]
@@ -6780,7 +6785,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the two movies that had this song as their opening credit music. 
+Name the famous televangelist who was a cousin of the this singer.
 
 
 
@@ -6794,7 +6799,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Rock-Around-the-Clock-Bill-Haley-original-song-1955-Ud-JZcC0tHI.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Great-Balls-of-Fire-Jerry-Lee-Lewis-original-song-1957-Jt0mg8Z09SY.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6810,8 +6815,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q103]]
-American Graffiti and Blackboard Jungle +
-(We're Gonna) Rock Around The Clock - Single Version / Bill Haley & His Comets / From The Original Master Tapes
+Jimmy Swaggert +
+Great Balls Of Fire / Jerry Lee Lewis / The Golden Rock Hits Of Jerry Lee Lewis
 
 
 [pass]
@@ -6845,7 +6850,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-In this song, what "has bitten the dust?"
+Name the two movies that had this song as their opening credit music. 
 
 
 
@@ -6859,7 +6864,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/London-Calling-Remastered-XN7iEFVLf5c.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Rock-Around-the-Clock-Bill-Haley-original-song-1955-Ud-JZcC0tHI.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6875,8 +6880,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q104]]
-Phony Beatlemania +
-London Calling - Remastered / The Clash / London Calling (Remastered)
+American Graffiti and Blackboard Jungle +
+(We're Gonna) Rock Around The Clock - Single Version / Bill Haley & His Comets / From The Original Master Tapes
 
 
 [pass]
@@ -6910,7 +6915,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band, the song and the album - we need all three.
+In this song, what "has bitten the dust?"
 
 
 
@@ -6924,7 +6929,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Pet-Sounds-Remastered-EeN-NytxKEc.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/London-Calling-Remastered-XN7iEFVLf5c.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6940,8 +6945,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q105]]
-the Beach Boys; Pet Sounds; Pet Sounds +
-Pet Sounds - Remastered / The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions)
+Phony Beatlemania +
+London Calling - Remastered / The Clash / London Calling (Remastered)
 
 
 [pass]
@@ -6975,7 +6980,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the band, the song and the album - we need all three.
 
 
 
@@ -6989,7 +6994,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Carl-Perkins-Gone-Gone-Gone-yrhZKavICNU.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Pet-Sounds-Remastered-EeN-NytxKEc.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -7005,8 +7010,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q106]]
-Gone Gone Gone +
-Gone, Gone, Gone / Carl Perkins / The Dance Album
+the Beach Boys; Pet Sounds; Pet Sounds +
+Pet Sounds - Remastered / The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions)
 
 
 [pass]
@@ -7040,7 +7045,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the album.
+Name the song.
 
 
 
@@ -7054,7 +7059,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Joe-Jackson-Look-Sharp-V8-b9LK1trE.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Carl-Perkins-Gone-Gone-Gone-yrhZKavICNU.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -7070,8 +7075,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q107]]
-Look Sharp! +
-Look Sharp! / Joe Jackson / Look Sharp!
+Gone Gone Gone +
+Gone, Gone, Gone / Carl Perkins / The Dance Album
 
 
 [pass]
@@ -7105,7 +7110,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie in which this song was sung by this artist.
+Name the album.
 
 
 
@@ -7119,7 +7124,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Elvis-Presley-Can-t-Help-Falling-In-Love-Audio-vGJTaP6anOU.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Joe-Jackson-Look-Sharp-V8-b9LK1trE.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -7135,8 +7140,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q108]]
-Blue Hawaii +
-Can't Help Falling in Love / Elvis Presley / Blue Hawaii
+Look Sharp! +
+Look Sharp! / Joe Jackson / Look Sharp!
 
 
 [pass]
@@ -7170,6 +7175,71 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
+Name the movie in which this song was sung by this artist.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="auto"
+playsinline
+>
+<source src=Audio/Trimmed/Elvis-Presley-Can-t-Help-Falling-In-Love-Audio-vGJTaP6anOU.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q109" onclick="toggle_hidden_q109()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q109]]
+Blue Hawaii +
+Can't Help Falling in Love / Elvis Presley / Blue Hawaii
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q109");
+z.style.display = "none"
+function toggle_hidden_q109() {
+var x = document.getElementById("answer_q109");
+var b = document.getElementById("button_q109");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-109, Previous question: Q109>>  +
+ +
+<<s-Bonus-q-111, Next question: Q111>> 
+
+[[s-Bonus-q-111]]
+=== Q111
+
+[big]#Bonus: Question 111#
+
+==== Question
+
 Name the movie in which this song played a significant part,
 
 
@@ -7194,12 +7264,12 @@ playsinline
 
 [pass]
 +++++++++++++++++
-<button id="button_q109" onclick="toggle_hidden_q109()">
+<button id="button_q110" onclick="toggle_hidden_q110()">
 Show answer
 </button>
 +++++++++++++++++
 
-[[answer_q109]]
+[[answer_q110]]
 Blue Velvet +
 In Dreams / Roy Orbison / In Dreams
 
@@ -7207,11 +7277,11 @@ In Dreams / Roy Orbison / In Dreams
 [pass]
 +++++++++++++++
 <script>
-var z = document.getElementById("answer_q109");
+var z = document.getElementById("answer_q110");
 z.style.display = "none"
-function toggle_hidden_q109() {
-var x = document.getElementById("answer_q109");
-var b = document.getElementById("button_q109");
+function toggle_hidden_q110() {
+var x = document.getElementById("answer_q110");
+var b = document.getElementById("button_q110");
 if (x.style.display === "none") {
 x.style.display = "block";
 b.innerHTML = "Hide answer";
@@ -7224,7 +7294,7 @@ b.innerHTML = "Show answer";
 +++++++++++++++
 
 [role="fullheight"]
-<<s-Bonus-q-109, Previous question: Q109>>  +
+<<s-Bonus-q-110, Previous question: Q110>>  +
  +
 <<thanks_for_playing, Conclusion>>
 
