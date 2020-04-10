@@ -145,6 +145,10 @@ def trim_audio(in_file: str, start: float, end: float, verbose=False):
         "ffmpeg",
         "-i",
         str(in_file),
+        "-ss",
+        str(start),
+        "-to",
+        str(end),
         "-af",
         # Target loudness values (i=target loudness; lra=loudness range; tp=true peak)
         # These (approximately) show up as "outputs" in the json
@@ -194,7 +198,6 @@ def trim_audio(in_file: str, start: float, end: float, verbose=False):
                 f"measured_thresh={ln_input_thresh}",
             ]
         ),
-        # f"loudnorm=linear=true:measured_I={ln_input_i}:measured_LRA={ln_input_lra}:measured_tp={ln_input_tp}:measured_thresh={ln_input_thresh}",  # noqa E501
         # "-vf",
         # "pad=ceil(iw/2)*2:ceil(ih/2)*2",
         "-acodec",
@@ -312,7 +315,6 @@ def get_trivia_items(df: pd.DataFrame) -> List[TriviaItem]:
 
 
 get_trivia_items(df)
-# %%
 
 
 def make_anchor(trivia_item: TriviaItem) -> str:
