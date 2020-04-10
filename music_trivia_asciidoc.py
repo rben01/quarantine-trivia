@@ -125,7 +125,16 @@ def trim_audio(in_file: str, start: float, end: float, verbose=False):
         # "-af",
         # "silenceremove=start_periods=1:start_duration=1:start_threshold=-70dB:detection=peak,aformat=dblp",  # noqa E501
         "-af",
-        f"loudnorm=linear=true:measured_I={ln_input_i}:measured_LRA={ln_input_lra}:measured_tp={ln_input_tp}:measured_thresh={ln_input_thresh}",  # noqa E501
+        ":".join(
+            [
+                "loudnorm=linear=true",
+                f"measured_I={ln_input_i}",
+                f"measured_LRA={ln_input_lra}",
+                f"measured_tp={ln_input_tp}",
+                f"measured_thresh={ln_input_thresh}",
+            ]
+        ),
+        # f"loudnorm=linear=true:measured_I={ln_input_i}:measured_LRA={ln_input_lra}:measured_tp={ln_input_tp}:measured_thresh={ln_input_thresh}",  # noqa E501
         # "-vf",
         # "pad=ceil(iw/2)*2:ceil(ih/2)*2",
         "-acodec",
@@ -202,13 +211,26 @@ def read_df() -> pd.DataFrame:
 
 
 def trim_songs(df: pd.DataFrame):
-    args = [
-        (row[AUDIO_FILE_IN_COL], row[START_TIME_COL], row[END_TIME_COL], True)
-        for _, row in df.iterrows()
-    ]
+    # Don't redo needless work
+    PREV_ARGS_FILE = "previous_ffmpeg.json"
+    try:
+        with open(PREV_ARGS_FILE) as f:
+            previous_args = set(json.load(f))
+    except FileNotFoundError:
+        previous_args = set()
+
+    args = []
+    for _, row in df.iterrows():
+        arg = (row[AUDIO_FILE_IN_COL], row[START_TIME_COL], row[END_TIME_COL], True)
+        if arg not in previous_args:
+            args.append(arg)
+
     with mp.Pool(4) as pool:
         for i, item in enumerate(pool.imap(trim_audio_one_arg, args)):
             print(i, "Did", item)
+
+    with open(PREV_ARGS_FILE, "w") as f:
+        json.dump(list(args), f)
     # for i, row in enumerate(df.iterrows()):
     #     row = row[1]
     #     trim_audio(
@@ -311,6 +333,8 @@ a[tabindex]:focus { color:blue; outline:none; }
 ++++++++++++
 
 == Welcome
+
+[big]#Welcome to Week 2 of quarantine trivia: *music*!#
     """
 
     doc_parts = []
@@ -322,6 +346,8 @@ a[tabindex]:focus { color:blue; outline:none; }
             doc_parts.append("")
 
     add_line(preamble, empty_after=1)
+    add_line('[role="fullheight"]')
+    add_line(f"<<{make_anchor(rounds[0][1][0])},Begin>>", empty_after=2)
 
     for ri, (round_name, trivia_items) in enumerate(rounds):
         trivia_items: List[TriviaItem]
@@ -371,6 +397,8 @@ a[tabindex]:focus { color:blue; outline:none; }
                     src = trivia_item.source
 
                 media_block = f"""
+
+[pass]
 +++++++++++
 <video
 loading="lazy"
@@ -380,7 +408,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-    <source src={src} type="video/mp4"/>
+    <source src={src} type="video/mp4" />
 </video>
 +++++++++++
 """
@@ -394,7 +422,7 @@ playsinline
             add_line(f"==== Answer", empty_after=1)
             add_line(
                 f"""
-[subs=""]
+[pass]
 +++++++++++++++++
 <button id="button_{question_id}" onclick="toggle_hidden_{question_id}()">
 Show answer
@@ -407,7 +435,7 @@ Show answer
             add_line(" / ".join(trivia_item.metadata), empty_after=1)
             add_line(
                 f"""
-[subs=""]
+[pass]
 +++++++++++++++
 <script>
 var z = document.getElementById("answer_{question_id}");
@@ -427,7 +455,7 @@ function toggle_hidden_{question_id}() {{
 +++++++++++++++""",
                 empty_after=1,
             )
-            add_line(f'[role="fullheight"]')
+            add_line('[role="fullheight"]')
             # Very first question
             if ri == 0 and qi == 0:
                 add_line(
