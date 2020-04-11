@@ -490,7 +490,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the song.
 
 
 
@@ -504,7 +504,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -520,8 +520,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q7]]
-Blackbird +
-Blackbird - Remastered / The Beatles / The Beatles (Remastered)
+God Only Knows +
+God Only Knows - Remastered / The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions)
 
 
 [pass]
@@ -555,7 +555,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the song.
 
 
 
@@ -569,7 +569,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Logical-Song-low6Coqrw9Y.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -585,8 +585,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q8]]
-Dexys Midnight Runners +
-Come On Eileen / Dexys Midnight Runners / Too Rye Ay
+The Logical Song +
+The Logical Song - Remastered 2010 / Supertramp / Breakfast In America (Deluxe Edition)
 
 
 [pass]
@@ -620,7 +620,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.   
+Name the album on which this song appeared.
 
 
 
@@ -634,7 +634,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Rebel-Rebel-1997-Remaster-Wb3bfsuttdk.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Kendrick-Lamar-King-Kunta-hRK7PVJFbS8.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -650,8 +650,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q9]]
-Rebel Rebel +
-Rebel Rebel - 1999 Digital Remaster / David Bowie / Best Of Bowie
+To Pimp a Butterfly +
+King Kunta / Kendrick Lamar / To Pimp A Butterfly
 
 
 [pass]
@@ -769,7 +769,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/01-Bruno-Mars-Grenade-Doo-Wops-Hooligans-aLAtJ0k98SI.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Feel-Good-Inc.-YiiWwwDpxvo.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -785,8 +785,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q11]]
-Grenade +
-Grenade / Bruno Mars / Doo-Wops & Hooligans
+Feel Good Inc. +
+Feel Good Inc. / The Gorillaz / Demon Days
 
 
 [pass]
@@ -1094,7 +1094,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Nirvana-Smells-Like-Teen-Spirit-Official-Music-Video-hTWKbfoikeg.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Californication-OtXiwSCq99Q.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1110,8 +1110,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q16]]
-Smells Like Teen Spirit +
-Smells Like Teen Spirit / Nirvana / Nevermind (Remastered)
+Californication +
+Californication / Red Hot Chili Peppers / Californication
 
 
 [pass]
@@ -1145,7 +1145,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the song.
 
 
 
@@ -1159,7 +1159,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Nirvana-Smells-Like-Teen-Spirit-Official-Music-Video-hTWKbfoikeg.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1175,8 +1175,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q17]]
-The Champs +
-Tequila (Original) / The Champs / Tequila
+Smells Like Teen Spirit +
+Smells Like Teen Spirit / Nirvana / Nevermind (Remastered)
 
 
 [pass]
@@ -1210,7 +1210,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the artist.
+Name the band.
 
 
 
@@ -1224,7 +1224,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Theme-From-Shaft-by-Isaac-Hayes-from-Shaft-Music-From-The-Soundtrack-uNJKmf6KTcU.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1240,8 +1240,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q18]]
-Isaac Hayes +
-Theme From Shaft - Album - Remastered / Isaac Hayes / Shaft (Deluxe Edition)
+The Champs +
+Tequila (Original) / The Champs / Tequila
 
 
 [pass]
@@ -1345,7 +1345,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the city in which the lead singer of this band is buried.
+Name the performer.
 
 
 
@@ -1359,7 +1359,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1375,8 +1375,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q20]]
-Paris +
-Light My Fire / The Doors / The Doors
+Joe Jackson +
+Is She Really Going Out With Him? / Joe Jackson / Look Sharp!
 
 
 [pass]
@@ -1424,7 +1424,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1440,8 +1440,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q21]]
-God Only Knows +
-God Only Knows - Remastered / The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions)
+I Want to Hold Your Hand +
+I Want To Hold Your Hand - Remastered 2015 / The Beatles / 1 (Remastered)
 
 
 [pass]
@@ -1475,7 +1475,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song (inclding both the main title and the part in parentheses).
+Name the band.
 
 
 
@@ -1489,7 +1489,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1505,8 +1505,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q22]]
-Norwegian Wood (This Bird Has Flown) +
-Norwegian Wood (This Bird Has Flown) - Remastered 2009 / The Beatles / Rubber Soul (Remastered)
+Dexys Midnight Runners +
+Come On Eileen / Dexys Midnight Runners / Too Rye Ay
 
 
 [pass]
@@ -1540,7 +1540,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the performer.
+Name the song.
 
 
 
@@ -1554,7 +1554,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1570,8 +1570,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q23]]
-Joe Jackson +
-Is She Really Going Out With Him? / Joe Jackson / Look Sharp!
+Punch the Clock +
+Everyday I Write The Book / Elvis Costello & The Attractions / Punch The Clock
 
 
 [pass]
@@ -1605,7 +1605,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the album on which this song appeared.
+Name the song.
 
 
 
@@ -1619,7 +1619,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1635,8 +1635,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q24]]
-Punch the Clock +
-Everyday I Write The Book / Elvis Costello & The Attractions / Punch The Clock
+Gold Digger +
+Gold Digger / Kanye West, Jamie Foxx / Late Registration
 
 
 [pass]
@@ -1670,7 +1670,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the artist.
 
 
 
@@ -1684,7 +1684,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Marvin-Gaye-What-s-Going-On-H-kA3UtBj4M.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1700,8 +1700,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q25]]
-Gold Digger +
-Gold Digger / Kanye West, Jamie Foxx / Late Registration
+Marvin Gaye +
+What's Going On / Marvin Gaye / What's Going On
 
 
 [pass]
@@ -1735,7 +1735,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the artist.
+Name the song.
 
 
 
@@ -1749,7 +1749,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Marvin-Gaye-What-s-Going-On-H-kA3UtBj4M.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/01-Bruno-Mars-Grenade-Doo-Wops-Hooligans-aLAtJ0k98SI.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1765,8 +1765,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q26]]
-Marvin Gaye +
-What's Going On / Marvin Gaye / What's Going On
+Grenade +
+Grenade / Bruno Mars / Doo-Wops & Hooligans
 
 
 [pass]
@@ -1800,7 +1800,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the album on which this song appeared.
+Name the performer.
 
 
 
@@ -1814,7 +1814,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Kendrick-Lamar-King-Kunta-hRK7PVJFbS8.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1830,8 +1830,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q27]]
-To Pimp a Butterfly +
-King Kunta / Kendrick Lamar / To Pimp A Butterfly
+Chuck Berry +
+Johnny B. Goode - Single Version / Chuck Berry / 20th Century Masters: The Millennium Collection: Best Of Chuck Berry
 
 
 [pass]
@@ -1865,7 +1865,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the performer.
+Name the artist.
 
 
 
@@ -1879,7 +1879,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1895,8 +1895,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q28]]
-Chuck Berry +
-Johnny B. Goode - Single Version / Chuck Berry / 20th Century Masters: The Millennium Collection: Best Of Chuck Berry
+Cyndi Lauper +
+Girls Just Want to Have Fun / Cyndi Lauper / She's So Unusual: A 30th Anniversary Celebration (Deluxe Edition)
 
 
 [pass]
@@ -1930,7 +1930,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the artist.
+Name the performer.
 
 
 
@@ -1944,7 +1944,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -1960,8 +1960,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q29]]
-Cyndi Lauper +
-Girls Just Want to Have Fun / Cyndi Lauper / She's So Unusual: A 30th Anniversary Celebration (Deluxe Edition)
+Eric Clapton +
+Cocaine / Eric Clapton / Slowhand 35th Anniversary (Super Deluxe)
 
 
 [pass]
@@ -2000,7 +2000,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the performer.
+Name the song.
 
 
 
@@ -2014,7 +2014,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Tracy-Chapman-Fast-Car-Official-Music-Video-AIOAlaACuv4.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2030,8 +2030,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q30]]
-Eric Clapton +
-Cocaine / Eric Clapton / Slowhand 35th Anniversary (Super Deluxe)
+Fast car. +
+Fast Car / Tracy Chapman / Tracy Chapman
 
 
 [pass]
@@ -2079,7 +2079,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Jonas-Blue-ft.-Dakota-Fast-Car-Official-Music-Video-0wpuR68uw-8.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2095,8 +2095,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q31]]
-Fast car. +
-Fast Car / Jonas Blue, Dakota / Fast Car
+Is this Love +
+Is This Love / Bob Marley & The Wailers / Kaya - Deluxe Edition
 
 
 [pass]
@@ -2130,7 +2130,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the singer.
 
 
 
@@ -2144,7 +2144,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Meghan-Trainor-All-About-That-Bass-Official-Music-Video-7PCkvCPvDXk.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2160,8 +2160,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q32]]
-Is this Love +
-Is This Love / Bob Marley & The Wailers / Kaya - Deluxe Edition
+Meghan Trainor +
+All About That Bass / Meghan Trainor / All About That Bass
 
 
 [pass]
@@ -2195,7 +2195,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the band.
 
 
 
@@ -2209,7 +2209,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Meghan-Trainor-All-About-That-Bass-Official-Music-Video-7PCkvCPvDXk.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2225,8 +2225,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q33]]
-Meghan Trainor +
-All About That Bass / Meghan Trainor / All About That Bass
+Black Eyed Peas +
+I Gotta Feeling / Black Eyed Peas / THE E.N.D. (THE ENERGY NEVER DIES)
 
 
 [pass]
@@ -2260,7 +2260,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the song.
 
 
 
@@ -2274,7 +2274,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Wham-Wake-Me-Up-Before-You-Go-Go-Official-HD-Video-ELflyACZXQQ.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2290,8 +2290,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q34]]
-Black Eyed Peas +
-I Gotta Feeling / Black Eyed Peas / THE E.N.D. (THE ENERGY NEVER DIES)
+Wake Me Up Before You Go-Go +
+Wake Me Up Before You Go-Go / Wham! / Make It Big
 
 
 [pass]
@@ -2339,7 +2339,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Wham-Wake-Me-Up-Before-You-Go-Go-Official-HD-Video-ELflyACZXQQ.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2355,8 +2355,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q35]]
-Wake Me Up Before You Go-Go +
-Wake Me Up Before You Go-Go / Wham! / Make It Big
+Ring of Fire +
+Ring of Fire / Johnny Cash / Johnny Cash - 16 Biggest Hits
 
 
 [pass]
@@ -2390,7 +2390,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-What does "love" make in this song?
+Name the group.
 
 
 
@@ -2404,7 +2404,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2420,8 +2420,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q36]]
-"It makes a fiery ring" +
-Ring of Fire / Johnny Cash / Johnny Cash - 16 Biggest Hits
+The Isley Brothers +
+Shout / The Isley Brothers / Pure... '50s
 
 
 [pass]
@@ -2455,7 +2455,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the group.
+Name the song.
 
 
 
@@ -2469,7 +2469,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Louis-Armstrong-What-A-Wonderful-World-Lyrics-A3yCcXgbKrE.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2485,8 +2485,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q37]]
-The Isley Brothers +
-Shout / The Isley Brothers / Pure... '50s
+What a Wonderful World +
+What A Wonderful World / Louis Armstrong / Hello Louis - The Hit Years (1963-1969)
 
 
 [pass]
@@ -2520,7 +2520,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the song.   
 
 
 
@@ -2534,7 +2534,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Louis-Armstrong-What-A-Wonderful-World-Lyrics-A3yCcXgbKrE.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Rebel-Rebel-1997-Remaster-Wb3bfsuttdk.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2550,8 +2550,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q38]]
-What a Wonderful World +
-What A Wonderful World / Louis Armstrong / Hello Louis - The Hit Years (1963-1969)
+Rebel Rebel +
+Rebel Rebel - 1999 Digital Remaster / David Bowie / Best Of Bowie
 
 
 [pass]
@@ -2585,7 +2585,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the artist. 
 
 
 
@@ -2599,7 +2599,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Logical-Song-low6Coqrw9Y.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Kanye-West-Stronger-PsO6ZnUZI0g.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2615,8 +2615,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q39]]
-The Logical Song +
-The Logical Song - Remastered 2010 / Supertramp / Breakfast In America (Deluxe Edition)
+Kayne West +
+Stronger / Kanye West / Stronger (Int'l ECD Maxi)
 
 
 [pass]
@@ -2655,7 +2655,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the artist. 
+Name the song. 
 
 
 
@@ -2669,7 +2669,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Kanye-West-Stronger-PsO6ZnUZI0g.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2685,8 +2685,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q40]]
-Kayne West +
-Stronger / Kanye West / Stronger (Int'l ECD Maxi)
+My Generation +
+My Generation - Mono Version / The Who / The Who Sings My Generation (U.S. Version)
 
 
 [pass]
@@ -2720,7 +2720,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the song.
 
 
 
@@ -2734,7 +2734,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2750,8 +2750,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q41]]
-My Generation +
-My Generation - Mono Version / The Who / The Who Sings My Generation (U.S. Version)
+Go Your Own Way +
+Go Your Own Way - 2004 Remaster / Fleetwood Mac / Rumours
 
 
 [pass]
@@ -2799,7 +2799,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2815,8 +2815,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q42]]
-Go Your Own Way +
-Go Your Own Way - 2004 Remaster / Fleetwood Mac / Rumours
+September +
+September / Earth, Wind & Fire / The Eternal Dance
 
 
 [pass]
@@ -2850,7 +2850,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the album that this song appeared on.
+Name the song.
 
 
 
@@ -2864,7 +2864,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Lorde-Royals-With-Lyrics-Pure-Heroine-4znHLOWm7pY.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2880,8 +2880,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q43]]
-The Eternal Dance +
-September / Earth, Wind & Fire / The Eternal Dance
+Royals +
+Royals / Lorde / Pure Heroine
 
 
 [pass]
@@ -2915,7 +2915,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the group.
 
 
 
@@ -2929,7 +2929,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Lorde-Royals-With-Lyrics-Pure-Heroine-4znHLOWm7pY.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -2945,8 +2945,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q44]]
-Royals +
-Royals / Lorde / Pure Heroine
+Green Day +
+Holiday / Boulevard of Broken Dreams / Green Day / American Idiot
 
 
 [pass]
@@ -2980,7 +2980,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the group.
+Name the band.
 
 
 
@@ -2994,7 +2994,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Come-Sail-Away-eYCFrcCqh7Q.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -3010,8 +3010,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q45]]
-Green Day +
-Holiday / Boulevard of Broken Dreams / Green Day / American Idiot
+Styx +
+Come Sail Away / Styx / The Grand Illusion
 
 
 [pass]
@@ -3045,7 +3045,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the artist.
 
 
 
@@ -3059,7 +3059,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Come-Sail-Away-eYCFrcCqh7Q.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Jason-Derulo-Ridin-Solo-Official-Lyrics-HD-HQ-acWWb1Vxfg0.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -3075,8 +3075,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q46]]
-Styx +
-Come Sail Away / Styx / The Grand Illusion
+Jason Derulo +
+Ridin' Solo / Jason Derulo / Jason Derulo (Deluxe Audio)
 
 
 [pass]
@@ -3124,7 +3124,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Jason-Derulo-Ridin-Solo-Official-Lyrics-HD-HQ-acWWb1Vxfg0.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Jimi-Hendrix-Experience-Hey-Joe-Audio-rXwMrBb2x1Q.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -3140,8 +3140,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q47]]
-Jason Derulo +
-Ridin' Solo / Jason Derulo / Jason Derulo (Deluxe Audio)
+Jimi Hendrix +
+Hey Joe / The Jimi Hendrix Experience / Are You Experienced?
 
 
 [pass]
@@ -3175,7 +3175,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song (including both the main title and the part in parentheses)
+Name the band.
 
 
 
@@ -3189,7 +3189,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Vampire-Weekend-A-Punk-XC2mqcMMGQ.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -3205,8 +3205,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q48]]
-Escape (The Pina Colada Song) +
-Escape (The Pina Colada Song) / Rupert Holmes / Partners In Crime
+Vampire Weekend +
+A-Punk / Vampire Weekend / Vampire Weekend
 
 
 [pass]
@@ -3765,7 +3765,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the song. 
 
 
 
@@ -3779,7 +3779,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -3795,8 +3795,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q57]]
-I Want to Hold Your Hand +
-I Want To Hold Your Hand - Remastered 2015 / The Beatles / 1 (Remastered)
+Blackbird +
+Blackbird - Remastered / The Beatles / The Beatles (Remastered)
 
 
 [pass]
@@ -3979,7 +3979,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Bernard-Herrmann-Taxi-Driver-theme-Bx4aK-YsPeU.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/End-Title-O-6Da8wD0A.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -3995,8 +3995,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q60]]
-Taxi Driver +
-Taxi Driver Theme / Bernard Herrmann / Taxi Driver
+Lawrence of Arabia +
+End Title (from "Lawrence Of Arabia") / London Philharmonic Orchestra / Lawrence Of Arabia (Original Soundtrack Recording)
 
 
 [pass]
@@ -4044,7 +4044,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Good-the-Bad-and-the-Ugly-Movie-Main-Theme-o-zafpeLXhE.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Superman-Movie-Main-Theme-cm97g2cOKto.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4060,8 +4060,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q61]]
-The Good, the Bad and the Ugly +
-The Good, the Bad and the Ugly (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
+Superman +
+Superman (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
 
 
 [pass]
@@ -4109,7 +4109,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Chariots-of-Fire-Main-Theme-Vangelis-CSav51fVlKU.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Godfather-DGtEtwdZZKo.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4125,8 +4125,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q62]]
-Chariots of Fire +
-Chariots of Fire Theme / Vangelis / Chariots of Fire
+The Godfather. +
+The Godfather / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 2
 
 
 [pass]
@@ -4174,7 +4174,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Superman-Movie-Main-Theme-cm97g2cOKto.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Good-the-Bad-and-the-Ugly-Movie-Main-Theme-o-zafpeLXhE.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4190,8 +4190,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q63]]
-Superman +
-Superman (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
+The Good, the Bad and the Ugly +
+The Good, the Bad and the Ugly (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
 
 
 [pass]
@@ -4239,7 +4239,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/A-Man-and-a-Woman-Movie-Main-Theme-So9rDiGxQTQ.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Harry-Potter-Theme-Song-Htaj3o3JD8I.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4255,8 +4255,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q64]]
-A man and a Woman +
-A Man and a Woman (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
+Harry Potter +
+Hedwig's Theme / John Williams / Harry Potter and the Sorcerer's Stone
 
 
 [pass]
@@ -4304,7 +4304,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Godfather-DGtEtwdZZKo.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Pink-Panther-XdnnytXfj5g.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4320,8 +4320,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q65]]
-The Godfather. +
-The Godfather / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 2
+Henry Mancini +
+The Pink Panther / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 1
 
 
 [pass]
@@ -4369,7 +4369,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Nino-Rota-Amarcord-bk4MEhUkxco.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/A-Man-and-a-Woman-Movie-Main-Theme-So9rDiGxQTQ.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4385,8 +4385,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q66]]
-Nino Rota +
-Amarcord / Nino Rota / Amarcord
+A Man and a Woman +
+A Man and a Woman (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
 
 
 [pass]
@@ -4434,7 +4434,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Harry-Potter-Theme-Song-Htaj3o3JD8I.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Nino-Rota-Amarcord-bk4MEhUkxco.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4450,8 +4450,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q67]]
-Harry Potter +
-Hedwig's Theme / John Williams / Harry Potter and the Sorcerer's Stone
+Amarcord +
+Amarcord / Nino Rota / Amarcord
 
 
 [pass]
@@ -4499,7 +4499,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Pink-Panther-XdnnytXfj5g.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Chariots-of-Fire-Main-Theme-Vangelis-CSav51fVlKU.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4515,8 +4515,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q68]]
-Henry Mancini +
-The Pink Panther / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 1
+Chariots of Fire +
+Chariots of Fire Theme / Vangelis / Chariots of Fire
 
 
 [pass]
@@ -4564,7 +4564,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/End-Title-O-6Da8wD0A.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Bernard-Herrmann-Taxi-Driver-theme-Bx4aK-YsPeU.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4580,8 +4580,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q69]]
-Lawrence of Arabia +
-End Title (from "Lawrence Of Arabia") / London Philharmonic Orchestra / Lawrence Of Arabia (Original Soundtrack Recording)
+Taxi Driver +
+Taxi Driver Theme / Bernard Herrmann / Taxi Driver
 
 
 [pass]
@@ -4699,7 +4699,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Whatever-Lola-Wants-Damn-Yankees.-6kjQmgm0r4g.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Overture-Te-Tgsw2vOE.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4715,8 +4715,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q71]]
-Damn Yankees +
-Whatever Lola Wants / Gwen Verdon / Damn Yankees (Original Soundtrack) [Remastered]
+Gypsy +
+Overture / 2003 Broadway Cast of "Gypsy" / Gypsy (2003 Broadway Cast)
 
 
 [pass]
@@ -4750,7 +4750,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the composer.
 
 
 
@@ -4764,7 +4764,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/West-Side-Story-Something-s-Coming-1961-HD-FOQPMjKLQQU.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Being-Alive-Company-2006-Broadway-Revival-Raul-Esparza-YLTulpBF3H4.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4780,8 +4780,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q72]]
-Something's Coming. +
-Something's Coming / Matt Cavenaugh / West Side Story (New Broadway Cast Recording - 2009)
+Stephen Sondheim +
+Being Alive / 2006 Broadway Revival Cast / Company (2006 Broadway Revival Cast)
 
 
 [pass]
@@ -4829,7 +4829,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Alexander-Hamilton-VhinPd5RRJw.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Whatever-Lola-Wants-Damn-Yankees.-6kjQmgm0r4g.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4845,8 +4845,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q73]]
-Hamilton +
-Alexander Hamilton / Leslie Odom, Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Phillipa Soo, Christopher Jackson & Original Broadway Cast of Hamilton / Hamilton (Original Broadway Cast Recording)
+Damn Yankees +
+Whatever Lola Wants / Gwen Verdon / Damn Yankees (Original Soundtrack) [Remastered]
 
 
 [pass]
@@ -4880,7 +4880,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the musical.
+Name the song. 
 
 
 
@@ -4894,7 +4894,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/42nd-Street-bPuQkW1-s9k.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Barbra-Streisand-Don-t-Rain-On-My-Parade-oZTSuMErgsw.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4910,8 +4910,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q74]]
-42nd Street +
-42nd Street / Wanda Richert, Lee Roy Reams & 42nd Street Ensemble / 42nd Street - Original Broadway Cast Recording
+Don't Rain On My Parade +
+Don't Rain On My Parade / Barbra Streisand / The Essential Barbra Streisand
 
 
 [pass]
@@ -4945,7 +4945,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the composer.
+Name the musical.
 
 
 
@@ -4959,7 +4959,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Being-Alive-Company-2006-Broadway-Revival-Raul-Esparza-YLTulpBF3H4.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/One-Reprise-Finale-OiBIXa-7Vo.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -4975,8 +4975,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q75]]
-Stephen Sondheim +
-Being Alive / 2006 Broadway Revival Cast / Company (2006 Broadway Revival Cast)
+A Chorus Line +
+One (Reprise) / Finale / A Chorus Line Ensemble / A Chorus Line - 40th Anniversary Celebration (Original Broadway Cast Recording)
 
 
 [pass]
@@ -5010,7 +5010,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the composer.
+Name the song.
 
 
 
@@ -5024,7 +5024,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Annie-Get-Your-Gun-1999-Broadway-Revival-Cast-9.-They-Say-It-s-Wonderful-3nuUHCKiBuo.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/West-Side-Story-Something-s-Coming-1961-HD-FOQPMjKLQQU.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5040,8 +5040,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q76]]
-Irving Berlin +
-They Say It's Wonderful / Annie Get Your Gun - The 1999 Broadway Cast / Annie Get Your Gun - The New Broadway Cast Recording (Staring Bernadette Peters)
+Something's Coming. +
+Something's Coming / Matt Cavenaugh / West Side Story (New Broadway Cast Recording - 2009)
 
 
 [pass]
@@ -5075,7 +5075,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the musical.
+Name the composer.
 
 
 
@@ -5089,7 +5089,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Overture-Te-Tgsw2vOE.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Annie-Get-Your-Gun-1999-Broadway-Revival-Cast-9.-They-Say-It-s-Wonderful-3nuUHCKiBuo.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5105,8 +5105,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q77]]
-Gypsy +
-Overture / 2003 Broadway Cast of "Gypsy" / Gypsy (2003 Broadway Cast)
+Irving Berlin +
+They Say It's Wonderful / Annie Get Your Gun - The 1999 Broadway Cast / Annie Get Your Gun - The New Broadway Cast Recording (Staring Bernadette Peters)
 
 
 [pass]
@@ -5140,7 +5140,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the musical.
 
 
 
@@ -5154,7 +5154,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Barbra-Streisand-Don-t-Rain-On-My-Parade-oZTSuMErgsw.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Alexander-Hamilton-VhinPd5RRJw.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5170,8 +5170,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q78]]
-Don't Rain On My Parade +
-Don't Rain On My Parade / Barbra Streisand / The Essential Barbra Streisand
+Hamilton +
+Alexander Hamilton / Leslie Odom, Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Phillipa Soo, Christopher Jackson & Original Broadway Cast of Hamilton / Hamilton (Original Broadway Cast Recording)
 
 
 [pass]
@@ -5219,7 +5219,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/One-Reprise-Finale-OiBIXa-7Vo.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/42nd-Street-bPuQkW1-s9k.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5235,8 +5235,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q79]]
-A Chorus Line +
-One (Reprise) / Finale / A Chorus Line Ensemble / A Chorus Line - 40th Anniversary Celebration (Original Broadway Cast Recording)
+42nd Street +
+42nd Street / Wanda Richert, Lee Roy Reams & 42nd Street Ensemble / 42nd Street - Original Broadway Cast Recording
 
 
 [pass]
@@ -5289,7 +5289,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Bobby-McFerrin-Don-t-Worry-Be-Happy-Official-Video-d-diB65scQU.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Rockwell-Somebody-s-Watching-Me-Official-Video-7YvAYIJSSZY.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5305,8 +5305,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q80]]
-Bobby McFerrin +
-Don't Worry Be Happy / Bobby McFerrin / 20 #1's: One Hit Wonders
+Rockwell +
+Somebody's Watching Me - Single Version / Rockwell / 20 #1's: One Hit Wonders
 
 
 [pass]
@@ -5354,7 +5354,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Quarterflash-Harden-My-Heart-Official-Video-OqeKV2UYq1Q.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Men-Without-Hats-Safety-Dance-Official-Music-Video-AjPau5QYtYs.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5370,8 +5370,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q81]]
-Quarterflash +
-Harden My Heart / Quarterflash / 20 #1's: One Hit Wonders
+Men Without Hats +
+The Safety Dance / Men Without Hats / Greatest
 
 
 [pass]
@@ -5614,7 +5614,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Rockwell-Somebody-s-Watching-Me-Official-Video-7YvAYIJSSZY.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Bruce-Channel-Hey-Baby-ik9dxkKriV0.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5630,8 +5630,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q85]]
-Rockwell +
-Somebody's Watching Me - Single Version / Rockwell / 20 #1's: One Hit Wonders
+Bruce Channel +
+Hey! Baby / Bruce Channel / 20 #1's: One Hit Wonders
 
 
 [pass]
@@ -5665,7 +5665,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the band.
 
 
 
@@ -5679,7 +5679,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Bruce-Channel-Hey-Baby-ik9dxkKriV0.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Ready-For-The-World-Oh-Sheila-Official-Video-wbL2lMn34Oo.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5695,8 +5695,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q86]]
-Bruce Channel +
-Hey! Baby / Bruce Channel / 20 #1's: One Hit Wonders
+Ready for the World. +
+Oh Sheila / Ready For The World / 20 #1's: One Hit Wonders
 
 
 [pass]
@@ -5744,7 +5744,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Spirit-In-The-Sky-Norman-Greenbaum-AZQxH-8raCI.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Bobby-McFerrin-Don-t-Worry-Be-Happy-Official-Video-d-diB65scQU.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5760,8 +5760,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q87]]
-Norman Greenbaum +
-Spirit In The Sky / Norman Greenbaum / Spirit In The Sky
+Bobby McFerrin +
+Don't Worry Be Happy / Bobby McFerrin / 20 #1's: One Hit Wonders
 
 
 [pass]
@@ -5795,7 +5795,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the singer.
 
 
 
@@ -5809,7 +5809,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Men-Without-Hats-Safety-Dance-Official-Music-Video-AjPau5QYtYs.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Spirit-In-The-Sky-Norman-Greenbaum-AZQxH-8raCI.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5825,8 +5825,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q88]]
-Men Without Hats +
-The Safety Dance / Men Without Hats / Greatest
+Norman Greenbaum +
+Spirit In The Sky / Norman Greenbaum / Spirit In The Sky
 
 
 [pass]
@@ -5874,7 +5874,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Ready-For-The-World-Oh-Sheila-Official-Video-wbL2lMn34Oo.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Quarterflash-Harden-My-Heart-Official-Video-OqeKV2UYq1Q.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5890,8 +5890,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q89]]
-Ready for the World. +
-Oh Sheila / Ready For The World / 20 #1's: One Hit Wonders
+Quarterflash +
+Harden My Heart / Quarterflash / 20 #1's: One Hit Wonders
 
 
 [pass]
@@ -5930,7 +5930,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the person who sang this song in the movie in which it first appeared.
+Name the song.
 
 
 
@@ -5944,7 +5944,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Theme-From-New-York-New-York-Remastered-2008-le1QF3uoQNg.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Pogues-Fairytale-Of-New-York-Official-Video-j9jbdgZidu8.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -5960,8 +5960,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q90]]
-Liza Minelli +
-Theme from New York, New York / Frank Sinatra / Ultimate Sinatra: The Centennial Collection
+Fairytale of New York +
+Fairytale of New York / The Pogues / If I Should Fall from Grace With God [Expanded]
 
 
 [pass]
@@ -5995,7 +5995,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the person who sang this song in the movie in which it first appeared.
 
 
 
@@ -6009,7 +6009,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Bruce-Springsteen-Tenth-Avenue-Freeze-Out.wmv-BL-HL3ELvFI.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Theme-From-New-York-New-York-Remastered-2008-le1QF3uoQNg.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6025,8 +6025,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q91]]
-Tenth Avenue Freeze Out +
-Tenth Avenue Freeze-Out / Bruce Springsteen / Born To Run
+Liza Minelli +
+Theme from New York, New York / Frank Sinatra / Ultimate Sinatra: The Centennial Collection
 
 
 [pass]
@@ -6125,7 +6125,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the song. 
 
 
 
@@ -6139,7 +6139,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Ad-Libs-The-Boy-From-New-York-City-with-lyrics-3TPYmeSqLjc.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/GEORGE-BENSON-On-Broadway-Album-Version-ok-l1Acuwg.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6155,8 +6155,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q93]]
-The Boy from New York City +
-The Boy from New York City / The Ad Libs / Discover 60s One Hit Wonders
+On Broadway +
+On Broadway / George Benson / The George Benson Collection
 
 
 [pass]
@@ -6204,7 +6204,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/RUN-DMC-Christmas-In-Hollis-Video-OR07r0ZMFb8.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Odyssey-Native-New-Yorker-1977-HD-JpQ6NtbZxiE.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6220,8 +6220,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q94]]
-Christmas in Hollis +
-Christmas In Hollis (Bonus Track) / Run-DMC / Tougher Than Leather
+Native New Yorker +
+Native New Yorker / Odyssey / Odyssey (Expanded Edition)
 
 
 [pass]
@@ -6255,7 +6255,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the song.
 
 
 
@@ -6269,7 +6269,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/GEORGE-BENSON-On-Broadway-Album-Version-ok-l1Acuwg.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Ad-Libs-The-Boy-From-New-York-City-with-lyrics-3TPYmeSqLjc.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6285,8 +6285,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q95]]
-On Broadway +
-On Broadway / George Benson / The George Benson Collection
+The Boy from New York City +
+The Boy from New York City / The Ad Libs / Discover 60s One Hit Wonders
 
 
 [pass]
@@ -6350,7 +6350,7 @@ Show answer
 +++++++++++++++++
 
 [[answer_q96]]
-Spanish Herlem +
+Spanish Harlem +
 Spanish Harlem / Ben E. King / Spanish Harlem
 
 
@@ -6399,7 +6399,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Lullaby-Of-Broadway-Live-n8sd4KiP5iA.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/RUN-DMC-Christmas-In-Hollis-Video-OR07r0ZMFb8.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6415,8 +6415,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q97]]
-Lullaby of Broadway +
-Lullaby of Broadway (with The Dave Brubeck Trio) [Live] / Tony Bennett / The White House Sessions, Live 1962
+Christmas in Hollis +
+Christmas In Hollis (Bonus Track) / Run-DMC / Tougher Than Leather
 
 
 [pass]
@@ -6464,7 +6464,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/The-Pogues-Fairytale-Of-New-York-Official-Video-j9jbdgZidu8.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Bruce-Springsteen-Tenth-Avenue-Freeze-Out.wmv-BL-HL3ELvFI.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6480,8 +6480,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q98]]
-Fairytale of New York +
-Fairytale of New York / The Pogues / If I Should Fall from Grace With God [Expanded]
+Tenth Avenue Freeze Out +
+Tenth Avenue Freeze-Out / Bruce Springsteen / Born To Run
 
 
 [pass]
@@ -6529,7 +6529,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Odyssey-Native-New-Yorker-1977-HD-JpQ6NtbZxiE.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Lullaby-Of-Broadway-Live-n8sd4KiP5iA.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6545,8 +6545,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q99]]
-Native New Yorker +
-Native New Yorker / Odyssey / Odyssey (Expanded Edition)
+Lullaby of Broadway +
+Lullaby of Broadway (with The Dave Brubeck Trio) [Live] / Tony Bennett / The White House Sessions, Live 1962
 
 
 [pass]
@@ -6585,7 +6585,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the group.
+Name the song.
 
 
 
@@ -6599,7 +6599,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Surf-City-Remastered-1990-Stereo-Remix-ZWMcoxeXKAg.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Joe-Jackson-Look-Sharp-V8-b9LK1trE.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6615,8 +6615,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q100]]
-Jan & Dean +
-Surf City - Remastered 1990/Stereo Remix / Jan & Dean / Surf City: The Best Of Jan & Dean
+Look Sharp! +
+Look Sharp! / Joe Jackson / Look Sharp!
 
 
 [pass]
@@ -6650,7 +6650,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name  famous  film in which this song was sung spontaneously.
+Name the song (including both the main title and the part in parentheses).
 
 
 
@@ -6664,7 +6664,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Hommage-national-la-Marseillaise-du-Choeur-de-l-Arm-e-fran-aise-SLe6KcssqiM.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6680,8 +6680,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q101]]
-Casablanca +
-France: La Marseillaise / Choeur de l'Armée Française, Musique De La Garde Républicaine / Les hymnes officiels de la Coupe du Monde de Rugby (National Anthems Rugby World Cup France)
+Norwegian Wood (This Bird Has Flown) +
+Norwegian Wood (This Bird Has Flown) - Remastered 2009 / The Beatles / Rubber Soul (Remastered)
 
 
 [pass]
@@ -6715,7 +6715,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the famous televangelist who was a cousin of the this singer.
+Name the city in which the lead singer of this band is buried.
 
 
 
@@ -6729,7 +6729,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Great-Balls-of-Fire-Jerry-Lee-Lewis-original-song-1957-Jt0mg8Z09SY.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6745,8 +6745,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q102]]
-Jimmy Swaggert +
-Great Balls Of Fire / Jerry Lee Lewis / The Golden Rock Hits Of Jerry Lee Lewis
+Paris +
+Light My Fire / The Doors / The Doors
 
 
 [pass]
@@ -6780,7 +6780,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the two movies that had this song as their opening credit music. 
+Name the group.
 
 
 
@@ -6794,7 +6794,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Rock-Around-the-Clock-Bill-Haley-original-song-1955-Ud-JZcC0tHI.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Surf-City-Remastered-1990-Stereo-Remix-ZWMcoxeXKAg.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6810,8 +6810,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q103]]
-American Graffiti and Blackboard Jungle +
-(We're Gonna) Rock Around The Clock - Single Version / Bill Haley & His Comets / From The Original Master Tapes
+Jan & Dean +
+Surf City - Remastered 1990/Stereo Remix / Jan & Dean / Surf City: The Best Of Jan & Dean
 
 
 [pass]
@@ -6845,7 +6845,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-In this song, what "has bitten the dust?"
+Name the album.
 
 
 
@@ -6859,7 +6859,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/London-Calling-Remastered-XN7iEFVLf5c.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/The-Strokes-Reptilia-Official-Music-Video-b8-tXG8KrWs.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6875,8 +6875,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q104]]
-Phony Beatlemania +
-London Calling - Remastered / The Clash / London Calling (Remastered)
+Room on Fire +
+Reptilia / The Strokes / Room on Fire
 
 
 [pass]
@@ -6910,7 +6910,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band, the song and the album - we need all three.
+In this song, what "has bitten the dust?"
 
 
 
@@ -6924,7 +6924,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Pet-Sounds-Remastered-EeN-NytxKEc.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/London-Calling-Remastered-XN7iEFVLf5c.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -6940,8 +6940,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q105]]
-the Beach Boys; Pet Sounds; Pet Sounds +
-Pet Sounds - Remastered / The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions)
+Phony Beatlemania +
+London Calling - Remastered / The Clash / London Calling (Remastered)
 
 
 [pass]
@@ -6975,7 +6975,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the movie in which this song played a significant part,
 
 
 
@@ -6989,7 +6989,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Carl-Perkins-Gone-Gone-Gone-yrhZKavICNU.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Roy-Orbison-In-Dreams-MVRunwyoTMA.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -7005,8 +7005,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q106]]
-Gone Gone Gone +
-Gone, Gone, Gone / Carl Perkins / The Dance Album
+Blue Velvet +
+In Dreams / Roy Orbison / In Dreams
 
 
 [pass]
@@ -7040,7 +7040,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the album.
+Name either one of the two movies that had this song as their opening credit music.
 
 
 
@@ -7054,7 +7054,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Joe-Jackson-Look-Sharp-V8-b9LK1trE.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Rock-Around-the-Clock-Bill-Haley-original-song-1955-Ud-JZcC0tHI.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -7070,8 +7070,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q107]]
-Look Sharp! +
-Look Sharp! / Joe Jackson / Look Sharp!
+American Graffiti and Blackboard Jungle +
+(We're Gonna) Rock Around The Clock - Single Version / Bill Haley & His Comets / From The Original Master Tapes
 
 
 [pass]
@@ -7105,7 +7105,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie in which this song was sung by this artist.
+Name the band, the song and the album - we need all three.
 
 
 
@@ -7119,7 +7119,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Elvis-Presley-Can-t-Help-Falling-In-Love-Audio-vGJTaP6anOU.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/Pet-Sounds-Remastered-EeN-NytxKEc.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -7135,8 +7135,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q108]]
-Blue Hawaii +
-Can't Help Falling in Love / Elvis Presley / Blue Hawaii
+the Beach Boys; Pet Sounds; Pet Sounds +
+Pet Sounds - Remastered / The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions)
 
 
 [pass]
@@ -7170,7 +7170,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie in which this song played a significant part,
+Name the song (including both the main title and the part in parentheses)
 
 
 
@@ -7184,7 +7184,7 @@ poster="question_mark.jpg"
 preload="auto"
 playsinline
 >
-<source src=Audio/Trimmed/Roy-Orbison-In-Dreams-MVRunwyoTMA.mp4 type="video/mp4" />
+<source src=Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4 type="video/mp4" />
 </video>
 +++++++++++
 
@@ -7200,8 +7200,8 @@ Show answer
 +++++++++++++++++
 
 [[answer_q109]]
-Blue Velvet +
-In Dreams / Roy Orbison / In Dreams
+Escape (The Pina Colada Song) +
+Escape (The Pina Colada Song) / Rupert Holmes / Partners In Crime
 
 
 [pass]
