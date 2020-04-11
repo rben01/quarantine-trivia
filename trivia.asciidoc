@@ -11,6 +11,7 @@
 html, body { height: 100%; }
 .fullheight { overflow-y:auto; height:100vh; }​
 a:link { color:#547CBB ! important; text-decoration:none; }
+div p a:link { color:#547CBB ! important; }
 .toclevel1 a:link { color:#547CBB ! important; text-decoration:none; }
 .toclevel2 a:link { color:#547CBB ! important; text-decoration:none; }
 .toclevel3 a:link { color:#547CBB ! important; text-decoration:none; }
@@ -44,7 +45,7 @@ a[tabindex]:focus { color:#547CBB; outline:none; }
 
 ==== Question
 
-Name the performer.
+Name the *performer*.
 
 
 
@@ -107,7 +108,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -172,7 +173,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song (title must be exact).
+Name the *song* (title must be exact).
 
 
 
@@ -237,7 +238,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the group.
+Name the *group*.
 
 
 
@@ -302,7 +303,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -367,7 +368,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the *song*. 
 
 
 
@@ -432,7 +433,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -497,7 +498,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -562,7 +563,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -627,7 +628,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the album on which this song appeared.
+Name the *album*.
 
 
 
@@ -697,7 +698,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -762,7 +763,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -827,7 +828,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the artist.
+Name the *artist*.
 
 
 
@@ -892,7 +893,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -957,7 +958,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -1022,7 +1023,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the lead singer (not the band).
+Name the *lead singer* (not the band).
 
 
 
@@ -1087,7 +1088,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -1152,7 +1153,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -1217,7 +1218,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -1282,7 +1283,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the group.
+Name the *group*.
 
 
 
@@ -1352,7 +1353,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the performer.
+Name the *performer*.
 
 
 
@@ -1417,7 +1418,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -1482,7 +1483,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -1547,7 +1548,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -1612,7 +1613,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -1677,7 +1678,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the artist.
+Name the *artist*.
 
 
 
@@ -1742,7 +1743,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -1807,7 +1808,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the performer.
+Name the *performer*.
 
 
 
@@ -1872,7 +1873,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the artist.
+Name the *artist*.
 
 
 
@@ -1937,7 +1938,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the performer.
+Name the *performer*.
 
 
 
@@ -2007,7 +2008,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -2072,7 +2073,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -2137,7 +2138,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the *singer*.
 
 
 
@@ -2202,7 +2203,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -2267,7 +2268,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -2332,7 +2333,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -2397,7 +2398,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the group.
+Name the *group*.
 
 
 
@@ -2462,7 +2463,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -2527,7 +2528,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.   
+Name the *song*.   
 
 
 
@@ -2592,7 +2593,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the artist. 
+Name the *artist*. 
 
 
 
@@ -2662,7 +2663,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the *song*. 
 
 
 
@@ -2727,7 +2728,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -2792,7 +2793,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -2857,7 +2858,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -2922,7 +2923,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the group.
+Name the *group*.
 
 
 
@@ -2987,7 +2988,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -3052,7 +3053,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the artist.
+Name the *artist*.
 
 
 
@@ -3117,7 +3118,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the artist.
+Name the *artist*.
 
 
 
@@ -3182,7 +3183,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -3247,7 +3248,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the *singer*.
 
 
 
@@ -3317,7 +3318,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -3382,7 +3383,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the Artist.
+Name the *artist*.
 
 
 
@@ -3447,7 +3448,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the lead singer.
+Name the *lead singer*.
 
 
 
@@ -3512,7 +3513,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the *singer*.
 
 
 
@@ -3577,7 +3578,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -3642,7 +3643,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the film that this song was featured in. 
+Name the *film* that this song was featured in. 
 
 
 
@@ -3707,7 +3708,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the performer.
+Name the *performer*.
 
 
 
@@ -3772,7 +3773,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the *song*. 
 
 
 
@@ -3837,7 +3838,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the *singer*.
 
 
 
@@ -3902,7 +3903,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -3972,7 +3973,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie.
+Name the *movie*.
 
 
 
@@ -4037,7 +4038,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie.
+Name the *movie*.
 
 
 
@@ -4102,7 +4103,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie.
+Name the *movie*.
 
 
 
@@ -4167,7 +4168,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie.
+Name the *movie*.
 
 
 
@@ -4232,7 +4233,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie.
+Name the *movie*.
 
 
 
@@ -4297,7 +4298,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie.
+Name the *movie*.
 
 
 
@@ -4362,7 +4363,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie.
+Name the *movie*.
 
 
 
@@ -4427,7 +4428,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie.
+Name the *movie*.
 
 
 
@@ -4492,7 +4493,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie.
+Name the *movie*.
 
 
 
@@ -4557,7 +4558,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie.
+Name the *movie*.
 
 
 
@@ -4627,7 +4628,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the musical.
+Name the *musical*.
 
 
 
@@ -4692,7 +4693,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the musical.
+Name the *musical*.
 
 
 
@@ -4757,7 +4758,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the composer.
+Name the *composer*.
 
 
 
@@ -4822,7 +4823,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the musical.
+Name the *musical*.
 
 
 
@@ -4887,7 +4888,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the *song*. 
 
 
 
@@ -4952,7 +4953,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the musical.
+Name the *musical*.
 
 
 
@@ -5017,7 +5018,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -5082,7 +5083,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the composer.
+Name the *composer*.
 
 
 
@@ -5147,7 +5148,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the musical.
+Name the *musical*.
 
 
 
@@ -5212,7 +5213,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the musical.
+Name the *musical*.
 
 
 
@@ -5282,7 +5283,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the *singer*.
 
 
 
@@ -5347,7 +5348,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -5412,7 +5413,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -5477,7 +5478,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band with the very 70s-sounding name.
+Name the *band* with the very 70s-sounding name.
 
 
 
@@ -5542,7 +5543,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the *singer*.
 
 
 
@@ -5607,7 +5608,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the *singer*.
 
 
 
@@ -5672,7 +5673,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -5737,7 +5738,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the *singer*.
 
 
 
@@ -5802,7 +5803,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the singer.
+Name the *singer*.
 
 
 
@@ -5867,7 +5868,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band.
+Name the *band*.
 
 
 
@@ -5937,7 +5938,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -6002,7 +6003,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the person who sang this song in the movie in which it first appeared.
+Name the *person* who sang this song in the movie in which it first appeared.
 
 
 
@@ -6067,7 +6068,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -6132,7 +6133,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song. 
+Name the *song*. 
 
 
 
@@ -6197,7 +6198,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -6262,7 +6263,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -6327,7 +6328,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -6392,7 +6393,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -6457,7 +6458,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -6522,7 +6523,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -6592,7 +6593,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song.
+Name the *song*.
 
 
 
@@ -6657,7 +6658,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song (including both the main title and the part in parentheses).
+Name the *song* (including both the main title and the part in parentheses).
 
 
 
@@ -6722,7 +6723,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the city in which the lead singer of this band is buried.
+Name the *city* in which the lead singer of this band is buried.
 
 
 
@@ -6787,7 +6788,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the group.
+Name the *group*.
 
 
 
@@ -6852,7 +6853,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the album.
+Name the *album*.
 
 
 
@@ -6917,7 +6918,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-In this song, what "has bitten the dust?"
+In this *song*, what "has bitten the dust?"
 
 
 
@@ -6982,7 +6983,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the movie in which this song played a significant part,
+Name the *movie* in which this song played a significant part,
 
 
 
@@ -7047,7 +7048,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name either one of the two movies that had this song as their opening credit music.
+Name *either one of the two movies* that had this song as their opening credit music.
 
 
 
@@ -7112,7 +7113,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the band, the song and the album - we need all three.
+Name the *band*, the *song* and the *album* - we need all three.
 
 
 
@@ -7177,7 +7178,7 @@ b.innerHTML = "Show answer";
 
 ==== Question
 
-Name the song (including both the main title and the part in parentheses)
+Name the *song* (including both the main title and the part in parentheses)
 
 
 

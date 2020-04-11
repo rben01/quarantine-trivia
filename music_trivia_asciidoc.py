@@ -388,6 +388,7 @@ def generate_asciidoc(trivia_items: List[TriviaItem], *, embed_videos_in_html=Fa
 html, body { height: 100%; }
 .fullheight { overflow-y:auto; height:100vh; }​
 a:link { color:#547CBB ! important; text-decoration:none; }
+div p a:link { color:#547CBB ! important; }
 .toclevel1 a:link { color:#547CBB ! important; text-decoration:none; }
 .toclevel2 a:link { color:#547CBB ! important; text-decoration:none; }
 .toclevel3 a:link { color:#547CBB ! important; text-decoration:none; }
