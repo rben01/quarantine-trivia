@@ -7,13 +7,20 @@
 
 [subs=""]
 ++++++++++++
-<style>
+<style type="text/css">
 html, body { height: 100%; }
 .fullheight { overflow-y:auto; height:100vh; }​
-a { color:blue; }
-a:visited { color:blue; }
-a:active { color:blue; }
-a[tabindex]:focus { color:blue; outline:none; }
+a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel1 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel2 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel3 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel1 a:hover { color:#547CBB ! important; text-decoration:underline; }
+.toclevel2 a:hover { color:#547CBB ! important; text-decoration:underline; }
+.toclevel3 a:hover { color:#547CBB ! important; text-decoration:underline; }
+a:visited { color:#547CBB; }
+a:active { color:#547CBB; text-decoration:unerline; }
+a:active { color:#547CBB; text-decoration:unerline; }
+a[tabindex]:focus { color:#547CBB; outline:none; }
 #footer { visibility:hidden; }
 </style>
 ++++++++++++
@@ -7135,7 +7142,7 @@ Show answer
 +++++++++++++++++
 
 [[answer_q108]]
-the Beach Boys; Pet Sounds; Pet Sounds +
+The Beach Boys; Pet Sounds; Pet Sounds +
 Pet Sounds - Remastered / The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions)
 
 

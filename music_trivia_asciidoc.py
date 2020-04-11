@@ -374,7 +374,7 @@ def get_next_trivia_item_link_text(ti_index: int, trivia_items: List[TriviaItem]
     )
 
 
-def generate_asciidoc(trivia_items: List[TriviaItem]):
+def generate_asciidoc(trivia_items: List[TriviaItem], *, embed_videos_in_html=False):
     preamble = """
 = Music trivia
 :nofooter:
@@ -384,13 +384,20 @@ def generate_asciidoc(trivia_items: List[TriviaItem]):
 
 [subs=""]
 ++++++++++++
-<style>
+<style type="text/css">
 html, body { height: 100%; }
 .fullheight { overflow-y:auto; height:100vh; }​
-a { color:blue; }
-a:visited { color:blue; }
-a:active { color:blue; }
-a[tabindex]:focus { color:blue; outline:none; }
+a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel1 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel2 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel3 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel1 a:hover { color:#547CBB ! important; text-decoration:underline; }
+.toclevel2 a:hover { color:#547CBB ! important; text-decoration:underline; }
+.toclevel3 a:hover { color:#547CBB ! important; text-decoration:underline; }
+a:visited { color:#547CBB; }
+a:active { color:#547CBB; text-decoration:unerline; }
+a:active { color:#547CBB; text-decoration:unerline; }
+a[tabindex]:focus { color:#547CBB; outline:none; }
 #footer { visibility:hidden; }
 </style>
 ++++++++++++
@@ -414,6 +421,7 @@ a[tabindex]:focus { color:blue; outline:none; }
 
     last_round_name = None
     round_index = 0
+
     for ti_index, trivia_item in enumerate(trivia_items):
 
         round_name = trivia_item.round_name
@@ -436,8 +444,7 @@ a[tabindex]:focus { color:blue; outline:none; }
         add_line(trivia_item.question, empty_after=1)
 
         if not pd.isna(trivia_item.source):
-            _should_embed = False
-            if _should_embed:
+            if embed_videos_in_html:
                 with open(trivia_item.source, "rb") as f:
                     b64_enc_vid = base64.b64encode(f.read()).decode("ascii")
                 src = f"data:video/mp4;base64,{b64_enc_vid}"
@@ -535,22 +542,29 @@ b.innerHTML = "Show answer";
     return "\n".join(doc_parts)
 
 
-def write_asciidoc(df=None):
+def write_asciidoc(df=None, *, embed_videos_in_html=False):
+
     if df is None:
         df = consolidate_metadata(trim=True)
 
     trivia_items = get_trivia_items(df)
-    with open("trivia.asciidoc", "w") as f:
-        f.write(generate_asciidoc(trivia_items))
+
+    if embed_videos_in_html:
+        outfile = "trivia_embedded.asciidoc"
+    else:
+        outfile = "trivia.asciidoc"
+
+    with open(outfile, "w") as f:
+        f.write(
+            generate_asciidoc(trivia_items, embed_videos_in_html=embed_videos_in_html)
+        )
 
     return subprocess.check_output(
-        ["asciidoc", "-b", "html5", "trivia.asciidoc"],
-        stderr=subprocess.STDOUT,
-        text=True,
+        ["asciidoc", "-b", "html5", outfile], stderr=subprocess.STDOUT, text=True,
     )
 
 
-write_asciidoc(df)
+write_asciidoc(df, embed_videos_in_html=False)
 
 
 # %%
