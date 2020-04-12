@@ -488,7 +488,7 @@ loading="lazy"
 controls
 width="300
 poster="question_mark.jpg"
-preload="auto"
+preload="metadata"
 playsinline
 >
 <source src={src} type="video/mp4" />
