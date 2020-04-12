@@ -198,6 +198,8 @@ def trim_audio(in_file: str, start: float, end: float, verbose=False):
                 f"measured_thresh={ln_input_thresh}",
             ]
         ),
+        "-af",
+        "volume=5dB",
         # "-vf",
         # "pad=ceil(iw/2)*2:ceil(ih/2)*2",
         "-acodec",
@@ -406,6 +408,31 @@ a[tabindex]:focus { color:#547CBB; outline:none; }
 == Welcome
 
 [big]#Welcome to Week 2 of quarantine trivia: *music*!#
+
+.Here's how it works:
+. No Google or Shazam (obviously!)
+. You will be hearing audio clips. All audio clips are from the beginning of the song.
+. Unless the question asks for an exact song title, it is ok if you omit the words
+``a'' and ``the'' at the beginning of a song title or a band's name. However, plural vs.
+singular counts.
+. Each team, even if working together remotely, has to decide on one answer.
+. We're working under the the honor system
+. There will be 10 questions per round, and the end of each round we'll give out the
+answers, you'll score yourselves, and we'll tally scores.
+. Each right answer will be worth 1 point, except in the bonus round where they're
+worth 2 points.
+
+.Here are the categories:
+[upperalpha]
+. General/Top 40 -- 60 questions
+. Movie music -- 10 questions
+. Broadway -- 10 questions
+. New York songs -- 10 questions
+. One-hit wonders -- 10 questions
+. Bonus (harder) -- 10 questions
+
+[big]*Get Ready, and Good Luck!*
+
     """
 
     doc_parts = []
@@ -565,7 +592,7 @@ def write_asciidoc(df=None, *, embed_videos_in_html=False):
     )
 
 
-write_asciidoc(df, embed_videos_in_html=False)
+write_asciidoc(df, embed_videos_in_html=True)
 
 
 # %%
