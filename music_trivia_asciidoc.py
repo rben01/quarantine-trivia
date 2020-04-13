@@ -514,7 +514,7 @@ Show answer
             empty_after=1,
         )
         add_line(f"[[answer_{question_id}]]")
-        add_line(f"{trivia_item.answer} +")
+        add_line(f"[big]**{trivia_item.answer}** +")
         add_line(" / ".join(trivia_item.metadata), empty_after=1)
         add_line(
             f"""
@@ -543,7 +543,7 @@ b.innerHTML = "Show answer";
             ti_index < len(trivia_items) - 1
             and trivia_item.round_name != trivia_items[ti_index + 1].round_name
         ):
-            add_line("[big]*End of round*", empty_after=1)
+            add_line("[big]_End of round_", empty_after=1)
 
         add_line('[role="fullheight"]')
         prev_link_text = get_prev_trivia_item_link_text(ti_index, trivia_items)
@@ -592,7 +592,7 @@ def write_asciidoc(df=None, *, embed_videos_in_html=False):
     )
 
 
-write_asciidoc(df, embed_videos_in_html=True)
+write_asciidoc(df, embed_videos_in_html=False)
 
 
 # %%
