@@ -174,7 +174,7 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
 }
 \begin{document}
 
-\title{Welcome to Quarantine Movie Trivia!}
+\title{Welcome to Quarantined Movie Trivia!}
 \date{}
 
 \begin{frame}
