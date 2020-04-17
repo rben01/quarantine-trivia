@@ -17,20 +17,30 @@ N_QUESTIONS_PER_ROUND = 10
 Q_COL = "Question"
 A_COL = "Answer"
 IS_MOVIE_COL = "Answer is movie"
+IMAGE_COL = "Image"
 
 LATEX_DIR: Path = Path("LaTeX")
 LATEX_DIR.mkdir(exist_ok=True)
 
 
 class TriviaItem:
-    def __init__(self, *, q, a, round_name, number):
+    def __init__(self, *, q, a, round_name, number, image_file):
         self.question = q
         self.answer = a
         self.round_name = round_name
         self.number = number
+        self.image_file = image_file
 
     def __repr__(self):
-        return f"T(q={self.question}, a={self.answer}, r={self.round_name})"
+        contents = ", ".join(
+            [
+                f"q={self.question}",
+                f"a={self.answer}",
+                f"r={self.round_name}",
+                f"f={self.image_file}",
+            ]
+        )
+        return f"T({contents})"
 
 
 def get_trivia_items() -> List[TriviaItem]:
@@ -58,13 +68,13 @@ def get_trivia_items() -> List[TriviaItem]:
 
     q_num = 1
     round_i = 1
-    trivia_items = []
+    trivia_items: List[TriviaItem] = []
     for df in [regular_df, bonus_df]:
         if TEST:
             df = df.iloc[:12, :]
 
         n_qs = len(df)
-        n_subsections = ((n_qs) - 1) // N_QUESTIONS_PER_ROUND + 1
+        n_subsections = (n_qs - 1) // N_QUESTIONS_PER_ROUND + 1
         for i in range(n_subsections):
             start_idx = i * N_QUESTIONS_PER_ROUND
             end_idx = start_idx + N_QUESTIONS_PER_ROUND
@@ -77,13 +87,27 @@ def get_trivia_items() -> List[TriviaItem]:
                 round_basename = "Bonus Round"
 
             round_i += 1
-
             round_name = round_basename
 
             for _, row in this_round_df.iterrows():
+                if pd.isna(row[IMAGE_COL]):
+                    image_file = None
+                else:
+                    image_file_path: Path = Path(row[IMAGE_COL])
+                    image_file = (
+                        "{"
+                        + str(Path("Images") / image_file_path.stem)
+                        + "}"
+                        + image_file_path.suffix
+                    )
+
                 trivia_items.append(
                     TriviaItem(
-                        q=row[Q_COL], a=row[A_COL], round_name=round_name, number=q_num
+                        q=row[Q_COL],
+                        a=row[A_COL],
+                        round_name=round_name,
+                        number=q_num,
+                        image_file=image_file,
                     )
                 )
 
@@ -94,12 +118,15 @@ def get_trivia_items() -> List[TriviaItem]:
 
 get_trivia_items()
 
+# %%
 
 # Best themes: Montepellier, EastLansing, Antibes, Bergen# CambridgeUS, Hannover
 # Best color themes: rose, orchid, lily, dolphin, seahorse
 def make_latex(trivia_items: List[TriviaItem]) -> str:
     preamble = r"""\documentclass[11pt]{beamer}
 \usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage[space,multidot]{grffile}
 
 \usetheme[hideothersubsections]{Hannover}
 \usecolortheme{dolphin}
@@ -116,8 +143,8 @@ def make_latex(trivia_items: List[TriviaItem]) -> str:
 
 % \usefonttheme{professionalfonts} % using non standard fonts for beamer
 \usepackage[utf8]{inputenc}
-% \usefonttheme{serif} % default family is serif
-\usepackage[defaultsans]{cantarell}
+\usefonttheme{serif} % default family is serif
+\usepackage{XCharter}
 % stix2
 % XCharter
 % (sans) [defaultsans]{cantarell}
@@ -147,7 +174,7 @@ def make_latex(trivia_items: List[TriviaItem]) -> str:
 }
 \begin{document}
 
-\title{Welcome to Quarantine Trivia!}
+\title{Welcome to Quarantine Movie Trivia!}
 \date{}
 
 \begin{frame}
@@ -179,7 +206,7 @@ def make_latex(trivia_items: List[TriviaItem]) -> str:
 \end{{frame}}
     """
 
-    answer_template_str = r"""
+    answer_sans_image_template_str = r"""
 \begin{{frame}}[t]{{{question_title}}}
 \vspace{{2em}}
 \begin{{block}}{{Question}}
@@ -189,6 +216,28 @@ def make_latex(trivia_items: List[TriviaItem]) -> str:
 \begin{{block}}{{Answer}}
 {answer}
 \end{{block}}
+\end{{frame}}
+    """
+
+    answer_with_image_template_str = r"""
+\begin{{frame}}[t]{{{question_title}}}
+\vspace{{2em}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+\pause{{}}
+\begin{{columns}}[T,totalwidth=\linewidth]
+\begin{{column}}{{0.4\linewidth}}
+\begin{{block}}{{Answer}}
+{answer}
+\end{{block}}
+\end{{column}}
+\begin{{column}}{{0.55\linewidth}}
+\begin{{center}}
+\includegraphics[max width=0.95\textwidth,max height=0.4\textheight]{{{image_file}}}
+\end{{center}}
+\end{{column}}
+\end{{columns}}
 \end{{frame}}
     """
 
@@ -213,13 +262,24 @@ def make_latex(trivia_items: List[TriviaItem]) -> str:
             round_name = trivia_item.round_name
             number = trivia_item.number
 
-            latex_items.append(
-                answer_template_str.format(
-                    question_title=f"{round_name}, Answer {number}",
-                    question=trivia_item.question,
-                    answer=trivia_item.answer,
+            if pd.isna(trivia_item.image_file):
+                latex_items.append(
+                    answer_sans_image_template_str.format(
+                        question_title=f"{round_name}, Answer {number}",
+                        question=trivia_item.question,
+                        answer=trivia_item.answer,
+                    )
                 )
-            )
+
+            else:
+                latex_items.append(
+                    answer_with_image_template_str.format(
+                        question_title=f"{round_name}, Answer {number}",
+                        question=trivia_item.question,
+                        answer=trivia_item.answer,
+                        image_file=trivia_item.image_file,
+                    )
+                )
 
     latex_items.append(preamble)
 
@@ -239,6 +299,8 @@ def make_latex(trivia_items: List[TriviaItem]) -> str:
             this_round_items: List[TriviaItem] = []
 
         this_round_items.append(trivia_item)
+
+    append_qs_and_as(this_round_items)
 
     latex_items.append(
         r"""
