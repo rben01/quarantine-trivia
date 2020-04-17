@@ -129,7 +129,7 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
 \usepackage[space,multidot]{grffile}
 
 \usetheme[hideothersubsections]{Hannover}
-\usecolortheme{dolphin}
+\usecolortheme{seahorse}
 \setbeamercovered{invisible}
 \setbeamertemplate{navigation symbols}{\insertslidenavigationsymbol}
 \setbeamertemplate{page number in head/foot}{}
