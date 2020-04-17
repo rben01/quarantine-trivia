@@ -227,14 +227,14 @@ def make_latex(trivia_items: List[TriviaItem]) -> str:
 \end{{block}}
 \pause{{}}
 \begin{{columns}}[T,totalwidth=\linewidth]
-\begin{{column}}{{0.4\linewidth}}
+\begin{{column}}{{0.35\linewidth}}
 \begin{{block}}{{Answer}}
 {answer}
 \end{{block}}
 \end{{column}}
-\begin{{column}}{{0.55\linewidth}}
+\begin{{column}}{{0.6\linewidth}}
 \begin{{center}}
-\includegraphics[max width=0.95\textwidth,max height=0.4\textheight]{{{image_file}}}
+\includegraphics[max width=0.9\textwidth,max height=0.4\textheight]{{{image_file}}}
 \end{{center}}
 \end{{column}}
 \end{{columns}}
