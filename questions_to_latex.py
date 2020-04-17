@@ -122,7 +122,7 @@ get_trivia_items()
 
 # Best themes: Montepellier, EastLansing, Antibes, Bergen# CambridgeUS, Hannover
 # Best color themes: rose, orchid, lily, dolphin, seahorse
-def make_latex(trivia_items: List[TriviaItem]) -> str:
+def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> str:
     preamble = r"""\documentclass[11pt]{beamer}
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
@@ -262,7 +262,7 @@ def make_latex(trivia_items: List[TriviaItem]) -> str:
             round_name = trivia_item.round_name
             number = trivia_item.number
 
-            if pd.isna(trivia_item.image_file):
+            if pd.isna(trivia_item.image_file) or not include_images:
                 latex_items.append(
                     answer_sans_image_template_str.format(
                         question_title=f"{round_name}, Answer {number}",
@@ -329,7 +329,11 @@ def make_latex(trivia_items: List[TriviaItem]) -> str:
 
     latex_str = "\n".join(latex_items)
 
-    with (LATEX_DIR / "movie_trivia.tex").open("w") as f:
+    if include_images:
+        outfile = "movie_trivia.tex"
+    else:
+        outfile = "movie_trivia_no_images.tex"
+    with (LATEX_DIR / outfile).open("w") as f:
         f.write(latex_str)
 
     return latex_str
@@ -346,6 +350,8 @@ if __name__ == "__main__":
     # with open("test.json", "w") as f:
     #   json.dump({k: [x.to_dict() for x in v] for k, v in rounds.items()}, f, indent=2)
 
-    make_latex(get_trivia_items())
+    items = get_trivia_items()
+    make_latex(items)
+    make_latex(items, include_images=False)
 
 # %%
