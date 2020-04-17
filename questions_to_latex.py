@@ -332,7 +332,7 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
     if include_images:
         outfile = "movie_trivia.tex"
     else:
-        outfile = "movie_trivia_no_images.tex"
+        outfile = "no_img_movie_trivia.tex"
     with (LATEX_DIR / outfile).open("w") as f:
         f.write(latex_str)
 
