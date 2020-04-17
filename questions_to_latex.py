@@ -19,8 +19,8 @@ A_COL = "Answer"
 IS_MOVIE_COL = "Answer is movie"
 IMAGE_COL = "Image"
 
-LATEX_DIR: Path = Path("LaTeX")
-LATEX_DIR.mkdir(exist_ok=True)
+LATEX_DIR: Path = Path("docs/LaTeX")
+LATEX_DIR.mkdir(exist_ok=True, parents=True)
 
 
 class TriviaItem:
