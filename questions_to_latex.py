@@ -139,7 +139,7 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
 % \setbeamerfont{subsubsection in sidebar}{size=\fontsize{4}{2}\selectfont}
 
 \usepackage{microtype}
-\DisableLigatures[f]{encoding = *, family = *}
+% \DisableLigatures[f]{encoding = *, family = *}
 
 % \usefonttheme{professionalfonts} % using non standard fonts for beamer
 \usepackage[utf8]{inputenc}
