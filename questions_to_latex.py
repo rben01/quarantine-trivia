@@ -174,8 +174,9 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
 }
 \begin{document}
 
-\title{Welcome to Quarantined Movie Trivia!}
+\title{Welcome to Quarantine Movie Trivia!\vspace{-0.5in}}
 \date{}
+\titlegraphic{\includegraphics[max width=0.8\textwidth]{Images/lights-camera-action}}
 
 \begin{frame}
 \titlepage{}
