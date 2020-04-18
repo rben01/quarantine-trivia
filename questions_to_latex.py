@@ -70,6 +70,8 @@ def get_trivia_items() -> List[TriviaItem]:
     round_i = 1
     trivia_items: List[TriviaItem] = []
     for df in [regular_df, bonus_df]:
+        is_bonus = df is bonus_df
+
         if TEST:
             df = df.iloc[:12, :]
 
@@ -81,10 +83,10 @@ def get_trivia_items() -> List[TriviaItem]:
 
             this_round_df: pd.DataFrame = df.iloc[start_idx:end_idx, :]
 
-            if df is not bonus_df:
-                round_basename = f"Round {round_i}"
-            else:
+            if is_bonus:
                 round_basename = "Bonus Round"
+            else:
+                round_basename = f"Round {round_i}"
 
             round_i += 1
             round_name = round_basename
@@ -127,6 +129,7 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
 \usepackage[space,multidot]{grffile}
+\usepackage{ifthen}
 
 \usetheme[hideothersubsections]{Hannover}
 \usecolortheme{seahorse}
@@ -149,7 +152,6 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
 % XCharter
 % (sans) [defaultsans]{cantarell}
 
-\AtBeginSection[]{}
 \AtBeginSection[]{
   \begin{frame}
     \vfill
@@ -157,6 +159,11 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
     \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
     \usebeamerfont{title}\insertsectionhead\par%
     \end{beamercolorbox}
+    \ifthenelse{\equal{\secname}{Bonus Round} \AND{\equal{\subsecname}{Answers}}}{
+        Get ready for some \emph{devilishly} hard questions!
+
+        \includegraphics[width=0.5\textwidth]{Images/devil}
+    }
     \vfill
   \end{frame}
 }
