@@ -9,3 +9,4 @@
 *.synctex.gz
 *.synctex.gz\(Busy\)
 *.toc
+.vscode/settings.json
