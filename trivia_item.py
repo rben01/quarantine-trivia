@@ -1,10 +1,10 @@
 # %%
 import re
-from typing import Tuple, List
+from typing import List, Tuple
 
 import pandas as pd
 
-from latex_templates import LatexTemplates, ABCTemplateGroup
+from latex_templates import ABCTemplateGroup, BeamerFrame, LatexTemplates
 
 
 class TextDimInfo:
@@ -89,15 +89,15 @@ class TriviaItem:
 
         return template_type is LatexTemplates.Generic
 
-    def get_q_and_a_strs(self) -> Tuple[str, str]:
-        def get_question():
+    def get_q_and_a_frames(self) -> Tuple[BeamerFrame, BeamerFrame]:
+        def get_question() -> BeamerFrame:
             for c in self.TEMPLATE_HANDLERS:
                 if self.matches(c):
                     return c.Q.get_frame_for(self)
 
             raise ValueError
 
-        def get_answer():
+        def get_answer() -> BeamerFrame:
             for c in self.TEMPLATE_HANDLERS:
                 if self.matches(c):
                     return c.A.get_frame_for(self)

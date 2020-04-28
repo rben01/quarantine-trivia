@@ -8,7 +8,8 @@ import numpy as np
 import pandas as pd
 from IPython.display import display  # noqa F401
 
-from trivia_item import LatexTemplates, TriviaItem
+from trivia_item import TriviaItem
+from latex_templates import BeamerFrame, LatexTemplates
 
 np.random.seed(126)
 
@@ -148,96 +149,25 @@ def get_trivia_items() -> List[TriviaItem]:
 
 
 get_trivia_items()
-# %%
 # Best themes: Montepellier, EastLansing, Antibes, Bergen# CambridgeUS, Hannover
 # Best color themes: rose, orchid, lily, dolphin, seahorse
 def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> str:
 
-    latex_items = []
+    latex_items: List[BeamerFrame] = []
 
     def append_qs_and_as(trivia_items: List[TriviaItem]):
+        answer_frames: List[BeamerFrame] = []
 
         for trivia_item in trivia_items:
-            round_name = trivia_item.round_name
-            number = trivia_item.number
+            qf, af = trivia_item.get_q_and_a_frames()
 
-            question_kwargs = {
-                "question": trivia_item.question,
-                "question_number": number,
-            }
-
-            if trivia_item.section == "Bonus":
-                question_kwargs["question_title"] = f"{round_name}: {trivia_item.topic}"
-            else:
-                question_kwargs["question_title"] = f"{round_name}, Question {number}"
-
-            if trivia_item.q_image_file is None:
-                template_str = LatexTemplates.QUESTION_SANS_IMAGE
-            else:
-                template_str = LatexTemplates.QUESTION_WITH_IMAGE
-                question_kwargs["image_file"] = trivia_item.q_image_file
-
-            latex_items.append(template_str.format(**question_kwargs))
+            latex_items.append(qf)
+            answer_frames.append(af)
 
         latex_items.append(r"\subsection{Answers}")
-        for trivia_item in trivia_items:
-            round_name = trivia_item.round_name
-            number = trivia_item.number
 
-            answer_kwargs = {
-                "question": trivia_item.question,
-                "answer": trivia_item.answer,
-            }
-
-            if trivia_item.section == "Bonus":
-                answer_kwargs["question_title"] = f"{round_name}: {trivia_item.topic}"
-            else:
-                answer_kwargs["question_title"] = f"{round_name}, Answer {number}"
-
-            if r"\begin{enumerate}" in trivia_item.answer:
-                answer_kwargs["maybe_s"] = "s"
-            else:
-                answer_kwargs["maybe_s"] = ""
-
-            if (not include_images) or (
-                trivia_item.q_image_file is None and trivia_item.a_image_file is None
-            ):
-                template_str = LatexTemplates.ANSWER_SANS_IMAGE
-            elif (
-                trivia_item.q_image_file is not None
-                and trivia_item.a_image_file is None
-            ):
-                template_str = LatexTemplates.ANSWER_WITH_QUESTION_WITH_IMAGE
-                answer_kwargs["image_file"] = trivia_item.q_image_file
-            elif trivia_item.topic == "New York" and trivia_item.section == "Bonus":
-                template_str = LatexTemplates.Special.Bonus_NYC.A
-                answer_kwargs["image_file"] = trivia_item.a_image_file
-            elif (
-                trivia_item.q_image_file is None
-                and trivia_item.a_image_file is not None
-            ):
-                (
-                    (q_w, q_h, q_w_wr, q_h_wr),
-                    (a_w, a_h, a_w_wr, a_h_wr),
-                ) = trivia_item.get_approx_qanda_dims()
-                if trivia_item.image_in_q:
-                    template_str = LatexTemplates.ANSWER_WITH_IMAGE_MOVED_TO_QUESTION
-                else:
-                    template_str = LatexTemplates.ANSWER_WITH_IMAGE
-                    answer_kwargs["image_height"] = 0.58 - 0.04 * (q_h - 1)
-
-                answer_kwargs["image_file"] = trivia_item.a_image_file
-            elif (
-                trivia_item.q_image_file is not None
-                and trivia_item.a_image_file is not None
-            ):
-                template_str = LatexTemplates.ANSWER_WITH_IMAGE_AND_QUESTION_WITH_IMAGE
-                answer_kwargs["q_image_file"] = trivia_item.q_image_file
-                answer_kwargs["a_image_file"] = trivia_item.a_image_file
-            else:
-                raise ValueError(f"Logic error for {trivia_item}")
-
-            latex_items.append(template_str.format(**answer_kwargs))
+        for af in answer_frames:
+            latex_items.append(af)
 
     latex_items.append(LatexTemplates.PREAMBLE)
 

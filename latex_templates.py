@@ -1,11 +1,13 @@
 from __future__ import annotations
+from typing import TYPE_CHECKING
 
 from typing import Mapping, NewType
 
+if TYPE_CHECKING:
+    from trivia_item import TriviaItem
+
 LatexTemplate = NewType("LatexTemplate", str)
 BeamerFrame = NewType("BeamerFrame", str)
-
-TriviaItem = None
 
 
 class _ABCTemplateSubgroup:
@@ -24,7 +26,7 @@ class ABCTemplateGroup:
 
 class LatexTemplates:
 
-    PREAMBLE = LatexTemplate(
+    PREAMBLE = BeamerFrame(
         r"""
 \documentclass[11pt]{beamer}
 \usepackage{graphicx}
@@ -107,7 +109,7 @@ class LatexTemplates:
         """
     )
 
-    POST_SCRIPT = LatexTemplate(
+    POST_SCRIPT = BeamerFrame(
         r"""
 \section*{\ }
 \subsection*{\ }
@@ -153,9 +155,10 @@ class LatexTemplates:
                 return kwargs
 
             @classmethod
-            def get_str_for(cls, ti: TriviaItem) -> str:
+            def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
                 kwargs = cls.get_common_kwargs(ti)
 
+                template_str: LatexTemplate
                 if ti.q_image_file is None:
                     template_str = cls.QUESTION_SANS_IMAGE
                 else:
@@ -215,7 +218,7 @@ class LatexTemplates:
                 return kwargs
 
             @classmethod
-            def get_str_for(cls, ti: TriviaItem) -> str:
+            def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
                 kwargs = cls.get_common_kwargs(ti)
 
                 template_str: LatexTemplate
@@ -225,13 +228,13 @@ class LatexTemplates:
                     template_str = cls.ANSWER_WITH_QUESTION_WITH_IMAGE
                     kwargs["image_file"] = ti.q_image_file
                 elif ti.q_image_file is None and ti.a_image_file is not None:
-                    (
-                        (q_w, q_h, q_w_wr, q_h_wr),
-                        (a_w, a_h, a_w_wr, a_h_wr),
-                    ) = ti.get_approx_qanda_dims()
                     if ti.image_in_q:
                         template_str = cls.ANSWER_WITH_IMAGE_MOVED_TO_QUESTION
                     else:
+                        (
+                            (q_w, q_h, q_w_wr, q_h_wr),
+                            (a_w, a_h, a_w_wr, a_h_wr),
+                        ) = ti.get_approx_qanda_dims()
                         template_str = cls.ANSWER_WITH_IMAGE
                         kwargs["image_height"] = 0.58 - 0.04 * (q_h - 1)
 
@@ -381,12 +384,12 @@ class LatexTemplates:
             class Q(_ABCTemplateSubgroup):
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
-                    return LatexTemplates.Generic.get_frame_for(ti)
+                    return LatexTemplates.Generic.Q.get_frame_for(ti)
 
             class A(_ABCTemplateSubgroup):
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
-                    kwargs = LatexTemplates.Generic.get_common_kwargs(ti)
+                    kwargs = LatexTemplates.Generic.A.get_common_kwargs(ti)
                     kwargs["image_file"] = ti.a_image_file
 
                     return cls.TEMPLATE.format(**kwargs)
@@ -422,7 +425,7 @@ class LatexTemplates:
             class Q(_ABCTemplateSubgroup):
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
-                    kwargs = LatexTemplates.Generic.get_common_kwargs(ti)
+                    kwargs = LatexTemplates.Generic.Q.get_common_kwargs(ti)
 
                     kwargs["image_file"] = ti.q_image_file
 
@@ -450,7 +453,7 @@ class LatexTemplates:
             class A(_ABCTemplateSubgroup):
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
-                    kwargs = LatexTemplates.Generic.get_common_kwargs()
+                    kwargs = LatexTemplates.Generic.A.get_common_kwargs(ti)
                     kwargs["q_image_file"] = ti.q_image_file
                     kwargs["a_image_file"] = ti.a_image_file
 
@@ -468,9 +471,10 @@ class LatexTemplates:
 \end{{column}}
 \begin{{column}}{{0.47\linewidth}}
 \includegraphics[max width=0.95\textwidth,
-        max height=0.4\textheight]{{{image_file}}}
+        max height=0.4\textheight]{{{q_image_file}}}
 \end{{column}}
 \end{{columns}}
+\pause{{}}
 \begin{{columns}}[T,totalwidth=\linewidth]
 \begin{{column}}{{0.47\linewidth}}
 \begin{{block}}{{Answer}}
@@ -479,7 +483,7 @@ class LatexTemplates:
 \end{{column}}
 \begin{{column}}{{0.47\linewidth}}
 \includegraphics[max width=0.95\textwidth,
-        max height=0.4\textheight]{{{a_image_file}}}
+        max height=0.35\textheight]{{{a_image_file}}}
 \end{{column}}
 \end{{columns}}
 \end{{frame}}
