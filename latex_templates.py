@@ -1,0 +1,487 @@
+from __future__ import annotations
+
+from typing import Mapping, NewType
+
+LatexTemplate = NewType("LatexTemplate", str)
+BeamerFrame = NewType("BeamerFrame", str)
+
+TriviaItem = None
+
+
+class _ABCTemplateSubgroup:
+    @classmethod
+    def get_frame_for(cls, ti: "TriviaItem") -> BeamerFrame:
+        raise NotImplementedError
+
+
+class ABCTemplateGroup:
+    class Q(_ABCTemplateSubgroup):
+        pass
+
+    class A(_ABCTemplateSubgroup):
+        pass
+
+
+class LatexTemplates:
+
+    PREAMBLE = LatexTemplate(
+        r"""
+\documentclass[11pt]{beamer}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage[space,multidot]{grffile}
+\usepackage{ifthen}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usetheme[hideothersubsections]{Goettingen}
+\usecolortheme{seahorse}
+\setbeamercovered{invisible}
+\setbeamertemplate{navigation symbols}{\insertslidenavigationsymbol}
+\setbeamertemplate{page number in head/foot}{}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+% \setbeamerfont{section in sidebar}{size=\fontsize{4}{3}\selectfont}
+% \setbeamerfont{subsection in sidebar}{size=\fontsize{4}{3}\selectfont}
+% \setbeamerfont{subsubsection in sidebar}{size=\fontsize{4}{2}\selectfont}
+
+\usepackage{microtype}
+% \DisableLigatures[f]{encoding = *, family = *}
+
+% \usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usepackage[utf8]{inputenc}
+\usefonttheme{serif} % default family is serif
+\usepackage{XCharter}
+% stix2
+% XCharter
+% (sans) [defaultsans]{cantarell}
+
+\AtBeginSection[]{
+  \begin{frame}
+    \vfill
+    \centering
+    \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+    \ifthenelse{\equal{\secname}{Bonus Round}}{}{
+        \usebeamerfont{subtitle}\thisSectionName\par%
+    }
+    \end{beamercolorbox}
+
+    \ifthenelse{\equal{\secname}{Bonus Rakjshdound} \AND{\equal{\subsecname}{Answers}}}{
+        Get ready for some \emph{devilishly} hard questions!
+
+        \includegraphics[width=0.5\textwidth]{Images/devil.jpg}
+    }
+    \vfill
+  \end{frame}
+}
+
+\AtBeginSubsection[]{
+  \begin{frame}
+    \vfill
+    \centering
+    \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+    \usebeamerfont{subtitle}\insertsubsectionhead\par%
+    \end{beamercolorbox}
+    \vfill
+  \end{frame}
+}
+\begin{document}
+
+\title{Welcome to Quarantine General Trivia II!\vspace{-0.5in}}
+\date{}
+
+\begin{frame}
+\titlepage{}
+\end{frame}
+
+\begingroup{}
+\begin{frame}
+\vfill{}
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}Good luck everyone! And have fun!
+\end{beamercolorbox}
+\vfill{}
+\end{frame}
+\endgroup{}
+        """
+    )
+
+    POST_SCRIPT = LatexTemplate(
+        r"""
+\section*{\ }
+\subsection*{\ }
+\begingroup{}
+\setbeamertemplate{headline}{}
+\begin{frame}
+\vfill{}
+\centering{}
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}Thanks for playing!\par%
+\end{beamercolorbox}
+\vfill{}
+\end{frame}
+\endgroup{}
+% \begingroup{}
+% \setbeamertemplate{headline}{}
+% \section*{Thanks for playing!}
+% \subsection*{\ }
+% \endgroup{}
+
+\end{document}
+        """
+    )
+
+    ROUND_SECTION = LatexTemplate(
+        r"""
+\def\thisSectionName{{{section}}}
+\section{{{round_name}}}
+        """
+    )
+
+    class Generic(ABCTemplateGroup):
+        class Q(_ABCTemplateSubgroup):
+            @staticmethod
+            def get_common_kwargs(ti: TriviaItem) -> Mapping:
+                kwargs = {"question": ti.question, "question_number": ti.number}
+
+                if ti.section == "Bonus":
+                    kwargs["question_title"] = f"{ti.round_name}: {ti.topic}"
+                else:
+                    kwargs["question_title"] = f"{ti.round_name}, Question {ti.number}"
+
+                return kwargs
+
+            @classmethod
+            def get_str_for(cls, ti: TriviaItem) -> str:
+                kwargs = cls.get_common_kwargs(ti)
+
+                if ti.q_image_file is None:
+                    template_str = cls.QUESTION_SANS_IMAGE
+                else:
+                    template_str = cls.QUESTION_WITH_IMAGE
+                    kwargs["image_file"] = ti.q_image_file
+
+                return template_str.format(**kwargs)
+
+            QUESTION_SANS_IMAGE = LatexTemplate(
+                r"""
+\subsection*{{Q{question_number}}}
+\begin{{frame}}[t]{{{question_title}}}
+% \vspace{{0.5em}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+\end{{frame}}
+                """
+            )
+
+            QUESTION_WITH_IMAGE = LatexTemplate(
+                r"""
+\subsection*{{Q{question_number}}}
+\begin{{frame}}[t]{{{question_title}}}
+% \vspace{{0.5em}}
+\begin{{columns}}[T,totalwidth=\linewidth]
+\begin{{column}}{{0.32\linewidth}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+\end{{column}}
+\begin{{column}}{{0.65\linewidth}}
+\begin{{center}}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{{image_file}}}
+\end{{center}}
+\end{{column}}
+\end{{columns}}
+\end{{frame}}
+                """
+            )
+
+        class A(_ABCTemplateSubgroup):
+            @staticmethod
+            def get_common_kwargs(ti: TriviaItem) -> Mapping:
+                kwargs = {"question": ti.question, "answer": ti.answer}
+
+                if ti.section == "Bonus":
+                    kwargs["question_title"] = f"{ti.round_name}: {ti.topic}"
+                else:
+                    kwargs["question_title"] = f"{ti.round_name}, Answer {ti.number}"
+
+                if r"\begin{enumerate}" in ti.answer:
+                    kwargs["maybe_s"] = "s"
+                else:
+                    kwargs["maybe_s"] = ""
+
+                return kwargs
+
+            @classmethod
+            def get_str_for(cls, ti: TriviaItem) -> str:
+                kwargs = cls.get_common_kwargs(ti)
+
+                template_str: LatexTemplate
+                if ti.q_image_file is None and ti.a_image_file is None:
+                    template_str = cls.ANSWER_SANS_IMAGE
+                elif ti.q_image_file is not None and ti.a_image_file is None:
+                    template_str = cls.ANSWER_WITH_QUESTION_WITH_IMAGE
+                    kwargs["image_file"] = ti.q_image_file
+                elif ti.q_image_file is None and ti.a_image_file is not None:
+                    (
+                        (q_w, q_h, q_w_wr, q_h_wr),
+                        (a_w, a_h, a_w_wr, a_h_wr),
+                    ) = ti.get_approx_qanda_dims()
+                    if ti.image_in_q:
+                        template_str = cls.ANSWER_WITH_IMAGE_MOVED_TO_QUESTION
+                    else:
+                        template_str = cls.ANSWER_WITH_IMAGE
+                        kwargs["image_height"] = 0.58 - 0.04 * (q_h - 1)
+
+                    kwargs["image_file"] = ti.a_image_file
+                elif ti.q_image_file is not None and ti.a_image_file is not None:
+                    template_str = cls.ANSWER_WITH_IMAGE_AND_QUESTION_WITH_IMAGE
+                    kwargs["q_image_file"] = ti.q_image_file
+                    kwargs["a_image_file"] = ti.a_image_file
+                else:
+                    raise ValueError(f"Logic error for {ti}")
+
+                return template_str.format(**kwargs)
+
+            ANSWER_SANS_IMAGE = LatexTemplate(
+                r"""
+\begin{{frame}}[t]{{{question_title}}}
+% \vspace{{0.5em}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+\visible<2->{{
+    \begin{{block}}{{Answer{maybe_s}}}
+    {answer}
+    \end{{block}}
+}}
+\end{{frame}}
+                """
+            )
+
+            ANSWER_WITH_QUESTION_WITH_IMAGE = LatexTemplate(
+                r"""
+\begin{{frame}}[t]{{{question_title}}}
+% \vspace{{0.5em}}
+\begin{{columns}}[T,totalwidth=\linewidth]
+\begin{{column}}{{0.32\linewidth}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+\visible<2->{{
+    \begin{{block}}{{Answer{maybe_s}}}
+    {answer}
+    \end{{block}}
+}}
+\end{{column}}
+\begin{{column}}{{0.65\linewidth}}
+\begin{{center}}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{{image_file}}}
+\end{{center}}
+\end{{column}}
+\end{{columns}}
+\end{{frame}}
+                """
+            )
+
+            ANSWER_WITH_IMAGE_AND_QUESTION_WITH_IMAGE = LatexTemplate(
+                r"""
+\begin{{frame}}[t]{{{question_title}}}
+% \vspace{{0.5em}}
+\begin{{columns}}[T,totalwidth=\linewidth]
+\begin{{column}}{{0.32\linewidth}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+\end{{column}}
+\begin{{column}}{{0.65\linewidth}}
+\begin{{center}}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{{q_image_file}}}
+\end{{center}}
+\end{{column}}
+\end{{columns}}
+
+\visible<2->{{
+    \begin{{columns}}[totalwidth=\linewidth]
+    \begin{{column}}{{0.32\linewidth}}
+    \begin{{block}}{{Answer{maybe_s}}}
+    {answer}
+    \end{{block}}
+    \end{{column}}
+    \begin{{column}}{{0.65\linewidth}}
+    \begin{{center}}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{{a_image_file}}}
+    \end{{center}}
+    \end{{column}}
+    \end{{columns}}
+}}
+\end{{frame}}
+                """
+            )
+
+            ANSWER_WITH_IMAGE_MOVED_TO_QUESTION = LatexTemplate(
+                r"""
+\begin{{frame}}[t]{{{question_title}}}
+% \vspace{{0.5em}}
+\begin{{columns}}[T,totalwidth=\linewidth]
+\begin{{column}}{{0.32\linewidth}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+\visible<2->{{
+    \begin{{block}}{{Answer{maybe_s}}}
+    {answer}
+    \end{{block}}
+}}
+\end{{column}}
+\begin{{column}}{{0.65\linewidth}}
+\visible<2->{{
+    \begin{{center}}
+    \includegraphics[max width=0.9\textwidth,max height=0.7\textheight]{{{image_file}}}
+    \end{{center}}
+}}
+\end{{column}}
+\end{{columns}}
+\end{{frame}}
+                """
+            )
+
+            ANSWER_WITH_IMAGE = LatexTemplate(
+                r"""
+\begin{{frame}}[t]{{{question_title}}}
+% \vspace{{0.5em}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+
+\visible<2->{{
+    \begin{{columns}}[T,totalwidth=\linewidth]
+    \begin{{column}}{{0.32\linewidth}}
+    \begin{{block}}{{Answer{maybe_s}}}
+    {answer}
+    \end{{block}}
+    \end{{column}}
+    \begin{{column}}{{0.65\linewidth}}
+    \begin{{center}}
+    \includegraphics[max width=0.95\textwidth,
+        max height={image_height:.5f}\textheight]{{{image_file}}}
+    \end{{center}}
+    \end{{column}}
+    \end{{columns}}
+}}
+\end{{frame}}
+                """
+            )
+
+    class Special:
+        class Bonus_NYC(ABCTemplateGroup):
+            class Q(_ABCTemplateSubgroup):
+                @classmethod
+                def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
+                    return LatexTemplates.Generic.get_frame_for(ti)
+
+            class A(_ABCTemplateSubgroup):
+                @classmethod
+                def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
+                    kwargs = LatexTemplates.Generic.get_common_kwargs(ti)
+                    kwargs["image_file"] = ti.a_image_file
+
+                    return cls.TEMPLATE.format(**kwargs)
+
+                TEMPLATE = LatexTemplate(
+                    r"""
+\begin{{frame}}[t]{{{question_title}}}
+% \vspace{{0.5em}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+
+\visible<2->{{
+    \begin{{columns}}[T,totalwidth=\linewidth]
+    \begin{{column}}{{0.5\linewidth}}
+    \begin{{block}}{{Answer{maybe_s}}}
+    {answer}
+    \end{{block}}
+    \end{{column}}
+    \begin{{column}}{{0.45\linewidth}}
+    \begin{{center}}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.7\textheight]{{{image_file}}}
+    \end{{center}}
+    \end{{column}}
+    \end{{columns}}
+}}
+\end{{frame}}
+                    """
+                )
+
+        class Bonus_Logos(ABCTemplateGroup):
+            class Q(_ABCTemplateSubgroup):
+                @classmethod
+                def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
+                    kwargs = LatexTemplates.Generic.get_common_kwargs(ti)
+
+                    kwargs["image_file"] = ti.q_image_file
+
+                    return cls.TEMPLATE.format(**kwargs)
+
+                TEMPLATE = LatexTemplate(
+                    r"""
+\begin{{frame}}[t]{{{question_title}}}
+% \vspace{{0.5em}}
+\begin{{columns}}[T,totalwidth=\linewidth]
+\begin{{column}}{{0.47\linewidth}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+\end{{column}}
+\begin{{column}}{{0.47\linewidth}}
+\includegraphics[max width=0.95\textwidth,
+        max height=0.4\textheight]{{{image_file}}}
+\end{{column}}
+\end{{columns}}
+\end{{frame}}
+                    """
+                )
+
+            class A(_ABCTemplateSubgroup):
+                @classmethod
+                def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
+                    kwargs = LatexTemplates.Generic.get_common_kwargs()
+                    kwargs["q_image_file"] = ti.q_image_file
+                    kwargs["a_image_file"] = ti.a_image_file
+
+                    return cls.TEMPLATE.format(**kwargs)
+
+                TEMPLATE = LatexTemplate(
+                    r"""
+\begin{{frame}}[t]{{{question_title}}}
+% \vspace{{0.5em}}
+\begin{{columns}}[T,totalwidth=\linewidth]
+\begin{{column}}{{0.47\linewidth}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+\end{{column}}
+\begin{{column}}{{0.47\linewidth}}
+\includegraphics[max width=0.95\textwidth,
+        max height=0.4\textheight]{{{image_file}}}
+\end{{column}}
+\end{{columns}}
+\begin{{columns}}[T,totalwidth=\linewidth]
+\begin{{column}}{{0.47\linewidth}}
+\begin{{block}}{{Answer}}
+{answer}
+\end{{block}}
+\end{{column}}
+\begin{{column}}{{0.47\linewidth}}
+\includegraphics[max width=0.95\textwidth,
+        max height=0.4\textheight]{{{a_image_file}}}
+\end{{column}}
+\end{{columns}}
+\end{{frame}}
+                    """
+                )
