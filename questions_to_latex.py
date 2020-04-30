@@ -14,6 +14,7 @@ from latex_templates import BeamerFrame, LatexTemplates
 np.random.seed(126)
 
 TEST = False
+DRAFT = False
 
 N_QUESTIONS_PER_ROUND = 10
 
@@ -29,6 +30,17 @@ INDEX_COL = "Index_"
 
 LATEX_DIR: Path = Path("docs/LaTeX")
 LATEX_DIR.mkdir(exist_ok=True, parents=True)
+
+TOPIC_ORDER = [
+    "More Plants and Animals",
+    "TV",
+    "Cocktails",
+    "Superheroes",
+    "New York",
+    "Geography",
+    "Logos",
+    "Real name/Stage name",
+]
 
 
 def get_trivia_items() -> List[TriviaItem]:
@@ -46,14 +58,15 @@ def get_trivia_items() -> List[TriviaItem]:
             .str.replace("’", "'", regex=False)
             .str.replace("&", r"\&", regex=False)
             .str.replace(r"[lfthA-Z]\}\?$", r"}\,?", regex=True)
-            .str.replace("-.-", "--", regex=False)
             .str.replace("-.-.-", "---", regex=False)
+            .str.replace("-.-", "--", regex=False)
             .str.replace(r"([A-Z])\?", r"\1\@?", regex=True)
             .str.replace(r"oz. ", r"oz.\ ", regex=False)
             .str.replace("0.5 ", "½ ", regex=False)
             .str.replace(r"(\d*)\.5 ", r"\1½ ", regex=True)
             .str.replace("St. ", r"St.\ ", regex=False)
             .str.replace("pl. ", r"pl.\ ", regex=False)
+            .str.replace("Jr. ", r"Jr.\ ", regex=False)
         )
 
     topic_remapper = {}
@@ -71,18 +84,8 @@ def get_trivia_items() -> List[TriviaItem]:
     regular_df: pd.DataFrame
     bonus_df: pd.DataFrame
 
-    topic_order = [
-        "Plants and Animals II",
-        "TV",
-        "Cocktails",
-        "Superheroes",
-        "New York",
-        "Geography",
-        "Logos",
-    ]
-
     for df in [regular_df, bonus_df]:
-        df[SECTION_ORDER_COL] = df[TOPIC_COL].map(topic_order.index)
+        df[SECTION_ORDER_COL] = df[TOPIC_COL].map(TOPIC_ORDER.index)
         df.sort_values([SECTION_ORDER_COL, INDEX_COL], inplace=True)
 
     df = pd.concat([regular_df, bonus_df], axis=0)
@@ -169,7 +172,11 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
         for af in answer_frames:
             latex_items.append(af)
 
-    latex_items.append(LatexTemplates.PREAMBLE)
+    preamble = LatexTemplates.PREAMBLE
+    if not DRAFT:
+        preamble = LatexTemplates.PREAMBLE.replace(",draft", "")
+
+    latex_items.append(preamble)
 
     prev_round_name = None
     this_round_items: List[TriviaItem] = []

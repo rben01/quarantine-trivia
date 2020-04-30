@@ -28,7 +28,7 @@ class LatexTemplates:
 
     PREAMBLE = BeamerFrame(
         r"""
-\documentclass[11pt]{beamer}
+\documentclass[11pt,draft]{beamer}
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
 \usepackage[space,multidot]{grffile}
@@ -67,6 +67,9 @@ class LatexTemplates:
         \usebeamerfont{subtitle}\thisSectionName\par%
     }
     \end{beamercolorbox}
+    \begin{center}
+    Please mute yourselves!
+    \end{center}
 
     \ifthenelse{\equal{\secname}{Bonus Rakjshdound} \AND{\equal{\subsecname}{Answers}}}{
         Get ready for some \emph{devilishly} hard questions!
@@ -85,6 +88,11 @@ class LatexTemplates:
     \usebeamerfont{title}\insertsectionhead\par%
     \usebeamerfont{subtitle}\insertsubsectionhead\par%
     \end{beamercolorbox}
+    \ifthenelse{\equal{\subsecname}{Answers}} {
+        \begin{center}
+        Unmute yourselves!
+        \end{center}
+    }
     \vfill
   \end{frame}
 }
@@ -145,7 +153,12 @@ class LatexTemplates:
         class Q(_ABCTemplateSubgroup):
             @staticmethod
             def get_common_kwargs(ti: TriviaItem) -> Mapping:
-                kwargs = {"question": ti.question, "question_number": ti.number}
+                kwargs = {
+                    "question": ti.question,
+                    "question_number": ti.number,
+                    "q_image_file": ti.q_image_file,
+                    "a_image_file": ti.a_image_file,
+                }
 
                 if ti.section == "Bonus":
                     kwargs["question_title"] = f"{ti.round_name}: {ti.topic}"
@@ -163,7 +176,6 @@ class LatexTemplates:
                     template_str = cls.QUESTION_SANS_IMAGE
                 else:
                     template_str = cls.QUESTION_WITH_IMAGE
-                    kwargs["image_file"] = ti.q_image_file
 
                 return template_str.format(**kwargs)
 
@@ -192,7 +204,7 @@ class LatexTemplates:
 \end{{column}}
 \begin{{column}}{{0.65\linewidth}}
 \begin{{center}}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{{image_file}}}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{{q_image_file}}}
 \end{{center}}
 \end{{column}}
 \end{{columns}}
@@ -203,7 +215,12 @@ class LatexTemplates:
         class A(_ABCTemplateSubgroup):
             @staticmethod
             def get_common_kwargs(ti: TriviaItem) -> Mapping:
-                kwargs = {"question": ti.question, "answer": ti.answer}
+                kwargs = {
+                    "question": ti.question,
+                    "answer": ti.answer,
+                    "q_image_file": ti.q_image_file,
+                    "a_image_file": ti.a_image_file,
+                }
 
                 if ti.section == "Bonus":
                     kwargs["question_title"] = f"{ti.round_name}: {ti.topic}"
@@ -226,7 +243,6 @@ class LatexTemplates:
                     template_str = cls.ANSWER_SANS_IMAGE
                 elif ti.q_image_file is not None and ti.a_image_file is None:
                     template_str = cls.ANSWER_WITH_QUESTION_WITH_IMAGE
-                    kwargs["image_file"] = ti.q_image_file
                 elif ti.q_image_file is None and ti.a_image_file is not None:
                     if ti.image_in_q:
                         template_str = cls.ANSWER_WITH_IMAGE_MOVED_TO_QUESTION
@@ -238,11 +254,8 @@ class LatexTemplates:
                         template_str = cls.ANSWER_WITH_IMAGE
                         kwargs["image_height"] = 0.58 - 0.04 * (q_h - 1)
 
-                    kwargs["image_file"] = ti.a_image_file
                 elif ti.q_image_file is not None and ti.a_image_file is not None:
                     template_str = cls.ANSWER_WITH_IMAGE_AND_QUESTION_WITH_IMAGE
-                    kwargs["q_image_file"] = ti.q_image_file
-                    kwargs["a_image_file"] = ti.a_image_file
                 else:
                     raise ValueError(f"Logic error for {ti}")
 
@@ -281,7 +294,7 @@ class LatexTemplates:
 \end{{column}}
 \begin{{column}}{{0.65\linewidth}}
 \begin{{center}}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{{image_file}}}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{{q_image_file}}}
 \end{{center}}
 \end{{column}}
 \end{{columns}}
@@ -307,7 +320,7 @@ class LatexTemplates:
 \end{{columns}}
 
 \visible<2->{{
-    \begin{{columns}}[totalwidth=\linewidth]
+    \begin{{columns}}[T,totalwidth=\linewidth]
     \begin{{column}}{{0.32\linewidth}}
     \begin{{block}}{{Answer{maybe_s}}}
     {answer}
@@ -343,7 +356,8 @@ class LatexTemplates:
 \begin{{column}}{{0.65\linewidth}}
 \visible<2->{{
     \begin{{center}}
-    \includegraphics[max width=0.9\textwidth,max height=0.7\textheight]{{{image_file}}}
+    \includegraphics[max width=0.9\textwidth,
+        max height=0.7\textheight]{{{a_image_file}}}
     \end{{center}}
 }}
 \end{{column}}
@@ -370,7 +384,7 @@ class LatexTemplates:
     \begin{{column}}{{0.65\linewidth}}
     \begin{{center}}
     \includegraphics[max width=0.95\textwidth,
-        max height={image_height:.5f}\textheight]{{{image_file}}}
+        max height={image_height:.5f}\textheight]{{{a_image_file}}}
     \end{{center}}
     \end{{column}}
     \end{{columns}}
@@ -390,7 +404,6 @@ class LatexTemplates:
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
                     kwargs = LatexTemplates.Generic.A.get_common_kwargs(ti)
-                    kwargs["image_file"] = ti.a_image_file
 
                     return cls.TEMPLATE.format(**kwargs)
 
@@ -412,7 +425,7 @@ class LatexTemplates:
     \begin{{column}}{{0.45\linewidth}}
     \begin{{center}}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.7\textheight]{{{image_file}}}
+        max height=0.7\textheight]{{{a_image_file}}}
     \end{{center}}
     \end{{column}}
     \end{{columns}}
@@ -427,8 +440,6 @@ class LatexTemplates:
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
                     kwargs = LatexTemplates.Generic.Q.get_common_kwargs(ti)
 
-                    kwargs["image_file"] = ti.q_image_file
-
                     return cls.TEMPLATE.format(**kwargs)
 
                 TEMPLATE = LatexTemplate(
@@ -443,7 +454,7 @@ class LatexTemplates:
 \end{{column}}
 \begin{{column}}{{0.47\linewidth}}
 \includegraphics[max width=0.95\textwidth,
-        max height=0.4\textheight]{{{image_file}}}
+        max height=0.35\textheight]{{{q_image_file}}}
 \end{{column}}
 \end{{columns}}
 \end{{frame}}
@@ -454,8 +465,6 @@ class LatexTemplates:
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
                     kwargs = LatexTemplates.Generic.A.get_common_kwargs(ti)
-                    kwargs["q_image_file"] = ti.q_image_file
-                    kwargs["a_image_file"] = ti.a_image_file
 
                     return cls.TEMPLATE.format(**kwargs)
 
@@ -471,9 +480,10 @@ class LatexTemplates:
 \end{{column}}
 \begin{{column}}{{0.47\linewidth}}
 \includegraphics[max width=0.95\textwidth,
-        max height=0.4\textheight]{{{q_image_file}}}
+        max height=0.35\textheight]{{{q_image_file}}}
 \end{{column}}
 \end{{columns}}
+\vspace{{1em}}
 \pause{{}}
 \begin{{columns}}[T,totalwidth=\linewidth]
 \begin{{column}}{{0.47\linewidth}}

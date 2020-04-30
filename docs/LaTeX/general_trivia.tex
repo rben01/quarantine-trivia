@@ -37,6 +37,9 @@
         \usebeamerfont{subtitle}\thisSectionName\par%
     }
     \end{beamercolorbox}
+    \begin{center}
+    Please mute yourselves!
+    \end{center}
 
     \ifthenelse{\equal{\secname}{Bonus Rakjshdound} \AND{\equal{\subsecname}{Answers}}}{
         Get ready for some \emph{devilishly} hard questions!
@@ -55,6 +58,11 @@
     \usebeamerfont{title}\insertsectionhead\par%
     \usebeamerfont{subtitle}\insertsubsectionhead\par%
     \end{beamercolorbox}
+    \ifthenelse{\equal{\subsecname}{Answers}} {
+        \begin{center}
+        Unmute yourselves!
+        \end{center}
+    }
     \vfill
   \end{frame}
 }
@@ -76,7 +84,7 @@
 \vfill{}
 \end{frame}
 \endgroup{}
-\def\thisSectionName{Plants and Animals II}
+\def\thisSectionName{More Plants and Animals}
 \section{Round 1}
 \subsection*{Q1}
 \begin{frame}[t]{Round 1, Question 1}
@@ -128,28 +136,28 @@ Biologist J. B. S. Haldane once said that ``God has an inordinate fondness for''
 \begin{frame}[t]{Round 1, Question 5}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the largest extant species of fish in the world?
+Which species of bear has the highest proportion of meat in its diet?
 \end{block}
 \end{frame}
 \subsection*{Q6}
 \begin{frame}[t]{Round 1, Question 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-Which species of bear has the highest proportion of meat in its diet?
+The aardwolf is not a wolf at all, but actually belongs to which family of African mammals?
 \end{block}
 \end{frame}
 \subsection*{Q7}
 \begin{frame}[t]{Round 1, Question 7}
 % \vspace{0.5em}
 \begin{block}{Question}
-The aardwolf is not a wolf at all, but actually belongs to which family of African mammals?
+What are the two types of vascular tissue responsible for transporting water and nutrients in plants?
 \end{block}
 \end{frame}
 \subsection*{Q8}
 \begin{frame}[t]{Round 1, Question 8}
 % \vspace{0.5em}
 \begin{block}{Question}
-What are the two types of vascular tissue responsible for transporting water and nutrients in plants?
+What is the specific term for the chick of a hawk or falcon?
 \end{block}
 \end{frame}
 \subsection*{Q9}
@@ -176,7 +184,7 @@ What species of salamander is pictured here?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
-    Axolotl
+    Axolotl (\emph{Ambystoma mexicanum})
     \end{block}
 }
 \end{column}
@@ -217,7 +225,7 @@ Which plant is the primary food source of monarch butterfly caterpillars?
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Milkweed
+    Milkweed (\emph{Asclepias})
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -254,28 +262,6 @@ Biologist J. B. S. Haldane once said that ``God has an inordinate fondness for''
 \begin{frame}[t]{Round 1, Answer 5}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the largest extant species of fish in the world?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Whale shark
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/whaleshark}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 1, Answer 6}
-% \vspace{0.5em}
-\begin{block}{Question}
 Which species of bear has the highest proportion of meat in its diet?
 \end{block}
 
@@ -283,7 +269,7 @@ Which species of bear has the highest proportion of meat in its diet?
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Polar bears
+    The polar bear (\emph{Ursus maritimus})
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -295,7 +281,7 @@ Which species of bear has the highest proportion of meat in its diet?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 1, Answer 7}
+\begin{frame}[t]{Round 1, Answer 6}
 % \vspace{0.5em}
 \begin{block}{Question}
 The aardwolf is not a wolf at all, but actually belongs to which family of African mammals?
@@ -305,7 +291,7 @@ The aardwolf is not a wolf at all, but actually belongs to which family of Afric
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Hyenas
+    Hyenas (\emph{Hyaenidae})
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -317,7 +303,7 @@ The aardwolf is not a wolf at all, but actually belongs to which family of Afric
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 1, Answer 8}
+\begin{frame}[t]{Round 1, Answer 7}
 % \vspace{0.5em}
 \begin{block}{Question}
 What are the two types of vascular tissue responsible for transporting water and nutrients in plants?
@@ -334,6 +320,28 @@ What are the two types of vascular tissue responsible for transporting water and
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
         max height=0.50000\textheight]{{Images/xylemphloem}.png}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 1, Answer 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+What is the specific term for the chick of a hawk or falcon?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Eyas (pl.\ eyasses)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/eyas}.jpg}
     \end{center}
     \end{column}
     \end{columns}
@@ -410,7 +418,7 @@ What year did \emph{Saturday Night Live} first air?
 \begin{frame}[t]{Round 2, Question 4}
 % \vspace{0.5em}
 \begin{block}{Question}
-In \emph{The Office}, what is the title of the movie that it took Michael Scott ``three years of writing, one year of shooting, four years of re-shooting and two years of editing'' to make?
+In \emph{The Office}, what is the title of the movie that it took Michael Scott ``three years of writing, one year of shooting, four years of re-shooting, and two years of editing'' to make?
 \end{block}
 \end{frame}
 \subsection*{Q5}
@@ -425,6 +433,34 @@ What was the first animated series made for primetime network TV\@?
 % \vspace{0.5em}
 \begin{block}{Question}
 The actor who played Johnny Ola in \emph{The Godfather Part II} also played a character in \emph{The Sopranos}. Which \emph{Sopranos} character did he play?
+\end{block}
+\end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Round 2, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+What was the first sitcom to write an actress's pregnancy into the storyline?
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Round 2, Question 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which HBO gangster show, which first aired in 2010, was set in Atlantic City?
+\end{block}
+\end{frame}
+\subsection*{Q9}
+\begin{frame}[t]{Round 2, Question 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+In which American game show did contestants answer questions in a taxi?
+\end{block}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 2, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 1962 to 2015?
 \end{block}
 \end{frame}
 \subsection{Answers}
@@ -497,7 +533,7 @@ What year did \emph{Saturday Night Live} first air?
 \begin{frame}[t]{Round 2, Answer 4}
 % \vspace{0.5em}
 \begin{block}{Question}
-In \emph{The Office}, what is the title of the movie that it took Michael Scott ``three years of writing, one year of shooting, four years of re-shooting and two years of editing'' to make?
+In \emph{The Office}, what is the title of the movie that it took Michael Scott ``three years of writing, one year of shooting, four years of re-shooting, and two years of editing'' to make?
 \end{block}
 
 \visible<2->{
@@ -560,6 +596,94 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
     \end{columns}
 }
 \end{frame}
+\begin{frame}[t]{Round 2, Answer 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+What was the first sitcom to write an actress's pregnancy into the storyline?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{Mary Kay and Johnny} (1947-1950)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/mkj}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 2, Answer 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which HBO gangster show, which first aired in 2010, was set in Atlantic City?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{Boardwalk Empire} (2010-2014)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/boardwalkempire}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 2, Answer 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+In which American game show did contestants answer questions in a taxi?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{Cash Cab} (2005-2012)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/cashcab}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 2, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 1962 to 2015?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{Sabado Gigante}
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/sabadogigante}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
 \def\thisSectionName{Cocktails}
 \section{Round 3}
 \subsection*{Q1}
@@ -571,6 +695,7 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
 \item 1 oz.\ sweet vermouth
 \item 1 dash Angostura bitters
 \item Garnish with a Maraschino cherry
+\item Serve straight up
 \end{itemize}
 \end{block}
 \end{frame}
@@ -579,10 +704,11 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 2 oz.\ dark rum
-\item 3½ oz.\ ginger beer
-\item (Optional) ½ oz.\ lime juice
-\item Garnish with a lime wedge
+\item 1½ oz.\ vodka
+\item 1 dash lime juice
+\item 4 oz.\ ginger beer
+\item Garnish with a slice of lime
+\item Serve over ice in a copper mug
 \end{itemize}
 \end{block}
 \end{frame}
@@ -591,11 +717,12 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ gin
+\item 1 oz.\ gin
 \item 2 dashes simple syrup
 \item ½ oz.\ lemon juice
-\item 3 oz.\ champagne (chilled)
+\item 2 oz.\ champagne (chilled)
 \item Garnish with lemon peel
+\item Serve in a champagne glass
 \end{itemize}
 \end{block}
 \end{frame}
@@ -609,6 +736,7 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
 \item 1 dash absinthe
 \item 1 sugar cube
 \item Garnish with lemon peel
+\item Serve straight up
 \end{itemize}
 \end{block}
 \end{frame}
@@ -621,6 +749,7 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
 \item 1½ oz.\ sweet red vermouth
 \item 1½ oz.\ Campari
 \item Garnish with orange slice or peel
+\item Serve over ice
 \end{itemize}
 \end{block}
 \end{frame}
@@ -629,9 +758,12 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 2½ oz.\ cognac
-\item 1 oz.\ triple sec
+\item 1½ oz.\ bourbon
 \item 1 oz.\ lemon juice
+\item ½ oz.\ simple syrup
+\item (Optional) 1 dash egg white
+\item Garnish with Maraschino cherry and orange slice
+\item Serve straight up or on the rocks
 \end{itemize}
 \end{block}
 \end{frame}
@@ -640,101 +772,142 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ bourbon
-\item 1 oz.\ lemon juice
-\item ½ oz.\ simple syrup
-\item (Optional) 1 dash egg white
-\item Garnish with Maraschino cherry and orange slice
+\item 1½ oz.\ gin
+\item 1 oz.\ fresh lemon juice
+\item ½ oz.\ Gomme syrup
+\item 2½ oz.\ soda water
+\item Serve on the rocks
+\end{itemize}
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Round 3, Question 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+\begin{itemize}
+\item 1½ oz.\ vodka
+\item 4 oz.\ cranberry juice
+\item 1 oz.\ grapefruit juice
+\item Garnish with a slice of lime
+\item Serve on the rocks
+\end{itemize}
+\end{block}
+\end{frame}
+\subsection*{Q9}
+\begin{frame}[t]{Round 3, Question 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+\begin{itemize}
+\item 1½ oz.\ white rum
+\item 1 oz.\ dark rum
+\item ½ oz.\ orange curaçao
+\item ½ oz.\ orgeat syrup
+\item 1 dash fresh lime juice
+\item Garnish with lime wedge and mint leaves
+\item Serve on the rocks
+\end{itemize}
+\end{block}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 3, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+\begin{itemize}
+\item ½ oz.\ crème de methe
+\item ½ oz.\ crème de cacao
+\item ½ oz.\ cream
+\item Serve in a chilled cocktail glass
 \end{itemize}
 \end{block}
 \end{frame}
 \subsection{Answers}
 \begin{frame}[t]{Round 3, Answer 1}
 % \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
 \begin{block}{Question}
 \begin{itemize}
 \item 2½ oz.\ rye whiskey
 \item 1 oz.\ sweet vermouth
 \item 1 dash Angostura bitters
 \item Garnish with a Maraschino cherry
+\item Serve straight up
 \end{itemize}
 \end{block}
+
 \visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     A Manhattan
     \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\visible<2->{
+    \end{column}
+    \begin{column}{0.65\linewidth}
     \begin{center}
-    \includegraphics[max width=0.9\textwidth,max height=0.7\textheight]{{Images/manhattan}.jpg}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.34000\textheight]{{Images/manhattan}.jpg}
     \end{center}
+    \end{column}
+    \end{columns}
 }
-\end{column}
-\end{columns}
 \end{frame}
 \begin{frame}[t]{Round 3, Answer 2}
 % \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
 \begin{block}{Question}
 \begin{itemize}
-\item 2 oz.\ dark rum
-\item 3½ oz.\ ginger beer
-\item (Optional) ½ oz.\ lime juice
-\item Garnish with a lime wedge
+\item 1½ oz.\ vodka
+\item 1 dash lime juice
+\item 4 oz.\ ginger beer
+\item Garnish with a slice of lime
+\item Serve over ice in a copper mug
 \end{itemize}
 \end{block}
+
 \visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Dark and Stormy
+    Moscow Mule
     \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\visible<2->{
+    \end{column}
+    \begin{column}{0.65\linewidth}
     \begin{center}
-    \includegraphics[max width=0.9\textwidth,max height=0.7\textheight]{{Images/darknstormy}.jpg}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.34000\textheight]{{Images/moscowmule}.jpg}
     \end{center}
+    \end{column}
+    \end{columns}
 }
-\end{column}
-\end{columns}
 \end{frame}
 \begin{frame}[t]{Round 3, Answer 3}
 % \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ gin
+\item 1 oz.\ gin
 \item 2 dashes simple syrup
 \item ½ oz.\ lemon juice
-\item 3 oz.\ champagne (chilled)
+\item 2 oz.\ champagne (chilled)
 \item Garnish with lemon peel
+\item Serve in a champagne glass
 \end{itemize}
 \end{block}
+
 \visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     French 75
     \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\visible<2->{
+    \end{column}
+    \begin{column}{0.65\linewidth}
     \begin{center}
-    \includegraphics[max width=0.9\textwidth,max height=0.7\textheight]{{Images/french75}.jpg}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.30000\textheight]{{Images/french75}.jpg}
     \end{center}
+    \end{column}
+    \end{columns}
 }
-\end{column}
-\end{columns}
 \end{frame}
 \begin{frame}[t]{Round 3, Answer 4}
 % \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
 \begin{block}{Question}
 \begin{itemize}
 \item 2 oz.\ cognac
@@ -742,77 +915,55 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
 \item 1 dash absinthe
 \item 1 sugar cube
 \item Garnish with lemon peel
+\item Serve straight up
 \end{itemize}
 \end{block}
+
 \visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     Sazerac
     \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\visible<2->{
+    \end{column}
+    \begin{column}{0.65\linewidth}
     \begin{center}
-    \includegraphics[max width=0.9\textwidth,max height=0.7\textheight]{{Images/sazerac}.jpg}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.30000\textheight]{{Images/sazerac}.jpg}
     \end{center}
+    \end{column}
+    \end{columns}
 }
-\end{column}
-\end{columns}
 \end{frame}
 \begin{frame}[t]{Round 3, Answer 5}
 % \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
 \begin{block}{Question}
 \begin{itemize}
 \item 1½ oz.\ gin
 \item 1½ oz.\ sweet red vermouth
 \item 1½ oz.\ Campari
 \item Garnish with orange slice or peel
+\item Serve over ice
 \end{itemize}
 \end{block}
+
 \visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     Negroni
     \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\visible<2->{
+    \end{column}
+    \begin{column}{0.65\linewidth}
     \begin{center}
-    \includegraphics[max width=0.9\textwidth,max height=0.7\textheight]{{Images/negroni}.jpg}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.34000\textheight]{{Images/negroni}.jpg}
     \end{center}
+    \end{column}
+    \end{columns}
 }
-\end{column}
-\end{columns}
 \end{frame}
 \begin{frame}[t]{Round 3, Answer 6}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-\begin{itemize}
-\item 2½ oz.\ cognac
-\item 1 oz.\ triple sec
-\item 1 oz.\ lemon juice
-\end{itemize}
-\end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    Sidecar
-    \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\visible<2->{
-    \begin{center}
-    \includegraphics[max width=0.9\textwidth,max height=0.7\textheight]{{Images/Sidecar}.jpg}
-    \end{center}
-}
-\end{column}
-\end{columns}
-\end{frame}
-\begin{frame}[t]{Round 3, Answer 7}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
@@ -821,6 +972,7 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
 \item ½ oz.\ simple syrup
 \item (Optional) 1 dash egg white
 \item Garnish with Maraschino cherry and orange slice
+\item Serve straight up or on the rocks
 \end{itemize}
 \end{block}
 
@@ -834,7 +986,120 @@ The actor who played Johnny Ola in \emph{The Godfather Part II} also played a ch
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.30000\textheight]{{Images/whiskeysour}.jpg}
+        max height=0.26000\textheight]{{Images/whiskeysour}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 3, Answer 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+\begin{itemize}
+\item 1½ oz.\ gin
+\item 1 oz.\ fresh lemon juice
+\item ½ oz.\ Gomme syrup
+\item 2½ oz.\ soda water
+\item Serve on the rocks
+\end{itemize}
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Gin fizz
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.34000\textheight]{{Images/ginfizz}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 3, Answer 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+\begin{itemize}
+\item 1½ oz.\ vodka
+\item 4 oz.\ cranberry juice
+\item 1 oz.\ grapefruit juice
+\item Garnish with a slice of lime
+\item Serve on the rocks
+\end{itemize}
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Sea Breeze
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.34000\textheight]{{Images/seabreeze}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 3, Answer 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+\begin{itemize}
+\item 1½ oz.\ white rum
+\item 1 oz.\ dark rum
+\item ½ oz.\ orange curaçao
+\item ½ oz.\ orgeat syrup
+\item 1 dash fresh lime juice
+\item Garnish with lime wedge and mint leaves
+\item Serve on the rocks
+\end{itemize}
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Mai Tai
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.26000\textheight]{{Images/maitai}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 3, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+\begin{itemize}
+\item ½ oz.\ crème de methe
+\item ½ oz.\ crème de cacao
+\item ½ oz.\ cream
+\item Serve in a chilled cocktail glass
+\end{itemize}
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Grasshopper
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38000\textheight]{{Images/grasshopper}.jpg}
     \end{center}
     \end{column}
     \end{columns}
@@ -860,7 +1125,7 @@ Name all three actors who have played Spider-Man on the big screen in the past t
 \begin{frame}[t]{Round 4, Question 3}
 % \vspace{0.5em}
 \begin{block}{Question}
-Stan Lee based Tony Stark on which real-life person who was, among other things, a business magnate, film director, and pilot?
+Stan Lee based Tony Stark on which real-life person who was, among other things, a business magnate, a film director, and a pilot?
 \end{block}
 \end{frame}
 \subsection*{Q4}
@@ -882,6 +1147,34 @@ What is Superman's Kryptonian birth name?
 % \vspace{0.5em}
 \begin{block}{Question}
 Which superhero founded The Avengers and occasionally travels by goat-drawn chariot?
+\end{block}
+\end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Round 4, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who was the very first African-American superhero?
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Round 4, Question 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+The Green Lanterns are members of what interstellar group?
+\end{block}
+\end{frame}
+\subsection*{Q9}
+\begin{frame}[t]{Round 4, Question 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who was the very first DC Comics superhero?
+\end{block}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 4, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Thankfully, this 2008 superhero flick with a three-word title was successful at the box office; otherwise the titular character might have gotten angry.
 \end{block}
 \end{frame}
 \subsection{Answers}
@@ -932,7 +1225,7 @@ Name all three actors who have played Spider-Man on the big screen in the past t
 \begin{frame}[t]{Round 4, Answer 3}
 % \vspace{0.5em}
 \begin{block}{Question}
-Stan Lee based Tony Stark on which real-life person who was, among other things, a business magnate, film director, and pilot?
+Stan Lee based Tony Stark on which real-life person who was, among other things, a business magnate, a film director, and a pilot?
 \end{block}
 
 \visible<2->{
@@ -953,25 +1246,25 @@ Stan Lee based Tony Stark on which real-life person who was, among other things,
 \end{frame}
 \begin{frame}[t]{Round 4, Answer 4}
 % \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
 \begin{block}{Question}
 Psychologist William Moulton Marston, who invented one of the first polygraph machines, also created which well-known superhero?
 \end{block}
+
 \visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     Wonder Woman
     \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\visible<2->{
+    \end{column}
+    \begin{column}{0.65\linewidth}
     \begin{center}
-    \includegraphics[max width=0.9\textwidth,max height=0.7\textheight]{{Images/wonderwoman2}.jpg}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.50000\textheight]{{Images/wonderwoman2}.jpg}
     \end{center}
+    \end{column}
+    \end{columns}
 }
-\end{column}
-\end{columns}
 \end{frame}
 \begin{frame}[t]{Round 4, Answer 5}
 % \vspace{0.5em}
@@ -1017,6 +1310,94 @@ Which superhero founded The Avengers and occasionally travels by goat-drawn char
     \end{columns}
 }
 \end{frame}
+\begin{frame}[t]{Round 4, Answer 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who was the very first African-American superhero?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Black Panther (1966)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.58000\textheight]{{Images/blackpanther}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 4, Answer 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+The Green Lanterns are members of what interstellar group?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    The Green Lantern Corps
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/greenlantern}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 4, Answer 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who was the very first DC Comics superhero?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Superman
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.58000\textheight]{{Images/supermanactioncomics}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 4, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Thankfully, this 2008 superhero flick with a three-word title was successful at the box office; otherwise the titular character might have gotten angry.
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{The Incredible Hulk}
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/hulk}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
 \def\thisSectionName{New York}
 \section{Round 5}
 \subsection*{Q1}
@@ -1037,7 +1418,7 @@ In which Financial District building was George Washington sworn in as president
 \begin{frame}[t]{Round 5, Question 3}
 % \vspace{0.5em}
 \begin{block}{Question}
-Prior to the construction of the Empire State Building, the block on which it would be build was occupied by which hotel?
+Prior to the construction of the Empire State Building, the block on which it would be built was occupied by which hotel?
 \end{block}
 \end{frame}
 \subsection*{Q4}
@@ -1058,7 +1439,7 @@ Which building is pictured here?
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/woolworth}.jpg}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/singerbuilding}.jpg}
 \end{center}
 \end{column}
 \end{columns}
@@ -1074,21 +1455,37 @@ What is the official name of the Statue of Liberty? (It is not ``the Statue of L
 \begin{frame}[t]{Round 5, Question 7}
 % \vspace{0.5em}
 \begin{block}{Question}
-It is now thought that the origin of the name ``The Big Apple'' is Edward S. Martin's \emph{The Wayfarer in New York}, in which he writes that ``[Kansas] inclines to think that the big apple gets a disproportionate share of the national'' this.
+The two most recently held NYC ticker-tape parades both celebrated the same event. What were they celebrating?
 \end{block}
 \end{frame}
 \subsection*{Q8}
 \begin{frame}[t]{Round 5, Question 8}
 % \vspace{0.5em}
 \begin{block}{Question}
-The two most recently held NYC ticker-tape parades both celebrated the same event. What were they celebrating?
+To within five years, what year did Lincoln Center open?
 \end{block}
 \end{frame}
 \subsection*{Q9}
 \begin{frame}[t]{Round 5, Question 9}
 % \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
 \begin{block}{Question}
-To within five years, what year did Lincoln Center open?
+What are the names of the two lion statues guarding the entrance to the main New York Public Library building at 42\textsuperscript{nd} St.\ and Fifth Avenue?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/nypl}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 5, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+What mammal is on the seal of the City of New York?
 \end{block}
 \end{frame}
 \subsection{Answers}
@@ -1139,7 +1536,7 @@ In which Financial District building was George Washington sworn in as president
 \begin{frame}[t]{Round 5, Answer 3}
 % \vspace{0.5em}
 \begin{block}{Question}
-Prior to the construction of the Empire State Building, the block on which it would be build was occupied by which hotel?
+Prior to the construction of the Empire State Building, the block on which it would be built was occupied by which hotel?
 \end{block}
 
 \visible<2->{
@@ -1189,13 +1586,13 @@ Which building is pictured here?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
-    The Woolworth Building
+    The Singer Building
     \end{block}
 }
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/woolworth}.jpg}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/singerbuilding}.jpg}
 \end{center}
 \end{column}
 \end{columns}
@@ -1225,28 +1622,6 @@ What is the official name of the Statue of Liberty? (It is not ``the Statue of L
 \begin{frame}[t]{Round 5, Answer 7}
 % \vspace{0.5em}
 \begin{block}{Question}
-It is now thought that the origin of the name ``The Big Apple'' is Edward S. Martin's \emph{The Wayfarer in New York}, in which he writes that ``[Kansas] inclines to think that the big apple gets a disproportionate share of the national'' this.
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Sap
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.42000\textheight]{{Images/bigapple}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 5, Answer 8}
-% \vspace{0.5em}
-\begin{block}{Question}
 The two most recently held NYC ticker-tape parades both celebrated the same event. What were they celebrating?
 \end{block}
 
@@ -1266,7 +1641,7 @@ The two most recently held NYC ticker-tape parades both celebrated the same even
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5, Answer 9}
+\begin{frame}[t]{Round 5, Answer 8}
 % \vspace{0.5em}
 \begin{block}{Question}
 To within five years, what year did Lincoln Center open?
@@ -1283,6 +1658,48 @@ To within five years, what year did Lincoln Center open?
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
         max height=0.54000\textheight]{{Images/lincolncenter}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 5, Answer 9}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+What are the names of the two lion statues guarding the entrance to the main New York Public Library building at 42\textsuperscript{nd} St.\ and Fifth Avenue?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Patience and Fortitude
+    \end{block}
+}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/nypl}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\begin{frame}[t]{Round 5, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+What mammal is on the seal of the City of New York?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    A beaver
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/nycseal}.png}
     \end{center}
     \end{column}
     \end{columns}
@@ -1309,13 +1726,6 @@ What is the name of the group of islands indicated in this image?
 \subsection*{Q2}
 \begin{frame}[t]{Round 6, Question 2}
 % \vspace{0.5em}
-\begin{block}{Question}
-Which country has the most pyramids in the world?
-\end{block}
-\end{frame}
-\subsection*{Q3}
-\begin{frame}[t]{Round 6, Question 3}
-% \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
@@ -1329,46 +1739,32 @@ Which mountain is pictured here?
 \end{column}
 \end{columns}
 \end{frame}
+\subsection*{Q3}
+\begin{frame}[t]{Round 6, Question 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+A ``doubly-landlocked country'' is a landlocked country that is entirely surrounded by other landlocked countries. What are the only two doubly-landlocked countries in the world?
+\end{block}
+\end{frame}
 \subsection*{Q4}
 \begin{frame}[t]{Round 6, Question 4}
 % \vspace{0.5em}
 \begin{block}{Question}
-A ``doubly-landlocked country'' is a landlocked country that is entirely surrounded by other landlocked countries. What are the only two doubly-landlocked countries in the world?
+By area, what is the largest country in Africa?
 \end{block}
 \end{frame}
 \subsection*{Q5}
 \begin{frame}[t]{Round 6, Question 5}
 % \vspace{0.5em}
 \begin{block}{Question}
-By area, what is the largest country in Africa?
+Everest is the highest peak on Earth, but another mountain is tallest in the world when measuring the vertical distance from its (underwater) base to its peak. Which mountain is it?
 \end{block}
 \end{frame}
 \subsection*{Q6}
 \begin{frame}[t]{Round 6, Question 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the only carbon-negative country in the world?
-\end{block}
-\end{frame}
-\subsection*{Q7}
-\begin{frame}[t]{Round 6, Question 7}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which country controls the Faroe Islands?
-\end{block}
-\end{frame}
-\subsection*{Q8}
-\begin{frame}[t]{Round 6, Question 8}
-% \vspace{0.5em}
-\begin{block}{Question}
-Everest is the highest peak on Earth, but another mountain is tallest in the world when measuring the vertical distance from its (underwater) base to its peak. Which mountain is it?
-\end{block}
-\end{frame}
-\subsection*{Q9}
-\begin{frame}[t]{Round 6, Question 9}
-% \vspace{0.5em}
-\begin{block}{Question}
-What is the only U.S. city that Canada borders to the south?
+Which Great Lake is the smallest (by surface area)?
 \end{block}
 \end{frame}
 \subsection{Answers}
@@ -1394,28 +1790,6 @@ What is the name of the group of islands indicated in this image?
 \end{frame}
 \begin{frame}[t]{Round 6, Answer 2}
 % \vspace{0.5em}
-\begin{block}{Question}
-Which country has the most pyramids in the world?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Sudan (the Nubian pyramids)
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/pyramids}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 6, Answer 3}
-% \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
@@ -1434,7 +1808,7 @@ Which mountain is pictured here?
 \end{column}
 \end{columns}
 \end{frame}
-\begin{frame}[t]{Round 6, Answer 4}
+\begin{frame}[t]{Round 6, Answer 3}
 % \vspace{0.5em}
 \begin{block}{Question}
 A ``doubly-landlocked country'' is a landlocked country that is entirely surrounded by other landlocked countries. What are the only two doubly-landlocked countries in the world?
@@ -1456,7 +1830,7 @@ A ``doubly-landlocked country'' is a landlocked country that is entirely surroun
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 6, Answer 5}
+\begin{frame}[t]{Round 6, Answer 4}
 % \vspace{0.5em}
 \begin{block}{Question}
 By area, what is the largest country in Africa?
@@ -1478,51 +1852,7 @@ By area, what is the largest country in Africa?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 6, Answer 6}
-% \vspace{0.5em}
-\begin{block}{Question}
-What is the only carbon-negative country in the world?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Bhutan
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/bhutan}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 6, Answer 7}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which country controls the Faroe Islands?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Denmark
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/faroe}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 6, Answer 8}
+\begin{frame}[t]{Round 6, Answer 5}
 % \vspace{0.5em}
 \begin{block}{Question}
 Everest is the highest peak on Earth, but another mountain is tallest in the world when measuring the vertical distance from its (underwater) base to its peak. Which mountain is it?
@@ -1544,23 +1874,23 @@ Everest is the highest peak on Earth, but another mountain is tallest in the wor
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 6, Answer 9}
+\begin{frame}[t]{Round 6, Answer 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the only U.S. city that Canada borders to the south?
+Which Great Lake is the smallest (by surface area)?
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Detroit
+    Lake Ontatio
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/detroit}.jpg}
+        max height=0.54000\textheight]{{Images/greatlakes}.png}
     \end{center}
     \end{column}
     \end{columns}
@@ -1595,7 +1925,7 @@ The image here was cropped from which company's logo?
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/hboo}.jpg}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/hboicon}.png}
 \end{center}
 \end{column}
 \end{columns}
@@ -1670,7 +2000,7 @@ Which technology company's logo is this?
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-The barrels shown here were cropped from which soft drink company's logo?
+The barrels shown here were cropped from the logo of which soft drink company?
 \end{block}
 \end{column}
 \begin{column}{0.65\linewidth}
@@ -1759,13 +2089,13 @@ The image here was cropped from which company's logo?
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/hboo}.jpg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/hboicon}.png}
 \end{center}
 \end{column}
 \end{columns}
 
 \visible<2->{
-    \begin{columns}[totalwidth=\linewidth]
+    \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     HBO
@@ -1774,7 +2104,7 @@ The image here was cropped from which company's logo?
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.38\textheight]{{Images/hbologo}.jpg}
+        max height=0.38\textheight]{{Images/hbologo}.png}
     \end{center}
     \end{column}
     \end{columns}
@@ -1796,7 +2126,7 @@ The logo here, which has had its text removed, is which car company's logo?
 \end{columns}
 
 \visible<2->{
-    \begin{columns}[totalwidth=\linewidth]
+    \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     Fiat
@@ -1876,7 +2206,7 @@ Which technology company's logo is this?
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-The barrels shown here were cropped from which soft drink company's logo?
+The barrels shown here were cropped from the logo of which soft drink company?
 \end{block}
 \end{column}
 \begin{column}{0.65\linewidth}
@@ -1887,7 +2217,7 @@ The barrels shown here were cropped from which soft drink company's logo?
 \end{columns}
 
 \visible<2->{
-    \begin{columns}[totalwidth=\linewidth]
+    \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     Barq's Root Beer
@@ -1918,7 +2248,7 @@ The text has been removed from this logo. Which company's logo is it?
 \end{columns}
 
 \visible<2->{
-    \begin{columns}[totalwidth=\linewidth]
+    \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     Levi's
@@ -1969,7 +2299,7 @@ Which company's logo is this?
 \end{columns}
 
 \visible<2->{
-    \begin{columns}[totalwidth=\linewidth]
+    \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     Reebok
@@ -1984,13 +2314,193 @@ Which company's logo is this?
     \end{columns}
 }
 \end{frame}
+\def\thisSectionName{Real name/Stage name}
+\section{Round 8}
+\subsection*{Q1}
+\begin{frame}[t]{Round 8, Question 1}
+% \vspace{0.5em}
+\begin{block}{Question}
+The singer born Onika Tanya Maraj-Petty is better known by what stage name?
+\end{block}
+\end{frame}
+\subsection*{Q2}
+\begin{frame}[t]{Round 8, Question 2}
+% \vspace{0.5em}
+\begin{block}{Question}
+The actor born Thomas Mapother IV is better known by what stage name?
+\end{block}
+\end{frame}
+\subsection*{Q3}
+\begin{frame}[t]{Round 8, Question 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+When choosing her stage name, the actress born Margaret Mary Emily Hyra chose a last name that's nearly an anagram of ``Hyra''. What is the stage name?
+\end{block}
+\end{frame}
+\subsection*{Q4}
+\begin{frame}[t]{Round 8, Question 4}
+% \vspace{0.5em}
+\begin{block}{Question}
+Bon Jovi, who is part Italian, didn't have to change his birth name too much to arrive at his stage name. What was his birth surname? (Spelling counts.)
+\end{block}
+\end{frame}
+\subsection*{Q5}
+\begin{frame}[t]{Round 8, Question 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+Lots of people mistakenly think this actor's stage name's first name is ``William'' --- and they're not far off, because that \emph{is} his birth name's first name. What stage name is this actor better known by?
+\end{block}
+\end{frame}
+\subsection*{Q6}
+\begin{frame}[t]{Round 8, Question 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+It's debatable whether his whole life is a lie, but the actor born Jay Scott Greenspan certainly does not go by his birth name. What stage name is he better known by?
+\end{block}
+\end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Round 8, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+The stage name of this five-time Grammy Award winner is just the first two names of her legal birth name; she dropped the last three, ``Pirate Baird O'Connell''. Who's the singer?
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Round 8, Question 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+Mark Sinclair is the birth name of which action movie star?
+\end{block}
+\end{frame}
+\subsection{Answers}
+\begin{frame}[t]{Round 8, Answer 1}
+% \vspace{0.5em}
+\begin{block}{Question}
+The singer born Onika Tanya Maraj-Petty is better known by what stage name?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Nicki Minaj
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/nickiminaj}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 2}
+% \vspace{0.5em}
+\begin{block}{Question}
+The actor born Thomas Mapother IV is better known by what stage name?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Tom Cruise
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/tomcruise}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+When choosing her stage name, the actress born Margaret Mary Emily Hyra chose a last name that's nearly an anagram of ``Hyra''. What is the stage name?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Meg Ryan
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/megryan}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 4}
+% \vspace{0.5em}
+\begin{block}{Question}
+Bon Jovi, who is part Italian, didn't have to change his birth name too much to arrive at his stage name. What was his birth surname? (Spelling counts.)
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Bongiovi (John Francis Bongiovi, Jr.)
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+Lots of people mistakenly think this actor's stage name's first name is ``William'' --- and they're not far off, because that \emph{is} his birth name's first name. What stage name is this actor better known by?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Willem Dafoe
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+It's debatable whether his whole life is a lie, but the actor born Jay Scott Greenspan certainly does not go by his birth name. What stage name is he better known by?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Jason Alexander
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+The stage name of this five-time Grammy Award winner is just the first two names of her legal birth name; she dropped the last three, ``Pirate Baird O'Connell''. Who's the singer?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Billie Eilish
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+Mark Sinclair is the birth name of which action movie star?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Vin Diesel
+    \end{block}
+}
+\end{frame}
 \def\thisSectionName{Bonus}
 \section{Bonus Round}
 \subsection*{Q1}
-\begin{frame}[t]{Bonus Round: Plants and Animals II}
+\begin{frame}[t]{Bonus Round: More Plants and Animals}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the specific term for a young hawk or falcon that has not yet fledged? (No, it's not ``chick''.)
+Which mammal has the densest fur (measured in hairs per square inch)?
 \end{block}
 \end{frame}
 \subsection*{Q2}
@@ -2001,10 +2511,28 @@ Besides the ``Highlights of a Hundred'' clip show, there is only one episode of 
 \end{block}
 \end{frame}
 \subsection*{Q3}
+\begin{frame}[t]{Bonus Round: Cocktails}
+% \vspace{0.5em}
+\begin{block}{Question}
+\begin{itemize}
+\item 2½ oz.\ cognac
+\item 1 oz.\ triple sec
+\item 1 oz.\ lemon juice
+\end{itemize}
+\end{block}
+\end{frame}
+\subsection*{Q4}
+\begin{frame}[t]{Bonus Round: Superheroes}
+% \vspace{0.5em}
+\begin{block}{Question}
+Dick Grayson's guardian's superhero alias had a female counterpart. What was her \emph{non-superhero} name?
+\end{block}
+\end{frame}
+\subsection*{Q5}
 \begin{frame}[t]{Bonus Round: New York}
 % \vspace{0.5em}
 \begin{block}{Question}
-How many New York City  buildings were the tallest building in the world when they were completed?
+How many New York City buildings completed after 1900 were the tallest building in the world when they were completed?
 \end{block}
 \end{frame}
 \begin{frame}[t]{Bonus Round: Logos}
@@ -2012,33 +2540,33 @@ How many New York City  buildings were the tallest building in the world when th
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.47\linewidth}
 \begin{block}{Question}
-What is the logo for?
+What was this the logo for? Be specific.
 \end{block}
 \end{column}
 \begin{column}{0.47\linewidth}
 \includegraphics[max width=0.95\textwidth,
-        max height=0.4\textheight]{{Images/paris2024bid}.png}
+        max height=0.35\textheight]{{Images/paris2024bid}.png}
 \end{column}
 \end{columns}
 \end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Bonus Round: Plants and Animals II}
+\begin{frame}[t]{Bonus Round: More Plants and Animals}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the specific term for a young hawk or falcon that has not yet fledged? (No, it's not ``chick''.)
+Which mammal has the densest fur (measured in hairs per square inch)?
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Eyas (pl.\ eyasses)
+    Sea otters (\emph{Enhydra lutris}), at up to one million hairs per square inch
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/eyas}.jpg}
+        max height=0.54000\textheight]{{Images/otter}.jpg}
     \end{center}
     \end{column}
     \end{columns}
@@ -2066,17 +2594,65 @@ Besides the ``Highlights of a Hundred'' clip show, there is only one episode of 
     \end{columns}
 }
 \end{frame}
+\begin{frame}[t]{Bonus Round: Cocktails}
+% \vspace{0.5em}
+\begin{block}{Question}
+\begin{itemize}
+\item 2½ oz.\ cognac
+\item 1 oz.\ triple sec
+\item 1 oz.\ lemon juice
+\end{itemize}
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Sidecar
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.42000\textheight]{{Images/Sidecar}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Bonus Round: Superheroes}
+% \vspace{0.5em}
+\begin{block}{Question}
+Dick Grayson's guardian's superhero alias had a female counterpart. What was her \emph{non-superhero} name?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Barbara Gordon
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.50000\textheight]{{Images/batgirl}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
 \begin{frame}[t]{Bonus Round: New York}
 % \vspace{0.5em}
 \begin{block}{Question}
-How many New York City  buildings were the tallest building in the world when they were completed?
+How many New York City buildings completed after 1900 were the tallest building in the world when they were completed?
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.5\linewidth}
     \begin{block}{Answer}
-    Six: Met Life Tower (1909), Woolworth Building (1913), 40 Wall St.\ (1930), Chrysler Building (1930), Empire State Building (1931), World Trade Center (1973)
+    Seven: Singer Building (1908), Met Life Tower (1909), Woolworth Building (1913), 40 Wall St.\ (1930), Chrysler Building (1930), Empire State Building (1931), World Trade Center (1973)
     \end{block}
     \end{column}
     \begin{column}{0.45\linewidth}
@@ -2093,19 +2669,20 @@ How many New York City  buildings were the tallest building in the world when th
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.47\linewidth}
 \begin{block}{Question}
-What is the logo for?
+What was this the logo for? Be specific.
 \end{block}
 \end{column}
 \begin{column}{0.47\linewidth}
 \includegraphics[max width=0.95\textwidth,
-        max height=0.4\textheight]{{Images/paris2024bid}.png}
+        max height=0.35\textheight]{{Images/paris2024bid}.png}
 \end{column}
 \end{columns}
+\vspace{1em}
 \pause{}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.47\linewidth}
 \begin{block}{Answer}
-Paris's bid for the 2024 Olympics (it is \emph{not} the logo for the 2024 Olympics, which is pictured here)
+Paris's (successful) bid for the 2024 Olympics. (It is \emph{not} the logo for the 2024 Olympics, which is pictured here.)
 \end{block}
 \end{column}
 \begin{column}{0.47\linewidth}
