@@ -1,10 +1,10 @@
 \documentclass[11pt]{beamer}
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
-\usepackage[space,multidot]{grffile}
 \usepackage{ifthen}
-\usepackage[utf8]{inputenc}
+\usepackage{xeCJK}
 \usepackage[T1]{fontenc}
+\usepackage{xfrac}
 
 \usetheme[hideothersubsections]{Goettingen}
 \usecolortheme{seahorse}
@@ -20,7 +20,6 @@
 % \DisableLigatures[f]{encoding = *, family = *}
 
 % \usefonttheme{professionalfonts} % using non standard fonts for beamer
-\usepackage[utf8]{inputenc}
 \usefonttheme{serif} % default family is serif
 \usepackage{XCharter}
 % stix2
@@ -84,387 +83,80 @@
 \vfill{}
 \end{frame}
 \endgroup{}
-\def\thisSectionName{More Plants and Animals}
+\def\thisSectionName{TV}
 \section{Round 1}
 \subsection*{Q1}
 \begin{frame}[t]{Round 1, Question 1}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-What species of salamander is pictured here?
-\end{block}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/axolotl}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-\subsection*{Q2}
-\begin{frame}[t]{Round 1, Question 2}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-What is the name of the fleshy protuberances, pictured here, that grow on either side of some male orangutans' heads?
-\end{block}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/orangutan}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-\subsection*{Q3}
-\begin{frame}[t]{Round 1, Question 3}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which plant is the primary food source of monarch butterfly caterpillars?
-\end{block}
-\end{frame}
-\subsection*{Q4}
-\begin{frame}[t]{Round 1, Question 4}
-% \vspace{0.5em}
-\begin{block}{Question}
-Biologist J. B. S. Haldane once said that ``God has an inordinate fondness for'' which type of animal, owing to its large number of species?
-\end{block}
-\end{frame}
-\subsection*{Q5}
-\begin{frame}[t]{Round 1, Question 5}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which species of bear has the highest proportion of meat in its diet?
-\end{block}
-\end{frame}
-\subsection*{Q6}
-\begin{frame}[t]{Round 1, Question 6}
-% \vspace{0.5em}
-\begin{block}{Question}
-The aardwolf is not a wolf at all, but actually belongs to which family of African mammals?
-\end{block}
-\end{frame}
-\subsection*{Q7}
-\begin{frame}[t]{Round 1, Question 7}
-% \vspace{0.5em}
-\begin{block}{Question}
-What are the two types of vascular tissue responsible for transporting water and nutrients in plants?
-\end{block}
-\end{frame}
-\subsection*{Q8}
-\begin{frame}[t]{Round 1, Question 8}
-% \vspace{0.5em}
-\begin{block}{Question}
-What is the specific term for the chick of a hawk or falcon?
-\end{block}
-\end{frame}
-\subsection*{Q9}
-\begin{frame}[t]{Round 1, Question 9}
-% \vspace{0.5em}
-\begin{block}{Question}
-What polymer is the primary component of the exoskeletons of insects and other arthropods?
-\end{block}
-\end{frame}
-\subsection*{Q10}
-\begin{frame}[t]{Round 1, Question 10}
-% \vspace{0.5em}
-\begin{block}{Question}
-Snails, octopuses, and oysters all belong to which phylum?
-\end{block}
-\end{frame}
-\subsection{Answers}
-\begin{frame}[t]{Round 1, Answer 1}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-What species of salamander is pictured here?
-\end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    Axolotl (\emph{Ambystoma mexicanum})
-    \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/axolotl}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-\begin{frame}[t]{Round 1, Answer 2}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-What is the name of the fleshy protuberances, pictured here, that grow on either side of some male orangutans' heads?
-\end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    Flanges
-    \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/orangutan}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-\begin{frame}[t]{Round 1, Answer 3}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which plant is the primary food source of monarch butterfly caterpillars?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Milkweed (\emph{Asclepias})
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/milkweed}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 1, Answer 4}
-% \vspace{0.5em}
-\begin{block}{Question}
-Biologist J. B. S. Haldane once said that ``God has an inordinate fondness for'' which type of animal, owing to its large number of species?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Beetles (350,000 species)
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/beetles}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 1, Answer 5}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which species of bear has the highest proportion of meat in its diet?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    The polar bear (\emph{Ursus maritimus})
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/polarbear}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 1, Answer 6}
-% \vspace{0.5em}
-\begin{block}{Question}
-The aardwolf is not a wolf at all, but actually belongs to which family of African mammals?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Hyenas (\emph{Hyaenidae})
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/aardwolf}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 1, Answer 7}
-% \vspace{0.5em}
-\begin{block}{Question}
-What are the two types of vascular tissue responsible for transporting water and nutrients in plants?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Xylem and phloem
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/xylemphloem}.png}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 1, Answer 8}
-% \vspace{0.5em}
-\begin{block}{Question}
-What is the specific term for the chick of a hawk or falcon?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Eyas (pl.\ eyasses)
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/eyas}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 1, Answer 9}
-% \vspace{0.5em}
-\begin{block}{Question}
-What polymer is the primary component of the exoskeletons of insects and other arthropods?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Chitin
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/chitin}.png}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 1, Answer 10}
-% \vspace{0.5em}
-\begin{block}{Question}
-Snails, octopuses, and oysters all belong to which phylum?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Mollusca/mollusks
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/mollusca}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\def\thisSectionName{TV}
-\section{Round 2}
-\subsection*{Q1}
-\begin{frame}[t]{Round 2, Question 1}
 % \vspace{0.5em}
 \begin{block}{Question}
 On \emph{The Jeffersons}, George Jefferson owned a chain of what kind of businesses?
 \end{block}
 \end{frame}
 \subsection*{Q2}
-\begin{frame}[t]{Round 2, Question 2}
+\begin{frame}[t]{Round 1, Question 2}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which TV comedy followed the production of the fictional \emph{The Girlie Show}?
 \end{block}
 \end{frame}
 \subsection*{Q3}
-\begin{frame}[t]{Round 2, Question 3}
-% \vspace{0.5em}
-\begin{block}{Question}
-What year did \emph{Saturday Night Live} first air?
-\end{block}
-\end{frame}
-\subsection*{Q4}
-\begin{frame}[t]{Round 2, Question 4}
-% \vspace{0.5em}
-\begin{block}{Question}
-In \emph{The Office}, what is the title of the movie that it took Michael Scott ``three years of writing, one year of shooting, four years of re-shooting, and two years of editing'' to make?
-\end{block}
-\end{frame}
-\subsection*{Q5}
-\begin{frame}[t]{Round 2, Question 5}
-% \vspace{0.5em}
-\begin{block}{Question}
-What was the first animated series made for primetime network TV\@?
-\end{block}
-\end{frame}
-\subsection*{Q6}
-\begin{frame}[t]{Round 2, Question 6}
-% \vspace{0.5em}
-\begin{block}{Question}
-The actor who played Johnny Ola in \emph{The Godfather Part II} also played a character in \emph{The Sopranos}. Which \emph{Sopranos} character did he play?
-\end{block}
-\end{frame}
-\subsection*{Q7}
-\begin{frame}[t]{Round 2, Question 7}
-% \vspace{0.5em}
-\begin{block}{Question}
-What was the first sitcom to write an actress's pregnancy into the storyline?
-\end{block}
-\end{frame}
-\subsection*{Q8}
-\begin{frame}[t]{Round 2, Question 8}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which HBO gangster show, which first aired in 2010, was set in Atlantic City?
-\end{block}
-\end{frame}
-\subsection*{Q9}
-\begin{frame}[t]{Round 2, Question 9}
+\begin{frame}[t]{Round 1, Question 3}
 % \vspace{0.5em}
 \begin{block}{Question}
 In which American game show did contestants answer questions in a taxi?
 \end{block}
 \end{frame}
-\subsection*{Q10}
-\begin{frame}[t]{Round 2, Question 10}
+\subsection*{Q4}
+\begin{frame}[t]{Round 1, Question 4}
 % \vspace{0.5em}
 \begin{block}{Question}
-Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 1962 to 2015?
+What year did \emph{Saturday Night Live} first air?
+\end{block}
+\end{frame}
+\subsection*{Q5}
+\begin{frame}[t]{Round 1, Question 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+The actor who played Johnny Ola in \emph{The Godfather Part II} also played a character in \emph{The Sopranos}. Which \emph{Sopranos} character did he play?
+\end{block}
+\end{frame}
+\subsection*{Q6}
+\begin{frame}[t]{Round 1, Question 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+In \emph{The Office}, what is the title of the movie that it took Michael Scott ``three years of writing, one year of shooting, four years of re-shooting, and two years of editing'' to make?
+\end{block}
+\end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Round 1, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+What was the first animated series made for primetime network TV\@?
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Round 1, Question 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+What was the first sitcom to write an actress's pregnancy into the storyline?
+\end{block}
+\end{frame}
+\subsection*{Q9}
+\begin{frame}[t]{Round 1, Question 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which HBO gangster show, which first aired in 2010, was set in Atlantic City?
+\end{block}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 1, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which Spanish language comedy show, created by Don Francisco, ran in the U.S. from 1962 to 2015?
 \end{block}
 \end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Round 2, Answer 1}
+\begin{frame}[t]{Round 1, Answer 1}
 % \vspace{0.5em}
 \begin{block}{Question}
 On \emph{The Jeffersons}, George Jefferson owned a chain of what kind of businesses?
@@ -486,7 +178,7 @@ On \emph{The Jeffersons}, George Jefferson owned a chain of what kind of busines
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 2, Answer 2}
+\begin{frame}[t]{Round 1, Answer 2}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which TV comedy followed the production of the fictional \emph{The Girlie Show}?
@@ -508,7 +200,29 @@ Which TV comedy followed the production of the fictional \emph{The Girlie Show}?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 2, Answer 3}
+\begin{frame}[t]{Round 1, Answer 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+In which American game show did contestants answer questions in a taxi?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{Cash Cab} (2005--2012)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/cashcab}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 1, Answer 4}
 % \vspace{0.5em}
 \begin{block}{Question}
 What year did \emph{Saturday Night Live} first air?
@@ -530,7 +244,29 @@ What year did \emph{Saturday Night Live} first air?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 2, Answer 4}
+\begin{frame}[t]{Round 1, Answer 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+The actor who played Johnny Ola in \emph{The Godfather Part II} also played a character in \emph{The Sopranos}. Which \emph{Sopranos} character did he play?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Corrado ``Junior'' Soprano, played by Dominic Chianese
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/chianese}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 1, Answer 6}
 % \vspace{0.5em}
 \begin{block}{Question}
 In \emph{The Office}, what is the title of the movie that it took Michael Scott ``three years of writing, one year of shooting, four years of re-shooting, and two years of editing'' to make?
@@ -552,7 +288,7 @@ In \emph{The Office}, what is the title of the movie that it took Michael Scott 
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 2, Answer 5}
+\begin{frame}[t]{Round 1, Answer 7}
 % \vspace{0.5em}
 \begin{block}{Question}
 What was the first animated series made for primetime network TV\@?
@@ -574,29 +310,7 @@ What was the first animated series made for primetime network TV\@?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 2, Answer 6}
-% \vspace{0.5em}
-\begin{block}{Question}
-The actor who played Johnny Ola in \emph{The Godfather Part II} also played a character in \emph{The Sopranos}. Which \emph{Sopranos} character did he play?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Corrado ``Junior'' Soprano
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.46000\textheight]{{Images/chianese}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 2, Answer 7}
+\begin{frame}[t]{Round 1, Answer 8}
 % \vspace{0.5em}
 \begin{block}{Question}
 What was the first sitcom to write an actress's pregnancy into the storyline?
@@ -606,7 +320,7 @@ What was the first sitcom to write an actress's pregnancy into the storyline?
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    \emph{Mary Kay and Johnny} (1947-1950)
+    \emph{Mary Kay and Johnny} (on TV 1947 to 1950)
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -618,7 +332,7 @@ What was the first sitcom to write an actress's pregnancy into the storyline?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 2, Answer 8}
+\begin{frame}[t]{Round 1, Answer 9}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which HBO gangster show, which first aired in 2010, was set in Atlantic City?
@@ -628,7 +342,7 @@ Which HBO gangster show, which first aired in 2010, was set in Atlantic City?
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    \emph{Boardwalk Empire} (2010-2014)
+    \emph{Boardwalk Empire} (on TV 2010 to 2014)
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -640,32 +354,10 @@ Which HBO gangster show, which first aired in 2010, was set in Atlantic City?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 2, Answer 9}
+\begin{frame}[t]{Round 1, Answer 10}
 % \vspace{0.5em}
 \begin{block}{Question}
-In which American game show did contestants answer questions in a taxi?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    \emph{Cash Cab} (2005-2012)
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/cashcab}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 2, Answer 10}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 1962 to 2015?
+Which Spanish language comedy show, created by Don Francisco, ran in the U.S. from 1962 to 2015?
 \end{block}
 
 \visible<2->{
@@ -685,13 +377,13 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
 }
 \end{frame}
 \def\thisSectionName{Cocktails}
-\section{Round 3}
+\section{Round 2}
 \subsection*{Q1}
-\begin{frame}[t]{Round 3, Question 1}
+\begin{frame}[t]{Round 2, Question 1}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 2½ oz.\ rye whiskey
+\item 2\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ rye whiskey
 \item 1 oz.\ sweet vermouth
 \item 1 dash Angostura bitters
 \item Garnish with a Maraschino cherry
@@ -700,11 +392,11 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
 \end{block}
 \end{frame}
 \subsection*{Q2}
-\begin{frame}[t]{Round 3, Question 2}
+\begin{frame}[t]{Round 2, Question 2}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ vodka
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ vodka
 \item 1 dash lime juice
 \item 4 oz.\ ginger beer
 \item Garnish with a slice of lime
@@ -713,13 +405,13 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
 \end{block}
 \end{frame}
 \subsection*{Q3}
-\begin{frame}[t]{Round 3, Question 3}
+\begin{frame}[t]{Round 2, Question 3}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
 \item 1 oz.\ gin
 \item 2 dashes simple syrup
-\item ½ oz.\ lemon juice
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ lemon juice
 \item 2 oz.\ champagne (chilled)
 \item Garnish with lemon peel
 \item Serve in a champagne glass
@@ -727,7 +419,7 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
 \end{block}
 \end{frame}
 \subsection*{Q4}
-\begin{frame}[t]{Round 3, Question 4}
+\begin{frame}[t]{Round 2, Question 4}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
@@ -741,26 +433,26 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
 \end{block}
 \end{frame}
 \subsection*{Q5}
-\begin{frame}[t]{Round 3, Question 5}
+\begin{frame}[t]{Round 2, Question 5}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ gin
-\item 1½ oz.\ sweet red vermouth
-\item 1½ oz.\ Campari
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ gin
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ sweet red vermouth
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ Campari
 \item Garnish with orange slice or peel
 \item Serve over ice
 \end{itemize}
 \end{block}
 \end{frame}
 \subsection*{Q6}
-\begin{frame}[t]{Round 3, Question 6}
+\begin{frame}[t]{Round 2, Question 6}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ bourbon
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ bourbon
 \item 1 oz.\ lemon juice
-\item ½ oz.\ simple syrup
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ simple syrup
 \item (Optional) 1 dash egg white
 \item Garnish with Maraschino cherry and orange slice
 \item Serve straight up or on the rocks
@@ -768,24 +460,24 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
 \end{block}
 \end{frame}
 \subsection*{Q7}
-\begin{frame}[t]{Round 3, Question 7}
+\begin{frame}[t]{Round 2, Question 7}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ gin
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ gin
 \item 1 oz.\ fresh lemon juice
-\item ½ oz.\ Gomme syrup
-\item 2½ oz.\ soda water
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ Gomme syrup
+\item 2\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ soda water
 \item Serve on the rocks
 \end{itemize}
 \end{block}
 \end{frame}
 \subsection*{Q8}
-\begin{frame}[t]{Round 3, Question 8}
+\begin{frame}[t]{Round 2, Question 8}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ vodka
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ vodka
 \item 4 oz.\ cranberry juice
 \item 1 oz.\ grapefruit juice
 \item Garnish with a slice of lime
@@ -794,14 +486,14 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
 \end{block}
 \end{frame}
 \subsection*{Q9}
-\begin{frame}[t]{Round 3, Question 9}
+\begin{frame}[t]{Round 2, Question 9}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ white rum
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ white rum
 \item 1 oz.\ dark rum
-\item ½ oz.\ orange curaçao
-\item ½ oz.\ orgeat syrup
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ orange curaçao
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ orgeat syrup
 \item 1 dash fresh lime juice
 \item Garnish with lime wedge and mint leaves
 \item Serve on the rocks
@@ -809,23 +501,23 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
 \end{block}
 \end{frame}
 \subsection*{Q10}
-\begin{frame}[t]{Round 3, Question 10}
+\begin{frame}[t]{Round 2, Question 10}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item ½ oz.\ crème de methe
-\item ½ oz.\ crème de cacao
-\item ½ oz.\ cream
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ crème de menthe
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ crème de cacao
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ cream
 \item Serve in a chilled cocktail glass
 \end{itemize}
 \end{block}
 \end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Round 3, Answer 1}
+\begin{frame}[t]{Round 2, Answer 1}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 2½ oz.\ rye whiskey
+\item 2\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ rye whiskey
 \item 1 oz.\ sweet vermouth
 \item 1 dash Angostura bitters
 \item Garnish with a Maraschino cherry
@@ -843,17 +535,17 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.34000\textheight]{{Images/manhattan}.jpg}
+        max height=0.30000\textheight]{{Images/manhattan}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 3, Answer 2}
+\begin{frame}[t]{Round 2, Answer 2}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ vodka
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ vodka
 \item 1 dash lime juice
 \item 4 oz.\ ginger beer
 \item Garnish with a slice of lime
@@ -871,19 +563,19 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.34000\textheight]{{Images/moscowmule}.jpg}
+        max height=0.30000\textheight]{{Images/moscowmule}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 3, Answer 3}
+\begin{frame}[t]{Round 2, Answer 3}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
 \item 1 oz.\ gin
 \item 2 dashes simple syrup
-\item ½ oz.\ lemon juice
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ lemon juice
 \item 2 oz.\ champagne (chilled)
 \item Garnish with lemon peel
 \item Serve in a champagne glass
@@ -900,13 +592,13 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.30000\textheight]{{Images/french75}.jpg}
+        max height=0.26000\textheight]{{Images/french75}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 3, Answer 4}
+\begin{frame}[t]{Round 2, Answer 4}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
@@ -935,13 +627,13 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 3, Answer 5}
+\begin{frame}[t]{Round 2, Answer 5}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ gin
-\item 1½ oz.\ sweet red vermouth
-\item 1½ oz.\ Campari
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ gin
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ sweet red vermouth
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ Campari
 \item Garnish with orange slice or peel
 \item Serve over ice
 \end{itemize}
@@ -957,19 +649,19 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.34000\textheight]{{Images/negroni}.jpg}
+        max height=0.22000\textheight]{{Images/negroni}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 3, Answer 6}
+\begin{frame}[t]{Round 2, Answer 6}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ bourbon
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ bourbon
 \item 1 oz.\ lemon juice
-\item ½ oz.\ simple syrup
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ simple syrup
 \item (Optional) 1 dash egg white
 \item Garnish with Maraschino cherry and orange slice
 \item Serve straight up or on the rocks
@@ -980,26 +672,26 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Whiskey Sour / Boston Sour
+    Whiskey Sour or Boston Sour
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.26000\textheight]{{Images/whiskeysour}.jpg}
+        max height=0.18000\textheight]{{Images/whiskeysour}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 3, Answer 7}
+\begin{frame}[t]{Round 2, Answer 7}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ gin
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ gin
 \item 1 oz.\ fresh lemon juice
-\item ½ oz.\ Gomme syrup
-\item 2½ oz.\ soda water
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ Gomme syrup
+\item 2\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ soda water
 \item Serve on the rocks
 \end{itemize}
 \end{block}
@@ -1014,17 +706,17 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.34000\textheight]{{Images/ginfizz}.jpg}
+        max height=0.22000\textheight]{{Images/ginfizz}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 3, Answer 8}
+\begin{frame}[t]{Round 2, Answer 8}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ vodka
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ vodka
 \item 4 oz.\ cranberry juice
 \item 1 oz.\ grapefruit juice
 \item Garnish with a slice of lime
@@ -1042,20 +734,20 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.34000\textheight]{{Images/seabreeze}.jpg}
+        max height=0.30000\textheight]{{Images/seabreeze}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 3, Answer 9}
+\begin{frame}[t]{Round 2, Answer 9}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 1½ oz.\ white rum
+\item 1\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ white rum
 \item 1 oz.\ dark rum
-\item ½ oz.\ orange curaçao
-\item ½ oz.\ orgeat syrup
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ orange curaçao
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ orgeat syrup
 \item 1 dash fresh lime juice
 \item Garnish with lime wedge and mint leaves
 \item Serve on the rocks
@@ -1072,19 +764,19 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.26000\textheight]{{Images/maitai}.jpg}
+        max height=0.14000\textheight]{{Images/maitai}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 3, Answer 10}
+\begin{frame}[t]{Round 2, Answer 10}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item ½ oz.\ crème de methe
-\item ½ oz.\ crème de cacao
-\item ½ oz.\ cream
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ crème de menthe
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ crème de cacao
+\item \({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ cream
 \item Serve in a chilled cocktail glass
 \end{itemize}
 \end{block}
@@ -1099,86 +791,86 @@ Which Spanish language comedy, created by Don Francisco, ran in the U.S. from 19
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.38000\textheight]{{Images/grasshopper}.jpg}
+        max height=0.26000\textheight]{{Images/grasshopper}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
 \def\thisSectionName{Superheroes}
-\section{Round 4}
+\section{Round 3}
 \subsection*{Q1}
-\begin{frame}[t]{Round 4, Question 1}
+\begin{frame}[t]{Round 3, Question 1}
 % \vspace{0.5em}
 \begin{block}{Question}
 What is the name of the mugger who murdered Bruce Wayne's parents?
 \end{block}
 \end{frame}
 \subsection*{Q2}
-\begin{frame}[t]{Round 4, Question 2}
+\begin{frame}[t]{Round 3, Question 2}
 % \vspace{0.5em}
 \begin{block}{Question}
 Name all three actors who have played Spider-Man on the big screen in the past twenty years.
 \end{block}
 \end{frame}
 \subsection*{Q3}
-\begin{frame}[t]{Round 4, Question 3}
+\begin{frame}[t]{Round 3, Question 3}
 % \vspace{0.5em}
 \begin{block}{Question}
-Stan Lee based Tony Stark on which real-life person who was, among other things, a business magnate, a film director, and a pilot?
+Stan Lee based Tony Stark on which real-life person who was, among other things, a business magnate, a film director and a pilot?
 \end{block}
 \end{frame}
 \subsection*{Q4}
-\begin{frame}[t]{Round 4, Question 4}
+\begin{frame}[t]{Round 3, Question 4}
 % \vspace{0.5em}
 \begin{block}{Question}
 Psychologist William Moulton Marston, who invented one of the first polygraph machines, also created which well-known superhero?
 \end{block}
 \end{frame}
 \subsection*{Q5}
-\begin{frame}[t]{Round 4, Question 5}
+\begin{frame}[t]{Round 3, Question 5}
 % \vspace{0.5em}
 \begin{block}{Question}
 What is Superman's Kryptonian birth name?
 \end{block}
 \end{frame}
 \subsection*{Q6}
-\begin{frame}[t]{Round 4, Question 6}
+\begin{frame}[t]{Round 3, Question 6}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which superhero founded The Avengers and occasionally travels by goat-drawn chariot?
 \end{block}
 \end{frame}
 \subsection*{Q7}
-\begin{frame}[t]{Round 4, Question 7}
+\begin{frame}[t]{Round 3, Question 7}
 % \vspace{0.5em}
 \begin{block}{Question}
 Who was the very first African-American superhero?
 \end{block}
 \end{frame}
 \subsection*{Q8}
-\begin{frame}[t]{Round 4, Question 8}
+\begin{frame}[t]{Round 3, Question 8}
 % \vspace{0.5em}
 \begin{block}{Question}
 The Green Lanterns are members of what interstellar group?
 \end{block}
 \end{frame}
 \subsection*{Q9}
-\begin{frame}[t]{Round 4, Question 9}
+\begin{frame}[t]{Round 3, Question 9}
 % \vspace{0.5em}
 \begin{block}{Question}
 Who was the very first DC Comics superhero?
 \end{block}
 \end{frame}
 \subsection*{Q10}
-\begin{frame}[t]{Round 4, Question 10}
+\begin{frame}[t]{Round 3, Question 10}
 % \vspace{0.5em}
 \begin{block}{Question}
-Thankfully, this 2008 superhero flick with a three-word title was successful at the box office; otherwise the titular character might have gotten angry.
+Thankfully, this 2008 superhero movie was successful at the box office; otherwise the titular character might have gotten angry.  What was the three-word title of the movie?
 \end{block}
 \end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Round 4, Answer 1}
+\begin{frame}[t]{Round 3, Answer 1}
 % \vspace{0.5em}
 \begin{block}{Question}
 What is the name of the mugger who murdered Bruce Wayne's parents?
@@ -1200,7 +892,7 @@ What is the name of the mugger who murdered Bruce Wayne's parents?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 4, Answer 2}
+\begin{frame}[t]{Round 3, Answer 2}
 % \vspace{0.5em}
 \begin{block}{Question}
 Name all three actors who have played Spider-Man on the big screen in the past twenty years.
@@ -1222,10 +914,10 @@ Name all three actors who have played Spider-Man on the big screen in the past t
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 4, Answer 3}
+\begin{frame}[t]{Round 3, Answer 3}
 % \vspace{0.5em}
 \begin{block}{Question}
-Stan Lee based Tony Stark on which real-life person who was, among other things, a business magnate, a film director, and a pilot?
+Stan Lee based Tony Stark on which real-life person who was, among other things, a business magnate, a film director and a pilot?
 \end{block}
 
 \visible<2->{
@@ -1244,7 +936,7 @@ Stan Lee based Tony Stark on which real-life person who was, among other things,
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 4, Answer 4}
+\begin{frame}[t]{Round 3, Answer 4}
 % \vspace{0.5em}
 \begin{block}{Question}
 Psychologist William Moulton Marston, who invented one of the first polygraph machines, also created which well-known superhero?
@@ -1266,7 +958,7 @@ Psychologist William Moulton Marston, who invented one of the first polygraph ma
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 4, Answer 5}
+\begin{frame}[t]{Round 3, Answer 5}
 % \vspace{0.5em}
 \begin{block}{Question}
 What is Superman's Kryptonian birth name?
@@ -1288,7 +980,7 @@ What is Superman's Kryptonian birth name?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 4, Answer 6}
+\begin{frame}[t]{Round 3, Answer 6}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which superhero founded The Avengers and occasionally travels by goat-drawn chariot?
@@ -1310,7 +1002,7 @@ Which superhero founded The Avengers and occasionally travels by goat-drawn char
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 4, Answer 7}
+\begin{frame}[t]{Round 3, Answer 7}
 % \vspace{0.5em}
 \begin{block}{Question}
 Who was the very first African-American superhero?
@@ -1332,7 +1024,7 @@ Who was the very first African-American superhero?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 4, Answer 8}
+\begin{frame}[t]{Round 3, Answer 8}
 % \vspace{0.5em}
 \begin{block}{Question}
 The Green Lanterns are members of what interstellar group?
@@ -1354,7 +1046,7 @@ The Green Lanterns are members of what interstellar group?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 4, Answer 9}
+\begin{frame}[t]{Round 3, Answer 9}
 % \vspace{0.5em}
 \begin{block}{Question}
 Who was the very first DC Comics superhero?
@@ -1376,10 +1068,10 @@ Who was the very first DC Comics superhero?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 4, Answer 10}
+\begin{frame}[t]{Round 3, Answer 10}
 % \vspace{0.5em}
 \begin{block}{Question}
-Thankfully, this 2008 superhero flick with a three-word title was successful at the box office; otherwise the titular character might have gotten angry.
+Thankfully, this 2008 superhero movie was successful at the box office; otherwise the titular character might have gotten angry.  What was the three-word title of the movie?
 \end{block}
 
 \visible<2->{
@@ -1398,43 +1090,43 @@ Thankfully, this 2008 superhero flick with a three-word title was successful at 
     \end{columns}
 }
 \end{frame}
-\def\thisSectionName{New York}
-\section{Round 5}
+\def\thisSectionName{New York City}
+\section{Round 4}
 \subsection*{Q1}
-\begin{frame}[t]{Round 5, Question 1}
+\begin{frame}[t]{Round 4, Question 1}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which modern-day New York periodical did Alexander Hamilton establish in 1801?
 \end{block}
 \end{frame}
 \subsection*{Q2}
-\begin{frame}[t]{Round 5, Question 2}
+\begin{frame}[t]{Round 4, Question 2}
 % \vspace{0.5em}
 \begin{block}{Question}
 In which Financial District building was George Washington sworn in as president?
 \end{block}
 \end{frame}
 \subsection*{Q3}
-\begin{frame}[t]{Round 5, Question 3}
+\begin{frame}[t]{Round 4, Question 3}
 % \vspace{0.5em}
 \begin{block}{Question}
 Prior to the construction of the Empire State Building, the block on which it would be built was occupied by which hotel?
 \end{block}
 \end{frame}
 \subsection*{Q4}
-\begin{frame}[t]{Round 5, Question 4}
+\begin{frame}[t]{Round 4, Question 4}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which ballpark did the Brooklyn Dodgers play in before moving to Los Angeles?
 \end{block}
 \end{frame}
 \subsection*{Q5}
-\begin{frame}[t]{Round 5, Question 5}
+\begin{frame}[t]{Round 4, Question 5}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-Which building is pictured here?
+Which long-gone building is pictured here?
 \end{block}
 \end{column}
 \begin{column}{0.65\linewidth}
@@ -1445,28 +1137,28 @@ Which building is pictured here?
 \end{columns}
 \end{frame}
 \subsection*{Q6}
-\begin{frame}[t]{Round 5, Question 6}
+\begin{frame}[t]{Round 4, Question 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the official name of the Statue of Liberty? (It is not ``the Statue of Liberty''.)
+What is the official name of the Statue of Liberty? (Hint: It is not ``the Statue of Liberty.'')
 \end{block}
 \end{frame}
 \subsection*{Q7}
-\begin{frame}[t]{Round 5, Question 7}
+\begin{frame}[t]{Round 4, Question 7}
 % \vspace{0.5em}
 \begin{block}{Question}
-The two most recently held NYC ticker-tape parades both celebrated the same event. What were they celebrating?
+The two most recently-held NYC ticker-tape parades both celebrated teams wining the same event in different years. What event had they won?
 \end{block}
 \end{frame}
 \subsection*{Q8}
-\begin{frame}[t]{Round 5, Question 8}
+\begin{frame}[t]{Round 4, Question 8}
 % \vspace{0.5em}
 \begin{block}{Question}
 To within five years, what year did Lincoln Center open?
 \end{block}
 \end{frame}
 \subsection*{Q9}
-\begin{frame}[t]{Round 5, Question 9}
+\begin{frame}[t]{Round 4, Question 9}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -1482,14 +1174,14 @@ What are the names of the two lion statues guarding the entrance to the main New
 \end{columns}
 \end{frame}
 \subsection*{Q10}
-\begin{frame}[t]{Round 5, Question 10}
+\begin{frame}[t]{Round 4, Question 10}
 % \vspace{0.5em}
 \begin{block}{Question}
 What mammal is on the seal of the City of New York?
 \end{block}
 \end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Round 5, Answer 1}
+\begin{frame}[t]{Round 4, Answer 1}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which modern-day New York periodical did Alexander Hamilton establish in 1801?
@@ -1499,7 +1191,7 @@ Which modern-day New York periodical did Alexander Hamilton establish in 1801?
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    \emph{The New York Post} (how far it's fallen!)
+    \emph{The New York Post} (how far it has fallen!)
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -1511,7 +1203,7 @@ Which modern-day New York periodical did Alexander Hamilton establish in 1801?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5, Answer 2}
+\begin{frame}[t]{Round 4, Answer 2}
 % \vspace{0.5em}
 \begin{block}{Question}
 In which Financial District building was George Washington sworn in as president?
@@ -1533,7 +1225,7 @@ In which Financial District building was George Washington sworn in as president
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5, Answer 3}
+\begin{frame}[t]{Round 4, Answer 3}
 % \vspace{0.5em}
 \begin{block}{Question}
 Prior to the construction of the Empire State Building, the block on which it would be built was occupied by which hotel?
@@ -1555,7 +1247,7 @@ Prior to the construction of the Empire State Building, the block on which it wo
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5, Answer 4}
+\begin{frame}[t]{Round 4, Answer 4}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which ballpark did the Brooklyn Dodgers play in before moving to Los Angeles?
@@ -1577,12 +1269,12 @@ Which ballpark did the Brooklyn Dodgers play in before moving to Los Angeles?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5, Answer 5}
+\begin{frame}[t]{Round 4, Answer 5}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-Which building is pictured here?
+Which long-gone building is pictured here?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
@@ -1597,10 +1289,10 @@ Which building is pictured here?
 \end{column}
 \end{columns}
 \end{frame}
-\begin{frame}[t]{Round 5, Answer 6}
+\begin{frame}[t]{Round 4, Answer 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the official name of the Statue of Liberty? (It is not ``the Statue of Liberty''.)
+What is the official name of the Statue of Liberty? (Hint: It is not ``the Statue of Liberty.'')
 \end{block}
 
 \visible<2->{
@@ -1619,10 +1311,10 @@ What is the official name of the Statue of Liberty? (It is not ``the Statue of L
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5, Answer 7}
+\begin{frame}[t]{Round 4, Answer 7}
 % \vspace{0.5em}
 \begin{block}{Question}
-The two most recently held NYC ticker-tape parades both celebrated the same event. What were they celebrating?
+The two most recently-held NYC ticker-tape parades both celebrated teams wining the same event in different years. What event had they won?
 \end{block}
 
 \visible<2->{
@@ -1641,7 +1333,7 @@ The two most recently held NYC ticker-tape parades both celebrated the same even
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5, Answer 8}
+\begin{frame}[t]{Round 4, Answer 8}
 % \vspace{0.5em}
 \begin{block}{Question}
 To within five years, what year did Lincoln Center open?
@@ -1651,7 +1343,7 @@ To within five years, what year did Lincoln Center open?
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    1959 (1954--1964 will be accepted)
+    1959 (1954 to1964 will be accepted)
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -1663,7 +1355,7 @@ To within five years, what year did Lincoln Center open?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5, Answer 9}
+\begin{frame}[t]{Round 4, Answer 9}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -1683,7 +1375,7 @@ What are the names of the two lion statues guarding the entrance to the main New
 \end{column}
 \end{columns}
 \end{frame}
-\begin{frame}[t]{Round 5, Answer 10}
+\begin{frame}[t]{Round 4, Answer 10}
 % \vspace{0.5em}
 \begin{block}{Question}
 What mammal is on the seal of the City of New York?
@@ -1706,14 +1398,14 @@ What mammal is on the seal of the City of New York?
 }
 \end{frame}
 \def\thisSectionName{Geography}
-\section{Round 6}
+\section{Round 5}
 \subsection*{Q1}
-\begin{frame}[t]{Round 6, Question 1}
+\begin{frame}[t]{Round 5, Question 1}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-What is the name of the group of islands indicated in this image?
+What is the name of the group of islands shown in this image?
 \end{block}
 \end{column}
 \begin{column}{0.65\linewidth}
@@ -1724,7 +1416,7 @@ What is the name of the group of islands indicated in this image?
 \end{columns}
 \end{frame}
 \subsection*{Q2}
-\begin{frame}[t]{Round 6, Question 2}
+\begin{frame}[t]{Round 5, Question 2}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -1740,40 +1432,68 @@ Which mountain is pictured here?
 \end{columns}
 \end{frame}
 \subsection*{Q3}
-\begin{frame}[t]{Round 6, Question 3}
+\begin{frame}[t]{Round 5, Question 3}
 % \vspace{0.5em}
 \begin{block}{Question}
 A ``doubly-landlocked country'' is a landlocked country that is entirely surrounded by other landlocked countries. What are the only two doubly-landlocked countries in the world?
 \end{block}
 \end{frame}
 \subsection*{Q4}
-\begin{frame}[t]{Round 6, Question 4}
+\begin{frame}[t]{Round 5, Question 4}
 % \vspace{0.5em}
 \begin{block}{Question}
 By area, what is the largest country in Africa?
 \end{block}
 \end{frame}
 \subsection*{Q5}
-\begin{frame}[t]{Round 6, Question 5}
+\begin{frame}[t]{Round 5, Question 5}
 % \vspace{0.5em}
 \begin{block}{Question}
-Everest is the highest peak on Earth, but another mountain is tallest in the world when measuring the vertical distance from its (underwater) base to its peak. Which mountain is it?
+Everest is the highest peak on Earth, but another mountain is the tallest in the world when measuring the vertical distance from its (underwater) base to its peak. Which mountain is it?
 \end{block}
 \end{frame}
 \subsection*{Q6}
-\begin{frame}[t]{Round 6, Question 6}
+\begin{frame}[t]{Round 5, Question 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-Which Great Lake is the smallest (by surface area)?
+Which Great Lake is the smallest by surface area?
+\end{block}
+\end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Round 5, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+To the nearest 1,000 miles, what is the circumference of the Earth at the equator?
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Round 5, Question 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+The navigable portion of the Hudson ``River'' is actually not a river at all, but is one of these bodies of water.
+\end{block}
+\end{frame}
+\subsection*{Q9}
+\begin{frame}[t]{Round 5, Question 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+What is the deepest lake in the U.S.?
+\end{block}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 5, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+The Nile and the Amazon are the two longest rivers in the world. Which river is third longest?
 \end{block}
 \end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Round 6, Answer 1}
+\begin{frame}[t]{Round 5, Answer 1}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-What is the name of the group of islands indicated in this image?
+What is the name of the group of islands shown in this image?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
@@ -1788,7 +1508,7 @@ What is the name of the group of islands indicated in this image?
 \end{column}
 \end{columns}
 \end{frame}
-\begin{frame}[t]{Round 6, Answer 2}
+\begin{frame}[t]{Round 5, Answer 2}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -1808,7 +1528,7 @@ Which mountain is pictured here?
 \end{column}
 \end{columns}
 \end{frame}
-\begin{frame}[t]{Round 6, Answer 3}
+\begin{frame}[t]{Round 5, Answer 3}
 % \vspace{0.5em}
 \begin{block}{Question}
 A ``doubly-landlocked country'' is a landlocked country that is entirely surrounded by other landlocked countries. What are the only two doubly-landlocked countries in the world?
@@ -1830,7 +1550,7 @@ A ``doubly-landlocked country'' is a landlocked country that is entirely surroun
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 6, Answer 4}
+\begin{frame}[t]{Round 5, Answer 4}
 % \vspace{0.5em}
 \begin{block}{Question}
 By area, what is the largest country in Africa?
@@ -1852,10 +1572,10 @@ By area, what is the largest country in Africa?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 6, Answer 5}
+\begin{frame}[t]{Round 5, Answer 5}
 % \vspace{0.5em}
 \begin{block}{Question}
-Everest is the highest peak on Earth, but another mountain is tallest in the world when measuring the vertical distance from its (underwater) base to its peak. Which mountain is it?
+Everest is the highest peak on Earth, but another mountain is the tallest in the world when measuring the vertical distance from its (underwater) base to its peak. Which mountain is it?
 \end{block}
 
 \visible<2->{
@@ -1874,10 +1594,10 @@ Everest is the highest peak on Earth, but another mountain is tallest in the wor
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 6, Answer 6}
+\begin{frame}[t]{Round 5, Answer 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-Which Great Lake is the smallest (by surface area)?
+Which Great Lake is the smallest by surface area?
 \end{block}
 
 \visible<2->{
@@ -1890,16 +1610,60 @@ Which Great Lake is the smallest (by surface area)?
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/greatlakes}.png}
+        max height=0.58000\textheight]{{Images/greatlakes}.png}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
+\begin{frame}[t]{Round 5, Answer 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+To the nearest 1,000 miles, what is the circumference of the Earth at the equator?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    25,000 mi (24,901 exactly)
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 5, Answer 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+The navigable portion of the Hudson ``River'' is actually not a river at all, but is one of these bodies of water.
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    A (tidal) estuary
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 5, Answer 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+What is the deepest lake in the U.S.?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Crater Lake
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 5, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+The Nile and the Amazon are the two longest rivers in the world. Which river is third longest?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    The Yangtze
+    \end{block}
+}
+\end{frame}
 \def\thisSectionName{Logos}
-\section{Round 7}
+\section{Round 6}
 \subsection*{Q1}
-\begin{frame}[t]{Round 7, Question 1}
+\begin{frame}[t]{Round 6, Question 1}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -1909,13 +1673,13 @@ Which college's logo is this?
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/temple}.png}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/cornell}.png}
 \end{center}
 \end{column}
 \end{columns}
 \end{frame}
 \subsection*{Q2}
-\begin{frame}[t]{Round 7, Question 2}
+\begin{frame}[t]{Round 6, Question 2}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -1931,7 +1695,7 @@ The image here was cropped from which company's logo?
 \end{columns}
 \end{frame}
 \subsection*{Q3}
-\begin{frame}[t]{Round 7, Question 3}
+\begin{frame}[t]{Round 6, Question 3}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -1947,7 +1711,7 @@ The logo here, which has had its text removed, is which car company's logo?
 \end{columns}
 \end{frame}
 \subsection*{Q4}
-\begin{frame}[t]{Round 7, Question 4}
+\begin{frame}[t]{Round 6, Question 4}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -1963,7 +1727,7 @@ In 2016, which company announced that this would be their new logo?
 \end{columns}
 \end{frame}
 \subsection*{Q5}
-\begin{frame}[t]{Round 7, Question 5}
+\begin{frame}[t]{Round 6, Question 5}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -1979,23 +1743,7 @@ Which company's logo is this?
 \end{columns}
 \end{frame}
 \subsection*{Q6}
-\begin{frame}[t]{Round 7, Question 6}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-Which technology company's logo is this?
-\end{block}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/nvidia-logo}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-\subsection*{Q7}
-\begin{frame}[t]{Round 7, Question 7}
+\begin{frame}[t]{Round 6, Question 6}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2010,8 +1758,24 @@ The barrels shown here were cropped from the logo of which soft drink company?
 \end{column}
 \end{columns}
 \end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Round 6, Question 7}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+Which company's logo is this?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/atari}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
 \subsection*{Q8}
-\begin{frame}[t]{Round 7, Question 8}
+\begin{frame}[t]{Round 6, Question 8}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2027,23 +1791,7 @@ The text has been removed from this logo. Which company's logo is it?
 \end{columns}
 \end{frame}
 \subsection*{Q9}
-\begin{frame}[t]{Round 7, Question 9}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-Which company's logo is this?
-\end{block}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/atari}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-\subsection*{Q10}
-\begin{frame}[t]{Round 7, Question 10}
+\begin{frame}[t]{Round 6, Question 9}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2058,8 +1806,24 @@ Which company's logo is this?
 \end{column}
 \end{columns}
 \end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 6, Question 10}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+This apostrophe is from the logo of which well-known food and drink chain?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/ddicon}.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Round 7, Answer 1}
+\begin{frame}[t]{Round 6, Answer 1}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2068,18 +1832,18 @@ Which college's logo is this?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
-    Temple University
+    Cornell
     \end{block}
 }
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/temple}.png}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/cornell}.png}
 \end{center}
 \end{column}
 \end{columns}
 \end{frame}
-\begin{frame}[t]{Round 7, Answer 2}
+\begin{frame}[t]{Round 6, Answer 2}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2110,7 +1874,7 @@ The image here was cropped from which company's logo?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 7, Answer 3}
+\begin{frame}[t]{Round 6, Answer 3}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2141,7 +1905,7 @@ The logo here, which has had its text removed, is which car company's logo?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 7, Answer 4}
+\begin{frame}[t]{Round 6, Answer 4}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2150,7 +1914,7 @@ In 2016, which company announced that this would be their new logo?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
-    HP
+    Hewlett-Packard
     \end{block}
 }
 \end{column}
@@ -2161,7 +1925,7 @@ In 2016, which company announced that this would be their new logo?
 \end{column}
 \end{columns}
 \end{frame}
-\begin{frame}[t]{Round 7, Answer 5}
+\begin{frame}[t]{Round 6, Answer 5}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2181,27 +1945,7 @@ Which company's logo is this?
 \end{column}
 \end{columns}
 \end{frame}
-\begin{frame}[t]{Round 7, Answer 6}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-Which technology company's logo is this?
-\end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    Nvidia
-    \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/nvidia-logo}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-\begin{frame}[t]{Round 7, Answer 7}
+\begin{frame}[t]{Round 6, Answer 6}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2232,7 +1976,27 @@ The barrels shown here were cropped from the logo of which soft drink company?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 7, Answer 8}
+\begin{frame}[t]{Round 6, Answer 7}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+Which company's logo is this?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Atari
+    \end{block}
+}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/atari}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\begin{frame}[t]{Round 6, Answer 8}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2263,27 +2027,7 @@ The text has been removed from this logo. Which company's logo is it?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 7, Answer 9}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-Which company's logo is this?
-\end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    Atari
-    \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/atari}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-\begin{frame}[t]{Round 7, Answer 10}
+\begin{frame}[t]{Round 6, Answer 9}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
@@ -2314,66 +2058,111 @@ Which company's logo is this?
     \end{columns}
 }
 \end{frame}
+\begin{frame}[t]{Round 6, Answer 10}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+This apostrophe is from the logo of which well-known food and drink chain?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/ddicon}.png}
+\end{center}
+\end{column}
+\end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Dunkin' / Dunkin' Donuts
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/ddlogo}.png}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
 \def\thisSectionName{Real name/Stage name}
-\section{Round 8}
+\section{Round 7}
 \subsection*{Q1}
-\begin{frame}[t]{Round 8, Question 1}
+\begin{frame}[t]{Round 7, Question 1}
 % \vspace{0.5em}
 \begin{block}{Question}
 The singer born Onika Tanya Maraj-Petty is better known by what stage name?
 \end{block}
 \end{frame}
 \subsection*{Q2}
-\begin{frame}[t]{Round 8, Question 2}
-% \vspace{0.5em}
-\begin{block}{Question}
-The actor born Thomas Mapother IV is better known by what stage name?
-\end{block}
-\end{frame}
-\subsection*{Q3}
-\begin{frame}[t]{Round 8, Question 3}
+\begin{frame}[t]{Round 7, Question 2}
 % \vspace{0.5em}
 \begin{block}{Question}
 When choosing her stage name, the actress born Margaret Mary Emily Hyra chose a last name that's nearly an anagram of ``Hyra''. What is the stage name?
 \end{block}
 \end{frame}
-\subsection*{Q4}
-\begin{frame}[t]{Round 8, Question 4}
+\subsection*{Q3}
+\begin{frame}[t]{Round 7, Question 3}
 % \vspace{0.5em}
 \begin{block}{Question}
-Bon Jovi, who is part Italian, didn't have to change his birth name too much to arrive at his stage name. What was his birth surname? (Spelling counts.)
+The actor born Thomas Mapother IV is better known by what stage name?
+\end{block}
+\end{frame}
+\subsection*{Q4}
+\begin{frame}[t]{Round 7, Question 4}
+% \vspace{0.5em}
+\begin{block}{Question}
+Jon Bon Jovi, who is partly of  Italian heritage, didn't have to change his birth name too much to arrive at his stage name. What was his original last name? (Spelling counts on this one.)
 \end{block}
 \end{frame}
 \subsection*{Q5}
-\begin{frame}[t]{Round 8, Question 5}
+\begin{frame}[t]{Round 7, Question 5}
 % \vspace{0.5em}
 \begin{block}{Question}
 Lots of people mistakenly think this actor's stage name's first name is ``William'' --- and they're not far off, because that \emph{is} his birth name's first name. What stage name is this actor better known by?
 \end{block}
 \end{frame}
 \subsection*{Q6}
-\begin{frame}[t]{Round 8, Question 6}
+\begin{frame}[t]{Round 7, Question 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-It's debatable whether his whole life is a lie, but the actor born Jay Scott Greenspan certainly does not go by his birth name. What stage name is he better known by?
+It's debatable whether his whole life is a lie, but the actor born Jay Scott Greenspan does not go by his birth name. What stage name is he better known by?
 \end{block}
 \end{frame}
 \subsection*{Q7}
-\begin{frame}[t]{Round 8, Question 7}
+\begin{frame}[t]{Round 7, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+Name the chanteuse born Freda Josephine McDonald.
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Round 7, Question 8}
 % \vspace{0.5em}
 \begin{block}{Question}
 The stage name of this five-time Grammy Award winner is just the first two names of her legal birth name; she dropped the last three, ``Pirate Baird O'Connell''. Who's the singer?
 \end{block}
 \end{frame}
-\subsection*{Q8}
-\begin{frame}[t]{Round 8, Question 8}
+\subsection*{Q9}
+\begin{frame}[t]{Round 7, Question 9}
 % \vspace{0.5em}
 \begin{block}{Question}
 Mark Sinclair is the birth name of which action movie star?
 \end{block}
 \end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 7, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+What were the stage names of Ethel Mae Blythe, John Sidney Blythe and Lionel Herbert Blythe? (You must get all three.)
+\end{block}
+\end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Round 8, Answer 1}
+\begin{frame}[t]{Round 7, Answer 1}
 % \vspace{0.5em}
 \begin{block}{Question}
 The singer born Onika Tanya Maraj-Petty is better known by what stage name?
@@ -2395,29 +2184,7 @@ The singer born Onika Tanya Maraj-Petty is better known by what stage name?
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 8, Answer 2}
-% \vspace{0.5em}
-\begin{block}{Question}
-The actor born Thomas Mapother IV is better known by what stage name?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Tom Cruise
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/tomcruise}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Round 8, Answer 3}
+\begin{frame}[t]{Round 7, Answer 2}
 % \vspace{0.5em}
 \begin{block}{Question}
 When choosing her stage name, the actress born Margaret Mary Emily Hyra chose a last name that's nearly an anagram of ``Hyra''. What is the stage name?
@@ -2439,100 +2206,909 @@ When choosing her stage name, the actress born Margaret Mary Emily Hyra chose a 
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 8, Answer 4}
+\begin{frame}[t]{Round 7, Answer 3}
 % \vspace{0.5em}
 \begin{block}{Question}
-Bon Jovi, who is part Italian, didn't have to change his birth name too much to arrive at his stage name. What was his birth surname? (Spelling counts.)
+The actor born Thomas Mapother IV is better known by what stage name?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Tom Cruise
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/tomcruise}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 7, Answer 4}
+% \vspace{0.5em}
+\begin{block}{Question}
+Jon Bon Jovi, who is partly of  Italian heritage, didn't have to change his birth name too much to arrive at his stage name. What was his original last name? (Spelling counts on this one.)
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Bongiovi (full name John Francis Bongiovi, Jr.)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/bonjovi}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 7, Answer 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+Lots of people mistakenly think this actor's stage name's first name is ``William'' --- and they're not far off, because that \emph{is} his birth name's first name. What stage name is this actor better known by?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Willem Dafoe
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.42000\textheight]{{Images/dafoe}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 7, Answer 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+It's debatable whether his whole life is a lie, but the actor born Jay Scott Greenspan does not go by his birth name. What stage name is he better known by?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Jason Alexander
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/costanza}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 7, Answer 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+Name the chanteuse born Freda Josephine McDonald.
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
-    Bongiovi (John Francis Bongiovi, Jr.)
+    Josephine Baker
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 7, Answer 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+The stage name of this five-time Grammy Award winner is just the first two names of her legal birth name; she dropped the last three, ``Pirate Baird O'Connell''. Who's the singer?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Billie Eilish
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/billieeilish}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 7, Answer 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+Mark Sinclair is the birth name of which action movie star?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Vin Diesel
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/vindiesel}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 7, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+What were the stage names of Ethel Mae Blythe, John Sidney Blythe and Lionel Herbert Blythe? (You must get all three.)
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Ethel, John and Lionel Barrymore
+    \end{block}
+}
+\end{frame}
+\def\thisSectionName{What are they saying about me?}
+\section{Round 8}
+\subsection*{Q1}
+\begin{frame}[t]{Round 8, Question 1}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who was novelist and critic Mary McCarthy talking about when she said, ``Every word she writes is a lie, including `and' and `the'\,''?
+\end{block}
+\end{frame}
+\subsection*{Q2}
+\begin{frame}[t]{Round 8, Question 2}
+% \vspace{0.5em}
+\begin{block}{Question}
+``I knew Doris Day before she was a virgin.'' Who said it?
+\end{block}
+\end{frame}
+\subsection*{Q3}
+\begin{frame}[t]{Round 8, Question 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who said of Ernest Hemingway, ``I read him for the first time in the early forties, something about bells, balls, and bulls, and loathed it.''
+\end{block}
+\end{frame}
+\subsection*{Q4}
+\begin{frame}[t]{Round 8, Question 4}
+% \vspace{0.5em}
+\begin{block}{Question}
+``Her forehead looks like a f**king flat screen TV.'' Who was Sharon Osbourne talking about?
+\end{block}
+\end{frame}
+\subsection*{Q5}
+\begin{frame}[t]{Round 8, Question 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+``I tell you that woman he had singing for him, singing my song, she gonna get her ass whupped.'' Who was Etta James talking about?
+\end{block}
+\end{frame}
+\subsection*{Q6}
+\begin{frame}[t]{Round 8, Question 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who was a New York Times reporter talking about when he wrote, ``Everything which made [him] the loved and honored man he was, it is in the power of the humblest American boy to imitate.''
+\end{block}
+\end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Round 8, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+``None of these people \ldots{} have anything interesting to say, and none of them can write, not even Mr.\ Kerouac. It's not writing it's typing.''
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Round 8, Question 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+When Yankee Reggie Jackson remarked to a reporter that he had an IQ of 160, another ballplayer who overheard him said, ``Out of what, a thousand?'' Who said it?
+\end{block}
+\end{frame}
+\subsection*{Q9}
+\begin{frame}[t]{Round 8, Question 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who said of Truman Capote, ``He's a full-fledged housewife from Kansas with all the prejudices''?
+\end{block}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 8, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who called Mark Twain, ``[A] hack writer who would not have been considered fourth rate in Europe \ldots{} with sufficient local color to intrigue the superficial and the lazy''?
+\end{block}
+\end{frame}
+\subsection{Answers}
+\begin{frame}[t]{Round 8, Answer 1}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who was novelist and critic Mary McCarthy talking about when she said, ``Every word she writes is a lie, including `and' and `the'\,''?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Lillian Hellman
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 2}
+% \vspace{0.5em}
+\begin{block}{Question}
+``I knew Doris Day before she was a virgin.'' Who said it?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Oscar Levant
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who said of Ernest Hemingway, ``I read him for the first time in the early forties, something about bells, balls, and bulls, and loathed it.''
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Vladimir Nabokof
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 4}
+% \vspace{0.5em}
+\begin{block}{Question}
+``Her forehead looks like a f**king flat screen TV.'' Who was Sharon Osbourne talking about?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Nicole Kidman
     \end{block}
 }
 \end{frame}
 \begin{frame}[t]{Round 8, Answer 5}
 % \vspace{0.5em}
 \begin{block}{Question}
-Lots of people mistakenly think this actor's stage name's first name is ``William'' --- and they're not far off, because that \emph{is} his birth name's first name. What stage name is this actor better known by?
+``I tell you that woman he had singing for him, singing my song, she gonna get her ass whupped.'' Who was Etta James talking about?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
-    Willem Dafoe
+    Beyonce, who had sung James' song ``At Last'' at President Obama's inauguration festivities.
     \end{block}
 }
 \end{frame}
 \begin{frame}[t]{Round 8, Answer 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-It's debatable whether his whole life is a lie, but the actor born Jay Scott Greenspan certainly does not go by his birth name. What stage name is he better known by?
+Who was a New York Times reporter talking about when he wrote, ``Everything which made [him] the loved and honored man he was, it is in the power of the humblest American boy to imitate.''
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
-    Jason Alexander
+    Abraham Lincoln
     \end{block}
 }
 \end{frame}
 \begin{frame}[t]{Round 8, Answer 7}
 % \vspace{0.5em}
 \begin{block}{Question}
-The stage name of this five-time Grammy Award winner is just the first two names of her legal birth name; she dropped the last three, ``Pirate Baird O'Connell''. Who's the singer?
+``None of these people \ldots{} have anything interesting to say, and none of them can write, not even Mr.\ Kerouac. It's not writing it's typing.''
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
-    Billie Eilish
+    Truman Capote
     \end{block}
 }
 \end{frame}
 \begin{frame}[t]{Round 8, Answer 8}
 % \vspace{0.5em}
 \begin{block}{Question}
-Mark Sinclair is the birth name of which action movie star?
+When Yankee Reggie Jackson remarked to a reporter that he had an IQ of 160, another ballplayer who overheard him said, ``Out of what, a thousand?'' Who said it?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
-    Vin Diesel
+    Mickey Rivers
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who said of Truman Capote, ``He's a full-fledged housewife from Kansas with all the prejudices''?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Gore Vidal
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 8, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Who called Mark Twain, ``[A] hack writer who would not have been considered fourth rate in Europe \ldots{} with sufficient local color to intrigue the superficial and the lazy''?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    William Faulkner
+    \end{block}
+}
+\end{frame}
+\def\thisSectionName{More Plants and Animals}
+\section{Round 9}
+\subsection*{Q1}
+\begin{frame}[t]{Round 9, Question 1}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+What is the name of the fleshy protuberances, pictured here, that grow on the sides of some male orangutans' heads?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/orangutan}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\subsection*{Q2}
+\begin{frame}[t]{Round 9, Question 2}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which plant is the primary food source of monarch butterfly caterpillars?
+\end{block}
+\end{frame}
+\subsection*{Q3}
+\begin{frame}[t]{Round 9, Question 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+Biologist J. B. S. Haldane, when asked what could be learned about God from creation, said that God must have an ``inordinate fondness'' for which type of animal, because there are so many different kinds of them?
+\end{block}
+\end{frame}
+\subsection*{Q4}
+\begin{frame}[t]{Round 9, Question 4}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+What species of salamander is pictured here?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/axolotl}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\subsection*{Q5}
+\begin{frame}[t]{Round 9, Question 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which species of bear has the highest proportion of meat in its diet?
+\end{block}
+\end{frame}
+\subsection*{Q6}
+\begin{frame}[t]{Round 9, Question 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+The aardwolf is not a wolf at all, but actually belongs to which family of African mammals?
+\end{block}
+\end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Round 9, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+What are the two types of vascular tissue responsible for transporting water and nutrients in plants?
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Round 9, Question 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+What is the specific term for the chick of a hawk or falcon?
+\end{block}
+\end{frame}
+\subsection*{Q9}
+\begin{frame}[t]{Round 9, Question 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+What polymer is the primary component of the exoskeletons of insects and other arthropods?
+\end{block}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 9, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Snails, octopuses, and oysters all belong to which phylum?
+\end{block}
+\end{frame}
+\subsection{Answers}
+\begin{frame}[t]{Round 9, Answer 1}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+What is the name of the fleshy protuberances, pictured here, that grow on the sides of some male orangutans' heads?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Flanges
+    \end{block}
+}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/orangutan}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\begin{frame}[t]{Round 9, Answer 2}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which plant is the primary food source of monarch butterfly caterpillars?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Milkweed (\emph{Asclepias})
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/milkweed}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 9, Answer 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+Biologist J. B. S. Haldane, when asked what could be learned about God from creation, said that God must have an ``inordinate fondness'' for which type of animal, because there are so many different kinds of them?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Beetles (350,000 species)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.42000\textheight]{{Images/beetles}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 9, Answer 4}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+What species of salamander is pictured here?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Axolotl (\emph{Ambystoma mexicanum})
+    \end{block}
+}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/axolotl}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\begin{frame}[t]{Round 9, Answer 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which species of bear has the highest proportion of meat in its diet?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    The polar bear (\emph{Ursus maritimus})
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/polarbear}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 9, Answer 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+The aardwolf is not a wolf at all, but actually belongs to which family of African mammals?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Hyenas (\emph{Hyaenidae})
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/aardwolf}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 9, Answer 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+What are the two types of vascular tissue responsible for transporting water and nutrients in plants?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Xylem and phloem
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.50000\textheight]{{Images/xylemphloem}.png}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 9, Answer 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+What is the specific term for the chick of a hawk or falcon?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Eyas (pl.\ eyasses)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/eyas}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 9, Answer 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+What polymer is the primary component of the exoskeletons of insects and other arthropods?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Chitin
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/chitin}.png}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 9, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Snails, octopuses, and oysters all belong to which phylum?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Mollusca/mollusks
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/mollusca}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\def\thisSectionName{Ancient Civilizations}
+\section{Round 10}
+\subsection*{Q1}
+\begin{frame}[t]{Round 10, Question 1}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which river, the name of which is now part of a phrase meaning ``past the point of no return'', did Julius Caesar cross with his army in contravention of the tradition of republican Rome?
+\end{block}
+\end{frame}
+\subsection*{Q2}
+\begin{frame}[t]{Round 10, Question 2}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which war ended the Golden Age of Athens?
+\end{block}
+\end{frame}
+\subsection*{Q3}
+\begin{frame}[t]{Round 10, Question 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+To the nearest 500 years, when did the Bronze Age begin?
+\end{block}
+\end{frame}
+\subsection*{Q4}
+\begin{frame}[t]{Round 10, Question 4}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+What is the name of the writing system, pictured here, that was used in Ancient Mesopotamia and is named for its wedge-shaped characters?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/cuneiform}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\subsection*{Q5}
+\begin{frame}[t]{Round 10, Question 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+The Roman Colosseum is famous for its gladiator fights, but what aquatic events were also held there?
+\end{block}
+\end{frame}
+\subsection*{Q6}
+\begin{frame}[t]{Round 10, Question 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+The earliest know instances of Chinese writing are carvings in animal bones that were used for divination in Ancient China. What two-word phrase are these bones known by?
+\end{block}
+\end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Round 10, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+Ancient Babylon was situated near what present-day world capital?
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Round 10, Question 8}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+Which Egyptian god, depicted here as a human with the head of an ibis, was the god of wisdom, science, and writing?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/thoth}.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\subsection*{Q9}
+\begin{frame}[t]{Round 10, Question 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+To which language family, which began diverging into different languages circa  2000 BC, did the ancient languages Latin, Greek, Thracian, Hittite, and Sanskrit all belong?
+\end{block}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Round 10, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+From which ancient civilization did Hannibal, famous for leading his army and his elephants into Italy across the the Alps, hail?
+\end{block}
+\end{frame}
+\subsection{Answers}
+\begin{frame}[t]{Round 10, Answer 1}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which river, the name of which is now part of a phrase meaning ``past the point of no return'', did Julius Caesar cross with his army in contravention of the tradition of republican Rome?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    The Rubicon
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 10, Answer 2}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which war ended the Golden Age of Athens?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    The Peloponnesian War (431–404 BC)
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 10, Answer 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+To the nearest 500 years, when did the Bronze Age begin?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    3000 BC
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 10, Answer 4}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+What is the name of the writing system, pictured here, that was used in Ancient Mesopotamia and is named for its wedge-shaped characters?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Cuneiform
+    \end{block}
+}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/cuneiform}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\begin{frame}[t]{Round 10, Answer 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+The Roman Colosseum is famous for its gladiator fights, but what aquatic events were also held there?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Naval battles (or \emph{naumachia}, or \emph{navalia proelia})
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 10, Answer 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+The earliest know instances of Chinese writing are carvings in animal bones that were used for divination in Ancient China. What two-word phrase are these bones known by?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Oracle bones
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 10, Answer 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+Ancient Babylon was situated near what present-day world capital?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Baghdad, Iraq
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 10, Answer 8}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+Which Egyptian god, depicted here as a human with the head of an ibis, was the god of wisdom, science, and writing?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Thoth
+    \end{block}
+}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/thoth}.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\begin{frame}[t]{Round 10, Answer 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+To which language family, which began diverging into different languages circa  2000 BC, did the ancient languages Latin, Greek, Thracian, Hittite, and Sanskrit all belong?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Indo-European
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Round 10, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+From which ancient civilization did Hannibal, famous for leading his army and his elephants into Italy across the the Alps, hail?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Carthage
     \end{block}
 }
 \end{frame}
 \def\thisSectionName{Bonus}
 \section{Bonus Round}
 \subsection*{Q1}
-\begin{frame}[t]{Bonus Round: More Plants and Animals}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which mammal has the densest fur (measured in hairs per square inch)?
-\end{block}
-\end{frame}
-\subsection*{Q2}
 \begin{frame}[t]{Bonus Round: TV}
 % \vspace{0.5em}
 \begin{block}{Question}
-Besides the ``Highlights of a Hundred'' clip show, there is only one episode of \emph{Seinfeld} whose title does not begin with the word ``The''. What is this episode's title?
+Besides the ``Highlights of a Hundred'' ``best of'' show, there is only one episode of \emph{Seinfeld} whose title does not begin with the word ``The''. What is this episode's title?
 \end{block}
 \end{frame}
-\subsection*{Q3}
+\subsection*{Q2}
 \begin{frame}[t]{Bonus Round: Cocktails}
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 2½ oz.\ cognac
+\item 2\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ cognac
 \item 1 oz.\ triple sec
 \item 1 oz.\ lemon juice
+\item Serve straight up
 \end{itemize}
 \end{block}
 \end{frame}
-\subsection*{Q4}
+\subsection*{Q3}
 \begin{frame}[t]{Bonus Round: Superheroes}
 % \vspace{0.5em}
 \begin{block}{Question}
 Dick Grayson's guardian's superhero alias had a female counterpart. What was her \emph{non-superhero} name?
 \end{block}
 \end{frame}
-\subsection*{Q5}
-\begin{frame}[t]{Bonus Round: New York}
+\subsection*{Q4}
+\begin{frame}[t]{Bonus Round: New York City}
 % \vspace{0.5em}
 \begin{block}{Question}
-How many New York City buildings completed after 1900 were the tallest building in the world when they were completed?
+Name five of the seven New York City buildings completed after 1900 that were the tallest buildings in the world when they were completed. 
+\end{block}
+\end{frame}
+\subsection*{Q5}
+\begin{frame}[t]{Bonus Round: Geography}
+% \vspace{0.5em}
+\begin{block}{Question}
+By volume, what is the largest freshwater lake in the world?
 \end{block}
 \end{frame}
 \begin{frame}[t]{Bonus Round: Logos}
@@ -2549,33 +3125,39 @@ What was this the logo for? Be specific.
 \end{column}
 \end{columns}
 \end{frame}
-\subsection{Answers}
+\subsection*{Q7}
+\begin{frame}[t]{Bonus Round: Real name/Stage name}
+% \vspace{0.5em}
+\begin{block}{Question}
+What is the stage name of the actor born Lee Jun-fan (李振藩)?
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Bonus Round: What are they saying about me?}
+% \vspace{0.5em}
+\begin{block}{Question}
+This famous split-up of a famous couple resulted in the filing of court papers in which one person, C\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}, said of the other, B\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}, that B\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}, ``[N]ow accepts the reality of this situation and has advised this Court that he will consent to a dissolution\ldots{}.'' Who are C\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{} and B\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}?
+\end{block}
+\end{frame}
+\subsection*{Q9}
 \begin{frame}[t]{Bonus Round: More Plants and Animals}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which mammal has the densest fur (measured in hairs per square inch)?
 \end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Sea otters (\emph{Enhydra lutris}), at up to one million hairs per square inch
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/otter}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
 \end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Bonus Round: Ancient Civilizations}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which modern-day country has the most ancient pyramids of any country?
+\end{block}
+\end{frame}
+\subsection{Answers}
 \begin{frame}[t]{Bonus Round: TV}
 % \vspace{0.5em}
 \begin{block}{Question}
-Besides the ``Highlights of a Hundred'' clip show, there is only one episode of \emph{Seinfeld} whose title does not begin with the word ``The''. What is this episode's title?
+Besides the ``Highlights of a Hundred'' ``best of'' show, there is only one episode of \emph{Seinfeld} whose title does not begin with the word ``The''. What is this episode's title?
 \end{block}
 
 \visible<2->{
@@ -2598,9 +3180,10 @@ Besides the ``Highlights of a Hundred'' clip show, there is only one episode of 
 % \vspace{0.5em}
 \begin{block}{Question}
 \begin{itemize}
-\item 2½ oz.\ cognac
+\item 2\({}^1{\mskip -5mu⁄\mskip -3mu}_2\) oz.\ cognac
 \item 1 oz.\ triple sec
 \item 1 oz.\ lemon juice
+\item Serve straight up
 \end{itemize}
 \end{block}
 
@@ -2614,7 +3197,7 @@ Besides the ``Highlights of a Hundred'' clip show, there is only one episode of 
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.42000\textheight]{{Images/Sidecar}.jpg}
+        max height=0.34000\textheight]{{Images/Sidecar}.jpg}
     \end{center}
     \end{column}
     \end{columns}
@@ -2642,17 +3225,17 @@ Dick Grayson's guardian's superhero alias had a female counterpart. What was her
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Bonus Round: New York}
+\begin{frame}[t]{Bonus Round: New York City}
 % \vspace{0.5em}
 \begin{block}{Question}
-How many New York City buildings completed after 1900 were the tallest building in the world when they were completed?
+Name five of the seven New York City buildings completed after 1900 that were the tallest buildings in the world when they were completed. 
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.5\linewidth}
     \begin{block}{Answer}
-    Seven: Singer Building (1908), Met Life Tower (1909), Woolworth Building (1913), 40 Wall St.\ (1930), Chrysler Building (1930), Empire State Building (1931), World Trade Center (1973)
+    Any five of these: Singer Building (1908), Met Life Tower (1909), Woolworth Building (1913), 40 Wall St.\ (1930), Chrysler Building (1930), Empire State Building (1931), World Trade Center (1973)
     \end{block}
     \end{column}
     \begin{column}{0.45\linewidth}
@@ -2662,6 +3245,17 @@ How many New York City buildings completed after 1900 were the tallest building 
     \end{center}
     \end{column}
     \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Bonus Round: Geography}
+% \vspace{0.5em}
+\begin{block}{Question}
+By volume, what is the largest freshwater lake in the world?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Lake Baikal (located in Siberia and containing roughly 22\% of the world's surface freshwater) 
+    \end{block}
 }
 \end{frame}
 \begin{frame}[t]{Bonus Round: Logos}
@@ -2682,7 +3276,7 @@ What was this the logo for? Be specific.
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.47\linewidth}
 \begin{block}{Answer}
-Paris's (successful) bid for the 2024 Olympics. (It is \emph{not} the logo for the 2024 Olympics, which is pictured here.)
+Paris's (successful) bid for the 2024 Olympics. It is \emph{not} the logo for the 2024 Olympics, which is pictured here.
 \end{block}
 \end{column}
 \begin{column}{0.47\linewidth}
@@ -2690,6 +3284,72 @@ Paris's (successful) bid for the 2024 Olympics. (It is \emph{not} the logo for t
         max height=0.35\textheight]{{Images/paris2024official}.png}
 \end{column}
 \end{columns}
+\end{frame}
+\begin{frame}[t]{Bonus Round: Real name/Stage name}
+% \vspace{0.5em}
+\begin{block}{Question}
+What is the stage name of the actor born Lee Jun-fan (李振藩)?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Bruce Lee
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Bonus Round: What are they saying about me?}
+% \vspace{0.5em}
+\begin{block}{Question}
+This famous split-up of a famous couple resulted in the filing of court papers in which one person, C\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}, said of the other, B\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}, that B\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}, ``[N]ow accepts the reality of this situation and has advised this Court that he will consent to a dissolution\ldots{}.'' Who are C\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{} and B\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Cellino \& Barnes, Injury Attorneys, 800--888-.–8888
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Bonus Round: More Plants and Animals}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which mammal has the densest fur (measured in hairs per square inch)?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Sea otters (\emph{Enhydra lutris}), at up to one million hairs per square inch
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/otter}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Bonus Round: Ancient Civilizations}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which modern-day country has the most ancient pyramids of any country?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Sudan (the Nubian pyramids)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/pyramids}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \section*{\ }
 \subsection*{\ }

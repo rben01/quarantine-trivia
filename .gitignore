@@ -9,5 +9,6 @@
 *.synctex.gz
 *.synctex.gz\(Busy\)
 *.toc
+*.xdv
 .vscode/settings.json
 __pycache__/*
