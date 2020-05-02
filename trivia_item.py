@@ -85,7 +85,7 @@ class TriviaItem:
             return self.topic == "Logos" and self.section == "Bonus"
 
         if template_type is LatexTemplates.Special.Bonus_NYC:
-            return self.section == "Bonus" and self.topic == "New York"
+            return self.section == "Bonus" and self.topic == "New York City"
 
         return template_type is LatexTemplates.Generic
 

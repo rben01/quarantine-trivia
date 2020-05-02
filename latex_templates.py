@@ -10,18 +10,50 @@ LatexTemplate = NewType("LatexTemplate", str)
 BeamerFrame = NewType("BeamerFrame", str)
 
 
-class _ABCTemplateSubgroup:
-    @classmethod
-    def get_frame_for(cls, ti: "TriviaItem") -> BeamerFrame:
-        raise NotImplementedError
-
-
 class ABCTemplateGroup:
+    class _ABCTemplateSubgroup:
+        @classmethod
+        def get_frame_for(cls, ti: "TriviaItem") -> BeamerFrame:
+            raise NotImplementedError
+
     class Q(_ABCTemplateSubgroup):
-        pass
+        @classmethod
+        def get_common_kwargs(cls, ti: TriviaItem) -> Mapping:
+            kwargs = {
+                "question": ti.question,
+                "question_number": ti.number,
+                "q_image_file": ti.q_image_file,
+                "a_image_file": ti.a_image_file,
+            }
+
+            if ti.section == "Bonus":
+                kwargs["question_title"] = f"{ti.round_name}: {ti.topic}"
+            else:
+                kwargs["question_title"] = f"{ti.round_name}, Question {ti.number}"
+
+            return kwargs
 
     class A(_ABCTemplateSubgroup):
-        pass
+        @classmethod
+        def get_common_kwargs(cls, ti: TriviaItem) -> Mapping:
+            kwargs = {
+                "question": ti.question,
+                "answer": ti.answer,
+                "q_image_file": ti.q_image_file,
+                "a_image_file": ti.a_image_file,
+            }
+
+            if ti.section == "Bonus":
+                kwargs["question_title"] = f"{ti.round_name}: {ti.topic}"
+            else:
+                kwargs["question_title"] = f"{ti.round_name}, Answer {ti.number}"
+
+            if r"\begin{enumerate}" in ti.answer:
+                kwargs["maybe_s"] = "s"
+            else:
+                kwargs["maybe_s"] = ""
+
+            return kwargs
 
 
 class LatexTemplates:
@@ -31,10 +63,10 @@ class LatexTemplates:
 \documentclass[11pt,draft]{beamer}
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
-\usepackage[space,multidot]{grffile}
 \usepackage{ifthen}
-\usepackage[utf8]{inputenc}
+\usepackage{xeCJK}
 \usepackage[T1]{fontenc}
+\usepackage{xfrac}
 
 \usetheme[hideothersubsections]{Goettingen}
 \usecolortheme{seahorse}
@@ -50,7 +82,6 @@ class LatexTemplates:
 % \DisableLigatures[f]{encoding = *, family = *}
 
 % \usefonttheme{professionalfonts} % using non standard fonts for beamer
-\usepackage[utf8]{inputenc}
 \usefonttheme{serif} % default family is serif
 \usepackage{XCharter}
 % stix2
@@ -150,23 +181,7 @@ class LatexTemplates:
     )
 
     class Generic(ABCTemplateGroup):
-        class Q(_ABCTemplateSubgroup):
-            @staticmethod
-            def get_common_kwargs(ti: TriviaItem) -> Mapping:
-                kwargs = {
-                    "question": ti.question,
-                    "question_number": ti.number,
-                    "q_image_file": ti.q_image_file,
-                    "a_image_file": ti.a_image_file,
-                }
-
-                if ti.section == "Bonus":
-                    kwargs["question_title"] = f"{ti.round_name}: {ti.topic}"
-                else:
-                    kwargs["question_title"] = f"{ti.round_name}, Question {ti.number}"
-
-                return kwargs
-
+        class Q(ABCTemplateGroup.Q):
             @classmethod
             def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
                 kwargs = cls.get_common_kwargs(ti)
@@ -212,28 +227,7 @@ class LatexTemplates:
                 """
             )
 
-        class A(_ABCTemplateSubgroup):
-            @staticmethod
-            def get_common_kwargs(ti: TriviaItem) -> Mapping:
-                kwargs = {
-                    "question": ti.question,
-                    "answer": ti.answer,
-                    "q_image_file": ti.q_image_file,
-                    "a_image_file": ti.a_image_file,
-                }
-
-                if ti.section == "Bonus":
-                    kwargs["question_title"] = f"{ti.round_name}: {ti.topic}"
-                else:
-                    kwargs["question_title"] = f"{ti.round_name}, Answer {ti.number}"
-
-                if r"\begin{enumerate}" in ti.answer:
-                    kwargs["maybe_s"] = "s"
-                else:
-                    kwargs["maybe_s"] = ""
-
-                return kwargs
-
+        class A(ABCTemplateGroup.A):
             @classmethod
             def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
                 kwargs = cls.get_common_kwargs(ti)
@@ -395,15 +389,15 @@ class LatexTemplates:
 
     class Special:
         class Bonus_NYC(ABCTemplateGroup):
-            class Q(_ABCTemplateSubgroup):
+            class Q(ABCTemplateGroup.Q):
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
                     return LatexTemplates.Generic.Q.get_frame_for(ti)
 
-            class A(_ABCTemplateSubgroup):
+            class A(ABCTemplateGroup.A):
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
-                    kwargs = LatexTemplates.Generic.A.get_common_kwargs(ti)
+                    kwargs = cls.get_common_kwargs(ti)
 
                     return cls.TEMPLATE.format(**kwargs)
 
@@ -435,10 +429,10 @@ class LatexTemplates:
                 )
 
         class Bonus_Logos(ABCTemplateGroup):
-            class Q(_ABCTemplateSubgroup):
+            class Q(ABCTemplateGroup.Q):
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
-                    kwargs = LatexTemplates.Generic.Q.get_common_kwargs(ti)
+                    kwargs = cls.get_common_kwargs(ti)
 
                     return cls.TEMPLATE.format(**kwargs)
 
@@ -461,10 +455,10 @@ class LatexTemplates:
                     """
                 )
 
-            class A(_ABCTemplateSubgroup):
+            class A(ABCTemplateGroup.A):
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
-                    kwargs = LatexTemplates.Generic.A.get_common_kwargs(ti)
+                    kwargs = cls.get_common_kwargs(ti)
 
                     return cls.TEMPLATE.format(**kwargs)
 
