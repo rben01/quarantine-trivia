@@ -32,16 +32,16 @@ LATEX_DIR: Path = Path("docs/LaTeX")
 LATEX_DIR.mkdir(exist_ok=True, parents=True)
 
 TOPIC_ORDER = [
-    "TV",
+    "Logos",
     "Cocktails",
     "Superheroes",
     "New York City",
+    "More Plants and Animals",
     "Geography",
-    "Logos",
     "Real name/Stage name",
     "What are they saying about me?",
-    "More Plants and Animals",
     "Ancient Civilizations",
+    "TV",
 ]
 
 
@@ -63,16 +63,18 @@ def get_trivia_items() -> List[TriviaItem]:
             .str.replace("_", r"\textunderscore{}", regex=False)
             .str.replace("&", r"\&", regex=False)
             .str.replace("%", r"\%", regex=False)
+            .str.replace("#", r"\#", regex=False)
             .str.replace(r"[lfthA-Z]\}\?$", r"}\,?", regex=True)
             .str.replace("-.-.-", "---", regex=False)
             .str.replace("-.-", "--", regex=False)
             .str.replace(r"([A-Z])\?", r"\1\@?", regex=True)
-            .str.replace(r"oz. ", r"oz.\ ", regex=False)
             .str.replace("0.5 ", "½ ", regex=False)
             .str.replace(r"(\d*)\.5 ", r"\1½ ", regex=True)
             .str.replace("½", r"\({}^1{\mskip -5mu⁄\mskip -3mu}_2\)", regex=False)
+            .str.replace("oz. ", r"oz.\ ", regex=False)
             .str.replace("St. ", r"St.\ ", regex=False)
             .str.replace("Mr. ", r"Mr.\ ", regex=False)
+            .str.replace("Ms. ", r"Ms.\ ", regex=False)
             .str.replace("pl. ", r"pl.\ ", regex=False)
             .str.replace("Jr. ", r"Jr.\ ", regex=False)
         )

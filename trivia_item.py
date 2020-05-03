@@ -4,7 +4,7 @@ from typing import List, Tuple
 
 import pandas as pd
 
-from latex_templates import ABCTemplateGroup, BeamerFrame, LatexTemplates
+from latex_templates import _ABCTemplateGroup, BeamerFrame, LatexTemplates
 
 
 class TextDimInfo:
@@ -35,8 +35,7 @@ class TextDimInfo:
 
 
 class TriviaItem:
-    TEMPLATE_HANDLERS: List[ABCTemplateGroup] = [
-        LatexTemplates.Special.Bonus_Logos,
+    TEMPLATE_HANDLERS: List[_ABCTemplateGroup] = [
         LatexTemplates.Special.Bonus_NYC,
         LatexTemplates.Special.Bonus_CellinoBarnes,
         LatexTemplates.Generic,
@@ -81,10 +80,7 @@ class TriviaItem:
         )
         return f"T({contents})"
 
-    def matches(self, template_type: "ABCTemplateGroup") -> bool:
-        if template_type is LatexTemplates.Special.Bonus_Logos:
-            return self.topic == "Logos" and self.section == "Bonus"
-
+    def matches(self, template_type: "_ABCTemplateGroup") -> bool:
         if template_type is LatexTemplates.Special.Bonus_NYC:
             return self.section == "Bonus" and self.topic == "New York City"
 
