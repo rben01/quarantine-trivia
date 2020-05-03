@@ -10,8 +10,8 @@ LatexTemplate = NewType("LatexTemplate", str)
 BeamerFrame = NewType("BeamerFrame", str)
 
 
-class ABCTemplateGroup:
-    class _ABCTemplateSubgroup:
+class _ABCTemplateGroup:
+    class __ABCTemplateSubgroup:
         @classmethod
         def get_common_kwargs(cls, ti: "TriviaItem") -> Mapping:
             raise NotImplementedError
@@ -20,7 +20,7 @@ class ABCTemplateGroup:
         def get_frame_for(cls, ti: "TriviaItem") -> BeamerFrame:
             raise NotImplementedError
 
-    class Q(_ABCTemplateSubgroup):
+    class Q(__ABCTemplateSubgroup):
         @classmethod
         def get_common_kwargs(cls, ti: TriviaItem) -> Mapping:
             kwargs = {
@@ -81,7 +81,7 @@ class ABCTemplateGroup:
             """
         )
 
-    class A(_ABCTemplateSubgroup):
+    class A(__ABCTemplateSubgroup):
         @classmethod
         def get_common_kwargs(cls, ti: TriviaItem) -> Mapping:
             kwargs = {
@@ -301,7 +301,7 @@ class LatexTemplates:
     \centering
     \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
     \usebeamerfont{title}\insertsectionhead\par%
-    \ifthenelse{\equal{\secname}{Bonus Round}}{}{
+    \ifthenelse{\equal{\thisSectionName}{Bonus}}{}{
         \usebeamerfont{subtitle}\thisSectionName\par%
     }
     \end{beamercolorbox}
@@ -309,11 +309,20 @@ class LatexTemplates:
     Please mute yourselves!
     \end{center}
 
-    \ifthenelse{\equal{\secname}{Bonus Rakjshdound} \AND{\equal{\subsecname}{Answers}}}{
+    \ifthenelse{\equal{\thisSectionName}{Bonus}}
+    {
         Get ready for some \emph{devilishly} hard questions!
+        \vspace*{1em}
+        \includegraphics[max width=0.5\textwidth,
+            max height=0.4\textheight]{Images/devil.jpg}
+    }{}
 
-        \includegraphics[width=0.5\textwidth]{Images/devil.jpg}
-    }
+    \ifthenelse{\equal{\thisSectionName}{Ancient Civilizations}}
+    {
+        \includegraphics[max width=0.5\textwidth,
+            max height=0.4\textheight]{Images/belushi.jpg}
+    }{}
+
     \vfill
   \end{frame}
 }
@@ -336,11 +345,15 @@ class LatexTemplates:
 }
 \begin{document}
 
-\title{Welcome to Quarantine General Trivia II!\vspace{-0.5in}}
+\title{Welcome to Quarantine Trivia V!\vspace{-0.5in}}
 \date{}
 
 \begin{frame}
 \titlepage{}
+\begin{center}
+\includegraphics[max width=0.9\textwidth,
+    max height=0.4\textheight]{Images/triviatitleframelogo.png}
+\end{center}
 \end{frame}
 
 \begingroup{}
@@ -387,12 +400,12 @@ class LatexTemplates:
         """
     )
 
-    class Generic(ABCTemplateGroup):
+    class Generic(_ABCTemplateGroup):
         pass
 
     class Special:
-        class Bonus_NYC(ABCTemplateGroup):
-            class A(ABCTemplateGroup.A):
+        class Bonus_NYC(_ABCTemplateGroup):
+            class A(_ABCTemplateGroup.A):
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
                     kwargs = cls.get_common_kwargs(ti)
@@ -426,8 +439,8 @@ class LatexTemplates:
                     """
                 )
 
-        class Bonus_Logos(ABCTemplateGroup):
-            class Q(ABCTemplateGroup.Q):
+        class Bonus_CellinoBarnes(_ABCTemplateGroup):
+            class A(_ABCTemplateGroup.A):
                 @classmethod
                 def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
                     kwargs = cls.get_common_kwargs(ti)
@@ -438,83 +451,9 @@ class LatexTemplates:
                     r"""
 \begin{{frame}}[t]{{{question_title}}}
 % \vspace{{0.5em}}
-\begin{{columns}}[T,totalwidth=\linewidth]
-\begin{{column}}{{0.47\linewidth}}
 \begin{{block}}{{Question}}
 {question}
 \end{{block}}
-\end{{column}}
-\begin{{column}}{{0.47\linewidth}}
-\includegraphics[max width=0.95\textwidth,
-        max height=0.35\textheight]{{{q_image_file}}}
-\end{{column}}
-\end{{columns}}
-\end{{frame}}
-                    """
-                )
-
-            class A(ABCTemplateGroup.A):
-                @classmethod
-                def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
-                    kwargs = cls.get_common_kwargs(ti)
-
-                    return cls.TEMPLATE.format(**kwargs)
-
-                TEMPLATE = LatexTemplate(
-                    r"""
-\begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
-\begin{{columns}}[T,totalwidth=\linewidth]
-\begin{{column}}{{0.47\linewidth}}
-\begin{{block}}{{Question}}
-{question}
-\end{{block}}
-\end{{column}}
-\begin{{column}}{{0.47\linewidth}}
-\includegraphics[max width=0.95\textwidth,
-        max height=0.35\textheight]{{{q_image_file}}}
-\end{{column}}
-\end{{columns}}
-\vspace{{1em}}
-\pause{{}}
-\begin{{columns}}[T,totalwidth=\linewidth]
-\begin{{column}}{{0.47\linewidth}}
-\begin{{block}}{{Answer}}
-{answer}
-\end{{block}}
-\end{{column}}
-\begin{{column}}{{0.47\linewidth}}
-\includegraphics[max width=0.95\textwidth,
-        max height=0.35\textheight]{{{a_image_file}}}
-\end{{column}}
-\end{{columns}}
-\end{{frame}}
-                    """
-                )
-
-        class Bonus_CellinoBarnes(ABCTemplateGroup):
-            class A(ABCTemplateGroup.A):
-                @classmethod
-                def get_frame_for(cls, ti: TriviaItem) -> BeamerFrame:
-                    kwargs = cls.get_common_kwargs(ti)
-
-                    return cls.TEMPLATE.format(**kwargs)
-
-                TEMPLATE = LatexTemplate(
-                    r"""
-\begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
-\begin{{columns}}[T,totalwidth=\linewidth]
-\begin{{column}}{{0.47\linewidth}}
-\begin{{block}}{{Question}}
-{question}
-\end{{block}}
-\end{{column}}
-\begin{{column}}{{0.47\linewidth}}
-\includegraphics[max width=0.95\textwidth,
-        max height=0.35\textheight]{{{q_image_file}}}
-\end{{column}}
-\end{{columns}}
 \vspace{{1em}}
 \pause{{}}
 \begin{{columns}}[T,totalwidth=\linewidth]
