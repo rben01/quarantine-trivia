@@ -38,6 +38,7 @@ class TriviaItem:
     TEMPLATE_HANDLERS: List[ABCTemplateGroup] = [
         LatexTemplates.Special.Bonus_Logos,
         LatexTemplates.Special.Bonus_NYC,
+        LatexTemplates.Special.Bonus_CellinoBarnes,
         LatexTemplates.Generic,
     ]
 
@@ -86,6 +87,12 @@ class TriviaItem:
 
         if template_type is LatexTemplates.Special.Bonus_NYC:
             return self.section == "Bonus" and self.topic == "New York City"
+
+        if template_type is LatexTemplates.Special.Bonus_CellinoBarnes:
+            return (
+                self.section == "Bonus"
+                and self.topic == "What are they saying about me?"
+            )
 
         return template_type is LatexTemplates.Generic
 
