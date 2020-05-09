@@ -1,10 +1,15 @@
 # %%
 import re
-from typing import List, Tuple
+from typing import List, Tuple, Union
 
 import pandas as pd
 
-from latex_templates import _ABCTemplateGroup, BeamerFrame, LatexTemplates
+from latex_templates import (
+    BeamerFrame,
+    LatexTemplates,
+    _GenericTemplateGroup,
+    _MatchableQuestionSlide,
+)
 
 
 class TextDimInfo:
@@ -35,24 +40,15 @@ class TextDimInfo:
 
 
 class TriviaItem:
-    TEMPLATE_HANDLERS: List[_ABCTemplateGroup] = [
-        LatexTemplates.Special.Bonus_NYC,
-        LatexTemplates.Special.Bonus_CellinoBarnes,
+    TEMPLATE_HANDLERS: List[_GenericTemplateGroup] = [
+        LatexTemplates.Special.Bonus_Disney,
+        LatexTemplates.Special.Bonus_WordOrigins,
+        LatexTemplates.Special.Bonus_California,
         LatexTemplates.Generic,
     ]
 
     def __init__(
-        self,
-        *,
-        q,
-        a,
-        round_name,
-        section,
-        topic,
-        number,
-        q_image_file,
-        a_image_file,
-        image_loc,
+        self, *, q, a, round_name, section, topic, number, q_image_file, a_image_file,
     ):
         self.question = q
         self.answer = a
@@ -62,8 +58,6 @@ class TriviaItem:
         self.number = number
         self.q_image_file = None if pd.isna(q_image_file) else q_image_file
         self.a_image_file = None if pd.isna(a_image_file) else a_image_file
-
-        self.image_in_q = not (pd.isna(q_image_file) and pd.isna(image_loc))
 
     def __repr__(self):
         contents = ", ".join(
@@ -75,19 +69,17 @@ class TriviaItem:
                 f"t={self.topic}",
                 f"qi={self.q_image_file}",
                 f"ai={self.a_image_file}",
-                f"iq={self.image_in_q}",
             ]
         )
         return f"T({contents})"
 
-    def matches(self, template_type: "_ABCTemplateGroup") -> bool:
-        if template_type is LatexTemplates.Special.Bonus_NYC:
-            return self.section == "Bonus" and self.topic == "New York City"
-
-        if template_type is LatexTemplates.Special.Bonus_CellinoBarnes:
+    def matches(
+        self, template_type: Union[_GenericTemplateGroup, _MatchableQuestionSlide]
+    ) -> bool:
+        if issubclass(template_type, _MatchableQuestionSlide):
             return (
-                self.section == "Bonus"
-                and self.topic == "What are they saying about me?"
+                self.section == template_type.SECTION
+                and self.topic == template_type.TOPIC
             )
 
         return template_type is LatexTemplates.Generic

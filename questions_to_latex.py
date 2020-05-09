@@ -18,13 +18,15 @@ DRAFT = False
 
 N_QUESTIONS_PER_ROUND = 10
 
+QUESTIONS_CSV_FILE = "week 6 general trivia.csv"
+TITLE = "Welcome to Quarantine Trivia VI!"
+
 Q_COL = "Question"
 A_COL = "Answer"
 SECTION_COL = "Section"
 TOPIC_COL = "Topic"
 Q_IMAGE_COL = "Question Image"
 A_IMAGE_COL = "Answer Image"
-IMAGE_LOC_COL = "Answer image in question"
 SECTION_ORDER_COL = "Sort_"
 INDEX_COL = "Index_"
 
@@ -32,21 +34,21 @@ LATEX_DIR: Path = Path("docs/LaTeX")
 LATEX_DIR.mkdir(exist_ok=True, parents=True)
 
 TOPIC_ORDER = [
-    "Logos",
-    "Cocktails",
-    "Superheroes",
-    "New York City",
-    "More Plants and Animals",
-    "Geography",
-    "Real name/Stage name",
-    "What are they saying about me?",
-    "Ancient Civilizations",
-    "TV",
+    "Word Origins",
+    "Weather",
+    "Broadway Musical Names from Song Titles",
+    "Dog Breeds",
+    "Disney",
+    "National Parks",
+    "Rome",
+    "Books that had a Big Impact",
+    "California",
+    "Inventors and Inventions",
 ]
 
 
 def get_trivia_items() -> List[TriviaItem]:
-    df = pd.read_csv("./week 5 general trivia.csv")
+    df = pd.read_csv(QUESTIONS_CSV_FILE)
     df = df[df[Q_COL].notna()]
 
     for c in [Q_COL, A_COL]:
@@ -61,12 +63,14 @@ def get_trivia_items() -> List[TriviaItem]:
             .str.replace("‘", "`", regex=False)
             .str.replace("’", "'", regex=False)
             .str.replace("_", r"\textunderscore{}", regex=False)
+            .str.replace("$", r"\$", regex=False)
             .str.replace("&", r"\&", regex=False)
             .str.replace("%", r"\%", regex=False)
             .str.replace("#", r"\#", regex=False)
             .str.replace(r"[lfthA-Z]\}\?$", r"}\,?", regex=True)
             .str.replace("-.-.-", "---", regex=False)
             .str.replace("-.-", "--", regex=False)
+            .str.replace("°", r"\textdegree{}", regex=False)
             .str.replace(r"([A-Z])\?", r"\1\@?", regex=True)
             .str.replace("0.5 ", "½ ", regex=False)
             .str.replace(r"(\d*)\.5 ", r"\1½ ", regex=True)
@@ -75,6 +79,7 @@ def get_trivia_items() -> List[TriviaItem]:
             .str.replace("St. ", r"St.\ ", regex=False)
             .str.replace("Mr. ", r"Mr.\ ", regex=False)
             .str.replace("Ms. ", r"Ms.\ ", regex=False)
+            .str.replace("Dr. ", r"Dr.\ ", regex=False)
             .str.replace("pl. ", r"pl.\ ", regex=False)
             .str.replace("Jr. ", r"Jr.\ ", regex=False)
         )
@@ -152,7 +157,6 @@ def get_trivia_items() -> List[TriviaItem]:
                         topic=row[TOPIC_COL],
                         number=q_num,
                         **image_files,
-                        image_loc=row[IMAGE_LOC_COL],
                     )
                 )
 
@@ -182,9 +186,9 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
         for af in answer_frames:
             latex_items.append(af)
 
-    preamble = LatexTemplates.PREAMBLE
+    preamble = LatexTemplates.PREAMBLE.replace(r"%(TITLE)%", TITLE)
     if not DRAFT:
-        preamble = LatexTemplates.PREAMBLE.replace(",draft", "")
+        preamble = preamble.replace(",draft", "")
 
     latex_items.append(preamble)
 
