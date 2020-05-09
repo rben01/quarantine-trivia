@@ -34,16 +34,16 @@ LATEX_DIR: Path = Path("docs/LaTeX")
 LATEX_DIR.mkdir(exist_ok=True, parents=True)
 
 TOPIC_ORDER = [
-    "Word Origins",
     "Weather",
+    "Word Origins",
     "Broadway Musical Names from Song Titles",
     "Dog Breeds",
     "Disney",
     "National Parks",
     "Rome",
     "Books that had a Big Impact",
-    "California",
     "Inventors and Inventions",
+    "California",
 ]
 
 
@@ -186,9 +186,17 @@ def make_latex(trivia_items: List[TriviaItem], include_images: bool = True) -> s
         for af in answer_frames:
             latex_items.append(af)
 
-    preamble = LatexTemplates.PREAMBLE.replace(r"%(TITLE)%", TITLE)
-    if not DRAFT:
-        preamble = preamble.replace(",draft", "")
+    preamble = LatexTemplates.PREAMBLE
+    if DRAFT:
+        _draft_str = ",draft"
+    else:
+        _draft_str = ""
+    preamble = preamble.replace(r"{{DRAFT_}", _draft_str)
+
+    preamble = preamble.replace(r"{{TITLE_}", TITLE)
+    preamble = preamble.replace(
+        r"{{CATEGORIES_}", "\n".join(f"\\item {topic}" for topic in TOPIC_ORDER)
+    )
 
     latex_items.append(preamble)
 

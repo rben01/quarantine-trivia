@@ -281,13 +281,14 @@ class LatexTemplates:
 
     PREAMBLE = BeamerFrame(
         r"""
-\documentclass[11pt,draft]{beamer}
+\documentclass[11pt{{DRAFT_}]{beamer}
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
 \usepackage{ifthen}
 \usepackage{fontspec}
 \usepackage{textcomp}
 % \usepackage[T1]{fontenc}
+\usepackage{caption}
 
 
 \usetheme[hideothersubsections]{Goettingen}
@@ -324,18 +325,12 @@ class LatexTemplates:
     Please mute yourselves!
     \end{center}
 
-    \ifthenelse{\equal{\thisSectionName}{Bonus-aksjhd}}
+    \ifthenelse{\equal{\thisSectionName}{Bonus}}
     {
         Get ready for some \emph{devilishly} hard questions!
         \vspace*{1em}
         \includegraphics[max width=0.5\textwidth,
             max height=0.4\textheight]{Images/devil.jpg}
-    }{}
-
-    \ifthenelse{\equal{\thisSectionName}{Ancient Civilizations}}
-    {
-        \includegraphics[max width=0.5\textwidth,
-            max height=0.4\textheight]{Images/belushi.jpg}
     }{}
 
     \vfill
@@ -360,15 +355,15 @@ class LatexTemplates:
 }
 \begin{document}
 
-\title{%(TITLE)%\vspace{-0.5in}}
+\title{{{TITLE_}\vspace{-0.5in}}
 \date{}
 
 \begin{frame}
 \titlepage{}
-%\begin{center}
-%\includegraphics[max width=0.9\textwidth,
-%    max height=0.4\textheight]{Images/triviatitleframelogo.png}
-%\end{center}
+\begin{center}
+\includegraphics[max width=0.9\textwidth,
+    max height=0.4\textheight]{Images/triviatitleframelogo.png}
+\end{center}
 \end{frame}
 
 \begingroup{}
@@ -380,6 +375,56 @@ class LatexTemplates:
 \vfill{}
 \end{frame}
 \endgroup{}
+
+\begingroup{}
+\begin{frame}[t]{Our Research Team}
+Once again this week, our team of academic researchers has been searching through the
+world's great libraries (online of course, to maintain social distancing) to assemble
+challenging questions.\par%
+\pause{}
+\begin{center}
+\begin{figure}[h]
+\caption*{OUR RESEARCH TEAM}
+\includegraphics[max width=0.9\textwidth,
+    max height=0.4\textheight]{{Images/threestooges}.jpg}
+\end{figure}
+\end{center}
+\end{frame}
+\endgroup{}
+
+\begingroup{}
+\begin{frame}[t]{Categories}
+This week, they've come up with questions in the following categories:
+\begin{enumerate}
+{{CATEGORIES_}
+\end{enumerate}
+\end{frame}
+\endgroup{}
+
+
+\begin{frame}
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}Round 1\par%
+\usebeamerfont{subtitle}Weather\par%
+\end{beamercolorbox}
+\begin{center}
+Please mute yourselves!
+\end{center}
+\vfill
+\end{frame}
+
+\begin{frame}[t]{Weather, Question 1}
+
+\begin{block}{Question}
+The Inuits have approximately 50 different words for snow. Name any 15 of them.
+\end{block}
+\pause{}
+\begin{block}{}
+Sorry, couldn't resist! Now, on to the real game.
+\end{block}
+\end{frame}
         """
     )
 
