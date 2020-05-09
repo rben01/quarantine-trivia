@@ -5,6 +5,7 @@
 \usepackage{fontspec}
 \usepackage{textcomp}
 % \usepackage[T1]{fontenc}
+\usepackage{caption}
 
 
 \usetheme[hideothersubsections]{Goettingen}
@@ -41,18 +42,12 @@
     Please mute yourselves!
     \end{center}
 
-    \ifthenelse{\equal{\thisSectionName}{Bonus-aksjhd}}
+    \ifthenelse{\equal{\thisSectionName}{Bonus}}
     {
         Get ready for some \emph{devilishly} hard questions!
         \vspace*{1em}
         \includegraphics[max width=0.5\textwidth,
             max height=0.4\textheight]{Images/devil.jpg}
-    }{}
-
-    \ifthenelse{\equal{\thisSectionName}{Ancient Civilizations}}
-    {
-        \includegraphics[max width=0.5\textwidth,
-            max height=0.4\textheight]{Images/belushi.jpg}
     }{}
 
     \vfill
@@ -82,10 +77,10 @@
 
 \begin{frame}
 \titlepage{}
-%\begin{center}
-%\includegraphics[max width=0.9\textwidth,
-%    max height=0.4\textheight]{Images/triviatitleframelogo.png}
-%\end{center}
+\begin{center}
+\includegraphics[max width=0.9\textwidth,
+    max height=0.4\textheight]{Images/triviatitleframelogo.png}
+\end{center}
 \end{frame}
 
 \begingroup{}
@@ -97,269 +92,72 @@
 \vfill{}
 \end{frame}
 \endgroup{}
-\def\thisSectionName{Word Origins}
-\section{Round 1}
-\subsection*{Q1}
-\begin{frame}[t]{Word Origins, Question 1}
-% \vspace{0.5em}
-\begin{block}{Question}
-The name of which contraption is a combination of the Greek words for ``spiral'' and ``wing''?
-\end{block}
-\end{frame}
-\subsection*{Q2}
-\begin{frame}[t]{Word Origins, Question 2}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which word synonymous with calamity comes from the Greek for, literally, ``ill-starred'', stemming from the ancient superstition that the stars determined one's fate?
-\end{block}
-\end{frame}
-\subsection*{Q3}
-\begin{frame}[t]{Word Origins, Question 3}
-% \vspace{0.5em}
-\begin{block}{Question}
-The word ``first'' is derived from the superlative of which adjective that has a related meaning?
-\end{block}
-\end{frame}
-\subsection*{Q4}
-\begin{frame}[t]{Word Origins, Question 4}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-The name of the Civil War general pictured here is the origin of the word for a particular style of facial hair. What is the general's name?
-\end{block}
-\end{column}
-\begin{column}{0.65\linewidth}
+
+\begingroup{}
+\begin{frame}[t]{Our Research Team}
+Once again this week, our team of academic researchers has been searching through the
+world's great libraries (online of course, to maintain social distancing) to assemble
+challenging questions.\par%
+\pause{}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/burnsides}.jpg}
+\begin{figure}[h]
+\caption*{OUR RESEARCH TEAM}
+\includegraphics[max width=0.9\textwidth,
+    max height=0.4\textheight]{{Images/threestooges}.jpg}
+\end{figure}
 \end{center}
-\end{column}
-\end{columns}
 \end{frame}
-\subsection*{Q5}
-\begin{frame}[t]{Word Origins, Question 5}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which English word is derived from an ancient Greek onomatopoetic word that meant ``foreigner'' and that was intended to resemble the sound of foreign or unintelligible speech?
-\end{block}
-\end{frame}
-\subsection*{Q6}
-\begin{frame}[t]{Word Origins, Question 6}
-% \vspace{0.5em}
-\begin{block}{Question}
-This name of a region of the Earth comes from the Greek for ``bear'' (the animal), as it lies in the direction of Ursa Major, the bear constellation.
-\end{block}
-\end{frame}
-\subsection*{Q7}
-\begin{frame}[t]{Word Origins, Question 7}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which animal's name is Afrikaans Dutch for ``ground-pig''?
-\end{block}
-\end{frame}
-\subsection*{Q8}
-\begin{frame}[t]{Word Origins, Question 8}
-% \vspace{0.5em}
-\begin{block}{Question}
-The word for this kind of book was taken directly from a Latin word that originally meant ``treasury'' but whose meaning expanded to mean any kind of repository.
-\end{block}
-\end{frame}
-\subsection*{Q9}
-\begin{frame}[t]{Word Origins, Question 9}
-% \vspace{0.5em}
-\begin{block}{Question}
-What current English word literally meant ``crappy sound'' in ancient Greek?
-\end{block}
-\end{frame}
-\subsection*{Q10}
-\begin{frame}[t]{Word Origins, Question 10}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which word's origin is the Medieval Latin collective noun for the first three of the seven liberal arts (grammar, rhetoric, and logic), which itself ultimately comes from the Latin for ``place where three roads meet''?
-\end{block}
-\end{frame}
-\subsection{Answers}
-\begin{frame}[t]{Word Origins, Answer 1}
-% \vspace{0.5em}
-\begin{block}{Question}
-The name of which contraption is a combination of the Greek words for ``spiral'' and ``wing''?
-\end{block}
+\endgroup{}
 
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Helicopter (helico + pter)
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/helicopter}.jpeg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
+\begingroup{}
+\begin{frame}[t]{Categories}
+This week, they've come up with questions in the following categories:
+\begin{enumerate}
+\item Weather
+\item Word Origins
+\item Broadway Musical Names from Song Titles
+\item Dog Breeds
+\item Disney
+\item National Parks
+\item Rome
+\item Books that had a Big Impact
+\item Inventors and Inventions
+\item California
+\end{enumerate}
 \end{frame}
-\begin{frame}[t]{Word Origins, Answer 2}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which word synonymous with calamity comes from the Greek for, literally, ``ill-starred'', stemming from the ancient superstition that the stars determined one's fate?
-\end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    Disaster
-    \end{block}
-}
-\end{frame}
-\begin{frame}[t]{Word Origins, Answer 3}
-% \vspace{0.5em}
-\begin{block}{Question}
-The word ``first'' is derived from the superlative of which adjective that has a related meaning?
-\end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    Fore
-    \end{block}
-}
-\end{frame}
-\begin{frame}[t]{Word Origins, Answer 4}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-The name of the Civil War general pictured here is the origin of the word for a particular style of facial hair. What is the general's name?
-\end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    General Burnsides
-    \end{block}
-}
-\end{column}
-\begin{column}{0.65\linewidth}
+\endgroup{}
+
+
+\begin{frame}
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}Round 1\par%
+\usebeamerfont{subtitle}Weather\par%
+\end{beamercolorbox}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/burnsides}.jpg}
+Please mute yourselves!
 \end{center}
-\end{column}
-\end{columns}
+\vfill
 \end{frame}
-\begin{frame}[t]{Word Origins, Answer 5}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which English word is derived from an ancient Greek onomatopoetic word that meant ``foreigner'' and that was intended to resemble the sound of foreign or unintelligible speech?
-\end{block}
 
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Barbarian or barbaric
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.46000\textheight]{{Images/barbarian}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Word Origins, Answer 6}
-% \vspace{0.5em}
-\begin{block}{Question}
-This name of a region of the Earth comes from the Greek for ``bear'' (the animal), as it lies in the direction of Ursa Major, the bear constellation.
-\end{block}
+\begin{frame}[t]{Weather, Question 1}
 
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    The Arctic (from Greek \emph{arktos})
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/arctic}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Word Origins, Answer 7}
-% \vspace{0.5em}
 \begin{block}{Question}
-Which animal's name is Afrikaans Dutch for ``ground-pig''?
+The Inuits have approximately 50 different words for snow. Name any 15 of them.
 \end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Aardvark
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/aardvark}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Word Origins, Answer 8}
-% \vspace{0.5em}
-\begin{block}{Question}
-The word for this kind of book was taken directly from a Latin word that originally meant ``treasury'' but whose meaning expanded to mean any kind of repository.
+\pause{}
+\begin{block}{}
+Sorry, couldn't resist! Now, on to the real game.
 \end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Thesaurus
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.46000\textheight]{{Images/roget}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Word Origins, Answer 9}
-% \vspace{0.5em}
-\begin{block}{Question}
-What current English word literally meant ``crappy sound'' in ancient Greek?
-\end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    Cacophony
-    \end{block}
-}
-\end{frame}
-\begin{frame}[t]{Word Origins, Answer 10}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which word's origin is the Medieval Latin collective noun for the first three of the seven liberal arts (grammar, rhetoric, and logic), which itself ultimately comes from the Latin for ``place where three roads meet''?
-\end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    Trivia!
-    \end{block}
-}
 \end{frame}
 \def\thisSectionName{Weather}
-\section{Round 2}
+\section{Round 1}
 \subsection*{Q1}
 \begin{frame}[t]{Weather, Question 1}
 % \vspace{0.5em}
 \begin{block}{Question}
-It's a myth that this effect leads to toilets flushing in the opposite direction in Australia, but the effect does cause hurricanes in the Northern and Souther hemispheres to rotate in opposite directions. What is the name of the effect?
+It's a myth that this effect leads to toilets flushing in the opposite direction in Australia, but the effect does cause hurricanes in the Northern and Southern hemispheres to rotate in opposite directions. What is the name of the effect?
 \end{block}
 \end{frame}
 \subsection*{Q2}
@@ -412,7 +210,7 @@ The Tri-State Tornado of 1925 is both the deadliest tornado in U.S. history and 
 \begin{frame}[t]{Weather, Question 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the name of the scale that classifies hurricanes as category 1--5 based on their wind speed?
+What is the name of the scale that classifies hurricanes as category 1 to 5 based on their wind speed?
 \end{block}
 \end{frame}
 \subsection*{Q7}
@@ -465,7 +263,7 @@ What does this meteorological symbol indicate the approach of?
 \begin{frame}[t]{Weather, Answer 1}
 % \vspace{0.5em}
 \begin{block}{Question}
-It's a myth that this effect leads to toilets flushing in the opposite direction in Australia, but the effect does cause hurricanes in the Northern and Souther hemispheres to rotate in opposite directions. What is the name of the effect?
+It's a myth that this effect leads to toilets flushing in the opposite direction in Australia, but the effect does cause hurricanes in the Northern and Southern hemispheres to rotate in opposite directions. What is the name of the effect?
 \end{block}
 
 \visible<2->{
@@ -571,7 +369,7 @@ The Tri-State Tornado of 1925 is both the deadliest tornado in U.S. history and 
 \begin{frame}[t]{Weather, Answer 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the name of the scale that classifies hurricanes as category 1--5 based on their wind speed?
+What is the name of the scale that classifies hurricanes as category 1 to 5 based on their wind speed?
 \end{block}
 
 \visible<2->{
@@ -584,7 +382,7 @@ What is the name of the scale that classifies hurricanes as category 1--5 based 
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/saffirsimpson}.png}
+        max height=0.50000\textheight]{{Images/saffirsimpson}.png}
     \end{center}
     \end{column}
     \end{columns}
@@ -663,6 +461,273 @@ What does this meteorological symbol indicate the approach of?
 \end{column}
 \end{columns}
 \end{frame}
+\def\thisSectionName{Word Origins}
+\section{Round 2}
+\subsection*{Q1}
+\begin{frame}[t]{Word Origins, Question 1}
+% \vspace{0.5em}
+\begin{block}{Question}
+The name of which contraption is a combination of the Greek words for ``spiral'' and ``wing''?
+\end{block}
+\end{frame}
+\subsection*{Q2}
+\begin{frame}[t]{Word Origins, Question 2}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which word that is synonymous with ``calamity'' comes from the Greek for, literally, ``ill-starred'', stemming from the ancient superstition that the stars determined one's fate?
+\end{block}
+\end{frame}
+\subsection*{Q3}
+\begin{frame}[t]{Word Origins, Question 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+The word ``first'' is derived from the superlative of which adjective that has a related meaning?
+\end{block}
+\end{frame}
+\subsection*{Q4}
+\begin{frame}[t]{Word Origins, Question 4}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+The name of the Civil War general pictured here is the origin of the word for a particular style of facial hair. What is the general's name?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/burnsides}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\subsection*{Q5}
+\begin{frame}[t]{Word Origins, Question 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which English word is derived from an ancient Greek word that meant ``foreigner'' and that was onomatopoetic in that it resembled the sound of foreign or unintelligible speech?
+\end{block}
+\end{frame}
+\subsection*{Q6}
+\begin{frame}[t]{Word Origins, Question 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+This name of a region of the Earth comes from the Greek for ``bear'' (the animal), as it was thought to lie beneath Ursa Major, the bear constellation.
+\end{block}
+\end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Word Origins, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which animal's name is Afrikaans Dutch for ``ground-pig''?
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Word Origins, Question 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+The word for this kind of book was taken directly from a Latin word that originally meant ``treasury'' but whose meaning expanded to mean any kind of repository.
+\end{block}
+\end{frame}
+\subsection*{Q9}
+\begin{frame}[t]{Word Origins, Question 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+What current English word is an amalgam of the Ancient Greek words for ``crappy'' and ``sound''?
+\end{block}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Word Origins, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which word's origin is the Medieval Latin collective noun for the first three of the seven liberal arts (grammar, rhetoric, and logic), which itself ultimately comes from the Latin for ``place where three roads meet''?
+\end{block}
+\end{frame}
+\subsection{Answers}
+\begin{frame}[t]{Word Origins, Answer 1}
+% \vspace{0.5em}
+\begin{block}{Question}
+The name of which contraption is a combination of the Greek words for ``spiral'' and ``wing''?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Helicopter (helico + pter)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/helicopter}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Word Origins, Answer 2}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which word that is synonymous with ``calamity'' comes from the Greek for, literally, ``ill-starred'', stemming from the ancient superstition that the stars determined one's fate?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Disaster
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Word Origins, Answer 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+The word ``first'' is derived from the superlative of which adjective that has a related meaning?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Fore
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Word Origins, Answer 4}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+The name of the Civil War general pictured here is the origin of the word for a particular style of facial hair. What is the general's name?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    General Burnsides
+    \end{block}
+}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/burnsides}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\begin{frame}[t]{Word Origins, Answer 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which English word is derived from an ancient Greek word that meant ``foreigner'' and that was onomatopoetic in that it resembled the sound of foreign or unintelligible speech?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Barbarian or barbaric
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/barbarian}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Word Origins, Answer 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+This name of a region of the Earth comes from the Greek for ``bear'' (the animal), as it was thought to lie beneath Ursa Major, the bear constellation.
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    The Arctic (from Greek \emph{arktos})
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/arctic}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Word Origins, Answer 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which animal's name is Afrikaans Dutch for ``ground-pig''?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Aardvark
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/aardvark}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Word Origins, Answer 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+The word for this kind of book was taken directly from a Latin word that originally meant ``treasury'' but whose meaning expanded to mean any kind of repository.
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Thesaurus
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/roget}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Word Origins, Answer 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+What current English word is an amalgam of the Ancient Greek words for ``crappy'' and ``sound''?
+\end{block}
+\visible<2->{
+    \begin{block}{Answer}
+    Cacophony
+    \end{block}
+}
+\end{frame}
+\begin{frame}[t]{Word Origins, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which word's origin is the Medieval Latin collective noun for the first three of the seven liberal arts (grammar, rhetoric, and logic), which itself ultimately comes from the Latin for ``place where three roads meet''?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Trivia!
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.42000\textheight]{{Images/triviatitleframelogo}.png}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
 \def\thisSectionName{Broadway Musical Names from Song Titles}
 \section{Round 3}
 \subsection*{Q1}
@@ -697,7 +762,7 @@ Bill
 \begin{frame}[t]{Broadway Musical Names from Song Titles, Question 5}
 % \vspace{0.5em}
 \begin{block}{Question}
-If I were a Bell
+If I Were a Bell
 \end{block}
 \end{frame}
 \subsection*{Q6}
@@ -746,7 +811,7 @@ Just you Wait
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    My Fair Lady
+    \emph{My Fair Lady}
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -768,7 +833,7 @@ No One is Alone
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Into the Woods
+    \emph{Into the Woods}
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -790,7 +855,7 @@ There's No Business Like Show Business
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Annie Get your Gun
+    \emph{Annie Get your Gun}
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -812,7 +877,7 @@ Bill
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Showboat
+    \emph{Showboat}
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -827,14 +892,14 @@ Bill
 \begin{frame}[t]{Broadway Musical Names from Song Titles, Answer 5}
 % \vspace{0.5em}
 \begin{block}{Question}
-If I were a Bell
+If I Were a Bell
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Guys and Dolls
+    \emph{Guys and Dolls}
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -856,7 +921,7 @@ What I Did for Love
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    A Chorus Line
+    \emph{A Chorus Line}
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -878,7 +943,7 @@ Out Tonight
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Rent
+    \emph{Rent}
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -900,7 +965,7 @@ The King of Broadway
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    The Producers
+    \emph{The Producers}
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -922,7 +987,7 @@ Cool
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    West Side Story
+    \emph{West Side Story}
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -944,7 +1009,7 @@ It Might as Well be Spring
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    State Fair
+    \emph{State Fair}
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -1350,7 +1415,7 @@ Who is the only Disney princess who has a star on the Hollywood Walk of Fame?
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-In \emph{The Little Mermaid}, what were the nautical-themed names of Ursula's two pet eels?
+In \emph{The Little Mermaid}, what were the maritime-themed names of Ursula's two pet eels?
 \end{block}
 \end{column}
 \begin{column}{0.65\linewidth}
@@ -1417,7 +1482,7 @@ Mickey Mouse spoke his first words in the 1929 short film \emph{The Karnival Kid
 \begin{frame}[t]{Disney, Question 9}
 % \vspace{0.5em}
 \begin{block}{Question}
-Which Disney movie is the song ``I'll make a man out of you'' from?
+Which Disney movie is the song ``I'll Make a Man Out of You'' from?
 \end{block}
 \end{frame}
 \subsection*{Q10}
@@ -1475,7 +1540,7 @@ Who is the only Disney princess who has a star on the Hollywood Walk of Fame?
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-In \emph{The Little Mermaid}, what were the nautical-themed names of Ursula's two pet eels?
+In \emph{The Little Mermaid}, what were the maritime-themed names of Ursula's two pet eels?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
@@ -1610,7 +1675,7 @@ Mickey Mouse spoke his first words in the 1929 short film \emph{The Karnival Kid
 \begin{frame}[t]{Disney, Answer 9}
 % \vspace{0.5em}
 \begin{block}{Question}
-Which Disney movie is the song ``I'll make a man out of you'' from?
+Which Disney movie is the song ``I'll Make a Man Out of You'' from?
 \end{block}
 
 \visible<2->{
@@ -1733,7 +1798,7 @@ Which national park is pictured here?
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-Yellowstone is home to the world's tallest currently active geyser, with an eruption height of up to 300ft. What is this geyser's name?
+Yellowstone National Park is home to the world's tallest currently active geyser, with an eruption height of up to 300ft. What is this geyser's name?
 \end{block}
 \end{column}
 \begin{column}{0.65\linewidth}
@@ -1747,7 +1812,7 @@ Yellowstone is home to the world's tallest currently active geyser, with an erup
 \begin{frame}[t]{National Parks, Question 10}
 % \vspace{0.5em}
 \begin{block}{Question}
-In which national park can see you see the sunrise before anyone else in the U.S.?
+From which national park can see you see the sunrise before anyone else in the U.S.?
 \end{block}
 \end{frame}
 \subsection{Answers}
@@ -1928,7 +1993,7 @@ Which national park is pictured here?
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-Yellowstone is home to the world's tallest currently active geyser, with an eruption height of up to 300ft. What is this geyser's name?
+Yellowstone National Park is home to the world's tallest currently active geyser, with an eruption height of up to 300ft. What is this geyser's name?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
@@ -1946,7 +2011,7 @@ Yellowstone is home to the world's tallest currently active geyser, with an erup
 \begin{frame}[t]{National Parks, Answer 10}
 % \vspace{0.5em}
 \begin{block}{Question}
-In which national park can see you see the sunrise before anyone else in the U.S.?
+From which national park can see you see the sunrise before anyone else in the U.S.?
 \end{block}
 
 \visible<2->{
@@ -2006,7 +2071,7 @@ What are the names of the legendary founders of Rome who were raised by a she-wo
 \begin{frame}[t]{Rome, Question 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-Where were chariot races in Rome held?
+Where were chariot races in Ancient Rome held?
 \end{block}
 \end{frame}
 \subsection*{Q7}
@@ -2076,7 +2141,7 @@ Rome is famous for its seven hills. Name three of them.
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/hillsofrome}.png}
+        max height=0.54000\textheight]{{Images/hillsofrome}.jpg}
     \end{center}
     \end{column}
     \end{columns}
@@ -2151,7 +2216,7 @@ What are the names of the legendary founders of Rome who were raised by a she-wo
 \begin{frame}[t]{Rome, Answer 6}
 % \vspace{0.5em}
 \begin{block}{Question}
-Where were chariot races in Rome held?
+Where were chariot races in Ancient Rome held?
 \end{block}
 
 \visible<2->{
@@ -2264,7 +2329,7 @@ What is the monument to Victor Emmanuel II colloquially known as?
 \begin{frame}[t]{Books that had a Big Impact, Question 1}
 % \vspace{0.5em}
 \begin{block}{Question}
-What novel did Pres. Lincoln, among others, say contributed to starting the Civil War?
+What 1852 novel did Pres. Lincoln, among others, say contributed to starting the Civil War?
 \end{block}
 \end{frame}
 \subsection*{Q2}
@@ -2292,7 +2357,7 @@ What reform-era book brought slum conditions in New York City to light?
 \begin{frame}[t]{Books that had a Big Impact, Question 5}
 % \vspace{0.5em}
 \begin{block}{Question}
-What 1970 book made non-Native Americans consider Western expansion from the Native American point of view?
+What 1970 book helped non-Native Americans consider Western expansion from the Native American point of view?
 \end{block}
 \end{frame}
 \subsection*{Q6}
@@ -2334,14 +2399,14 @@ What 1982 book that was serialized in The New Yorker magazine gave an impetus to
 \begin{frame}[t]{Books that had a Big Impact, Answer 1}
 % \vspace{0.5em}
 \begin{block}{Question}
-What novel did Pres. Lincoln, among others, say contributed to starting the Civil War?
+What 1852 novel did Pres. Lincoln, among others, say contributed to starting the Civil War?
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    \emph{Uncle Tom's Cabin}, by Harriet Beecher Stowe (1852)
+    \emph{Uncle Tom's Cabin}, by Harriet Beecher Stowe
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -2422,7 +2487,7 @@ What reform-era book brought slum conditions in New York City to light?
 \begin{frame}[t]{Books that had a Big Impact, Answer 5}
 % \vspace{0.5em}
 \begin{block}{Question}
-What 1970 book made non-Native Americans consider Western expansion from the Native American point of view?
+What 1970 book helped non-Native Americans consider Western expansion from the Native American point of view?
 \end{block}
 
 \visible<2->{
@@ -2551,13 +2616,324 @@ What 1982 book that was serialized in The New Yorker magazine gave an impetus to
     \end{columns}
 }
 \end{frame}
-\def\thisSectionName{California}
+\def\thisSectionName{Inventors and Inventions}
 \section{Round 9}
+\subsection*{Q1}
+\begin{frame}[t]{Inventors and Inventions, Question 1}
+% \vspace{0.5em}
+\begin{block}{Question}
+Alfred Fielding and Marc Shuvon set out to create a 3-dimensional wallpaper, but, when that idea failed, repurposed the plastic material they'd created to be which more practical product?
+\end{block}
+\end{frame}
+\subsection*{Q2}
+\begin{frame}[t]{Inventors and Inventions, Question 2}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+The swivel chair was invented in the 1700's by which prominent American?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/swivel}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+\subsection*{Q3}
+\begin{frame}[t]{Inventors and Inventions, Question 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+Fill in the blank: The Frisbee was named after the Frisbie \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{} Company, which sold a product in a container that its customers ended up (mis)using as the first lightweight flying discs.
+\end{block}
+\end{frame}
+\subsection*{Q4}
+\begin{frame}[t]{Inventors and Inventions, Question 4}
+% \vspace{0.5em}
+\begin{block}{Question}
+After reading a prematurely-published obituary of himself that read ``the merchant of death is dead'', which inventor and scientist decided to change his legacy by using his wealth to promote scientific, literary, and other achievement?
+\end{block}
+\end{frame}
+\subsection*{Q5}
+\begin{frame}[t]{Inventors and Inventions, Question 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which British polymath, often called the father of computing, was the first to devise a machine that could carry out arbitrary mathematical operations mechanically?
+\end{block}
+\end{frame}
+\subsection*{Q6}
+\begin{frame}[t]{Inventors and Inventions, Question 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+Bette Nesmith Graham, who worked as a secretary, invented which product to aid typists?
+\end{block}
+\end{frame}
+\subsection*{Q7}
+\begin{frame}[t]{Inventors and Inventions, Question 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+During WWII, which actress developed \emph{frequency-hopping spread spectrum}, a method for preventing the jamming of radio signals that is still used in modern wireless communications?
+\end{block}
+\end{frame}
+\subsection*{Q8}
+\begin{frame}[t]{Inventors and Inventions, Question 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+George Eastman, who founded Kodak, received his first patent for inventing which piece of photographic equipment that helped make photography accessible to everyone?
+\end{block}
+\end{frame}
+\subsection*{Q9}
+\begin{frame}[t]{Inventors and Inventions, Question 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+In his work as a patent clerk, Albert Einstein was exposed to inventions that used electrical signals to do an important task that was necessary due to the increasingly long distances over which travel and communication were occurring. What was the important task --- which would form the basis of Einstein's theory of special relativity --- that these inventions performed?
+\end{block}
+\end{frame}
+\subsection*{Q10}
+\begin{frame}[t]{Inventors and Inventions, Question 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which podiatrist born in 1882 founded a Fortune 500 foot care company and is credited with designing over 1,000 foot care products?
+\end{block}
+\end{frame}
+\subsection{Answers}
+\begin{frame}[t]{Inventors and Inventions, Answer 1}
+% \vspace{0.5em}
+\begin{block}{Question}
+Alfred Fielding and Marc Shuvon set out to create a 3-dimensional wallpaper, but, when that idea failed, repurposed the plastic material they'd created to be which more practical product?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Bubble wrap
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/bubblewrap}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Inventors and Inventions, Answer 2}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
+\begin{block}{Question}
+The swivel chair was invented in the 1700's by which prominent American?
+\end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/swivel}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Thomas Jefferson
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/jefferson}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Inventors and Inventions, Answer 3}
+% \vspace{0.5em}
+\begin{block}{Question}
+Fill in the blank: The Frisbee was named after the Frisbie \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{} Company, which sold a product in a container that its customers ended up (mis)using as the first lightweight flying discs.
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Pie (the customers used the pie tins)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38000\textheight]{{Images/frisbie}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Inventors and Inventions, Answer 4}
+% \vspace{0.5em}
+\begin{block}{Question}
+After reading a prematurely-published obituary of himself that read ``the merchant of death is dead'', which inventor and scientist decided to change his legacy by using his wealth to promote scientific, literary, and other achievement?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Alfred Nobel
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.42000\textheight]{{Images/nobel}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Inventors and Inventions, Answer 5}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which British polymath, often called the father of computing, was the first to devise a machine that could carry out arbitrary mathematical operations mechanically?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Charles Babbage
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/babbage}.png}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Inventors and Inventions, Answer 6}
+% \vspace{0.5em}
+\begin{block}{Question}
+Bette Nesmith Graham, who worked as a secretary, invented which product to aid typists?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Wite-Out, white out, Liquid Paper, Mistake Out, or correction fluid (she was also the mother of Mike Nesmith of the Monkees)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/liquidpaper}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Inventors and Inventions, Answer 7}
+% \vspace{0.5em}
+\begin{block}{Question}
+During WWII, which actress developed \emph{frequency-hopping spread spectrum}, a method for preventing the jamming of radio signals that is still used in modern wireless communications?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Hedy Lamarr (That's Hedley --- wait, no it's not.)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/hedylamarr}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Inventors and Inventions, Answer 8}
+% \vspace{0.5em}
+\begin{block}{Question}
+George Eastman, who founded Kodak, received his first patent for inventing which piece of photographic equipment that helped make photography accessible to everyone?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Film (which replaced photographic plates)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.46000\textheight]{{Images/eastman}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Inventors and Inventions, Answer 9}
+% \vspace{0.5em}
+\begin{block}{Question}
+In his work as a patent clerk, Albert Einstein was exposed to inventions that used electrical signals to do an important task that was necessary due to the increasingly long distances over which travel and communication were occurring. What was the important task --- which would form the basis of Einstein's theory of special relativity --- that these inventions performed?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Synchronizing timekeeping devices or keeping clocks in sync
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.30000\textheight]{{Images/clocksync}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Inventors and Inventions, Answer 10}
+% \vspace{0.5em}
+\begin{block}{Question}
+Which podiatrist born in 1882 founded a Fortune 500 foot care company and is credited with designing over 1,000 foot care products?
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    Dr.\ Scholl (of Dr.\ Scholl's)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.50000\textheight]{{Images/drscholl}.png}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\def\thisSectionName{California}
+\section{Round 10}
 \subsection*{Q1}
 \begin{frame}[t]{California, Question 1}
 % \vspace{0.5em}
 \begin{block}{Question}
-UCLA is surrounded by three Los Angeles neighborhoods the names of each of which begin with the letter ``B''.  What are they?
+UCLA is surrounded by three Los Angeles neighborhoods the names of each of which begin with the letter ``B''.  What are they? (We need all three.)
 \end{block}
 \end{frame}
 \subsection*{Q2}
@@ -2636,14 +3012,14 @@ Name the father and son California governors (need both the first and last names
 \begin{frame}[t]{California, Answer 1}
 % \vspace{0.5em}
 \begin{block}{Question}
-UCLA is surrounded by three Los Angeles neighborhoods the names of each of which begin with the letter ``B''.  What are they?
+UCLA is surrounded by three Los Angeles neighborhoods the names of each of which begin with the letter ``B''.  What are they? (We need all three.)
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Bel Air, Brentwood and Beverly Hills.
+    Bel Air, Brentwood, and Beverly Hills.
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -2851,331 +3227,20 @@ Name the father and son California governors (need both the first and last names
     \end{columns}
 }
 \end{frame}
-\def\thisSectionName{Inventors and Inventions}
-\section{Round 10}
-\subsection*{Q1}
-\begin{frame}[t]{Inventors and Inventions, Question 1}
-% \vspace{0.5em}
-\begin{block}{Question}
-Alfred Fielding and Marc Shuvon set out to create a 3-dimensional wallpaper, but, when that idea failed, repurposed the plastic material they'd created to be which more practical product?
-\end{block}
-\end{frame}
-\subsection*{Q2}
-\begin{frame}[t]{Inventors and Inventions, Question 2}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-The swivel chair was invented in the 1700's by which prominent American?
-\end{block}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/swivel}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-\subsection*{Q3}
-\begin{frame}[t]{Inventors and Inventions, Question 3}
-% \vspace{0.5em}
-\begin{block}{Question}
-Fill in the blank: The Frisbee was named after the Frisbie \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{} Company, which sold a product that its customers ended up (mis)using as the first lightweight flying discs.
-\end{block}
-\end{frame}
-\subsection*{Q4}
-\begin{frame}[t]{Inventors and Inventions, Question 4}
-% \vspace{0.5em}
-\begin{block}{Question}
-After reading a prematurely-published obituary of himself that read ``the merchant of death is dead'', which inventor and scientist decided to change his legacy by using his wealth to promote achievement in science?
-\end{block}
-\end{frame}
-\subsection*{Q5}
-\begin{frame}[t]{Inventors and Inventions, Question 5}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which British polymath, often called the father of computing, was the first to devise a machine that could carry out arbitrary mathematical operations mechanically?
-\end{block}
-\end{frame}
-\subsection*{Q6}
-\begin{frame}[t]{Inventors and Inventions, Question 6}
-% \vspace{0.5em}
-\begin{block}{Question}
-Bette Nesmith Graham, who worked as a secretary, invented which product to aid typists?
-\end{block}
-\end{frame}
-\subsection*{Q7}
-\begin{frame}[t]{Inventors and Inventions, Question 7}
-% \vspace{0.5em}
-\begin{block}{Question}
-During WWII, which actress developed \emph{frequency-hopping spread spectrum}, a method for preventing the jamming of radio signals which is still used in modern wireless communications?
-\end{block}
-\end{frame}
-\subsection*{Q8}
-\begin{frame}[t]{Inventors and Inventions, Question 8}
-% \vspace{0.5em}
-\begin{block}{Question}
-George Eastman, who founded Kodak, received his first patent for inventing which piece of photographic equipment that helped make photography accessible to the masses?
-\end{block}
-\end{frame}
-\subsection*{Q9}
-\begin{frame}[t]{Inventors and Inventions, Question 9}
-% \vspace{0.5em}
-\begin{block}{Question}
-With travel and communication taking place over increasingly long distances at the turn of the century, Albert Einstein's work at the patent office exposed him to proposals for using electrical signals to do what important task that would serve as the basis of his development of the theory of special relativity?
-\end{block}
-\end{frame}
-\subsection*{Q10}
-\begin{frame}[t]{Inventors and Inventions, Question 10}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which podiatrist born in 1882 founded a Fortune 500 foot care company and is credited with designing over 1,000 foot care products?
-\end{block}
-\end{frame}
-\subsection{Answers}
-\begin{frame}[t]{Inventors and Inventions, Answer 1}
-% \vspace{0.5em}
-\begin{block}{Question}
-Alfred Fielding and Marc Shuvon set out to create a 3-dimensional wallpaper, but, when that idea failed, repurposed the plastic material they'd created to be which more practical product?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Bubble wrap
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.46000\textheight]{{Images/bubblewrap}.jpeg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Inventors and Inventions, Answer 2}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-The swivel chair was invented in the 1700's by which prominent American?
-\end{block}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/swivel}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Thomas Jefferson
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.38\textheight]{{Images/jefferson}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Inventors and Inventions, Answer 3}
-% \vspace{0.5em}
-\begin{block}{Question}
-Fill in the blank: The Frisbee was named after the Frisbie \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{} Company, which sold a product that its customers ended up (mis)using as the first lightweight flying discs.
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Pie (the customers used the pie tins)
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.38000\textheight]{{Images/frisbie}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Inventors and Inventions, Answer 4}
-% \vspace{0.5em}
-\begin{block}{Question}
-After reading a prematurely-published obituary of himself that read ``the merchant of death is dead'', which inventor and scientist decided to change his legacy by using his wealth to promote achievement in science?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Alfred Nobel
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.42000\textheight]{{Images/nobel}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Inventors and Inventions, Answer 5}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which British polymath, often called the father of computing, was the first to devise a machine that could carry out arbitrary mathematical operations mechanically?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Charles Babbage
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.46000\textheight]{{Images/babbage}.png}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Inventors and Inventions, Answer 6}
-% \vspace{0.5em}
-\begin{block}{Question}
-Bette Nesmith Graham, who worked as a secretary, invented which product to aid typists?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Wite-Out, white out, Liquid Paper, Mistake Out, or correction fluid (she was also the mother of Mike Nesmith of the Monkees)
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/liquidpaper}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Inventors and Inventions, Answer 7}
-% \vspace{0.5em}
-\begin{block}{Question}
-During WWII, which actress developed \emph{frequency-hopping spread spectrum}, a method for preventing the jamming of radio signals which is still used in modern wireless communications?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Hedy Lamarr (That's Hedley --- wait, no it's not.)
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.46000\textheight]{{Images/hedylamarr}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Inventors and Inventions, Answer 8}
-% \vspace{0.5em}
-\begin{block}{Question}
-George Eastman, who founded Kodak, received his first patent for inventing which piece of photographic equipment that helped make photography accessible to the masses?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Film (which replaced photographic plates)
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.46000\textheight]{{Images/eastman}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Inventors and Inventions, Answer 9}
-% \vspace{0.5em}
-\begin{block}{Question}
-With travel and communication taking place over increasingly long distances at the turn of the century, Albert Einstein's work at the patent office exposed him to proposals for using electrical signals to do what important task that would serve as the basis of his development of the theory of special relativity?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Synchronize timekeeping devices or keep clocks in sync
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.34000\textheight]{{Images/clocksync}.jpg}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
-\begin{frame}[t]{Inventors and Inventions, Answer 10}
-% \vspace{0.5em}
-\begin{block}{Question}
-Which podiatrist born in 1882 founded a Fortune 500 foot care company and is credited with designing over 1,000 foot care products?
-\end{block}
-
-\visible<2->{
-    \begin{columns}[T,totalwidth=\linewidth]
-    \begin{column}{0.32\linewidth}
-    \begin{block}{Answer}
-    Dr.\ Scholl (of Dr.\ Scholl's)
-    \end{block}
-    \end{column}
-    \begin{column}{0.65\linewidth}
-    \begin{center}
-    \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/drscholl}.png}
-    \end{center}
-    \end{column}
-    \end{columns}
-}
-\end{frame}
 \def\thisSectionName{Bonus}
 \section{Bonus Round}
 \subsection*{Q1}
-\begin{frame}[t]{Bonus Round: Word Origins}
-% \vspace{0.5em}
-\begin{block}{Question}
-Prior to roughly 1600, the word ``clue'' (originally spelled ``clew'') meant ``a ball of thread'', but of course it now means ``a fact or object that helps to solve a problem or mystery''. By association with which well-known legend did the meaning of ``clue'' change from ``ball of thread'' to its current meaning?
-\end{block}
-\end{frame}
-\subsection*{Q2}
 \begin{frame}[t]{Bonus Round: Weather}
 % \vspace{0.5em}
 \begin{block}{Question}
 Which city in New York State passed a resolution on March 30, 1992 that read, ``Be it resolved, on behalf of the snow-weary citizens of [this city], any further snowfall is expressly outlawed in [this city] until December 24, 1992''? (The snow didn't get the memo.)
+\end{block}
+\end{frame}
+\subsection*{Q2}
+\begin{frame}[t]{Bonus Round: Word Origins}
+% \vspace{0.5em}
+\begin{block}{Question}
+Prior to roughly 1600, the word ``clue'' (originally spelled ``clew'') meant ``a ball of thread'', but of course it now means ``a fact or object that helps to solve a problem or mystery''. By association with which well-known legend did the meaning of ``clue'' change from ``ball of thread'' to its current meaning?
 \end{block}
 \end{frame}
 \subsection*{Q3}
@@ -3189,7 +3254,7 @@ Someone to Watch Over Me
 \begin{frame}[t]{Bonus Round: Dog Breeds}
 % \vspace{0.5em}
 \begin{block}{Question}
-Not counting a miscellaneous group, kennel clubs generally recognize seven groups of dog breeds; the same seven groups are recognized by the Westminster Kennel Club, the U.S. Kennel Club, and the Kennel Club of Philadelphia, which runs the National Dog Show that takes place each year on Thanksgiving. Name five of the seven groups of breeds.
+Not counting the miscellaneous group, kennel clubs generally recognize seven groups of dog breeds; the same seven groups are recognized by the Westminster Kennel Club, the U.S. Kennel Club, and the Kennel Club of Philadelphia, which runs the National Dog Show that takes place each year on Thanksgiving. Name five of the seven groups of breeds.
 \end{block}
 \end{frame}
 \subsection*{Q5}
@@ -3230,6 +3295,13 @@ What book by a Greek philosopher --- in which he  espoused the idea that a drama
 \end{block}
 \end{frame}
 \subsection*{Q9}
+\begin{frame}[t]{Bonus Round: Inventors and Inventions}
+% \vspace{0.5em}
+\begin{block}{Question}
+Alexander Graham Bell is often credited with the invention of the telephone, but as Tony Soprano would remind us, \emph{this} Italian-American ``invented the telephone and he got robbed --- everybody knows that''. Indeed, in 2002, House Resolution 269 was passed, which read, ``if [this man] had been able to pay the \$10 fee to maintain the [patent] caveat after 1874, no patent could have been issued to Bell.'' Who was the true inventor of the telephone?
+\end{block}
+\end{frame}
+\subsection*{Q10}
 \begin{frame}[t]{Bonus Round: California}
 % \vspace{0.5em}
 \begin{columns}[T,totalwidth=\linewidth]
@@ -3245,32 +3317,7 @@ California's Central Valley, one of our country's largest and most productive ag
 \end{column}
 \end{columns}
 \end{frame}
-\subsection*{Q10}
-\begin{frame}[t]{Bonus Round: Inventors and Inventions}
-% \vspace{0.5em}
-\begin{block}{Question}
-Alexander Graham Bell is often credited with the invention of the telephone, but as Tony Soprano would remind us, \emph{this} Italian-American ``invented the telephone and he got robbed --- everybody knows that''. Indeed, in 2002, House Resolution 269 was passed, which read, ``if [this man] had been able to pay the \$10 fee to maintain the [patent] caveat after 1874, no patent could have been issued to Bell.'' Who was the true inventor of the telephone?
-\end{block}
-\end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Bonus Round: Word Origins}
-% \vspace{0.5em}
-\begin{block}{Question}
-Prior to roughly 1600, the word ``clue'' (originally spelled ``clew'') meant ``a ball of thread'', but of course it now means ``a fact or object that helps to solve a problem or mystery''. By association with which well-known legend did the meaning of ``clue'' change from ``ball of thread'' to its current meaning?
-\end{block}
-\pause{}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.73\linewidth}
-\begin{block}{Answer}
-Theseus and the Minotaur, in which Theseus unspools a ball of thread on his way into the labyrinth in order to find his way back out. If your answer included Theseus, the Minotaur, or the labyrinth, you got it right.
-\end{block}
-\end{column}
-\begin{column}{0.23\linewidth}
-\includegraphics[max width=0.95\textwidth,
-        max height=0.4\textheight]{{Images/theseusclew}.jpg}
-\end{column}
-\end{columns}
-\end{frame}
 \begin{frame}[t]{Bonus Round: Weather}
 % \vspace{0.5em}
 \begin{block}{Question}
@@ -3293,6 +3340,24 @@ Which city in New York State passed a resolution on March 30, 1992 that read, ``
     \end{columns}
 }
 \end{frame}
+\begin{frame}[t]{Bonus Round: Word Origins}
+% \vspace{0.5em}
+\begin{block}{Question}
+Prior to roughly 1600, the word ``clue'' (originally spelled ``clew'') meant ``a ball of thread'', but of course it now means ``a fact or object that helps to solve a problem or mystery''. By association with which well-known legend did the meaning of ``clue'' change from ``ball of thread'' to its current meaning?
+\end{block}
+\pause{}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.73\linewidth}
+\begin{block}{Answer}
+Theseus and the Minotaur, in which Theseus unspools a ball of thread on his way into the labyrinth in order to find his way back out. If your answer included Theseus, the Minotaur, or the labyrinth, you got it right.
+\end{block}
+\end{column}
+\begin{column}{0.23\linewidth}
+\includegraphics[max width=0.95\textwidth,
+        max height=0.4\textheight]{{Images/theseusclew}.jpg}
+\end{column}
+\end{columns}
+\end{frame}
 \begin{frame}[t]{Bonus Round: Broadway Musical Names from Song Titles}
 % \vspace{0.5em}
 \begin{block}{Question}
@@ -3303,7 +3368,7 @@ Someone to Watch Over Me
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Oh, Kay! (Song by George and Ira Gershwin)
+    \emph{Oh, Kay!} (Songs by George and Ira Gershwin)
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -3318,7 +3383,7 @@ Someone to Watch Over Me
 \begin{frame}[t]{Bonus Round: Dog Breeds}
 % \vspace{0.5em}
 \begin{block}{Question}
-Not counting a miscellaneous group, kennel clubs generally recognize seven groups of dog breeds; the same seven groups are recognized by the Westminster Kennel Club, the U.S. Kennel Club, and the Kennel Club of Philadelphia, which runs the National Dog Show that takes place each year on Thanksgiving. Name five of the seven groups of breeds.
+Not counting the miscellaneous group, kennel clubs generally recognize seven groups of dog breeds; the same seven groups are recognized by the Westminster Kennel Club, the U.S. Kennel Club, and the Kennel Club of Philadelphia, which runs the National Dog Show that takes place each year on Thanksgiving. Name five of the seven groups of breeds.
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
@@ -3423,26 +3488,6 @@ What book by a Greek philosopher --- in which he  espoused the idea that a drama
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Bonus Round: California}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.7\linewidth}
-\begin{block}{Question}
-California's Central Valley, one of our country's largest and most productive agricultural regions, is bounded to the North, South, East, and West by four different mountain ranges. Name three of the four mountain ranges.
-\end{block}
-\end{column}
-\begin{column}{0.25\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/calitopomap}.jpg}
-\end{center}
-\end{column}
-\end{columns}
-\visible<2->{
-    \begin{block}{Answer}
-    Any three of these: The Cascade Mountains (North), the Tehachapi Mountains (South), the Sierra Nevadas (East), and the Pacific Coast Ranges or Coast Ranges (West)
-    \end{block}
-}
-\end{frame}
 \begin{frame}[t]{Bonus Round: Inventors and Inventions}
 % \vspace{0.5em}
 \begin{block}{Question}
@@ -3463,6 +3508,26 @@ Alexander Graham Bell is often credited with the invention of the telephone, but
     \end{center}
     \end{column}
     \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Bonus Round: California}
+% \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.7\linewidth}
+\begin{block}{Question}
+California's Central Valley, one of our country's largest and most productive agricultural regions, is bounded to the North, South, East, and West by four different mountain ranges. Name three of the four mountain ranges.
+\end{block}
+\end{column}
+\begin{column}{0.25\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/calitopomap}.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\visible<2->{
+    \begin{block}{Answer}
+    Any three of these: The Cascade Mountains (North), the Tehachapi Mountains (South), the Sierra Nevadas (East), and the Pacific Coast Ranges or Coast Ranges (West)
+    \end{block}
 }
 \end{frame}
 \section*{\ }
