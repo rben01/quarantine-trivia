@@ -367,16 +367,6 @@ class LatexTemplates:
 \end{frame}
 
 \begingroup{}
-\begin{frame}
-\vfill{}
-\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
-\usebeamerfont{title}Good luck everyone! And have fun!
-\end{beamercolorbox}
-\vfill{}
-\end{frame}
-\endgroup{}
-
-\begingroup{}
 \begin{frame}[t]{Our Research Team}
 Once again this week, our team of academic researchers has been searching through the
 world's great libraries (online of course, to maintain social distancing) to assemble
@@ -386,7 +376,7 @@ challenging questions.\par%
 \begin{figure}[h]
 \caption*{OUR RESEARCH TEAM}
 \includegraphics[max width=0.9\textwidth,
-    max height=0.4\textheight]{{Images/threestooges}.jpg}
+    max height=0.5\textheight]{{Images/threestooges}.jpg}
 \end{figure}
 \end{center}
 \end{frame}
@@ -398,6 +388,16 @@ This week, they've come up with questions in the following categories:
 \begin{enumerate}
 {{CATEGORIES_}
 \end{enumerate}
+\end{frame}
+\endgroup{}
+
+\begingroup{}
+\begin{frame}
+\vfill{}
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}Good luck everyone! And have fun!
+\end{beamercolorbox}
+\vfill{}
 \end{frame}
 \endgroup{}
 
@@ -418,7 +418,7 @@ Please mute yourselves!
 \begin{frame}[t]{Weather, Question 1}
 
 \begin{block}{Question}
-The Inuits have approximately 50 different words for snow. Name any 15 of them.
+The Inuit have approximately 50 different words for snow. Name any 15 of them.
 \end{block}
 \pause{}
 \begin{block}{}
