@@ -298,10 +298,10 @@ class LatexTemplates:
 \usepackage{caption}
 
 
-% \usetheme[hideothersubsections]{Goettingen}
-\usetheme{Montpellier}
-% \usecolortheme{seahorse}
-\usecolortheme{dolphin}
+\usetheme[hideothersubsections]{Goettingen}
+\usecolortheme{seahorse}
+%%% \usetheme{Montpellier}
+%%% \usecolortheme{dolphin}
 \setbeamercovered{invisible}
 \setbeamertemplate{navigation symbols}{\insertslidenavigationsymbol}
 \setbeamertemplate{page number in head/foot}{}
@@ -330,6 +330,17 @@ class LatexTemplates:
     \ifthenelse{\equal{\thisSectionName}{Bonus}}{}{
         \usebeamerfont{subtitle}\thisSectionName\par%
     }
+    \ifthenelse{\equal{\thisSectionName}{France}}{
+        \vspace{0.5em}
+        \usebeamerfont{subtitle}
+        {\small
+        \begin{flushleft}
+        ``When good Americans die, they go to Paris.''
+        ---Oscar Wilde
+        \end{flushleft}
+        }
+        \vspace{-1em}
+    }{}
     \end{beamercolorbox}
     \begin{center}
     Please mute yourselves!
@@ -339,8 +350,8 @@ class LatexTemplates:
     {
         Get ready for some \emph{devilishly} hard questions!
         \vspace*{1em}
-        % \includegraphics[max width=0.5\textwidth,
-        %     max height=0.4\textheight]{Images/devil.jpg}
+        \includegraphics[max width=0.5\textwidth,
+            max height=0.4\textheight]{Images/devil.jpg}
     }{}
 
     \vfill
@@ -377,24 +388,27 @@ class LatexTemplates:
 \end{frame}
 
 \begingroup{}
-\begin{frame}[t]{Our Research Team}
-Once again this week, our team of academic researchers has been searching through the
-world's great libraries (online of course, to maintain social distancing) to assemble
-challenging questions.\par%
+\begin{frame}[t]{}
+Out of the 660 questions that we have posed so far, only three answers have been
+ challenged. Nonetheless, we want to make sure that everyone who has a challenge has an
+ opportunity to be heard, so we have retained a \mbox{Challenge Coordinator}.
+
 \pause{}
 \begin{center}
 \begin{figure}[h]
-\caption*{OUR RESEARCH TEAM}
-% \includegraphics[max width=0.9\textwidth,
-%     max height=0.5\textheight]{{Images/threestooges}.jpg}
+\caption*{OUR CHALLENGE COORDINATOR}
+\includegraphics[max width=0.9\textwidth,
+     max height=0.35\textheight]{Images/challengecoordinator.jpg}
 \end{figure}
 \end{center}
+Please feel free to contact the Coordinator with any challenges.
+For fastest resolution of your challenge, be sure to provide him with your home address
 \end{frame}
 \endgroup{}
 
 \begingroup{}
 \begin{frame}[t]{Categories}
-This week, they've come up with questions in the following categories:
+This week, you'll be answering questions in the following categories:
 \begin{enumerate}
 {{CATEGORIES_}
 \end{enumerate}

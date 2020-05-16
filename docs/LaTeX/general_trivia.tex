@@ -11,10 +11,10 @@
 \usepackage{caption}
 
 
-% \usetheme[hideothersubsections]{Goettingen}
-\usetheme{Montpellier}
-% \usecolortheme{seahorse}
-\usecolortheme{dolphin}
+\usetheme[hideothersubsections]{Goettingen}
+\usecolortheme{seahorse}
+%%% \usetheme{Montpellier}
+%%% \usecolortheme{dolphin}
 \setbeamercovered{invisible}
 \setbeamertemplate{navigation symbols}{\insertslidenavigationsymbol}
 \setbeamertemplate{page number in head/foot}{}
@@ -43,6 +43,17 @@
     \ifthenelse{\equal{\thisSectionName}{Bonus}}{}{
         \usebeamerfont{subtitle}\thisSectionName\par%
     }
+    \ifthenelse{\equal{\thisSectionName}{France}}{
+        \vspace{0.5em}
+        \usebeamerfont{subtitle}
+        {\small
+        \begin{flushleft}
+        ``When good Americans die, they go to Paris.''
+        ---Oscar Wilde
+        \end{flushleft}
+        }
+        \vspace{-1em}
+    }{}
     \end{beamercolorbox}
     \begin{center}
     Please mute yourselves!
@@ -52,8 +63,8 @@
     {
         Get ready for some \emph{devilishly} hard questions!
         \vspace*{1em}
-        % \includegraphics[max width=0.5\textwidth,
-        %     max height=0.4\textheight]{Images/devil.jpg}
+        \includegraphics[max width=0.5\textwidth,
+            max height=0.4\textheight]{Images/devil.jpg}
     }{}
 
     \vfill
@@ -90,35 +101,38 @@
 \end{frame}
 
 \begingroup{}
-\begin{frame}[t]{Our Research Team}
-Once again this week, our team of academic researchers has been searching through the
-world's great libraries (online of course, to maintain social distancing) to assemble
-challenging questions.\par%
+\begin{frame}[t]{}
+Out of the 660 questions that we have posed so far, only three answers have been
+ challenged. Nonetheless, we want to make sure that everyone who has a challenge has an
+ opportunity to be heard, so we have retained a \mbox{Challenge Coordinator}.
+
 \pause{}
 \begin{center}
 \begin{figure}[h]
-\caption*{OUR RESEARCH TEAM}
-% \includegraphics[max width=0.9\textwidth,
-%     max height=0.5\textheight]{{Images/threestooges}.jpg}
+\caption*{OUR CHALLENGE COORDINATOR}
+\includegraphics[max width=0.9\textwidth,
+     max height=0.35\textheight]{Images/challengecoordinator.jpg}
 \end{figure}
 \end{center}
+Please feel free to contact the Coordinator with any challenges.
+For fastest resolution of your challenge, be sure to provide him with your home address
 \end{frame}
 \endgroup{}
 
 \begingroup{}
 \begin{frame}[t]{Categories}
-This week, they've come up with questions in the following categories:
+This week, you'll be answering questions in the following categories:
 \begin{enumerate}
 \item Album by Album Art
 \item France
 \item Airport Codes
 \item Big Dates in History
-\item Products By Their Slogans
+\item Gangsters in Fact and Fiction
 \item Holidays and Observances
 \item All the Cool Kids are Texting about South Dakota
 \item Pastries
 \item Explorers
-\item Gangsters in Fact and Fiction
+\item Products and Companies By Their Slogans
 \end{enumerate}
 \end{frame}
 \endgroup{}
@@ -302,18 +316,29 @@ Name the album.
 \begin{block}{Question}
 Name the album.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    \emph{A Hard Day's Night} (The Beatles)
-    \end{block}
-}
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/harddaysnight}.jpeg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/harddaysnight}.jpeg}
 \end{center}
 \end{column}
 \end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{A Hard Day's Night} (The Beatles)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/harddaysnightanswer}.png}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \begin{frame}[t]{Round 1 --- Album by Album Art --- \mbox{Answer 2}}
 % \vspace{0.5em}
@@ -322,18 +347,29 @@ Name the album.
 \begin{block}{Question}
 Name the album.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-     \emph{The Wall} (Pink Floyd)
-    \end{block}
-}
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/thewall}.jpg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/thewall}.jpg}
 \end{center}
 \end{column}
 \end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+     \emph{The Wall} (Pink Floyd)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/wallanswer}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \begin{frame}[t]{Round 1 --- Album by Album Art --- \mbox{Answer 3}}
 % \vspace{0.5em}
@@ -342,18 +378,29 @@ Name the album.
 \begin{block}{Question}
 Name the album.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    \emph{Straight Outta Compton} (N.\@W.\@A)
-    \end{block}
-}
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/straightouttacompton}.jpeg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/straightouttacompton}.jpeg}
 \end{center}
 \end{column}
 \end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{Straight Outta Compton} (N.\@W.\@A)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/comptonanswer}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \begin{frame}[t]{Round 1 --- Album by Album Art --- \mbox{Answer 4}}
 % \vspace{0.5em}
@@ -362,18 +409,29 @@ Name the album.
 \begin{block}{Question}
 Name the album.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    \emph{What's Going On} (Marvin Gaye)
-    \end{block}
-}
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/whatsgoingon}.jpeg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/whatsgoingon}.jpeg}
 \end{center}
 \end{column}
 \end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{What's Going On} (Marvin Gaye)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/gayeanswer}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \begin{frame}[t]{Round 1 --- Album by Album Art --- \mbox{Answer 5}}
 % \vspace{0.5em}
@@ -382,18 +440,29 @@ Name the album.
 \begin{block}{Question}
 Name the album.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    \emph{\ldots{}And Justice For All} (Metallica)
-    \end{block}
-}
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/andjusticeforall}.jpeg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/andjusticeforall}.jpeg}
 \end{center}
 \end{column}
 \end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{\ldots{}And Justice For All} (Metallica)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/justiceanswer}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \begin{frame}[t]{Round 1 --- Album by Album Art --- \mbox{Answer 6}}
 % \vspace{0.5em}
@@ -402,18 +471,29 @@ Name the album.
 \begin{block}{Question}
 Name the album.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    \emph{A Rush of Blood to the Head} (Coldplay)
-    \end{block}
-}
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/rushofblood}.jpeg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/rushofblood}.jpeg}
 \end{center}
 \end{column}
 \end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{A Rush of Blood to the Head} (Coldplay)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/rushanswer}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \begin{frame}[t]{Round 1 --- Album by Album Art --- \mbox{Answer 7}}
 % \vspace{0.5em}
@@ -422,18 +502,29 @@ Name the album.
 \begin{block}{Question}
 Name the album.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    \emph{War} (U2)
-    \end{block}
-}
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/u2war}.jpeg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/u2war}.jpeg}
 \end{center}
 \end{column}
 \end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{War} (U2)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/waranswer}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \begin{frame}[t]{Round 1 --- Album by Album Art --- \mbox{Answer 8}}
 % \vspace{0.5em}
@@ -442,18 +533,29 @@ Name the album.
 \begin{block}{Question}
 Name the album.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    \emph{OK Computer} (Radiohead)
-    \end{block}
-}
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/okcomputer}.jpeg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/okcomputer}.jpeg}
 \end{center}
 \end{column}
 \end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{OK Computer} (Radiohead)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/okcompanswer}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \begin{frame}[t]{Round 1 --- Album by Album Art --- \mbox{Answer 9}}
 % \vspace{0.5em}
@@ -462,18 +564,29 @@ Name the album.
 \begin{block}{Question}
 Name the album.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    \emph{Remain in Light} (The Talking Heads)
-    \end{block}
-}
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/remaininlight}.jpeg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/remaininlight}.jpeg}
 \end{center}
 \end{column}
 \end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{Remain in Light} (The Talking Heads)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/remaininlightanswer}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \begin{frame}[t]{Round 1 --- Album by Album Art --- \mbox{Answer 10}}
 % \vspace{0.5em}
@@ -482,18 +595,29 @@ Name the album.
 \begin{block}{Question}
 Name the album.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    \emph{Bookends} (Simon and Garfunkel)
-    \end{block}
-}
 \end{column}
 \begin{column}{0.65\linewidth}
 \begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/bookends}.jpeg}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/bookends}.jpeg}
 \end{center}
 \end{column}
 \end{columns}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    \emph{Bookends} (Simon and Garfunkel)
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.38\textheight]{{Images/bookendsanswer}.jpeg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
 \end{frame}
 \def\thisSectionName{France}
 \section{Round 2}
@@ -501,7 +625,7 @@ Name the album.
 \begin{frame}[t]{Round 2 --- France --- \mbox{Question 1}}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the part of the Mediterranean coast of France that includes Nice and St.\ Tropez called? 
+What is the part of the Mediterranean coast of France that includes Nice, Cannes, and St.\ Tropez called? 
 \end{block}
 \end{frame}
 \subsection*{Q2}
@@ -571,7 +695,7 @@ What year did the French Revolution (the one that involved the storming of the B
 \begin{frame}[t]{Round 2 --- France --- \mbox{Answer 1}}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the part of the Mediterranean coast of France that includes Nice and St.\ Tropez called? 
+What is the part of the Mediterranean coast of France that includes Nice, Cannes, and St.\ Tropez called? 
 \end{block}
 
 \visible<2->{
@@ -584,7 +708,7 @@ What is the part of the Mediterranean coast of France that includes Nice and St.
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/riviera}.jpg}
+        max height=0.50000\textheight]{{Images/riviera}.jpg}
     \end{center}
     \end{column}
     \end{columns}
@@ -595,10 +719,21 @@ What is the part of the Mediterranean coast of France that includes Nice and St.
 \begin{block}{Question}
 Within 5 million, what is the population of France?
 \end{block}
+
 \visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
     Approximately 67 million (we will accept 62 million to 72 million)
     \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.54000\textheight]{{Images/francepop}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
 }
 \end{frame}
 \begin{frame}[t]{Round 2 --- France --- \mbox{Answer 3}}
@@ -1090,14 +1225,14 @@ April 9, 1865
 \begin{frame}[t]{Round 4 --- Big Dates in History --- \mbox{Question 3}}
 % \vspace{0.5em}
 \begin{block}{Question}
-August 15, 1945
+May 8, 1945
 \end{block}
 \end{frame}
 \subsection*{Q4}
 \begin{frame}[t]{Round 4 --- Big Dates in History --- \mbox{Question 4}}
 % \vspace{0.5em}
 \begin{block}{Question}
-December 21, 800
+December 25, 800
 \end{block}
 \end{frame}
 \subsection*{Q5}
@@ -1190,20 +1325,20 @@ April 9, 1865
 \begin{frame}[t]{Round 4 --- Big Dates in History --- \mbox{Answer 3}}
 % \vspace{0.5em}
 \begin{block}{Question}
-August 15, 1945
+May 8, 1945
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    V-J Day/Victory over Japan Day
+    V-E Day/Victory in Europe Day
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/vjday}.jpg}
+        max height=0.58000\textheight]{{Images/veday}.jpg}
     \end{center}
     \end{column}
     \end{columns}
@@ -1212,7 +1347,7 @@ August 15, 1945
 \begin{frame}[t]{Round 4 --- Big Dates in History --- \mbox{Answer 4}}
 % \vspace{0.5em}
 \begin{block}{Question}
-December 21, 800
+December 25, 800
 \end{block}
 
 \visible<2->{
@@ -1363,294 +1498,312 @@ March 15, 44 BCE
     \end{columns}
 }
 \end{frame}
-\def\thisSectionName{Products By Their Slogans}
+\def\thisSectionName{Gangsters in Fact and Fiction}
 \section{Round 5}
 \subsection*{Q1}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Question 1}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Question 1}}
 % \vspace{0.5em}
 \begin{block}{Question}
-You're in good hands.
+Testifying before a Senate committee, what gangster said, ``No proof linking me to any criminal conspiracy, whether it is called `Mafia' or `Cosa Nostra' or whatever other name you wish to give,  has ever been made public''?
 \end{block}
 \end{frame}
 \subsection*{Q2}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Question 2}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Question 2}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Tastes so good, cats ask for it by name.
+What was the name of the movie in which the gangster's final words were the rhetorical question ``Mother of mercy, is this the end of Rico?''
 \end{block}
 \end{frame}
 \subsection*{Q3}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Question 3}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Question 3}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Apply directly to the forehead.
+A gangster went to Umberto's Clam House in NYC's Little Italy on April 7, 1972 and found not spaghetti alle vongole but death on the menu.  Who was he?
 \end{block}
 \end{frame}
 \subsection*{Q4}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Question 4}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Question 4}}
 % \vspace{0.5em}
 \begin{block}{Question}
-The breakfast of champions.
+Dining out never seems to go well for gangsters. Which gangster proved on December 16, 1985 that New York City steaks are to die for ?
 \end{block}
 \end{frame}
 \subsection*{Q5}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Question 5}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Question 5}}
 % \vspace{0.5em}
 \begin{block}{Question}
-The happiest place on Earth.
+Which gangster said ``Say hello to my little friend?''
 \end{block}
 \end{frame}
 \subsection*{Q6}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Question 6}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Question 6}}
 % \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
 \begin{block}{Question}
-Pizza pizza!
+Which gangster was killed by authorities as he left the Biograph Theater in Chicago on July 22, 1934?
 \end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/biograph}.jpg}
+\end{center}
+\end{column}
+\end{columns}
 \end{frame}
 \subsection*{Q7}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Question 7}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Question 7}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Once you pop, you can't stop.
+In \emph{Goodfellas}, this gangster ended up in the witness protection program.
 \end{block}
 \end{frame}
 \subsection*{Q8}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Question 8}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Question 8}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Because you're worth it.
+In \emph{Godfather II}, the character of Hyman Roth is a stand-in for which real life gangster? 
 \end{block}
 \end{frame}
 \subsection*{Q9}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Question 9}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Question 9}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Quality never goes out of style.
+This gangster, known as ``the Brain'', is believed to have been involved in fixing the 1919 World Series.
 \end{block}
 \end{frame}
 \subsection*{Q10}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Question 10}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Question 10}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Got Milk?
+This Gangster, who controlled Chicago crime during Prohibition, was ultimately sent to jail for tax evasion.
 \end{block}
 \end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Answer 1}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Answer 1}}
 % \vspace{0.5em}
 \begin{block}{Question}
-You're in good hands.
+Testifying before a Senate committee, what gangster said, ``No proof linking me to any criminal conspiracy, whether it is called `Mafia' or `Cosa Nostra' or whatever other name you wish to give,  has ever been made public''?
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Allstate
+    Michael Corleone
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/allstate}.jpg}
+        max height=0.42000\textheight]{{Images/corleone}.jpeg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Answer 2}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Answer 2}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Tastes so good, cats ask for it by name.
+What was the name of the movie in which the gangster's final words were the rhetorical question ``Mother of mercy, is this the end of Rico?''
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Meow Mix
+    \emph{Little Caesar} (not the ``Pizza Pizza'' one)
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/meowmix}.jpg}
+        max height=0.50000\textheight]{{Images/littlecaesar}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Answer 3}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Answer 3}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Apply directly to the forehead.
+A gangster went to Umberto's Clam House in NYC's Little Italy on April 7, 1972 and found not spaghetti alle vongole but death on the menu.  Who was he?
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    HeadOn
+    Crazy Joe Gallo
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/headon}.jpg}
+        max height=0.46000\textheight]{{Images/crazyjoe}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Answer 4}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Answer 4}}
 % \vspace{0.5em}
 \begin{block}{Question}
-The breakfast of champions.
+Dining out never seems to go well for gangsters. Which gangster proved on December 16, 1985 that New York City steaks are to die for ?
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Wheaties
+    Paul Castellano, killed in front of Sparks Steak House
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/wheaties}.jpg}
+        max height=0.50000\textheight]{{Images/castellano}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Answer 5}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Answer 5}}
 % \vspace{0.5em}
 \begin{block}{Question}
-The happiest place on Earth.
+Which gangster said ``Say hello to my little friend?''
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Disneyland (\emph{not} Disney World or Magic Kingdom)
+    Scarface / Tony Montana (Al Pacino version)
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/disneyland}.jpg}
+        max height=0.54000\textheight]{{Images/scarface}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Answer 6}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Answer 6}}
 % \vspace{0.5em}
+\begin{columns}[T,totalwidth=\linewidth]
+\begin{column}{0.32\linewidth}
 \begin{block}{Question}
-Pizza pizza!
+Which gangster was killed by authorities as he left the Biograph Theater in Chicago on July 22, 1934?
 \end{block}
+\end{column}
+\begin{column}{0.65\linewidth}
+\begin{center}
+\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/biograph}.jpg}
+\end{center}
+\end{column}
+\end{columns}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Little Caesar's
+    John Dillinger
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/littlecaesars}.png}
+        max height=0.38\textheight]{{Images/dillinger}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Answer 7}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Answer 7}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Once you pop, you can't stop.
+In \emph{Goodfellas}, this gangster ended up in the witness protection program.
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Pringles
+    Henry Hill
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/pringles}.jpg}
+        max height=0.54000\textheight]{{Images/hill}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Answer 8}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Answer 8}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Because you're worth it.
+In \emph{Godfather II}, the character of Hyman Roth is a stand-in for which real life gangster? 
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    L'Oréal
+    Meyer Lansky
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/loreal}.jpeg}
+        max height=0.54000\textheight]{{Images/lanksy}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Answer 9}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Answer 9}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Quality never goes out of style.
+This gangster, known as ``the Brain'', is believed to have been involved in fixing the 1919 World Series.
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Levi's
+    Arnold Rothstein
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/levis}.jpg}
+        max height=0.50000\textheight]{{Images/rothstein}.jpeg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 5 --- Products By Their Slogans --- \mbox{Answer 10}}
+\begin{frame}[t]{Round 5 --- Gangsters in Fact and Fiction --- \mbox{Answer 10}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Got Milk?
+This Gangster, who controlled Chicago crime during Prohibition, was ultimately sent to jail for tax evasion.
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    California Milk Processor Board
+    Al Capone
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.58000\textheight]{{Images/gotmilk}.jpg}
+        max height=0.50000\textheight]{{Images/capone}.jpg}
     \end{center}
     \end{column}
     \end{columns}
@@ -1662,7 +1815,7 @@ Got Milk?
 \begin{frame}[t]{Round 6 --- Holidays and Observances --- \mbox{Question 1}}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the holiday celebrated by Indians and Indian-Americans on which participants throw colored powder on one another?
+What is the holiday celebrated by many  Indians and Indian-Americans on which participants throw colored powder on one another?
 \end{block}
 \end{frame}
 \subsection*{Q2}
@@ -1732,7 +1885,7 @@ What is the best-selling Christmas song of all time?
 \begin{frame}[t]{Round 6 --- Holidays and Observances --- \mbox{Answer 1}}
 % \vspace{0.5em}
 \begin{block}{Question}
-What is the holiday celebrated by Indians and Indian-Americans on which participants throw colored powder on one another?
+What is the holiday celebrated by many  Indians and Indian-Americans on which participants throw colored powder on one another?
 \end{block}
 
 \visible<2->{
@@ -2052,7 +2205,7 @@ I just got admitted to the flagship university of our state university system bu
     ignorelastdescenders]
 \begin{flushleft}
 {\small{}\fontfamily{qhv}\selectfont{}
-It's like a miracle you even got in --- it's in \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}.
+It's like a miracle you even got accepted. It's in \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}.
 }
 \end{flushleft}
 \end{mdframed}
@@ -2073,7 +2226,7 @@ It's like a miracle you even got in --- it's in \textunderscore{}\textunderscore
     ignorelastdescenders]
 \begin{flushleft}
 {\small{}\fontfamily{qhv}\selectfont{}
-Duuuude, my weekend is ruined.  I have a paper about Mt. Rushmore due on Monday, and I don't even who the sculptor was.
+Duuuude, my weekend is ruined.  I have a paper about Jr.\ Rushmore due on Monday and I don't even who the sculptor was.
 }
 \end{flushleft}
 \end{mdframed}
@@ -2226,7 +2379,7 @@ Hey man, I'm surrounded by a swarm of our state insects.
     ignorelastdescenders]
 \begin{flushleft}
 {\small{}\fontfamily{qhv}\selectfont{}
-Sweet, dude.
+Yo dude that doesn't sound too sweet.
 }
 \end{flushleft}
 \end{mdframed}
@@ -2241,7 +2394,7 @@ Sweet, dude.
     ignorelastdescenders]
 \begin{flushleft}
 {\small{}\fontfamily{qhv}\selectfont{}
-Um, sort of yes and sort of no --- because our state insect is the \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{} \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}.
+Um, it sort of is, because our state insect is the \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{} \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}.
 }
 \end{flushleft}
 \end{mdframed}
@@ -2510,7 +2663,7 @@ I just got admitted to the flagship university of our state university system bu
     ignorelastdescenders]
 \begin{flushleft}
 {\small{}\fontfamily{qhv}\selectfont{}
-It's like a miracle you even got in --- it's in \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}.
+It's like a miracle you even got accepted. It's in \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}.
 }
 \end{flushleft}
 \end{mdframed}
@@ -2535,7 +2688,7 @@ It's like a miracle you even got in --- it's in \textunderscore{}\textunderscore
     ignorelastdescenders]
 \begin{flushleft}
 {\small{}\fontfamily{qhv}\selectfont{}
-Duuuude, my weekend is ruined.  I have a paper about Mt. Rushmore due on Monday, and I don't even who the sculptor was.
+Duuuude, my weekend is ruined.  I have a paper about Jr.\ Rushmore due on Monday and I don't even who the sculptor was.
 }
 \end{flushleft}
 \end{mdframed}
@@ -2700,7 +2853,7 @@ Hey man, I'm surrounded by a swarm of our state insects.
     ignorelastdescenders]
 \begin{flushleft}
 {\small{}\fontfamily{qhv}\selectfont{}
-Sweet, dude.
+Yo dude that doesn't sound too sweet.
 }
 \end{flushleft}
 \end{mdframed}
@@ -2715,7 +2868,7 @@ Sweet, dude.
     ignorelastdescenders]
 \begin{flushleft}
 {\small{}\fontfamily{qhv}\selectfont{}
-Um, sort of yes and sort of no --- because our state insect is the \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{} \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}.
+Um, it sort of is, because our state insect is the \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{} \textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}\textunderscore{}.
 }
 \end{flushleft}
 \end{mdframed}
@@ -2900,7 +3053,7 @@ No, you're thinking of the one in California.  The \textunderscore{}\textundersc
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-Name the pastry (note the paper bag they're in).
+Name the pastry.
 \end{block}
 \end{column}
 \begin{column}{0.65\linewidth}
@@ -3060,7 +3213,7 @@ Name the pastry.
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-Name the pastry (note the paper bag they're in).
+Name the pastry.
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
@@ -3296,7 +3449,7 @@ Who was the first European to reach India by sea?
 \begin{frame}[t]{Round 9 --- Explorers --- \mbox{Question 6}}
 % \vspace{0.5em}
 \begin{block}{Question}
-This British explorer, who led an expedition to reach the South Pole, must have been disappointed to see the Norwegian flag flying when he got there --- they had beaten him by five weeks. Who's the explorer?
+This British explorer, who led an expedition to reach the South Pole, must have been disappointed to see the Norwegian flag flying when he got there --- they had beaten him by five weeks. Who was the British explorer?
 \end{block}
 \end{frame}
 \subsection*{Q7}
@@ -3441,7 +3594,7 @@ Who was the first European to reach India by sea?
 \begin{frame}[t]{Round 9 --- Explorers --- \mbox{Answer 6}}
 % \vspace{0.5em}
 \begin{block}{Question}
-This British explorer, who led an expedition to reach the South Pole, must have been disappointed to see the Norwegian flag flying when he got there --- they had beaten him by five weeks. Who's the explorer?
+This British explorer, who led an expedition to reach the South Pole, must have been disappointed to see the Norwegian flag flying when he got there --- they had beaten him by five weeks. Who was the British explorer?
 \end{block}
 
 \visible<2->{
@@ -3548,301 +3701,294 @@ What kind of mammal was the first to be launched into outer space? (Sadly, he di
     \end{columns}
 }
 \end{frame}
-\def\thisSectionName{Gangsters in Fact and Fiction}
+\def\thisSectionName{Products and Companies By Their Slogans}
 \section{Round 10}
 \subsection*{Q1}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Question 1}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Question 1}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Testifying before a Senate committee, what gangster said, ``No proof linking me to any criminal conspiracy, whether it is called `Mafia' or `Cosa Nostra' or whatever other name you wish to give,  has ever been made public''?
+You're in good hands.
 \end{block}
 \end{frame}
 \subsection*{Q2}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Question 2}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Question 2}}
 % \vspace{0.5em}
 \begin{block}{Question}
-What was the name of the movie in which the gangster's final words were the rhetorical question ``Mother of mercy, is this the end of Rico?''
+Tastes so good, cats ask for it by name.
 \end{block}
 \end{frame}
 \subsection*{Q3}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Question 3}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Question 3}}
 % \vspace{0.5em}
 \begin{block}{Question}
-A gangster went to Umberto's Clam House in Little Italy on April 7, 1972 and died --- and it wasn't bad clams that got him.  Who was he?
+Apply directly to the forehead.
 \end{block}
 \end{frame}
 \subsection*{Q4}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Question 4}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Question 4}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Dining out never seems to go well for gangsters. Which gangster proved on December 16, 1985 that New York City steaks are to die for ?
+The breakfast of champions.
 \end{block}
 \end{frame}
 \subsection*{Q5}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Question 5}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Question 5}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Which gangster said ``Say hello to my little friend?''
+The happiest place on Earth.
 \end{block}
 \end{frame}
 \subsection*{Q6}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Question 6}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Question 6}}
 % \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
 \begin{block}{Question}
-Which gangster was killed by authorities as he left the Biograph Theater in Chicago on July 22, 1934?
+Pizza pizza!
 \end{block}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{Images/biograph}.jpg}
-\end{center}
-\end{column}
-\end{columns}
 \end{frame}
 \subsection*{Q7}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Question 7}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Question 7}}
 % \vspace{0.5em}
 \begin{block}{Question}
-In \emph{Goodfellas}, this gangster ended up in the witness protection program.
+Once you pop, you can't stop.
 \end{block}
 \end{frame}
 \subsection*{Q8}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Question 8}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Question 8}}
 % \vspace{0.5em}
 \begin{block}{Question}
-In \emph{Godfather II}, the character of Hyman Roth is a stand-in for which real life gangster? 
+Because you're worth it.
 \end{block}
 \end{frame}
 \subsection*{Q9}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Question 9}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Question 9}}
 % \vspace{0.5em}
 \begin{block}{Question}
-This gangster, known as ``the Brain'', is believed to have been involved in fixing the 1919 World Series.
+Quality never goes out of style.
 \end{block}
 \end{frame}
 \subsection*{Q10}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Question 10}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Question 10}}
 % \vspace{0.5em}
 \begin{block}{Question}
-This Gangster, who controlled Chicago crime during Prohibition, was ultimately sent to jail for tax evasion.
+Imagination at work.
 \end{block}
 \end{frame}
 \subsection{Answers}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Answer 1}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Answer 1}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Testifying before a Senate committee, what gangster said, ``No proof linking me to any criminal conspiracy, whether it is called `Mafia' or `Cosa Nostra' or whatever other name you wish to give,  has ever been made public''?
+You're in good hands.
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Michael Corleone
+    Allstate
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.42000\textheight]{{Images/corleone}.jpeg}
+        max height=0.58000\textheight]{{Images/allstate}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Answer 2}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Answer 2}}
 % \vspace{0.5em}
 \begin{block}{Question}
-What was the name of the movie in which the gangster's final words were the rhetorical question ``Mother of mercy, is this the end of Rico?''
+Tastes so good, cats ask for it by name.
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    \emph{Little Caesar} (not the ``Pizza Pizza'' one)
+    Meow Mix
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/littlecaesar}.jpg}
+        max height=0.58000\textheight]{{Images/meowmix}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Answer 3}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Answer 3}}
 % \vspace{0.5em}
 \begin{block}{Question}
-A gangster went to Umberto's Clam House in Little Italy on April 7, 1972 and died --- and it wasn't bad clams that got him.  Who was he?
+Apply directly to the forehead.
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Crazy Joe Gallo
+    HeadOn
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/crazyjoe}.jpg}
+        max height=0.58000\textheight]{{Images/headon}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Answer 4}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Answer 4}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Dining out never seems to go well for gangsters. Which gangster proved on December 16, 1985 that New York City steaks are to die for ?
+The breakfast of champions.
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Paul Castellano, killed in front of Sparks Steak House
+    Wheaties
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/castellano}.jpg}
+        max height=0.58000\textheight]{{Images/wheaties}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Answer 5}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Answer 5}}
 % \vspace{0.5em}
 \begin{block}{Question}
-Which gangster said ``Say hello to my little friend?''
+The happiest place on Earth.
 \end{block}
-\visible<2->{
-    \begin{block}{Answer}
-    Scarface / Tony Montana (Al Pacino version)
-    \end{block}
-}
-\end{frame}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Answer 6}}
-% \vspace{0.5em}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.32\linewidth}
-\begin{block}{Question}
-Which gangster was killed by authorities as he left the Biograph Theater in Chicago on July 22, 1934?
-\end{block}
-\end{column}
-\begin{column}{0.65\linewidth}
-\begin{center}
-\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{Images/biograph}.jpg}
-\end{center}
-\end{column}
-\end{columns}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    John Dillinger
+    Disneyland (Disney World's is ``The Most Magical Place on Earth''. The slogan for all of the Disney Parks is ``Where Dreams Come True''.)
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.38\textheight]{{Images/dillinger}.jpg}
+        max height=0.58000\textheight]{{Images/disneyland}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Answer 7}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Answer 6}}
 % \vspace{0.5em}
 \begin{block}{Question}
-In \emph{Goodfellas}, this gangster ended up in the witness protection program.
+Pizza pizza!
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Henry Hill
+    Little Caesar's
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/hill}.jpg}
+        max height=0.58000\textheight]{{Images/littlecaesars}.png}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Answer 8}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Answer 7}}
 % \vspace{0.5em}
 \begin{block}{Question}
-In \emph{Godfather II}, the character of Hyman Roth is a stand-in for which real life gangster? 
+Once you pop, you can't stop.
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Meyer Lansky
+    Pringles
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.54000\textheight]{{Images/lansky}.jpg}
+        max height=0.58000\textheight]{{Images/pringles}.jpg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Answer 9}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Answer 8}}
 % \vspace{0.5em}
 \begin{block}{Question}
-This gangster, known as ``the Brain'', is believed to have been involved in fixing the 1919 World Series.
+Because you're worth it.
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Arnold Rothstein
+    L'Oréal
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/rothstein}.jpeg}
+        max height=0.58000\textheight]{{Images/loreal}.jpeg}
     \end{center}
     \end{column}
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Round 10 --- Gangsters in Fact and Fiction --- \mbox{Answer 10}}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Answer 9}}
 % \vspace{0.5em}
 \begin{block}{Question}
-This Gangster, who controlled Chicago crime during Prohibition, was ultimately sent to jail for tax evasion.
+Quality never goes out of style.
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Al Capone
+    Levi's
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/capone}.jpg}
+        max height=0.58000\textheight]{{Images/levis}.jpg}
+    \end{center}
+    \end{column}
+    \end{columns}
+}
+\end{frame}
+\begin{frame}[t]{Round 10 --- Products and Companies By Their Slogans --- \mbox{Answer 10}}
+% \vspace{0.5em}
+\begin{block}{Question}
+Imagination at work.
+\end{block}
+
+\visible<2->{
+    \begin{columns}[T,totalwidth=\linewidth]
+    \begin{column}{0.32\linewidth}
+    \begin{block}{Answer}
+    General Electric
+    \end{block}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+    \begin{center}
+    \includegraphics[max width=0.95\textwidth,
+        max height=0.58000\textheight]{{Images/ge}.jpg}
     \end{center}
     \end{column}
     \end{columns}
@@ -3897,10 +4043,10 @@ December 1, 1955
 \end{block}
 \end{frame}
 \subsection*{Q5}
-\begin{frame}[t]{Bonus Round --- Products By Their Slogans}
+\begin{frame}[t]{Bonus Round --- Gangsters in Fact and Fiction}
 % \vspace{0.5em}
 \begin{block}{Question}
-As per the unofficial U.\@S.\@ Postal Service creed, which is inscribed on the main USPS building in New York, which four things do not ``stay these couriers from the swift completion of their appointed rounds''?
+We all know that Vito Corleone, a/k/a Don Corleone, a/k/a the Godfather was just an honest merchant trying to bring healthful eating to his adopted country by importing olive oil from his native land.  What was the name of his olive oil company?
 \end{block}
 \end{frame}
 \subsection*{Q6}
@@ -3970,10 +4116,10 @@ What was the name of the sherpa who, together with Edmund Hillary, was one of th
 \end{block}
 \end{frame}
 \subsection*{Q10}
-\begin{frame}[t]{Bonus Round --- Gangsters in Fact and Fiction}
+\begin{frame}[t]{Bonus Round --- Products and Companies By Their Slogans}
 % \vspace{0.5em}
 \begin{block}{Question}
-We all know that Vito Corleone, a/k/a Don Corleone, a/k/a the Godfather was just an honest merchant trying to bring healthful eating to his adopted country by importing olive oil from his native land.  What was the name of his olive oil company?
+As per the unofficial U.\@S.\@ Postal Service creed, which is inscribed on the main USPS building in New York, which four things will not ``stay these couriers from the swift completion of their appointed rounds''?
 \end{block}
 \end{frame}
 \subsection{Answers}
@@ -4061,23 +4207,23 @@ December 1, 1955
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Bonus Round ---Products By Their Slogans}
+\begin{frame}[t]{Bonus Round ---Gangsters in Fact and Fiction}
 % \vspace{0.5em}
 \begin{block}{Question}
-As per the unofficial U.\@S.\@ Postal Service creed, which is inscribed on the main USPS building in New York, which four things do not ``stay these couriers from the swift completion of their appointed rounds''?
+We all know that Vito Corleone, a/k/a Don Corleone, a/k/a the Godfather was just an honest merchant trying to bring healthful eating to his adopted country by importing olive oil from his native land.  What was the name of his olive oil company?
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    In any order: snow, rain, heat, and gloom of night
+    Genco
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.42000\textheight]{{Images/usps}.jpg}
+        max height=0.42000\textheight]{{Images/genco}.jpg}
     \end{center}
     \end{column}
     \end{columns}
@@ -4154,7 +4300,7 @@ Name the pastry.
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
-    Cronut (U.\@S.\@A)
+    Cronut (U.\@S.\@A.\@)
     \end{block}
 }
 \end{column}
@@ -4187,23 +4333,23 @@ What was the name of the sherpa who, together with Edmund Hillary, was one of th
     \end{columns}
 }
 \end{frame}
-\begin{frame}[t]{Bonus Round ---Gangsters in Fact and Fiction}
+\begin{frame}[t]{Bonus Round ---Products and Companies By Their Slogans}
 % \vspace{0.5em}
 \begin{block}{Question}
-We all know that Vito Corleone, a/k/a Don Corleone, a/k/a the Godfather was just an honest merchant trying to bring healthful eating to his adopted country by importing olive oil from his native land.  What was the name of his olive oil company?
+As per the unofficial U.\@S.\@ Postal Service creed, which is inscribed on the main USPS building in New York, which four things will not ``stay these couriers from the swift completion of their appointed rounds''?
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Genco
+    In any order: snow, rain, heat, and gloom of night
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.42000\textheight]{{Images/genco}.jpg}
+        max height=0.42000\textheight]{{Images/usps}.jpg}
     \end{center}
     \end{column}
     \end{columns}

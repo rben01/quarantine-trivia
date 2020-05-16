@@ -38,12 +38,12 @@ TOPIC_ORDER = [
     "France",
     "Airport Codes",
     "Big Dates in History",
-    "Products By Their Slogans",
+    "Gangsters in Fact and Fiction",
     "Holidays and Observances",
     "All the Cool Kids are Texting about South Dakota",
     "Pastries",
     "Explorers",
-    "Gangsters in Fact and Fiction",
+    "Products and Companies By Their Slogans",
 ]
 
 
@@ -145,6 +145,7 @@ def get_trivia_items() -> List[TriviaItem]:
             .str.replace("Dr. ", r"Dr.\ ", regex=False)
             .str.replace("pl. ", r"pl.\ ", regex=False)
             .str.replace("Jr. ", r"Jr.\ ", regex=False)
+            .str.replace("Mt. ", r"Jr.\ ", regex=False)
             .str.replace(r"([A-Z]+)\.", r"\1.\@", regex=True)
         )
 
