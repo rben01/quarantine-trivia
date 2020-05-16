@@ -9,7 +9,7 @@ Name the album.,\emph{War} (U2),Album by Album Art,Album by Album Art,u2war.jpeg
 Name the album.,\emph{OK Computer} (Radiohead),Album by Album Art,Album by Album Art,okcomputer.jpeg,okcompanswer.jpeg,,
 Name the album.,\emph{Remain in Light} (The Talking Heads),Album by Album Art,Album by Album Art,remaininlight.jpeg,remaininlightanswer.jpeg,,
 Name the album.,\emph{Bookends} (Simon and Garfunkel),Album by Album Art,Album by Album Art,bookends.jpeg,bookendsanswer.jpeg,,
-Pictured here is Spencer Elden recreating a photo of himself that became a famous album cover. What was the album?,\emph{Nevermind} (Nirvana),Bonus,Album by Album Art,nevermind.jpg,,,
+Pictured here is Spencer Elden recreating a photo of himself as a baby that became a famous album cover. What was the album?,\emph{Nevermind} (Nirvana),Bonus,Album by Album Art,nevermind.jpg,,,
 "The bells of Notre Dame all have names.  What is the name of the oldest bell, cast in 1681?",Emmanuel,Bonus,France,emannuelbell.jpg,,,
 "What is the part of the Mediterranean coast of France that includes Nice, Cannes, and St. Tropez called? ",The Riviera or la Côte d’Azur,France,France,,riviera.jpg,,
 "Within 5 million, what is the population of France?",Approximately 67 million (we will accept 62 million to 72 million),France,France,,francepop.jpg,,
@@ -53,7 +53,7 @@ Pizza pizza!,Little Caesar’s,Products and Companies By Their Slogans,Products 
 Because you’re worth it.,L’Oréal,Products and Companies By Their Slogans,Products and Companies By Their Slogans,,loreal.jpeg,,
 Quality never goes out of style.,Levi’s,Products and Companies By Their Slogans,Products and Companies By Their Slogans,,levis.jpg,,
 Imagination at work.,General Electric,Products and Companies By Their Slogans,Products and Companies By Their Slogans,,ge.jpg,,
-"As per the unofficial U.S. Postal Service creed, which is inscribed on the main USPS building in New York, which four things will not “stay these couriers from the swift completion of their appointed rounds”?","In any order: snow, rain, heat, and gloom of night",Bonus,Products and Companies By Their Slogans,,usps.jpg,,
+"As per the unofficial U.S. Postal Service creed inscribed on the main USPS building in New York, which four things will not “stay these couriers from the swift completion of their appointed rounds”?","In any order: snow, rain, heat, and gloom of night",Bonus,Products and Companies By Their Slogans,,usps.jpg,,
 What is the holiday celebrated by many  Indians and Indian-Americans on which participants throw colored powder on one another?,Holi,Holidays and Observances,Holidays and Observances,,holi.jpg,,
 What holiday is celebrated in Canada on the second Monday in October?,Thanksgiving,Holidays and Observances,Holidays and Observances,,canadathanksgiving.jpg,,
 What offbeat holiday that occurs on January 19th each year might best be observed at a movie theater?,National Popcorn Day,Holidays and Observances,Holidays and Observances,,popcorn.jpg,,
@@ -65,13 +65,13 @@ On which offbeat holiday that occurs on September 19th each year should you soun
 This holiday that occurs on June 19th celebrates the freeing in Texas of the last American slaves to be freed.,Juneteenth,Holidays and Observances,Holidays and Observances,,juneteenth.jpg,,
 What is the best-selling Christmas song of all time?,\emph{All I Want for Christmas is You} by Mariah Carey (6x multi-platinum),Holidays and Observances,Holidays and Observances,,mariah.jpg,,
 "To within five years, in which year did the Times Square New Year’s Eve ball first drop?",1907 (1902-.-1912 will be accepted),Bonus,Holidays and Observances,,nye.JPG,,
-"!Yo, dude, I'm in our state capital city.
+"!Yo, dude, I'm in our state’s capital city.
 !Cool, so you're in *.",Pierre,All the Cool Kids are Texting about South Dakota,All the Cool Kids are Texting about South Dakota,,,pierre.jpg,
 "!Hey, I'm at that arena with corn on the facade.
 !Yo my man, I would love to go to the ***.",Mitchell Corn Palace,All the Cool Kids are Texting about South Dakota,All the Cool Kids are Texting about South Dakota,,,cornpalace.jpg,
 "!I just got admitted to the flagship university of our state university system but I don't know where it's located.
 !It's like a miracle you even got accepted. It's in *.",Vermillion,All the Cool Kids are Texting about South Dakota,All the Cool Kids are Texting about South Dakota,,,vermillion.jpeg,
-"!Duuuude, my weekend is ruined.  I have a paper about Mt. Rushmore due on Monday and I don't even who the sculptor was.
+"!Duuuude, my weekend is ruined.  I have a paper about Mount Rushmore due on Monday and I don't even who the sculptor was.
 !You've heard about the internet, right? Anyway, it was **.",Gutzon Borglum,All the Cool Kids are Texting about South Dakota,All the Cool Kids are Texting about South Dakota,,,borglum.jpeg,
 "!Yo, now that I'm out of college, I want to get a job in the biggest economic sector in our state, but I have like no idea what it is.
 !Yeah, good luck with that.  You should have studied something besides jello shots if you wanted to work in *.",Agriculture/Farming,All the Cool Kids are Texting about South Dakota,All the Cool Kids are Texting about South Dakota,,,farm.jpg,
@@ -81,7 +81,7 @@ What is the best-selling Christmas song of all time?,\emph{All I Want for Christ
 !Oh, you mean **.",Crazy Horse,All the Cool Kids are Texting about South Dakota,All the Cool Kids are Texting about South Dakota,,,crazyhorse.jpg,
 "!Hey man, I'm surrounded by a swarm of our state insects.
 !Yo dude that doesn't sound too sweet.
-!Um, it sort of is, because our state insect is the **.",Honey Bee,All the Cool Kids are Texting about South Dakota,All the Cool Kids are Texting about South Dakota,,,honeybee.jpg,
+!Um, it sort of is, because our state insect is the ** (sometimes also spelled *).",Honey bee / honeybee,All the Cool Kids are Texting about South Dakota,All the Cool Kids are Texting about South Dakota,,,honeybee.jpg,
 "!Hey man, I'm hanging out in that SD town where Wyatt Earp, Calamity Jane, and Wild Bill Hickok used to hang out.
 !You mean that place where the entire town has been designated as a National Historic Landmark District?
 !Yup, I'm in *.",Deadwood,All the Cool Kids are Texting about South Dakota,All the Cool Kids are Texting about South Dakota,,,deadwood.jpg,
@@ -92,13 +92,13 @@ What is the best-selling Christmas song of all time?,\emph{All I Want for Christ
 "!The one here in SD started in 1848, right?
 !No, you're thinking of the one in California.  The ** in SD started in 1874.",Gold Rush,All the Cool Kids are Texting about South Dakota,All the Cool Kids are Texting about South Dakota,,,goldrush.jpg,
 "!Hey do you think that our state nickname is a little obvious? 
-!Yeah, I'd say that “The ** State” is a little obvious.",The Mount Rushmore State,Bonus,All the Cool Kids are Texting about South Dakota,,,rushmore.jpg,
+!Yeah, I'd say that “The ** State” is a little obvious.",Mount Rushmore,Bonus,All the Cool Kids are Texting about South Dakota,,,rushmore.jpg,
 Name the pastry.,Zeppole (Italy),Pastries,Pastries,zeppole.jpg,,,
 Name the pastry.,Canelé (France),Pastries,Pastries,canele.jpg,,,
 Name the pastry.,Pastel de Nata / Pastiche de Belém (Portugal),Pastries,Pastries,pasteldenata.jpg,,,
 Name the pastry.,Pain au chocolat (France),Pastries,Pastries,painauchocolat.jpg,,,
 Name the pastry.,Gulab jamun (India and surrounding countries),Pastries,Pastries,gulabjamun.jpg,,,
-Name the pastry.,Sfogliatella or “swigadell” (Italy),Pastries,Pastries,sfogliatella.jpg,,,
+Name the pastry.,Sfogliatella (Italy) or “swigadell” (Little Italy),Pastries,Pastries,sfogliatella.jpg,,,
 Name the pastry.,Mille feuille (France),Pastries,Pastries,millefeuille.jpg,,,
 Name the pastry.,Profiterole (France),Pastries,Pastries,profiterole.jpg,,,
 Name the pastry.,Moon cake (China),Pastries,Pastries,mooncake.jpg,,,
@@ -107,7 +107,7 @@ Name the pastry.,Cronut (U.S.A.),Bonus,Pastries,cronut.jpg,,,
 Which European discovered the Mississippi River?,Hernando de Soto,Explorers,Explorers,,desoto.jpeg,,
 Who was the first explorer to captain a ship that circumnavigated the globe and live to tell the tale?,Sir Francis Drake,Explorers,Explorers,,drake.jpg,,
 Which explorer led the first European expedition to Florida and is famous for (apocryphally) searching for the Fountain of Youth?,Juan Ponce de León,Explorers,Explorers,,leon.jpg,,
-"Which explorer, who has a river named after him, was the first European to cross Canada east-to-west, beginning in Alberta and ending in British Columbia?",Sir Alexander MacKenzie,Explorers,Explorers,,mackenzie.jpg,,
+"Which explorer, who has a river named after him, was the first European to travel all the way across Canada, from its east coast to its west coast?",Sir Alexander MacKenzie,Explorers,Explorers,,mackenzie.jpg,,
 Who was the first European to reach India by sea?,Vasco de Gama,Explorers,Explorers,,gama.jpg,,
 "This British explorer, who led an expedition to reach the South Pole, must have been disappointed to see the Norwegian flag flying when he got there -.-.- they had beaten him by five weeks. Who was the British explorer?",Robert Scott,Explorers,Explorers,,robertscott.jpg,,
 Who is believed to be the very first European to have set foot in North America?,Leif Erikson,Explorers,Explorers,,leif.jpg,,
@@ -123,6 +123,6 @@ What was the name of the ship that Earnest Shackleton abandoned in Antarctica af
 Which gangster said “Say hello to my little friend?”,Scarface / Tony Montana (Al Pacino version),Gangsters in Fact and Fiction,Gangsters in Fact and Fiction,,scarface.jpg,,
 "Which gangster was killed by authorities as he left the Biograph Theater in Chicago on July 22, 1934?",John Dillinger,Gangsters in Fact and Fiction,Gangsters in Fact and Fiction,biograph.jpg,dillinger.jpg,,
 "In \emph{Goodfellas}, this gangster ended up in the witness protection program.",Henry Hill,Gangsters in Fact and Fiction,Gangsters in Fact and Fiction,,hill.jpg,,
-"In \emph{Godfather II}, the character of Hyman Roth is a stand-in for which real life gangster? ",Meyer Lansky,Gangsters in Fact and Fiction,Gangsters in Fact and Fiction,,lanksy.jpg,,
+"In \emph{Godfather II}, the character of Hyman Roth is based on which real life gangster? ",Meyer Lansky,Gangsters in Fact and Fiction,Gangsters in Fact and Fiction,,lanksy.jpg,,
 "This gangster, known as “the Brain”, is believed to have been involved in fixing the 1919 World Series.",Arnold Rothstein,Gangsters in Fact and Fiction,Gangsters in Fact and Fiction,,rothstein.jpeg,,
-"This Gangster, who controlled Chicago crime during Prohibition, was ultimately sent to jail for tax evasion.",Al Capone,Gangsters in Fact and Fiction,Gangsters in Fact and Fiction,,capone.jpg,,
+"This gangster, who controlled Chicago crime during Prohibition, was ultimately sent to jail for tax evasion.",Al Capone,Gangsters in Fact and Fiction,Gangsters in Fact and Fiction,,capone.jpg,,

@@ -112,7 +112,7 @@ class _GenericTemplateGroup:
             }
 
             if ti.section == "Bonus":
-                kwargs["question_title"] = f"{ti.round_name} ---{ti.topic}"
+                kwargs["question_title"] = f"{ti.round_name} --- {ti.topic}"
             else:
                 kwargs[
                     "question_title"
@@ -402,7 +402,7 @@ Out of the 660 questions that we have posed so far, only three answers have been
 \end{figure}
 \end{center}
 Please feel free to contact the Coordinator with any challenges.
-For fastest resolution of your challenge, be sure to provide him with your home address
+For fastest resolution of your challenge, be sure to provide him with your home address.
 \end{frame}
 \endgroup{}
 
