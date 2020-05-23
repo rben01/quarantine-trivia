@@ -14,7 +14,7 @@ from latex_templates import BeamerFrame, LatexTemplates
 np.random.seed(126)
 
 TEST = False
-DRAFT = True
+DRAFT = False
 
 N_QUESTIONS_PER_ROUND = 10
 

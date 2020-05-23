@@ -59,7 +59,7 @@ class _GenericTemplateGroup:
             r"""
 \subsection*{{Q{question_number}}}
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{block}}{{Question}}
 {question}
 \end{{block}}
@@ -71,7 +71,7 @@ class _GenericTemplateGroup:
             r"""
 \subsection*{{Q{question_number}}}
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{columns}}[T,totalwidth=\linewidth]
 \begin{{column}}{{0.32\linewidth}}
 \begin{{block}}{{Question}}
@@ -135,7 +135,7 @@ class _GenericTemplateGroup:
         ANSWER_SANS_IMAGE = LatexTemplate(
             r"""
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{block}}{{Question}}
 {question}
 \end{{block}}
@@ -151,7 +151,7 @@ class _GenericTemplateGroup:
         ANSWER_WITH_QUESTION_WITH_IMAGE = LatexTemplate(
             r"""
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{columns}}[T,totalwidth=\linewidth]
 \begin{{column}}{{0.32\linewidth}}
 \begin{{block}}{{Question}}
@@ -176,14 +176,14 @@ class _GenericTemplateGroup:
         ANSWER_WITH_IMAGE_AND_QUESTION_WITH_IMAGE = LatexTemplate(
             r"""
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{columns}}[T,totalwidth=\linewidth]
-\begin{{column}}{{0.32\linewidth}}
+\begin{{column}}{{0.38\linewidth}}
 \begin{{block}}{{Question}}
 {question}
 \end{{block}}
 \end{{column}}
-\begin{{column}}{{0.65\linewidth}}
+\begin{{column}}{{0.6\linewidth}}
 \begin{{center}}
 \includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{{q_image_file}}}
 \end{{center}}
@@ -192,15 +192,15 @@ class _GenericTemplateGroup:
 
 \visible<2->{{
     \begin{{columns}}[T,totalwidth=\linewidth]
-    \begin{{column}}{{0.32\linewidth}}
+    \begin{{column}}{{0.38\linewidth}}
     \begin{{block}}{{Answer{maybe_s}}}
     {answer}
     \end{{block}}
     \end{{column}}
-    \begin{{column}}{{0.65\linewidth}}
+    \begin{{column}}{{0.6\linewidth}}
     \begin{{center}}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.38\textheight]{{{a_image_file}}}
+        max height=0.34\textheight]{{{a_image_file}}}
     \end{{center}}
     \end{{column}}
     \end{{columns}}
@@ -212,7 +212,7 @@ class _GenericTemplateGroup:
         ANSWER_WITH_IMAGE_MOVED_TO_QUESTION = LatexTemplate(
             r"""
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{columns}}[T,totalwidth=\linewidth]
 \begin{{column}}{{0.32\linewidth}}
 \begin{{block}}{{Question}}
@@ -240,7 +240,7 @@ class _GenericTemplateGroup:
         ANSWER_WITH_IMAGE = LatexTemplate(
             r"""
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{block}}{{Question}}
 {question}
 \end{{block}}
@@ -327,19 +327,12 @@ class LatexTemplates:
     \ifthenelse{\equal{\thisSectionName}{Bonus}}{}{
         \usebeamerfont{subtitle}\thisSectionName\par%
     }
-    \ifthenelse{\equal{\thisSectionName}{France}}{
-        \vspace{0.5em}
-        \usebeamerfont{subtitle}
-        {\small
-        \begin{flushleft}
-        ``When good Americans die, they go to Paris.''
-        ---Oscar Wilde
-        \end{flushleft}
-        }
-        \vspace{-1em}
-    }{}
     \end{beamercolorbox}
     \begin{center}
+    \ifthenelse{\equal{\thisSectionName}{Colleges and Universities}}{
+        \includegraphics[max height = 0.3\textheight]{Images/belushicollege.jpg}
+    }{}
+
     Please mute yourselves!
     \end{center}
 
@@ -386,20 +379,26 @@ class LatexTemplates:
 
 \begingroup{}
 \begin{frame}[t]{}
-Out of the 660 questions that we have posed so far, only three answers have been
- challenged. Nonetheless, we want to make sure that everyone who has a challenge has an
- opportunity to be heard, so we have retained a \mbox{Challenge Coordinator}.
+Regarding last week's beignet vs. zeppole discussion, we are always willing to
+acknowledge our mistakes.  We realize now that our question should have included a
+typical presentation of the pastry in question.
 
+Beignets are typically presented in this fashion:
 \pause{}
 \begin{center}
-\begin{figure}[h]
-\caption*{OUR CHALLENGE COORDINATOR}
-% \includegraphics[max width=0.9\textwidth,
-%     max height=0.35\textheight]{Images/challengecoordinator.jpg}
-\end{figure}
+\includegraphics[max width=0.9\textwidth,
+    max height=0.4\textheight]{Images/beignet.jpg}
 \end{center}
-Please feel free to contact the Coordinator with any challenges.
-For fastest resolution of your challenge, be sure to provide him with your home address.
+\end{frame}
+\begin{frame}[t]{}
+Zeppole, on the other hand, are typically presented like this:
+\pause{}
+\begin{center}
+\includegraphics[max width=0.9\textwidth,
+    max height=0.4\textheight]{Images/zeppole.jpg}
+\end{center}
+\pause{}
+We apologize for any confusion we may have caused.
 \end{frame}
 \endgroup{}
 
@@ -470,7 +469,7 @@ This week, you'll be answering questions in the following categories:
                 TEMPLATE = LatexTemplate(
                     r"""
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{block}}{{Question}}
 {question}
 \end{{block}}
@@ -498,7 +497,7 @@ This week, you'll be answering questions in the following categories:
                 TEMPLATE = LatexTemplate(
                     r"""
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{columns}}[T,totalwidth=\linewidth]
 \begin{{column}}{{0.65\linewidth}}
 \begin{{block}}{{Question}}
@@ -540,7 +539,7 @@ This week, you'll be answering questions in the following categories:
                     r"""
 \subsection*{{Q{question_number}}}
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{columns}}[T,totalwidth=\linewidth]
 \begin{{column}}{{0.7\linewidth}}
 \begin{{block}}{{Question}}
@@ -561,7 +560,7 @@ This week, you'll be answering questions in the following categories:
                 TEMPLATE = LatexTemplate(
                     r"""
 \begin{{frame}}[t]{{{question_title}}}
-% \vspace{{0.5em}}
+\vspace{{-0.5em}}
 \begin{{columns}}[T,totalwidth=\linewidth]
 \begin{{column}}{{0.7\linewidth}}
 \begin{{block}}{{Question}}
