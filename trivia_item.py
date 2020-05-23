@@ -41,9 +41,9 @@ class TextDimInfo:
 
 class TriviaItem:
     TEMPLATE_HANDLERS: List[_GenericTemplateGroup] = [
-        LatexTemplates.Special.Bonus_Disney,
-        LatexTemplates.Special.Bonus_WordOrigins,
-        LatexTemplates.Special.Bonus_California,
+        LatexTemplates.Special.Nobel_7,
+        LatexTemplates.Special.Constitution_3,
+        LatexTemplates.Special.Bonus_UnderSea,
         LatexTemplates.Generic,
     ]
 
@@ -77,9 +77,15 @@ class TriviaItem:
         self, template_type: Union[_GenericTemplateGroup, _MatchableQuestionSlide]
     ) -> bool:
         if issubclass(template_type, _MatchableQuestionSlide):
-            return (
-                self.section == template_type.SECTION
-                and self.topic == template_type.TOPIC
+            non_null_keys = [
+                (k, k.upper())
+                for k in ["section", "topic", "number"]
+                if getattr(template_type, k.upper()) is not None
+            ]
+
+            return all(
+                getattr(self, my_key) == getattr(template_type, their_key)
+                for (my_key, their_key) in non_null_keys
             )
 
         return template_type is LatexTemplates.Generic

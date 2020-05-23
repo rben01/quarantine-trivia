@@ -86,6 +86,7 @@ def get_trivia_items() -> List[TriviaItem]:
             .str.replace("pl. ", r"pl.\ ", regex=False)
             .str.replace("Jr. ", r"Jr.\ ", regex=False)
             .str.replace("Mt. ", r"Mt.\ ", regex=False)
+            .str.replace("vs. ", r"vs.\ ", regex=False)
             .str.replace(r"([A-Z]+)\.", r"\1.\@", regex=True)
             .str.replace(
                 r"\*+",

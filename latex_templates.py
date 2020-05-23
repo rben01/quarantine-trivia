@@ -13,6 +13,7 @@ BeamerFrame = NewType("BeamerFrame", str)
 class _MatchableQuestionSlide:
     SECTION = None
     TOPIC = None
+    NUMBER = None
 
 
 class _GenericTemplateGroup:
@@ -339,9 +340,10 @@ class LatexTemplates:
     \ifthenelse{\equal{\thisSectionName}{Bonus}}
     {
         Get ready for some \emph{devilishly} hard questions!
+
         \vspace*{1em}
-        % \includegraphics[max width=0.5\textwidth,
-        %    max height=0.4\textheight]{Images/devil.jpg}
+        \includegraphics[max width=0.5\textwidth,
+           max height=0.4\textheight]{Images/bluedevils.png}
     }{}
 
     \vfill
@@ -380,8 +382,10 @@ class LatexTemplates:
 \begingroup{}
 \begin{frame}[t]{}
 Regarding last week's beignet vs. zeppole discussion, we are always willing to
-acknowledge our mistakes.  We realize now that our question should have included a
-typical presentation of the pastry in question.
+acknowledge our mistakes.  We realize now that, context being everything, our question
+should have included a typical presentation of the pastry in question.
+
+\medskip{}
 
 Beignets are typically presented in this fashion:
 \pause{}
@@ -461,9 +465,9 @@ This week, you'll be answering questions in the following categories:
         pass
 
     class Special:
-        class Bonus_WordOrigins(_GenericTemplateGroup, _MatchableQuestionSlide):
-            SECTION = "Bonus"
-            TOPIC = "Word Origins"
+        class Myths_8(_GenericTemplateGroup, _MatchableQuestionSlide):
+            SECTION = "Myths and Legends"
+            NUMBER = 8
 
             class A(_GenericTemplateGroup.Special_A):
                 TEMPLATE = LatexTemplate(
@@ -473,55 +477,114 @@ This week, you'll be answering questions in the following categories:
 \begin{{block}}{{Question}}
 {question}
 \end{{block}}
-\pause{{}}
-\begin{{columns}}[T,totalwidth=\linewidth]
-\begin{{column}}{{0.73\linewidth}}
-\begin{{block}}{{Answer}}
-{answer}
-\end{{block}}
-\end{{column}}
-\begin{{column}}{{0.23\linewidth}}
-\includegraphics[max width=0.95\textwidth,
-        max height=0.4\textheight]{{{a_image_file}}}
-\end{{column}}
-\end{{columns}}
-\end{{frame}}
-                """
-                )
-
-        class Bonus_Disney(_GenericTemplateGroup, _MatchableQuestionSlide):
-            SECTION = "Bonus"
-            TOPIC = "Disney"
-
-            class A(_GenericTemplateGroup.Special_A):
-                TEMPLATE = LatexTemplate(
-                    r"""
-\begin{{frame}}[t]{{{question_title}}}
-\vspace{{-0.5em}}
-\begin{{columns}}[T,totalwidth=\linewidth]
-\begin{{column}}{{0.65\linewidth}}
-\begin{{block}}{{Question}}
-{question}
-\end{{block}}
-\end{{column}}
-\begin{{column}}{{0.35\linewidth}}
-\begin{{center}}
-\includegraphics[max width=0.95\textwidth,max height=0.35\textheight]{{{q_image_file}}}
-\end{{center}}
-\end{{column}}
-\end{{columns}}
 
 \visible<2->{{
     \begin{{columns}}[T,totalwidth=\linewidth]
-    \begin{{column}}{{0.65\linewidth}}
+    \begin{{column}}{{0.48\linewidth}}
     \begin{{block}}{{Answer{maybe_s}}}
     {answer}
     \end{{block}}
     \end{{column}}
-    \begin{{column}}{{0.35\linewidth}}
+    \begin{{column}}{{0.48\linewidth}}
     \begin{{center}}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.38\textheight]{{{a_image_file}}}
+        max height={image_height:.5f}\textheight]{{{a_image_file}}}
+    \end{{center}}
+    \end{{column}}
+    \end{{columns}}
+}}
+\end{{frame}}
+                """
+                )
+
+        class Nobel_7(_GenericTemplateGroup, _MatchableQuestionSlide):
+            SECTION = "Nobel Prize Winners"
+            NUMBER = 7
+
+            class A(_GenericTemplateGroup.Special_A):
+                TEMPLATE = LatexTemplate(
+                    r"""
+\begin{{frame}}[t]{{{question_title}}}
+\vspace{{-0.5em}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+
+\visible<2->{{
+    \begin{{columns}}[T,totalwidth=\linewidth]
+    \begin{{column}}{{0.48\linewidth}}
+    \begin{{block}}{{Answer{maybe_s}}}
+    {answer}
+    \end{{block}}
+    \end{{column}}
+    \begin{{column}}{{0.48\linewidth}}
+    \begin{{center}}
+    \includegraphics[max width=0.95\textwidth,
+        max height={image_height:.5f}\textheight]{{{a_image_file}}}
+    \end{{center}}
+    \end{{column}}
+    \end{{columns}}
+}}
+\end{{frame}}
+                """
+                )
+
+        class Constitution_3(_GenericTemplateGroup, _MatchableQuestionSlide):
+            TOPIC = "The Constitution"
+            NUMBER = 3
+
+            class A(_GenericTemplateGroup.Special_A):
+                TEMPLATE = LatexTemplate(
+                    r"""
+\begin{{frame}}[t]{{{question_title}}}
+\vspace{{-0.5em}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+
+\visible<2->{{
+    \begin{{columns}}[T,totalwidth=\linewidth]
+    \begin{{column}}{{0.48\linewidth}}
+    \begin{{block}}{{Answer{maybe_s}}}
+    {answer}
+    \end{{block}}
+    \end{{column}}
+    \begin{{column}}{{0.48\linewidth}}
+    \begin{{center}}
+    \includegraphics[max width=0.95\textwidth,
+        max height={image_height:.5f}\textheight]{{{a_image_file}}}
+    \end{{center}}
+    \end{{column}}
+    \end{{columns}}
+}}
+\end{{frame}}
+                """
+                )
+
+        class Bonus_UnderSea(_GenericTemplateGroup, _MatchableQuestionSlide):
+            SECTION = "Bonus"
+            TOPIC = "Under the Sea"
+
+            class A(_GenericTemplateGroup.Special_A):
+                TEMPLATE = LatexTemplate(
+                    r"""
+\begin{{frame}}[t]{{{question_title}}}
+\vspace{{-0.5em}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+
+\visible<2->{{
+    \begin{{columns}}[T,totalwidth=\linewidth]
+    \begin{{column}}{{0.48\linewidth}}
+    \begin{{block}}{{Answer{maybe_s}}}
+    {answer}
+    \end{{block}}
+    \end{{column}}
+    \begin{{column}}{{0.48\linewidth}}
+    \begin{{center}}
+    \includegraphics[max width=0.95\textwidth,
+        max height={image_height:.5f}\textheight]{{{a_image_file}}}
     \end{{center}}
     \end{{column}}
     \end{{columns}}
