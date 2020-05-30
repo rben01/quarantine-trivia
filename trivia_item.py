@@ -41,9 +41,9 @@ class TextDimInfo:
 
 class TriviaItem:
     TEMPLATE_HANDLERS: List[_GenericTemplateGroup] = [
-        LatexTemplates.Special.Nobel_7,
-        LatexTemplates.Special.Constitution_3,
-        LatexTemplates.Special.Bonus_UnderSea,
+        LatexTemplates.Special.Ships_4,
+        LatexTemplates.Special.Colonial_9,
+        LatexTemplates.Special.Wonders_10,
         LatexTemplates.Generic,
     ]
 

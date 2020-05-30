@@ -380,14 +380,35 @@ class LatexTemplates:
 \begingroup{}
 \begin{frame}[t]{}
 
+It's been a pretty lousy week, but some good things did happen (and we're not being
+ironic here):
 \medskip{}
 
-Beignets are typically presented in this fashion:
-\pause{}
-\end{frame}
-\begin{frame}[t]{}
-\pause{}
-We apologize for any confusion we may have caused.
+\only<2>{
+    Jyoti Kumari, a fifteen year old girl who lives in India, rode her injured father
+    700 miles from New Dehli back home on the back of her bicycle. This earned her the
+    nickname ``Jyoti the Lionhearted''.
+    \begin{center}
+    \includegraphics[max width=0.8\textwidth,max height=0.5\textheight]
+    {{Images/jyoti}.jpg}
+    \end{center}
+}
+\only<3>{
+    British chef Ethan Rogers has created a six-foot-long ``Back to Work Baguette'',
+    the sandwich for social distancers.
+    \begin{center}
+    \includegraphics[max width=0.8\textwidth,max height=0.5\textheight]
+    {{Images/sandwich}.jpg}
+    \end{center}
+}
+\only<4>{
+    With today's launch of SpaceX's Falcon 9, the U.S. resumed human spaceflight.
+    \begin{center}
+    \includegraphics[max width=0.8\textwidth,max height=0.5\textheight]
+    {{Images/spacex}.jpeg}
+    \end{center}
+}
+
 \end{frame}
 \endgroup{}
 
@@ -450,9 +471,9 @@ This week, you'll be answering questions in the following categories:
         pass
 
     class Special:
-        class Myths_8(_GenericTemplateGroup, _MatchableQuestionSlide):
-            SECTION = "Myths and Legends"
-            NUMBER = 8
+        class Ships_4(_GenericTemplateGroup, _MatchableQuestionSlide):
+            SECTION = "Famous Ships and Boats"
+            NUMBER = 6
 
             class A(_GenericTemplateGroup.Special_A):
                 TEMPLATE = LatexTemplate(
@@ -465,12 +486,12 @@ This week, you'll be answering questions in the following categories:
 
 \visible<2->{{
     \begin{{columns}}[T,totalwidth=\linewidth]
-    \begin{{column}}{{0.48\linewidth}}
+    \begin{{column}}{{0.65\linewidth}}
     \begin{{block}}{{Answer{maybe_s}}}
     {answer}
     \end{{block}}
     \end{{column}}
-    \begin{{column}}{{0.48\linewidth}}
+    \begin{{column}}{{0.3\linewidth}}
     \begin{{center}}
     \includegraphics[max width=0.95\textwidth,
         max height={image_height:.5f}\textheight]{{{a_image_file}}}
@@ -478,13 +499,12 @@ This week, you'll be answering questions in the following categories:
     \end{{column}}
     \end{{columns}}
 }}
-\end{{frame}}
-                """
+\end{{frame}}                """
                 )
 
-        class Nobel_7(_GenericTemplateGroup, _MatchableQuestionSlide):
-            SECTION = "Nobel Prize Winners"
-            NUMBER = 7
+        class Colonial_9(_GenericTemplateGroup, _MatchableQuestionSlide):
+            SECTION = "Colonial America"
+            NUMBER = 9
 
             class A(_GenericTemplateGroup.Special_A):
                 TEMPLATE = LatexTemplate(
@@ -497,12 +517,12 @@ This week, you'll be answering questions in the following categories:
 
 \visible<2->{{
     \begin{{columns}}[T,totalwidth=\linewidth]
-    \begin{{column}}{{0.48\linewidth}}
+    \begin{{column}}{{0.65\linewidth}}
     \begin{{block}}{{Answer{maybe_s}}}
     {answer}
     \end{{block}}
     \end{{column}}
-    \begin{{column}}{{0.48\linewidth}}
+    \begin{{column}}{{0.3\linewidth}}
     \begin{{center}}
     \includegraphics[max width=0.95\textwidth,
         max height={image_height:.5f}\textheight]{{{a_image_file}}}
@@ -511,12 +531,12 @@ This week, you'll be answering questions in the following categories:
     \end{{columns}}
 }}
 \end{{frame}}
-                """
+"""
                 )
 
-        class Constitution_3(_GenericTemplateGroup, _MatchableQuestionSlide):
-            TOPIC = "The Constitution"
-            NUMBER = 3
+        class Wonders_10(_GenericTemplateGroup, _MatchableQuestionSlide):
+            SECTION = "Wonders of Engineering"
+            NUMBER = 10
 
             class A(_GenericTemplateGroup.Special_A):
                 TEMPLATE = LatexTemplate(
@@ -529,12 +549,12 @@ This week, you'll be answering questions in the following categories:
 
 \visible<2->{{
     \begin{{columns}}[T,totalwidth=\linewidth]
-    \begin{{column}}{{0.48\linewidth}}
+    \begin{{column}}{{0.65\linewidth}}
     \begin{{block}}{{Answer{maybe_s}}}
     {answer}
     \end{{block}}
     \end{{column}}
-    \begin{{column}}{{0.48\linewidth}}
+    \begin{{column}}{{0.3\linewidth}}
     \begin{{center}}
     \includegraphics[max width=0.95\textwidth,
         max height={image_height:.5f}\textheight]{{{a_image_file}}}
@@ -543,89 +563,5 @@ This week, you'll be answering questions in the following categories:
     \end{{columns}}
 }}
 \end{{frame}}
-                """
-                )
-
-        class Bonus_UnderSea(_GenericTemplateGroup, _MatchableQuestionSlide):
-            SECTION = "Bonus"
-            TOPIC = "Under the Sea"
-
-            class A(_GenericTemplateGroup.Special_A):
-                TEMPLATE = LatexTemplate(
-                    r"""
-\begin{{frame}}[t]{{{question_title}}}
-\vspace{{-0.5em}}
-\begin{{block}}{{Question}}
-{question}
-\end{{block}}
-
-\visible<2->{{
-    \begin{{columns}}[T,totalwidth=\linewidth]
-    \begin{{column}}{{0.48\linewidth}}
-    \begin{{block}}{{Answer{maybe_s}}}
-    {answer}
-    \end{{block}}
-    \end{{column}}
-    \begin{{column}}{{0.48\linewidth}}
-    \begin{{center}}
-    \includegraphics[max width=0.95\textwidth,
-        max height={image_height:.5f}\textheight]{{{a_image_file}}}
-    \end{{center}}
-    \end{{column}}
-    \end{{columns}}
-}}
-\end{{frame}}
-                """
-                )
-
-        class Bonus_California(_GenericTemplateGroup, _MatchableQuestionSlide):
-            SECTION = "Bonus"
-            TOPIC = "California"
-
-            class Q(_GenericTemplateGroup.Special_Q):
-                TEMPLATE = LatexTemplate(
-                    r"""
-\subsection*{{Q{question_number}}}
-\begin{{frame}}[t]{{{question_title}}}
-\vspace{{-0.5em}}
-\begin{{columns}}[T,totalwidth=\linewidth]
-\begin{{column}}{{0.7\linewidth}}
-\begin{{block}}{{Question}}
-{question}
-\end{{block}}
-\end{{column}}
-\begin{{column}}{{0.25\linewidth}}
-\begin{{center}}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{{q_image_file}}}
-\end{{center}}
-\end{{column}}
-\end{{columns}}
-\end{{frame}}
-            """
-                )
-
-            class A(_GenericTemplateGroup.Special_A):
-                TEMPLATE = LatexTemplate(
-                    r"""
-\begin{{frame}}[t]{{{question_title}}}
-\vspace{{-0.5em}}
-\begin{{columns}}[T,totalwidth=\linewidth]
-\begin{{column}}{{0.7\linewidth}}
-\begin{{block}}{{Question}}
-{question}
-\end{{block}}
-\end{{column}}
-\begin{{column}}{{0.25\linewidth}}
-\begin{{center}}
-\includegraphics[max width=0.95\textwidth,max height=0.7\textheight]{{{q_image_file}}}
-\end{{center}}
-\end{{column}}
-\end{{columns}}
-\visible<2->{{
-    \begin{{block}}{{Answer{maybe_s}}}
-    {answer}
-    \end{{block}}
-}}
-\end{{frame}}
-                """
+"""
                 )

@@ -35,15 +35,15 @@ LATEX_DIR.mkdir(exist_ok=True, parents=True)
 
 TOPIC_ORDER = [
     "Aviation",
-    "Birds",
-    "Colonial America",
-    "Famous ships and boats",
-    "Foreign Words and Phrases",
     "Ireland",
+    "Colonial America",
+    "Famous Ships and Boats",
+    "Foreign Words and Phrases",
+    "Birds",
     "Native Americans",
-    "The home of\\ldots{}",
-    "Washington, D.C.",
+    "The home of \\ldots{}",
     "Wonders of Engineering",
+    "Washington, D.C.",
 ]
 
 
@@ -94,8 +94,15 @@ def get_trivia_items() -> List[TriviaItem]:
                     [r"\textunderscore{}" * 5] * len(match.group(0))
                 ),
             )
+            .str.replace("=", "*", regex=False)
             .str.replace(r"(\d+)([a-z]{2,})", r"\1\\textsuperscript{\2}")
         )
+        if c == A_COL:
+            df[c] = (
+                df[c]
+                .str.replace("/", " / ", regex=False)
+                .str.replace(r"\s+/\s+", " / ", regex=True)
+            )
 
     topic_remapper = {}
 
