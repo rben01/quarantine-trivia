@@ -340,8 +340,8 @@ class LatexTemplates:
         Get ready for some \emph{devilishly} hard questions!
 
         \vspace*{1em}
-        %\includegraphics[max width=0.5\textwidth,
-           %max height=0.4\textheight]{Images/bluedevils.png}
+        \includegraphics[max width=0.5\textwidth,
+           max height=0.4\textheight]{Images/devil.jpg}
     }{}
 
     \vfill
