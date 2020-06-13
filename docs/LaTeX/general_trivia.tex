@@ -1,6 +1,9 @@
 \documentclass[11pt]{beamer}
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}  % max width/height in includegraphics
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage[document]{ragged2e}
+\usepackage{soul}
 \usepackage{xcolor}
 \usepackage{ifthen}
 \usepackage{fontspec}
@@ -19,6 +22,7 @@
 % \setbeamerfont{section in sidebar}{size=\fontsize{4}{3}\selectfont}
 % \setbeamerfont{subsection in sidebar}{size=\fontsize{4}{3}\selectfont}
 % \setbeamerfont{subsubsection in sidebar}{size=\fontsize{4}{2}\selectfont}
+
 
 \usepackage{microtype}
 % \DisableLigatures[f]{encoding = *, family = *}
@@ -51,8 +55,8 @@
         Get ready for some \emph{devilishly} hard questions!
 
         \vspace*{1em}
-        % \includegraphics[max width=0.5\textwidth,
-        %    max height=0.4\textheight]{Images/devil.jpg}
+        \includegraphics[max width=0.5\textwidth,
+           max height=0.4\textheight]{Images/devil.png}
     }{}
 
     \vfill
@@ -87,10 +91,64 @@
     max height=0.4\textheight]{Images/triviatitleframelogo.png}
 \end{center}
 \end{frame}
+\begin{frame}
+Each week it seems as though there is a discussion about a particular question. Last
+week, the discussion was about the principal shopping street in Rome. The answer we gave
+was Via del Corso, but many players suggested other streets. So we checked with an
+expert, our cousin Luciana, a native of Rome.
+
+\begin{center}
+\includegraphics[max width=.9\textwidth,max height=.4\textheight
+]{Images/luciana.jpg}
+\end{center}
+\end{frame}
 
 \begingroup{}
 \begin{frame}{}
-This is our last game
+\hfill{}\begin{minipage}{0.9\textwidth}
+\begin{mdframed}[
+    roundcorner=7pt,
+    backgroundcolor=blue!80!white,
+    linecolor=blue!80!white,
+    fontcolor=white,
+    ignorelastdescenders]
+\begin{flushleft}
+{\small{}\fontfamily{qhv}\selectfont{}
+Luciana,
+
+Una richiesta: Puoi risolvere una discussione fra qualche amico (incluso me) quanto a
+Roma? La domanda: Come romana, come nativa di Roma, secondo te, quale via e
+\ul{\textbf{la via principale a Roma per lo shopping}}?
+Non ti dico la mia opinione perché non voglio influenzare la tua riposta.
+
+Grazie mille. Ciao a Guiseppe.
+
+Terry
+}
+\end{flushleft}
+\end{mdframed}
+\end{minipage}
+
+\begin{minipage}{0.9\textwidth}
+\begin{mdframed}[
+    roundcorner=7pt,
+    backgroundcolor=black!5,
+    linecolor=black!5,
+    fontcolor=black,
+    ignorelastdescenders]
+\begin{flushleft}
+{\small{}\fontfamily{qhv}\selectfont{}
+La zona più amata da tutti noi è da piazza di Spagna a piazza del Popolo. Tutte quelle
+strade sono le più frequentate per lo shopping.
+\ul{\textbf{Via del Corso}},
+via della Vite, viadelle Carrozze, via del Babuino, via dei Condotti, via
+Frattina, via del Gambero etc etc. Poi ci sono romani, come me, che non amano le strade
+affollate e scelgono strade più tranquille come via Cola di Rienzo o via Ottaviano e i
+dintorni della zona del Vaticano.
+}
+\end{flushleft}
+\end{mdframed}
+\end{minipage}
 \end{frame}
 
 
@@ -190,7 +248,7 @@ What kind of flower is saffron produced from?
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-What is the name of the flower parts indicated here, which are located on the ends of filaments and contain the flower's pollen?
+What is the name of the orange flower parts pictured here, which contain the flower's pollen?
 \end{block}
 \end{column}
 \begin{column}{0.65\linewidth}
@@ -355,7 +413,7 @@ What kind of flower is saffron produced from?
 \begin{columns}[T,totalwidth=\linewidth]
 \begin{column}{0.32\linewidth}
 \begin{block}{Question}
-What is the name of the flower parts indicated here, which are located on the ends of filaments and contain the flower's pollen?
+What is the name of the orange flower parts pictured here, which contain the flower's pollen?
 \end{block}
 \visible<2->{
     \begin{block}{Answer}
@@ -463,7 +521,7 @@ In 1849, Lincoln was awarded U.S. patent no.\ 6,469.  What was the patent for?
 \begin{frame}[t]{Round 2 --- Abraham Lincoln --- \mbox{Question 4}}
 \vspace{-0.5em}
 \begin{block}{Question}
-Which book by John Bunyon was one of Lincoln's favorites?
+Which book by John Bunyan was one of Lincoln's favorites?
 \end{block}
 \end{frame}
 \subsection*{Q5}
@@ -578,7 +636,7 @@ In 1849, Lincoln was awarded U.S. patent no.\ 6,469.  What was the patent for?
 \begin{frame}[t]{Round 2 --- Abraham Lincoln --- \mbox{Answer 4}}
 \vspace{-0.5em}
 \begin{block}{Question}
-Which book by John Bunyon was one of Lincoln's favorites?
+Which book by John Bunyan was one of Lincoln's favorites?
 \end{block}
 
 \visible<2->{
@@ -1070,7 +1128,7 @@ Name either of the two kinds of bacteria primarily responsible for producing yog
 \begin{frame}[t]{Round 4 --- How Now Brown Cow? --- \mbox{Question 7}}
 \vspace{-0.5em}
 \begin{block}{Question}
-What are the two primary dairy products required to make New York style cheesecake?
+What are the two primary dairy products required to make New York style cheesecake? (We need both.)
 \end{block}
 \end{frame}
 \subsection*{Q8}
@@ -1091,7 +1149,7 @@ Because milk is a mixture of two substances that cannot normally be mixed --- fa
 \begin{frame}[t]{Round 4 --- How Now Brown Cow? --- \mbox{Question 10}}
 \vspace{-0.5em}
 \begin{block}{Question}
-In milk, fat globules are surrounded by protein membranes that keep the fat suspended in the water. What is the name of the mechanical process by which these membranes are broken, causing the milk's fats to separate from the water and clump together?
+In milk, fat globules are surrounded by protein membranes that keep the fat suspended in the water. What is the name of the mechanical process by which these membranes are broken, allowing the milk's fats to clump together?
 \end{block}
 \end{frame}
 \subsection{Answers}
@@ -1230,7 +1288,7 @@ Name either of the two kinds of bacteria primarily responsible for producing yog
 \begin{frame}[t]{Round 4 --- How Now Brown Cow? --- \mbox{Answer 7}}
 \vspace{-0.5em}
 \begin{block}{Question}
-What are the two primary dairy products required to make New York style cheesecake?
+What are the two primary dairy products required to make New York style cheesecake? (We need both.)
 \end{block}
 
 \visible<2->{
@@ -1296,7 +1354,7 @@ Because milk is a mixture of two substances that cannot normally be mixed --- fa
 \begin{frame}[t]{Round 4 --- How Now Brown Cow? --- \mbox{Answer 10}}
 \vspace{-0.5em}
 \begin{block}{Question}
-In milk, fat globules are surrounded by protein membranes that keep the fat suspended in the water. What is the name of the mechanical process by which these membranes are broken, causing the milk's fats to separate from the water and clump together?
+In milk, fat globules are surrounded by protein membranes that keep the fat suspended in the water. What is the name of the mechanical process by which these membranes are broken, allowing the milk's fats to clump together?
 \end{block}
 
 \visible<2->{
@@ -1956,7 +2014,7 @@ Who was the American Army General who was known as ``Old Blood and Guts'' (and a
 \begin{frame}[t]{Round 7 --- World War II --- \mbox{Question 5}}
 \vspace{-0.5em}
 \begin{block}{Question}
-What date did President Franklin Roosevelt describe as ``a date which will live in infamy''? (We need the month, day, and year)
+What date did President Franklin Roosevelt describe as ``a date which will live in infamy''? (We need the month, day, and year.)
 \end{block}
 \end{frame}
 \subsection*{Q6}
@@ -2075,14 +2133,14 @@ Who was the American Army General who was known as ``Old Blood and Guts'' (and a
 \begin{frame}[t]{Round 7 --- World War II --- \mbox{Answer 5}}
 \vspace{-0.5em}
 \begin{block}{Question}
-What date did President Franklin Roosevelt describe as ``a date which will live in infamy''? (We need the month, day, and year)
+What date did President Franklin Roosevelt describe as ``a date which will live in infamy''? (We need the month, day, and year.)
 \end{block}
 
 \visible<2->{
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    December 7, 1941 (The date of the attack on Pearl Harbor)
+    December 7, 1941 (the date of the attack on Pearl Harbor)
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -2259,7 +2317,7 @@ Who won the very first season of \emph{American Idol}\,?
 \begin{frame}[t]{Round 8 --- Competitions --- \mbox{Question 8}}
 \vspace{-0.5em}
 \begin{block}{Question}
-In what category of ``sports'' is it allowed, and even expected, that players take stimulants such as Ritalin and Adderall before playing?
+In what category of ``sports'' is it allowed, and even expected, that players will take stimulants such as Ritalin and Adderall before playing?
 \end{block}
 \end{frame}
 \subsection*{Q9}
@@ -2434,7 +2492,7 @@ Who won the very first season of \emph{American Idol}\,?
 \begin{frame}[t]{Round 8 --- Competitions --- \mbox{Answer 8}}
 \vspace{-0.5em}
 \begin{block}{Question}
-In what category of ``sports'' is it allowed, and even expected, that players take stimulants such as Ritalin and Adderall before playing?
+In what category of ``sports'' is it allowed, and even expected, that players will take stimulants such as Ritalin and Adderall before playing?
 \end{block}
 
 \visible<2->{
@@ -2824,7 +2882,7 @@ What is the Japanese name of the period/era during which Emperor Hirohito ruled?
 \begin{frame}[t]{Round 10 --- World Leaders --- \mbox{Question 5}}
 \vspace{-0.5em}
 \begin{block}{Question}
-Who is the only person to hold the honorary title of ``Spiritual Leader of the Nation of Argentina'', bestowed upon him/her by the Argentine Congress in 1952 shortly before his/her death?
+Who is the only person to hold the honorary title of ``Spiritual Leader of the Nation of Argentina'' bestowed upon him/her by the Argentine Congress in 1952 shortly before his/her death?
 \end{block}
 \end{frame}
 \subsection*{Q6}
@@ -2954,7 +3012,7 @@ What is the Japanese name of the period/era during which Emperor Hirohito ruled?
 \begin{frame}[t]{Round 10 --- World Leaders --- \mbox{Answer 5}}
 \vspace{-0.5em}
 \begin{block}{Question}
-Who is the only person to hold the honorary title of ``Spiritual Leader of the Nation of Argentina'', bestowed upon him/her by the Argentine Congress in 1952 shortly before his/her death?
+Who is the only person to hold the honorary title of ``Spiritual Leader of the Nation of Argentina'' bestowed upon him/her by the Argentine Congress in 1952 shortly before his/her death?
 \end{block}
 
 \visible<2->{
@@ -3147,7 +3205,7 @@ What is the name of the Fellini film that follows the difficult life of a prosti
 \begin{frame}[t]{Bonus Round --- Performers}
 \vspace{-0.5em}
 \begin{block}{Question}
-Who is the performance artist/comedian whose death, had it occurred on May 16, 1984, would have marked the loss of one of the greatest comedic talents of all time? (Fortunately, we know that his death was a prank, even though it hasn't been revealed such yet.)
+Who is the performance artist/comedian whose death, had it occurred on May 16, 1984, would have marked the loss of one of the greatest comedic talents of all time? (Fortunately, we know that his death was a prank, even though it hasn't been revealed as such yet.)
 \end{block}
 \end{frame}
 \subsection*{Q9}
@@ -3204,13 +3262,13 @@ In photography, which three settings comprise the ``exposure triangle'', which d
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    Aperture size or f-stop; shutter speed; and film speed  or ISO
+    Aperture size or f-stop; shutter speed or exposure time; and film speed, sensitivity, or ISO
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
     \begin{center}
     \includegraphics[max width=0.95\textwidth,
-        max height=0.50000\textheight]{{Images/expostri}.jpg}
+        max height=0.50000\textheight]{{Images/expostri}.png}
     \end{center}
     \end{column}
     \end{columns}
@@ -3290,7 +3348,7 @@ In what year did the Packard Motor Car Company produce its first car?
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    1909
+    1899 (the car pictured here is a Golden Anniversary 1949 Packard)
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -3327,7 +3385,7 @@ What is the name of the Fellini film that follows the difficult life of a prosti
 \begin{frame}[t]{Bonus Round --- Performers}
 \vspace{-0.5em}
 \begin{block}{Question}
-Who is the performance artist/comedian whose death, had it occurred on May 16, 1984, would have marked the loss of one of the greatest comedic talents of all time? (Fortunately, we know that his death was a prank, even though it hasn't been revealed such yet.)
+Who is the performance artist/comedian whose death, had it occurred on May 16, 1984, would have marked the loss of one of the greatest comedic talents of all time? (Fortunately, we know that his death was a prank, even though it hasn't been revealed as such yet.)
 \end{block}
 
 \visible<2->{
@@ -3378,7 +3436,7 @@ Name two of Frank Sinatra's nicknames. (No partial credit.)
     \begin{columns}[T,totalwidth=\linewidth]
     \begin{column}{0.32\linewidth}
     \begin{block}{Answer}
-    The Voice / Ole Blue Eyes / The Chairman of the Board
+    The Voice / Ol' Blue Eyes / The Chairman of the Board
     \end{block}
     \end{column}
     \begin{column}{0.65\linewidth}
@@ -3421,6 +3479,7 @@ Who wrote the theme song for the TV show ``Mr.\ Lucky'' (the best arrangement of
 \centering{}
 \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
 \usebeamerfont{title}Thanks for playing!\par%
+Enjoy the summer!
 \end{beamercolorbox}
 \vfill{}
 \end{frame}

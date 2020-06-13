@@ -289,6 +289,9 @@ class LatexTemplates:
 \documentclass[11pt{{DRAFT_}]{beamer}
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}  % max width/height in includegraphics
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage[document]{ragged2e}
+\usepackage{soul}
 \usepackage{xcolor}
 \usepackage{ifthen}
 \usepackage{fontspec}
@@ -307,6 +310,7 @@ class LatexTemplates:
 % \setbeamerfont{section in sidebar}{size=\fontsize{4}{3}\selectfont}
 % \setbeamerfont{subsection in sidebar}{size=\fontsize{4}{3}\selectfont}
 % \setbeamerfont{subsubsection in sidebar}{size=\fontsize{4}{2}\selectfont}
+
 
 \usepackage{microtype}
 % \DisableLigatures[f]{encoding = *, family = *}
@@ -339,8 +343,8 @@ class LatexTemplates:
         Get ready for some \emph{devilishly} hard questions!
 
         \vspace*{1em}
-        % \includegraphics[max width=0.5\textwidth,
-        %    max height=0.4\textheight]{Images/devil.jpg}
+        \includegraphics[max width=0.5\textwidth,
+           max height=0.4\textheight]{Images/devil.png}
     }{}
 
     \vfill
@@ -375,10 +379,64 @@ class LatexTemplates:
     max height=0.4\textheight]{Images/triviatitleframelogo.png}
 \end{center}
 \end{frame}
+\begin{frame}
+Each week it seems as though there is a discussion about a particular question. Last
+week, the discussion was about the principal shopping street in Rome. The answer we gave
+was Via del Corso, but many players suggested other streets. So we checked with an
+expert, our cousin Luciana, a native of Rome.
+
+\begin{center}
+\includegraphics[max width=.9\textwidth,max height=.4\textheight
+]{Images/luciana.jpg}
+\end{center}
+\end{frame}
 
 \begingroup{}
 \begin{frame}{}
-This is our last game
+\hfill{}\begin{minipage}{0.9\textwidth}
+\begin{mdframed}[
+    roundcorner=7pt,
+    backgroundcolor=blue!80!white,
+    linecolor=blue!80!white,
+    fontcolor=white,
+    ignorelastdescenders]
+\begin{flushleft}
+{\small{}\fontfamily{qhv}\selectfont{}
+Luciana,
+
+Una richiesta: Puoi risolvere una discussione fra qualche amico (incluso me) quanto a
+Roma? La domanda: Come romana, come nativa di Roma, secondo te, quale via e
+\ul{\textbf{la via principale a Roma per lo shopping}}?
+Non ti dico la mia opinione perché non voglio influenzare la tua riposta.
+
+Grazie mille. Ciao a Guiseppe.
+
+Terry
+}
+\end{flushleft}
+\end{mdframed}
+\end{minipage}
+
+\begin{minipage}{0.9\textwidth}
+\begin{mdframed}[
+    roundcorner=7pt,
+    backgroundcolor=black!5,
+    linecolor=black!5,
+    fontcolor=black,
+    ignorelastdescenders]
+\begin{flushleft}
+{\small{}\fontfamily{qhv}\selectfont{}
+La zona più amata da tutti noi è da piazza di Spagna a piazza del Popolo. Tutte quelle
+strade sono le più frequentate per lo shopping.
+\ul{\textbf{Via del Corso}},
+via della Vite, viadelle Carrozze, via del Babuino, via dei Condotti, via
+Frattina, via del Gambero etc etc. Poi ci sono romani, come me, che non amano le strade
+affollate e scelgono strade più tranquille come via Cola di Rienzo o via Ottaviano e i
+dintorni della zona del Vaticano.
+}
+\end{flushleft}
+\end{mdframed}
+\end{minipage}
 \end{frame}
 
 
@@ -416,6 +474,7 @@ This week, you'll be answering questions in the following categories:
 \centering{}
 \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
 \usebeamerfont{title}Thanks for playing!\par%
+Enjoy the summer!
 \end{beamercolorbox}
 \vfill{}
 \end{frame}
