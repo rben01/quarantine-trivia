@@ -19,7 +19,7 @@ DRAFT = False
 N_QUESTIONS_PER_ROUND = 10
 
 QUESTIONS_CSV_FILE = "week 11 general trivia.csv"
-TITLE = "Quarantine Trivia XI!"
+TITLE = "Welcome to Quarantine Trivia XI!"
 
 Q_COL = "Question"
 A_COL = "Answer"
