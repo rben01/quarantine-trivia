@@ -41,7 +41,7 @@ SECTION_ORDER = [
     "Biden/Harris",
     "The Holiday Season",
     "Scientific Breakthroughs",
-    "The Oldest…",
+    "The Oldest\\ldots",
     "Shakespeare",
     "Colorful Movies",
     "Alex Trebek",
