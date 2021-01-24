@@ -1,0 +1,93 @@
+= Quarantine Trivia
+// include::shared_attributes.asciidoc[]
+:github-profile: link:https://github.com/rben01
+:github-repo: {github-profile}/covid19
+:github-icon-in-link: icon:github[]{nbsp},role="no-underline"
+:email: https://rben01.github.io/[Other Projects,role="prominent-link"] {nbsp}/{nbsp} {github-profile}[{github-icon-in-link}]{github-profile}[rben01,role="prominent-link"]
+:description: A collection of trivia games created to pass the time with friends during the COVID-19 quarantine.
+:name-quarantine-music-trivia: quarantine-music-trivia
+:repo-quarantine-music-trivia: {github-user}/{name-quarantine-music-trivia}
+:name-quarantine-movie-trivia: quarantine-movie-trivia
+:repo-quarantine-movie-trivia: {github-user}/{name-quarantine-movie-trivia}
+:name-quarantine-general-trivia-2: quarantine-general-trivia-2
+:repo-quarantine-general-trivia-2: {github-user}/{name-quarantine-general-trivia-2}
+:name-quarantine-trivia-5: quarantine-trivia-5
+:repo-quarantine-trivia-5: {github-user}/{name-quarantine-trivia-5}
+:name-quarantine-trivia-6: quarantine-trivia-6
+:repo-quarantine-trivia-6: {github-user}/{name-quarantine-trivia-6}
+:name-quarantine-trivia-7: quarantine-trivia-7
+:repo-quarantine-trivia-7: {github-user}/{name-quarantine-trivia-7}
+:name-quarantine-trivia-8: quarantine-trivia-8
+:repo-quarantine-trivia-8: {github-user}/{name-quarantine-trivia-8}
+:name-quarantine-trivia-9: quarantine-trivia-9
+:repo-quarantine-trivia-9: {github-user}/{name-quarantine-trivia-9}
+:name-quarantine-trivia-10: quarantine-trivia-10
+:repo-quarantine-trivia-10: {github-user}/{name-quarantine-trivia-10}
+:name-quarantine-trivia-11: quarantine-trivia-11
+:repo-quarantine-trivia-11: {github-user}/{name-quarantine-trivia-11}
+:name-quarantine-trivia-12: quarantine-trivia-12
+:repo-quarantine-trivia-12: {github-user}/{name-quarantine-trivia-12}
+:bonus-section-note: and a bonus section comprised of one challenging question from each of these categories.
+
+[.lead]
+A collection of trivia games I put together to give friends something to play while hanging out virtually during the coronavirus pandemic.
+
+Except for the music trivia game, the games are all distributed as PDFs and should work fine in any web browser or PDF viewer.
+However, it's recommended that you use a viewer that can flip through the pages by pressing the arrow keys in order to avoid scrolling.
+You can use the sidebars of the PDFs to navigate between rounds and questions; everything in them is a link. +
+Each PDF was built by parsing a Q-and-A list and generating {resource-link-latex}/{resource-link-beamer} source. +
+__Trivia 1 was done in an ad-hoc manner and is not available online.__
+
+
+{github-pages-root}/{name-quarantine-music-trivia}/[__Name That Tune__ Trivia]:::
+{repo-quarantine-music-trivia}[{github-icon-in-link}]{repo-quarantine-music-trivia}[{name-quarantine-music-trivia}] +
+The questions are all audio clips from well-known songs with prompts such as "`Name the song`", "`Name the album`", and "`What movie had this song as the theme?`". +
+The site was built by parsing a list of questions and generating {resource-link-asciidoctor} source. Music clips created with {resource-link-ffmpeg}.
++
+[WARNING]
+--
+The site does not discard media that has been scrolled out of view, so it _will_ use a lot of memory.
+Refreshing should purge memory, but I recommend only playing on desktop for the time being.
+Hopefully I'll get around to fixing this at some point.
+--
+
+{github-pages-root}/{name-quarantine-movie-trivia}/LaTeX/movie_trivia.pdf[Movie Trivia]:::
+{repo-quarantine-movie-trivia}[{github-icon-in-link}]{repo-quarantine-movie-trivia}[{name-quarantine-movie-trivia}] +
+A simpler trivia game -- just Q's and A's about movies.
+
+{github-pages-root}/{name-quarantine-general-trivia-2}/LaTeX/general_trivia.pdf[Trivia 4]:::
+{repo-quarantine-general-trivia-2}[{github-icon-in-link}]{repo-quarantine-general-trivia-2}[{name-quarantine-general-trivia-2}] +
+__This was the second general trivia game, but the fourth trivia game overall.__ +
+General knowledge trivia with the following categories: Sports, Plays and Playwrights, Women in American History, Science, Plants and Animals, U.S. Presidents, Dr. Anthony Fauci, Famous Paintings (identify the artist), Canada, World Landmarks, {bonus-section-note}
+
+{github-pages-root}/{name-quarantine-trivia-5}/LaTeX/general_trivia.pdf[Trivia 5]:::
+{repo-quarantine-trivia-5}[{github-icon-in-link}]{repo-quarantine-trivia-5}[{name-quarantine-trivia-5}] +
+General knowledge trivia with the following categories: Logos, Cocktails (name the drink whose recipe is shown), Superheroes, New York City, More Plants and Animals, Geography, Real Name/Stage Name, What Are They Saying About Me?, Ancient Civilizations, TV, {bonus-section-note}
+
+{github-pages-root}/{name-quarantine-trivia-6}/LaTeX/general_trivia.pdf[Trivia 6]:::
+{repo-quarantine-trivia-6}[{github-icon-in-link}]{repo-quarantine-trivia-6}[{name-quarantine-trivia-6}] +
+General knowledge trivia with the following categories: Weather, Word Origins, Broadway Musical Names From Song Titles, Dog Breeds, Disney, National Parks, Rome, Books That Had a Big Impact, Inventors and Inventions, California, {bonus-section-note}
+
+{github-pages-root}/{name-quarantine-trivia-7}/LaTeX/general_trivia.pdf[Trivia 7]:::
+{repo-quarantine-trivia-7}[{github-icon-in-link}]{repo-quarantine-trivia-7}[{name-quarantine-trivia-7}] +
+General knowledge trivia with the following categories: Album by Album Art, France, Airport Codes, Big Dates in History, Gangsters in Fact and Fiction, Holidays and Observances, All the Cool Kids Are Texting About South Dakota, Pastries, Explorers, Products and Companies by Their Slogans, {bonus-section-note}
+
+{github-pages-root}/{name-quarantine-trivia-8}/LaTeX/general_trivia.pdf[Trivia 8]:::
+{repo-quarantine-trivia-8}[{github-icon-in-link}]{repo-quarantine-trivia-8}[{name-quarantine-trivia-8}] +
+General knowledge trivia with the following categories: Colleges and Universities, Horse Racing, The Constitution, It happened in 2010, Under the Sea, Myths and Legends, Mexico, Our Friendly Neighbor to the South, Famous Buildings, Nobel Prize Winners, The Beatles, {bonus-section-note}
+
+{github-pages-root}/{name-quarantine-trivia-9}/LaTeX/general_trivia.pdf[Trivia 9]:::
+{repo-quarantine-trivia-9}[{github-icon-in-link}]{repo-quarantine-trivia-9}[{name-quarantine-trivia-9}] +
+General knowledge trivia with the following categories: Aviation, Ireland, Colonial America, Famous Ships and Boats, Foreign Words and Phrases, Birds, Native Americans, The home of ..., Wonders of Engineering, and Washington, D.C., {bonus-section-note}
+
+{github-pages-root}/{name-quarantine-trivia-10}/LaTeX/general_trivia.pdf[Trivia 10]:::
+{repo-quarantine-trivia-10}[{github-icon-in-link}]{repo-quarantine-trivia-10}[{name-quarantine-trivia-10}] +
+General knowledge trivia with the following categories: Quotations, East Asia, Musical Instruments, Outer Space, Saturday Night Live, Special Words from Various Fields, Streets, Highways and Boulevards, The Biggest and the Most, The Wild West, Who Originated the Role?, {bonus-section-note}
+
+{github-pages-root}/{name-quarantine-trivia-11}/LaTeX/general_trivia.pdf[Trivia 11]:::
+{repo-quarantine-trivia-11}[{github-icon-in-link}]{repo-quarantine-trivia-11}[{name-quarantine-trivia-11}] +
+General knowledge trivia with the following categories: Flowers, Abraham Lincoln, Civil Rights Movements, How Now Brown Cow?, American Literature, Africa, World War II, Competitions, Name the Film from the Cast, World Leaders, and a very special bonus section consisting of questions in categories that we (the creators) just liked.
+
+{github-pages-root}/{name-quarantine-trivia-12}/LaTeX/general_trivia.pdf[Trivia 12]:::
+{repo-quarantine-trivia-12}[{github-icon-in-link}]{repo-quarantine-trivia-12}[{name-quarantine-trivia-12}] +
+General knowledge trivia with the following categories: Colorful Songs, Famous Animals in Fact and Fiction, Famous Court Cases, Biden/Harris, The Holiday Season, Scientific Breakthroughs, The Oldest..., Shakespeare, Colorful Movies, Alex Trebek, {bonus-section-note}
