@@ -1,0 +1,7269 @@
+
+= Music trivia
+:nofooter:
+:toc2:
+:toclevels: 2
+:toc-title: Welcome to Quarantine Music Trivia!
+
+[subs=""]
+++++++++++++
+<style type="text/css">
+html, body { height: 100%; }
+.fullheight { overflow-y:auto; height:100vh; }​
+a:link { color:#547CBB ! important; text-decoration:none; }
+div p a:link { color:#547CBB ! important; }
+.toclevel1 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel2 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel3 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel1 a:hover { color:#547CBB ! important; text-decoration:underline; }
+.toclevel2 a:hover { color:#547CBB ! important; text-decoration:underline; }
+.toclevel3 a:hover { color:#547CBB ! important; text-decoration:underline; }
+a:visited { color:#547CBB; }
+a:active { color:#547CBB; text-decoration:unerline; }
+a:active { color:#547CBB; text-decoration:unerline; }
+a[tabindex]:focus { color:#547CBB; outline:none; }
+#footer { visibility:hidden; }
+</style>
+++++++++++++
+
+== Welcome
+
+[big]#Welcome to Week 2 of quarantine trivia: *music*!#
+
+.Here's how it works:
+. No Google or Shazam (obviously!)
+. You will be hearing audio clips. All audio clips are from the beginning of the song.
+. Unless the question asks for an exact song title, it is ok if you omit the words
+``a'' and ``the'' at the beginning of a song title or a band's name. However, plural vs.
+singular counts.
+. Each team, even if working together remotely, has to decide on one answer.
+. We're working under the the honor system
+. There will be 10 questions per round, and the end of each round we'll give out the
+answers, you'll score yourselves, and we'll tally scores.
+. Each right answer will be worth 1 point, except in the bonus round where they're
+worth 2 points.
+
+.Here are the categories:
+[upperalpha]
+. General/Top 40 -- 60 questions
+. Movie music -- 10 questions
+. Broadway -- 10 questions
+. New York songs -- 10 questions
+. One-hit wonders -- 10 questions
+. Bonus (harder) -- 10 questions
+
+[big]*Get Ready, and Good Luck!*
+
+    
+
+[role="fullheight"]
+<<s-General-Q1-10-q-1,Begin>>
+
+
+[[s0]]
+== General (Q1--10)
+
+[[s-General-Q1-10-q-1]]
+=== Q1
+
+[big]#General (Q1--10): Question 1#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q0" onclick="toggle_hidden_q0()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q0]]
+[big]**Is This Love** +
+Is This Love / Bob Marley & The Wailers / Kaya - Deluxe Edition
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q0");
+z.style.display = "none"
+function toggle_hidden_q0() {
+var x = document.getElementById("answer_q0");
+var b = document.getElementById("button_q0");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-2, Next question: Q2>> 
+
+[[s-General-Q1-10-q-2]]
+=== Q2
+
+[big]#General (Q1--10): Question 2#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Daft-Punk-Get-Lucky-Official-Audio-ft.-Pharrell-Williams-Nile-Rodgers-5NV6Rdv1a3I.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q1" onclick="toggle_hidden_q1()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q1]]
+[big]**Get Lucky** +
+Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit / Daft Punk, Pharrell Williams, Nile Rodgers / Get Lucky (feat. Pharrell Williams & Nile Rodgers) [Radio Edit]
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q1");
+z.style.display = "none"
+function toggle_hidden_q1() {
+var x = document.getElementById("answer_q1");
+var b = document.getElementById("button_q1");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-1, Previous question: Q1>>  +
+ +
+<<s-General-Q1-10-q-3, Next question: Q3>> 
+
+[[s-General-Q1-10-q-3]]
+=== Q3
+
+[big]#General (Q1--10): Question 3#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q2" onclick="toggle_hidden_q2()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q2]]
+[big]**Go Your Own Way** +
+Go Your Own Way - 2004 Remaster / Fleetwood Mac / Rumours
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q2");
+z.style.display = "none"
+function toggle_hidden_q2() {
+var x = document.getElementById("answer_q2");
+var b = document.getElementById("button_q2");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-2, Previous question: Q2>>  +
+ +
+<<s-General-Q1-10-q-4, Next question: Q4>> 
+
+[[s-General-Q1-10-q-4]]
+=== Q4
+
+[big]#General (Q1--10): Question 4#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Twist-And-Shout-Remastered-2009-2RicaUqd9Hg.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q3" onclick="toggle_hidden_q3()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q3]]
+[big]**Twist and Shout** +
+Twist And Shout - Remastered 2009 / The Beatles / Please Please Me (Remastered)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q3");
+z.style.display = "none"
+function toggle_hidden_q3() {
+var x = document.getElementById("answer_q3");
+var b = document.getElementById("button_q3");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-3, Previous question: Q3>>  +
+ +
+<<s-General-Q1-10-q-5, Next question: Q5>> 
+
+[[s-General-Q1-10-q-5]]
+=== Q5
+
+[big]#General (Q1--10): Question 5#
+
+==== Question
+
+Name the [big]*group*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Build-Me-Up-Buttercup-Nl-2iEP1Wts.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q4" onclick="toggle_hidden_q4()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q4]]
+[big]**The Foundations** +
+Build Me Up Buttercup / The Foundations / Build Me Up Buttercup (The Complete Pye Collection)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q4");
+z.style.display = "none"
+function toggle_hidden_q4() {
+var x = document.getElementById("answer_q4");
+var b = document.getElementById("button_q4");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-4, Previous question: Q4>>  +
+ +
+<<s-General-Q1-10-q-6, Next question: Q6>> 
+
+[[s-General-Q1-10-q-6]]
+=== Q6
+
+[big]#General (Q1--10): Question 6#
+
+==== Question
+
+Name the [big]*performer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q5" onclick="toggle_hidden_q5()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q5]]
+[big]**Eric Clapton** +
+Cocaine / Eric Clapton / Slowhand 35th Anniversary (Super Deluxe)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q5");
+z.style.display = "none"
+function toggle_hidden_q5() {
+var x = document.getElementById("answer_q5");
+var b = document.getElementById("button_q5");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-5, Previous question: Q5>>  +
+ +
+<<s-General-Q1-10-q-7, Next question: Q7>> 
+
+[[s-General-Q1-10-q-7]]
+=== Q7
+
+[big]#General (Q1--10): Question 7#
+
+==== Question
+
+Name the [big]*song*. 
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Jimmy-Buffett-Margaritaville-with-lyrics-ue2-ZVxpVjc.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q6" onclick="toggle_hidden_q6()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q6]]
+[big]**Margaritaville** +
+Margaritaville / Jimmy Buffett / Songs You Know By Heart
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q6");
+z.style.display = "none"
+function toggle_hidden_q6() {
+var x = document.getElementById("answer_q6");
+var b = document.getElementById("button_q6");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-6, Previous question: Q6>>  +
+ +
+<<s-General-Q1-10-q-8, Next question: Q8>> 
+
+[[s-General-Q1-10-q-8]]
+=== Q8
+
+[big]#General (Q1--10): Question 8#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q7" onclick="toggle_hidden_q7()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q7]]
+[big]**Dexys Midnight Runners** +
+Come On Eileen / Dexys Midnight Runners / Too Rye Ay
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q7");
+z.style.display = "none"
+function toggle_hidden_q7() {
+var x = document.getElementById("answer_q7");
+var b = document.getElementById("button_q7");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-7, Previous question: Q7>>  +
+ +
+<<s-General-Q1-10-q-9, Next question: Q9>> 
+
+[[s-General-Q1-10-q-9]]
+=== Q9
+
+[big]#General (Q1--10): Question 9#
+
+==== Question
+
+Name the [big]*album*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Kendrick-Lamar-King-Kunta-hRK7PVJFbS8.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q8" onclick="toggle_hidden_q8()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q8]]
+[big]**To Pimp a Butterfly** +
+King Kunta / Kendrick Lamar / To Pimp A Butterfly
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q8");
+z.style.display = "none"
+function toggle_hidden_q8() {
+var x = document.getElementById("answer_q8");
+var b = document.getElementById("button_q8");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-8, Previous question: Q8>>  +
+ +
+<<s-General-Q1-10-q-10, Next question: Q10>> 
+
+[[s-General-Q1-10-q-10]]
+=== Q10
+
+[big]#General (Q1--10): Question 10#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Walk-Like-An-Egyptian-tMnGmoLS6zo.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q9" onclick="toggle_hidden_q9()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q9]]
+[big]**The Bangles** +
+Walk Like an Egyptian / The Bangles / The Essential Bangles
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q9");
+z.style.display = "none"
+function toggle_hidden_q9() {
+var x = document.getElementById("answer_q9");
+var b = document.getElementById("button_q9");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[big]_End of round_
+
+[role="fullheight"]
+<<s-General-Q1-10-q-9, Previous question: Q9>>  +
+ +
+<<s-General-Q11-20-q-11, Next round: General (Q11--20)>> 
+
+[[s1]]
+== General (Q11--20)
+
+[[s-General-Q11-20-q-11]]
+=== Q11
+
+[big]#General (Q11--20): Question 11#
+
+==== Question
+
+Name the [big]*artist*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Marvin-Gaye-What-s-Going-On-H-kA3UtBj4M.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q10" onclick="toggle_hidden_q10()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q10]]
+[big]**Marvin Gaye** +
+What's Going On / Marvin Gaye / What's Going On
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q10");
+z.style.display = "none"
+function toggle_hidden_q10() {
+var x = document.getElementById("answer_q10");
+var b = document.getElementById("button_q10");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q1-10-q-10, Previous round: General (Q1--10)>>  +
+ +
+<<s-General-Q11-20-q-12, Next question: Q12>> 
+
+[[s-General-Q11-20-q-12]]
+=== Q12
+
+[big]#General (Q11--20): Question 12#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Police-Every-Breath-You-Take-OMOGaugKpzs.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q11" onclick="toggle_hidden_q11()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q11]]
+[big]**Every Breath You Take** +
+Every Breath You Take / The Police / Every Breath You Take : The Classics
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q11");
+z.style.display = "none"
+function toggle_hidden_q11() {
+var x = document.getElementById("answer_q11");
+var b = document.getElementById("button_q11");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-11, Previous question: Q11>>  +
+ +
+<<s-General-Q11-20-q-13, Next question: Q13>> 
+
+[[s-General-Q11-20-q-13]]
+=== Q13
+
+[big]#General (Q11--20): Question 13#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Lorde-Royals-With-Lyrics-Pure-Heroine-4znHLOWm7pY.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q12" onclick="toggle_hidden_q12()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q12]]
+[big]**Royals** +
+Royals / Lorde / Pure Heroine
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q12");
+z.style.display = "none"
+function toggle_hidden_q12() {
+var x = document.getElementById("answer_q12");
+var b = document.getElementById("button_q12");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-12, Previous question: Q12>>  +
+ +
+<<s-General-Q11-20-q-14, Next question: Q14>> 
+
+[[s-General-Q11-20-q-14]]
+=== Q14
+
+[big]#General (Q11--20): Question 14#
+
+==== Question
+
+Name the [big]*singer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Dolly-Parton-Jolene-Audio-Ixrje2rXLMA.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q13" onclick="toggle_hidden_q13()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q13]]
+[big]**Dolly Parton** +
+Jolene / Dolly Parton / Jolene
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q13");
+z.style.display = "none"
+function toggle_hidden_q13() {
+var x = document.getElementById("answer_q13");
+var b = document.getElementById("button_q13");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-13, Previous question: Q13>>  +
+ +
+<<s-General-Q11-20-q-15, Next question: Q15>> 
+
+[[s-General-Q11-20-q-15]]
+=== Q15
+
+[big]#General (Q11--20): Question 15#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Teenage-Wasteland-by-The-Who-JGHxIKa31Jk.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q14" onclick="toggle_hidden_q14()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q14]]
+[big]**Baba O'Riley** +
+Baba O'Riley / The Who / Who's Next
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q14");
+z.style.display = "none"
+function toggle_hidden_q14() {
+var x = document.getElementById("answer_q14");
+var b = document.getElementById("button_q14");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-14, Previous question: Q14>>  +
+ +
+<<s-General-Q11-20-q-16, Next question: Q16>> 
+
+[[s-General-Q11-20-q-16]]
+=== Q16
+
+[big]#General (Q11--20): Question 16#
+
+==== Question
+
+Name the [big]*artist*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q15" onclick="toggle_hidden_q15()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q15]]
+[big]**Cyndi Lauper** +
+Girls Just Want to Have Fun / Cyndi Lauper / She's So Unusual: A 30th Anniversary Celebration (Deluxe Edition)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q15");
+z.style.display = "none"
+function toggle_hidden_q15() {
+var x = document.getElementById("answer_q15");
+var b = document.getElementById("button_q15");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-15, Previous question: Q15>>  +
+ +
+<<s-General-Q11-20-q-17, Next question: Q17>> 
+
+[[s-General-Q11-20-q-17]]
+=== Q17
+
+[big]#General (Q11--20): Question 17#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Mark-Ronson-Uptown-Funk-Official-Video-ft.-Bruno-Mars-OPf0YbXqDm0.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q16" onclick="toggle_hidden_q16()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q16]]
+[big]**Uptown Funk** +
+Uptown Funk (feat. Bruno Mars) / Mark Ronson, Bruno Mars / Uptown Special
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q16");
+z.style.display = "none"
+function toggle_hidden_q16() {
+var x = document.getElementById("answer_q16");
+var b = document.getElementById("button_q16");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-16, Previous question: Q16>>  +
+ +
+<<s-General-Q11-20-q-18, Next question: Q18>> 
+
+[[s-General-Q11-20-q-18]]
+=== Q18
+
+[big]#General (Q11--20): Question 18#
+
+==== Question
+
+Name the [big]*song*. 
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q17" onclick="toggle_hidden_q17()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q17]]
+[big]**Blackbird** +
+Blackbird - Remastered / The Beatles / The Beatles (Remastered)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q17");
+z.style.display = "none"
+function toggle_hidden_q17() {
+var x = document.getElementById("answer_q17");
+var b = document.getElementById("button_q17");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-17, Previous question: Q17>>  +
+ +
+<<s-General-Q11-20-q-19, Next question: Q19>> 
+
+[[s-General-Q11-20-q-19]]
+=== Q19
+
+[big]#General (Q11--20): Question 19#
+
+==== Question
+
+Name the [big]*artist*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Elvis-Costello-The-Attractions-Pump-It-Up-3Y71iDvCYXA.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q18" onclick="toggle_hidden_q18()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q18]]
+[big]**Elvis Costello** +
+Pump It Up / Elvis Costello & The Attractions / This Year's Model
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q18");
+z.style.display = "none"
+function toggle_hidden_q18() {
+var x = document.getElementById("answer_q18");
+var b = document.getElementById("button_q18");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-18, Previous question: Q18>>  +
+ +
+<<s-General-Q11-20-q-20, Next question: Q20>> 
+
+[[s-General-Q11-20-q-20]]
+=== Q20
+
+[big]#General (Q11--20): Question 20#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Louis-Armstrong-What-A-Wonderful-World-Lyrics-A3yCcXgbKrE.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q19" onclick="toggle_hidden_q19()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q19]]
+[big]**What A Wonderful World** +
+What A Wonderful World / Louis Armstrong / Hello Louis - The Hit Years (1963-1969)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q19");
+z.style.display = "none"
+function toggle_hidden_q19() {
+var x = document.getElementById("answer_q19");
+var b = document.getElementById("button_q19");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[big]_End of round_
+
+[role="fullheight"]
+<<s-General-Q11-20-q-19, Previous question: Q19>>  +
+ +
+<<s-General-Q21-30-q-21, Next round: General (Q21--30)>> 
+
+[[s2]]
+== General (Q21--30)
+
+[[s-General-Q21-30-q-21]]
+=== Q21
+
+[big]#General (Q21--30): Question 21#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Logical-Song-low6Coqrw9Y.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q20" onclick="toggle_hidden_q20()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q20]]
+[big]**The Logical Song** +
+The Logical Song - Remastered 2010 / Supertramp / Breakfast In America (Deluxe Edition)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q20");
+z.style.display = "none"
+function toggle_hidden_q20() {
+var x = document.getElementById("answer_q20");
+var b = document.getElementById("button_q20");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q11-20-q-20, Previous round: General (Q11--20)>>  +
+ +
+<<s-General-Q21-30-q-22, Next question: Q22>> 
+
+[[s-General-Q21-30-q-22]]
+=== Q22
+
+[big]#General (Q21--30): Question 22#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q21" onclick="toggle_hidden_q21()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q21]]
+[big]**God Only Knows** +
+God Only Knows - Remastered / The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q21");
+z.style.display = "none"
+function toggle_hidden_q21() {
+var x = document.getElementById("answer_q21");
+var b = document.getElementById("button_q21");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-21, Previous question: Q21>>  +
+ +
+<<s-General-Q21-30-q-23, Next question: Q23>> 
+
+[[s-General-Q21-30-q-23]]
+=== Q23
+
+[big]#General (Q21--30): Question 23#
+
+==== Question
+
+Name the [big]*song*.   
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Rebel-Rebel-1997-Remaster-Wb3bfsuttdk.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q22" onclick="toggle_hidden_q22()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q22]]
+[big]**Rebel Rebel** +
+Rebel Rebel - 1999 Digital Remaster / David Bowie / Best Of Bowie
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q22");
+z.style.display = "none"
+function toggle_hidden_q22() {
+var x = document.getElementById("answer_q22");
+var b = document.getElementById("button_q22");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-22, Previous question: Q22>>  +
+ +
+<<s-General-Q21-30-q-24, Next question: Q24>> 
+
+[[s-General-Q21-30-q-24]]
+=== Q24
+
+[big]#General (Q21--30): Question 24#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q23" onclick="toggle_hidden_q23()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q23]]
+[big]**Black Eyed Peas** +
+I Gotta Feeling / Black Eyed Peas / THE E.N.D. (THE ENERGY NEVER DIES)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q23");
+z.style.display = "none"
+function toggle_hidden_q23() {
+var x = document.getElementById("answer_q23");
+var b = document.getElementById("button_q23");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-23, Previous question: Q23>>  +
+ +
+<<s-General-Q21-30-q-25, Next question: Q25>> 
+
+[[s-General-Q21-30-q-25]]
+=== Q25
+
+[big]#General (Q21--30): Question 25#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Vampire-Weekend-A-Punk-XC2mqcMMGQ.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q24" onclick="toggle_hidden_q24()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q24]]
+[big]**Vampire Weekend** +
+A-Punk / Vampire Weekend / Vampire Weekend
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q24");
+z.style.display = "none"
+function toggle_hidden_q24() {
+var x = document.getElementById("answer_q24");
+var b = document.getElementById("button_q24");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-24, Previous question: Q24>>  +
+ +
+<<s-General-Q21-30-q-26, Next question: Q26>> 
+
+[[s-General-Q21-30-q-26]]
+=== Q26
+
+[big]#General (Q21--30): Question 26#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q25" onclick="toggle_hidden_q25()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q25]]
+[big]**I Want to Hold Your Hand** +
+I Want To Hold Your Hand - Remastered 2015 / The Beatles / 1 (Remastered)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q25");
+z.style.display = "none"
+function toggle_hidden_q25() {
+var x = document.getElementById("answer_q25");
+var b = document.getElementById("button_q25");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-25, Previous question: Q25>>  +
+ +
+<<s-General-Q21-30-q-27, Next question: Q27>> 
+
+[[s-General-Q21-30-q-27]]
+=== Q27
+
+[big]#General (Q21--30): Question 27#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q26" onclick="toggle_hidden_q26()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q26]]
+[big]**The Champs** +
+Tequila (Original) / The Champs / Tequila
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q26");
+z.style.display = "none"
+function toggle_hidden_q26() {
+var x = document.getElementById("answer_q26");
+var b = document.getElementById("button_q26");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-26, Previous question: Q26>>  +
+ +
+<<s-General-Q21-30-q-28, Next question: Q28>> 
+
+[[s-General-Q21-30-q-28]]
+=== Q28
+
+[big]#General (Q21--30): Question 28#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Toto-Africa-Official-Music-Video-FTQbiNvZqaY.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q27" onclick="toggle_hidden_q27()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q27]]
+[big]**Toto** +
+Africa / TOTO / Toto IV
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q27");
+z.style.display = "none"
+function toggle_hidden_q27() {
+var x = document.getElementById("answer_q27");
+var b = document.getElementById("button_q27");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-27, Previous question: Q27>>  +
+ +
+<<s-General-Q21-30-q-29, Next question: Q29>> 
+
+[[s-General-Q21-30-q-29]]
+=== Q29
+
+[big]#General (Q21--30): Question 29#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q28" onclick="toggle_hidden_q28()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q28]]
+[big]**Gold Digger** +
+Gold Digger / Kanye West, Jamie Foxx / Late Registration
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q28");
+z.style.display = "none"
+function toggle_hidden_q28() {
+var x = document.getElementById("answer_q28");
+var b = document.getElementById("button_q28");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-28, Previous question: Q28>>  +
+ +
+<<s-General-Q21-30-q-30, Next question: Q30>> 
+
+[[s-General-Q21-30-q-30]]
+=== Q30
+
+[big]#General (Q21--30): Question 30#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Nirvana-Smells-Like-Teen-Spirit-Official-Music-Video-hTWKbfoikeg.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q29" onclick="toggle_hidden_q29()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q29]]
+[big]**Smells Like Teen Spirit** +
+Smells Like Teen Spirit / Nirvana / Nevermind (Remastered)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q29");
+z.style.display = "none"
+function toggle_hidden_q29() {
+var x = document.getElementById("answer_q29");
+var b = document.getElementById("button_q29");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[big]_End of round_
+
+[role="fullheight"]
+<<s-General-Q21-30-q-29, Previous question: Q29>>  +
+ +
+<<s-General-Q31-40-q-31, Next round: General (Q31--40)>> 
+
+[[s3]]
+== General (Q31--40)
+
+[[s-General-Q31-40-q-31]]
+=== Q31
+
+[big]#General (Q31--40): Question 31#
+
+==== Question
+
+Name the [big]*song*. 
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q30" onclick="toggle_hidden_q30()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q30]]
+[big]**My Generation** +
+My Generation - Mono Version / The Who / The Who Sings My Generation (U.S. Version)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q30");
+z.style.display = "none"
+function toggle_hidden_q30() {
+var x = document.getElementById("answer_q30");
+var b = document.getElementById("button_q30");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q21-30-q-30, Previous round: General (Q21--30)>>  +
+ +
+<<s-General-Q31-40-q-32, Next question: Q32>> 
+
+[[s-General-Q31-40-q-32]]
+=== Q32
+
+[big]#General (Q31--40): Question 32#
+
+==== Question
+
+Name the [big]*film* that this song was featured in. 
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Pharrell-Williams-Happy-Official-Music-Video-ZbZSe6N-BXs.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q31" onclick="toggle_hidden_q31()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q31]]
+[big]**Despicable Me 2** +
+Happy / Pharrell Williams / Despicable Me 2 (Original Motion Picture Soundtrack)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q31");
+z.style.display = "none"
+function toggle_hidden_q31() {
+var x = document.getElementById("answer_q31");
+var b = document.getElementById("button_q31");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-31, Previous question: Q31>>  +
+ +
+<<s-General-Q31-40-q-33, Next question: Q33>> 
+
+[[s-General-Q31-40-q-33]]
+=== Q33
+
+[big]#General (Q31--40): Question 33#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Californication-OtXiwSCq99Q.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q32" onclick="toggle_hidden_q32()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q32]]
+[big]**Californication** +
+Californication / Red Hot Chili Peppers / Californication
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q32");
+z.style.display = "none"
+function toggle_hidden_q32() {
+var x = document.getElementById("answer_q32");
+var b = document.getElementById("button_q32");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-32, Previous question: Q32>>  +
+ +
+<<s-General-Q31-40-q-34, Next question: Q34>> 
+
+[[s-General-Q31-40-q-34]]
+=== Q34
+
+[big]#General (Q31--40): Question 34#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q33" onclick="toggle_hidden_q33()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q33]]
+[big]**Everyday I Write The Book** +
+Everyday I Write The Book / Elvis Costello & The Attractions / Punch The Clock
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q33");
+z.style.display = "none"
+function toggle_hidden_q33() {
+var x = document.getElementById("answer_q33");
+var b = document.getElementById("button_q33");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-33, Previous question: Q33>>  +
+ +
+<<s-General-Q31-40-q-35, Next question: Q35>> 
+
+[[s-General-Q31-40-q-35]]
+=== Q35
+
+[big]#General (Q31--40): Question 35#
+
+==== Question
+
+Name the [big]*song* (title must be exact).
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Simon-Garfunkel-Bridge-Over-Troubled-Water-Audio-4G-YQA-bsOU.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q34" onclick="toggle_hidden_q34()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q34]]
+[big]**Bridge Over Troubled Water** +
+Bridge Over Troubled Water / Simon & Garfunkel / Bridge Over Troubled Water
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q34");
+z.style.display = "none"
+function toggle_hidden_q34() {
+var x = document.getElementById("answer_q34");
+var b = document.getElementById("button_q34");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-34, Previous question: Q34>>  +
+ +
+<<s-General-Q31-40-q-36, Next question: Q36>> 
+
+[[s-General-Q31-40-q-36]]
+=== Q36
+
+[big]#General (Q31--40): Question 36#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Wham-Wake-Me-Up-Before-You-Go-Go-Official-HD-Video-ELflyACZXQQ.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q35" onclick="toggle_hidden_q35()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q35]]
+[big]**Wake Me Up Before You Go-Go** +
+Wake Me Up Before You Go-Go / Wham! / Make It Big
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q35");
+z.style.display = "none"
+function toggle_hidden_q35() {
+var x = document.getElementById("answer_q35");
+var b = document.getElementById("button_q35");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-35, Previous question: Q35>>  +
+ +
+<<s-General-Q31-40-q-37, Next question: Q37>> 
+
+[[s-General-Q31-40-q-37]]
+=== Q37
+
+[big]#General (Q31--40): Question 37#
+
+==== Question
+
+Name the [big]*performer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q36" onclick="toggle_hidden_q36()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q36]]
+[big]**Chuck Berry** +
+Johnny B. Goode - Single Version / Chuck Berry / 20th Century Masters: The Millennium Collection: Best Of Chuck Berry
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q36");
+z.style.display = "none"
+function toggle_hidden_q36() {
+var x = document.getElementById("answer_q36");
+var b = document.getElementById("button_q36");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-36, Previous question: Q36>>  +
+ +
+<<s-General-Q31-40-q-38, Next question: Q38>> 
+
+[[s-General-Q31-40-q-38]]
+=== Q38
+
+[big]#General (Q31--40): Question 38#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/01-Bruno-Mars-Grenade-Doo-Wops-Hooligans-aLAtJ0k98SI.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q37" onclick="toggle_hidden_q37()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q37]]
+[big]**Grenade** +
+Grenade / Bruno Mars / Doo-Wops & Hooligans
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q37");
+z.style.display = "none"
+function toggle_hidden_q37() {
+var x = document.getElementById("answer_q37");
+var b = document.getElementById("button_q37");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-37, Previous question: Q37>>  +
+ +
+<<s-General-Q31-40-q-39, Next question: Q39>> 
+
+[[s-General-Q31-40-q-39]]
+=== Q39
+
+[big]#General (Q31--40): Question 39#
+
+==== Question
+
+Name the [big]*artist*. 
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Kanye-West-Stronger-PsO6ZnUZI0g.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q38" onclick="toggle_hidden_q38()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q38]]
+[big]**Kayne West** +
+Stronger / Kanye West / Stronger (Int'l ECD Maxi)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q38");
+z.style.display = "none"
+function toggle_hidden_q38() {
+var x = document.getElementById("answer_q38");
+var b = document.getElementById("button_q38");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-38, Previous question: Q38>>  +
+ +
+<<s-General-Q31-40-q-40, Next question: Q40>> 
+
+[[s-General-Q31-40-q-40]]
+=== Q40
+
+[big]#General (Q31--40): Question 40#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Come-Sail-Away-eYCFrcCqh7Q.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q39" onclick="toggle_hidden_q39()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q39]]
+[big]**Styx** +
+Come Sail Away / Styx / The Grand Illusion
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q39");
+z.style.display = "none"
+function toggle_hidden_q39() {
+var x = document.getElementById("answer_q39");
+var b = document.getElementById("button_q39");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[big]_End of round_
+
+[role="fullheight"]
+<<s-General-Q31-40-q-39, Previous question: Q39>>  +
+ +
+<<s-General-Q41-50-q-41, Next round: General (Q41--50)>> 
+
+[[s4]]
+== General (Q41--50)
+
+[[s-General-Q41-50-q-41]]
+=== Q41
+
+[big]#General (Q41--50): Question 41#
+
+==== Question
+
+Name the [big]*group*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q40" onclick="toggle_hidden_q40()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q40]]
+[big]**Green Day** +
+Holiday / Boulevard of Broken Dreams / Green Day / American Idiot
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q40");
+z.style.display = "none"
+function toggle_hidden_q40() {
+var x = document.getElementById("answer_q40");
+var b = document.getElementById("button_q40");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q31-40-q-40, Previous round: General (Q31--40)>>  +
+ +
+<<s-General-Q41-50-q-42, Next question: Q42>> 
+
+[[s-General-Q41-50-q-42]]
+=== Q42
+
+[big]#General (Q41--50): Question 42#
+
+==== Question
+
+Name the [big]*performer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/American-Pie-iX-TFkut1PM.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q41" onclick="toggle_hidden_q41()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q41]]
+[big]**Don McLean** +
+American Pie / Don McLean / The Best Of Don McLean
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q41");
+z.style.display = "none"
+function toggle_hidden_q41() {
+var x = document.getElementById("answer_q41");
+var b = document.getElementById("button_q41");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-41, Previous question: Q41>>  +
+ +
+<<s-General-Q41-50-q-43, Next question: Q43>> 
+
+[[s-General-Q41-50-q-43]]
+=== Q43
+
+[big]#General (Q41--50): Question 43#
+
+==== Question
+
+Name the [big]*performer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Moondance-2013-Remaster-7kfYOGndVfU.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q42" onclick="toggle_hidden_q42()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q42]]
+[big]**Van Morrison** +
+Moondance - 2013 Remaster / Van Morrison / Moondance (Deluxe Edition)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q42");
+z.style.display = "none"
+function toggle_hidden_q42() {
+var x = document.getElementById("answer_q42");
+var b = document.getElementById("button_q42");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-42, Previous question: Q42>>  +
+ +
+<<s-General-Q41-50-q-44, Next question: Q44>> 
+
+[[s-General-Q41-50-q-44]]
+=== Q44
+
+[big]#General (Q41--50): Question 44#
+
+==== Question
+
+Name the [big]*group*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q43" onclick="toggle_hidden_q43()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q43]]
+[big]**The Isley Brothers** +
+Shout / The Isley Brothers / Pure... '50s
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q43");
+z.style.display = "none"
+function toggle_hidden_q43() {
+var x = document.getElementById("answer_q43");
+var b = document.getElementById("button_q43");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-43, Previous question: Q43>>  +
+ +
+<<s-General-Q41-50-q-45, Next question: Q45>> 
+
+[[s-General-Q41-50-q-45]]
+=== Q45
+
+[big]#General (Q41--50): Question 45#
+
+==== Question
+
+Name the [big]*lead singer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Aerosmith-Walk-This-Way-Audio-4c8O2n1Gfto.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q44" onclick="toggle_hidden_q44()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q44]]
+[big]**Steven Tyler** +
+Walk This Way / Aerosmith / Toys In The Attic
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q44");
+z.style.display = "none"
+function toggle_hidden_q44() {
+var x = document.getElementById("answer_q44");
+var b = document.getElementById("button_q44");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-44, Previous question: Q44>>  +
+ +
+<<s-General-Q41-50-q-46, Next question: Q46>> 
+
+[[s-General-Q41-50-q-46]]
+=== Q46
+
+[big]#General (Q41--50): Question 46#
+
+==== Question
+
+Name the [big]*artist*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Jason-Derulo-Ridin-Solo-Official-Lyrics-HD-HQ-acWWb1Vxfg0.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q45" onclick="toggle_hidden_q45()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q45]]
+[big]**Jason Derulo** +
+Ridin' Solo / Jason Derulo / Jason Derulo (Deluxe Audio)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q45");
+z.style.display = "none"
+function toggle_hidden_q45() {
+var x = document.getElementById("answer_q45");
+var b = document.getElementById("button_q45");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-45, Previous question: Q45>>  +
+ +
+<<s-General-Q41-50-q-47, Next question: Q47>> 
+
+[[s-General-Q41-50-q-47]]
+=== Q47
+
+[big]#General (Q41--50): Question 47#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q46" onclick="toggle_hidden_q46()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q46]]
+[big]**Ring of Fire** +
+Ring of Fire / Johnny Cash / Johnny Cash - 16 Biggest Hits
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q46");
+z.style.display = "none"
+function toggle_hidden_q46() {
+var x = document.getElementById("answer_q46");
+var b = document.getElementById("button_q46");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-46, Previous question: Q46>>  +
+ +
+<<s-General-Q41-50-q-48, Next question: Q48>> 
+
+[[s-General-Q41-50-q-48]]
+=== Q48
+
+[big]#General (Q41--50): Question 48#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Feel-Good-Inc.-YiiWwwDpxvo.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q47" onclick="toggle_hidden_q47()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q47]]
+[big]**Feel Good Inc.** +
+Feel Good Inc. / The Gorillaz / Demon Days
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q47");
+z.style.display = "none"
+function toggle_hidden_q47() {
+var x = document.getElementById("answer_q47");
+var b = document.getElementById("button_q47");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-47, Previous question: Q47>>  +
+ +
+<<s-General-Q41-50-q-49, Next question: Q49>> 
+
+[[s-General-Q41-50-q-49]]
+=== Q49
+
+[big]#General (Q41--50): Question 49#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bee-Gees-Stayin-Alive-Extended-Remaster-YxvBPH4sArQ.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q48" onclick="toggle_hidden_q48()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q48]]
+[big]**Bee Gees** +
+Stayin' Alive / Bee Gees / The Ultimate Bee Gees
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q48");
+z.style.display = "none"
+function toggle_hidden_q48() {
+var x = document.getElementById("answer_q48");
+var b = document.getElementById("button_q48");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-48, Previous question: Q48>>  +
+ +
+<<s-General-Q41-50-q-50, Next question: Q50>> 
+
+[[s-General-Q41-50-q-50]]
+=== Q50
+
+[big]#General (Q41--50): Question 50#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q49" onclick="toggle_hidden_q49()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q49]]
+[big]**September** +
+September / Earth, Wind & Fire / The Eternal Dance
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q49");
+z.style.display = "none"
+function toggle_hidden_q49() {
+var x = document.getElementById("answer_q49");
+var b = document.getElementById("button_q49");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[big]_End of round_
+
+[role="fullheight"]
+<<s-General-Q41-50-q-49, Previous question: Q49>>  +
+ +
+<<s-General-Q51-60-q-51, Next round: General (Q51--60)>> 
+
+[[s5]]
+== General (Q51--60)
+
+[[s-General-Q51-60-q-51]]
+=== Q51
+
+[big]#General (Q51--60): Question 51#
+
+==== Question
+
+Name the [big]*artist*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Avicii-Hey-Brother-6Cp6mKbRTQY.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q50" onclick="toggle_hidden_q50()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q50]]
+[big]**Avicii** +
+Hey Brother / Avicii / TRUE
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q50");
+z.style.display = "none"
+function toggle_hidden_q50() {
+var x = document.getElementById("answer_q50");
+var b = document.getElementById("button_q50");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q41-50-q-50, Previous round: General (Q41--50)>>  +
+ +
+<<s-General-Q51-60-q-52, Next question: Q52>> 
+
+[[s-General-Q51-60-q-52]]
+=== Q52
+
+[big]#General (Q51--60): Question 52#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Free-Bird-CqnU-sJ8V-E.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q51" onclick="toggle_hidden_q51()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q51]]
+[big]**Free Bird** +
+Free Bird / Lynyrd Skynyrd / Pronounced' Leh-'Nerd 'Skin-'Nerd
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q51");
+z.style.display = "none"
+function toggle_hidden_q51() {
+var x = document.getElementById("answer_q51");
+var b = document.getElementById("button_q51");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-51, Previous question: Q51>>  +
+ +
+<<s-General-Q51-60-q-53, Next question: Q53>> 
+
+[[s-General-Q51-60-q-53]]
+=== Q53
+
+[big]#General (Q51--60): Question 53#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/GOOD-VIBRATIONS-HD-THE-BEACH-BOYS-mdt0SOqPJcg.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q52" onclick="toggle_hidden_q52()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q52]]
+[big]**The Beach Boys** +
+Good Vibrations - Remastered / The Beach Boys / Good Vibrations 40th Anniversary
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q52");
+z.style.display = "none"
+function toggle_hidden_q52() {
+var x = document.getElementById("answer_q52");
+var b = document.getElementById("button_q52");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-52, Previous question: Q52>>  +
+ +
+<<s-General-Q51-60-q-54, Next question: Q54>> 
+
+[[s-General-Q51-60-q-54]]
+=== Q54
+
+[big]#General (Q51--60): Question 54#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Lil-Nas-X-Old-Town-Road-feat.-Billy-Ray-Cyrus-Remix-7ysFgElQtjI.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q53" onclick="toggle_hidden_q53()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q53]]
+[big]**Old Town Road** +
+Old Town Road (feat. Billy Ray Cyrus) - Remix / Lil Nas X, Billy Ray Cyrus / Old Town Road
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q53");
+z.style.display = "none"
+function toggle_hidden_q53() {
+var x = document.getElementById("answer_q53");
+var b = document.getElementById("button_q53");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-53, Previous question: Q53>>  +
+ +
+<<s-General-Q51-60-q-55, Next question: Q55>> 
+
+[[s-General-Q51-60-q-55]]
+=== Q55
+
+[big]#General (Q51--60): Question 55#
+
+==== Question
+
+Name the [big]*group*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/One-Way-Or-Another-Remastered-Fnb1xYDViDs.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q54" onclick="toggle_hidden_q54()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q54]]
+[big]**Blondie** +
+One Way Or Another - Remastered / Blondie / One Way Or Another
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q54");
+z.style.display = "none"
+function toggle_hidden_q54() {
+var x = document.getElementById("answer_q54");
+var b = document.getElementById("button_q54");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-54, Previous question: Q54>>  +
+ +
+<<s-General-Q51-60-q-56, Next question: Q56>> 
+
+[[s-General-Q51-60-q-56]]
+=== Q56
+
+[big]#General (Q51--60): Question 56#
+
+==== Question
+
+Name the [big]*artist*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Jimi-Hendrix-Experience-Hey-Joe-Audio-rXwMrBb2x1Q.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q55" onclick="toggle_hidden_q55()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q55]]
+[big]**Jimi Hendrix** +
+Hey Joe / The Jimi Hendrix Experience / Are You Experienced?
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q55");
+z.style.display = "none"
+function toggle_hidden_q55() {
+var x = document.getElementById("answer_q55");
+var b = document.getElementById("button_q55");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-55, Previous question: Q55>>  +
+ +
+<<s-General-Q51-60-q-57, Next question: Q57>> 
+
+[[s-General-Q51-60-q-57]]
+=== Q57
+
+[big]#General (Q51--60): Question 57#
+
+==== Question
+
+Name the [big]*singer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Lean-on-Me-fOZ-MySzAac.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q56" onclick="toggle_hidden_q56()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q56]]
+[big]**Bill Withers** +
+Lean on Me / Bill Withers / Still Bill
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q56");
+z.style.display = "none"
+function toggle_hidden_q56() {
+var x = document.getElementById("answer_q56");
+var b = document.getElementById("button_q56");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-56, Previous question: Q56>>  +
+ +
+<<s-General-Q51-60-q-58, Next question: Q58>> 
+
+[[s-General-Q51-60-q-58]]
+=== Q58
+
+[big]#General (Q51--60): Question 58#
+
+==== Question
+
+Name the [big]*performer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q57" onclick="toggle_hidden_q57()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q57]]
+[big]**Joe Jackson** +
+Is She Really Going Out With Him? / Joe Jackson / Look Sharp!
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q57");
+z.style.display = "none"
+function toggle_hidden_q57() {
+var x = document.getElementById("answer_q57");
+var b = document.getElementById("button_q57");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-57, Previous question: Q57>>  +
+ +
+<<s-General-Q51-60-q-59, Next question: Q59>> 
+
+[[s-General-Q51-60-q-59]]
+=== Q59
+
+[big]#General (Q51--60): Question 59#
+
+==== Question
+
+Name the [big]*singer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Gnarls-Barkley-Crazy-Official-Video-N4jf6rtyuw.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q58" onclick="toggle_hidden_q58()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q58]]
+[big]**Gnarls Barkley** +
+Crazy / Gnarls Barkley / St. Elsewhere
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q58");
+z.style.display = "none"
+function toggle_hidden_q58() {
+var x = document.getElementById("answer_q58");
+var b = document.getElementById("button_q58");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-58, Previous question: Q58>>  +
+ +
+<<s-General-Q51-60-q-60, Next question: Q60>> 
+
+[[s-General-Q51-60-q-60]]
+=== Q60
+
+[big]#General (Q51--60): Question 60#
+
+==== Question
+
+Name the [big]*lead singer* (not the band).
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Culture-Club-Karma-Chameleon-Official-Video-JmcA9LIIXWw.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q59" onclick="toggle_hidden_q59()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q59]]
+[big]**Boy George** +
+Karma Chameleon / Culture Club / At Worst...The Best Of Boy George And Culture Club
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q59");
+z.style.display = "none"
+function toggle_hidden_q59() {
+var x = document.getElementById("answer_q59");
+var b = document.getElementById("button_q59");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[big]_End of round_
+
+[role="fullheight"]
+<<s-General-Q51-60-q-59, Previous question: Q59>>  +
+ +
+<<s-Movies-q-61, Next round: Movies>> 
+
+[[s6]]
+== Movies
+
+[[s-Movies-q-61]]
+=== Q61
+
+[big]#Movies: Question 61#
+
+==== Question
+
+Name the [big]*movie*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Harry-Potter-Theme-Song-Htaj3o3JD8I.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q60" onclick="toggle_hidden_q60()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q60]]
+[big]**Harry Potter** +
+Hedwig's Theme / John Williams / Harry Potter and the Sorcerer's Stone
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q60");
+z.style.display = "none"
+function toggle_hidden_q60() {
+var x = document.getElementById("answer_q60");
+var b = document.getElementById("button_q60");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-General-Q51-60-q-60, Previous round: General (Q51--60)>>  +
+ +
+<<s-Movies-q-62, Next question: Q62>> 
+
+[[s-Movies-q-62]]
+=== Q62
+
+[big]#Movies: Question 62#
+
+==== Question
+
+Name the [big]*movie*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Godfather-DGtEtwdZZKo.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q61" onclick="toggle_hidden_q61()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q61]]
+[big]**The Godfather.** +
+The Godfather / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 2
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q61");
+z.style.display = "none"
+function toggle_hidden_q61() {
+var x = document.getElementById("answer_q61");
+var b = document.getElementById("button_q61");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Movies-q-61, Previous question: Q61>>  +
+ +
+<<s-Movies-q-63, Next question: Q63>> 
+
+[[s-Movies-q-63]]
+=== Q63
+
+[big]#Movies: Question 63#
+
+==== Question
+
+Name the [big]*movie*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/End-Title-O-6Da8wD0A.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q62" onclick="toggle_hidden_q62()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q62]]
+[big]**Lawrence of Arabia** +
+End Title (from "Lawrence Of Arabia") / London Philharmonic Orchestra / Lawrence Of Arabia (Original Soundtrack Recording)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q62");
+z.style.display = "none"
+function toggle_hidden_q62() {
+var x = document.getElementById("answer_q62");
+var b = document.getElementById("button_q62");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Movies-q-62, Previous question: Q62>>  +
+ +
+<<s-Movies-q-64, Next question: Q64>> 
+
+[[s-Movies-q-64]]
+=== Q64
+
+[big]#Movies: Question 64#
+
+==== Question
+
+Name the [big]*movie*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/A-Man-and-a-Woman-Movie-Main-Theme-So9rDiGxQTQ.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q63" onclick="toggle_hidden_q63()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q63]]
+[big]**A Man and a Woman** +
+A Man and a Woman (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q63");
+z.style.display = "none"
+function toggle_hidden_q63() {
+var x = document.getElementById("answer_q63");
+var b = document.getElementById("button_q63");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Movies-q-63, Previous question: Q63>>  +
+ +
+<<s-Movies-q-65, Next question: Q65>> 
+
+[[s-Movies-q-65]]
+=== Q65
+
+[big]#Movies: Question 65#
+
+==== Question
+
+Name the [big]*movie*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Nino-Rota-Amarcord-bk4MEhUkxco.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q64" onclick="toggle_hidden_q64()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q64]]
+[big]**Amarcord** +
+Amarcord / Nino Rota / Amarcord
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q64");
+z.style.display = "none"
+function toggle_hidden_q64() {
+var x = document.getElementById("answer_q64");
+var b = document.getElementById("button_q64");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Movies-q-64, Previous question: Q64>>  +
+ +
+<<s-Movies-q-66, Next question: Q66>> 
+
+[[s-Movies-q-66]]
+=== Q66
+
+[big]#Movies: Question 66#
+
+==== Question
+
+Name the [big]*composer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Pink-Panther-XdnnytXfj5g.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q65" onclick="toggle_hidden_q65()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q65]]
+[big]**Henry Mancini** +
+The Pink Panther / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 1
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q65");
+z.style.display = "none"
+function toggle_hidden_q65() {
+var x = document.getElementById("answer_q65");
+var b = document.getElementById("button_q65");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Movies-q-65, Previous question: Q65>>  +
+ +
+<<s-Movies-q-67, Next question: Q67>> 
+
+[[s-Movies-q-67]]
+=== Q67
+
+[big]#Movies: Question 67#
+
+==== Question
+
+Name the [big]*movie*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Chariots-of-Fire-Main-Theme-Vangelis-CSav51fVlKU.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q66" onclick="toggle_hidden_q66()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q66]]
+[big]**Chariots of Fire** +
+Chariots of Fire Theme / Vangelis / Chariots of Fire
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q66");
+z.style.display = "none"
+function toggle_hidden_q66() {
+var x = document.getElementById("answer_q66");
+var b = document.getElementById("button_q66");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Movies-q-66, Previous question: Q66>>  +
+ +
+<<s-Movies-q-68, Next question: Q68>> 
+
+[[s-Movies-q-68]]
+=== Q68
+
+[big]#Movies: Question 68#
+
+==== Question
+
+Name the [big]*movie*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Good-the-Bad-and-the-Ugly-Movie-Main-Theme-o-zafpeLXhE.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q67" onclick="toggle_hidden_q67()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q67]]
+[big]**The Good, the Bad and the Ugly** +
+The Good, the Bad and the Ugly (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q67");
+z.style.display = "none"
+function toggle_hidden_q67() {
+var x = document.getElementById("answer_q67");
+var b = document.getElementById("button_q67");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Movies-q-67, Previous question: Q67>>  +
+ +
+<<s-Movies-q-69, Next question: Q69>> 
+
+[[s-Movies-q-69]]
+=== Q69
+
+[big]#Movies: Question 69#
+
+==== Question
+
+Name the [big]*movie*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bernard-Herrmann-Taxi-Driver-theme-Bx4aK-YsPeU.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q68" onclick="toggle_hidden_q68()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q68]]
+[big]**Taxi Driver** +
+Taxi Driver Theme / Bernard Herrmann / Taxi Driver
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q68");
+z.style.display = "none"
+function toggle_hidden_q68() {
+var x = document.getElementById("answer_q68");
+var b = document.getElementById("button_q68");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Movies-q-68, Previous question: Q68>>  +
+ +
+<<s-Movies-q-70, Next question: Q70>> 
+
+[[s-Movies-q-70]]
+=== Q70
+
+[big]#Movies: Question 70#
+
+==== Question
+
+Name the [big]*movie*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Superman-Movie-Main-Theme-cm97g2cOKto.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q69" onclick="toggle_hidden_q69()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q69]]
+[big]**Superman** +
+Superman (Movie Main Theme) / Film & TV Masters / Ultimate Movie Theme Playlist
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q69");
+z.style.display = "none"
+function toggle_hidden_q69() {
+var x = document.getElementById("answer_q69");
+var b = document.getElementById("button_q69");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[big]_End of round_
+
+[role="fullheight"]
+<<s-Movies-q-69, Previous question: Q69>>  +
+ +
+<<s-Broadway-q-71, Next round: Broadway>> 
+
+[[s7]]
+== Broadway
+
+[[s-Broadway-q-71]]
+=== Q71
+
+[big]#Broadway: Question 71#
+
+==== Question
+
+Name the [big]*composer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Being-Alive-Company-2006-Broadway-Revival-Raul-Esparza-YLTulpBF3H4.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q70" onclick="toggle_hidden_q70()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q70]]
+[big]**Stephen Sondheim** +
+Being Alive / 2006 Broadway Revival Cast / Company (2006 Broadway Revival Cast)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q70");
+z.style.display = "none"
+function toggle_hidden_q70() {
+var x = document.getElementById("answer_q70");
+var b = document.getElementById("button_q70");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Movies-q-70, Previous round: Movies>>  +
+ +
+<<s-Broadway-q-72, Next question: Q72>> 
+
+[[s-Broadway-q-72]]
+=== Q72
+
+[big]#Broadway: Question 72#
+
+==== Question
+
+Name the [big]*musical*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Overture-Te-Tgsw2vOE.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q71" onclick="toggle_hidden_q71()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q71]]
+[big]**Gypsy** +
+Overture / 2003 Broadway Cast of "Gypsy" / Gypsy (2003 Broadway Cast)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q71");
+z.style.display = "none"
+function toggle_hidden_q71() {
+var x = document.getElementById("answer_q71");
+var b = document.getElementById("button_q71");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-71, Previous question: Q71>>  +
+ +
+<<s-Broadway-q-73, Next question: Q73>> 
+
+[[s-Broadway-q-73]]
+=== Q73
+
+[big]#Broadway: Question 73#
+
+==== Question
+
+Name the [big]*musical*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Whatever-Lola-Wants-Damn-Yankees.-6kjQmgm0r4g.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q72" onclick="toggle_hidden_q72()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q72]]
+[big]**Damn Yankees** +
+Whatever Lola Wants / Gwen Verdon / Damn Yankees (Original Soundtrack) [Remastered]
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q72");
+z.style.display = "none"
+function toggle_hidden_q72() {
+var x = document.getElementById("answer_q72");
+var b = document.getElementById("button_q72");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-72, Previous question: Q72>>  +
+ +
+<<s-Broadway-q-74, Next question: Q74>> 
+
+[[s-Broadway-q-74]]
+=== Q74
+
+[big]#Broadway: Question 74#
+
+==== Question
+
+Name the [big]*composer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Annie-Get-Your-Gun-1999-Broadway-Revival-Cast-9.-They-Say-It-s-Wonderful-3nuUHCKiBuo.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q73" onclick="toggle_hidden_q73()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q73]]
+[big]**Irving Berlin** +
+They Say It's Wonderful / Annie Get Your Gun - The 1999 Broadway Cast / Annie Get Your Gun - The New Broadway Cast Recording (Staring Bernadette Peters)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q73");
+z.style.display = "none"
+function toggle_hidden_q73() {
+var x = document.getElementById("answer_q73");
+var b = document.getElementById("button_q73");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-73, Previous question: Q73>>  +
+ +
+<<s-Broadway-q-75, Next question: Q75>> 
+
+[[s-Broadway-q-75]]
+=== Q75
+
+[big]#Broadway: Question 75#
+
+==== Question
+
+Name the [big]*musical*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Alexander-Hamilton-VhinPd5RRJw.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q74" onclick="toggle_hidden_q74()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q74]]
+[big]**Hamilton** +
+Alexander Hamilton / Leslie Odom, Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Phillipa Soo, Christopher Jackson & Original Broadway Cast of Hamilton / Hamilton (Original Broadway Cast Recording)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q74");
+z.style.display = "none"
+function toggle_hidden_q74() {
+var x = document.getElementById("answer_q74");
+var b = document.getElementById("button_q74");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-74, Previous question: Q74>>  +
+ +
+<<s-Broadway-q-76, Next question: Q76>> 
+
+[[s-Broadway-q-76]]
+=== Q76
+
+[big]#Broadway: Question 76#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/West-Side-Story-Something-s-Coming-1961-HD-FOQPMjKLQQU.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q75" onclick="toggle_hidden_q75()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q75]]
+[big]**Something's Coming.** +
+Something's Coming / Matt Cavenaugh / West Side Story (New Broadway Cast Recording - 2009)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q75");
+z.style.display = "none"
+function toggle_hidden_q75() {
+var x = document.getElementById("answer_q75");
+var b = document.getElementById("button_q75");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-75, Previous question: Q75>>  +
+ +
+<<s-Broadway-q-77, Next question: Q77>> 
+
+[[s-Broadway-q-77]]
+=== Q77
+
+[big]#Broadway: Question 77#
+
+==== Question
+
+Name the [big]*musical*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Corner-of-the-Sky-Mdkyc686VIg.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q76" onclick="toggle_hidden_q76()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q76]]
+[big]**Pippin** +
+Corner of the Sky / Matthew James Thomas / Pippin (New Broadway Cast Recording)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q76");
+z.style.display = "none"
+function toggle_hidden_q76() {
+var x = document.getElementById("answer_q76");
+var b = document.getElementById("button_q76");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-76, Previous question: Q76>>  +
+ +
+<<s-Broadway-q-78, Next question: Q78>> 
+
+[[s-Broadway-q-78]]
+=== Q78
+
+[big]#Broadway: Question 78#
+
+==== Question
+
+Name the [big]*musical*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/42nd-Street-bPuQkW1-s9k.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q77" onclick="toggle_hidden_q77()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q77]]
+[big]**42nd Street** +
+42nd Street / Wanda Richert, Lee Roy Reams & 42nd Street Ensemble / 42nd Street - Original Broadway Cast Recording
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q77");
+z.style.display = "none"
+function toggle_hidden_q77() {
+var x = document.getElementById("answer_q77");
+var b = document.getElementById("button_q77");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-77, Previous question: Q77>>  +
+ +
+<<s-Broadway-q-79, Next question: Q79>> 
+
+[[s-Broadway-q-79]]
+=== Q79
+
+[big]#Broadway: Question 79#
+
+==== Question
+
+Name the [big]*musical*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/One-Reprise-Finale-OiBIXa-7Vo.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q78" onclick="toggle_hidden_q78()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q78]]
+[big]**A Chorus Line** +
+One (Reprise) / Finale / A Chorus Line Ensemble / A Chorus Line - 40th Anniversary Celebration (Original Broadway Cast Recording)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q78");
+z.style.display = "none"
+function toggle_hidden_q78() {
+var x = document.getElementById("answer_q78");
+var b = document.getElementById("button_q78");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-78, Previous question: Q78>>  +
+ +
+<<s-Broadway-q-80, Next question: Q80>> 
+
+[[s-Broadway-q-80]]
+=== Q80
+
+[big]#Broadway: Question 80#
+
+==== Question
+
+Name the [big]*song*. 
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Barbra-Streisand-Don-t-Rain-On-My-Parade-oZTSuMErgsw.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q79" onclick="toggle_hidden_q79()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q79]]
+[big]**Don't Rain On My Parade** +
+Don't Rain On My Parade / Barbra Streisand / The Essential Barbra Streisand
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q79");
+z.style.display = "none"
+function toggle_hidden_q79() {
+var x = document.getElementById("answer_q79");
+var b = document.getElementById("button_q79");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[big]_End of round_
+
+[role="fullheight"]
+<<s-Broadway-q-79, Previous question: Q79>>  +
+ +
+<<s-One-Hit-Wonders-q-81, Next round: One Hit Wonders>> 
+
+[[s8]]
+== One Hit Wonders
+
+[[s-One-Hit-Wonders-q-81]]
+=== Q81
+
+[big]#One Hit Wonders: Question 81#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Ready-For-The-World-Oh-Sheila-Official-Video-wbL2lMn34Oo.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q80" onclick="toggle_hidden_q80()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q80]]
+[big]**Ready for the World.** +
+Oh Sheila / Ready For The World / 20 #1's: One Hit Wonders
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q80");
+z.style.display = "none"
+function toggle_hidden_q80() {
+var x = document.getElementById("answer_q80");
+var b = document.getElementById("button_q80");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Broadway-q-80, Previous round: Broadway>>  +
+ +
+<<s-One-Hit-Wonders-q-82, Next question: Q82>> 
+
+[[s-One-Hit-Wonders-q-82]]
+=== Q82
+
+[big]#One Hit Wonders: Question 82#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Men-Without-Hats-Safety-Dance-Official-Music-Video-AjPau5QYtYs.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q81" onclick="toggle_hidden_q81()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q81]]
+[big]**Men Without Hats** +
+The Safety Dance / Men Without Hats / Greatest
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q81");
+z.style.display = "none"
+function toggle_hidden_q81() {
+var x = document.getElementById("answer_q81");
+var b = document.getElementById("button_q81");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-One-Hit-Wonders-q-81, Previous question: Q81>>  +
+ +
+<<s-One-Hit-Wonders-q-83, Next question: Q83>> 
+
+[[s-One-Hit-Wonders-q-83]]
+=== Q83
+
+[big]#One Hit Wonders: Question 83#
+
+==== Question
+
+Name the [big]*singer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bobby-McFerrin-Don-t-Worry-Be-Happy-Official-Video-d-diB65scQU.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q82" onclick="toggle_hidden_q82()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q82]]
+[big]**Bobby McFerrin** +
+Don't Worry Be Happy / Bobby McFerrin / 20 #1's: One Hit Wonders
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q82");
+z.style.display = "none"
+function toggle_hidden_q82() {
+var x = document.getElementById("answer_q82");
+var b = document.getElementById("button_q82");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-One-Hit-Wonders-q-82, Previous question: Q82>>  +
+ +
+<<s-One-Hit-Wonders-q-84, Next question: Q84>> 
+
+[[s-One-Hit-Wonders-q-84]]
+=== Q84
+
+[big]#One Hit Wonders: Question 84#
+
+==== Question
+
+Name the [big]*singer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bette-Davis-Eyes-Re-Recorded-Remastered-tDJdEhbSP-g.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q83" onclick="toggle_hidden_q83()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q83]]
+[big]**Kim Carnes** +
+Bette Davis Eyes (Re-Recorded / Remastered) / Kim Carnes / 80s 1 Hit Wonders (Re-Recorded / Remastered Versions)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q83");
+z.style.display = "none"
+function toggle_hidden_q83() {
+var x = document.getElementById("answer_q83");
+var b = document.getElementById("button_q83");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-One-Hit-Wonders-q-83, Previous question: Q83>>  +
+ +
+<<s-One-Hit-Wonders-q-85, Next question: Q85>> 
+
+[[s-One-Hit-Wonders-q-85]]
+=== Q85
+
+[big]#One Hit Wonders: Question 85#
+
+==== Question
+
+Name the [big]*singer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Spirit-In-The-Sky-Norman-Greenbaum-AZQxH-8raCI.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q84" onclick="toggle_hidden_q84()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q84]]
+[big]**Norman Greenbaum** +
+Spirit In The Sky / Norman Greenbaum / Spirit In The Sky
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q84");
+z.style.display = "none"
+function toggle_hidden_q84() {
+var x = document.getElementById("answer_q84");
+var b = document.getElementById("button_q84");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-One-Hit-Wonders-q-84, Previous question: Q84>>  +
+ +
+<<s-One-Hit-Wonders-q-86, Next question: Q86>> 
+
+[[s-One-Hit-Wonders-q-86]]
+=== Q86
+
+[big]#One Hit Wonders: Question 86#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Quarterflash-Harden-My-Heart-Official-Video-OqeKV2UYq1Q.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q85" onclick="toggle_hidden_q85()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q85]]
+[big]**Quarterflash** +
+Harden My Heart / Quarterflash / 20 #1's: One Hit Wonders
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q85");
+z.style.display = "none"
+function toggle_hidden_q85() {
+var x = document.getElementById("answer_q85");
+var b = document.getElementById("button_q85");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-One-Hit-Wonders-q-85, Previous question: Q85>>  +
+ +
+<<s-One-Hit-Wonders-q-87, Next question: Q87>> 
+
+[[s-One-Hit-Wonders-q-87]]
+=== Q87
+
+[big]#One Hit Wonders: Question 87#
+
+==== Question
+
+Name the [big]*band*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Knack-My-Sharona-1979-BR2JtsVumFA.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q86" onclick="toggle_hidden_q86()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q86]]
+[big]**The Knack** +
+My Sharona / The Knack / 20 #1's: One Hit Wonders
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q86");
+z.style.display = "none"
+function toggle_hidden_q86() {
+var x = document.getElementById("answer_q86");
+var b = document.getElementById("button_q86");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-One-Hit-Wonders-q-86, Previous question: Q86>>  +
+ +
+<<s-One-Hit-Wonders-q-88, Next question: Q88>> 
+
+[[s-One-Hit-Wonders-q-88]]
+=== Q88
+
+[big]#One Hit Wonders: Question 88#
+
+==== Question
+
+Name the [big]*singer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bruce-Channel-Hey-Baby-ik9dxkKriV0.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q87" onclick="toggle_hidden_q87()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q87]]
+[big]**Bruce Channel** +
+Hey! Baby / Bruce Channel / 20 #1's: One Hit Wonders
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q87");
+z.style.display = "none"
+function toggle_hidden_q87() {
+var x = document.getElementById("answer_q87");
+var b = document.getElementById("button_q87");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-One-Hit-Wonders-q-87, Previous question: Q87>>  +
+ +
+<<s-One-Hit-Wonders-q-89, Next question: Q89>> 
+
+[[s-One-Hit-Wonders-q-89]]
+=== Q89
+
+[big]#One Hit Wonders: Question 89#
+
+==== Question
+
+Name the [big]*singer*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Rockwell-Somebody-s-Watching-Me-Official-Video-7YvAYIJSSZY.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q88" onclick="toggle_hidden_q88()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q88]]
+[big]**Rockwell** +
+Somebody's Watching Me - Single Version / Rockwell / 20 #1's: One Hit Wonders
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q88");
+z.style.display = "none"
+function toggle_hidden_q88() {
+var x = document.getElementById("answer_q88");
+var b = document.getElementById("button_q88");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-One-Hit-Wonders-q-88, Previous question: Q88>>  +
+ +
+<<s-One-Hit-Wonders-q-90, Next question: Q90>> 
+
+[[s-One-Hit-Wonders-q-90]]
+=== Q90
+
+[big]#One Hit Wonders: Question 90#
+
+==== Question
+
+Name the [big]*band* with the very 70s-sounding name.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/disco-duck-97RjuC9YeXg.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q89" onclick="toggle_hidden_q89()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q89]]
+[big]**The Rubix Cubes** +
+Disco Duck / The Rubix Cube's / 1970's One Hit Wonders
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q89");
+z.style.display = "none"
+function toggle_hidden_q89() {
+var x = document.getElementById("answer_q89");
+var b = document.getElementById("button_q89");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[big]_End of round_
+
+[role="fullheight"]
+<<s-One-Hit-Wonders-q-89, Previous question: Q89>>  +
+ +
+<<s-New-York-q-91, Next round: New York>> 
+
+[[s9]]
+== New York
+
+[[s-New-York-q-91]]
+=== Q91
+
+[big]#New York: Question 91#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/RUN-DMC-Christmas-In-Hollis-Video-OR07r0ZMFb8.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q90" onclick="toggle_hidden_q90()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q90]]
+[big]**Christmas in Hollis** +
+Christmas In Hollis (Bonus Track) / Run-DMC / Tougher Than Leather
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q90");
+z.style.display = "none"
+function toggle_hidden_q90() {
+var x = document.getElementById("answer_q90");
+var b = document.getElementById("button_q90");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-One-Hit-Wonders-q-90, Previous round: One Hit Wonders>>  +
+ +
+<<s-New-York-q-92, Next question: Q92>> 
+
+[[s-New-York-q-92]]
+=== Q92
+
+[big]#New York: Question 92#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Ben-E-King-Spanish-Harlem-OGd6CdtOqEE.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q91" onclick="toggle_hidden_q91()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q91]]
+[big]**Spanish Harlem** +
+Spanish Harlem / Ben E. King / Spanish Harlem
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q91");
+z.style.display = "none"
+function toggle_hidden_q91() {
+var x = document.getElementById("answer_q91");
+var b = document.getElementById("button_q91");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-New-York-q-91, Previous question: Q91>>  +
+ +
+<<s-New-York-q-93, Next question: Q93>> 
+
+[[s-New-York-q-93]]
+=== Q93
+
+[big]#New York: Question 93#
+
+==== Question
+
+Name the [big]*artist*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Welcome-To-New-York-RvYysauPsMc.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q92" onclick="toggle_hidden_q92()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q92]]
+[big]**Taylor Swift** +
+Welcome to New York / Taylor Swift / 1989
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q92");
+z.style.display = "none"
+function toggle_hidden_q92() {
+var x = document.getElementById("answer_q92");
+var b = document.getElementById("button_q92");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-New-York-q-92, Previous question: Q92>>  +
+ +
+<<s-New-York-q-94, Next question: Q94>> 
+
+[[s-New-York-q-94]]
+=== Q94
+
+[big]#New York: Question 94#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Odyssey-Native-New-Yorker-1977-HD-JpQ6NtbZxiE.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q93" onclick="toggle_hidden_q93()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q93]]
+[big]**Native New Yorker** +
+Native New Yorker / Odyssey / Odyssey (Expanded Edition)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q93");
+z.style.display = "none"
+function toggle_hidden_q93() {
+var x = document.getElementById("answer_q93");
+var b = document.getElementById("button_q93");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-New-York-q-93, Previous question: Q93>>  +
+ +
+<<s-New-York-q-95, Next question: Q95>> 
+
+[[s-New-York-q-95]]
+=== Q95
+
+[big]#New York: Question 95#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bruce-Springsteen-Tenth-Avenue-Freeze-Out.wmv-BL-HL3ELvFI.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q94" onclick="toggle_hidden_q94()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q94]]
+[big]**Tenth Avenue Freeze Out** +
+Tenth Avenue Freeze-Out / Bruce Springsteen / Born To Run
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q94");
+z.style.display = "none"
+function toggle_hidden_q94() {
+var x = document.getElementById("answer_q94");
+var b = document.getElementById("button_q94");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-New-York-q-94, Previous question: Q94>>  +
+ +
+<<s-New-York-q-96, Next question: Q96>> 
+
+[[s-New-York-q-96]]
+=== Q96
+
+[big]#New York: Question 96#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Pogues-Fairytale-Of-New-York-Official-Video-j9jbdgZidu8.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q95" onclick="toggle_hidden_q95()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q95]]
+[big]**Fairytale of New York** +
+Fairytale of New York / The Pogues / If I Should Fall from Grace With God [Expanded]
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q95");
+z.style.display = "none"
+function toggle_hidden_q95() {
+var x = document.getElementById("answer_q95");
+var b = document.getElementById("button_q95");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-New-York-q-95, Previous question: Q95>>  +
+ +
+<<s-New-York-q-97, Next question: Q97>> 
+
+[[s-New-York-q-97]]
+=== Q97
+
+[big]#New York: Question 97#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Duke-Ellington-Take-the-A-Train-cb2w2m1JmCY.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q96" onclick="toggle_hidden_q96()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q96]]
+[big]**Take the A Train** +
+Take the A Train / Duke Ellington / Ellington Uptown
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q96");
+z.style.display = "none"
+function toggle_hidden_q96() {
+var x = document.getElementById("answer_q96");
+var b = document.getElementById("button_q96");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-New-York-q-96, Previous question: Q96>>  +
+ +
+<<s-New-York-q-98, Next question: Q98>> 
+
+[[s-New-York-q-98]]
+=== Q98
+
+[big]#New York: Question 98#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Jay-Z-feat.-Alicia-Keys-Empire-State-of-Mind-Official-Music-Video-Original-Version-QsZlY0Vz4-o.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q97" onclick="toggle_hidden_q97()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q97]]
+[big]**Empire State of Mind** +
+Empire State of Mind (feat. Alicia Keys) / JAY-Z & Alicia Keys / The Hits Collection, Vol. One (Deluxe Edition)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q97");
+z.style.display = "none"
+function toggle_hidden_q97() {
+var x = document.getElementById("answer_q97");
+var b = document.getElementById("button_q97");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-New-York-q-97, Previous question: Q97>>  +
+ +
+<<s-New-York-q-99, Next question: Q99>> 
+
+[[s-New-York-q-99]]
+=== Q99
+
+[big]#New York: Question 99#
+
+==== Question
+
+Name the [big]*song*. 
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/GEORGE-BENSON-On-Broadway-Album-Version-ok-l1Acuwg.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q98" onclick="toggle_hidden_q98()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q98]]
+[big]**On Broadway** +
+On Broadway / George Benson / The George Benson Collection
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q98");
+z.style.display = "none"
+function toggle_hidden_q98() {
+var x = document.getElementById("answer_q98");
+var b = document.getElementById("button_q98");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-New-York-q-98, Previous question: Q98>>  +
+ +
+<<s-New-York-q-100, Next question: Q100>> 
+
+[[s-New-York-q-100]]
+=== Q100
+
+[big]#New York: Question 100#
+
+==== Question
+
+Name the [big]*person* who sang this song in the *movie in which it first appeared*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Theme-From-New-York-New-York-Remastered-2008-le1QF3uoQNg.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q99" onclick="toggle_hidden_q99()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q99]]
+[big]**Liza Minelli (in _New York, New York_)** +
+Theme from New York, New York / Frank Sinatra / Ultimate Sinatra: The Centennial Collection
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q99");
+z.style.display = "none"
+function toggle_hidden_q99() {
+var x = document.getElementById("answer_q99");
+var b = document.getElementById("button_q99");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[big]_End of round_
+
+[role="fullheight"]
+<<s-New-York-q-99, Previous question: Q99>>  +
+ +
+<<s-Bonus-q-101, Next round: Bonus>> 
+
+[[s10]]
+== Bonus
+
+[[s-Bonus-q-101]]
+=== Q101
+
+[big]#Bonus: Question 101#
+
+==== Question
+
+Name [big]*either one of the two movies* that had this song as their opening credit music.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Rock-Around-the-Clock-Bill-Haley-original-song-1955-Ud-JZcC0tHI.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q100" onclick="toggle_hidden_q100()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q100]]
+[big]**American Graffiti and Blackboard Jungle** +
+(We're Gonna) Rock Around The Clock - Single Version / Bill Haley & His Comets / From The Original Master Tapes
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q100");
+z.style.display = "none"
+function toggle_hidden_q100() {
+var x = document.getElementById("answer_q100");
+var b = document.getElementById("button_q100");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-New-York-q-100, Previous round: New York>>  +
+ +
+<<s-Bonus-q-102, Next question: Q102>> 
+
+[[s-Bonus-q-102]]
+=== Q102
+
+[big]#Bonus: Question 102#
+
+==== Question
+
+In this song, [big]*what "has bitten the dust?"*
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/London-Calling-Remastered-XN7iEFVLf5c.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q101" onclick="toggle_hidden_q101()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q101]]
+[big]**Phony Beatlemania** +
+London Calling - Remastered / The Clash / London Calling (Remastered)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q101");
+z.style.display = "none"
+function toggle_hidden_q101() {
+var x = document.getElementById("answer_q101");
+var b = document.getElementById("button_q101");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-101, Previous question: Q101>>  +
+ +
+<<s-Bonus-q-103, Next question: Q103>> 
+
+[[s-Bonus-q-103]]
+=== Q103
+
+[big]#Bonus: Question 103#
+
+==== Question
+
+Name the [big]*song* (including both the main title and the part in parentheses).
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q102" onclick="toggle_hidden_q102()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q102]]
+[big]**Norwegian Wood (This Bird Has Flown)** +
+Norwegian Wood (This Bird Has Flown) - Remastered 2009 / The Beatles / Rubber Soul (Remastered)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q102");
+z.style.display = "none"
+function toggle_hidden_q102() {
+var x = document.getElementById("answer_q102");
+var b = document.getElementById("button_q102");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-102, Previous question: Q102>>  +
+ +
+<<s-Bonus-q-104, Next question: Q104>> 
+
+[[s-Bonus-q-104]]
+=== Q104
+
+[big]#Bonus: Question 104#
+
+==== Question
+
+Name the [big]*movie* in which this song played a significant part,
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Roy-Orbison-In-Dreams-MVRunwyoTMA.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q103" onclick="toggle_hidden_q103()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q103]]
+[big]**Blue Velvet** +
+In Dreams / Roy Orbison / In Dreams
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q103");
+z.style.display = "none"
+function toggle_hidden_q103() {
+var x = document.getElementById("answer_q103");
+var b = document.getElementById("button_q103");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-103, Previous question: Q103>>  +
+ +
+<<s-Bonus-q-105, Next question: Q105>> 
+
+[[s-Bonus-q-105]]
+=== Q105
+
+[big]#Bonus: Question 105#
+
+==== Question
+
+Name the [big]*group*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Surf-City-Remastered-1990-Stereo-Remix-ZWMcoxeXKAg.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q104" onclick="toggle_hidden_q104()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q104]]
+[big]**Jan & Dean** +
+Surf City - Remastered 1990/Stereo Remix / Jan & Dean / Surf City: The Best Of Jan & Dean
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q104");
+z.style.display = "none"
+function toggle_hidden_q104() {
+var x = document.getElementById("answer_q104");
+var b = document.getElementById("button_q104");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-104, Previous question: Q104>>  +
+ +
+<<s-Bonus-q-106, Next question: Q106>> 
+
+[[s-Bonus-q-106]]
+=== Q106
+
+[big]#Bonus: Question 106#
+
+==== Question
+
+Name the [big]*song* (including both the main title and the part in parentheses)
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q105" onclick="toggle_hidden_q105()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q105]]
+[big]**Escape (The Pina Colada Song)** +
+Escape (The Pina Colada Song) / Rupert Holmes / Partners In Crime
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q105");
+z.style.display = "none"
+function toggle_hidden_q105() {
+var x = document.getElementById("answer_q105");
+var b = document.getElementById("button_q105");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-105, Previous question: Q105>>  +
+ +
+<<s-Bonus-q-107, Next question: Q107>> 
+
+[[s-Bonus-q-107]]
+=== Q107
+
+[big]#Bonus: Question 107#
+
+==== Question
+
+Name the [big]*song*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Joe-Jackson-Look-Sharp-V8-b9LK1trE.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q106" onclick="toggle_hidden_q106()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q106]]
+[big]**Look Sharp!** +
+Look Sharp! / Joe Jackson / Look Sharp!
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q106");
+z.style.display = "none"
+function toggle_hidden_q106() {
+var x = document.getElementById("answer_q106");
+var b = document.getElementById("button_q106");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-106, Previous question: Q106>>  +
+ +
+<<s-Bonus-q-108, Next question: Q108>> 
+
+[[s-Bonus-q-108]]
+=== Q108
+
+[big]#Bonus: Question 108#
+
+==== Question
+
+Name the [big]*band*, the [big]*song* and the [big]*album* - we need all three.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Pet-Sounds-Remastered-EeN-NytxKEc.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q107" onclick="toggle_hidden_q107()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q107]]
+[big]**The Beach Boys; Pet Sounds; Pet Sounds** +
+Pet Sounds - Remastered / The Beach Boys / Pet Sounds (Original Mono & Stereo Mix Versions)
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q107");
+z.style.display = "none"
+function toggle_hidden_q107() {
+var x = document.getElementById("answer_q107");
+var b = document.getElementById("button_q107");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-107, Previous question: Q107>>  +
+ +
+<<s-Bonus-q-109, Next question: Q109>> 
+
+[[s-Bonus-q-109]]
+=== Q109
+
+[big]#Bonus: Question 109#
+
+==== Question
+
+Name the [big]*city* in which the lead singer of this band is buried.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q108" onclick="toggle_hidden_q108()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q108]]
+[big]**Paris** +
+Light My Fire / The Doors / The Doors
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q108");
+z.style.display = "none"
+function toggle_hidden_q108() {
+var x = document.getElementById("answer_q108");
+var b = document.getElementById("button_q108");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-108, Previous question: Q108>>  +
+ +
+<<s-Bonus-q-110, Next question: Q110>> 
+
+[[s-Bonus-q-110]]
+=== Q110
+
+[big]#Bonus: Question 110#
+
+==== Question
+
+Name the [big]*album*.
+
+
+
+[pass]
++++++++++++
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Strokes-Reptilia-Official-Music-Video-b8-tXG8KrWs.mp4 type="video/mp4" />
+</video>
++++++++++++
+
+
+==== Answer
+
+
+[pass]
++++++++++++++++++
+<button id="button_q109" onclick="toggle_hidden_q109()">
+Show answer
+</button>
++++++++++++++++++
+
+[[answer_q109]]
+[big]**Room on Fire** +
+Reptilia / The Strokes / Room on Fire
+
+
+[pass]
++++++++++++++++
+<script>
+var z = document.getElementById("answer_q109");
+z.style.display = "none"
+function toggle_hidden_q109() {
+var x = document.getElementById("answer_q109");
+var b = document.getElementById("button_q109");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
++++++++++++++++
+
+[role="fullheight"]
+<<s-Bonus-q-109, Previous question: Q109>>  +
+ +
+<<thanks_for_playing, Conclusion>>
+
+[[thanks_for_playing]]
+[float]
+= Thanks for playing!
+
+[role="fullheight"]
+[big]#See you soon!#

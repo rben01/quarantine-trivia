@@ -1,0 +1,5791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="AsciiDoc 8.6.9">
+<title>Music trivia</title>
+<style type="text/css">
+/* Shared CSS for AsciiDoc xhtml11 and html5 backends */
+
+/* Default font. */
+body {
+  font-family: Georgia,serif;
+}
+
+/* Title font. */
+h1, h2, h3, h4, h5, h6,
+div.title, caption.title,
+thead, p.table.header,
+#toctitle,
+#author, #revnumber, #revdate, #revremark,
+#footer {
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+body {
+  margin: 1em 5% 1em 5%;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+a:visited {
+  color: fuchsia;
+}
+
+em {
+  font-style: italic;
+  color: navy;
+}
+
+strong {
+  font-weight: bold;
+  color: #083194;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #527bbd;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+h1, h2, h3 {
+  border-bottom: 2px solid silver;
+}
+h2 {
+  padding-top: 0.5em;
+}
+h3 {
+  float: left;
+}
+h3 + * {
+  clear: left;
+}
+h5 {
+  font-size: 1.0em;
+}
+
+div.sectionbody {
+  margin-left: 0;
+}
+
+hr {
+  border: 1px solid silver;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+ul, ol, li > p {
+  margin-top: 0;
+}
+ul > li     { color: #aaa; }
+ul > li > * { color: black; }
+
+.monospaced, code, pre {
+  font-family: "Courier New", Courier, monospace;
+  font-size: inherit;
+  color: navy;
+  padding: 0;
+  margin: 0;
+}
+pre {
+  white-space: pre-wrap;
+}
+
+#author {
+  color: #527bbd;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+#email {
+}
+#revnumber, #revdate, #revremark {
+}
+
+#footer {
+  font-size: small;
+  border-top: 2px solid silver;
+  padding-top: 0.5em;
+  margin-top: 4.0em;
+}
+#footer-text {
+  float: left;
+  padding-bottom: 0.5em;
+}
+#footer-badges {
+  float: right;
+  padding-bottom: 0.5em;
+}
+
+#preamble {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+div.imageblock, div.exampleblock, div.verseblock,
+div.quoteblock, div.literalblock, div.listingblock, div.sidebarblock,
+div.admonitionblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+div.admonitionblock {
+  margin-top: 2.0em;
+  margin-bottom: 2.0em;
+  margin-right: 10%;
+  color: #606060;
+}
+
+div.content { /* Block element content. */
+  padding: 0;
+}
+
+/* Block element titles. */
+div.title, caption.title {
+  color: #527bbd;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1.0em;
+  margin-bottom: 0.5em;
+}
+div.title + * {
+  margin-top: 0;
+}
+
+td div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content div.title:first-child {
+  margin-top: 0.0em;
+}
+div.content + div.title {
+  margin-top: 0.0em;
+}
+
+div.sidebarblock > div.content {
+  background: #ffffee;
+  border: 1px solid #dddddd;
+  border-left: 4px solid #f0f0f0;
+  padding: 0.5em;
+}
+
+div.listingblock > div.content {
+  border: 1px solid #dddddd;
+  border-left: 5px solid #f0f0f0;
+  background: #f8f8f8;
+  padding: 0.5em;
+}
+
+div.quoteblock, div.verseblock {
+  padding-left: 1.0em;
+  margin-left: 1.0em;
+  margin-right: 10%;
+  border-left: 5px solid #f0f0f0;
+  color: #888;
+}
+
+div.quoteblock > div.attribution {
+  padding-top: 0.5em;
+  text-align: right;
+}
+
+div.verseblock > pre.content {
+  font-family: inherit;
+  font-size: inherit;
+}
+div.verseblock > div.attribution {
+  padding-top: 0.75em;
+  text-align: left;
+}
+/* DEPRECATED: Pre version 8.2.7 verse style literal block. */
+div.verseblock + div.attribution {
+  text-align: left;
+}
+
+div.admonitionblock .icon {
+  vertical-align: top;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #527bbd;
+  padding-right: 0.5em;
+}
+div.admonitionblock td.content {
+  padding-left: 0.5em;
+  border-left: 3px solid #dddddd;
+}
+
+div.exampleblock > div.content {
+  border-left: 3px solid #dddddd;
+  padding-left: 0.5em;
+}
+
+div.imageblock div.content { padding-left: 0; }
+span.image img { border-style: none; vertical-align: text-bottom; }
+a.image:visited { color: white; }
+
+dl {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+dt {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-style: normal;
+  color: navy;
+}
+dd > *:first-child {
+  margin-top: 0.1em;
+}
+
+ul, ol {
+    list-style-position: outside;
+}
+ol.arabic {
+  list-style-type: decimal;
+}
+ol.loweralpha {
+  list-style-type: lower-alpha;
+}
+ol.upperalpha {
+  list-style-type: upper-alpha;
+}
+ol.lowerroman {
+  list-style-type: lower-roman;
+}
+ol.upperroman {
+  list-style-type: upper-roman;
+}
+
+div.compact ul, div.compact ol,
+div.compact p, div.compact p,
+div.compact div, div.compact div {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+tfoot {
+  font-weight: bold;
+}
+td > div.verse {
+  white-space: pre;
+}
+
+div.hdlist {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+div.hdlist tr {
+  padding-bottom: 15px;
+}
+dt.hdlist1.strong, td.hdlist1.strong {
+  font-weight: bold;
+}
+td.hdlist1 {
+  vertical-align: top;
+  font-style: normal;
+  padding-right: 0.8em;
+  color: navy;
+}
+td.hdlist2 {
+  vertical-align: top;
+}
+div.hdlist.compact tr {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.comment {
+  background: yellow;
+}
+
+.footnote, .footnoteref {
+  font-size: 0.8em;
+}
+
+span.footnote, span.footnoteref {
+  vertical-align: super;
+}
+
+#footnotes {
+  margin: 20px 0 20px 0;
+  padding: 7px 0 0 0;
+}
+
+#footnotes div.footnote {
+  margin: 0 0 5px 0;
+}
+
+#footnotes hr {
+  border: none;
+  border-top: 1px solid silver;
+  height: 1px;
+  text-align: left;
+  margin-left: 0;
+  width: 20%;
+  min-width: 100px;
+}
+
+div.colist td {
+  padding-right: 0.5em;
+  padding-bottom: 0.3em;
+  vertical-align: top;
+}
+div.colist td img {
+  margin-top: 0.3em;
+}
+
+@media print {
+  #footer-badges { display: none; }
+}
+
+#toc {
+  margin-bottom: 2.5em;
+}
+
+#toctitle {
+  color: #527bbd;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 1.0em;
+  margin-bottom: 0.1em;
+}
+
+div.toclevel0, div.toclevel1, div.toclevel2, div.toclevel3, div.toclevel4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div.toclevel2 {
+  margin-left: 2em;
+  font-size: 0.9em;
+}
+div.toclevel3 {
+  margin-left: 4em;
+  font-size: 0.9em;
+}
+div.toclevel4 {
+  margin-left: 6em;
+  font-size: 0.9em;
+}
+
+span.aqua { color: aqua; }
+span.black { color: black; }
+span.blue { color: blue; }
+span.fuchsia { color: fuchsia; }
+span.gray { color: gray; }
+span.green { color: green; }
+span.lime { color: lime; }
+span.maroon { color: maroon; }
+span.navy { color: navy; }
+span.olive { color: olive; }
+span.purple { color: purple; }
+span.red { color: red; }
+span.silver { color: silver; }
+span.teal { color: teal; }
+span.white { color: white; }
+span.yellow { color: yellow; }
+
+span.aqua-background { background: aqua; }
+span.black-background { background: black; }
+span.blue-background { background: blue; }
+span.fuchsia-background { background: fuchsia; }
+span.gray-background { background: gray; }
+span.green-background { background: green; }
+span.lime-background { background: lime; }
+span.maroon-background { background: maroon; }
+span.navy-background { background: navy; }
+span.olive-background { background: olive; }
+span.purple-background { background: purple; }
+span.red-background { background: red; }
+span.silver-background { background: silver; }
+span.teal-background { background: teal; }
+span.white-background { background: white; }
+span.yellow-background { background: yellow; }
+
+span.big { font-size: 2em; }
+span.small { font-size: 0.6em; }
+
+span.underline { text-decoration: underline; }
+span.overline { text-decoration: overline; }
+span.line-through { text-decoration: line-through; }
+
+div.unbreakable { page-break-inside: avoid; }
+
+
+/*
+ * xhtml11 specific
+ *
+ * */
+
+div.tableblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+div.tableblock > table {
+  border: 3px solid #527bbd;
+}
+thead, p.table.header {
+  font-weight: bold;
+  color: #527bbd;
+}
+p.table {
+  margin-top: 0;
+}
+/* Because the table frame attribute is overriden by CSS in most browsers. */
+div.tableblock > table[frame="void"] {
+  border-style: none;
+}
+div.tableblock > table[frame="hsides"] {
+  border-left-style: none;
+  border-right-style: none;
+}
+div.tableblock > table[frame="vsides"] {
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+
+/*
+ * html5 specific
+ *
+ * */
+
+table.tableblock {
+  margin-top: 1.0em;
+  margin-bottom: 1.5em;
+}
+thead, p.tableblock.header {
+  font-weight: bold;
+  color: #527bbd;
+}
+p.tableblock {
+  margin-top: 0;
+}
+table.tableblock {
+  border-width: 3px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-color: #527bbd;
+  border-collapse: collapse;
+}
+th.tableblock, td.tableblock {
+  border-width: 1px;
+  padding: 4px;
+  border-style: solid;
+  border-color: #527bbd;
+}
+
+table.tableblock.frame-topbot {
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+table.tableblock.frame-sides {
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+}
+table.tableblock.frame-none {
+  border-style: hidden;
+}
+
+th.tableblock.halign-left, td.tableblock.halign-left {
+  text-align: left;
+}
+th.tableblock.halign-center, td.tableblock.halign-center {
+  text-align: center;
+}
+th.tableblock.halign-right, td.tableblock.halign-right {
+  text-align: right;
+}
+
+th.tableblock.valign-top, td.tableblock.valign-top {
+  vertical-align: top;
+}
+th.tableblock.valign-middle, td.tableblock.valign-middle {
+  vertical-align: middle;
+}
+th.tableblock.valign-bottom, td.tableblock.valign-bottom {
+  vertical-align: bottom;
+}
+
+
+/*
+ * manpage specific
+ *
+ * */
+
+body.manpage h1 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+}
+body.manpage h2 {
+  border-style: none;
+}
+body.manpage div.sectionbody {
+  margin-left: 3em;
+}
+
+@media print {
+  body.manpage div#toc { display: none; }
+}
+
+
+@media screen {
+  body {
+    max-width: 50em; /* approximately 80 characters wide */
+    margin-left: 16em;
+  }
+
+  #toc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 13em;
+    padding: 0.5em;
+    padding-bottom: 1.5em;
+    margin: 0;
+    overflow: auto;
+    border-right: 3px solid #f8f8f8;
+    background-color: white;
+  }
+
+  #toc .toclevel1 {
+    margin-top: 0.5em;
+  }
+
+  #toc .toclevel2 {
+    margin-top: 0.25em;
+    display: list-item;
+    color: #aaaaaa;
+  }
+
+  #toctitle {
+    margin-top: 0.5em;
+  }
+}
+</style>
+<script type="text/javascript">
+/*<![CDATA[*/
+var asciidoc = {  // Namespace.
+
+/////////////////////////////////////////////////////////////////////
+// Table Of Contents generator
+/////////////////////////////////////////////////////////////////////
+
+/* Author: Mihai Bazon, September 2002
+ * http://students.infoiasi.ro/~mishoo
+ *
+ * Table Of Content generator
+ * Version: 0.4
+ *
+ * Feel free to use this script under the terms of the GNU General Public
+ * License, as long as you do not remove or alter this notice.
+ */
+
+ /* modified by Troy D. Hanson, September 2006. License: GPL */
+ /* modified by Stuart Rackham, 2006, 2009. License: GPL */
+
+// toclevels = 1..4.
+toc: function (toclevels) {
+
+  function getText(el) {
+    var text = "";
+    for (var i = el.firstChild; i != null; i = i.nextSibling) {
+      if (i.nodeType == 3 /* Node.TEXT_NODE */) // IE doesn't speak constants.
+        text += i.data;
+      else if (i.firstChild != null)
+        text += getText(i);
+    }
+    return text;
+  }
+
+  function TocEntry(el, text, toclevel) {
+    this.element = el;
+    this.text = text;
+    this.toclevel = toclevel;
+  }
+
+  function tocEntries(el, toclevels) {
+    var result = new Array;
+    var re = new RegExp('[hH]([1-'+(toclevels+1)+'])');
+    // Function that scans the DOM tree for header elements (the DOM2
+    // nodeIterator API would be a better technique but not supported by all
+    // browsers).
+    var iterate = function (el) {
+      for (var i = el.firstChild; i != null; i = i.nextSibling) {
+        if (i.nodeType == 1 /* Node.ELEMENT_NODE */) {
+          var mo = re.exec(i.tagName);
+          if (mo && (i.getAttribute("class") || i.getAttribute("className")) != "float") {
+            result[result.length] = new TocEntry(i, getText(i), mo[1]-1);
+          }
+          iterate(i);
+        }
+      }
+    }
+    iterate(el);
+    return result;
+  }
+
+  var toc = document.getElementById("toc");
+  if (!toc) {
+    return;
+  }
+
+  // Delete existing TOC entries in case we're reloading the TOC.
+  var tocEntriesToRemove = [];
+  var i;
+  for (i = 0; i < toc.childNodes.length; i++) {
+    var entry = toc.childNodes[i];
+    if (entry.nodeName.toLowerCase() == 'div'
+     && entry.getAttribute("class")
+     && entry.getAttribute("class").match(/^toclevel/))
+      tocEntriesToRemove.push(entry);
+  }
+  for (i = 0; i < tocEntriesToRemove.length; i++) {
+    toc.removeChild(tocEntriesToRemove[i]);
+  }
+
+  // Rebuild TOC entries.
+  var entries = tocEntries(document.getElementById("content"), toclevels);
+  for (var i = 0; i < entries.length; ++i) {
+    var entry = entries[i];
+    if (entry.element.id == "")
+      entry.element.id = "_toc_" + i;
+    var a = document.createElement("a");
+    a.href = "#" + entry.element.id;
+    a.appendChild(document.createTextNode(entry.text));
+    var div = document.createElement("div");
+    div.appendChild(a);
+    div.className = "toclevel" + entry.toclevel;
+    toc.appendChild(div);
+  }
+  if (entries.length == 0)
+    toc.parentNode.removeChild(toc);
+},
+
+
+/////////////////////////////////////////////////////////////////////
+// Footnotes generator
+/////////////////////////////////////////////////////////////////////
+
+/* Based on footnote generation code from:
+ * http://www.brandspankingnew.net/archive/2005/07/format_footnote.html
+ */
+
+footnotes: function () {
+  // Delete existing footnote entries in case we're reloading the footnodes.
+  var i;
+  var noteholder = document.getElementById("footnotes");
+  if (!noteholder) {
+    return;
+  }
+  var entriesToRemove = [];
+  for (i = 0; i < noteholder.childNodes.length; i++) {
+    var entry = noteholder.childNodes[i];
+    if (entry.nodeName.toLowerCase() == 'div' && entry.getAttribute("class") == "footnote")
+      entriesToRemove.push(entry);
+  }
+  for (i = 0; i < entriesToRemove.length; i++) {
+    noteholder.removeChild(entriesToRemove[i]);
+  }
+
+  // Rebuild footnote entries.
+  var cont = document.getElementById("content");
+  var spans = cont.getElementsByTagName("span");
+  var refs = {};
+  var n = 0;
+  for (i=0; i<spans.length; i++) {
+    if (spans[i].className == "footnote") {
+      n++;
+      var note = spans[i].getAttribute("data-note");
+      if (!note) {
+        // Use [\s\S] in place of . so multi-line matches work.
+        // Because JavaScript has no s (dotall) regex flag.
+        note = spans[i].innerHTML.match(/\s*\[([\s\S]*)]\s*/)[1];
+        spans[i].innerHTML =
+          "[<a id='_footnoteref_" + n + "' href='#_footnote_" + n +
+          "' title='View footnote' class='footnote'>" + n + "</a>]";
+        spans[i].setAttribute("data-note", note);
+      }
+      noteholder.innerHTML +=
+        "<div class='footnote' id='_footnote_" + n + "'>" +
+        "<a href='#_footnoteref_" + n + "' title='Return to text'>" +
+        n + "</a>. " + note + "</div>";
+      var id =spans[i].getAttribute("id");
+      if (id != null) refs["#"+id] = n;
+    }
+  }
+  if (n == 0)
+    noteholder.parentNode.removeChild(noteholder);
+  else {
+    // Process footnoterefs.
+    for (i=0; i<spans.length; i++) {
+      if (spans[i].className == "footnoteref") {
+        var href = spans[i].getElementsByTagName("a")[0].getAttribute("href");
+        href = href.match(/#.*/)[0];  // Because IE return full URL.
+        n = refs[href];
+        spans[i].innerHTML =
+          "[<a href='#_footnote_" + n +
+          "' title='View footnote' class='footnote'>" + n + "</a>]";
+      }
+    }
+  }
+},
+
+install: function(toclevels) {
+  var timerId;
+
+  function reinstall() {
+    asciidoc.footnotes();
+    if (toclevels) {
+      asciidoc.toc(toclevels);
+    }
+  }
+
+  function reinstallAndRemoveTimer() {
+    clearInterval(timerId);
+    reinstall();
+  }
+
+  timerId = setInterval(reinstall, 500);
+  if (document.addEventListener)
+    document.addEventListener("DOMContentLoaded", reinstallAndRemoveTimer, false);
+  else
+    window.onload = reinstallAndRemoveTimer;
+}
+
+}
+asciidoc.install(2);
+/*]]>*/
+</script>
+</head>
+<body class="article">
+<div id="header">
+<h1>Music trivia</h1>
+<div id="toc">
+  <div id="toctitle">Welcome to Quarantine Music Trivia!</div>
+  <noscript><p><b>JavaScript must be enabled in your browser to display the table of contents.</b></p></noscript>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<style type="text/css">
+html, body { height: 100%; }
+.fullheight { overflow-y:auto; height:100vh; }​
+a:link { color:#547CBB ! important; text-decoration:none; }
+div p a:link { color:#547CBB ! important; }
+.toclevel1 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel2 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel3 a:link { color:#547CBB ! important; text-decoration:none; }
+.toclevel1 a:hover { color:#547CBB ! important; text-decoration:underline; }
+.toclevel2 a:hover { color:#547CBB ! important; text-decoration:underline; }
+.toclevel3 a:hover { color:#547CBB ! important; text-decoration:underline; }
+a:visited { color:#547CBB; }
+a:active { color:#547CBB; text-decoration:unerline; }
+a:active { color:#547CBB; text-decoration:unerline; }
+a[tabindex]:focus { color:#547CBB; outline:none; }
+#footer { visibility:hidden; }
+</style>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_welcome">Welcome</h2>
+<div class="sectionbody">
+<div class="paragraph"><p><span class="big">Welcome to Week 2 of quarantine trivia: <strong>music</strong>!</span></p></div>
+<div class="olist arabic"><div class="title">Here&#8217;s how it works:</div><ol class="arabic">
+<li>
+<p>
+No Google or Shazam (obviously!)
+</p>
+</li>
+<li>
+<p>
+You will be hearing audio clips. All audio clips are from the beginning of the song.
+</p>
+</li>
+<li>
+<p>
+Unless the question asks for an exact song title, it is ok if you omit the words
+&#8220;a&#8221; and &#8220;the&#8221; at the beginning of a song title or a band&#8217;s name. However, plural vs.
+singular counts.
+</p>
+</li>
+<li>
+<p>
+Each team, even if working together remotely, has to decide on one answer.
+</p>
+</li>
+<li>
+<p>
+We&#8217;re working under the the honor system
+</p>
+</li>
+<li>
+<p>
+There will be 10 questions per round, and the end of each round we&#8217;ll give out the
+answers, you&#8217;ll score yourselves, and we&#8217;ll tally scores.
+</p>
+</li>
+<li>
+<p>
+Each right answer will be worth 1 point, except in the bonus round where they&#8217;re
+worth 2 points.
+</p>
+</li>
+</ol></div>
+<div class="olist upperalpha"><div class="title">Here are the categories:</div><ol class="upperalpha">
+<li>
+<p>
+General/Top 40&#8201;&#8212;&#8201;60 questions
+</p>
+</li>
+<li>
+<p>
+Movie music&#8201;&#8212;&#8201;10 questions
+</p>
+</li>
+<li>
+<p>
+Broadway&#8201;&#8212;&#8201;10 questions
+</p>
+</li>
+<li>
+<p>
+New York songs&#8201;&#8212;&#8201;10 questions
+</p>
+</li>
+<li>
+<p>
+One-hit wonders&#8201;&#8212;&#8201;10 questions
+</p>
+</li>
+<li>
+<p>
+Bonus (harder)&#8201;&#8212;&#8201;10 questions
+</p>
+</li>
+</ol></div>
+<div class="paragraph"><p><strong><span class="big">Get Ready, and Good Luck!</span></strong></p></div>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-1">Begin</a></p></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s0">General (Q1&#8212;10)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-1">Q1</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 1</span></p></div>
+<div class="sect3">
+<h4 id="_question">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bob-Marley-The-Wailers-Is-This-Love-cOJsK8qbAaA.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer">Answer</h4>
+<button id="button_q0" onclick="toggle_hidden_q0()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q0"><p><strong><span class="big">Is This Love</span></strong><br>
+Is This Love / Bob Marley &amp; The Wailers / Kaya - Deluxe Edition</p></div>
+<script>
+var z = document.getElementById("answer_q0");
+z.style.display = "none"
+function toggle_hidden_q0() {
+var x = document.getElementById("answer_q0");
+var b = document.getElementById("button_q0");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-2">Next question: Q2</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-2">Q2</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 2</span></p></div>
+<div class="sect3">
+<h4 id="_question_2">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Daft-Punk-Get-Lucky-Official-Audio-ft.-Pharrell-Williams-Nile-Rodgers-5NV6Rdv1a3I.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_2">Answer</h4>
+<button id="button_q1" onclick="toggle_hidden_q1()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q1"><p><strong><span class="big">Get Lucky</span></strong><br>
+Get Lucky (feat. Pharrell Williams &amp; Nile Rodgers) - Radio Edit / Daft Punk, Pharrell Williams, Nile Rodgers / Get Lucky (feat. Pharrell Williams &amp; Nile Rodgers) [Radio Edit]</p></div>
+<script>
+var z = document.getElementById("answer_q1");
+z.style.display = "none"
+function toggle_hidden_q1() {
+var x = document.getElementById("answer_q1");
+var b = document.getElementById("button_q1");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-1">Previous question: Q1</a> <br>
+<br>
+<a href="#s-General-Q1-10-q-3">Next question: Q3</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-3">Q3</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 3</span></p></div>
+<div class="sect3">
+<h4 id="_question_3">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Go-Your-Own-Way-2004-Remaster-DubafeFeJ7Y.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_3">Answer</h4>
+<button id="button_q2" onclick="toggle_hidden_q2()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q2"><p><strong><span class="big">Go Your Own Way</span></strong><br>
+Go Your Own Way - 2004 Remaster / Fleetwood Mac / Rumours</p></div>
+<script>
+var z = document.getElementById("answer_q2");
+z.style.display = "none"
+function toggle_hidden_q2() {
+var x = document.getElementById("answer_q2");
+var b = document.getElementById("button_q2");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-2">Previous question: Q2</a> <br>
+<br>
+<a href="#s-General-Q1-10-q-4">Next question: Q4</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-4">Q4</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 4</span></p></div>
+<div class="sect3">
+<h4 id="_question_4">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Twist-And-Shout-Remastered-2009-2RicaUqd9Hg.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_4">Answer</h4>
+<button id="button_q3" onclick="toggle_hidden_q3()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q3"><p><strong><span class="big">Twist and Shout</span></strong><br>
+Twist And Shout - Remastered 2009 / The Beatles / Please Please Me (Remastered)</p></div>
+<script>
+var z = document.getElementById("answer_q3");
+z.style.display = "none"
+function toggle_hidden_q3() {
+var x = document.getElementById("answer_q3");
+var b = document.getElementById("button_q3");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-3">Previous question: Q3</a> <br>
+<br>
+<a href="#s-General-Q1-10-q-5">Next question: Q5</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-5">Q5</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 5</span></p></div>
+<div class="sect3">
+<h4 id="_question_5">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">group</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Build-Me-Up-Buttercup-Nl-2iEP1Wts.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_5">Answer</h4>
+<button id="button_q4" onclick="toggle_hidden_q4()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q4"><p><strong><span class="big">The Foundations</span></strong><br>
+Build Me Up Buttercup / The Foundations / Build Me Up Buttercup (The Complete Pye Collection)</p></div>
+<script>
+var z = document.getElementById("answer_q4");
+z.style.display = "none"
+function toggle_hidden_q4() {
+var x = document.getElementById("answer_q4");
+var b = document.getElementById("button_q4");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-4">Previous question: Q4</a> <br>
+<br>
+<a href="#s-General-Q1-10-q-6">Next question: Q6</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-6">Q6</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 6</span></p></div>
+<div class="sect3">
+<h4 id="_question_6">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">performer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Eric-Clapton-Cocaine-lyrics-3bEUaeG4wH4.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_6">Answer</h4>
+<button id="button_q5" onclick="toggle_hidden_q5()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q5"><p><strong><span class="big">Eric Clapton</span></strong><br>
+Cocaine / Eric Clapton / Slowhand 35th Anniversary (Super Deluxe)</p></div>
+<script>
+var z = document.getElementById("answer_q5");
+z.style.display = "none"
+function toggle_hidden_q5() {
+var x = document.getElementById("answer_q5");
+var b = document.getElementById("button_q5");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-5">Previous question: Q5</a> <br>
+<br>
+<a href="#s-General-Q1-10-q-7">Next question: Q7</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-7">Q7</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 7</span></p></div>
+<div class="sect3">
+<h4 id="_question_7">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Jimmy-Buffett-Margaritaville-with-lyrics-ue2-ZVxpVjc.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_7">Answer</h4>
+<button id="button_q6" onclick="toggle_hidden_q6()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q6"><p><strong><span class="big">Margaritaville</span></strong><br>
+Margaritaville / Jimmy Buffett / Songs You Know By Heart</p></div>
+<script>
+var z = document.getElementById("answer_q6");
+z.style.display = "none"
+function toggle_hidden_q6() {
+var x = document.getElementById("answer_q6");
+var b = document.getElementById("button_q6");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-6">Previous question: Q6</a> <br>
+<br>
+<a href="#s-General-Q1-10-q-8">Next question: Q8</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-8">Q8</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 8</span></p></div>
+<div class="sect3">
+<h4 id="_question_8">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Come-On-Eileen-GbpnAGajyMc.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_8">Answer</h4>
+<button id="button_q7" onclick="toggle_hidden_q7()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q7"><p><strong><span class="big">Dexys Midnight Runners</span></strong><br>
+Come On Eileen / Dexys Midnight Runners / Too Rye Ay</p></div>
+<script>
+var z = document.getElementById("answer_q7");
+z.style.display = "none"
+function toggle_hidden_q7() {
+var x = document.getElementById("answer_q7");
+var b = document.getElementById("button_q7");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-7">Previous question: Q7</a> <br>
+<br>
+<a href="#s-General-Q1-10-q-9">Next question: Q9</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-9">Q9</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 9</span></p></div>
+<div class="sect3">
+<h4 id="_question_9">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">album</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Kendrick-Lamar-King-Kunta-hRK7PVJFbS8.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_9">Answer</h4>
+<button id="button_q8" onclick="toggle_hidden_q8()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q8"><p><strong><span class="big">To Pimp a Butterfly</span></strong><br>
+King Kunta / Kendrick Lamar / To Pimp A Butterfly</p></div>
+<script>
+var z = document.getElementById("answer_q8");
+z.style.display = "none"
+function toggle_hidden_q8() {
+var x = document.getElementById("answer_q8");
+var b = document.getElementById("button_q8");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-8">Previous question: Q8</a> <br>
+<br>
+<a href="#s-General-Q1-10-q-10">Next question: Q10</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q1-10-q-10">Q10</h3>
+<div class="paragraph"><p><span class="big">General (Q1&#8212;10): Question 10</span></p></div>
+<div class="sect3">
+<h4 id="_question_10">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Walk-Like-An-Egyptian-tMnGmoLS6zo.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_10">Answer</h4>
+<button id="button_q9" onclick="toggle_hidden_q9()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q9"><p><strong><span class="big">The Bangles</span></strong><br>
+Walk Like an Egyptian / The Bangles / The Essential Bangles</p></div>
+<script>
+var z = document.getElementById("answer_q9");
+z.style.display = "none"
+function toggle_hidden_q9() {
+var x = document.getElementById("answer_q9");
+var b = document.getElementById("button_q9");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph"><p><em><span class="big">End of round</span></em></p></div>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-9">Previous question: Q9</a> <br>
+<br>
+<a href="#s-General-Q11-20-q-11">Next round: General (Q11&#8212;20)</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s1">General (Q11&#8212;20)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-11">Q11</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 11</span></p></div>
+<div class="sect3">
+<h4 id="_question_11">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">artist</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Marvin-Gaye-What-s-Going-On-H-kA3UtBj4M.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_11">Answer</h4>
+<button id="button_q10" onclick="toggle_hidden_q10()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q10"><p><strong><span class="big">Marvin Gaye</span></strong><br>
+What&#8217;s Going On / Marvin Gaye / What&#8217;s Going On</p></div>
+<script>
+var z = document.getElementById("answer_q10");
+z.style.display = "none"
+function toggle_hidden_q10() {
+var x = document.getElementById("answer_q10");
+var b = document.getElementById("button_q10");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q1-10-q-10">Previous round: General (Q1&#8212;10)</a> <br>
+<br>
+<a href="#s-General-Q11-20-q-12">Next question: Q12</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-12">Q12</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 12</span></p></div>
+<div class="sect3">
+<h4 id="_question_12">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Police-Every-Breath-You-Take-OMOGaugKpzs.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_12">Answer</h4>
+<button id="button_q11" onclick="toggle_hidden_q11()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q11"><p><strong><span class="big">Every Breath You Take</span></strong><br>
+Every Breath You Take / The Police / Every Breath You Take : The Classics</p></div>
+<script>
+var z = document.getElementById("answer_q11");
+z.style.display = "none"
+function toggle_hidden_q11() {
+var x = document.getElementById("answer_q11");
+var b = document.getElementById("button_q11");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-11">Previous question: Q11</a> <br>
+<br>
+<a href="#s-General-Q11-20-q-13">Next question: Q13</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-13">Q13</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 13</span></p></div>
+<div class="sect3">
+<h4 id="_question_13">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Lorde-Royals-With-Lyrics-Pure-Heroine-4znHLOWm7pY.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_13">Answer</h4>
+<button id="button_q12" onclick="toggle_hidden_q12()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q12"><p><strong><span class="big">Royals</span></strong><br>
+Royals / Lorde / Pure Heroine</p></div>
+<script>
+var z = document.getElementById("answer_q12");
+z.style.display = "none"
+function toggle_hidden_q12() {
+var x = document.getElementById("answer_q12");
+var b = document.getElementById("button_q12");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-12">Previous question: Q12</a> <br>
+<br>
+<a href="#s-General-Q11-20-q-14">Next question: Q14</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-14">Q14</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 14</span></p></div>
+<div class="sect3">
+<h4 id="_question_14">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">singer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Dolly-Parton-Jolene-Audio-Ixrje2rXLMA.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_14">Answer</h4>
+<button id="button_q13" onclick="toggle_hidden_q13()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q13"><p><strong><span class="big">Dolly Parton</span></strong><br>
+Jolene / Dolly Parton / Jolene</p></div>
+<script>
+var z = document.getElementById("answer_q13");
+z.style.display = "none"
+function toggle_hidden_q13() {
+var x = document.getElementById("answer_q13");
+var b = document.getElementById("button_q13");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-13">Previous question: Q13</a> <br>
+<br>
+<a href="#s-General-Q11-20-q-15">Next question: Q15</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-15">Q15</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 15</span></p></div>
+<div class="sect3">
+<h4 id="_question_15">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Teenage-Wasteland-by-The-Who-JGHxIKa31Jk.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_15">Answer</h4>
+<button id="button_q14" onclick="toggle_hidden_q14()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q14"><p><strong><span class="big">Baba O&#8217;Riley</span></strong><br>
+Baba O&#8217;Riley / The Who / Who&#8217;s Next</p></div>
+<script>
+var z = document.getElementById("answer_q14");
+z.style.display = "none"
+function toggle_hidden_q14() {
+var x = document.getElementById("answer_q14");
+var b = document.getElementById("button_q14");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-14">Previous question: Q14</a> <br>
+<br>
+<a href="#s-General-Q11-20-q-16">Next question: Q16</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-16">Q16</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 16</span></p></div>
+<div class="sect3">
+<h4 id="_question_16">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">artist</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Cyndi-Lauper-Girls-Just-Want-To-Have-Fun-Official-Video-PIb6AZdTr-A.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_16">Answer</h4>
+<button id="button_q15" onclick="toggle_hidden_q15()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q15"><p><strong><span class="big">Cyndi Lauper</span></strong><br>
+Girls Just Want to Have Fun / Cyndi Lauper / She&#8217;s So Unusual: A 30th Anniversary Celebration (Deluxe Edition)</p></div>
+<script>
+var z = document.getElementById("answer_q15");
+z.style.display = "none"
+function toggle_hidden_q15() {
+var x = document.getElementById("answer_q15");
+var b = document.getElementById("button_q15");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-15">Previous question: Q15</a> <br>
+<br>
+<a href="#s-General-Q11-20-q-17">Next question: Q17</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-17">Q17</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 17</span></p></div>
+<div class="sect3">
+<h4 id="_question_17">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Mark-Ronson-Uptown-Funk-Official-Video-ft.-Bruno-Mars-OPf0YbXqDm0.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_17">Answer</h4>
+<button id="button_q16" onclick="toggle_hidden_q16()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q16"><p><strong><span class="big">Uptown Funk</span></strong><br>
+Uptown Funk (feat. Bruno Mars) / Mark Ronson, Bruno Mars / Uptown Special</p></div>
+<script>
+var z = document.getElementById("answer_q16");
+z.style.display = "none"
+function toggle_hidden_q16() {
+var x = document.getElementById("answer_q16");
+var b = document.getElementById("button_q16");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-16">Previous question: Q16</a> <br>
+<br>
+<a href="#s-General-Q11-20-q-18">Next question: Q18</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-18">Q18</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 18</span></p></div>
+<div class="sect3">
+<h4 id="_question_18">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Blackbird-Remastered-2009-Man4Xw8Xypo.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_18">Answer</h4>
+<button id="button_q17" onclick="toggle_hidden_q17()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q17"><p><strong><span class="big">Blackbird</span></strong><br>
+Blackbird - Remastered / The Beatles / The Beatles (Remastered)</p></div>
+<script>
+var z = document.getElementById("answer_q17");
+z.style.display = "none"
+function toggle_hidden_q17() {
+var x = document.getElementById("answer_q17");
+var b = document.getElementById("button_q17");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-17">Previous question: Q17</a> <br>
+<br>
+<a href="#s-General-Q11-20-q-19">Next question: Q19</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-19">Q19</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 19</span></p></div>
+<div class="sect3">
+<h4 id="_question_19">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">artist</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Elvis-Costello-The-Attractions-Pump-It-Up-3Y71iDvCYXA.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_19">Answer</h4>
+<button id="button_q18" onclick="toggle_hidden_q18()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q18"><p><strong><span class="big">Elvis Costello</span></strong><br>
+Pump It Up / Elvis Costello &amp; The Attractions / This Year&#8217;s Model</p></div>
+<script>
+var z = document.getElementById("answer_q18");
+z.style.display = "none"
+function toggle_hidden_q18() {
+var x = document.getElementById("answer_q18");
+var b = document.getElementById("button_q18");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-18">Previous question: Q18</a> <br>
+<br>
+<a href="#s-General-Q11-20-q-20">Next question: Q20</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q11-20-q-20">Q20</h3>
+<div class="paragraph"><p><span class="big">General (Q11&#8212;20): Question 20</span></p></div>
+<div class="sect3">
+<h4 id="_question_20">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Louis-Armstrong-What-A-Wonderful-World-Lyrics-A3yCcXgbKrE.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_20">Answer</h4>
+<button id="button_q19" onclick="toggle_hidden_q19()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q19"><p><strong><span class="big">What A Wonderful World</span></strong><br>
+What A Wonderful World / Louis Armstrong / Hello Louis - The Hit Years (1963-1969)</p></div>
+<script>
+var z = document.getElementById("answer_q19");
+z.style.display = "none"
+function toggle_hidden_q19() {
+var x = document.getElementById("answer_q19");
+var b = document.getElementById("button_q19");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph"><p><em><span class="big">End of round</span></em></p></div>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-19">Previous question: Q19</a> <br>
+<br>
+<a href="#s-General-Q21-30-q-21">Next round: General (Q21&#8212;30)</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s2">General (Q21&#8212;30)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-21">Q21</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 21</span></p></div>
+<div class="sect3">
+<h4 id="_question_21">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Logical-Song-low6Coqrw9Y.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_21">Answer</h4>
+<button id="button_q20" onclick="toggle_hidden_q20()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q20"><p><strong><span class="big">The Logical Song</span></strong><br>
+The Logical Song - Remastered 2010 / Supertramp / Breakfast In America (Deluxe Edition)</p></div>
+<script>
+var z = document.getElementById("answer_q20");
+z.style.display = "none"
+function toggle_hidden_q20() {
+var x = document.getElementById("answer_q20");
+var b = document.getElementById("button_q20");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q11-20-q-20">Previous round: General (Q11&#8212;20)</a> <br>
+<br>
+<a href="#s-General-Q21-30-q-22">Next question: Q22</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-22">Q22</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 22</span></p></div>
+<div class="sect3">
+<h4 id="_question_22">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/God-Only-Knows-Remastered-CWPo5SC3zik.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_22">Answer</h4>
+<button id="button_q21" onclick="toggle_hidden_q21()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q21"><p><strong><span class="big">God Only Knows</span></strong><br>
+God Only Knows - Remastered / The Beach Boys / Pet Sounds (Original Mono &amp; Stereo Mix Versions)</p></div>
+<script>
+var z = document.getElementById("answer_q21");
+z.style.display = "none"
+function toggle_hidden_q21() {
+var x = document.getElementById("answer_q21");
+var b = document.getElementById("button_q21");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-21">Previous question: Q21</a> <br>
+<br>
+<a href="#s-General-Q21-30-q-23">Next question: Q23</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-23">Q23</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 23</span></p></div>
+<div class="sect3">
+<h4 id="_question_23">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Rebel-Rebel-1997-Remaster-Wb3bfsuttdk.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_23">Answer</h4>
+<button id="button_q22" onclick="toggle_hidden_q22()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q22"><p><strong><span class="big">Rebel Rebel</span></strong><br>
+Rebel Rebel - 1999 Digital Remaster / David Bowie / Best Of Bowie</p></div>
+<script>
+var z = document.getElementById("answer_q22");
+z.style.display = "none"
+function toggle_hidden_q22() {
+var x = document.getElementById("answer_q22");
+var b = document.getElementById("button_q22");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-22">Previous question: Q22</a> <br>
+<br>
+<a href="#s-General-Q21-30-q-24">Next question: Q24</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-24">Q24</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 24</span></p></div>
+<div class="sect3">
+<h4 id="_question_24">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Black-Eyed-Peas-I-Gotta-Feeling-Official-Music-Video-uSD4vsh1zDA.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_24">Answer</h4>
+<button id="button_q23" onclick="toggle_hidden_q23()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q23"><p><strong><span class="big">Black Eyed Peas</span></strong><br>
+I Gotta Feeling / Black Eyed Peas / THE E.N.D. (THE ENERGY NEVER DIES)</p></div>
+<script>
+var z = document.getElementById("answer_q23");
+z.style.display = "none"
+function toggle_hidden_q23() {
+var x = document.getElementById("answer_q23");
+var b = document.getElementById("button_q23");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-23">Previous question: Q23</a> <br>
+<br>
+<a href="#s-General-Q21-30-q-25">Next question: Q25</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-25">Q25</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 25</span></p></div>
+<div class="sect3">
+<h4 id="_question_25">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Vampire-Weekend-A-Punk-XC2mqcMMGQ.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_25">Answer</h4>
+<button id="button_q24" onclick="toggle_hidden_q24()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q24"><p><strong><span class="big">Vampire Weekend</span></strong><br>
+A-Punk / Vampire Weekend / Vampire Weekend</p></div>
+<script>
+var z = document.getElementById("answer_q24");
+z.style.display = "none"
+function toggle_hidden_q24() {
+var x = document.getElementById("answer_q24");
+var b = document.getElementById("button_q24");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-24">Previous question: Q24</a> <br>
+<br>
+<a href="#s-General-Q21-30-q-26">Next question: Q26</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-26">Q26</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 26</span></p></div>
+<div class="sect3">
+<h4 id="_question_26">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/I-Want-To-Hold-Your-Hand-Remastered-2015-v1HDt1tknTc.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_26">Answer</h4>
+<button id="button_q25" onclick="toggle_hidden_q25()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q25"><p><strong><span class="big">I Want to Hold Your Hand</span></strong><br>
+I Want To Hold Your Hand - Remastered 2015 / The Beatles / 1 (Remastered)</p></div>
+<script>
+var z = document.getElementById("answer_q25");
+z.style.display = "none"
+function toggle_hidden_q25() {
+var x = document.getElementById("answer_q25");
+var b = document.getElementById("button_q25");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-25">Previous question: Q25</a> <br>
+<br>
+<a href="#s-General-Q21-30-q-27">Next question: Q27</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-27">Q27</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 27</span></p></div>
+<div class="sect3">
+<h4 id="_question_27">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Tequila-The-Champs-3H6amDbAwlY.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_27">Answer</h4>
+<button id="button_q26" onclick="toggle_hidden_q26()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q26"><p><strong><span class="big">The Champs</span></strong><br>
+Tequila (Original) / The Champs / Tequila</p></div>
+<script>
+var z = document.getElementById("answer_q26");
+z.style.display = "none"
+function toggle_hidden_q26() {
+var x = document.getElementById("answer_q26");
+var b = document.getElementById("button_q26");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-26">Previous question: Q26</a> <br>
+<br>
+<a href="#s-General-Q21-30-q-28">Next question: Q28</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-28">Q28</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 28</span></p></div>
+<div class="sect3">
+<h4 id="_question_28">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Toto-Africa-Official-Music-Video-FTQbiNvZqaY.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_28">Answer</h4>
+<button id="button_q27" onclick="toggle_hidden_q27()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q27"><p><strong><span class="big">Toto</span></strong><br>
+Africa / TOTO / Toto IV</p></div>
+<script>
+var z = document.getElementById("answer_q27");
+z.style.display = "none"
+function toggle_hidden_q27() {
+var x = document.getElementById("answer_q27");
+var b = document.getElementById("button_q27");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-27">Previous question: Q27</a> <br>
+<br>
+<a href="#s-General-Q21-30-q-29">Next question: Q29</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-29">Q29</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 29</span></p></div>
+<div class="sect3">
+<h4 id="_question_29">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Kanye-West-Gold-Digger-ft.-Jamie-Foxx-6vwNcNOTVzY.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_29">Answer</h4>
+<button id="button_q28" onclick="toggle_hidden_q28()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q28"><p><strong><span class="big">Gold Digger</span></strong><br>
+Gold Digger / Kanye West, Jamie Foxx / Late Registration</p></div>
+<script>
+var z = document.getElementById("answer_q28");
+z.style.display = "none"
+function toggle_hidden_q28() {
+var x = document.getElementById("answer_q28");
+var b = document.getElementById("button_q28");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-28">Previous question: Q28</a> <br>
+<br>
+<a href="#s-General-Q21-30-q-30">Next question: Q30</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q21-30-q-30">Q30</h3>
+<div class="paragraph"><p><span class="big">General (Q21&#8212;30): Question 30</span></p></div>
+<div class="sect3">
+<h4 id="_question_30">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Nirvana-Smells-Like-Teen-Spirit-Official-Music-Video-hTWKbfoikeg.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_30">Answer</h4>
+<button id="button_q29" onclick="toggle_hidden_q29()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q29"><p><strong><span class="big">Smells Like Teen Spirit</span></strong><br>
+Smells Like Teen Spirit / Nirvana / Nevermind (Remastered)</p></div>
+<script>
+var z = document.getElementById("answer_q29");
+z.style.display = "none"
+function toggle_hidden_q29() {
+var x = document.getElementById("answer_q29");
+var b = document.getElementById("button_q29");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph"><p><em><span class="big">End of round</span></em></p></div>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-29">Previous question: Q29</a> <br>
+<br>
+<a href="#s-General-Q31-40-q-31">Next round: General (Q31&#8212;40)</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s3">General (Q31&#8212;40)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-31">Q31</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 31</span></p></div>
+<div class="sect3">
+<h4 id="_question_31">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/My-Generation-Mono-Version-fRipFYoji2A.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_31">Answer</h4>
+<button id="button_q30" onclick="toggle_hidden_q30()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q30"><p><strong><span class="big">My Generation</span></strong><br>
+My Generation - Mono Version / The Who / The Who Sings My Generation (U.S. Version)</p></div>
+<script>
+var z = document.getElementById("answer_q30");
+z.style.display = "none"
+function toggle_hidden_q30() {
+var x = document.getElementById("answer_q30");
+var b = document.getElementById("button_q30");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q21-30-q-30">Previous round: General (Q21&#8212;30)</a> <br>
+<br>
+<a href="#s-General-Q31-40-q-32">Next question: Q32</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-32">Q32</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 32</span></p></div>
+<div class="sect3">
+<h4 id="_question_32">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">film</span></strong> that this song was featured in.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Pharrell-Williams-Happy-Official-Music-Video-ZbZSe6N-BXs.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_32">Answer</h4>
+<button id="button_q31" onclick="toggle_hidden_q31()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q31"><p><strong><span class="big">Despicable Me 2</span></strong><br>
+Happy / Pharrell Williams / Despicable Me 2 (Original Motion Picture Soundtrack)</p></div>
+<script>
+var z = document.getElementById("answer_q31");
+z.style.display = "none"
+function toggle_hidden_q31() {
+var x = document.getElementById("answer_q31");
+var b = document.getElementById("button_q31");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-31">Previous question: Q31</a> <br>
+<br>
+<a href="#s-General-Q31-40-q-33">Next question: Q33</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-33">Q33</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 33</span></p></div>
+<div class="sect3">
+<h4 id="_question_33">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Californication-OtXiwSCq99Q.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_33">Answer</h4>
+<button id="button_q32" onclick="toggle_hidden_q32()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q32"><p><strong><span class="big">Californication</span></strong><br>
+Californication / Red Hot Chili Peppers / Californication</p></div>
+<script>
+var z = document.getElementById("answer_q32");
+z.style.display = "none"
+function toggle_hidden_q32() {
+var x = document.getElementById("answer_q32");
+var b = document.getElementById("button_q32");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-32">Previous question: Q32</a> <br>
+<br>
+<a href="#s-General-Q31-40-q-34">Next question: Q34</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-34">Q34</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 34</span></p></div>
+<div class="sect3">
+<h4 id="_question_34">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Elvis-Costello-The-Attractions-Everyday-I-Write-The-Book-V1d4r9awjKE.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_34">Answer</h4>
+<button id="button_q33" onclick="toggle_hidden_q33()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q33"><p><strong><span class="big">Everyday I Write The Book</span></strong><br>
+Everyday I Write The Book / Elvis Costello &amp; The Attractions / Punch The Clock</p></div>
+<script>
+var z = document.getElementById("answer_q33");
+z.style.display = "none"
+function toggle_hidden_q33() {
+var x = document.getElementById("answer_q33");
+var b = document.getElementById("button_q33");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-33">Previous question: Q33</a> <br>
+<br>
+<a href="#s-General-Q31-40-q-35">Next question: Q35</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-35">Q35</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 35</span></p></div>
+<div class="sect3">
+<h4 id="_question_35">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong> (title must be exact).</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Simon-Garfunkel-Bridge-Over-Troubled-Water-Audio-4G-YQA-bsOU.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_35">Answer</h4>
+<button id="button_q34" onclick="toggle_hidden_q34()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q34"><p><strong><span class="big">Bridge Over Troubled Water</span></strong><br>
+Bridge Over Troubled Water / Simon &amp; Garfunkel / Bridge Over Troubled Water</p></div>
+<script>
+var z = document.getElementById("answer_q34");
+z.style.display = "none"
+function toggle_hidden_q34() {
+var x = document.getElementById("answer_q34");
+var b = document.getElementById("button_q34");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-34">Previous question: Q34</a> <br>
+<br>
+<a href="#s-General-Q31-40-q-36">Next question: Q36</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-36">Q36</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 36</span></p></div>
+<div class="sect3">
+<h4 id="_question_36">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Wham-Wake-Me-Up-Before-You-Go-Go-Official-HD-Video-ELflyACZXQQ.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_36">Answer</h4>
+<button id="button_q35" onclick="toggle_hidden_q35()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q35"><p><strong><span class="big">Wake Me Up Before You Go-Go</span></strong><br>
+Wake Me Up Before You Go-Go / Wham! / Make It Big</p></div>
+<script>
+var z = document.getElementById("answer_q35");
+z.style.display = "none"
+function toggle_hidden_q35() {
+var x = document.getElementById("answer_q35");
+var b = document.getElementById("button_q35");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-35">Previous question: Q35</a> <br>
+<br>
+<a href="#s-General-Q31-40-q-37">Next question: Q37</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-37">Q37</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 37</span></p></div>
+<div class="sect3">
+<h4 id="_question_37">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">performer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Chuck-Berry-Johnny-B.-Goode-Single-tXba00vudss.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_37">Answer</h4>
+<button id="button_q36" onclick="toggle_hidden_q36()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q36"><p><strong><span class="big">Chuck Berry</span></strong><br>
+Johnny B. Goode - Single Version / Chuck Berry / 20th Century Masters: The Millennium Collection: Best Of Chuck Berry</p></div>
+<script>
+var z = document.getElementById("answer_q36");
+z.style.display = "none"
+function toggle_hidden_q36() {
+var x = document.getElementById("answer_q36");
+var b = document.getElementById("button_q36");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-36">Previous question: Q36</a> <br>
+<br>
+<a href="#s-General-Q31-40-q-38">Next question: Q38</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-38">Q38</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 38</span></p></div>
+<div class="sect3">
+<h4 id="_question_38">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/01-Bruno-Mars-Grenade-Doo-Wops-Hooligans-aLAtJ0k98SI.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_38">Answer</h4>
+<button id="button_q37" onclick="toggle_hidden_q37()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q37"><p><strong><span class="big">Grenade</span></strong><br>
+Grenade / Bruno Mars / Doo-Wops &amp; Hooligans</p></div>
+<script>
+var z = document.getElementById("answer_q37");
+z.style.display = "none"
+function toggle_hidden_q37() {
+var x = document.getElementById("answer_q37");
+var b = document.getElementById("button_q37");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-37">Previous question: Q37</a> <br>
+<br>
+<a href="#s-General-Q31-40-q-39">Next question: Q39</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-39">Q39</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 39</span></p></div>
+<div class="sect3">
+<h4 id="_question_39">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">artist</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Kanye-West-Stronger-PsO6ZnUZI0g.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_39">Answer</h4>
+<button id="button_q38" onclick="toggle_hidden_q38()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q38"><p><strong><span class="big">Kayne West</span></strong><br>
+Stronger / Kanye West / Stronger (Int&#8217;l ECD Maxi)</p></div>
+<script>
+var z = document.getElementById("answer_q38");
+z.style.display = "none"
+function toggle_hidden_q38() {
+var x = document.getElementById("answer_q38");
+var b = document.getElementById("button_q38");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-38">Previous question: Q38</a> <br>
+<br>
+<a href="#s-General-Q31-40-q-40">Next question: Q40</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q31-40-q-40">Q40</h3>
+<div class="paragraph"><p><span class="big">General (Q31&#8212;40): Question 40</span></p></div>
+<div class="sect3">
+<h4 id="_question_40">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Come-Sail-Away-eYCFrcCqh7Q.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_40">Answer</h4>
+<button id="button_q39" onclick="toggle_hidden_q39()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q39"><p><strong><span class="big">Styx</span></strong><br>
+Come Sail Away / Styx / The Grand Illusion</p></div>
+<script>
+var z = document.getElementById("answer_q39");
+z.style.display = "none"
+function toggle_hidden_q39() {
+var x = document.getElementById("answer_q39");
+var b = document.getElementById("button_q39");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph"><p><em><span class="big">End of round</span></em></p></div>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-39">Previous question: Q39</a> <br>
+<br>
+<a href="#s-General-Q41-50-q-41">Next round: General (Q41&#8212;50)</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s4">General (Q41&#8212;50)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-41">Q41</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 41</span></p></div>
+<div class="sect3">
+<h4 id="_question_41">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">group</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Holiday-Boulevard-of-Broken-Dreams-J0xe5DcnYSA.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_41">Answer</h4>
+<button id="button_q40" onclick="toggle_hidden_q40()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q40"><p><strong><span class="big">Green Day</span></strong><br>
+Holiday / Boulevard of Broken Dreams / Green Day / American Idiot</p></div>
+<script>
+var z = document.getElementById("answer_q40");
+z.style.display = "none"
+function toggle_hidden_q40() {
+var x = document.getElementById("answer_q40");
+var b = document.getElementById("button_q40");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q31-40-q-40">Previous round: General (Q31&#8212;40)</a> <br>
+<br>
+<a href="#s-General-Q41-50-q-42">Next question: Q42</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-42">Q42</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 42</span></p></div>
+<div class="sect3">
+<h4 id="_question_42">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">performer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/American-Pie-iX-TFkut1PM.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_42">Answer</h4>
+<button id="button_q41" onclick="toggle_hidden_q41()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q41"><p><strong><span class="big">Don McLean</span></strong><br>
+American Pie / Don McLean / The Best Of Don McLean</p></div>
+<script>
+var z = document.getElementById("answer_q41");
+z.style.display = "none"
+function toggle_hidden_q41() {
+var x = document.getElementById("answer_q41");
+var b = document.getElementById("button_q41");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-41">Previous question: Q41</a> <br>
+<br>
+<a href="#s-General-Q41-50-q-43">Next question: Q43</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-43">Q43</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 43</span></p></div>
+<div class="sect3">
+<h4 id="_question_43">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">performer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Moondance-2013-Remaster-7kfYOGndVfU.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_43">Answer</h4>
+<button id="button_q42" onclick="toggle_hidden_q42()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q42"><p><strong><span class="big">Van Morrison</span></strong><br>
+Moondance - 2013 Remaster / Van Morrison / Moondance (Deluxe Edition)</p></div>
+<script>
+var z = document.getElementById("answer_q42");
+z.style.display = "none"
+function toggle_hidden_q42() {
+var x = document.getElementById("answer_q42");
+var b = document.getElementById("button_q42");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-42">Previous question: Q42</a> <br>
+<br>
+<a href="#s-General-Q41-50-q-44">Next question: Q44</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-44">Q44</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 44</span></p></div>
+<div class="sect3">
+<h4 id="_question_44">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">group</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Isley-Brothers-Shout-rWRsJ-mDU5o.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_44">Answer</h4>
+<button id="button_q43" onclick="toggle_hidden_q43()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q43"><p><strong><span class="big">The Isley Brothers</span></strong><br>
+Shout / The Isley Brothers / Pure&#8230; '50s</p></div>
+<script>
+var z = document.getElementById("answer_q43");
+z.style.display = "none"
+function toggle_hidden_q43() {
+var x = document.getElementById("answer_q43");
+var b = document.getElementById("button_q43");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-43">Previous question: Q43</a> <br>
+<br>
+<a href="#s-General-Q41-50-q-45">Next question: Q45</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-45">Q45</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 45</span></p></div>
+<div class="sect3">
+<h4 id="_question_45">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">lead singer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Aerosmith-Walk-This-Way-Audio-4c8O2n1Gfto.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_45">Answer</h4>
+<button id="button_q44" onclick="toggle_hidden_q44()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q44"><p><strong><span class="big">Steven Tyler</span></strong><br>
+Walk This Way / Aerosmith / Toys In The Attic</p></div>
+<script>
+var z = document.getElementById("answer_q44");
+z.style.display = "none"
+function toggle_hidden_q44() {
+var x = document.getElementById("answer_q44");
+var b = document.getElementById("button_q44");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-44">Previous question: Q44</a> <br>
+<br>
+<a href="#s-General-Q41-50-q-46">Next question: Q46</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-46">Q46</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 46</span></p></div>
+<div class="sect3">
+<h4 id="_question_46">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">artist</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Jason-Derulo-Ridin-Solo-Official-Lyrics-HD-HQ-acWWb1Vxfg0.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_46">Answer</h4>
+<button id="button_q45" onclick="toggle_hidden_q45()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q45"><p><strong><span class="big">Jason Derulo</span></strong><br>
+Ridin' Solo / Jason Derulo / Jason Derulo (Deluxe Audio)</p></div>
+<script>
+var z = document.getElementById("answer_q45");
+z.style.display = "none"
+function toggle_hidden_q45() {
+var x = document.getElementById("answer_q45");
+var b = document.getElementById("button_q45");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-45">Previous question: Q45</a> <br>
+<br>
+<a href="#s-General-Q41-50-q-47">Next question: Q47</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-47">Q47</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 47</span></p></div>
+<div class="sect3">
+<h4 id="_question_47">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Ring-of-Fire-Johnny-Cash-mIBTg7q9oNc.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_47">Answer</h4>
+<button id="button_q46" onclick="toggle_hidden_q46()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q46"><p><strong><span class="big">Ring of Fire</span></strong><br>
+Ring of Fire / Johnny Cash / Johnny Cash - 16 Biggest Hits</p></div>
+<script>
+var z = document.getElementById("answer_q46");
+z.style.display = "none"
+function toggle_hidden_q46() {
+var x = document.getElementById("answer_q46");
+var b = document.getElementById("button_q46");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-46">Previous question: Q46</a> <br>
+<br>
+<a href="#s-General-Q41-50-q-48">Next question: Q48</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-48">Q48</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 48</span></p></div>
+<div class="sect3">
+<h4 id="_question_48">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Feel-Good-Inc.-YiiWwwDpxvo.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_48">Answer</h4>
+<button id="button_q47" onclick="toggle_hidden_q47()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q47"><p><strong><span class="big">Feel Good Inc.</span></strong><br>
+Feel Good Inc. / The Gorillaz / Demon Days</p></div>
+<script>
+var z = document.getElementById("answer_q47");
+z.style.display = "none"
+function toggle_hidden_q47() {
+var x = document.getElementById("answer_q47");
+var b = document.getElementById("button_q47");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-47">Previous question: Q47</a> <br>
+<br>
+<a href="#s-General-Q41-50-q-49">Next question: Q49</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-49">Q49</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 49</span></p></div>
+<div class="sect3">
+<h4 id="_question_49">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bee-Gees-Stayin-Alive-Extended-Remaster-YxvBPH4sArQ.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_49">Answer</h4>
+<button id="button_q48" onclick="toggle_hidden_q48()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q48"><p><strong><span class="big">Bee Gees</span></strong><br>
+Stayin' Alive / Bee Gees / The Ultimate Bee Gees</p></div>
+<script>
+var z = document.getElementById("answer_q48");
+z.style.display = "none"
+function toggle_hidden_q48() {
+var x = document.getElementById("answer_q48");
+var b = document.getElementById("button_q48");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-48">Previous question: Q48</a> <br>
+<br>
+<a href="#s-General-Q41-50-q-50">Next question: Q50</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q41-50-q-50">Q50</h3>
+<div class="paragraph"><p><span class="big">General (Q41&#8212;50): Question 50</span></p></div>
+<div class="sect3">
+<h4 id="_question_50">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Earth-Wind-Fire-September-Official-Music-Video-Gs069dndIYk.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_50">Answer</h4>
+<button id="button_q49" onclick="toggle_hidden_q49()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q49"><p><strong><span class="big">September</span></strong><br>
+September / Earth, Wind &amp; Fire / The Eternal Dance</p></div>
+<script>
+var z = document.getElementById("answer_q49");
+z.style.display = "none"
+function toggle_hidden_q49() {
+var x = document.getElementById("answer_q49");
+var b = document.getElementById("button_q49");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph"><p><em><span class="big">End of round</span></em></p></div>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-49">Previous question: Q49</a> <br>
+<br>
+<a href="#s-General-Q51-60-q-51">Next round: General (Q51&#8212;60)</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s5">General (Q51&#8212;60)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-51">Q51</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 51</span></p></div>
+<div class="sect3">
+<h4 id="_question_51">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">artist</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Avicii-Hey-Brother-6Cp6mKbRTQY.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_51">Answer</h4>
+<button id="button_q50" onclick="toggle_hidden_q50()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q50"><p><strong><span class="big">Avicii</span></strong><br>
+Hey Brother / Avicii / TRUE</p></div>
+<script>
+var z = document.getElementById("answer_q50");
+z.style.display = "none"
+function toggle_hidden_q50() {
+var x = document.getElementById("answer_q50");
+var b = document.getElementById("button_q50");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q41-50-q-50">Previous round: General (Q41&#8212;50)</a> <br>
+<br>
+<a href="#s-General-Q51-60-q-52">Next question: Q52</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-52">Q52</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 52</span></p></div>
+<div class="sect3">
+<h4 id="_question_52">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Free-Bird-CqnU-sJ8V-E.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_52">Answer</h4>
+<button id="button_q51" onclick="toggle_hidden_q51()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q51"><p><strong><span class="big">Free Bird</span></strong><br>
+Free Bird / Lynyrd Skynyrd / Pronounced' Leh-'Nerd 'Skin-'Nerd</p></div>
+<script>
+var z = document.getElementById("answer_q51");
+z.style.display = "none"
+function toggle_hidden_q51() {
+var x = document.getElementById("answer_q51");
+var b = document.getElementById("button_q51");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-51">Previous question: Q51</a> <br>
+<br>
+<a href="#s-General-Q51-60-q-53">Next question: Q53</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-53">Q53</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 53</span></p></div>
+<div class="sect3">
+<h4 id="_question_53">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/GOOD-VIBRATIONS-HD-THE-BEACH-BOYS-mdt0SOqPJcg.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_53">Answer</h4>
+<button id="button_q52" onclick="toggle_hidden_q52()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q52"><p><strong><span class="big">The Beach Boys</span></strong><br>
+Good Vibrations - Remastered / The Beach Boys / Good Vibrations 40th Anniversary</p></div>
+<script>
+var z = document.getElementById("answer_q52");
+z.style.display = "none"
+function toggle_hidden_q52() {
+var x = document.getElementById("answer_q52");
+var b = document.getElementById("button_q52");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-52">Previous question: Q52</a> <br>
+<br>
+<a href="#s-General-Q51-60-q-54">Next question: Q54</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-54">Q54</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 54</span></p></div>
+<div class="sect3">
+<h4 id="_question_54">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Lil-Nas-X-Old-Town-Road-feat.-Billy-Ray-Cyrus-Remix-7ysFgElQtjI.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_54">Answer</h4>
+<button id="button_q53" onclick="toggle_hidden_q53()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q53"><p><strong><span class="big">Old Town Road</span></strong><br>
+Old Town Road (feat. Billy Ray Cyrus) - Remix / Lil Nas X, Billy Ray Cyrus / Old Town Road</p></div>
+<script>
+var z = document.getElementById("answer_q53");
+z.style.display = "none"
+function toggle_hidden_q53() {
+var x = document.getElementById("answer_q53");
+var b = document.getElementById("button_q53");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-53">Previous question: Q53</a> <br>
+<br>
+<a href="#s-General-Q51-60-q-55">Next question: Q55</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-55">Q55</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 55</span></p></div>
+<div class="sect3">
+<h4 id="_question_55">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">group</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/One-Way-Or-Another-Remastered-Fnb1xYDViDs.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_55">Answer</h4>
+<button id="button_q54" onclick="toggle_hidden_q54()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q54"><p><strong><span class="big">Blondie</span></strong><br>
+One Way Or Another - Remastered / Blondie / One Way Or Another</p></div>
+<script>
+var z = document.getElementById("answer_q54");
+z.style.display = "none"
+function toggle_hidden_q54() {
+var x = document.getElementById("answer_q54");
+var b = document.getElementById("button_q54");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-54">Previous question: Q54</a> <br>
+<br>
+<a href="#s-General-Q51-60-q-56">Next question: Q56</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-56">Q56</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 56</span></p></div>
+<div class="sect3">
+<h4 id="_question_56">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">artist</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Jimi-Hendrix-Experience-Hey-Joe-Audio-rXwMrBb2x1Q.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_56">Answer</h4>
+<button id="button_q55" onclick="toggle_hidden_q55()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q55"><p><strong><span class="big">Jimi Hendrix</span></strong><br>
+Hey Joe / The Jimi Hendrix Experience / Are You Experienced?</p></div>
+<script>
+var z = document.getElementById("answer_q55");
+z.style.display = "none"
+function toggle_hidden_q55() {
+var x = document.getElementById("answer_q55");
+var b = document.getElementById("button_q55");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-55">Previous question: Q55</a> <br>
+<br>
+<a href="#s-General-Q51-60-q-57">Next question: Q57</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-57">Q57</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 57</span></p></div>
+<div class="sect3">
+<h4 id="_question_57">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">singer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Lean-on-Me-fOZ-MySzAac.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_57">Answer</h4>
+<button id="button_q56" onclick="toggle_hidden_q56()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q56"><p><strong><span class="big">Bill Withers</span></strong><br>
+Lean on Me / Bill Withers / Still Bill</p></div>
+<script>
+var z = document.getElementById("answer_q56");
+z.style.display = "none"
+function toggle_hidden_q56() {
+var x = document.getElementById("answer_q56");
+var b = document.getElementById("button_q56");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-56">Previous question: Q56</a> <br>
+<br>
+<a href="#s-General-Q51-60-q-58">Next question: Q58</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-58">Q58</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 58</span></p></div>
+<div class="sect3">
+<h4 id="_question_58">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">performer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/JOE-JACKSON-Is-She-Really-Going-Out-with-Him-HD-6TzKSFbsh2Y.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_58">Answer</h4>
+<button id="button_q57" onclick="toggle_hidden_q57()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q57"><p><strong><span class="big">Joe Jackson</span></strong><br>
+Is She Really Going Out With Him? / Joe Jackson / Look Sharp!</p></div>
+<script>
+var z = document.getElementById("answer_q57");
+z.style.display = "none"
+function toggle_hidden_q57() {
+var x = document.getElementById("answer_q57");
+var b = document.getElementById("button_q57");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-57">Previous question: Q57</a> <br>
+<br>
+<a href="#s-General-Q51-60-q-59">Next question: Q59</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-59">Q59</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 59</span></p></div>
+<div class="sect3">
+<h4 id="_question_59">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">singer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Gnarls-Barkley-Crazy-Official-Video-N4jf6rtyuw.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_59">Answer</h4>
+<button id="button_q58" onclick="toggle_hidden_q58()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q58"><p><strong><span class="big">Gnarls Barkley</span></strong><br>
+Crazy / Gnarls Barkley / St. Elsewhere</p></div>
+<script>
+var z = document.getElementById("answer_q58");
+z.style.display = "none"
+function toggle_hidden_q58() {
+var x = document.getElementById("answer_q58");
+var b = document.getElementById("button_q58");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-58">Previous question: Q58</a> <br>
+<br>
+<a href="#s-General-Q51-60-q-60">Next question: Q60</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-General-Q51-60-q-60">Q60</h3>
+<div class="paragraph"><p><span class="big">General (Q51&#8212;60): Question 60</span></p></div>
+<div class="sect3">
+<h4 id="_question_60">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">lead singer</span></strong> (not the band).</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Culture-Club-Karma-Chameleon-Official-Video-JmcA9LIIXWw.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_60">Answer</h4>
+<button id="button_q59" onclick="toggle_hidden_q59()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q59"><p><strong><span class="big">Boy George</span></strong><br>
+Karma Chameleon / Culture Club / At Worst&#8230;The Best Of Boy George And Culture Club</p></div>
+<script>
+var z = document.getElementById("answer_q59");
+z.style.display = "none"
+function toggle_hidden_q59() {
+var x = document.getElementById("answer_q59");
+var b = document.getElementById("button_q59");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph"><p><em><span class="big">End of round</span></em></p></div>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-59">Previous question: Q59</a> <br>
+<br>
+<a href="#s-Movies-q-61">Next round: Movies</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s6">Movies</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-Movies-q-61">Q61</h3>
+<div class="paragraph"><p><span class="big">Movies: Question 61</span></p></div>
+<div class="sect3">
+<h4 id="_question_61">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">movie</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Harry-Potter-Theme-Song-Htaj3o3JD8I.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_61">Answer</h4>
+<button id="button_q60" onclick="toggle_hidden_q60()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q60"><p><strong><span class="big">Harry Potter</span></strong><br>
+Hedwig&#8217;s Theme / John Williams / Harry Potter and the Sorcerer&#8217;s Stone</p></div>
+<script>
+var z = document.getElementById("answer_q60");
+z.style.display = "none"
+function toggle_hidden_q60() {
+var x = document.getElementById("answer_q60");
+var b = document.getElementById("button_q60");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-General-Q51-60-q-60">Previous round: General (Q51&#8212;60)</a> <br>
+<br>
+<a href="#s-Movies-q-62">Next question: Q62</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Movies-q-62">Q62</h3>
+<div class="paragraph"><p><span class="big">Movies: Question 62</span></p></div>
+<div class="sect3">
+<h4 id="_question_62">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">movie</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Godfather-DGtEtwdZZKo.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_62">Answer</h4>
+<button id="button_q61" onclick="toggle_hidden_q61()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q61"><p><strong><span class="big">The Godfather.</span></strong><br>
+The Godfather / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 2</p></div>
+<script>
+var z = document.getElementById("answer_q61");
+z.style.display = "none"
+function toggle_hidden_q61() {
+var x = document.getElementById("answer_q61");
+var b = document.getElementById("button_q61");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Movies-q-61">Previous question: Q61</a> <br>
+<br>
+<a href="#s-Movies-q-63">Next question: Q63</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Movies-q-63">Q63</h3>
+<div class="paragraph"><p><span class="big">Movies: Question 63</span></p></div>
+<div class="sect3">
+<h4 id="_question_63">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">movie</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/End-Title-O-6Da8wD0A.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_63">Answer</h4>
+<button id="button_q62" onclick="toggle_hidden_q62()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q62"><p><strong><span class="big">Lawrence of Arabia</span></strong><br>
+End Title (from "Lawrence Of Arabia") / London Philharmonic Orchestra / Lawrence Of Arabia (Original Soundtrack Recording)</p></div>
+<script>
+var z = document.getElementById("answer_q62");
+z.style.display = "none"
+function toggle_hidden_q62() {
+var x = document.getElementById("answer_q62");
+var b = document.getElementById("button_q62");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Movies-q-62">Previous question: Q62</a> <br>
+<br>
+<a href="#s-Movies-q-64">Next question: Q64</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Movies-q-64">Q64</h3>
+<div class="paragraph"><p><span class="big">Movies: Question 64</span></p></div>
+<div class="sect3">
+<h4 id="_question_64">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">movie</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/A-Man-and-a-Woman-Movie-Main-Theme-So9rDiGxQTQ.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_64">Answer</h4>
+<button id="button_q63" onclick="toggle_hidden_q63()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q63"><p><strong><span class="big">A Man and a Woman</span></strong><br>
+A Man and a Woman (Movie Main Theme) / Film &amp; TV Masters / Ultimate Movie Theme Playlist</p></div>
+<script>
+var z = document.getElementById("answer_q63");
+z.style.display = "none"
+function toggle_hidden_q63() {
+var x = document.getElementById("answer_q63");
+var b = document.getElementById("button_q63");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Movies-q-63">Previous question: Q63</a> <br>
+<br>
+<a href="#s-Movies-q-65">Next question: Q65</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Movies-q-65">Q65</h3>
+<div class="paragraph"><p><span class="big">Movies: Question 65</span></p></div>
+<div class="sect3">
+<h4 id="_question_65">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">movie</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Nino-Rota-Amarcord-bk4MEhUkxco.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_65">Answer</h4>
+<button id="button_q64" onclick="toggle_hidden_q64()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q64"><p><strong><span class="big">Amarcord</span></strong><br>
+Amarcord / Nino Rota / Amarcord</p></div>
+<script>
+var z = document.getElementById("answer_q64");
+z.style.display = "none"
+function toggle_hidden_q64() {
+var x = document.getElementById("answer_q64");
+var b = document.getElementById("button_q64");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Movies-q-64">Previous question: Q64</a> <br>
+<br>
+<a href="#s-Movies-q-66">Next question: Q66</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Movies-q-66">Q66</h3>
+<div class="paragraph"><p><span class="big">Movies: Question 66</span></p></div>
+<div class="sect3">
+<h4 id="_question_66">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">composer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Pink-Panther-XdnnytXfj5g.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_66">Answer</h4>
+<button id="button_q65" onclick="toggle_hidden_q65()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q65"><p><strong><span class="big">Henry Mancini</span></strong><br>
+The Pink Panther / A Century Of Movie Soundtracks / A Century Of Movie Soundtracks Vol. 1</p></div>
+<script>
+var z = document.getElementById("answer_q65");
+z.style.display = "none"
+function toggle_hidden_q65() {
+var x = document.getElementById("answer_q65");
+var b = document.getElementById("button_q65");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Movies-q-65">Previous question: Q65</a> <br>
+<br>
+<a href="#s-Movies-q-67">Next question: Q67</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Movies-q-67">Q67</h3>
+<div class="paragraph"><p><span class="big">Movies: Question 67</span></p></div>
+<div class="sect3">
+<h4 id="_question_67">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">movie</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Chariots-of-Fire-Main-Theme-Vangelis-CSav51fVlKU.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_67">Answer</h4>
+<button id="button_q66" onclick="toggle_hidden_q66()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q66"><p><strong><span class="big">Chariots of Fire</span></strong><br>
+Chariots of Fire Theme / Vangelis / Chariots of Fire</p></div>
+<script>
+var z = document.getElementById("answer_q66");
+z.style.display = "none"
+function toggle_hidden_q66() {
+var x = document.getElementById("answer_q66");
+var b = document.getElementById("button_q66");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Movies-q-66">Previous question: Q66</a> <br>
+<br>
+<a href="#s-Movies-q-68">Next question: Q68</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Movies-q-68">Q68</h3>
+<div class="paragraph"><p><span class="big">Movies: Question 68</span></p></div>
+<div class="sect3">
+<h4 id="_question_68">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">movie</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Good-the-Bad-and-the-Ugly-Movie-Main-Theme-o-zafpeLXhE.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_68">Answer</h4>
+<button id="button_q67" onclick="toggle_hidden_q67()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q67"><p><strong><span class="big">The Good, the Bad and the Ugly</span></strong><br>
+The Good, the Bad and the Ugly (Movie Main Theme) / Film &amp; TV Masters / Ultimate Movie Theme Playlist</p></div>
+<script>
+var z = document.getElementById("answer_q67");
+z.style.display = "none"
+function toggle_hidden_q67() {
+var x = document.getElementById("answer_q67");
+var b = document.getElementById("button_q67");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Movies-q-67">Previous question: Q67</a> <br>
+<br>
+<a href="#s-Movies-q-69">Next question: Q69</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Movies-q-69">Q69</h3>
+<div class="paragraph"><p><span class="big">Movies: Question 69</span></p></div>
+<div class="sect3">
+<h4 id="_question_69">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">movie</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bernard-Herrmann-Taxi-Driver-theme-Bx4aK-YsPeU.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_69">Answer</h4>
+<button id="button_q68" onclick="toggle_hidden_q68()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q68"><p><strong><span class="big">Taxi Driver</span></strong><br>
+Taxi Driver Theme / Bernard Herrmann / Taxi Driver</p></div>
+<script>
+var z = document.getElementById("answer_q68");
+z.style.display = "none"
+function toggle_hidden_q68() {
+var x = document.getElementById("answer_q68");
+var b = document.getElementById("button_q68");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Movies-q-68">Previous question: Q68</a> <br>
+<br>
+<a href="#s-Movies-q-70">Next question: Q70</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Movies-q-70">Q70</h3>
+<div class="paragraph"><p><span class="big">Movies: Question 70</span></p></div>
+<div class="sect3">
+<h4 id="_question_70">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">movie</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Superman-Movie-Main-Theme-cm97g2cOKto.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_70">Answer</h4>
+<button id="button_q69" onclick="toggle_hidden_q69()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q69"><p><strong><span class="big">Superman</span></strong><br>
+Superman (Movie Main Theme) / Film &amp; TV Masters / Ultimate Movie Theme Playlist</p></div>
+<script>
+var z = document.getElementById("answer_q69");
+z.style.display = "none"
+function toggle_hidden_q69() {
+var x = document.getElementById("answer_q69");
+var b = document.getElementById("button_q69");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph"><p><em><span class="big">End of round</span></em></p></div>
+<div class="paragraph fullheight"><p><a href="#s-Movies-q-69">Previous question: Q69</a> <br>
+<br>
+<a href="#s-Broadway-q-71">Next round: Broadway</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s7">Broadway</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-Broadway-q-71">Q71</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 71</span></p></div>
+<div class="sect3">
+<h4 id="_question_71">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">composer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Being-Alive-Company-2006-Broadway-Revival-Raul-Esparza-YLTulpBF3H4.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_71">Answer</h4>
+<button id="button_q70" onclick="toggle_hidden_q70()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q70"><p><strong><span class="big">Stephen Sondheim</span></strong><br>
+Being Alive / 2006 Broadway Revival Cast / Company (2006 Broadway Revival Cast)</p></div>
+<script>
+var z = document.getElementById("answer_q70");
+z.style.display = "none"
+function toggle_hidden_q70() {
+var x = document.getElementById("answer_q70");
+var b = document.getElementById("button_q70");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Movies-q-70">Previous round: Movies</a> <br>
+<br>
+<a href="#s-Broadway-q-72">Next question: Q72</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-72">Q72</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 72</span></p></div>
+<div class="sect3">
+<h4 id="_question_72">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">musical</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Overture-Te-Tgsw2vOE.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_72">Answer</h4>
+<button id="button_q71" onclick="toggle_hidden_q71()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q71"><p><strong><span class="big">Gypsy</span></strong><br>
+Overture / 2003 Broadway Cast of "Gypsy" / Gypsy (2003 Broadway Cast)</p></div>
+<script>
+var z = document.getElementById("answer_q71");
+z.style.display = "none"
+function toggle_hidden_q71() {
+var x = document.getElementById("answer_q71");
+var b = document.getElementById("button_q71");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-71">Previous question: Q71</a> <br>
+<br>
+<a href="#s-Broadway-q-73">Next question: Q73</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-73">Q73</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 73</span></p></div>
+<div class="sect3">
+<h4 id="_question_73">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">musical</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Whatever-Lola-Wants-Damn-Yankees.-6kjQmgm0r4g.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_73">Answer</h4>
+<button id="button_q72" onclick="toggle_hidden_q72()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q72"><p><strong><span class="big">Damn Yankees</span></strong><br>
+Whatever Lola Wants / Gwen Verdon / Damn Yankees (Original Soundtrack) [Remastered]</p></div>
+<script>
+var z = document.getElementById("answer_q72");
+z.style.display = "none"
+function toggle_hidden_q72() {
+var x = document.getElementById("answer_q72");
+var b = document.getElementById("button_q72");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-72">Previous question: Q72</a> <br>
+<br>
+<a href="#s-Broadway-q-74">Next question: Q74</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-74">Q74</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 74</span></p></div>
+<div class="sect3">
+<h4 id="_question_74">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">composer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Annie-Get-Your-Gun-1999-Broadway-Revival-Cast-9.-They-Say-It-s-Wonderful-3nuUHCKiBuo.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_74">Answer</h4>
+<button id="button_q73" onclick="toggle_hidden_q73()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q73"><p><strong><span class="big">Irving Berlin</span></strong><br>
+They Say It&#8217;s Wonderful / Annie Get Your Gun - The 1999 Broadway Cast / Annie Get Your Gun - The New Broadway Cast Recording (Staring Bernadette Peters)</p></div>
+<script>
+var z = document.getElementById("answer_q73");
+z.style.display = "none"
+function toggle_hidden_q73() {
+var x = document.getElementById("answer_q73");
+var b = document.getElementById("button_q73");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-73">Previous question: Q73</a> <br>
+<br>
+<a href="#s-Broadway-q-75">Next question: Q75</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-75">Q75</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 75</span></p></div>
+<div class="sect3">
+<h4 id="_question_75">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">musical</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Alexander-Hamilton-VhinPd5RRJw.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_75">Answer</h4>
+<button id="button_q74" onclick="toggle_hidden_q74()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q74"><p><strong><span class="big">Hamilton</span></strong><br>
+Alexander Hamilton / Leslie Odom, Jr., Anthony Ramos, Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Phillipa Soo, Christopher Jackson &amp; Original Broadway Cast of Hamilton / Hamilton (Original Broadway Cast Recording)</p></div>
+<script>
+var z = document.getElementById("answer_q74");
+z.style.display = "none"
+function toggle_hidden_q74() {
+var x = document.getElementById("answer_q74");
+var b = document.getElementById("button_q74");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-74">Previous question: Q74</a> <br>
+<br>
+<a href="#s-Broadway-q-76">Next question: Q76</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-76">Q76</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 76</span></p></div>
+<div class="sect3">
+<h4 id="_question_76">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/West-Side-Story-Something-s-Coming-1961-HD-FOQPMjKLQQU.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_76">Answer</h4>
+<button id="button_q75" onclick="toggle_hidden_q75()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q75"><p><strong><span class="big">Something&#8217;s Coming.</span></strong><br>
+Something&#8217;s Coming / Matt Cavenaugh / West Side Story (New Broadway Cast Recording - 2009)</p></div>
+<script>
+var z = document.getElementById("answer_q75");
+z.style.display = "none"
+function toggle_hidden_q75() {
+var x = document.getElementById("answer_q75");
+var b = document.getElementById("button_q75");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-75">Previous question: Q75</a> <br>
+<br>
+<a href="#s-Broadway-q-77">Next question: Q77</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-77">Q77</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 77</span></p></div>
+<div class="sect3">
+<h4 id="_question_77">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">musical</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Corner-of-the-Sky-Mdkyc686VIg.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_77">Answer</h4>
+<button id="button_q76" onclick="toggle_hidden_q76()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q76"><p><strong><span class="big">Pippin</span></strong><br>
+Corner of the Sky / Matthew James Thomas / Pippin (New Broadway Cast Recording)</p></div>
+<script>
+var z = document.getElementById("answer_q76");
+z.style.display = "none"
+function toggle_hidden_q76() {
+var x = document.getElementById("answer_q76");
+var b = document.getElementById("button_q76");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-76">Previous question: Q76</a> <br>
+<br>
+<a href="#s-Broadway-q-78">Next question: Q78</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-78">Q78</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 78</span></p></div>
+<div class="sect3">
+<h4 id="_question_78">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">musical</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/42nd-Street-bPuQkW1-s9k.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_78">Answer</h4>
+<button id="button_q77" onclick="toggle_hidden_q77()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q77"><p><strong><span class="big">42nd Street</span></strong><br>
+42nd Street / Wanda Richert, Lee Roy Reams &amp; 42nd Street Ensemble / 42nd Street - Original Broadway Cast Recording</p></div>
+<script>
+var z = document.getElementById("answer_q77");
+z.style.display = "none"
+function toggle_hidden_q77() {
+var x = document.getElementById("answer_q77");
+var b = document.getElementById("button_q77");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-77">Previous question: Q77</a> <br>
+<br>
+<a href="#s-Broadway-q-79">Next question: Q79</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-79">Q79</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 79</span></p></div>
+<div class="sect3">
+<h4 id="_question_79">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">musical</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/One-Reprise-Finale-OiBIXa-7Vo.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_79">Answer</h4>
+<button id="button_q78" onclick="toggle_hidden_q78()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q78"><p><strong><span class="big">A Chorus Line</span></strong><br>
+One (Reprise) / Finale / A Chorus Line Ensemble / A Chorus Line - 40th Anniversary Celebration (Original Broadway Cast Recording)</p></div>
+<script>
+var z = document.getElementById("answer_q78");
+z.style.display = "none"
+function toggle_hidden_q78() {
+var x = document.getElementById("answer_q78");
+var b = document.getElementById("button_q78");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-78">Previous question: Q78</a> <br>
+<br>
+<a href="#s-Broadway-q-80">Next question: Q80</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Broadway-q-80">Q80</h3>
+<div class="paragraph"><p><span class="big">Broadway: Question 80</span></p></div>
+<div class="sect3">
+<h4 id="_question_80">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Barbra-Streisand-Don-t-Rain-On-My-Parade-oZTSuMErgsw.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_80">Answer</h4>
+<button id="button_q79" onclick="toggle_hidden_q79()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q79"><p><strong><span class="big">Don&#8217;t Rain On My Parade</span></strong><br>
+Don&#8217;t Rain On My Parade / Barbra Streisand / The Essential Barbra Streisand</p></div>
+<script>
+var z = document.getElementById("answer_q79");
+z.style.display = "none"
+function toggle_hidden_q79() {
+var x = document.getElementById("answer_q79");
+var b = document.getElementById("button_q79");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph"><p><em><span class="big">End of round</span></em></p></div>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-79">Previous question: Q79</a> <br>
+<br>
+<a href="#s-One-Hit-Wonders-q-81">Next round: One Hit Wonders</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s8">One Hit Wonders</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-One-Hit-Wonders-q-81">Q81</h3>
+<div class="paragraph"><p><span class="big">One Hit Wonders: Question 81</span></p></div>
+<div class="sect3">
+<h4 id="_question_81">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Ready-For-The-World-Oh-Sheila-Official-Video-wbL2lMn34Oo.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_81">Answer</h4>
+<button id="button_q80" onclick="toggle_hidden_q80()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q80"><p><strong><span class="big">Ready for the World.</span></strong><br>
+Oh Sheila / Ready For The World / 20 #1&#8217;s: One Hit Wonders</p></div>
+<script>
+var z = document.getElementById("answer_q80");
+z.style.display = "none"
+function toggle_hidden_q80() {
+var x = document.getElementById("answer_q80");
+var b = document.getElementById("button_q80");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Broadway-q-80">Previous round: Broadway</a> <br>
+<br>
+<a href="#s-One-Hit-Wonders-q-82">Next question: Q82</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-One-Hit-Wonders-q-82">Q82</h3>
+<div class="paragraph"><p><span class="big">One Hit Wonders: Question 82</span></p></div>
+<div class="sect3">
+<h4 id="_question_82">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Men-Without-Hats-Safety-Dance-Official-Music-Video-AjPau5QYtYs.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_82">Answer</h4>
+<button id="button_q81" onclick="toggle_hidden_q81()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q81"><p><strong><span class="big">Men Without Hats</span></strong><br>
+The Safety Dance / Men Without Hats / Greatest</p></div>
+<script>
+var z = document.getElementById("answer_q81");
+z.style.display = "none"
+function toggle_hidden_q81() {
+var x = document.getElementById("answer_q81");
+var b = document.getElementById("button_q81");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-One-Hit-Wonders-q-81">Previous question: Q81</a> <br>
+<br>
+<a href="#s-One-Hit-Wonders-q-83">Next question: Q83</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-One-Hit-Wonders-q-83">Q83</h3>
+<div class="paragraph"><p><span class="big">One Hit Wonders: Question 83</span></p></div>
+<div class="sect3">
+<h4 id="_question_83">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">singer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bobby-McFerrin-Don-t-Worry-Be-Happy-Official-Video-d-diB65scQU.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_83">Answer</h4>
+<button id="button_q82" onclick="toggle_hidden_q82()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q82"><p><strong><span class="big">Bobby McFerrin</span></strong><br>
+Don&#8217;t Worry Be Happy / Bobby McFerrin / 20 #1&#8217;s: One Hit Wonders</p></div>
+<script>
+var z = document.getElementById("answer_q82");
+z.style.display = "none"
+function toggle_hidden_q82() {
+var x = document.getElementById("answer_q82");
+var b = document.getElementById("button_q82");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-One-Hit-Wonders-q-82">Previous question: Q82</a> <br>
+<br>
+<a href="#s-One-Hit-Wonders-q-84">Next question: Q84</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-One-Hit-Wonders-q-84">Q84</h3>
+<div class="paragraph"><p><span class="big">One Hit Wonders: Question 84</span></p></div>
+<div class="sect3">
+<h4 id="_question_84">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">singer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bette-Davis-Eyes-Re-Recorded-Remastered-tDJdEhbSP-g.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_84">Answer</h4>
+<button id="button_q83" onclick="toggle_hidden_q83()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q83"><p><strong><span class="big">Kim Carnes</span></strong><br>
+Bette Davis Eyes (Re-Recorded / Remastered) / Kim Carnes / 80s 1 Hit Wonders (Re-Recorded / Remastered Versions)</p></div>
+<script>
+var z = document.getElementById("answer_q83");
+z.style.display = "none"
+function toggle_hidden_q83() {
+var x = document.getElementById("answer_q83");
+var b = document.getElementById("button_q83");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-One-Hit-Wonders-q-83">Previous question: Q83</a> <br>
+<br>
+<a href="#s-One-Hit-Wonders-q-85">Next question: Q85</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-One-Hit-Wonders-q-85">Q85</h3>
+<div class="paragraph"><p><span class="big">One Hit Wonders: Question 85</span></p></div>
+<div class="sect3">
+<h4 id="_question_85">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">singer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Spirit-In-The-Sky-Norman-Greenbaum-AZQxH-8raCI.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_85">Answer</h4>
+<button id="button_q84" onclick="toggle_hidden_q84()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q84"><p><strong><span class="big">Norman Greenbaum</span></strong><br>
+Spirit In The Sky / Norman Greenbaum / Spirit In The Sky</p></div>
+<script>
+var z = document.getElementById("answer_q84");
+z.style.display = "none"
+function toggle_hidden_q84() {
+var x = document.getElementById("answer_q84");
+var b = document.getElementById("button_q84");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-One-Hit-Wonders-q-84">Previous question: Q84</a> <br>
+<br>
+<a href="#s-One-Hit-Wonders-q-86">Next question: Q86</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-One-Hit-Wonders-q-86">Q86</h3>
+<div class="paragraph"><p><span class="big">One Hit Wonders: Question 86</span></p></div>
+<div class="sect3">
+<h4 id="_question_86">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Quarterflash-Harden-My-Heart-Official-Video-OqeKV2UYq1Q.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_86">Answer</h4>
+<button id="button_q85" onclick="toggle_hidden_q85()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q85"><p><strong><span class="big">Quarterflash</span></strong><br>
+Harden My Heart / Quarterflash / 20 #1&#8217;s: One Hit Wonders</p></div>
+<script>
+var z = document.getElementById("answer_q85");
+z.style.display = "none"
+function toggle_hidden_q85() {
+var x = document.getElementById("answer_q85");
+var b = document.getElementById("button_q85");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-One-Hit-Wonders-q-85">Previous question: Q85</a> <br>
+<br>
+<a href="#s-One-Hit-Wonders-q-87">Next question: Q87</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-One-Hit-Wonders-q-87">Q87</h3>
+<div class="paragraph"><p><span class="big">One Hit Wonders: Question 87</span></p></div>
+<div class="sect3">
+<h4 id="_question_87">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Knack-My-Sharona-1979-BR2JtsVumFA.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_87">Answer</h4>
+<button id="button_q86" onclick="toggle_hidden_q86()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q86"><p><strong><span class="big">The Knack</span></strong><br>
+My Sharona / The Knack / 20 #1&#8217;s: One Hit Wonders</p></div>
+<script>
+var z = document.getElementById("answer_q86");
+z.style.display = "none"
+function toggle_hidden_q86() {
+var x = document.getElementById("answer_q86");
+var b = document.getElementById("button_q86");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-One-Hit-Wonders-q-86">Previous question: Q86</a> <br>
+<br>
+<a href="#s-One-Hit-Wonders-q-88">Next question: Q88</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-One-Hit-Wonders-q-88">Q88</h3>
+<div class="paragraph"><p><span class="big">One Hit Wonders: Question 88</span></p></div>
+<div class="sect3">
+<h4 id="_question_88">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">singer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bruce-Channel-Hey-Baby-ik9dxkKriV0.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_88">Answer</h4>
+<button id="button_q87" onclick="toggle_hidden_q87()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q87"><p><strong><span class="big">Bruce Channel</span></strong><br>
+Hey! Baby / Bruce Channel / 20 #1&#8217;s: One Hit Wonders</p></div>
+<script>
+var z = document.getElementById("answer_q87");
+z.style.display = "none"
+function toggle_hidden_q87() {
+var x = document.getElementById("answer_q87");
+var b = document.getElementById("button_q87");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-One-Hit-Wonders-q-87">Previous question: Q87</a> <br>
+<br>
+<a href="#s-One-Hit-Wonders-q-89">Next question: Q89</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-One-Hit-Wonders-q-89">Q89</h3>
+<div class="paragraph"><p><span class="big">One Hit Wonders: Question 89</span></p></div>
+<div class="sect3">
+<h4 id="_question_89">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">singer</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Rockwell-Somebody-s-Watching-Me-Official-Video-7YvAYIJSSZY.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_89">Answer</h4>
+<button id="button_q88" onclick="toggle_hidden_q88()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q88"><p><strong><span class="big">Rockwell</span></strong><br>
+Somebody&#8217;s Watching Me - Single Version / Rockwell / 20 #1&#8217;s: One Hit Wonders</p></div>
+<script>
+var z = document.getElementById("answer_q88");
+z.style.display = "none"
+function toggle_hidden_q88() {
+var x = document.getElementById("answer_q88");
+var b = document.getElementById("button_q88");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-One-Hit-Wonders-q-88">Previous question: Q88</a> <br>
+<br>
+<a href="#s-One-Hit-Wonders-q-90">Next question: Q90</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-One-Hit-Wonders-q-90">Q90</h3>
+<div class="paragraph"><p><span class="big">One Hit Wonders: Question 90</span></p></div>
+<div class="sect3">
+<h4 id="_question_90">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong> with the very 70s-sounding name.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/disco-duck-97RjuC9YeXg.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_90">Answer</h4>
+<button id="button_q89" onclick="toggle_hidden_q89()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q89"><p><strong><span class="big">The Rubix Cubes</span></strong><br>
+Disco Duck / The Rubix Cube&#8217;s / 1970&#8217;s One Hit Wonders</p></div>
+<script>
+var z = document.getElementById("answer_q89");
+z.style.display = "none"
+function toggle_hidden_q89() {
+var x = document.getElementById("answer_q89");
+var b = document.getElementById("button_q89");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph"><p><em><span class="big">End of round</span></em></p></div>
+<div class="paragraph fullheight"><p><a href="#s-One-Hit-Wonders-q-89">Previous question: Q89</a> <br>
+<br>
+<a href="#s-New-York-q-91">Next round: New York</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s9">New York</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-New-York-q-91">Q91</h3>
+<div class="paragraph"><p><span class="big">New York: Question 91</span></p></div>
+<div class="sect3">
+<h4 id="_question_91">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/RUN-DMC-Christmas-In-Hollis-Video-OR07r0ZMFb8.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_91">Answer</h4>
+<button id="button_q90" onclick="toggle_hidden_q90()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q90"><p><strong><span class="big">Christmas in Hollis</span></strong><br>
+Christmas In Hollis (Bonus Track) / Run-DMC / Tougher Than Leather</p></div>
+<script>
+var z = document.getElementById("answer_q90");
+z.style.display = "none"
+function toggle_hidden_q90() {
+var x = document.getElementById("answer_q90");
+var b = document.getElementById("button_q90");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-One-Hit-Wonders-q-90">Previous round: One Hit Wonders</a> <br>
+<br>
+<a href="#s-New-York-q-92">Next question: Q92</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-New-York-q-92">Q92</h3>
+<div class="paragraph"><p><span class="big">New York: Question 92</span></p></div>
+<div class="sect3">
+<h4 id="_question_92">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Ben-E-King-Spanish-Harlem-OGd6CdtOqEE.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_92">Answer</h4>
+<button id="button_q91" onclick="toggle_hidden_q91()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q91"><p><strong><span class="big">Spanish Harlem</span></strong><br>
+Spanish Harlem / Ben E. King / Spanish Harlem</p></div>
+<script>
+var z = document.getElementById("answer_q91");
+z.style.display = "none"
+function toggle_hidden_q91() {
+var x = document.getElementById("answer_q91");
+var b = document.getElementById("button_q91");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-New-York-q-91">Previous question: Q91</a> <br>
+<br>
+<a href="#s-New-York-q-93">Next question: Q93</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-New-York-q-93">Q93</h3>
+<div class="paragraph"><p><span class="big">New York: Question 93</span></p></div>
+<div class="sect3">
+<h4 id="_question_93">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">artist</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Welcome-To-New-York-RvYysauPsMc.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_93">Answer</h4>
+<button id="button_q92" onclick="toggle_hidden_q92()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q92"><p><strong><span class="big">Taylor Swift</span></strong><br>
+Welcome to New York / Taylor Swift / 1989</p></div>
+<script>
+var z = document.getElementById("answer_q92");
+z.style.display = "none"
+function toggle_hidden_q92() {
+var x = document.getElementById("answer_q92");
+var b = document.getElementById("button_q92");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-New-York-q-92">Previous question: Q92</a> <br>
+<br>
+<a href="#s-New-York-q-94">Next question: Q94</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-New-York-q-94">Q94</h3>
+<div class="paragraph"><p><span class="big">New York: Question 94</span></p></div>
+<div class="sect3">
+<h4 id="_question_94">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Odyssey-Native-New-Yorker-1977-HD-JpQ6NtbZxiE.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_94">Answer</h4>
+<button id="button_q93" onclick="toggle_hidden_q93()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q93"><p><strong><span class="big">Native New Yorker</span></strong><br>
+Native New Yorker / Odyssey / Odyssey (Expanded Edition)</p></div>
+<script>
+var z = document.getElementById("answer_q93");
+z.style.display = "none"
+function toggle_hidden_q93() {
+var x = document.getElementById("answer_q93");
+var b = document.getElementById("button_q93");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-New-York-q-93">Previous question: Q93</a> <br>
+<br>
+<a href="#s-New-York-q-95">Next question: Q95</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-New-York-q-95">Q95</h3>
+<div class="paragraph"><p><span class="big">New York: Question 95</span></p></div>
+<div class="sect3">
+<h4 id="_question_95">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Bruce-Springsteen-Tenth-Avenue-Freeze-Out.wmv-BL-HL3ELvFI.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_95">Answer</h4>
+<button id="button_q94" onclick="toggle_hidden_q94()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q94"><p><strong><span class="big">Tenth Avenue Freeze Out</span></strong><br>
+Tenth Avenue Freeze-Out / Bruce Springsteen / Born To Run</p></div>
+<script>
+var z = document.getElementById("answer_q94");
+z.style.display = "none"
+function toggle_hidden_q94() {
+var x = document.getElementById("answer_q94");
+var b = document.getElementById("button_q94");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-New-York-q-94">Previous question: Q94</a> <br>
+<br>
+<a href="#s-New-York-q-96">Next question: Q96</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-New-York-q-96">Q96</h3>
+<div class="paragraph"><p><span class="big">New York: Question 96</span></p></div>
+<div class="sect3">
+<h4 id="_question_96">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Pogues-Fairytale-Of-New-York-Official-Video-j9jbdgZidu8.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_96">Answer</h4>
+<button id="button_q95" onclick="toggle_hidden_q95()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q95"><p><strong><span class="big">Fairytale of New York</span></strong><br>
+Fairytale of New York / The Pogues / If I Should Fall from Grace With God [Expanded]</p></div>
+<script>
+var z = document.getElementById("answer_q95");
+z.style.display = "none"
+function toggle_hidden_q95() {
+var x = document.getElementById("answer_q95");
+var b = document.getElementById("button_q95");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-New-York-q-95">Previous question: Q95</a> <br>
+<br>
+<a href="#s-New-York-q-97">Next question: Q97</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-New-York-q-97">Q97</h3>
+<div class="paragraph"><p><span class="big">New York: Question 97</span></p></div>
+<div class="sect3">
+<h4 id="_question_97">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Duke-Ellington-Take-the-A-Train-cb2w2m1JmCY.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_97">Answer</h4>
+<button id="button_q96" onclick="toggle_hidden_q96()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q96"><p><strong><span class="big">Take the A Train</span></strong><br>
+Take the A Train / Duke Ellington / Ellington Uptown</p></div>
+<script>
+var z = document.getElementById("answer_q96");
+z.style.display = "none"
+function toggle_hidden_q96() {
+var x = document.getElementById("answer_q96");
+var b = document.getElementById("button_q96");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-New-York-q-96">Previous question: Q96</a> <br>
+<br>
+<a href="#s-New-York-q-98">Next question: Q98</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-New-York-q-98">Q98</h3>
+<div class="paragraph"><p><span class="big">New York: Question 98</span></p></div>
+<div class="sect3">
+<h4 id="_question_98">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Jay-Z-feat.-Alicia-Keys-Empire-State-of-Mind-Official-Music-Video-Original-Version-QsZlY0Vz4-o.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_98">Answer</h4>
+<button id="button_q97" onclick="toggle_hidden_q97()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q97"><p><strong><span class="big">Empire State of Mind</span></strong><br>
+Empire State of Mind (feat. Alicia Keys) / JAY-Z &amp; Alicia Keys / The Hits Collection, Vol. One (Deluxe Edition)</p></div>
+<script>
+var z = document.getElementById("answer_q97");
+z.style.display = "none"
+function toggle_hidden_q97() {
+var x = document.getElementById("answer_q97");
+var b = document.getElementById("button_q97");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-New-York-q-97">Previous question: Q97</a> <br>
+<br>
+<a href="#s-New-York-q-99">Next question: Q99</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-New-York-q-99">Q99</h3>
+<div class="paragraph"><p><span class="big">New York: Question 99</span></p></div>
+<div class="sect3">
+<h4 id="_question_99">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/GEORGE-BENSON-On-Broadway-Album-Version-ok-l1Acuwg.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_99">Answer</h4>
+<button id="button_q98" onclick="toggle_hidden_q98()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q98"><p><strong><span class="big">On Broadway</span></strong><br>
+On Broadway / George Benson / The George Benson Collection</p></div>
+<script>
+var z = document.getElementById("answer_q98");
+z.style.display = "none"
+function toggle_hidden_q98() {
+var x = document.getElementById("answer_q98");
+var b = document.getElementById("button_q98");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-New-York-q-98">Previous question: Q98</a> <br>
+<br>
+<a href="#s-New-York-q-100">Next question: Q100</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-New-York-q-100">Q100</h3>
+<div class="paragraph"><p><span class="big">New York: Question 100</span></p></div>
+<div class="sect3">
+<h4 id="_question_100">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">person</span></strong> who sang this song in the <strong>movie in which it first appeared</strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Theme-From-New-York-New-York-Remastered-2008-le1QF3uoQNg.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_100">Answer</h4>
+<button id="button_q99" onclick="toggle_hidden_q99()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q99"><p><strong><span class="big">Liza Minelli (in <em>New York, New York</em>)</span></strong><br>
+Theme from New York, New York / Frank Sinatra / Ultimate Sinatra: The Centennial Collection</p></div>
+<script>
+var z = document.getElementById("answer_q99");
+z.style.display = "none"
+function toggle_hidden_q99() {
+var x = document.getElementById("answer_q99");
+var b = document.getElementById("button_q99");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph"><p><em><span class="big">End of round</span></em></p></div>
+<div class="paragraph fullheight"><p><a href="#s-New-York-q-99">Previous question: Q99</a> <br>
+<br>
+<a href="#s-Bonus-q-101">Next round: Bonus</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="s10">Bonus</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s-Bonus-q-101">Q101</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 101</span></p></div>
+<div class="sect3">
+<h4 id="_question_101">Question</h4>
+<div class="paragraph"><p>Name <strong><span class="big">either one of the two movies</span></strong> that had this song as their opening credit music.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Rock-Around-the-Clock-Bill-Haley-original-song-1955-Ud-JZcC0tHI.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_101">Answer</h4>
+<button id="button_q100" onclick="toggle_hidden_q100()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q100"><p><strong><span class="big">American Graffiti and Blackboard Jungle</span></strong><br>
+(We&#8217;re Gonna) Rock Around The Clock - Single Version / Bill Haley &amp; His Comets / From The Original Master Tapes</p></div>
+<script>
+var z = document.getElementById("answer_q100");
+z.style.display = "none"
+function toggle_hidden_q100() {
+var x = document.getElementById("answer_q100");
+var b = document.getElementById("button_q100");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-New-York-q-100">Previous round: New York</a> <br>
+<br>
+<a href="#s-Bonus-q-102">Next question: Q102</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-102">Q102</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 102</span></p></div>
+<div class="sect3">
+<h4 id="_question_102">Question</h4>
+<div class="paragraph"><p>In this song, <strong><span class="big">what "has bitten the dust?"</span></strong></p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/London-Calling-Remastered-XN7iEFVLf5c.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_102">Answer</h4>
+<button id="button_q101" onclick="toggle_hidden_q101()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q101"><p><strong><span class="big">Phony Beatlemania</span></strong><br>
+London Calling - Remastered / The Clash / London Calling (Remastered)</p></div>
+<script>
+var z = document.getElementById("answer_q101");
+z.style.display = "none"
+function toggle_hidden_q101() {
+var x = document.getElementById("answer_q101");
+var b = document.getElementById("button_q101");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-101">Previous question: Q101</a> <br>
+<br>
+<a href="#s-Bonus-q-103">Next question: Q103</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-103">Q103</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 103</span></p></div>
+<div class="sect3">
+<h4 id="_question_103">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong> (including both the main title and the part in parentheses).</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Norwegian-Wood-This-Bird-Has-Flown-Y-V6y1ZCg-8.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_103">Answer</h4>
+<button id="button_q102" onclick="toggle_hidden_q102()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q102"><p><strong><span class="big">Norwegian Wood (This Bird Has Flown)</span></strong><br>
+Norwegian Wood (This Bird Has Flown) - Remastered 2009 / The Beatles / Rubber Soul (Remastered)</p></div>
+<script>
+var z = document.getElementById("answer_q102");
+z.style.display = "none"
+function toggle_hidden_q102() {
+var x = document.getElementById("answer_q102");
+var b = document.getElementById("button_q102");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-102">Previous question: Q102</a> <br>
+<br>
+<a href="#s-Bonus-q-104">Next question: Q104</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-104">Q104</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 104</span></p></div>
+<div class="sect3">
+<h4 id="_question_104">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">movie</span></strong> in which this song played a significant part,</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Roy-Orbison-In-Dreams-MVRunwyoTMA.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_104">Answer</h4>
+<button id="button_q103" onclick="toggle_hidden_q103()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q103"><p><strong><span class="big">Blue Velvet</span></strong><br>
+In Dreams / Roy Orbison / In Dreams</p></div>
+<script>
+var z = document.getElementById("answer_q103");
+z.style.display = "none"
+function toggle_hidden_q103() {
+var x = document.getElementById("answer_q103");
+var b = document.getElementById("button_q103");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-103">Previous question: Q103</a> <br>
+<br>
+<a href="#s-Bonus-q-105">Next question: Q105</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-105">Q105</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 105</span></p></div>
+<div class="sect3">
+<h4 id="_question_105">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">group</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Surf-City-Remastered-1990-Stereo-Remix-ZWMcoxeXKAg.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_105">Answer</h4>
+<button id="button_q104" onclick="toggle_hidden_q104()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q104"><p><strong><span class="big">Jan &amp; Dean</span></strong><br>
+Surf City - Remastered 1990/Stereo Remix / Jan &amp; Dean / Surf City: The Best Of Jan &amp; Dean</p></div>
+<script>
+var z = document.getElementById("answer_q104");
+z.style.display = "none"
+function toggle_hidden_q104() {
+var x = document.getElementById("answer_q104");
+var b = document.getElementById("button_q104");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-104">Previous question: Q104</a> <br>
+<br>
+<a href="#s-Bonus-q-106">Next question: Q106</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-106">Q106</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 106</span></p></div>
+<div class="sect3">
+<h4 id="_question_106">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong> (including both the main title and the part in parentheses)</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/10.-Rupert-Holmes-Escape-The-Pi-a-Colada-Song-TazHNpt6OTo.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_106">Answer</h4>
+<button id="button_q105" onclick="toggle_hidden_q105()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q105"><p><strong><span class="big">Escape (The Pina Colada Song)</span></strong><br>
+Escape (The Pina Colada Song) / Rupert Holmes / Partners In Crime</p></div>
+<script>
+var z = document.getElementById("answer_q105");
+z.style.display = "none"
+function toggle_hidden_q105() {
+var x = document.getElementById("answer_q105");
+var b = document.getElementById("button_q105");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-105">Previous question: Q105</a> <br>
+<br>
+<a href="#s-Bonus-q-107">Next question: Q107</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-107">Q107</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 107</span></p></div>
+<div class="sect3">
+<h4 id="_question_107">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">song</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Joe-Jackson-Look-Sharp-V8-b9LK1trE.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_107">Answer</h4>
+<button id="button_q106" onclick="toggle_hidden_q106()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q106"><p><strong><span class="big">Look Sharp!</span></strong><br>
+Look Sharp! / Joe Jackson / Look Sharp!</p></div>
+<script>
+var z = document.getElementById("answer_q106");
+z.style.display = "none"
+function toggle_hidden_q106() {
+var x = document.getElementById("answer_q106");
+var b = document.getElementById("button_q106");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-106">Previous question: Q106</a> <br>
+<br>
+<a href="#s-Bonus-q-108">Next question: Q108</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-108">Q108</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 108</span></p></div>
+<div class="sect3">
+<h4 id="_question_108">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">band</span></strong>, the <strong><span class="big">song</span></strong> and the <strong><span class="big">album</span></strong> - we need all three.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/Pet-Sounds-Remastered-EeN-NytxKEc.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_108">Answer</h4>
+<button id="button_q107" onclick="toggle_hidden_q107()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q107"><p><strong><span class="big">The Beach Boys; Pet Sounds; Pet Sounds</span></strong><br>
+Pet Sounds - Remastered / The Beach Boys / Pet Sounds (Original Mono &amp; Stereo Mix Versions)</p></div>
+<script>
+var z = document.getElementById("answer_q107");
+z.style.display = "none"
+function toggle_hidden_q107() {
+var x = document.getElementById("answer_q107");
+var b = document.getElementById("button_q107");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-107">Previous question: Q107</a> <br>
+<br>
+<a href="#s-Bonus-q-109">Next question: Q109</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-109">Q109</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 109</span></p></div>
+<div class="sect3">
+<h4 id="_question_109">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">city</span></strong> in which the lead singer of this band is buried.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Doors-Light-My-Fire-cq8k-ZbsXDI.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_109">Answer</h4>
+<button id="button_q108" onclick="toggle_hidden_q108()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q108"><p><strong><span class="big">Paris</span></strong><br>
+Light My Fire / The Doors / The Doors</p></div>
+<script>
+var z = document.getElementById("answer_q108");
+z.style.display = "none"
+function toggle_hidden_q108() {
+var x = document.getElementById("answer_q108");
+var b = document.getElementById("button_q108");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-108">Previous question: Q108</a> <br>
+<br>
+<a href="#s-Bonus-q-110">Next question: Q110</a></p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s-Bonus-q-110">Q110</h3>
+<div class="paragraph"><p><span class="big">Bonus: Question 110</span></p></div>
+<div class="sect3">
+<h4 id="_question_110">Question</h4>
+<div class="paragraph"><p>Name the <strong><span class="big">album</span></strong>.</p></div>
+<video
+loading="lazy"
+controls
+width="300
+poster="question_mark.jpg"
+preload="metadata"
+playsinline
+>
+<source src=Audio/Trimmed/The-Strokes-Reptilia-Official-Music-Video-b8-tXG8KrWs.mp4 type="video/mp4" />
+</video>
+</div>
+<div class="sect3">
+<h4 id="_answer_110">Answer</h4>
+<button id="button_q109" onclick="toggle_hidden_q109()">
+Show answer
+</button>
+<div class="paragraph" id="answer_q109"><p><strong><span class="big">Room on Fire</span></strong><br>
+Reptilia / The Strokes / Room on Fire</p></div>
+<script>
+var z = document.getElementById("answer_q109");
+z.style.display = "none"
+function toggle_hidden_q109() {
+var x = document.getElementById("answer_q109");
+var b = document.getElementById("button_q109");
+if (x.style.display === "none") {
+x.style.display = "block";
+b.innerHTML = "Hide answer";
+} else {
+x.style.display = "none";
+b.innerHTML = "Show answer";
+}
+}
+</script>
+<div class="paragraph fullheight"><p><a href="#s-Bonus-q-109">Previous question: Q109</a> <br>
+<br>
+<a href="#thanks_for_playing">Conclusion</a></p></div>
+<h1 id="thanks_for_playing" class="float">Thanks for playing!</h1>
+<div class="paragraph fullheight"><p><span class="big">See you soon!</span></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes"><hr></div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-04-13 10:22:45 EDT
+</div>
+</div>
+</body>
+</html>
