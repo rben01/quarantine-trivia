@@ -1,0 +1,11 @@
+name: trivia
+channels:
+  - default
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - ipython
+  - ipykernel
+  - jupyter
