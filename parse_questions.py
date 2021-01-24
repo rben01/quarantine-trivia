@@ -148,9 +148,20 @@ def make_latex() -> str:
 \begingroup{}
 \begin{frame}
 \vfill{}
+\includegraphics[width=0.7\linewidth,scale=0.7]{carson.JPG}
 \centering{}
 \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
 \usebeamerfont{title}To ensure fairness, the answers have been kept in a mayonnaise jar on Funk \& Wagnalls’ porch since noon today.
+\end{beamercolorbox}
+\vfill{}
+\end{frame}
+\endgroup{}
+
+\begingroup{}
+\begin{frame}
+\vfill{}
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}Good luck everyone! And have fun!
 \end{beamercolorbox}
 \vfill{}
 \end{frame}

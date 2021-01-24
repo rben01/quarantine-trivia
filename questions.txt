@@ -38,7 +38,7 @@
     - au pair
 20. What is the name of the largest artery in the human body?
     - aorta
-21. This soccer player was born Edson Arantes do Nascimento. By what name is he better known?
+21. The soccer player born Edson Arantes do Nascimento is better known by what name?
     - Pelé
 22. Peter Roget created what type of reference book, that was first released in 1852?
     - Thesaurus
@@ -85,7 +85,7 @@
 48. Three of the top six Fortune 500 companies in the US in 2014 were all in the same business. What business were these companies in?
     - Oil
 50. All Saints' Day is celebrated on the first day of what month?
-    - November
+    - November. (It is also known as All Hallows' Day -- the day Halloween is the eve of.)
 51. In what country is La Liga the top level football league?
     - Spain
 52. Name either of the two men who independently developed the mathematics of calculus.
@@ -124,8 +124,6 @@
     - Oddjob
 81. What Bill Amend comic strip shares its name with one of the NATO radio alphabet codes?
     - FoxTrot
-82. What actor, once married to Melanie Griffith, starred in both Miami Vice and Nash Bridges?
-    - Don Johnson
 83. In Greek mythology, Stheno, Euryale, and Medusa are what kind of monster that can turn living things to stone?
     - Gorgon
 84. What 2005 biographical movie about an influential group of skateboarders starred Heath Ledger and Emile Hirsch?
@@ -202,7 +200,7 @@
     - Kazakhstan
 124. What is the largest river in the world by volume of water discharged annually?
     - Amazon
-125. What variety of grape, usually used for making red wine, is named after the 6th largest city in Iran?
+125. What variety of grape, usually used for making red wine, is named after the 5th largest city in Iran?
     - Shiraz
 126. What leader of the Lakota people has been commemorated in an unfinished carved monument in the Black Hills?
     - Crazy Horse
@@ -230,7 +228,7 @@
     - Finnick
 138. What highly toxic poison, used in several terror attacks, is made from castor beans?
     - ricin
-139. Which part of a gun shares its name with Roy Rogers' horse?
+139. Which part of a gun shares its name with Roy Rogers's horse?
     - trigger
 140. What is the term for an ancient Mesopotamian stepped pyramid?
     - ziggurat
