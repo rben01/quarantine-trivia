@@ -1,10 +1,21 @@
 = Quarantine Trivia
+:stylesheet: ./Styles/italian-pop.css
+:docinfo: private-head
+:icons: font
 :github-profile: link:https://github.com/rben01
 :github-icon-in-link: icon:github[]{nbsp},role="no-underline"
 :email: https://rben01.github.io/[Other Projects,role="prominent-link"] {nbsp}/{nbsp} {github-profile}[{github-icon-in-link}]{github-profile}[rben01,role="prominent-link"]
 :trivia-github-root: https://rben01.github.io/quarantine-trivia
 :description: A collection of trivia games created to pass the time with friends during the COVID-19 quarantine.
 :bonus-section-note: and a bonus section comprised of one challenging question from each of these categories.
+:resource-link-asciidoctor: link:https://asciidoctor.org[AsciiDoctor^]
+:resource-link-beamer: link:https://ctan.org/pkg/beamer[beamer^]
+:resource-link-pandas: link:https://pandas.pydata.org[Pandas^]
+:resource-link-matplotlib: link:https://matplotlib.org[Matplotlib^]
+:resource-link-bokeh: link:https://bokeh.org[Bokeh^]
+:resource-link-d3: link:https://d3js.org[d3^]
+:resource-link-ffmpeg: link:https://ffmpeg.org[ffmpeg^]
+:resource-link-latex: link:https://www.latex-project.org[LaTeX^]
 
 [.lead]
 A collection of trivia games I put together to give friends something to play while hanging out virtually during the coronavirus pandemic.
@@ -14,52 +25,51 @@ However, it's recommended that you use a viewer that can flip through the pages 
 You can use the sidebars of the PDFs to navigate between rounds and questions; everything in them is a link. +
 Each PDF was built by parsing a Q-and-A list and generating {resource-link-latex}/{resource-link-beamer} source. +
 
-{trivia-github-root}/Week%201%20-%20Trivia%20game/LaTeX/trivia.pdf[Week 1 -- General Trivia]:::
+link:{trivia-github-root}/Week%201%20-%20Trivia%20game/LaTeX/trivia.pdf[Week 1 -- General Trivia^]:::
 Our very first trivia game. A collection of uncategorized questions.
 
-{trivia-github-root}/Week%202%20-%20Music%20Trivia/trivia_embedded.html[Week 2 -- __Name That Tune__ Trivia]:::
+link:{trivia-github-root}/Week%202%20-%20Music%20Trivia/trivia_embedded.html[Week 2 -- __Name That Tune__ Trivia^]:::
 The questions are all audio clips from well-known songs with prompts such as "`Name the song`", "`Name the album`", and "`What movie had this song as the theme?`". +
 The site was built by parsing a list of questions and generating {resource-link-asciidoctor} source. Music clips created with {resource-link-ffmpeg}.
 +
-[WARNING]
---
+****
 The site does not discard media that has been scrolled out of view, so it _will_ use a lot of memory.
 Refreshing should purge memory, but I recommend only playing on desktop for the time being.
 Hopefully I'll get around to fixing this at some point.
---
+****
 
-{trivia-github-root}/Week%203%20-%20Movie%20Trivia/docs/LaTeX/movie_trivia.pdf[Week 3 -- Movie Trivia]:::
+link:{trivia-github-root}/Week%203%20-%20Movie%20Trivia/docs/LaTeX/movie_trivia.pdf[Week 3 -- Movie Trivia^]:::
 A simpler trivia game -- just Q's and A's about movies.
 
-{trivia-github-root}/Week%204%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week 4 -- General Trivia]:::
+link:{trivia-github-root}/Week%204%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week 4 -- General Trivia^]:::
 General knowledge trivia with the following categories: Sports, Plays and Playwrights, Women in American History, Science, Plants and Animals, U.S. Presidents, Dr. Anthony Fauci, Famous Paintings (identify the artist), Canada, World Landmarks, {bonus-section-note}
 
-{trivia-github-root}/Week%205%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week 5 -- General Trivia]:::
+link:{trivia-github-root}/Week%205%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week 5 -- General Trivia^]:::
 General knowledge trivia with the following categories: Logos, Cocktails (name the drink whose recipe is shown), Superheroes, New York City, More Plants and Animals, Geography, Real Name/Stage Name, What Are They Saying About Me?, Ancient Civilizations, TV, {bonus-section-note}
 
-{trivia-github-root}/Week%206%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  6 -- General Trivia]:::
+link:{trivia-github-root}/Week%206%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  6 -- General Trivia^]:::
 General knowledge trivia with the following categories: Weather, Word Origins, Broadway Musical Names From Song Titles, Dog Breeds, Disney, National Parks, Rome, Books That Had a Big Impact, Inventors and Inventions, California, {bonus-section-note}
 
-{trivia-github-root}/Week%207%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  7 -- General Trivia]:::
+link:{trivia-github-root}/Week%207%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  7 -- General Trivia^]:::
 General knowledge trivia with the following categories: Album by Album Art, France, Airport Codes, Big Dates in History, Gangsters in Fact and Fiction, Holidays and Observances, All the Cool Kids Are Texting About South Dakota, Pastries, Explorers, Products and Companies by Their Slogans, {bonus-section-note}
 
-{trivia-github-root}/Week%208%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  8 -- General Trivia]:::
+link:{trivia-github-root}/Week%208%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  8 -- General Trivia^]:::
 General knowledge trivia with the following categories: Colleges and Universities, Horse Racing, The Constitution, It happened in 2010, Under the Sea, Myths and Legends, Mexico, Our Friendly Neighbor to the South, Famous Buildings, Nobel Prize Winners, The Beatles, {bonus-section-note}
 
-{trivia-github-root}/Week%209%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  9 -- General Trivia]:::
+link:{trivia-github-root}/Week%209%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  9 -- General Trivia^]:::
 General knowledge trivia with the following categories: Aviation, Ireland, Colonial America, Famous Ships and Boats, Foreign Words and Phrases, Birds, Native Americans, The home of ..., Wonders of Engineering, and Washington, D.C., {bonus-section-note}
 
-{trivia-github-root}/Week%2010%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  10 -- General Trivia]:::
+link:{trivia-github-root}/Week%2010%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  10 -- General Trivia^]:::
 General knowledge trivia with the following categories: Quotations, East Asia, Musical Instruments, Outer Space, Saturday Night Live, Special Words from Various Fields, Streets, Highways and Boulevards, The Biggest and the Most, The Wild West, Who Originated the Role?, {bonus-section-note}
 
-{trivia-github-root}/Week%2011%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  11 -- General Trivia]:::
+link:{trivia-github-root}/Week%2011%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[Week  11 -- General Trivia^]:::
 General knowledge trivia with the following categories: Flowers, Abraham Lincoln, Civil Rights Movements, How Now Brown Cow?, American Literature, Africa, World War II, Competitions, Name the Film from the Cast, World Leaders, and a very special bonus section consisting of questions in categories that we (the creators) just liked.
 
-{trivia-github-root}/Week%2012%20-%20General%20Trivia%20(Thanksgiving)/docs/LaTeX/general_trivia.pdf[Week  12 -- General Trivia]:::
+link:{trivia-github-root}/Week%2012%20-%20General%20Trivia%20(Thanksgiving)/docs/LaTeX/general_trivia.pdf[Week  12 -- General Trivia^]:::
 General knowledge trivia with the following categories: Colorful Songs, Famous Animals in Fact and Fiction, Famous Court Cases, Biden/Harris, The Holiday Season, Scientific Breakthroughs, The Oldest..., Shakespeare, Colorful Movies, Alex Trebek, {bonus-section-note}
 
-{trivia-github-root}/Week%2013%20-%20General%20Trivia%20(Christmas)/Docs/LaTeX/general_trivia.pdf[Week  13 -- General Trivia]:::
+link:{trivia-github-root}/Week%2013%20-%20General%20Trivia%20(Christmas)/Docs/LaTeX/general_trivia.pdf[Week  13 -- General Trivia^]:::
 General knowledge trivia with the following categories: Board Games, Companies That Are No More, Famous Foreign-Language Literary Works, Newspapers and Magazines, One of the things this city is famous for is..., Winter Sports, Cartoons and the Funny Pages, Specialized Words II, Other Things that Happened in 2020, Movies From Their Stills, {bonus-section-note}
 
-{trivia-github-root}/Week%2014%20-%20General%20Trivia/Docs/LaTeX/general_trivia.pdf[Week  14 -- General Trivia]:::
+link:{trivia-github-root}/Week%2014%20-%20General%20Trivia/Docs/LaTeX/general_trivia.pdf[Week  14 -- General Trivia^]:::
 General knowledge trivia with the following categories: .org, Answer Like It's 1999, Count On It, Ham's Solo, Philosophy and Philosophers, Planet Earth, Scandalous Literature, The "Mother of Presidents", Who Directed It?, "Royals", {bonus-section-note}
