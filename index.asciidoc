@@ -31,10 +31,10 @@ Each PDF was built by parsing a Q-and-A list and generating {resource-link-latex
 ## dummy
 
 [#trivia-item-list]
-[#week-1]#1. link:{trivia-github-root}/Week%2011%20-%20Trivia%20game/LaTeX/trivia.pdf[General Trivia^]#::
+[#week-1]#1. link:{trivia-github-root}/Week%201%20-%20Trivia%20game/LaTeX/trivia.pdf[General Trivia^]#::
 Our very first trivia game. A collection of uncategorized questions.
 
-[#week-2]#2. link:{trivia-github-root}/Week%2022%20-%20Music%20Trivia/trivia_embedded.html[__Name That Tune__ Trivia^]#::
+[#week-2]#2. link:{trivia-github-root}/Week%202%20-%20Music%20Trivia/trivia_embedded.html[__Name That Tune__ Trivia^]#::
 The questions are all audio clips from well-known songs with prompts such as "`Name the song`", "`Name the album`", and "`What movie had this song as the theme?`". +
 The site was built by parsing a list of questions and generating {resource-link-asciidoctor} source. Music clips created with {resource-link-ffmpeg}.
 +
@@ -74,7 +74,7 @@ General knowledge trivia with the following categories: Flowers, Abraham Lincoln
 [#week-12]#12. link:{trivia-github-root}/Week%2012%20-%20General%20Trivia%20(Thanksgiving)/docs/LaTeX/general_trivia.pdf[General Trivia (Thanksgiving Edition)^]#::
 General knowledge trivia with the following categories: Colorful Songs, Famous Animals in Fact and Fiction, Famous Court Cases, Biden/Harris, The Holiday Season, Scientific Breakthroughs, The Oldest..., Shakespeare, Colorful Movies, Alex Trebek, {bonus-section-note}
 
-[#week-13]#13. link:{trivia-github-root}/Week%2013%20-%20General%20Trivia%20(Christmas)/Docs/LaTeX/general_trivia.pdf[General Trivia (Christmas Edition)^]#::
+[#week-13]#13. link:{trivia-github-root}/Week%2013%20-%20General%20Trivia%20(Christmas)/Docs/LaTeX/general_trivia.pdf[General Trivia (Holiday Edition)^]#::
 General knowledge trivia with the following categories: Board Games, Companies That Are No More, Famous Foreign-Language Literary Works, Newspapers and Magazines, One of the things this city is famous for is..., Winter Sports, Cartoons and the Funny Pages, Specialized Words II, Other Things that Happened in 2020, Movies From Their Stills, {bonus-section-note}
 
 [#week-14]#14. link:{trivia-github-root}/Week%2014%20-%20General%20Trivia/Docs/LaTeX/general_trivia.pdf[General Trivia^]#::
