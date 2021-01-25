@@ -57,12 +57,67 @@ table {
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+	:root {
+		--blue: #1d4b8f;
+	}
 	body {
 		font-size: 100%;
+		counter-reset: trivia-section;
+	}
+	/* h2 {
+		counter-increment: section;
+		text-decoration-line: underline;
+	}
+	h2:hover {
+		text-decoration-style: dashed;
+	}
+	h2::before {
+		content: counter(trivia-section) ". ";
+		counter-increment: trivia-section;
+	} */
+	#dummy {
+		display: none;
+	}
+	#toc.toc2 {
+		counter-reset: toc-section;
+		background-color: #f8f8f8;
+	}
+	#toc .sectlevel1 li::before {
+		color: black;
+		content: counter(toc-section) ". ";
+		counter-increment: toc-section;
+	}
+	#toc.toc2 #toctitle {
+		font-family: "Galada";
+		color: var(--blue);
+		font-size: 1.5em;
+	}
+	#toc.toc2 ul {
+		font-size: 1.1em;
+	}
+	#toc .sectlevel1 li:first-child {
+		display: none;
+	}
+	#toc.toc2 a,
+	#toc.toc2 a:link {
+		color: var(--blue);
+	}
+	#toc.toc2 a:hover,
+	#toc.toc2 a:link:hover {
+		text-decoration: underline;
+	}
+	#trivia-item-list dt.hdlist1 > span::before,
+	#trivia-item-list dt.hdlist1 > a::before {
+		content: counter(trivia-section) ". ";
+		color: var(--blue);
+		counter-increment: trivia-section;
+	}
+	#trivia-item-list dt.hdlist1 a:hover {
+		color: var(--primarycolor);
 	}
 	.hdlist1 {
-		font-family: "Rockwell";
-		font-size: 115%;
+		font-family: "Galada", serif;
+		font-size: 145%;
 		margin-bottom: 0;
 	}
 	dl dd {
@@ -82,11 +137,19 @@ table {
 	}
 </style>
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
 <h1>Quarantine Trivia</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">List of Games</div>
+<ul class="sectlevel1">
+<li><a href="#dummy">dummy</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
 <p>A collection of trivia games I put together to give friends something to play while hanging out virtually during the coronavirus pandemic.</p>
 </div>
@@ -96,13 +159,18 @@ However, it&#8217;s recommended that you use a viewer that can flip through the 
 You can use the sidebars of the PDFs to navigate between rounds and questions; everything in them is a link.<br>
 Each PDF was built by parsing a Q-and-A list and generating <a href="https://www.latex-project.org" target="_blank" rel="noopener">LaTeX</a>/<a href="https://ctan.org/pkg/beamer" target="_blank" rel="noopener">beamer</a> source.<br></p>
 </div>
-<div class="dlist">
+</div>
+</div>
+<div class="sect1">
+<h2 id="dummy">dummy</h2>
+<div class="sectionbody">
+<div id="trivia-item-list" class="dlist">
 <dl>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%201%20-%20Trivia%20game/LaTeX/trivia.pdf" target="_blank" rel="noopener">Week 1&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-1"><a href="https://rben01.github.io/quarantine-trivia/Week%201%20-%20Trivia%20game/LaTeX/trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
 <p>Our very first trivia game. A collection of uncategorized questions.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%202%20-%20Music%20Trivia/trivia_embedded.html" target="_blank" rel="noopener">Week 2&#8201;&#8212;&#8201;<em>Name That Tune</em> Trivia</a></dt>
+<dt class="hdlist1"><span id="week-2"><a href="https://rben01.github.io/quarantine-trivia/Week%202%20-%20Music%20Trivia/trivia_embedded.html" target="_blank" rel="noopener"><em>Name That Tune</em> Trivia</a></span></dt>
 <dd>
 <p>The questions are all audio clips from well-known songs with prompts such as &#8220;Name the song&#8221;, &#8220;Name the album&#8221;, and &#8220;What movie had this song as the theme?&#8221;.<br>
 The site was built by parsing a list of questions and generating <a href="https://asciidoctor.org" target="_blank" rel="noopener">AsciiDoctor</a> source. Music clips created with <a href="https://ffmpeg.org" target="_blank" rel="noopener">ffmpeg</a>.</p>
@@ -116,61 +184,75 @@ Hopefully I&#8217;ll get around to fixing this at some point.</p>
 </div>
 </div>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%203%20-%20Movie%20Trivia/docs/LaTeX/movie_trivia.pdf" target="_blank" rel="noopener">Week 3&#8201;&#8212;&#8201;Movie Trivia</a></dt>
+<dt class="hdlist1"><span id="week-3"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20Movie%20Trivia/docs/LaTeX/movie_trivia.pdf" target="_blank" rel="noopener">Movie Trivia</a></span></dt>
 <dd>
 <p>A simpler trivia game&#8201;&#8212;&#8201;just Q&#8217;s and A&#8217;s about movies.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%204%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week 4&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-4"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
 <p>General knowledge trivia with the following categories: Sports, Plays and Playwrights, Women in American History, Science, Plants and Animals, U.S. Presidents, Dr. Anthony Fauci, Famous Paintings (identify the artist), Canada, World Landmarks, and a bonus section comprised of one challenging question from each of these categories.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%205%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week 5&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-5"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
 <p>General knowledge trivia with the following categories: Logos, Cocktails (name the drink whose recipe is shown), Superheroes, New York City, More Plants and Animals, Geography, Real Name/Stage Name, What Are They Saying About Me?, Ancient Civilizations, TV, and a bonus section comprised of one challenging question from each of these categories.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%206%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week  6&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-6"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
 <p>General knowledge trivia with the following categories: Weather, Word Origins, Broadway Musical Names From Song Titles, Dog Breeds, Disney, National Parks, Rome, Books That Had a Big Impact, Inventors and Inventions, California, and a bonus section comprised of one challenging question from each of these categories.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%207%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week  7&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-7"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
 <p>General knowledge trivia with the following categories: Album by Album Art, France, Airport Codes, Big Dates in History, Gangsters in Fact and Fiction, Holidays and Observances, All the Cool Kids Are Texting About South Dakota, Pastries, Explorers, Products and Companies by Their Slogans, and a bonus section comprised of one challenging question from each of these categories.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%208%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week  8&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-8"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
 <p>General knowledge trivia with the following categories: Colleges and Universities, Horse Racing, The Constitution, It happened in 2010, Under the Sea, Myths and Legends, Mexico, Our Friendly Neighbor to the South, Famous Buildings, Nobel Prize Winners, The Beatles, and a bonus section comprised of one challenging question from each of these categories.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%209%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week  9&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-9"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
 <p>General knowledge trivia with the following categories: Aviation, Ireland, Colonial America, Famous Ships and Boats, Foreign Words and Phrases, Birds, Native Americans, The home of &#8230;&#8203;, Wonders of Engineering, and Washington, D.C., and a bonus section comprised of one challenging question from each of these categories.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%2010%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week  10&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-10"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
 <p>General knowledge trivia with the following categories: Quotations, East Asia, Musical Instruments, Outer Space, Saturday Night Live, Special Words from Various Fields, Streets, Highways and Boulevards, The Biggest and the Most, The Wild West, Who Originated the Role?, and a bonus section comprised of one challenging question from each of these categories.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%2011%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week  11&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-11"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
 <p>General knowledge trivia with the following categories: Flowers, Abraham Lincoln, Civil Rights Movements, How Now Brown Cow?, American Literature, Africa, World War II, Competitions, Name the Film from the Cast, World Leaders, and a very special bonus section consisting of questions in categories that we (the creators) just liked.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%2012%20-%20General%20Trivia%20(Thanksgiving)/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week  12&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-12"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia%20(Thanksgiving)/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia (Thanksgiving Edition)</a></span></dt>
 <dd>
 <p>General knowledge trivia with the following categories: Colorful Songs, Famous Animals in Fact and Fiction, Famous Court Cases, Biden/Harris, The Holiday Season, Scientific Breakthroughs, The Oldest&#8230;&#8203;, Shakespeare, Colorful Movies, Alex Trebek, and a bonus section comprised of one challenging question from each of these categories.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%2013%20-%20General%20Trivia%20(Christmas)/Docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week  13&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-13"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia%20(Christmas)/Docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia (Christmas Edition)</a></span></dt>
 <dd>
 <p>General knowledge trivia with the following categories: Board Games, Companies That Are No More, Famous Foreign-Language Literary Works, Newspapers and Magazines, One of the things this city is famous for is&#8230;&#8203;, Winter Sports, Cartoons and the Funny Pages, Specialized Words II, Other Things that Happened in 2020, Movies From Their Stills, and a bonus section comprised of one challenging question from each of these categories.</p>
 </dd>
-<dt class="hdlist1"><a href="https://rben01.github.io/quarantine-trivia/Week%2014%20-%20General%20Trivia/Docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">Week  14&#8201;&#8212;&#8201;General Trivia</a></dt>
+<dt class="hdlist1"><span id="week-14"><a href="https://rben01.github.io/quarantine-trivia/Week%20%20-%20General%20Trivia/Docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
-<p>General knowledge trivia with the following categories: .org, Answer Like It&#8217;s 1999, Count On It, Ham&#8217;s Solo, Philosophy and Philosophers, Planet Earth, Scandalous Literature, The "Mother of Presidents", Who Directed It?, "Royals", and a bonus section comprised of one challenging question from each of these categories.</p>
+<p>General knowledge trivia with the following categories: .org, Answer Like It&#8217;s 1999, Count On It, Ham&#8217;s Solo, Philosophy and Philosophers, Planet Earth, Scandalous Literature, The &#8220;Mother of Presidents&#8221;, Who Directed It?, &#8220;Royals&#8221;, and a bonus section comprised of one challenging question from each of these categories.</p>
 </dd>
 </dl>
 </div>
 </div>
+</div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-01-24 19:50:08 -0500
+Last updated 2021-01-24 22:40:27 -0500
 </div>
 </div>
+<script>
+	const tocList = document.querySelector("#toc ul.sectlevel1");
+	const triviaItems = document.querySelectorAll(
+		"#trivia-item-list .hdlist1 > span, #trivia-item-list .hdlist1 > a",
+	);
+	for (let i = 0; i < triviaItems.length; ++i) {
+		const triviaItem = triviaItems[i];
+		const li = document.createElement("li");
+		li.innerHTML = `<a href="#${triviaItem.id}">${triviaItem.innerText}</a>`;
+		tocList.appendChild(li);
+	}
+</script>
 </body>
 </html>

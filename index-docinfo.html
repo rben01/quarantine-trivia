@@ -1,10 +1,65 @@
 <style>
+	:root {
+		--blue: #1d4b8f;
+	}
 	body {
 		font-size: 100%;
+		counter-reset: trivia-section;
+	}
+	/* h2 {
+		counter-increment: section;
+		text-decoration-line: underline;
+	}
+	h2:hover {
+		text-decoration-style: dashed;
+	}
+	h2::before {
+		content: counter(trivia-section) ". ";
+		counter-increment: trivia-section;
+	} */
+	#dummy {
+		display: none;
+	}
+	#toc.toc2 {
+		counter-reset: toc-section;
+		background-color: #f8f8f8;
+	}
+	#toc .sectlevel1 li::before {
+		color: black;
+		content: counter(toc-section) ". ";
+		counter-increment: toc-section;
+	}
+	#toc.toc2 #toctitle {
+		font-family: "Galada";
+		color: var(--blue);
+		font-size: 1.5em;
+	}
+	#toc.toc2 ul {
+		font-size: 1.1em;
+	}
+	#toc .sectlevel1 li:first-child {
+		display: none;
+	}
+	#toc.toc2 a,
+	#toc.toc2 a:link {
+		color: var(--blue);
+	}
+	#toc.toc2 a:hover,
+	#toc.toc2 a:link:hover {
+		text-decoration: underline;
+	}
+	#trivia-item-list dt.hdlist1 > span::before,
+	#trivia-item-list dt.hdlist1 > a::before {
+		content: counter(trivia-section) ". ";
+		color: var(--blue);
+		counter-increment: trivia-section;
+	}
+	#trivia-item-list dt.hdlist1 a:hover {
+		color: var(--primarycolor);
 	}
 	.hdlist1 {
-		font-family: "Rockwell";
-		font-size: 115%;
+		font-family: "Galada", serif;
+		font-size: 145%;
 		margin-bottom: 0;
 	}
 	dl dd {

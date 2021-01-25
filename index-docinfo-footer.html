@@ -1,0 +1,12 @@
+<script>
+	const tocList = document.querySelector("#toc ul.sectlevel1");
+	const triviaItems = document.querySelectorAll(
+		"#trivia-item-list .hdlist1 > span, #trivia-item-list .hdlist1 > a",
+	);
+	for (let i = 0; i < triviaItems.length; ++i) {
+		const triviaItem = triviaItems[i];
+		const li = document.createElement("li");
+		li.innerHTML = `<a href="#${triviaItem.id}">${triviaItem.innerText}</a>`;
+		tocList.appendChild(li);
+	}
+</script>
