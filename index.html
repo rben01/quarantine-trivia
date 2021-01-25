@@ -59,6 +59,7 @@ table {
 <style>
 	:root {
 		--blue: #1d4b8f;
+		--black: black;
 	}
 	body {
 		font-size: 100%;
@@ -82,17 +83,17 @@ table {
 		background-color: #f8f8f8;
 	}
 	#toc .sectlevel1 li::before {
-		color: black;
+		color: var(--black);
 		content: counter(toc-section) ". ";
 		counter-increment: toc-section;
 	}
 	#toc.toc2 #toctitle {
 		font-family: "Galada";
-		color: var(--blue);
+		color: var(--primarycolor);
 		font-size: 1.5em;
 	}
 	#toc.toc2 ul {
-		font-size: 1.1em;
+		font-size: 1.07em;
 	}
 	#toc .sectlevel1 li:first-child {
 		display: none;
@@ -114,25 +115,18 @@ table {
 		font-size: 145%;
 		margin-bottom: 0;
 	}
-	#trivia-item-list details summary.title {
-		font-family: initial;
-	}
 	#trivia-item-list dd li > p,
 	#trivia-item-list .paragraph,
 	#trivia-item-list .paragraph p {
 		margin-bottom: 0;
 	}
-	dd .olist .title,
-	dd details .title {
-		font-size: 1.2em;
+	.title {
+		font-size: 1.05em;
 		font-family: initial;
 		font-style: normal;
 	}
 	dl dd {
 		margin-bottom: 25px;
-	}
-	.dlist p {
-		font-size: 115%;
 	}
 	#footer {
 		display: none;
@@ -178,12 +172,16 @@ You can use the sidebars of the PDFs to navigate between rounds and questions; e
 <dl>
 <dt class="hdlist1"><span id="week-1">1. <a href="https://rben01.github.io/quarantine-trivia/Week%201%20-%20Trivia%20game/LaTeX/trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
-<p>Our very first trivia game. A collection of uncategorized questions.</p>
+<p><span class="title">Our very first trivia game. A collection of uncategorized questions.</span></p>
 </dd>
 <dt class="hdlist1"><span id="week-2">2. <a href="https://rben01.github.io/quarantine-trivia/Week%202%20-%20Music%20Trivia/trivia_embedded.html" target="_blank" rel="noopener"><em>Name That Tune</em> Trivia</a></span></dt>
 <dd>
-<p>The questions are all audio clips from well-known songs with prompts such as &#8220;Name the song&#8221;, &#8220;Name the album&#8221;, and &#8220;What movie had this song as the theme?&#8221;.<br>
-The site was built by parsing a list of questions and generating <a href="https://asciidoctor.org" target="_blank" rel="noopener">AsciiDoctor</a> source. Music clips created with <a href="https://ffmpeg.org" target="_blank" rel="noopener">ffmpeg</a>.</p>
+<details>
+<summary class="title">The questions are all audio clips from well-known songs with prompts such as &#8220;Name the song&#8221;, &#8220;Name the album&#8221;, and &#8220;What movie had this song as the theme?&#8221;.</summary>
+<div class="content">
+<div class="paragraph">
+<p>The site was built by parsing a list of questions and generating <a href="https://asciidoctor.org" target="_blank" rel="noopener">AsciiDoctor</a> source. Music clips created with <a href="https://ffmpeg.org" target="_blank" rel="noopener">ffmpeg</a>.</p>
+</div>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -193,10 +191,12 @@ Hopefully I&#8217;ll get around to fixing this at some point.</p>
 </div>
 </div>
 </div>
+</div>
+</details>
 </dd>
 <dt class="hdlist1"><span id="week-3">3. <a href="https://rben01.github.io/quarantine-trivia/Week%203%20-%20Movie%20Trivia/docs/LaTeX/movie_trivia.pdf" target="_blank" rel="noopener">Movie Trivia</a></span></dt>
 <dd>
-<p>A simpler trivia game&#8201;&#8212;&#8201;just (uncategorized) Q&#8217;s and A&#8217;s about movies.</p>
+<p><span class="title">A simpler trivia game&#8201;&#8212;&#8201;just (uncategorized) Q&#8217;s and A&#8217;s about movies.</span></p>
 </dd>
 <dt class="hdlist1"><span id="week-4">4. <a href="https://rben01.github.io/quarantine-trivia/Week%204%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf" target="_blank" rel="noopener">General Trivia</a></span></dt>
 <dd>
@@ -700,7 +700,7 @@ Hopefully I&#8217;ll get around to fixing this at some point.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-01-25 00:17:31 -0500
+Last updated 2021-01-25 10:57:19 -0500
 </div>
 </div>
 <script>

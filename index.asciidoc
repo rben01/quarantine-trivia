@@ -34,20 +34,24 @@ Each PDF was built by parsing a Q-and-A list and generating {resource-link-latex
 
 [#trivia-item-list]
 [#week-1]#1. link:{trivia-github-root}/Week%201%20-%20Trivia%20game/LaTeX/trivia.pdf[General Trivia^]#::
-Our very first trivia game. A collection of uncategorized questions.
+[.title]#Our very first trivia game. A collection of uncategorized questions.#
 
 [#week-2]#2. link:{trivia-github-root}/Week%202%20-%20Music%20Trivia/trivia_embedded.html[__Name That Tune__ Trivia^]#::
-The questions are all audio clips from well-known songs with prompts such as "`Name the song`", "`Name the album`", and "`What movie had this song as the theme?`". +
-The site was built by parsing a list of questions and generating {resource-link-asciidoctor} source. Music clips created with {resource-link-ffmpeg}.
 +
+.The questions are all audio clips from well-known songs with prompts such as "`Name the song`", "`Name the album`", and "`What movie had this song as the theme?`".
+[%collapsible]
+====
+The site was built by parsing a list of questions and generating {resource-link-asciidoctor} source. Music clips created with {resource-link-ffmpeg}.
+
 ****
 The site does not discard media that has been scrolled out of view, so it _will_ use a lot of memory.
 Refreshing should purge memory, but I recommend only playing on desktop for the time being.
 Hopefully I'll get around to fixing this at some point.
 ****
+====
 
 [#week-3]#3. link:{trivia-github-root}/Week%203%20-%20Movie%20Trivia/docs/LaTeX/movie_trivia.pdf[Movie Trivia^]#::
-A simpler trivia game -- just (uncategorized) Q's and A's about movies.
+[.title]#A simpler trivia game -- just (uncategorized) Q's and A's about movies.#
 
 [#week-4]#4. link:{trivia-github-root}/Week%204%20-%20General%20Trivia/docs/LaTeX/general_trivia.pdf[General Trivia^]#::
 +

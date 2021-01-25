@@ -1,6 +1,7 @@
 <style>
 	:root {
 		--blue: #1d4b8f;
+		--black: black;
 	}
 	body {
 		font-size: 100%;
@@ -24,17 +25,17 @@
 		background-color: #f8f8f8;
 	}
 	#toc .sectlevel1 li::before {
-		color: black;
+		color: var(--black);
 		content: counter(toc-section) ". ";
 		counter-increment: toc-section;
 	}
 	#toc.toc2 #toctitle {
 		font-family: "Galada";
-		color: var(--blue);
+		color: var(--primarycolor);
 		font-size: 1.5em;
 	}
 	#toc.toc2 ul {
-		font-size: 1.1em;
+		font-size: 1.07em;
 	}
 	#toc .sectlevel1 li:first-child {
 		display: none;
@@ -56,25 +57,18 @@
 		font-size: 145%;
 		margin-bottom: 0;
 	}
-	#trivia-item-list details summary.title {
-		font-family: initial;
-	}
 	#trivia-item-list dd li > p,
 	#trivia-item-list .paragraph,
 	#trivia-item-list .paragraph p {
 		margin-bottom: 0;
 	}
-	dd .olist .title,
-	dd details .title {
-		font-size: 1.2em;
+	.title {
+		font-size: 1.05em;
 		font-family: initial;
 		font-style: normal;
 	}
 	dl dd {
 		margin-bottom: 25px;
-	}
-	.dlist p {
-		font-size: 115%;
 	}
 	#footer {
 		display: none;
