@@ -19,13 +19,15 @@
 :resource-link-ffmpeg: link:https://ffmpeg.org[ffmpeg^]
 :resource-link-latex: link:https://www.latex-project.org[LaTeX^]
 
+
 [.lead]
 A collection of trivia games I put together to give friends something to play while hanging out virtually during the coronavirus pandemic.
 
 Except for the music trivia game, the games are all distributed as PDFs and should work fine in any web browser or PDF viewer.
 However, it's recommended that you use a viewer that can flip through the pages by pressing the arrow keys in order to avoid scrolling.
-You can use the sidebars of the PDFs to navigate between rounds and questions; everything in them is a link. +
-Each PDF was built by parsing a Q-and-A list and generating {resource-link-latex}/{resource-link-beamer} source. +
+You can use the sidebars of the PDFs to navigate between rounds and questions; everything in them is a link.
+
+Each PDF was built by parsing a Q-and-A list and generating {resource-link-latex}/{resource-link-beamer} source; link:https://github.com/rben01/quarantine-trivia[here,window="_blank"] is the link to the GitHub repo .
 
 [#dummy]
 ## dummy
