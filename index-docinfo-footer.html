@@ -5,8 +5,9 @@
 	);
 	for (let i = 0; i < triviaItems.length; ++i) {
 		const triviaItem = triviaItems[i];
+		const text = triviaItem.innerText.replace(/^\d+\.\s*/, "");
 		const li = document.createElement("li");
-		li.innerHTML = `<a href="#${triviaItem.id}">${triviaItem.innerText}</a>`;
+		li.innerHTML = `<a href="#${triviaItem.id}">${text}</a>`;
 		tocList.appendChild(li);
 	}
 </script>

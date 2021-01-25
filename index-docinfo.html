@@ -4,7 +4,6 @@
 	}
 	body {
 		font-size: 100%;
-		counter-reset: trivia-section;
 	}
 	/* h2 {
 		counter-increment: section;
@@ -48,12 +47,7 @@
 	#toc.toc2 a:link:hover {
 		text-decoration: underline;
 	}
-	#trivia-item-list dt.hdlist1 > span::before,
-	#trivia-item-list dt.hdlist1 > a::before {
-		content: counter(trivia-section) ". ";
-		color: var(--blue);
-		counter-increment: trivia-section;
-	}
+
 	#trivia-item-list dt.hdlist1 a:hover {
 		color: var(--primarycolor);
 	}
