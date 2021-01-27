@@ -29,8 +29,6 @@ You can use the sidebars of the PDFs to navigate between rounds and questions; e
 
 Each PDF was built by parsing a Q-and-A list and generating {resource-link-latex}/{resource-link-beamer} source; link:https://github.com/rben01/quarantine-trivia[click here,window="_blank"] to visit the GitHub repo.
 
-[#dummy]
-## dummy
 
 [#trivia-item-list]
 [#week-1]#1. link:{trivia-github-root}/Week%201%20-%20Trivia%20game/LaTeX/trivia.pdf[General Trivia^]#::
@@ -251,3 +249,7 @@ Hopefully I'll get around to fixing this at some point.
 . "`Royals`"
 . {bonus-section-note}
 ====
+
+
+[#dummy]
+== dummy
