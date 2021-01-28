@@ -2,7 +2,7 @@
 :stylesheet: ./Styles/italian-pop.css
 :toc: left
 :toc-title: List of Games
-:docinfo: private
+:docinfo: private-head
 :icons: font
 :github-profile: link:https://github.com/rben01
 :github-icon-in-link: icon:github[]{nbsp},role="no-underline"
@@ -250,6 +250,5 @@ Hopefully I'll get around to fixing this at some point.
 . {bonus-section-note}
 ====
 
-
 [#dummy]
-== dummy
+== [#dummy2]#dummy#
