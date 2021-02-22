@@ -1,6 +1,7 @@
 Trivia Contact Info + Scoreboard.numbers
 .DS_Store
-__pycache__/*
+**/__pycache__/*
+.mypy_cache
 *.aux
 *.fdb_latexmk
 *.fls

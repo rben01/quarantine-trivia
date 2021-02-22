@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "quarantine-trivia"
+version = "0.1.0"
+description = "A collection of trivia games I put together to give friends something to play while hanging out virtually during the coronavirus pandemic."
+authors = ["Robert Bennett <rltbennett@icloud.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.1"
+pandas = "^1.2.2"
+ipython = "^7.20.0"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.8.4"
+mypy = "^0.812"
+jupyter = "^1.0.0"
+ipykernel = "^5.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
