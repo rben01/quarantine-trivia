@@ -250,5 +250,23 @@ Hopefully I'll get around to fixing this at some point.
 . {bonus-section-note}
 ====
 
+[#week-15]#15. link:{trivia-github-root}/Week%2015%20-%20General%20Trivia/Docs/LaTeX/general_trivia.pdf[General Trivia^]#::
++
+.General knowledge trivia with the following categories:
+[%collapsible%open]
+====
+. Black History
+. World Currencies
+. Religions and Religion
+. Transportation
+. Paris
+. Architects and Architecture
+. Mark Twain
+. Swindlers, Frauds, and Cheats
+. Museums of the World
+. Famous Movie Lines
+. {bonus-section-note}
+====
+
 [#dummy]
 == [#dummy2]#dummy#
