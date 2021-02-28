@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import List, Optional, TYPE_CHECKING, Mapping, NewType, Type
+from typing import TYPE_CHECKING, List, Mapping, NewType, Optional, Type
 
 if TYPE_CHECKING:
     from trivia_item import TriviaItem
@@ -306,7 +306,7 @@ class LatexTemplates:
 \usepackage{ifthen}
 \usepackage{fontspec}
 \usepackage{harmony}
-%\usepackage{textcomp}
+\usepackage{textcomp}
 %\usepackage[T5,T1]{fontenc}
 \usepackage{caption}
 
@@ -378,11 +378,7 @@ class LatexTemplates:
     }{}
     \begin{center}
     \ifthenelse{\equal{\thisSectionName}{Bonus}}{
-        % \includegraphics[max height = 0.3\textheight]{Images/qshaman.jpeg}
-
-        \vspace*{.5em}
-
-        (Here's some trivia: This particular devil actually lives with his mother.)
+        \includegraphics[max height = 0.3\textheight]{Images/cruz.jpeg}
     }{}
 
     \vspace*{.9em}
@@ -423,35 +419,12 @@ class LatexTemplates:
 \end{center}
 \end{frame}
 
-\begin{frame}[t]{Question 1}
-\vspace{-0.5em}
-\begin{block}{Question}
-Which player's birthday is today?
-\end{block}
-
-\visible<2->{
-    \begin{block}{Answer}
-    Kathleen O'Keefe. Happy birthday, Kathleen!
-    \end{block}
-}
-\end{frame}
-
 \begin{frame}
-This week, we couldn't resist putting a trivia spin on the prevailing meme.
-\pause{}
+Welcome to the February edition of Quarantine Trivia!
+\pause
 \begin{center}
-% \includegraphics[max width=.95\textwidth,
-% max height=0.55\textheight]{Images/bernie.jpg}
+\includegraphics[max width=\textwidth,max height=\textheight]{Images/feb.jpeg}
 \end{center}
-\end{frame}
-
-\begin{frame}
-And one last thing before we begin: By the end of this game, you will have answered
-over 1,500 trivia questions.
-\pause{}
-\\
-\bigskip
-(And by our estimation, almost 100 of them were not \mbox{challenged}.)
 \end{frame}
 
 \begingroup{}
@@ -625,11 +598,44 @@ See you next month!
     \end{{column}}
     \end{{columns}}
 }}
-\end{{frame}}                """
+\end{{frame}}"""
+                )
+
+        class MarkTwain_Roast(_MatchableQuestionSlide):
+            SECTION = "Mark Twain"
+            NUMBER = 5
+
+            class A(_GenericTemplateGroup.Special_A):
+                TEMPLATE = LatexTemplate(
+                    r"""
+\begin{{frame}}[t]{{{question_title}}}
+\vspace{{-0.5em}}
+\begin{{block}}{{Question}}
+{question}
+\end{{block}}
+
+\visible<2->{{
+    \begin{{columns}}[T,totalwidth=\linewidth]
+    \begin{{column}}{{0.6\linewidth}}
+    \begin{{block}}{{Answer{maybe_s}}}
+    {answer}
+    \end{{block}}
+    \end{{column}}
+    \begin{{column}}{{0.38\linewidth}}
+    \begin{{center}}
+    \includegraphics[max width=0.95\textwidth,
+        max height={image_height:.5f}\textheight]{{{a_image_file}}}
+    \end{{center}}
+    \end{{column}}
+    \end{{columns}}
+}}
+\end{{frame}}
+                    """
                 )
 
         slides: List[Type[_MatchableQuestionSlide]] = [
             Org_UNICEF,
             Scandalous_Bovary,
             MovieQuotes_MrDemille,
+            MarkTwain_Roast,
         ]

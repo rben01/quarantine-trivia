@@ -2,6 +2,7 @@ Trivia Contact Info + Scoreboard.numbers
 .DS_Store
 **/__pycache__/*
 .mypy_cache
+Asciidoctor Test/*
 *.aux
 *.fdb_latexmk
 *.fls

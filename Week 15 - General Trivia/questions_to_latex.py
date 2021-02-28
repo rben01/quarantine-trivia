@@ -35,15 +35,15 @@ LATEX_DIR.mkdir(exist_ok=True, parents=True)
 
 SECTION_ORDER = [
     "Black History",
-    "Famous Movie Lines",
-    "Mark Twain",
     "World Currencies",
-    "Transportation",
-    "Swindlers, Frauds, and Cheats",
-    "Architects and Architecture",
-    "Paris",
     "Religions and Religion",
+    "Transportation",
+    "Paris",
+    "Architects and Architecture",
+    "Mark Twain",
+    "Swindlers, Frauds, and Cheats",
     "Museums of the World",
+    "Famous Movie Lines",
 ]
 
 if SECTION_ORDER[-1] != "Bonus":
