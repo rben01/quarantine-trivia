@@ -268,7 +268,7 @@ Hopefully I'll get around to fixing this at some point.
 . {bonus-section-note}
 ====
 
-[#week-16]#16. link:{trivia-github-root}/Week%2016%20-%20General%20Trivia/Docs/LaTeX/general_trivia.pdf[General Trivia^]#::
+[#week-16]#16. link:{trivia-github-root}/Week%2016/Docs/LaTeX/general_trivia.pdf[General Trivia^]#::
 +
 .General knowledge trivia with the following categories:
 [%collapsible%open]
