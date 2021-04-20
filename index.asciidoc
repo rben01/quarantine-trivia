@@ -283,7 +283,27 @@ Hopefully I'll get around to fixing this at some point.
 . NPR and PBS
 . Tales and Fables
 . Ciao for Now
+. {bonus-section-note}
 ====
+
+[#week-17]#17. link:{trivia-github-root}/Week%2017/Docs/LaTeX/general_trivia.pdf[General Trivia^]#::
++
+.General knowledge trivia with the following categories:
+[%collapsible%open]
+====
+. Clothing Around the World
+. Dinosaurs
+. Political Slogans
+. I Love You, You're Perfect, Now be Past Perfect
+. Number One Songs
+. Things Dean Martin Never Said
+. Hey, look what I found(ed)!
+. Famous People of Medicine
+. Comedy Teams
+. Luxury Brands
+. {bonus-section-note}
+====
+
 
 [#dummy]
 == [#dummy2]#dummy#
