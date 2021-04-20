@@ -22,3 +22,4 @@ Asciidoctor Test/*
 *.mp4
 *.aac
 .vscode/settings.json
+*.icloud
